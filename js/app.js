@@ -302,9 +302,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.innerHTML = `
         <span class="card-id">${displayId}</span>
-        <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy" 
-             onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.slug||mon.name||'').toLowerCase().replace(/[^a-z0-9\-]/g, '')}.png';">
-        <div class="card-name">${mon.name}</div>
+        <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy" onerror="this.style.display='none';">
+        <span class="card-name">${mon.name}</span>
         <div class="card-types">${typeBadges}</div>
       `;
 
@@ -346,9 +345,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.innerHTML = `
         <span class="card-id">${displayId}</span>
-        <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy"
-             onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.slug||mon.name||'').toLowerCase().replace(/[^a-z0-9\\-]/g, '')}.png';">
-        <div class="card-name">${mon.name}</div>
+        <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy" onerror="this.style.display='none';">
+        <span class="card-name">${mon.name}</span>
         <div class="card-types">${typeBadges}</div>
       `;
       card.addEventListener("click", () => openPokemonModal(mon));
@@ -482,20 +480,20 @@ document.addEventListener("DOMContentLoaded", () => {
           <table class="learnset-table">
             <thead>
               <tr>
-                <th style="width: 45px;">Nivel</th>
-                <th>Movimiento</th>
-                <th style="width: 75px;">Tipo</th>
-                <th style="width: 48px;">Clase</th>
-                <th style="width: 48px;">Pot.</th>
-                <th style="width: 48px;">Prec.</th>
-                <th style="width: 42px;">PP</th>
+                <th style="width: 28px;">Nv.</th>
+                <th style="text-align: left;">Movimiento</th>
+                <th style="width: 36px;">Tipo</th>
+                <th style="width: 22px;">Cla.</th>
+                <th style="width: 28px;">Pot.</th>
+                <th style="width: 28px;">Pre.</th>
+                <th style="width: 24px;">PP</th>
               </tr>
             </thead>
             <tbody>
               ${mon.learnset.map(m => `
                 <tr>
-                  <td class="col-lvl">${m.lvl === 0 ? "Evo." : m.lvl}</td>
-                  <td class="col-name">
+                  <td class="col-lvl">${m.lvl === 0 ? "Evo" : m.lvl}</td>
+                  <td class="col-name" style="text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
                     <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
                       ${m.name}
                     </a>
@@ -503,7 +501,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <td class="col-center">${getTypeBadgeHtml(m.type, true)}</td>
                   <td class="col-center">${getCategoryBadgeHtml(m.cat)}</td>
                   <td class="col-num">${m.power > 0 ? m.power : "—"}</td>
-                  <td class="col-num">${m.acc > 0 ? m.acc + "%" : "—"}</td>
+                  <td class="col-num">${m.acc > 0 ? m.acc : "—"}</td>
                   <td class="col-num">${m.pp}</td>
                 </tr>
               `).join("")}

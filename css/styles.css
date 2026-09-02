@@ -606,67 +606,81 @@ main {
 }
 
 /* ==========================================================================
-   CUADRÍCULA DE POKÉMON (CARDS NÍTIDAS Y COMPACTAS)
+   LISTA COMPACTA DE POKÉMON (MINIATURA IN-GAME Y FORMATO DENSO)
    ========================================================================== */
 .pokemon-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 4px 8px;
+}
+
+@media (max-width: 540px) {
+  .pokemon-grid {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
 }
 
 .pokemon-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 10px 8px;
-  text-align: center;
+  border-radius: var(--radius-sm);
+  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   cursor: pointer;
   transition: var(--transition);
-  position: relative;
+  height: 38px;
+  min-height: 38px;
+  box-sizing: border-box;
 }
 
 .pokemon-card:hover {
   background: var(--bg-card-hover);
   border-color: var(--gold);
-  transform: translateY(-2px);
 }
 
 .card-id {
-  position: absolute;
-  top: 6px;
-  left: 6px;
   font-size: 0.72rem;
   color: var(--text-muted);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+  width: 36px;
+  flex-shrink: 0;
+  text-align: left;
 }
 
 .card-sprite {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
-  margin: 6px auto 4px auto;
-  display: block;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+  flex-shrink: 0;
+  margin: 0;
+  display: block;
 }
 
 .card-name {
   font-weight: 700;
-  font-size: 0.85rem;
-  margin-bottom: 4px;
+  font-size: 0.84rem;
+  color: #fff;
+  flex: 1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #fff;
+  text-align: left;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .card-types {
   display: flex;
-  justify-content: center;
-  gap: 3px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
 }
 
 /* Badges de Tipo Estilo WikiDex (Nítidos) */
@@ -922,19 +936,22 @@ main {
 }
 
 /* ==========================================================================
-   TABLA DE MOVIMIENTOS & APRENDIZAJE POR NIVEL (WIKIDEX DENSE)
+   TABLA DE MOVIMIENTOS & APRENDIZAJE POR NIVEL (WIKIDEX ULTRA-COMPACTO)
    ========================================================================== */
 .learnset-table-wrapper {
   overflow-x: auto;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: var(--radius-sm);
   background: var(--bg-card);
+  width: 100%;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 .learnset-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.84rem;
+  font-size: 0.72rem;
 }
 
 .learnset-table th {
@@ -942,21 +959,68 @@ main {
   color: var(--text-muted);
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.72rem;
-  letter-spacing: 0.4px;
-  padding: 8px 10px;
+  font-size: 0.65rem;
+  letter-spacing: 0.2px;
+  padding: 4px 2px;
   border-bottom: 1px solid var(--border);
   text-align: center;
+  white-space: nowrap;
 }
 
 .learnset-table td {
-  padding: 8px 10px;
+  padding: 4px 2px;
   border-bottom: 1px solid var(--border-subtle);
   text-align: center;
+  vertical-align: middle;
+  line-height: 1.1;
+  font-size: 0.72rem;
 }
 
 .learnset-table tr:hover td {
   background: var(--bg-card-hover);
+}
+
+.col-lvl {
+  font-weight: 700;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+
+.col-name {
+  font-weight: 600;
+}
+
+.col-num {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.7rem;
+}
+
+.wikidex-type-img {
+  max-width: 36px;
+  height: auto;
+  max-height: 13px;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.wikidex-type-img.compact {
+  max-width: 30px;
+  max-height: 11px;
+}
+
+.wikidex-cat-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.wikidex-cat-badge img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 .move-clickable {
