@@ -47,6 +47,77 @@ document.addEventListener("DOMContentLoaded", () => {
   const moveModalOverlay = document.getElementById("move-modal");
   const moveModalClose = document.getElementById("move-modal-close");
 
+  const abilityModalOverlay = document.getElementById("ability-modal");
+  const abilityModalClose = document.getElementById("ability-modal-close");
+
+  if (abilityModalClose) {
+    abilityModalClose.addEventListener("click", () => {
+      abilityModalOverlay.classList.remove("active");
+    });
+  }
+
+  if (abilityModalOverlay) {
+    abilityModalOverlay.addEventListener("click", (e) => {
+      if (e.target === abilityModalOverlay) {
+        abilityModalOverlay.classList.remove("active");
+      }
+    });
+  }
+
+  window.openAbilityModal = function(abilityName) {
+    if (!data.abilities) return;
+    const cleanName = abilityName.trim().toLowerCase();
+    const ability = data.abilities.find(a => a.name.toLowerCase() === cleanName) ||
+                    data.abilities.find(a => a.name.toLowerCase().includes(cleanName) || cleanName.includes(a.name.toLowerCase()));
+
+    if (!ability) {
+      alert(`Información de la habilidad "${abilityName}" no encontrada.`);
+      return;
+    }
+
+    const modalContent = document.getElementById("ability-modal-content");
+    const pkmList = ability.pokemon || [];
+
+    const pkmGridHtml = pkmList.map(p => {
+      const sprite = getSpriteUrl(p.pid, p.name, p.slug);
+      const typeBadges = p.types.map(t => getTypeBadgeHtml(t, true)).join(" ");
+      return `
+        <div class="pokemon-card" style="padding: 8px; cursor: pointer; text-align: center;" onclick="window.openPokemonModal('${p.pid}')" title="Ver ficha de ${p.name}">
+          <span class="card-id" style="font-size: 0.75rem;">#${p.pid}</span>
+          <img class="card-sprite" src="${sprite}" alt="${p.name}" style="width: 52px; height: 52px; margin: 2px auto;" loading="lazy">
+          <div class="card-name" style="font-size: 0.82rem; margin: 2px 0;">${p.name}</div>
+          <div class="card-types" style="justify-content: center; gap: 3px;">${typeBadges}</div>
+        </div>
+      `;
+    }).join("");
+
+    modalContent.innerHTML = `
+      <div class="modal-header" style="background: linear-gradient(135deg, rgba(212,175,55,0.25), rgba(15,23,42,0.95));">
+        <div class="modal-title-info">
+          <span class="modal-id">✨ Habilidad Especial · ChirlGold</span>
+          <h2>${ability.name}</h2>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>📝 Efecto Oficial en Combate</h3>
+          <p style="font-size: 1.05rem; line-height: 1.6; background: var(--bg-input); padding: 14px 18px; border-radius: 8px; border: 1px solid var(--border);">
+            ${ability.desc || 'Habilidad táctica en combate.'}
+          </p>
+        </div>
+
+        <div class="detail-section">
+          <h3>🐾 Pokémon que poseen esta Habilidad (${pkmList.length})</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 8px; max-height: 380px; overflow-y: auto; padding: 4px;">
+            ${pkmGridHtml || '<p style="color: var(--text-muted);">Ningún Pokémon registrado.</p>'}
+          </div>
+        </div>
+      </div>
+    `;
+
+    abilityModalOverlay.classList.add("active");
+  };
+
   let currentPokemonList = [...data.pokemon];
 
   // Inicialización de Tema Claro/Oscuro
@@ -62,19 +133,55 @@ document.addEventListener("DOMContentLoaded", () => {
     themeToggle.textContent = nextTheme === "dark" ? "☀️" : "🌙";
   });
 
-  // Navegación por pestañas
+  // Navegación por pestañas y Menú Desplegable
+  const menuDropdownToggle = document.getElementById("menu-dropdown-toggle");
+  const headerDropdownMenu = document.getElementById("header-dropdown-menu");
+
+  if (menuDropdownToggle && headerDropdownMenu) {
+    menuDropdownToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      headerDropdownMenu.classList.toggle("show");
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!headerDropdownMenu.contains(e.target) && e.target !== menuDropdownToggle) {
+        headerDropdownMenu.classList.remove("show");
+      }
+    });
+
+    headerDropdownMenu.querySelectorAll(".dropdown-item").forEach(item => {
+      item.addEventListener("click", () => {
+        const targetView = item.getAttribute("data-tab");
+        window.switchTab(targetView);
+        headerDropdownMenu.classList.remove("show");
+      });
+    });
+  }
+
   navTabs.forEach(tab => {
     tab.addEventListener("click", () => {
       const targetView = tab.getAttribute("data-tab");
-      switchTab(targetView);
+      window.switchTab(targetView);
     });
   });
 
-  function switchTab(viewId) {
+  window.switchTab = function(viewId) {
     navTabs.forEach(t => t.classList.toggle("active", t.getAttribute("data-tab") === viewId));
+    if (headerDropdownMenu) {
+      headerDropdownMenu.querySelectorAll(".dropdown-item").forEach(item => {
+        item.classList.toggle("active", item.getAttribute("data-tab") === viewId);
+      });
+    }
     tabViews.forEach(v => v.classList.toggle("active", v.id === `view-${viewId}`));
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }
+  };
+
+  window.toggleChapter = function(headerEl) {
+    const card = headerEl.closest(".chapter-card");
+    if (card) {
+      card.classList.toggle("active");
+    }
+  };
 
   // URL Hash Handler
   function handleHash() {
@@ -420,9 +527,9 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="modal-body">
         <!-- Habilidades -->
         <div class="detail-section">
-          <h3>⚡ Habilidades en ChirlGold</h3>
+          <h3>⚡ Habilidades en ChirlGold (Toca para ver descripción oficial y Pokémon)</h3>
           <p style="font-size: 1rem; font-weight: 600;">
-            ${mon.abilities.map(a => `<span style="background: var(--bg-input); padding: 4px 10px; border-radius: 6px; margin-right: 8px; border: 1px solid var(--border);">${a}</span>`).join(" ")}
+            ${mon.abilities.map(a => `<a href="javascript:void(0)" class="ability-pill" onclick="window.openAbilityModal('${a.replace(/'/g, "\\'")}')" title="Ver descripción de ${a}">✨ ${a}</a>`).join(" ")}
           </p>
         </div>
 
@@ -1028,6 +1135,46 @@ document.addEventListener("DOMContentLoaded", () => {
     `).join("");
   }
 
+  // =========================================================================
+  // 7b. HABILIDADES VIEW LOGIC
+  // =========================================================================
+  function initAbilitiesView() {
+    const grid = document.getElementById("abilities-grid");
+    const countEl = document.getElementById("abilities-count");
+    const searchInput = document.getElementById("ability-search-input");
+    if (!grid || !data.abilities) return;
+
+    function renderAbilities(list) {
+      if (countEl) countEl.textContent = `${list.length} de ${data.abilities.length} habilidades`;
+      grid.innerHTML = list.map(a => `
+        <div class="ability-card" onclick="window.openAbilityModal('${a.name.replace(/'/g, "\\'")}')" title="Ver detalles y Pokémon con ${a.name}">
+          <div class="ability-card-header">
+            <h4 class="ability-card-name">✨ ${a.name}</h4>
+            <span class="ability-card-count">${a.pokemon ? a.pokemon.length : 0} Pokémon</span>
+          </div>
+          <p class="ability-card-desc">${a.desc}</p>
+        </div>
+      `).join("");
+    }
+
+    renderAbilities(data.abilities);
+
+    if (searchInput) {
+      searchInput.addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        if (!query) {
+          renderAbilities(data.abilities);
+          return;
+        }
+        const filtered = data.abilities.filter(a =>
+          a.name.toLowerCase().includes(query) ||
+          (a.desc && a.desc.toLowerCase().includes(query))
+        );
+        renderAbilities(filtered);
+      });
+    }
+  }
+
   function initNonIncludedView() {
     const nonIncGrid = document.getElementById("non-included-grid");
     if (!nonIncGrid) return;
@@ -1050,6 +1197,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderMovesTable();
   initFeaturesView();
   initNonIncludedView();
+  initAbilitiesView();
 
   // Comprobar Hash inicial
   handleHash();

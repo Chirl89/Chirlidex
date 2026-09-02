@@ -341899,6 +341899,15420 @@ window.CHIRLGOLD_DATA = {
       "learned_by": []
     }
   ],
+  "abilities": [
+    {
+      "name": "Absorbe Agua",
+      "desc": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+      "pokemon": [
+        {
+          "pid": 60,
+          "name": "Poliwag",
+          "slug": "poliwag",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 61,
+          "name": "Poliwhirl",
+          "slug": "poliwhirl",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 62,
+          "name": "Poliwrath",
+          "slug": "poliwrath",
+          "types": [
+            "Agua",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 131,
+          "name": "Lapras",
+          "slug": "lapras",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 134,
+          "name": "Vaporeon",
+          "slug": "vaporeon",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 170,
+          "name": "Chinchou",
+          "slug": "chinchou",
+          "types": [
+            "Agua",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 171,
+          "name": "Lanturn",
+          "slug": "lanturn",
+          "types": [
+            "Agua",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 186,
+          "name": "Politoed",
+          "slug": "politoed",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 194,
+          "name": "Wooper",
+          "slug": "wooper",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 195,
+          "name": "Quagsire",
+          "slug": "quagsire",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 226,
+          "name": "Mantine",
+          "slug": "mantine",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 458,
+          "name": "Mantyke",
+          "slug": "mantyke",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 585,
+          "name": "Tympole",
+          "slug": "tympole",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 586,
+          "name": "Palpitoad",
+          "slug": "palpitoad",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 587,
+          "name": "Seismitoad",
+          "slug": "seismitoad",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 606,
+          "name": "Maractus",
+          "slug": "maractus",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 642,
+          "name": "Frillish",
+          "slug": "frillish",
+          "types": [
+            "Agua",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 643,
+          "name": "Jellicent",
+          "slug": "jellicent",
+          "types": [
+            "Agua",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 771,
+          "name": "Volcanion",
+          "slug": "volcanion",
+          "types": [
+            "Fuego",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 932,
+          "name": "Dracovish",
+          "slug": "dracovish",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 933,
+          "name": "Arctovish",
+          "slug": "arctovish",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1030,
+          "name": "Clodsire",
+          "slug": "clodsire",
+          "types": [
+            "Veneno",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Absorbe Electricidad",
+      "desc": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+      "pokemon": [
+        {
+          "pid": 135,
+          "name": "Jolteon",
+          "slug": "jolteon",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 170,
+          "name": "Chinchou",
+          "slug": "chinchou",
+          "types": [
+            "Agua",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 171,
+          "name": "Lanturn",
+          "slug": "lanturn",
+          "types": [
+            "Agua",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 857,
+          "name": "Zeraora",
+          "slug": "zeraora",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 930,
+          "name": "Dracozolt",
+          "slug": "dracozolt",
+          "types": [
+            "Eléctrico",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 931,
+          "name": "Arctozolt",
+          "slug": "arctozolt",
+          "types": [
+            "Eléctrico",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 972,
+          "name": "Pawmo",
+          "slug": "pawmo",
+          "types": [
+            "Eléctrico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 973,
+          "name": "Pawmot",
+          "slug": "pawmot",
+          "types": [
+            "Eléctrico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 990,
+          "name": "Wattrel",
+          "slug": "wattrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 990,
+          "name": "Wattrel",
+          "slug": "wattrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 991,
+          "name": "Kilowattrel",
+          "slug": "kilowattrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 991,
+          "name": "Kilowattrel",
+          "slug": "kilowattrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Absorbe Fuego",
+      "desc": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+      "pokemon": [
+        {
+          "pid": 37,
+          "name": "Vulpix",
+          "slug": "vulpix",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 38,
+          "name": "Ninetales",
+          "slug": "ninetales",
+          "types": [
+            "Fuego",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 58,
+          "name": "Growlithe",
+          "slug": "growlithe",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 59,
+          "name": "Arcanine",
+          "slug": "arcanine",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 77,
+          "name": "Ponyta",
+          "slug": "ponyta",
+          "types": [
+            "Fuego",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 78,
+          "name": "Rapidash",
+          "slug": "rapidash",
+          "types": [
+            "Fuego",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 136,
+          "name": "Flareon",
+          "slug": "flareon",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 228,
+          "name": "Houndour",
+          "slug": "houndour",
+          "types": [
+            "Siniestro",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 229,
+          "name": "Houndoom",
+          "slug": "houndoom",
+          "types": [
+            "Siniestro",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 485,
+          "name": "Heatran",
+          "slug": "heatran",
+          "types": [
+            "Fuego",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 657,
+          "name": "Litwick",
+          "slug": "litwick",
+          "types": [
+            "Fantasma",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 658,
+          "name": "Lampent",
+          "slug": "lampent",
+          "types": [
+            "Fantasma",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 659,
+          "name": "Chandelure",
+          "slug": "chandelure",
+          "types": [
+            "Fantasma",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 681,
+          "name": "Heatmor",
+          "slug": "heatmor",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 900,
+          "name": "Sizzlipede",
+          "slug": "sizzlipede",
+          "types": [
+            "Fuego",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 901,
+          "name": "Centiskorch",
+          "slug": "centiskorch",
+          "types": [
+            "Fuego",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 985,
+          "name": "Charcadet",
+          "slug": "charcadet",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 986,
+          "name": "Armarouge",
+          "slug": "armarouge",
+          "types": [
+            "Fuego",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 987,
+          "name": "Ceruledge",
+          "slug": "ceruledge",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": "59_hisui",
+          "name": "Arcanine de Hisui",
+          "slug": "arcanine-hisui",
+          "types": [
+            "Fuego",
+            "Roca"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Acero Templado",
+      "desc": "Potencia los movimientos de tipo Acero.",
+      "pokemon": [
+        {
+          "pid": 831,
+          "name": "Dhelmise",
+          "slug": "dhelmise",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aclimatación",
+      "desc": "Anula todos los efectos del tiempo atmosférico.",
+      "pokemon": [
+        {
+          "pid": 54,
+          "name": "Psyduck",
+          "slug": "psyduck",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 55,
+          "name": "Golduck",
+          "slug": "golduck",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptable",
+      "desc": "Potencia aún más los movimientos cuyo tipo coincida con el suyo.",
+      "pokemon": [
+        {
+          "pid": 13,
+          "name": "Weedle",
+          "slug": "weedle",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 14,
+          "name": "Kakuna",
+          "slug": "kakuna",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 15,
+          "name": "Beedrill",
+          "slug": "beedrill",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 133,
+          "name": "Eevee",
+          "slug": "eevee",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 341,
+          "name": "Corphish",
+          "slug": "corphish",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 342,
+          "name": "Crawdaunt",
+          "slug": "crawdaunt",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 474,
+          "name": "Porygon-Z",
+          "slug": "porygonz",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 600,
+          "name": "Basculin",
+          "slug": "basculin",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 740,
+          "name": "Skrelp",
+          "slug": "skrelp",
+          "types": [
+            "Veneno",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 741,
+          "name": "Dragalge",
+          "slug": "dragalge",
+          "types": [
+            "Veneno",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 952,
+          "name": "Basculegion",
+          "slug": "basculegion",
+          "types": [
+            "Agua",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Afortunado",
+      "desc": "Su buena suerte aumenta la probabilidad de asestar golpes críticos.",
+      "pokemon": [
+        {
+          "pid": 175,
+          "name": "Togepi",
+          "slug": "togepi",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 176,
+          "name": "Togetic",
+          "slug": "togetic",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 198,
+          "name": "Murkrow",
+          "slug": "murkrow",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 359,
+          "name": "Absol",
+          "slug": "absol",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 430,
+          "name": "Honchkrow",
+          "slug": "honchkrow",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 468,
+          "name": "Togekiss",
+          "slug": "togekiss",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 569,
+          "name": "Pidove",
+          "slug": "pidove",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 570,
+          "name": "Tranquill",
+          "slug": "tranquill",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 571,
+          "name": "Unfezant",
+          "slug": "unfezant",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agallas",
+      "desc": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+      "pokemon": [
+        {
+          "pid": 19,
+          "name": "Rattata",
+          "slug": "rattata",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 20,
+          "name": "Raticate",
+          "slug": "raticate",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 66,
+          "name": "Machop",
+          "slug": "machop",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 67,
+          "name": "Machoke",
+          "slug": "machoke",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 68,
+          "name": "Machamp",
+          "slug": "machamp",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 214,
+          "name": "Heracross",
+          "slug": "heracross",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 217,
+          "name": "Ursaring",
+          "slug": "ursaring",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 236,
+          "name": "Tyrogue",
+          "slug": "tyrogue",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 246,
+          "name": "Larvitar",
+          "slug": "larvitar",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 276,
+          "name": "Taillow",
+          "slug": "taillow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 277,
+          "name": "Swellow",
+          "slug": "swellow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 296,
+          "name": "Makuhita",
+          "slug": "makuhita",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 297,
+          "name": "Hariyama",
+          "slug": "hariyama",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 582,
+          "name": "Timburr",
+          "slug": "timburr",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 583,
+          "name": "Gurdurr",
+          "slug": "gurdurr",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 584,
+          "name": "Conkeldurr",
+          "slug": "conkeldurr",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 588,
+          "name": "Throh",
+          "slug": "throh",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 912,
+          "name": "Obstagoon",
+          "slug": "obstagoon",
+          "types": [
+            "Siniestro",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 951,
+          "name": "Ursaluna",
+          "slug": "ursaluna",
+          "types": [
+            "Tierra",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alas Vendaval",
+      "desc": "Da prioridad a los movimientos de tipo Volador si sus PS están al máximo.",
+      "pokemon": [
+        {
+          "pid": 711,
+          "name": "Fletchling",
+          "slug": "fletchling",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 712,
+          "name": "Fletchinder",
+          "slug": "fletchinder",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 713,
+          "name": "Talonflame",
+          "slug": "talonflame",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alerta",
+      "desc": "Indica el movimiento más potente del rival al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 96,
+          "name": "Drowzee",
+          "slug": "drowzee",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 97,
+          "name": "Hypno",
+          "slug": "hypno",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 124,
+          "name": "Jynx",
+          "slug": "jynx",
+          "types": [
+            "Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 238,
+          "name": "Smoochum",
+          "slug": "smoochum",
+          "types": [
+            "Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 567,
+          "name": "Munna",
+          "slug": "munna",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 568,
+          "name": "Musharna",
+          "slug": "musharna",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Allanamiento",
+      "desc": "Ataca sorteando la barrera o el sustituto del rival.",
+      "pokemon": [
+        {
+          "pid": 596,
+          "name": "Cottonee",
+          "slug": "cottonee",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 597,
+          "name": "Whimsicott",
+          "slug": "whimsicott",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 727,
+          "name": "Espurr",
+          "slug": "espurr",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 728,
+          "name": "Meowstic",
+          "slug": "meowstic",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 764,
+          "name": "Noibat",
+          "slug": "noibat",
+          "types": [
+            "Volador",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 765,
+          "name": "Noivern",
+          "slug": "noivern",
+          "types": [
+            "Volador",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 935,
+          "name": "Dreepy",
+          "slug": "dreepy",
+          "types": [
+            "Dragón",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 936,
+          "name": "Drakloak",
+          "slug": "drakloak",
+          "types": [
+            "Dragón",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 937,
+          "name": "Dragapult",
+          "slug": "dragapult",
+          "types": [
+            "Dragón",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 942,
+          "name": "Urshifu",
+          "slug": "urshifu",
+          "types": [
+            "Lucha",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alma Cura",
+      "desc": "A veces cura los problemas de estado de un aliado.",
+      "pokemon": [
+        {
+          "pid": 581,
+          "name": "Audino",
+          "slug": "audino",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 644,
+          "name": "Alomomola",
+          "slug": "alomomola",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 732,
+          "name": "Spritzee",
+          "slug": "spritzee",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 733,
+          "name": "Aromatisse",
+          "slug": "aromatisse",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 906,
+          "name": "Hatenna",
+          "slug": "hatenna",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 907,
+          "name": "Hattrem",
+          "slug": "hattrem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 908,
+          "name": "Hatterene",
+          "slug": "hatterene",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alma Errante",
+      "desc": "Si le alcanza un movimiento de contacto, intercambia su habilidad con la del agresor.",
+      "pokemon": [
+        {
+          "pid": 917,
+          "name": "Runerigus",
+          "slug": "runerigus",
+          "types": [
+            "Roca",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Antibalas",
+      "desc": "No le afectan las bombas ni algunos proyectiles.",
+      "pokemon": [
+        {
+          "pid": 700,
+          "name": "Chespin",
+          "slug": "chespin",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 701,
+          "name": "Quilladin",
+          "slug": "quilladin",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 702,
+          "name": "Chesnaught",
+          "slug": "chesnaught",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 832,
+          "name": "Jangmo-o",
+          "slug": "jangmoo",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 833,
+          "name": "Hakamo-o",
+          "slug": "hakamoo",
+          "types": [
+            "Dragón",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 834,
+          "name": "Kommo-o",
+          "slug": "kommoo",
+          "types": [
+            "Dragón",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 951,
+          "name": "Ursaluna",
+          "slug": "ursaluna",
+          "types": [
+            "Tierra",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anticipación",
+      "desc": "Prevé los movimientos peligrosos del rival.",
+      "pokemon": [
+        {
+          "pid": 339,
+          "name": "Barboach",
+          "slug": "barboach",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 340,
+          "name": "Whiscash",
+          "slug": "whiscash",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 413,
+          "name": "Wormadam",
+          "slug": "wormadam",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 453,
+          "name": "Croagunk",
+          "slug": "croagunk",
+          "types": [
+            "Veneno",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 454,
+          "name": "Toxicroak",
+          "slug": "toxicroak",
+          "types": [
+            "Veneno",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 906,
+          "name": "Hatenna",
+          "slug": "hatenna",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 907,
+          "name": "Hattrem",
+          "slug": "hattrem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 908,
+          "name": "Hatterene",
+          "slug": "hatterene",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1005,
+          "name": "Flittle",
+          "slug": "flittle",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Antídoto",
+      "desc": "Si resulta envenenado, recupera PS en vez de perderlos.",
+      "pokemon": [
+        {
+          "pid": 207,
+          "name": "Gligar",
+          "slug": "gligar",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 285,
+          "name": "Shroomish",
+          "slug": "shroomish",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 286,
+          "name": "Breloom",
+          "slug": "breloom",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 472,
+          "name": "Gliscor",
+          "slug": "gliscor",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armadura Batalla",
+      "desc": "La robusta coraza que lo protege bloquea los golpes críticos.",
+      "pokemon": [
+        {
+          "pid": 140,
+          "name": "Kabuto",
+          "slug": "kabuto",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 141,
+          "name": "Kabutops",
+          "slug": "kabutops",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 347,
+          "name": "Anorith",
+          "slug": "anorith",
+          "types": [
+            "Roca",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 348,
+          "name": "Armaldo",
+          "slug": "armaldo",
+          "types": [
+            "Roca",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 451,
+          "name": "Skorupi",
+          "slug": "skorupi",
+          "types": [
+            "Veneno",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 452,
+          "name": "Drapion",
+          "slug": "drapion",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 822,
+          "name": "Código Cero",
+          "slug": "cdigocero",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 823,
+          "name": "Silvally",
+          "slug": "silvally",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 913,
+          "name": "Perrserker",
+          "slug": "perrserker",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 920,
+          "name": "Falinks",
+          "slug": "falinks",
+          "types": [
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armadura Frágil",
+      "desc": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
+      "pokemon": [
+        {
+          "pid": 574,
+          "name": "Roggenrola",
+          "slug": "roggenrola",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 575,
+          "name": "Boldore",
+          "slug": "boldore",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 619,
+          "name": "Garbodor",
+          "slug": "garbodor",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 904,
+          "name": "Sinistea",
+          "slug": "sinistea",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 905,
+          "name": "Polteageist",
+          "slug": "polteageist",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 914,
+          "name": "Cursola",
+          "slug": "cursola",
+          "types": [
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armadura Prisma",
+      "desc": "Mitiga el daño que le infligen los movimientos supereficaces.",
+      "pokemon": [
+        {
+          "pid": 850,
+          "name": "Necrozma",
+          "slug": "necrozma",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audaz",
+      "desc": "Potencia los movimientos que también dañan al usuario.",
+      "pokemon": [
+        {
+          "pid": 106,
+          "name": "Hitmonlee",
+          "slug": "hitmonlee",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 600,
+          "name": "Basculin",
+          "slug": "basculin",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 676,
+          "name": "Bouffalant",
+          "slug": "bouffalant",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 912,
+          "name": "Obstagoon",
+          "slug": "obstagoon",
+          "types": [
+            "Siniestro",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aura Feérica",
+      "desc": "Aumenta la potencia de todos los movimientos de tipo Hada.",
+      "pokemon": [
+        {
+          "pid": 766,
+          "name": "Xerneas",
+          "slug": "xerneas",
+          "types": [
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aura Oscura",
+      "desc": "Aumenta la potencia de todos los movimientos de tipo Siniestro.",
+      "pokemon": [
+        {
+          "pid": 767,
+          "name": "Yveltal",
+          "slug": "yveltal",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ausente",
+      "desc": "Al ejecutar un movimiento, descansará en el turno siguiente.",
+      "pokemon": [
+        {
+          "pid": 287,
+          "name": "Slakoth",
+          "slug": "slakoth",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 289,
+          "name": "Slaking",
+          "slug": "slaking",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autoestima",
+      "desc": "Al debilitar a un objetivo, su confianza se refuerza de tal manera que aumenta su Ataque.",
+      "pokemon": [
+        {
+          "pid": 127,
+          "name": "Pinsir",
+          "slug": "pinsir",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 214,
+          "name": "Heracross",
+          "slug": "heracross",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 601,
+          "name": "Sandile",
+          "slug": "sandile",
+          "types": [
+            "Tierra",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 602,
+          "name": "Krokorok",
+          "slug": "krokorok",
+          "types": [
+            "Tierra",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 603,
+          "name": "Krookodile",
+          "slug": "krookodile",
+          "types": [
+            "Tierra",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 609,
+          "name": "Scraggy",
+          "slug": "scraggy",
+          "types": [
+            "Siniestro",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 610,
+          "name": "Scrafty",
+          "slug": "scrafty",
+          "types": [
+            "Siniestro",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baba",
+      "desc": "Baja la Velocidad del rival cuando este le ataca con un movimiento de contacto.",
+      "pokemon": [
+        {
+          "pid": 918,
+          "name": "Milcery",
+          "slug": "milcery",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 919,
+          "name": "Alcremie",
+          "slug": "alcremie",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1010,
+          "name": "Wiglett",
+          "slug": "wiglett",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1011,
+          "name": "Wugtrio",
+          "slug": "wugtrio",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Banco",
+      "desc": "Forma bancos con sus congéneres cuando tiene muchos PS, lo cual le otorga más fuerza. Cuando le quedan pocos PS, el banco se dispersa.",
+      "pokemon": [
+        {
+          "pid": 796,
+          "name": "Wishiwashi",
+          "slug": "wishiwashi",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batería",
+      "desc": "Potencia los ataques especiales de los aliados.",
+      "pokemon": [
+        {
+          "pid": 787,
+          "name": "Charjabug",
+          "slug": "charjabug",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bromista",
+      "desc": "Sus movimientos de estado tienen prioridad alta.",
+      "pokemon": [
+        {
+          "pid": 302,
+          "name": "Sableye",
+          "slug": "sableye",
+          "types": [
+            "Siniestro",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 596,
+          "name": "Cottonee",
+          "slug": "cottonee",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 597,
+          "name": "Whimsicott",
+          "slug": "whimsicott",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 691,
+          "name": "Tornadus",
+          "slug": "tornadus",
+          "types": [
+            "Volador"
+          ]
+        },
+        {
+          "pid": 692,
+          "name": "Thundurus",
+          "slug": "thundurus",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 757,
+          "name": "Klefki",
+          "slug": "klefki",
+          "types": [
+            "Acero",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 909,
+          "name": "Impidimp",
+          "slug": "impidimp",
+          "types": [
+            "Siniestro",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 910,
+          "name": "Morgrem",
+          "slug": "morgrem",
+          "types": [
+            "Siniestro",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 911,
+          "name": "Grimmsnarl",
+          "slug": "grimmsnarl",
+          "types": [
+            "Siniestro",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bucle Aire",
+      "desc": "Neutraliza todos los efectos del tiempo atmosférico.",
+      "pokemon": [
+        {
+          "pid": 384,
+          "name": "Rayquaza",
+          "slug": "rayquaza",
+          "types": [
+            "Dragón",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabeza Roca",
+      "desc": "No puede dañarse con sus propios movimientos.",
+      "pokemon": [
+        {
+          "pid": 74,
+          "name": "Geodude",
+          "slug": "geodude",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 75,
+          "name": "Graveler",
+          "slug": "graveler",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 76,
+          "name": "Golem",
+          "slug": "golem",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 95,
+          "name": "Onix",
+          "slug": "onix",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 104,
+          "name": "Cubone",
+          "slug": "cubone",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 105,
+          "name": "Marowak",
+          "slug": "marowak",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 111,
+          "name": "Rhyhorn",
+          "slug": "rhyhorn",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 112,
+          "name": "Rhydon",
+          "slug": "rhydon",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 142,
+          "name": "Aerodactyl",
+          "slug": "aerodactyl",
+          "types": [
+            "Roca",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 185,
+          "name": "Sudowoodo",
+          "slug": "sudowoodo",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 208,
+          "name": "Steelix",
+          "slug": "steelix",
+          "types": [
+            "Acero",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 304,
+          "name": "Aron",
+          "slug": "aron",
+          "types": [
+            "Acero",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 305,
+          "name": "Lairon",
+          "slug": "lairon",
+          "types": [
+            "Acero",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 306,
+          "name": "Aggron",
+          "slug": "aggron",
+          "types": [
+            "Acero",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 369,
+          "name": "Relicanth",
+          "slug": "relicanth",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 371,
+          "name": "Bagon",
+          "slug": "bagon",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 372,
+          "name": "Shelgon",
+          "slug": "shelgon",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 438,
+          "name": "Bonsly",
+          "slug": "bonsly",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 746,
+          "name": "Tyrunt",
+          "slug": "tyrunt",
+          "types": [
+            "Roca",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 747,
+          "name": "Tyrantrum",
+          "slug": "tyrantrum",
+          "types": [
+            "Roca",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cacheo",
+      "desc": "Puede ver el objeto que lleva el rival al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 234,
+          "name": "Stantler",
+          "slug": "stantler",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 353,
+          "name": "Shuppet",
+          "slug": "shuppet",
+          "types": [
+            "Fantasma",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 354,
+          "name": "Banette",
+          "slug": "banette",
+          "types": [
+            "Fantasma",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 624,
+          "name": "Gothita",
+          "slug": "gothita",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 625,
+          "name": "Gothorita",
+          "slug": "gothorita",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 626,
+          "name": "Gothitelle",
+          "slug": "gothitelle",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 758,
+          "name": "Phantump",
+          "slug": "phantump",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 759,
+          "name": "Trevenant",
+          "slug": "trevenant",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 760,
+          "name": "Pumpkaboo",
+          "slug": "pumpkaboo",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 761,
+          "name": "Gourgeist",
+          "slug": "gourgeist",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 764,
+          "name": "Noibat",
+          "slug": "noibat",
+          "types": [
+            "Volador",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 765,
+          "name": "Noivern",
+          "slug": "noivern",
+          "types": [
+            "Volador",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 876,
+          "name": "Orbeetle",
+          "slug": "orbeetle",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 909,
+          "name": "Impidimp",
+          "slug": "impidimp",
+          "types": [
+            "Siniestro",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 910,
+          "name": "Morgrem",
+          "slug": "morgrem",
+          "types": [
+            "Siniestro",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 911,
+          "name": "Grimmsnarl",
+          "slug": "grimmsnarl",
+          "types": [
+            "Siniestro",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 949,
+          "name": "Wyrdeer",
+          "slug": "wyrdeer",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1005,
+          "name": "Flittle",
+          "slug": "flittle",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1006,
+          "name": "Espathra",
+          "slug": "espathra",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1006,
+          "name": "Espathra",
+          "slug": "espathra",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": "157_hisui",
+          "name": "Typhlosion de Hisui",
+          "slug": "typhlosion-hisui",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": "103_alola",
+          "name": "Exeggutor de Alola",
+          "slug": "exeggutor-alola",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calco",
+      "desc": "Al entrar en combate copia la habilidad del rival.",
+      "pokemon": [
+        {
+          "pid": 137,
+          "name": "Porygon",
+          "slug": "porygon",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 233,
+          "name": "Porygon2",
+          "slug": "porygon2",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 280,
+          "name": "Ralts",
+          "slug": "ralts",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 281,
+          "name": "Kirlia",
+          "slug": "kirlia",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 282,
+          "name": "Gardevoir",
+          "slug": "gardevoir",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cambio Color",
+      "desc": "Adopta el tipo del último movimiento del que es blanco.",
+      "pokemon": [
+        {
+          "pid": 352,
+          "name": "Kecleon",
+          "slug": "kecleon",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cambio Táctico",
+      "desc": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+      "pokemon": [
+        {
+          "pid": 731,
+          "name": "Aegislash",
+          "slug": "aegislash",
+          "types": [
+            "Acero",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caparazón",
+      "desc": "La robusta coraza que lo protege bloquea los golpes críticos.",
+      "pokemon": [
+        {
+          "pid": 90,
+          "name": "Shellder",
+          "slug": "shellder",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 91,
+          "name": "Cloyster",
+          "slug": "cloyster",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 98,
+          "name": "Krabby",
+          "slug": "krabby",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 99,
+          "name": "Kingler",
+          "slug": "kingler",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 131,
+          "name": "Lapras",
+          "slug": "lapras",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 138,
+          "name": "Omanyte",
+          "slug": "omanyte",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 139,
+          "name": "Omastar",
+          "slug": "omastar",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 341,
+          "name": "Corphish",
+          "slug": "corphish",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 342,
+          "name": "Crawdaunt",
+          "slug": "crawdaunt",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 366,
+          "name": "Clamperl",
+          "slug": "clamperl",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 387,
+          "name": "Turtwig",
+          "slug": "turtwig",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 388,
+          "name": "Grotle",
+          "slug": "grotle",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 389,
+          "name": "Torterra",
+          "slug": "torterra",
+          "types": [
+            "Planta",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 551,
+          "name": "Oshawott",
+          "slug": "oshawott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 552,
+          "name": "Dewott",
+          "slug": "dewott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 553,
+          "name": "Samurott",
+          "slug": "samurott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 607,
+          "name": "Dwebble",
+          "slug": "dwebble",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 608,
+          "name": "Crustle",
+          "slug": "crustle",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 639,
+          "name": "Escavalier",
+          "slug": "escavalier",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 666,
+          "name": "Shelmet",
+          "slug": "shelmet",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 826,
+          "name": "Turtonator",
+          "slug": "turtonator",
+          "types": [
+            "Fuego",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 883,
+          "name": "Chewtle",
+          "slug": "chewtle",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 884,
+          "name": "Drednaw",
+          "slug": "drednaw",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1000,
+          "name": "Klawf",
+          "slug": "klawf",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1000,
+          "name": "Klawf",
+          "slug": "klawf",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": "705_hisui",
+          "name": "Sliggoo de Hisui",
+          "slug": "sliggoo-hisui",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": "706_hisui",
+          "name": "Goodra de Hisui",
+          "slug": "goodra-hisui",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cara de Hielo",
+      "desc": "Absorbe el daño de un ataque físico con el hielo de la cabeza, tras lo cual cambia de forma. El hielo se regenerará la próxima vez que granice.",
+      "pokemon": [
+        {
+          "pid": 925,
+          "name": "Eiscue",
+          "slug": "eiscue",
+          "types": [
+            "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carrillo",
+      "desc": "Recupera PS al comer cualquier baya.",
+      "pokemon": [
+        {
+          "pid": 752,
+          "name": "Dedenne",
+          "slug": "dedenne",
+          "types": [
+            "Eléctrico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 869,
+          "name": "Skwovet",
+          "slug": "skwovet",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 870,
+          "name": "Greedent",
+          "slug": "greedent",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorro Arena",
+      "desc": "Crea una tormenta de arena al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 248,
+          "name": "Tyranitar",
+          "slug": "tyranitar",
+          "types": [
+            "Roca",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 449,
+          "name": "Hippopotas",
+          "slug": "hippopotas",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 450,
+          "name": "Hippowdon",
+          "slug": "hippowdon",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 576,
+          "name": "Gigalith",
+          "slug": "gigalith",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 893,
+          "name": "Silicobra",
+          "slug": "silicobra",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 894,
+          "name": "Sandaconda",
+          "slug": "sandaconda",
+          "types": [
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clorofila",
+      "desc": "Sube su Velocidad cuando hace sol.",
+      "pokemon": [
+        {
+          "pid": 1,
+          "name": "Bulbasaur",
+          "slug": "bulbasaur",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 2,
+          "name": "Ivysaur",
+          "slug": "ivysaur",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 3,
+          "name": "Venusaur",
+          "slug": "venusaur",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 43,
+          "name": "Oddish",
+          "slug": "oddish",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 44,
+          "name": "Gloom",
+          "slug": "gloom",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 45,
+          "name": "Vileplume",
+          "slug": "vileplume",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 69,
+          "name": "Bellsprout",
+          "slug": "bellsprout",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 70,
+          "name": "Weepinbell",
+          "slug": "weepinbell",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 71,
+          "name": "Victreebel",
+          "slug": "victreebel",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 102,
+          "name": "Exeggcute",
+          "slug": "exeggcute",
+          "types": [
+            "Planta",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 103,
+          "name": "Exeggutor",
+          "slug": "exeggutor",
+          "types": [
+            "Planta",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 114,
+          "name": "Tangela",
+          "slug": "tangela",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 182,
+          "name": "Bellossom",
+          "slug": "bellossom",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 187,
+          "name": "Hoppip",
+          "slug": "hoppip",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 188,
+          "name": "Skiploom",
+          "slug": "skiploom",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 189,
+          "name": "Jumpluff",
+          "slug": "jumpluff",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 191,
+          "name": "Sunkern",
+          "slug": "sunkern",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 192,
+          "name": "Sunflora",
+          "slug": "sunflora",
+          "types": [
+            "Planta",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 273,
+          "name": "Seedot",
+          "slug": "seedot",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 274,
+          "name": "Nuzleaf",
+          "slug": "nuzleaf",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 275,
+          "name": "Shiftry",
+          "slug": "shiftry",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 357,
+          "name": "Tropius",
+          "slug": "tropius",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 420,
+          "name": "Cherubi",
+          "slug": "cherubi",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 465,
+          "name": "Tangrowth",
+          "slug": "tangrowth",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 590,
+          "name": "Sewaddle",
+          "slug": "sewaddle",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 591,
+          "name": "Swadloon",
+          "slug": "swadloon",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 592,
+          "name": "Leavanny",
+          "slug": "leavanny",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 598,
+          "name": "Petilil",
+          "slug": "petilil",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 599,
+          "name": "Lilligant",
+          "slug": "lilligant",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 606,
+          "name": "Maractus",
+          "slug": "maractus",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 635,
+          "name": "Deerling",
+          "slug": "deerling",
+          "types": [
+            "Normal",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 636,
+          "name": "Sawsbuck",
+          "slug": "sawsbuck",
+          "types": [
+            "Normal",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1001,
+          "name": "Capsakid",
+          "slug": "capsakid",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1002,
+          "name": "Scovillain",
+          "slug": "scovillain",
+          "types": [
+            "Planta",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": "549_hisui",
+          "name": "Lilligant de Hisui",
+          "slug": "lilligant-hisui",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cobardía",
+      "desc": "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, el miedo hace que le suba la Velocidad.",
+      "pokemon": [
+        {
+          "pid": 898,
+          "name": "Toxel",
+          "slug": "toxel",
+          "types": [
+            "Eléctrico",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1010,
+          "name": "Wiglett",
+          "slug": "wiglett",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1011,
+          "name": "Wugtrio",
+          "slug": "wugtrio",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1049,
+          "name": "Gimmighoul",
+          "slug": "gimmighoul",
+          "types": [
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cola Surf",
+      "desc": "Duplica su Velocidad si hay un campo eléctrico en el terreno de combate.",
+      "pokemon": [
+        {
+          "pid": 1040,
+          "name": "Ferrodada",
+          "slug": "irontreads",
+          "types": [
+            "Tierra",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1041,
+          "name": "Ferrosaco",
+          "slug": "ironbundle",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1042,
+          "name": "Ferropalmas",
+          "slug": "ironhands",
+          "types": [
+            "Lucha",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 1043,
+          "name": "Ferrocuello",
+          "slug": "ironjugulis",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 1044,
+          "name": "Ferropolilla",
+          "slug": "ironmoth",
+          "types": [
+            "Fuego",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1045,
+          "name": "Ferropúas",
+          "slug": "ferropas",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 1056,
+          "name": "Ferropaladín",
+          "slug": "ferropaladn",
+          "types": [
+            "Hada",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1060,
+          "name": "Ferroverdor",
+          "slug": "ironleaves",
+          "types": [
+            "Planta",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1072,
+          "name": "Ferromole",
+          "slug": "ironboulder",
+          "types": [
+            "Roca",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1073,
+          "name": "Ferrotesta",
+          "slug": "ironcrown",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": "26_alola",
+          "name": "Raichu de Alola",
+          "slug": "raichu-alola",
+          "types": [
+            "Eléctrico",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colector",
+      "desc": "Atrae y neutraliza los movimientos de tipo Agua, que además le suben el Ataque Especial.",
+      "pokemon": [
+        {
+          "pid": 422,
+          "name": "Shellos",
+          "slug": "shellos",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 423,
+          "name": "Gastrodon",
+          "slug": "gastrodon",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 456,
+          "name": "Finneon",
+          "slug": "finneon",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 457,
+          "name": "Lumineon",
+          "slug": "lumineon",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Competitivo",
+      "desc": "Sube mucho su Ataque cuando el rival le baja las características.",
+      "pokemon": [
+        {
+          "pid": 1067,
+          "name": "Ogerpon",
+          "slug": "ogerpon",
+          "types": [
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compiescolta",
+      "desc": "Reduce el daño que sufren los aliados.",
+      "pokemon": [
+        {
+          "pid": 975,
+          "name": "Maushold",
+          "slug": "maushold",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corrosión",
+      "desc": "Puede envenenar incluso a rivales de tipo Acero o Veneno.",
+      "pokemon": [
+        {
+          "pid": 807,
+          "name": "Salandit",
+          "slug": "salandit",
+          "types": [
+            "Veneno",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 808,
+          "name": "Salazzle",
+          "slug": "salazzle",
+          "types": [
+            "Veneno",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 1019,
+          "name": "Glimmet",
+          "slug": "glimmet",
+          "types": [
+            "Roca",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1020,
+          "name": "Glimmora",
+          "slug": "glimmora",
+          "types": [
+            "Roca",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1075,
+          "name": "Pecharunt",
+          "slug": "pecharunt",
+          "types": [
+            "Veneno",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cortante",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": "503_hisui",
+          "name": "Samurott de Hisui",
+          "slug": "samurott-hisui",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corte Fuerte",
+      "desc": "Evita que el rival le baje el Ataque.",
+      "pokemon": [
+        {
+          "pid": 98,
+          "name": "Krabby",
+          "slug": "krabby",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 99,
+          "name": "Kingler",
+          "slug": "kingler",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 127,
+          "name": "Pinsir",
+          "slug": "pinsir",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 303,
+          "name": "Mawile",
+          "slug": "mawile",
+          "types": [
+            "Acero",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 328,
+          "name": "Trapinch",
+          "slug": "trapinch",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 789,
+          "name": "Crabrawler",
+          "slug": "crabrawler",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 790,
+          "name": "Crabominable",
+          "slug": "crabominable",
+          "types": [
+            "Lucha",
+            "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cosecha",
+      "desc": "Puede reutilizar varias veces una misma baya.",
+      "pokemon": [
+        {
+          "pid": 102,
+          "name": "Exeggcute",
+          "slug": "exeggcute",
+          "types": [
+            "Planta",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 103,
+          "name": "Exeggutor",
+          "slug": "exeggutor",
+          "types": [
+            "Planta",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cromolente",
+      "desc": "Potencia los movimientos que no son muy eficaces, que infligen ahora un daño normal.",
+      "pokemon": [
+        {
+          "pid": 10,
+          "name": "Caterpie",
+          "slug": "caterpie",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 11,
+          "name": "Metapod",
+          "slug": "metapod",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 12,
+          "name": "Butterfree",
+          "slug": "butterfree",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 48,
+          "name": "Venonat",
+          "slug": "venonat",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 49,
+          "name": "Venomoth",
+          "slug": "venomoth",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 314,
+          "name": "Illumise",
+          "slug": "illumise",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 469,
+          "name": "Yanmega",
+          "slug": "yanmega",
+          "types": [
+            "Bicho",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Llama",
+      "desc": "Puede quemar al mínimo contacto.",
+      "pokemon": [
+        {
+          "pid": 126,
+          "name": "Magmar",
+          "slug": "magmar",
+          "types": [
+            "Fuego",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 218,
+          "name": "Slugma",
+          "slug": "slugma",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 219,
+          "name": "Magcargo",
+          "slug": "magcargo",
+          "types": [
+            "Fuego",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 240,
+          "name": "Magby",
+          "slug": "magby",
+          "types": [
+            "Fuego",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 467,
+          "name": "Magmortar",
+          "slug": "magmortar",
+          "types": [
+            "Fuego",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 657,
+          "name": "Litwick",
+          "slug": "litwick",
+          "types": [
+            "Fantasma",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 658,
+          "name": "Lampent",
+          "slug": "lampent",
+          "types": [
+            "Fantasma",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 659,
+          "name": "Chandelure",
+          "slug": "chandelure",
+          "types": [
+            "Fantasma",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 686,
+          "name": "Larvesta",
+          "slug": "larvesta",
+          "types": [
+            "Bicho",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 687,
+          "name": "Volcarona",
+          "slug": "volcarona",
+          "types": [
+            "Bicho",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 712,
+          "name": "Fletchinder",
+          "slug": "fletchinder",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 713,
+          "name": "Talonflame",
+          "slug": "talonflame",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 888,
+          "name": "Carkol",
+          "slug": "carkol",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 889,
+          "name": "Coalossal",
+          "slug": "coalossal",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Maldito",
+      "desc": "Puede anular el movimiento usado en su contra.",
+      "pokemon": [
+        {
+          "pid": 94,
+          "name": "Gengar",
+          "slug": "gengar",
+          "types": [
+            "Fantasma",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 642,
+          "name": "Frillish",
+          "slug": "frillish",
+          "types": [
+            "Agua",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 643,
+          "name": "Jellicent",
+          "slug": "jellicent",
+          "types": [
+            "Agua",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": "105_alola",
+          "name": "Marowak de Alola",
+          "slug": "marowak-alola",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Puro",
+      "desc": "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
+      "pokemon": [
+        {
+          "pid": 72,
+          "name": "Tentacool",
+          "slug": "tentacool",
+          "types": [
+            "Agua",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 73,
+          "name": "Tentacruel",
+          "slug": "tentacruel",
+          "types": [
+            "Agua",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 374,
+          "name": "Beldum",
+          "slug": "beldum",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 375,
+          "name": "Metang",
+          "slug": "metang",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 376,
+          "name": "Metagross",
+          "slug": "metagross",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 377,
+          "name": "Regirock",
+          "slug": "regirock",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 378,
+          "name": "Regice",
+          "slug": "regice",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 379,
+          "name": "Registeel",
+          "slug": "registeel",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 649,
+          "name": "Klink",
+          "slug": "klink",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 650,
+          "name": "Klang",
+          "slug": "klang",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 651,
+          "name": "Klinklang",
+          "slug": "klinklang",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 753,
+          "name": "Carbink",
+          "slug": "carbink",
+          "types": [
+            "Roca",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 769,
+          "name": "Diancie",
+          "slug": "diancie",
+          "types": [
+            "Roca",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 935,
+          "name": "Dreepy",
+          "slug": "dreepy",
+          "types": [
+            "Dragón",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 936,
+          "name": "Drakloak",
+          "slug": "drakloak",
+          "types": [
+            "Dragón",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 937,
+          "name": "Dragapult",
+          "slug": "dragapult",
+          "types": [
+            "Dragón",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Vívido",
+      "desc": "Desconcierta al rival y le impide utilizar movimientos con prioridad en su contra.",
+      "pokemon": [
+        {
+          "pid": 829,
+          "name": "Bruxish",
+          "slug": "bruxish",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cura Lluvia",
+      "desc": "Recupera PS de forma gradual cuando llueve.",
+      "pokemon": [
+        {
+          "pid": 270,
+          "name": "Lotad",
+          "slug": "lotad",
+          "types": [
+            "Agua",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 271,
+          "name": "Lombre",
+          "slug": "lombre",
+          "types": [
+            "Agua",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 272,
+          "name": "Ludicolo",
+          "slug": "ludicolo",
+          "types": [
+            "Agua",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cura Natural",
+      "desc": "Cura sus problemas de estado al cambiarse con otro Pokémon.",
+      "pokemon": [
+        {
+          "pid": 113,
+          "name": "Chansey",
+          "slug": "chansey",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 120,
+          "name": "Staryu",
+          "slug": "staryu",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 121,
+          "name": "Starmie",
+          "slug": "starmie",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 222,
+          "name": "Corsola",
+          "slug": "corsola",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 242,
+          "name": "Blissey",
+          "slug": "blissey",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 251,
+          "name": "Celebi",
+          "slug": "celebi",
+          "types": [
+            "Psíquico",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 315,
+          "name": "Roselia",
+          "slug": "roselia",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 333,
+          "name": "Swablu",
+          "slug": "swablu",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 334,
+          "name": "Altaria",
+          "slug": "altaria",
+          "types": [
+            "Dragón",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 406,
+          "name": "Budew",
+          "slug": "budew",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 407,
+          "name": "Roserade",
+          "slug": "roserade",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 440,
+          "name": "Happiny",
+          "slug": "happiny",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 492,
+          "name": "Shaymin",
+          "slug": "shaymin",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 758,
+          "name": "Phantump",
+          "slug": "phantump",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 759,
+          "name": "Trevenant",
+          "slug": "trevenant",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 971,
+          "name": "Pawmi",
+          "slug": "pawmi",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 972,
+          "name": "Pawmo",
+          "slug": "pawmo",
+          "types": [
+            "Eléctrico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 973,
+          "name": "Pawmot",
+          "slug": "pawmot",
+          "types": [
+            "Eléctrico",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cólera",
+      "desc": "Aumenta su Ataque Especial si sus PS se ven reducidos a la mitad debido a algún ataque.",
+      "pokemon": [
+        {
+          "pid": 830,
+          "name": "Drampa",
+          "slug": "drampa",
+          "types": [
+            "Normal",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Defensa Hoja",
+      "desc": "Evita los problemas de estado si hace sol.",
+      "pokemon": [
+        {
+          "pid": 187,
+          "name": "Hoppip",
+          "slug": "hoppip",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 188,
+          "name": "Skiploom",
+          "slug": "skiploom",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 189,
+          "name": "Jumpluff",
+          "slug": "jumpluff",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 315,
+          "name": "Roselia",
+          "slug": "roselia",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 406,
+          "name": "Budew",
+          "slug": "budew",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 470,
+          "name": "Leafeon",
+          "slug": "leafeon",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 591,
+          "name": "Swadloon",
+          "slug": "swadloon",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 803,
+          "name": "Fomantis",
+          "slug": "fomantis",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 804,
+          "name": "Lurantis",
+          "slug": "lurantis",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 811,
+          "name": "Bounsweet",
+          "slug": "bounsweet",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 812,
+          "name": "Steenee",
+          "slug": "steenee",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 813,
+          "name": "Tsareena",
+          "slug": "tsareena",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 943,
+          "name": "Zarude",
+          "slug": "zarude",
+          "types": [
+            "Siniestro",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Descarga",
+      "desc": "Compara la Defensa y la Defensa Especial del rival para ver cuál es inferior y aumenta su propio Ataque o Ataque Especial según sea lo más eficaz.",
+      "pokemon": [
+        {
+          "pid": 137,
+          "name": "Porygon",
+          "slug": "porygon",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 233,
+          "name": "Porygon2",
+          "slug": "porygon2",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 474,
+          "name": "Porygon-Z",
+          "slug": "porygonz",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 699,
+          "name": "Genesect",
+          "slug": "genesect",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Despiste",
+      "desc": "Su indiferencia evita que sea provocado o caiga presa del enamoramiento.",
+      "pokemon": [
+        {
+          "pid": 79,
+          "name": "Slowpoke",
+          "slug": "slowpoke",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 80,
+          "name": "Slowbro",
+          "slug": "slowbro",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 108,
+          "name": "Lickitung",
+          "slug": "lickitung",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 124,
+          "name": "Jynx",
+          "slug": "jynx",
+          "types": [
+            "Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 199,
+          "name": "Slowking",
+          "slug": "slowking",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 238,
+          "name": "Smoochum",
+          "slug": "smoochum",
+          "types": [
+            "Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 314,
+          "name": "Illumise",
+          "slug": "illumise",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 320,
+          "name": "Wailmer",
+          "slug": "wailmer",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 321,
+          "name": "Wailord",
+          "slug": "wailord",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 322,
+          "name": "Numel",
+          "slug": "numel",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 339,
+          "name": "Barboach",
+          "slug": "barboach",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 340,
+          "name": "Whiscash",
+          "slug": "whiscash",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 349,
+          "name": "Feebas",
+          "slug": "feebas",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 463,
+          "name": "Lickilicky",
+          "slug": "lickilicky",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 811,
+          "name": "Bounsweet",
+          "slug": "bounsweet",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 812,
+          "name": "Steenee",
+          "slug": "steenee",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1027,
+          "name": "Dondozo",
+          "slug": "dondozo",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detonación",
+      "desc": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+      "pokemon": [
+        {
+          "pid": 425,
+          "name": "Drifloon",
+          "slug": "drifloon",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 426,
+          "name": "Drifblim",
+          "slug": "drifblim",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 434,
+          "name": "Stunky",
+          "slug": "stunky",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 435,
+          "name": "Skuntank",
+          "slug": "skuntank",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dicha",
+      "desc": "Aumenta la probabilidad de que los movimientos causen efectos secundarios.",
+      "pokemon": [
+        {
+          "pid": 113,
+          "name": "Chansey",
+          "slug": "chansey",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 175,
+          "name": "Togepi",
+          "slug": "togepi",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 176,
+          "name": "Togetic",
+          "slug": "togetic",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 206,
+          "name": "Dunsparce",
+          "slug": "dunsparce",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 242,
+          "name": "Blissey",
+          "slug": "blissey",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 385,
+          "name": "Jirachi",
+          "slug": "jirachi",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 440,
+          "name": "Happiny",
+          "slug": "happiny",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 468,
+          "name": "Togekiss",
+          "slug": "togekiss",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 698,
+          "name": "Meloetta",
+          "slug": "meloetta",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1032,
+          "name": "Dudunsparce",
+          "slug": "dudunsparce",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disfraz",
+      "desc": "Puede eludir un ataque valiéndose de la tela que le cubre el cuerpo una vez por combate.",
+      "pokemon": [
+        {
+          "pid": 828,
+          "name": "Mimikyu",
+          "slug": "mimikyu",
+          "types": [
+            "Fantasma",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Don Floral",
+      "desc": "Si hace sol, aumenta su Ataque y su Defensa Especial, así como los de sus aliados.",
+      "pokemon": [
+        {
+          "pid": 421,
+          "name": "Cherrim",
+          "slug": "cherrim",
+          "types": [
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Efecto Espora",
+      "desc": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
+      "pokemon": [
+        {
+          "pid": 46,
+          "name": "Paras",
+          "slug": "paras",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 47,
+          "name": "Parasect",
+          "slug": "parasect",
+          "types": [
+            "Bicho",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 285,
+          "name": "Shroomish",
+          "slug": "shroomish",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 640,
+          "name": "Foongus",
+          "slug": "foongus",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 641,
+          "name": "Amoonguss",
+          "slug": "amoonguss",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 805,
+          "name": "Morelull",
+          "slug": "morelull",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 806,
+          "name": "Shiinotic",
+          "slug": "shiinotic",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 998,
+          "name": "Toedscool",
+          "slug": "toedscool",
+          "types": [
+            "Tierra",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 999,
+          "name": "Toedscruel",
+          "slug": "toedscruel",
+          "types": [
+            "Tierra",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electricidad Estática",
+      "desc": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+      "pokemon": [
+        {
+          "pid": 25,
+          "name": "Pikachu",
+          "slug": "pikachu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 26,
+          "name": "Raichu",
+          "slug": "raichu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 100,
+          "name": "Voltorb",
+          "slug": "voltorb",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 101,
+          "name": "Electrode",
+          "slug": "electrode",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 125,
+          "name": "Electabuzz",
+          "slug": "electabuzz",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 172,
+          "name": "Pichu",
+          "slug": "pichu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 179,
+          "name": "Mareep",
+          "slug": "mareep",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 180,
+          "name": "Flaaffy",
+          "slug": "flaaffy",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 181,
+          "name": "Ampharos",
+          "slug": "ampharos",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 239,
+          "name": "Elekid",
+          "slug": "elekid",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 309,
+          "name": "Electrike",
+          "slug": "electrike",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 310,
+          "name": "Manectric",
+          "slug": "manectric",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 637,
+          "name": "Emolga",
+          "slug": "emolga",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 668,
+          "name": "Stunfisk",
+          "slug": "stunfisk",
+          "types": [
+            "Tierra",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 898,
+          "name": "Toxel",
+          "slug": "toxel",
+          "types": [
+            "Eléctrico",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 931,
+          "name": "Arctozolt",
+          "slug": "arctozolt",
+          "types": [
+            "Eléctrico",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 971,
+          "name": "Pawmi",
+          "slug": "pawmi",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 988,
+          "name": "Tadbulb",
+          "slug": "tadbulb",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 989,
+          "name": "Bellibolt",
+          "slug": "bellibolt",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 989,
+          "name": "Bellibolt",
+          "slug": "bellibolt",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "101_hisui",
+          "name": "Electrode de Hisui",
+          "slug": "electrode-hisui",
+          "types": [
+            "Eléctrico",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electrogénesis",
+      "desc": "Crea un campo eléctrico al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 835,
+          "name": "Tapu Koko",
+          "slug": "tapukoko",
+          "types": [
+            "Eléctrico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1058,
+          "name": "Miraidon",
+          "slug": "miraidon",
+          "types": [
+            "Eléctrico",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electromotor",
+      "desc": "Si le alcanza un movimiento de tipo Eléctrico, le sube la Velocidad en vez de sufrir daño.",
+      "pokemon": [
+        {
+          "pid": 466,
+          "name": "Electivire",
+          "slug": "electivire",
+          "types": [
+            "Eléctrico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 572,
+          "name": "Blitzle",
+          "slug": "blitzle",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 573,
+          "name": "Zebstrika",
+          "slug": "zebstrika",
+          "types": [
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Encadenado",
+      "desc": "Ejecuta siempre los movimientos múltiples con el número máximo de golpes.",
+      "pokemon": [
+        {
+          "pid": 90,
+          "name": "Shellder",
+          "slug": "shellder",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 91,
+          "name": "Cloyster",
+          "slug": "cloyster",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 190,
+          "name": "Aipom",
+          "slug": "aipom",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 424,
+          "name": "Ambipom",
+          "slug": "ambipom",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 622,
+          "name": "Minccino",
+          "slug": "minccino",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 623,
+          "name": "Cinccino",
+          "slug": "cinccino",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 781,
+          "name": "Pikipek",
+          "slug": "pikipek",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 782,
+          "name": "Trumbeak",
+          "slug": "trumbeak",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 783,
+          "name": "Toucannon",
+          "slug": "toucannon",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energía Pura",
+      "desc": "Duplica la potencia de sus ataques físicos gracias al yoga.",
+      "pokemon": [
+        {
+          "pid": 307,
+          "name": "Meditite",
+          "slug": "meditite",
+          "types": [
+            "Lucha",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 308,
+          "name": "Medicham",
+          "slug": "medicham",
+          "types": [
+            "Lucha",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enjambre",
+      "desc": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS.",
+      "pokemon": [
+        {
+          "pid": 15,
+          "name": "Beedrill",
+          "slug": "beedrill",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 123,
+          "name": "Scyther",
+          "slug": "scyther",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 165,
+          "name": "Ledyba",
+          "slug": "ledyba",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 166,
+          "name": "Ledian",
+          "slug": "ledian",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 167,
+          "name": "Spinarak",
+          "slug": "spinarak",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 168,
+          "name": "Ariados",
+          "slug": "ariados",
+          "types": [
+            "Bicho",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 212,
+          "name": "Scizor",
+          "slug": "scizor",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 267,
+          "name": "Beautifly",
+          "slug": "beautifly",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 313,
+          "name": "Volbeat",
+          "slug": "volbeat",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 402,
+          "name": "Kricketune",
+          "slug": "kricketune",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 414,
+          "name": "Mothim",
+          "slug": "mothim",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 590,
+          "name": "Sewaddle",
+          "slug": "sewaddle",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 592,
+          "name": "Leavanny",
+          "slug": "leavanny",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 638,
+          "name": "Karrablast",
+          "slug": "karrablast",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 639,
+          "name": "Escavalier",
+          "slug": "escavalier",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 682,
+          "name": "Durant",
+          "slug": "durant",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 786,
+          "name": "Grubbin",
+          "slug": "grubbin",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 874,
+          "name": "Blipbug",
+          "slug": "blipbug",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 875,
+          "name": "Dottler",
+          "slug": "dottler",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 876,
+          "name": "Orbeetle",
+          "slug": "orbeetle",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 950,
+          "name": "Kleavor",
+          "slug": "kleavor",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 969,
+          "name": "Nymble",
+          "slug": "nymble",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 970,
+          "name": "Lokix",
+          "slug": "lokix",
+          "types": [
+            "Bicho",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ensañamiento",
+      "desc": "Hace que sus movimientos asesten siempre un golpe crítico si el rival está envenenado.",
+      "pokemon": [
+        {
+          "pid": 797,
+          "name": "Mareanie",
+          "slug": "mareanie",
+          "types": [
+            "Veneno",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 798,
+          "name": "Toxapex",
+          "slug": "toxapex",
+          "types": [
+            "Veneno",
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entusiasmo",
+      "desc": "Aumenta su Ataque, pero reduce su Precisión.",
+      "pokemon": [
+        {
+          "pid": 223,
+          "name": "Remoraid",
+          "slug": "remoraid",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 225,
+          "name": "Delibird",
+          "slug": "delibird",
+          "types": [
+            "Hielo",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 604,
+          "name": "Darumaka",
+          "slug": "darumaka",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 682,
+          "name": "Durant",
+          "slug": "durant",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 683,
+          "name": "Deino",
+          "slug": "deino",
+          "types": [
+            "Siniestro",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 684,
+          "name": "Zweilous",
+          "slug": "zweilous",
+          "types": [
+            "Siniestro",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 930,
+          "name": "Dracozolt",
+          "slug": "dracozolt",
+          "types": [
+            "Eléctrico",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 981,
+          "name": "Squawkabilly",
+          "slug": "squawkabilly",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": "549_hisui",
+          "name": "Lilligant de Hisui",
+          "slug": "lilligant-hisui",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escama Especial",
+      "desc": "Sube su Defensa si sufre un problema de estado.",
+      "pokemon": [
+        {
+          "pid": 350,
+          "name": "Milotic",
+          "slug": "milotic",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escudo Limitado",
+      "desc": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+      "pokemon": [
+        {
+          "pid": 824,
+          "name": "Minior",
+          "slug": "minior",
+          "types": [
+            "Roca",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escudo Magma",
+      "desc": "Gracias al magma candente que lo envuelve, no puede ser congelado.",
+      "pokemon": [
+        {
+          "pid": 218,
+          "name": "Slugma",
+          "slug": "slugma",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 219,
+          "name": "Magcargo",
+          "slug": "magcargo",
+          "types": [
+            "Fuego",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 323,
+          "name": "Camerupt",
+          "slug": "camerupt",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espejo Mágico",
+      "desc": "Puede devolver los movimientos de estado lanzados por el rival, sin verse afectado por ellos.",
+      "pokemon": [
+        {
+          "pid": 177,
+          "name": "Natu",
+          "slug": "natu",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 178,
+          "name": "Xatu",
+          "slug": "xatu",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 703,
+          "name": "Fennekin",
+          "slug": "fennekin",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 704,
+          "name": "Braixen",
+          "slug": "braixen",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 705,
+          "name": "Delphox",
+          "slug": "delphox",
+          "types": [
+            "Fuego",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espesura",
+      "desc": "Potencia sus movimientos de tipo Planta cuando le quedan pocos PS.",
+      "pokemon": [
+        {
+          "pid": 1,
+          "name": "Bulbasaur",
+          "slug": "bulbasaur",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 2,
+          "name": "Ivysaur",
+          "slug": "ivysaur",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 3,
+          "name": "Venusaur",
+          "slug": "venusaur",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 152,
+          "name": "Chikorita",
+          "slug": "chikorita",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 153,
+          "name": "Bayleef",
+          "slug": "bayleef",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 154,
+          "name": "Meganium",
+          "slug": "meganium",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 252,
+          "name": "Treecko",
+          "slug": "treecko",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 253,
+          "name": "Grovyle",
+          "slug": "grovyle",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 254,
+          "name": "Sceptile",
+          "slug": "sceptile",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 387,
+          "name": "Turtwig",
+          "slug": "turtwig",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 388,
+          "name": "Grotle",
+          "slug": "grotle",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 389,
+          "name": "Torterra",
+          "slug": "torterra",
+          "types": [
+            "Planta",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 545,
+          "name": "Snivy",
+          "slug": "snivy",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 546,
+          "name": "Servine",
+          "slug": "servine",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 547,
+          "name": "Serperior",
+          "slug": "serperior",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 700,
+          "name": "Chespin",
+          "slug": "chespin",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 701,
+          "name": "Quilladin",
+          "slug": "quilladin",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 702,
+          "name": "Chesnaught",
+          "slug": "chesnaught",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 772,
+          "name": "Rowlet",
+          "slug": "rowlet",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 773,
+          "name": "Dartrix",
+          "slug": "dartrix",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 774,
+          "name": "Decidueye",
+          "slug": "decidueye",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 860,
+          "name": "Grookey",
+          "slug": "grookey",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 861,
+          "name": "Thwackey",
+          "slug": "thwackey",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 862,
+          "name": "Rillaboom",
+          "slug": "rillaboom",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 956,
+          "name": "Sprigatito",
+          "slug": "sprigatito",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 957,
+          "name": "Floragato",
+          "slug": "floragato",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 958,
+          "name": "Meowscarada",
+          "slug": "meowscarada",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": "724_hisui",
+          "name": "Decidueye de Hisui",
+          "slug": "decidueye-hisui",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espíritu Vital",
+      "desc": "Su determinación le impide quedarse dormido.",
+      "pokemon": [
+        {
+          "pid": 56,
+          "name": "Mankey",
+          "slug": "mankey",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 57,
+          "name": "Primeape",
+          "slug": "primeape",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 225,
+          "name": "Delibird",
+          "slug": "delibird",
+          "types": [
+            "Hielo",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 288,
+          "name": "Vigoroth",
+          "slug": "vigoroth",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 393,
+          "name": "Piplup",
+          "slug": "piplup",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 394,
+          "name": "Prinplup",
+          "slug": "prinplup",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 395,
+          "name": "Empoleon",
+          "slug": "empoleon",
+          "types": [
+            "Agua",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 556,
+          "name": "Lillipup",
+          "slug": "lillipup",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 794,
+          "name": "Rockruff",
+          "slug": "rockruff",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1029,
+          "name": "Annihilape",
+          "slug": "annihilape",
+          "types": [
+            "Lucha",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experto",
+      "desc": "Potencia sus movimientos más débiles.",
+      "pokemon": [
+        {
+          "pid": 52,
+          "name": "Meowth",
+          "slug": "meowth",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 53,
+          "name": "Persian",
+          "slug": "persian",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 123,
+          "name": "Scyther",
+          "slug": "scyther",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 212,
+          "name": "Scizor",
+          "slug": "scizor",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 235,
+          "name": "Smeargle",
+          "slug": "smeargle",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 237,
+          "name": "Hitmontop",
+          "slug": "hitmontop",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 286,
+          "name": "Breloom",
+          "slug": "breloom",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 407,
+          "name": "Roserade",
+          "slug": "roserade",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 424,
+          "name": "Ambipom",
+          "slug": "ambipom",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 622,
+          "name": "Minccino",
+          "slug": "minccino",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 623,
+          "name": "Cinccino",
+          "slug": "cinccino",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 852,
+          "name": "Marshadow",
+          "slug": "marshadow",
+          "types": [
+            "Lucha",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Filtro",
+      "desc": "Mitiga el daño que le infligen los movimientos supereficaces.",
+      "pokemon": [
+        {
+          "pid": 122,
+          "name": "Mr. Mime",
+          "slug": "mrmime",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 304,
+          "name": "Aron",
+          "slug": "aron",
+          "types": [
+            "Acero",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 305,
+          "name": "Lairon",
+          "slug": "lairon",
+          "types": [
+            "Acero",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 306,
+          "name": "Aggron",
+          "slug": "aggron",
+          "types": [
+            "Acero",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 439,
+          "name": "Mime Jr.",
+          "slug": "mimejr",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Firmeza",
+      "desc": "Aumenta su Defensa al recibir un ataque.",
+      "pokemon": [
+        {
+          "pid": 799,
+          "name": "Mudbray",
+          "slug": "mudbray",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 800,
+          "name": "Mudsdale",
+          "slug": "mudsdale",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1068,
+          "name": "Archaludon",
+          "slug": "archaludon",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flexibilidad",
+      "desc": "Evita ser paralizado gracias a la flexibilidad de su cuerpo.",
+      "pokemon": [
+        {
+          "pid": 53,
+          "name": "Persian",
+          "slug": "persian",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 106,
+          "name": "Hitmonlee",
+          "slug": "hitmonlee",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 132,
+          "name": "Ditto",
+          "slug": "ditto",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 427,
+          "name": "Buneary",
+          "slug": "buneary",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 428,
+          "name": "Lopunny",
+          "slug": "lopunny",
+          "types": [
+            "Normal",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 431,
+          "name": "Glameow",
+          "slug": "glameow",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 559,
+          "name": "Purrloin",
+          "slug": "purrloin",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 560,
+          "name": "Liepard",
+          "slug": "liepard",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 668,
+          "name": "Stunfisk",
+          "slug": "stunfisk",
+          "types": [
+            "Tierra",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 751,
+          "name": "Hawlucha",
+          "slug": "hawlucha",
+          "types": [
+            "Lucha",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 902,
+          "name": "Clobbopus",
+          "slug": "clobbopus",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 903,
+          "name": "Grapploct",
+          "slug": "grapploct",
+          "types": [
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Francotirador",
+      "desc": "Potencia los golpes críticos que asesta aún más de lo normal.",
+      "pokemon": [
+        {
+          "pid": 116,
+          "name": "Horsea",
+          "slug": "horsea",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 117,
+          "name": "Seadra",
+          "slug": "seadra",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 223,
+          "name": "Remoraid",
+          "slug": "remoraid",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 224,
+          "name": "Octillery",
+          "slug": "octillery",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 230,
+          "name": "Kingdra",
+          "slug": "kingdra",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 451,
+          "name": "Skorupi",
+          "slug": "skorupi",
+          "types": [
+            "Veneno",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 452,
+          "name": "Drapion",
+          "slug": "drapion",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 738,
+          "name": "Binacle",
+          "slug": "binacle",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 739,
+          "name": "Barbaracle",
+          "slug": "barbaracle",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 817,
+          "name": "Wimpod",
+          "slug": "wimpod",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 818,
+          "name": "Golisopod",
+          "slug": "golisopod",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 866,
+          "name": "Sobble",
+          "slug": "sobble",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 867,
+          "name": "Drizzile",
+          "slug": "drizzile",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 868,
+          "name": "Inteleon",
+          "slug": "inteleon",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuente Energía",
+      "desc": "Potencia los movimientos de los Pokémon adyacentes.",
+      "pokemon": [
+        {
+          "pid": 924,
+          "name": "Stonjourner",
+          "slug": "stonjourner",
+          "types": [
+            "Roca"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuerza Mental",
+      "desc": "Gracias a su profunda concentración, no se amedrenta ante los ataques del rival.",
+      "pokemon": [
+        {
+          "pid": 41,
+          "name": "Zubat",
+          "slug": "zubat",
+          "types": [
+            "Veneno",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 42,
+          "name": "Golbat",
+          "slug": "golbat",
+          "types": [
+            "Veneno",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 63,
+          "name": "Abra",
+          "slug": "abra",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 64,
+          "name": "Kadabra",
+          "slug": "kadabra",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 65,
+          "name": "Alakazam",
+          "slug": "alakazam",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 83,
+          "name": "Farfetch’d",
+          "slug": "farfetchd",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 149,
+          "name": "Dragonite",
+          "slug": "dragonite",
+          "types": [
+            "Dragón",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 169,
+          "name": "Crobat",
+          "slug": "crobat",
+          "types": [
+            "Veneno",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 203,
+          "name": "Girafarig",
+          "slug": "girafarig",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 215,
+          "name": "Sneasel",
+          "slug": "sneasel",
+          "types": [
+            "Siniestro",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 361,
+          "name": "Snorunt",
+          "slug": "snorunt",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 362,
+          "name": "Glalie",
+          "slug": "glalie",
+          "types": [
+            "Hielo",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 447,
+          "name": "Riolu",
+          "slug": "riolu",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 448,
+          "name": "Lucario",
+          "slug": "lucario",
+          "types": [
+            "Lucha",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 588,
+          "name": "Throh",
+          "slug": "throh",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 589,
+          "name": "Sawk",
+          "slug": "sawk",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 669,
+          "name": "Mienfoo",
+          "slug": "mienfoo",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 670,
+          "name": "Mienshao",
+          "slug": "mienshao",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 674,
+          "name": "Pawniard",
+          "slug": "pawniard",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 674,
+          "name": "Pawniard",
+          "slug": "pawniard",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 675,
+          "name": "Bisharp",
+          "slug": "bisharp",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 675,
+          "name": "Bisharp",
+          "slug": "bisharp",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 815,
+          "name": "Oranguru",
+          "slug": "oranguru",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 926,
+          "name": "Indeedee",
+          "slug": "indeedee",
+          "types": [
+            "Psíquico",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 941,
+          "name": "Kubfu",
+          "slug": "kubfu",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1029,
+          "name": "Annihilape",
+          "slug": "annihilape",
+          "types": [
+            "Lucha",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuga",
+      "desc": "Puede escaparse de todos los Pokémon salvajes.",
+      "pokemon": [
+        {
+          "pid": 19,
+          "name": "Rattata",
+          "slug": "rattata",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 20,
+          "name": "Raticate",
+          "slug": "raticate",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 77,
+          "name": "Ponyta",
+          "slug": "ponyta",
+          "types": [
+            "Fuego",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 78,
+          "name": "Rapidash",
+          "slug": "rapidash",
+          "types": [
+            "Fuego",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 84,
+          "name": "Doduo",
+          "slug": "doduo",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 85,
+          "name": "Dodrio",
+          "slug": "dodrio",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 133,
+          "name": "Eevee",
+          "slug": "eevee",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 161,
+          "name": "Sentret",
+          "slug": "sentret",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 162,
+          "name": "Furret",
+          "slug": "furret",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 206,
+          "name": "Dunsparce",
+          "slug": "dunsparce",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 209,
+          "name": "Snubbull",
+          "slug": "snubbull",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 261,
+          "name": "Poochyena",
+          "slug": "poochyena",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 417,
+          "name": "Pachirisu",
+          "slug": "pachirisu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 554,
+          "name": "Patrat",
+          "slug": "patrat",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 877,
+          "name": "Nickit",
+          "slug": "nickit",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 878,
+          "name": "Thievul",
+          "slug": "thievul",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 881,
+          "name": "Wooloo",
+          "slug": "wooloo",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 974,
+          "name": "Tandemaus",
+          "slug": "tandemaus",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 992,
+          "name": "Maschiff",
+          "slug": "maschiff",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1032,
+          "name": "Dudunsparce",
+          "slug": "dudunsparce",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funda",
+      "desc": "No le afectan las tormentas de arena, el granizo y los movimientos con polvos.",
+      "pokemon": [
+        {
+          "pid": 679,
+          "name": "Vullaby",
+          "slug": "vullaby",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 680,
+          "name": "Mandibuzz",
+          "slug": "mandibuzz",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 1015,
+          "name": "Varoom",
+          "slug": "varoom",
+          "types": [
+            "Acero",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1016,
+          "name": "Revavroom",
+          "slug": "revavroom",
+          "types": [
+            "Acero",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garra Dura",
+      "desc": "Aumenta la potencia de los movimientos de contacto.",
+      "pokemon": [
+        {
+          "pid": 738,
+          "name": "Binacle",
+          "slug": "binacle",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 739,
+          "name": "Barbaracle",
+          "slug": "barbaracle",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 913,
+          "name": "Perrserker",
+          "slug": "perrserker",
+          "types": [
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gas Reactivo",
+      "desc": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate.",
+      "pokemon": [
+        {
+          "pid": "110_galar",
+          "name": "Weezing de Galar",
+          "slug": "weezing-galar",
+          "types": [
+            "Veneno",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gran Encanto",
+      "desc": "Puede causar enamoramiento al rival que lo toque.",
+      "pokemon": [
+        {
+          "pid": 35,
+          "name": "Clefairy",
+          "slug": "clefairy",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 36,
+          "name": "Clefable",
+          "slug": "clefable",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 39,
+          "name": "Jigglypuff",
+          "slug": "jigglypuff",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 40,
+          "name": "Wigglytuff",
+          "slug": "wigglytuff",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 173,
+          "name": "Cleffa",
+          "slug": "cleffa",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 174,
+          "name": "Igglybuff",
+          "slug": "igglybuff",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 300,
+          "name": "Skitty",
+          "slug": "skitty",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 301,
+          "name": "Delcatty",
+          "slug": "delcatty",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 427,
+          "name": "Buneary",
+          "slug": "buneary",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 428,
+          "name": "Lopunny",
+          "slug": "lopunny",
+          "types": [
+            "Normal",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 955,
+          "name": "Enamorus",
+          "slug": "enamorus",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guardia Espectro",
+      "desc": "Reduce el daño que sufre si sus PS están al máximo.",
+      "pokemon": [
+        {
+          "pid": 842,
+          "name": "Lunala",
+          "slug": "lunala",
+          "types": [
+            "Psíquico",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guardia Metálica",
+      "desc": "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
+      "pokemon": [
+        {
+          "pid": 841,
+          "name": "Solgaleo",
+          "slug": "solgaleo",
+          "types": [
+            "Psíquico",
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gula",
+      "desc": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+      "pokemon": [
+        {
+          "pid": 213,
+          "name": "Shuckle",
+          "slug": "shuckle",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 263,
+          "name": "Zigzagoon",
+          "slug": "zigzagoon",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 264,
+          "name": "Linoone",
+          "slug": "linoone",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 561,
+          "name": "Pansage",
+          "slug": "pansage",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 562,
+          "name": "Simisage",
+          "slug": "simisage",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 563,
+          "name": "Pansear",
+          "slug": "pansear",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 564,
+          "name": "Simisear",
+          "slug": "simisear",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 565,
+          "name": "Panpour",
+          "slug": "panpour",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 566,
+          "name": "Simipour",
+          "slug": "simipour",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 681,
+          "name": "Heatmor",
+          "slug": "heatmor",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 890,
+          "name": "Applin",
+          "slug": "applin",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 891,
+          "name": "Flapple",
+          "slug": "flapple",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 892,
+          "name": "Appletun",
+          "slug": "appletun",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 892,
+          "name": "Appletun",
+          "slug": "appletun",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 965,
+          "name": "Lechonk",
+          "slug": "lechonk",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 966,
+          "name": "Oinkologne",
+          "slug": "oinkologne",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 966,
+          "name": "Oinkologne",
+          "slug": "oinkologne",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 1061,
+          "name": "Dipplin",
+          "slug": "dipplin",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gélido",
+      "desc": "Recupera PS de forma gradual cuando hay tormentas de granizo.",
+      "pokemon": [
+        {
+          "pid": 361,
+          "name": "Snorunt",
+          "slug": "snorunt",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 362,
+          "name": "Glalie",
+          "slug": "glalie",
+          "types": [
+            "Hielo",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 363,
+          "name": "Spheal",
+          "slug": "spheal",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 364,
+          "name": "Sealeo",
+          "slug": "sealeo",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 365,
+          "name": "Walrein",
+          "slug": "walrein",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 632,
+          "name": "Vanillite",
+          "slug": "vanillite",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 633,
+          "name": "Vanillish",
+          "slug": "vanillish",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 634,
+          "name": "Vanilluxe",
+          "slug": "vanilluxe",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 762,
+          "name": "Bergmite",
+          "slug": "bergmite",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 763,
+          "name": "Avalugg",
+          "slug": "avalugg",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 933,
+          "name": "Arctovish",
+          "slug": "arctovish",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hedor",
+      "desc": "Puede amedrentar al rival al atacarlo debido al mal olor que emana.",
+      "pokemon": [
+        {
+          "pid": 88,
+          "name": "Grimer",
+          "slug": "grimer",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 89,
+          "name": "Muk",
+          "slug": "muk",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 434,
+          "name": "Stunky",
+          "slug": "stunky",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 435,
+          "name": "Skuntank",
+          "slug": "skuntank",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 618,
+          "name": "Trubbish",
+          "slug": "trubbish",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 619,
+          "name": "Garbodor",
+          "slug": "garbodor",
+          "types": [
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Herbogénesis",
+      "desc": "Crea un campo de hierba al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 837,
+          "name": "Tapu Bulu",
+          "slug": "tapubulu",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 860,
+          "name": "Grookey",
+          "slug": "grookey",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 861,
+          "name": "Thwackey",
+          "slug": "thwackey",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 862,
+          "name": "Rillaboom",
+          "slug": "rillaboom",
+          "types": [
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Herbívoro",
+      "desc": "Neutraliza los movimientos de tipo Planta y sube su Ataque.",
+      "pokemon": [
+        {
+          "pid": 572,
+          "name": "Blitzle",
+          "slug": "blitzle",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 573,
+          "name": "Zebstrika",
+          "slug": "zebstrika",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 635,
+          "name": "Deerling",
+          "slug": "deerling",
+          "types": [
+            "Normal",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 636,
+          "name": "Sawsbuck",
+          "slug": "sawsbuck",
+          "types": [
+            "Normal",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 676,
+          "name": "Bouffalant",
+          "slug": "bouffalant",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 722,
+          "name": "Skiddo",
+          "slug": "skiddo",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 723,
+          "name": "Gogoat",
+          "slug": "gogoat",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 754,
+          "name": "Goomy",
+          "slug": "goomy",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 755,
+          "name": "Sliggoo",
+          "slug": "sliggoo",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 756,
+          "name": "Goodra",
+          "slug": "goodra",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 830,
+          "name": "Drampa",
+          "slug": "drampa",
+          "types": [
+            "Normal",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 1061,
+          "name": "Dipplin",
+          "slug": "dipplin",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 1069,
+          "name": "Hydrapple",
+          "slug": "hydrapple",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": "705_hisui",
+          "name": "Sliggoo de Hisui",
+          "slug": "sliggoo-hisui",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": "706_hisui",
+          "name": "Goodra de Hisui",
+          "slug": "goodra-hisui",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hidratación",
+      "desc": "Cura los problemas de estado si está lloviendo.",
+      "pokemon": [
+        {
+          "pid": 86,
+          "name": "Seel",
+          "slug": "seel",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 87,
+          "name": "Dewgong",
+          "slug": "dewgong",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 278,
+          "name": "Wingull",
+          "slug": "wingull",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 489,
+          "name": "Phione",
+          "slug": "phione",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 490,
+          "name": "Manaphy",
+          "slug": "manaphy",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 644,
+          "name": "Alomomola",
+          "slug": "alomomola",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 666,
+          "name": "Shelmet",
+          "slug": "shelmet",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 667,
+          "name": "Accelgor",
+          "slug": "accelgor",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 754,
+          "name": "Goomy",
+          "slug": "goomy",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 755,
+          "name": "Sliggoo",
+          "slug": "sliggoo",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 756,
+          "name": "Goodra",
+          "slug": "goodra",
+          "types": [
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hidrorrefuerzo",
+      "desc": "Aumenta mucho su Defensa si le alcanza un movimiento de tipo Agua.",
+      "pokemon": [
+        {
+          "pid": 819,
+          "name": "Sandygast",
+          "slug": "sandygast",
+          "types": [
+            "Fantasma",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 820,
+          "name": "Palossand",
+          "slug": "palossand",
+          "types": [
+            "Fantasma",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Humedad",
+      "desc": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción.",
+      "pokemon": [
+        {
+          "pid": 54,
+          "name": "Psyduck",
+          "slug": "psyduck",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 55,
+          "name": "Golduck",
+          "slug": "golduck",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 60,
+          "name": "Poliwag",
+          "slug": "poliwag",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 61,
+          "name": "Poliwhirl",
+          "slug": "poliwhirl",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 62,
+          "name": "Poliwrath",
+          "slug": "poliwrath",
+          "types": [
+            "Agua",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 194,
+          "name": "Wooper",
+          "slug": "wooper",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 195,
+          "name": "Quagsire",
+          "slug": "quagsire",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 258,
+          "name": "Mudkip",
+          "slug": "mudkip",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 259,
+          "name": "Marshtomp",
+          "slug": "marshtomp",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 260,
+          "name": "Swampert",
+          "slug": "swampert",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Humo Blanco",
+      "desc": "El humo blanco que lo protege evita que otros Pokémon le bajen las características.",
+      "pokemon": [
+        {
+          "pid": 324,
+          "name": "Torkoal",
+          "slug": "torkoal",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 900,
+          "name": "Sizzlipede",
+          "slug": "sizzlipede",
+          "types": [
+            "Fuego",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 901,
+          "name": "Centiskorch",
+          "slug": "centiskorch",
+          "types": [
+            "Fuego",
+            "Bicho"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hurto",
+      "desc": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+      "pokemon": [
+        {
+          "pid": 994,
+          "name": "Shroodle",
+          "slug": "shroodle",
+          "types": [
+            "Veneno",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ignorante",
+      "desc": "Pasa por alto las mejoras en las características del rival al atacar.",
+      "pokemon": [
+        {
+          "pid": 577,
+          "name": "Woobat",
+          "slug": "woobat",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 578,
+          "name": "Swoobat",
+          "slug": "swoobat",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 839,
+          "name": "Cosmog",
+          "slug": "cosmog",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1027,
+          "name": "Dondozo",
+          "slug": "dondozo",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ignífugo",
+      "desc": "Su cuerpo, resistente al calor, reduce a la mitad el daño recibido por movimientos de tipo Fuego.",
+      "pokemon": [
+        {
+          "pid": 436,
+          "name": "Bronzor",
+          "slug": "bronzor",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 437,
+          "name": "Bronzong",
+          "slug": "bronzong",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 887,
+          "name": "Rolycoly",
+          "slug": "rolycoly",
+          "types": [
+            "Roca"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iluminación",
+      "desc": "Aumenta la probabilidad de encontrar Pokémon al iluminar el entorno.",
+      "pokemon": [
+        {
+          "pid": 120,
+          "name": "Staryu",
+          "slug": "staryu",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 121,
+          "name": "Starmie",
+          "slug": "starmie",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 313,
+          "name": "Volbeat",
+          "slug": "volbeat",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 555,
+          "name": "Watchog",
+          "slug": "watchog",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 805,
+          "name": "Morelull",
+          "slug": "morelull",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 806,
+          "name": "Shiinotic",
+          "slug": "shiinotic",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ilusión",
+      "desc": "Adopta el aspecto del último Pokémon del equipo al entrar en combate para desconcertar al rival.",
+      "pokemon": [
+        {
+          "pid": 620,
+          "name": "Zorua",
+          "slug": "zorua",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 621,
+          "name": "Zoroark",
+          "slug": "zoroark",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": "571_hisui",
+          "name": "Zoroark de Hisui",
+          "slug": "zoroark-hisui",
+          "types": [
+            "Normal",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Impasible",
+      "desc": "Cada vez que se amedrenta sube su Velocidad, debido a su voluntad inquebrantable.",
+      "pokemon": [
+        {
+          "pid": 236,
+          "name": "Tyrogue",
+          "slug": "tyrogue",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 447,
+          "name": "Riolu",
+          "slug": "riolu",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 448,
+          "name": "Lucario",
+          "slug": "lucario",
+          "types": [
+            "Lucha",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 475,
+          "name": "Gallade",
+          "slug": "gallade",
+          "types": [
+            "Psíquico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 882,
+          "name": "Dubwool",
+          "slug": "dubwool",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 915,
+          "name": "Sirfetch’d",
+          "slug": "sirfetchd",
+          "types": [
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Impulso",
+      "desc": "Aumenta su Velocidad en cada turno.",
+      "pokemon": [
+        {
+          "pid": 193,
+          "name": "Yanma",
+          "slug": "yanma",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 255,
+          "name": "Torchic",
+          "slug": "torchic",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 256,
+          "name": "Combusken",
+          "slug": "combusken",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 257,
+          "name": "Blaziken",
+          "slug": "blaziken",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 291,
+          "name": "Ninjask",
+          "slug": "ninjask",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 318,
+          "name": "Carvanha",
+          "slug": "carvanha",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 319,
+          "name": "Sharpedo",
+          "slug": "sharpedo",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 469,
+          "name": "Yanmega",
+          "slug": "yanmega",
+          "types": [
+            "Bicho",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 593,
+          "name": "Venipede",
+          "slug": "venipede",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 594,
+          "name": "Whirlipede",
+          "slug": "whirlipede",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 595,
+          "name": "Scolipede",
+          "slug": "scolipede",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Imán",
+      "desc": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+      "pokemon": [
+        {
+          "pid": 81,
+          "name": "Magnemite",
+          "slug": "magnemite",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 82,
+          "name": "Magneton",
+          "slug": "magneton",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 299,
+          "name": "Nosepass",
+          "slug": "nosepass",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 462,
+          "name": "Magnezone",
+          "slug": "magnezone",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 476,
+          "name": "Probopass",
+          "slug": "probopass",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 858,
+          "name": "Meltan",
+          "slug": "meltan",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": "76_alola",
+          "name": "Golem de Alola",
+          "slug": "golem-alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "75_alola",
+          "name": "Graveler de Alola",
+          "slug": "graveler-alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "74_alola",
+          "name": "Geodude de Alola",
+          "slug": "geodude-alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indefenso",
+      "desc": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre.",
+      "pokemon": [
+        {
+          "pid": 66,
+          "name": "Machop",
+          "slug": "machop",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 67,
+          "name": "Machoke",
+          "slug": "machoke",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 68,
+          "name": "Machamp",
+          "slug": "machamp",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 729,
+          "name": "Honedge",
+          "slug": "honedge",
+          "types": [
+            "Acero",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 730,
+          "name": "Doublade",
+          "slug": "doublade",
+          "types": [
+            "Acero",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inicio Lento",
+      "desc": "Baja a la mitad su Ataque y su Velocidad durante cinco turnos.",
+      "pokemon": [
+        {
+          "pid": 486,
+          "name": "Regigigas",
+          "slug": "regigigas",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inmunidad",
+      "desc": "Su sistema inmunitario evita el envenenamiento.",
+      "pokemon": [
+        {
+          "pid": 143,
+          "name": "Snorlax",
+          "slug": "snorlax",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 335,
+          "name": "Zangoose",
+          "slug": "zangoose",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insomnio",
+      "desc": "Su resistencia al sueño le impide quedarse dormido.",
+      "pokemon": [
+        {
+          "pid": 96,
+          "name": "Drowzee",
+          "slug": "drowzee",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 97,
+          "name": "Hypno",
+          "slug": "hypno",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 163,
+          "name": "Hoothoot",
+          "slug": "hoothoot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 164,
+          "name": "Noctowl",
+          "slug": "noctowl",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 167,
+          "name": "Spinarak",
+          "slug": "spinarak",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 168,
+          "name": "Ariados",
+          "slug": "ariados",
+          "types": [
+            "Bicho",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 198,
+          "name": "Murkrow",
+          "slug": "murkrow",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 353,
+          "name": "Shuppet",
+          "slug": "shuppet",
+          "types": [
+            "Fantasma",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 354,
+          "name": "Banette",
+          "slug": "banette",
+          "types": [
+            "Fantasma",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 430,
+          "name": "Honchkrow",
+          "slug": "honchkrow",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 967,
+          "name": "Tarountula",
+          "slug": "tarountula",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 968,
+          "name": "Spidops",
+          "slug": "spidops",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 1001,
+          "name": "Capsakid",
+          "slug": "capsakid",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1002,
+          "name": "Scovillain",
+          "slug": "scovillain",
+          "types": [
+            "Planta",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insonorizar",
+      "desc": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
+      "pokemon": [
+        {
+          "pid": 100,
+          "name": "Voltorb",
+          "slug": "voltorb",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 101,
+          "name": "Electrode",
+          "slug": "electrode",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 122,
+          "name": "Mr. Mime",
+          "slug": "mrmime",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 293,
+          "name": "Whismur",
+          "slug": "whismur",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 294,
+          "name": "Loudred",
+          "slug": "loudred",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 295,
+          "name": "Exploud",
+          "slug": "exploud",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 439,
+          "name": "Mime Jr.",
+          "slug": "mimejr",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 832,
+          "name": "Jangmo-o",
+          "slug": "jangmoo",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 833,
+          "name": "Hakamo-o",
+          "slug": "hakamoo",
+          "types": [
+            "Dragón",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 834,
+          "name": "Kommo-o",
+          "slug": "kommoo",
+          "types": [
+            "Dragón",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": "101_hisui",
+          "name": "Electrode de Hisui",
+          "slug": "electrode-hisui",
+          "types": [
+            "Eléctrico",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intimidación",
+      "desc": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
+      "pokemon": [
+        {
+          "pid": 23,
+          "name": "Ekans",
+          "slug": "ekans",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 24,
+          "name": "Arbok",
+          "slug": "arbok",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 58,
+          "name": "Growlithe",
+          "slug": "growlithe",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 59,
+          "name": "Arcanine",
+          "slug": "arcanine",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 128,
+          "name": "Tauros",
+          "slug": "tauros",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 130,
+          "name": "Gyarados",
+          "slug": "gyarados",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 209,
+          "name": "Snubbull",
+          "slug": "snubbull",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 210,
+          "name": "Granbull",
+          "slug": "granbull",
+          "types": [
+            "Hada",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 234,
+          "name": "Stantler",
+          "slug": "stantler",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 237,
+          "name": "Hitmontop",
+          "slug": "hitmontop",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 262,
+          "name": "Mightyena",
+          "slug": "mightyena",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 284,
+          "name": "Masquerain",
+          "slug": "masquerain",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 303,
+          "name": "Mawile",
+          "slug": "mawile",
+          "types": [
+            "Acero",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 373,
+          "name": "Salamence",
+          "slug": "salamence",
+          "types": [
+            "Dragón",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 397,
+          "name": "Staravia",
+          "slug": "staravia",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 398,
+          "name": "Staraptor",
+          "slug": "staraptor",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 403,
+          "name": "Shinx",
+          "slug": "shinx",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 404,
+          "name": "Luxio",
+          "slug": "luxio",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 405,
+          "name": "Luxray",
+          "slug": "luxray",
+          "types": [
+            "Eléctrico",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 557,
+          "name": "Herdier",
+          "slug": "herdier",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 558,
+          "name": "Stoutland",
+          "slug": "stoutland",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 601,
+          "name": "Sandile",
+          "slug": "sandile",
+          "types": [
+            "Tierra",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 602,
+          "name": "Krokorok",
+          "slug": "krokorok",
+          "types": [
+            "Tierra",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 603,
+          "name": "Krookodile",
+          "slug": "krookodile",
+          "types": [
+            "Tierra",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 775,
+          "name": "Litten",
+          "slug": "litten",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 776,
+          "name": "Torracat",
+          "slug": "torracat",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 777,
+          "name": "Incineroar",
+          "slug": "incineroar",
+          "types": [
+            "Fuego",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 949,
+          "name": "Wyrdeer",
+          "slug": "wyrdeer",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 981,
+          "name": "Squawkabilly",
+          "slug": "squawkabilly",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 992,
+          "name": "Maschiff",
+          "slug": "maschiff",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 993,
+          "name": "Mabosstiff",
+          "slug": "mabosstiff",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1051,
+          "name": "Wo-Chien",
+          "slug": "wochien",
+          "types": [
+            "Siniestro",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1052,
+          "name": "Chien-Pao",
+          "slug": "chienpao",
+          "types": [
+            "Siniestro",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1053,
+          "name": "Ting-Lu",
+          "slug": "tinglu",
+          "types": [
+            "Siniestro",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1054,
+          "name": "Chi-Yu",
+          "slug": "chiyu",
+          "types": [
+            "Siniestro",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": "59_hisui",
+          "name": "Arcanine de Hisui",
+          "slug": "arcanine-hisui",
+          "types": [
+            "Fuego",
+            "Roca"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intrépido",
+      "desc": "Puede alcanzar a Pokémon de tipo Fantasma con movimientos de tipo Normal o Lucha.",
+      "pokemon": [
+        {
+          "pid": 115,
+          "name": "Kangaskhan",
+          "slug": "kangaskhan",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 241,
+          "name": "Miltank",
+          "slug": "miltank",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 1023,
+          "name": "Flamigo",
+          "slug": "flamigo",
+          "types": [
+            "Volador",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": "724_hisui",
+          "name": "Decidueye de Hisui",
+          "slug": "decidueye-hisui",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Irascible",
+      "desc": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+      "pokemon": [
+        {
+          "pid": 56,
+          "name": "Mankey",
+          "slug": "mankey",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 57,
+          "name": "Primeape",
+          "slug": "primeape",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 128,
+          "name": "Tauros",
+          "slug": "tauros",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Justiciero",
+      "desc": "Si le alcanza un movimiento de tipo Siniestro, aumenta el Ataque debido a su integridad.",
+      "pokemon": [
+        {
+          "pid": 688,
+          "name": "Cobalion",
+          "slug": "cobalion",
+          "types": [
+            "Acero",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 689,
+          "name": "Terrakion",
+          "slug": "terrakion",
+          "types": [
+            "Roca",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 690,
+          "name": "Virizion",
+          "slug": "virizion",
+          "types": [
+            "Planta",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 697,
+          "name": "Keldeo",
+          "slug": "keldeo",
+          "types": [
+            "Agua",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Letargo Perenne",
+      "desc": "No despierta jamás de su profundo letargo e incluso ataca dormido.",
+      "pokemon": [
+        {
+          "pid": 825,
+          "name": "Komala",
+          "slug": "komala",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Levitación",
+      "desc": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
+      "pokemon": [
+        {
+          "pid": 92,
+          "name": "Gastly",
+          "slug": "gastly",
+          "types": [
+            "Fantasma",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 93,
+          "name": "Haunter",
+          "slug": "haunter",
+          "types": [
+            "Fantasma",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 109,
+          "name": "Koffing",
+          "slug": "koffing",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 110,
+          "name": "Weezing",
+          "slug": "weezing",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 200,
+          "name": "Misdreavus",
+          "slug": "misdreavus",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 201,
+          "name": "Unown",
+          "slug": "unown",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 329,
+          "name": "Vibrava",
+          "slug": "vibrava",
+          "types": [
+            "Bicho",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 330,
+          "name": "Flygon",
+          "slug": "flygon",
+          "types": [
+            "Bicho",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 337,
+          "name": "Lunatone",
+          "slug": "lunatone",
+          "types": [
+            "Roca",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 338,
+          "name": "Solrock",
+          "slug": "solrock",
+          "types": [
+            "Roca",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 343,
+          "name": "Baltoy",
+          "slug": "baltoy",
+          "types": [
+            "Tierra",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 344,
+          "name": "Claydol",
+          "slug": "claydol",
+          "types": [
+            "Tierra",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 355,
+          "name": "Duskull",
+          "slug": "duskull",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 358,
+          "name": "Chimecho",
+          "slug": "chimecho",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 380,
+          "name": "Latias",
+          "slug": "latias",
+          "types": [
+            "Dragón",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 381,
+          "name": "Latios",
+          "slug": "latios",
+          "types": [
+            "Dragón",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 429,
+          "name": "Mismagius",
+          "slug": "mismagius",
+          "types": [
+            "Fantasma",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 433,
+          "name": "Chingling",
+          "slug": "chingling",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 436,
+          "name": "Bronzor",
+          "slug": "bronzor",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 437,
+          "name": "Bronzong",
+          "slug": "bronzong",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 455,
+          "name": "Carnivine",
+          "slug": "carnivine",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 479,
+          "name": "Rotom",
+          "slug": "rotom",
+          "types": [
+            "Eléctrico",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 480,
+          "name": "Uxie",
+          "slug": "uxie",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 481,
+          "name": "Mesprit",
+          "slug": "mesprit",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 482,
+          "name": "Azelf",
+          "slug": "azelf",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 488,
+          "name": "Cresselia",
+          "slug": "cresselia",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 652,
+          "name": "Tynamo",
+          "slug": "tynamo",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 653,
+          "name": "Eelektrik",
+          "slug": "eelektrik",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 654,
+          "name": "Eelektross",
+          "slug": "eelektross",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 665,
+          "name": "Cryogonal",
+          "slug": "cryogonal",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 685,
+          "name": "Hydreigon",
+          "slug": "hydreigon",
+          "types": [
+            "Siniestro",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 788,
+          "name": "Vikavolt",
+          "slug": "vikavolt",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "110_galar",
+          "name": "Weezing de Galar",
+          "slug": "weezing-galar",
+          "types": [
+            "Veneno",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liviano",
+      "desc": "Sube su Velocidad si usa o pierde el objeto que lleva.",
+      "pokemon": [
+        {
+          "pid": 252,
+          "name": "Treecko",
+          "slug": "treecko",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 253,
+          "name": "Grovyle",
+          "slug": "grovyle",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 254,
+          "name": "Sceptile",
+          "slug": "sceptile",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 425,
+          "name": "Drifloon",
+          "slug": "drifloon",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 426,
+          "name": "Drifblim",
+          "slug": "drifblim",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 559,
+          "name": "Purrloin",
+          "slug": "purrloin",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 560,
+          "name": "Liepard",
+          "slug": "liepard",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 751,
+          "name": "Hawlucha",
+          "slug": "hawlucha",
+          "types": [
+            "Lucha",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 877,
+          "name": "Nickit",
+          "slug": "nickit",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 878,
+          "name": "Thievul",
+          "slug": "thievul",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 953,
+          "name": "Sneasler",
+          "slug": "sneasler",
+          "types": [
+            "Lucha",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 994,
+          "name": "Shroodle",
+          "slug": "shroodle",
+          "types": [
+            "Veneno",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 995,
+          "name": "Grafaiai",
+          "slug": "grafaiai",
+          "types": [
+            "Veneno",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Llovizna",
+      "desc": "Hace que llueva al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 186,
+          "name": "Politoed",
+          "slug": "politoed",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 279,
+          "name": "Pelipper",
+          "slug": "pelipper",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 382,
+          "name": "Kyogre",
+          "slug": "kyogre",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lodo Líquido",
+      "desc": "Exuda una sustancia tóxica de intenso hedor que hiere a quienes intentan drenarle PS.",
+      "pokemon": [
+        {
+          "pid": 72,
+          "name": "Tentacool",
+          "slug": "tentacool",
+          "types": [
+            "Agua",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 73,
+          "name": "Tentacruel",
+          "slug": "tentacruel",
+          "types": [
+            "Agua",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 316,
+          "name": "Gulpin",
+          "slug": "gulpin",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 317,
+          "name": "Swalot",
+          "slug": "swalot",
+          "types": [
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Líbero",
+      "desc": "Cambia su tipo al del movimiento que va a usar.",
+      "pokemon": [
+        {
+          "pid": 863,
+          "name": "Scorbunny",
+          "slug": "scorbunny",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 864,
+          "name": "Raboot",
+          "slug": "raboot",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 865,
+          "name": "Cinderace",
+          "slug": "cinderace",
+          "types": [
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Madrugar",
+      "desc": "Si se duerme, tardará la mitad de tiempo en despertarse.",
+      "pokemon": [
+        {
+          "pid": 84,
+          "name": "Doduo",
+          "slug": "doduo",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 85,
+          "name": "Dodrio",
+          "slug": "dodrio",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 115,
+          "name": "Kangaskhan",
+          "slug": "kangaskhan",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 165,
+          "name": "Ledyba",
+          "slug": "ledyba",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 166,
+          "name": "Ledian",
+          "slug": "ledian",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 203,
+          "name": "Girafarig",
+          "slug": "girafarig",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 228,
+          "name": "Houndour",
+          "slug": "houndour",
+          "types": [
+            "Siniestro",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 229,
+          "name": "Houndoom",
+          "slug": "houndoom",
+          "types": [
+            "Siniestro",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 273,
+          "name": "Seedot",
+          "slug": "seedot",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 274,
+          "name": "Nuzleaf",
+          "slug": "nuzleaf",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 890,
+          "name": "Applin",
+          "slug": "applin",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 978,
+          "name": "Smoliv",
+          "slug": "smoliv",
+          "types": [
+            "Planta",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 979,
+          "name": "Dolliv",
+          "slug": "dolliv",
+          "types": [
+            "Planta",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mal Sueño",
+      "desc": "Inflige daño a cualquier rival que esté dormido.",
+      "pokemon": [
+        {
+          "pid": 491,
+          "name": "Darkrai",
+          "slug": "darkrai",
+          "types": [
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mandíbula Fuerte",
+      "desc": "Su robusta mandíbula le confiere una mordedura potente.",
+      "pokemon": [
+        {
+          "pid": 158,
+          "name": "Totodile",
+          "slug": "totodile",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 159,
+          "name": "Croconaw",
+          "slug": "croconaw",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 160,
+          "name": "Feraligatr",
+          "slug": "feraligatr",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 746,
+          "name": "Tyrunt",
+          "slug": "tyrunt",
+          "types": [
+            "Roca",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 747,
+          "name": "Tyrantrum",
+          "slug": "tyrantrum",
+          "types": [
+            "Roca",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 784,
+          "name": "Yungoos",
+          "slug": "yungoos",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 785,
+          "name": "Gumshoos",
+          "slug": "gumshoos",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 829,
+          "name": "Bruxish",
+          "slug": "bruxish",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 883,
+          "name": "Chewtle",
+          "slug": "chewtle",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 884,
+          "name": "Drednaw",
+          "slug": "drednaw",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 886,
+          "name": "Boltund",
+          "slug": "boltund",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 932,
+          "name": "Dracovish",
+          "slug": "dracovish",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manto Níveo",
+      "desc": "Sube la Evasión cuando graniza.",
+      "pokemon": [
+        {
+          "pid": 220,
+          "name": "Swinub",
+          "slug": "swinub",
+          "types": [
+            "Hielo",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 221,
+          "name": "Piloswine",
+          "slug": "piloswine",
+          "types": [
+            "Hielo",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 471,
+          "name": "Glaceon",
+          "slug": "glaceon",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 473,
+          "name": "Mamoswine",
+          "slug": "mamoswine",
+          "types": [
+            "Hielo",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 478,
+          "name": "Froslass",
+          "slug": "froslass",
+          "types": [
+            "Hielo",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 632,
+          "name": "Vanillite",
+          "slug": "vanillite",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 633,
+          "name": "Vanillish",
+          "slug": "vanillish",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 663,
+          "name": "Cubchoo",
+          "slug": "cubchoo",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 664,
+          "name": "Beartic",
+          "slug": "beartic",
+          "types": [
+            "Hielo",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1024,
+          "name": "Cetoddle",
+          "slug": "cetoddle",
+          "types": [
+            "Hielo",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mar Llamas",
+      "desc": "Potencia sus movimientos de tipo Fuego cuando le quedan pocos PS.",
+      "pokemon": [
+        {
+          "pid": 4,
+          "name": "Charmander",
+          "slug": "charmander",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 5,
+          "name": "Charmeleon",
+          "slug": "charmeleon",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 6,
+          "name": "Charizard",
+          "slug": "charizard",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 155,
+          "name": "Cyndaquil",
+          "slug": "cyndaquil",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 156,
+          "name": "Quilava",
+          "slug": "quilava",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 157,
+          "name": "Typhlosion",
+          "slug": "typhlosion",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 255,
+          "name": "Torchic",
+          "slug": "torchic",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 256,
+          "name": "Combusken",
+          "slug": "combusken",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 257,
+          "name": "Blaziken",
+          "slug": "blaziken",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 390,
+          "name": "Chimchar",
+          "slug": "chimchar",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 391,
+          "name": "Monferno",
+          "slug": "monferno",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 392,
+          "name": "Infernape",
+          "slug": "infernape",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 548,
+          "name": "Tepig",
+          "slug": "tepig",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 549,
+          "name": "Pignite",
+          "slug": "pignite",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 550,
+          "name": "Emboar",
+          "slug": "emboar",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 703,
+          "name": "Fennekin",
+          "slug": "fennekin",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 704,
+          "name": "Braixen",
+          "slug": "braixen",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 705,
+          "name": "Delphox",
+          "slug": "delphox",
+          "types": [
+            "Fuego",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 775,
+          "name": "Litten",
+          "slug": "litten",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 776,
+          "name": "Torracat",
+          "slug": "torracat",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 777,
+          "name": "Incineroar",
+          "slug": "incineroar",
+          "types": [
+            "Fuego",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 863,
+          "name": "Scorbunny",
+          "slug": "scorbunny",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 864,
+          "name": "Raboot",
+          "slug": "raboot",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 865,
+          "name": "Cinderace",
+          "slug": "cinderace",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 959,
+          "name": "Fuecoco",
+          "slug": "fuecoco",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 960,
+          "name": "Crocalor",
+          "slug": "crocalor",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 961,
+          "name": "Skeledirge",
+          "slug": "skeledirge",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": "157_hisui",
+          "name": "Typhlosion de Hisui",
+          "slug": "typhlosion-hisui",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Megadisparador",
+      "desc": "Aumenta la potencia de algunos movimientos de pulsos y auras.",
+      "pokemon": [
+        {
+          "pid": 7,
+          "name": "Squirtle",
+          "slug": "squirtle",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 8,
+          "name": "Wartortle",
+          "slug": "wartortle",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 9,
+          "name": "Blastoise",
+          "slug": "blastoise",
+          "types": [
+            "Agua",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 742,
+          "name": "Clauncher",
+          "slug": "clauncher",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 743,
+          "name": "Clawitzer",
+          "slug": "clawitzer",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Menos",
+      "desc": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+      "pokemon": [
+        {
+          "pid": 312,
+          "name": "Minun",
+          "slug": "minun",
+          "types": [
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metal Liviano",
+      "desc": "Reduce a la mitad su peso.",
+      "pokemon": [
+        {
+          "pid": 934,
+          "name": "Duraludon",
+          "slug": "duraludon",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metal Pesado",
+      "desc": "Duplica su peso.",
+      "pokemon": [
+        {
+          "pid": 934,
+          "name": "Duraludon",
+          "slug": "duraludon",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Momia",
+      "desc": "Contagia la habilidad Momia al rival que entre en contacto con él.",
+      "pokemon": [
+        {
+          "pid": 612,
+          "name": "Yamask",
+          "slug": "yamask",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 613,
+          "name": "Cofagrigus",
+          "slug": "cofagrigus",
+          "types": [
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mudar",
+      "desc": "Puede curar sus problemas de estado al mudar la piel.",
+      "pokemon": [
+        {
+          "pid": 11,
+          "name": "Metapod",
+          "slug": "metapod",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 14,
+          "name": "Kakuna",
+          "slug": "kakuna",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 23,
+          "name": "Ekans",
+          "slug": "ekans",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 24,
+          "name": "Arbok",
+          "slug": "arbok",
+          "types": [
+            "Veneno",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 147,
+          "name": "Dratini",
+          "slug": "dratini",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 148,
+          "name": "Dragonair",
+          "slug": "dragonair",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 247,
+          "name": "Pupitar",
+          "slug": "pupitar",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 266,
+          "name": "Silcoon",
+          "slug": "silcoon",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 268,
+          "name": "Cascoon",
+          "slug": "cascoon",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 336,
+          "name": "Seviper",
+          "slug": "seviper",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 401,
+          "name": "Kricketot",
+          "slug": "kricketot",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 412,
+          "name": "Burmy",
+          "slug": "burmy",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 609,
+          "name": "Scraggy",
+          "slug": "scraggy",
+          "types": [
+            "Siniestro",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 610,
+          "name": "Scrafty",
+          "slug": "scrafty",
+          "types": [
+            "Siniestro",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 638,
+          "name": "Karrablast",
+          "slug": "karrablast",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 715,
+          "name": "Spewpa",
+          "slug": "spewpa",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 891,
+          "name": "Flapple",
+          "slug": "flapple",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 893,
+          "name": "Silicobra",
+          "slug": "silicobra",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 894,
+          "name": "Sandaconda",
+          "slug": "sandaconda",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1017,
+          "name": "Cyclizar",
+          "slug": "cyclizar",
+          "types": [
+            "Dragón",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multiescamas",
+      "desc": "Reduce el daño que sufre si sus PS están al máximo.",
+      "pokemon": [
+        {
+          "pid": 147,
+          "name": "Dratini",
+          "slug": "dratini",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 148,
+          "name": "Dragonair",
+          "slug": "dragonair",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 149,
+          "name": "Dragonite",
+          "slug": "dragonite",
+          "types": [
+            "Dragón",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multitipo",
+      "desc": "Cambia su tipo al de la tabla o al del Cristal Z que lleve.",
+      "pokemon": [
+        {
+          "pid": 493,
+          "name": "Arceus",
+          "slug": "arceus",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Muro Mágico",
+      "desc": "Solo recibe daño de ataques.",
+      "pokemon": [
+        {
+          "pid": 35,
+          "name": "Clefairy",
+          "slug": "clefairy",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 36,
+          "name": "Clefable",
+          "slug": "clefable",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 173,
+          "name": "Cleffa",
+          "slug": "cleffa",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 611,
+          "name": "Sigilyph",
+          "slug": "sigilyph",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 627,
+          "name": "Solosis",
+          "slug": "solosis",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 628,
+          "name": "Duosion",
+          "slug": "duosion",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 629,
+          "name": "Reuniclus",
+          "slug": "reuniclus",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mutatipo",
+      "desc": "Cambia su tipo al del movimiento que va a usar.",
+      "pokemon": [
+        {
+          "pid": 706,
+          "name": "Froakie",
+          "slug": "froakie",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 707,
+          "name": "Frogadier",
+          "slug": "frogadier",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 708,
+          "name": "Greninja",
+          "slug": "greninja",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Más",
+      "desc": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+      "pokemon": [
+        {
+          "pid": 311,
+          "name": "Plusle",
+          "slug": "plusle",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 649,
+          "name": "Klink",
+          "slug": "klink",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 650,
+          "name": "Klang",
+          "slug": "klang",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 651,
+          "name": "Klinklang",
+          "slug": "klinklang",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 899,
+          "name": "Toxtricity",
+          "slug": "toxtricity",
+          "types": [
+            "Eléctrico",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nado Rápido",
+      "desc": "Sube su Velocidad cuando llueve.",
+      "pokemon": [
+        {
+          "pid": 116,
+          "name": "Horsea",
+          "slug": "horsea",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 118,
+          "name": "Goldeen",
+          "slug": "goldeen",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 119,
+          "name": "Seaking",
+          "slug": "seaking",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 129,
+          "name": "Magikarp",
+          "slug": "magikarp",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 138,
+          "name": "Omanyte",
+          "slug": "omanyte",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 139,
+          "name": "Omastar",
+          "slug": "omastar",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 140,
+          "name": "Kabuto",
+          "slug": "kabuto",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 141,
+          "name": "Kabutops",
+          "slug": "kabutops",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 211,
+          "name": "Qwilfish",
+          "slug": "qwilfish",
+          "types": [
+            "Agua",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 226,
+          "name": "Mantine",
+          "slug": "mantine",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 230,
+          "name": "Kingdra",
+          "slug": "kingdra",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 270,
+          "name": "Lotad",
+          "slug": "lotad",
+          "types": [
+            "Agua",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 271,
+          "name": "Lombre",
+          "slug": "lombre",
+          "types": [
+            "Agua",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 272,
+          "name": "Ludicolo",
+          "slug": "ludicolo",
+          "types": [
+            "Agua",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 283,
+          "name": "Surskit",
+          "slug": "surskit",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 349,
+          "name": "Feebas",
+          "slug": "feebas",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 367,
+          "name": "Huntail",
+          "slug": "huntail",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 368,
+          "name": "Gorebyss",
+          "slug": "gorebyss",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 369,
+          "name": "Relicanth",
+          "slug": "relicanth",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 370,
+          "name": "Luvdisc",
+          "slug": "luvdisc",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 418,
+          "name": "Buizel",
+          "slug": "buizel",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 419,
+          "name": "Floatzel",
+          "slug": "floatzel",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 456,
+          "name": "Finneon",
+          "slug": "finneon",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 457,
+          "name": "Lumineon",
+          "slug": "lumineon",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 458,
+          "name": "Mantyke",
+          "slug": "mantyke",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 585,
+          "name": "Tympole",
+          "slug": "tympole",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 586,
+          "name": "Palpitoad",
+          "slug": "palpitoad",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 587,
+          "name": "Seismitoad",
+          "slug": "seismitoad",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 896,
+          "name": "Arrokuda",
+          "slug": "arrokuda",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 897,
+          "name": "Barraskewda",
+          "slug": "barraskewda",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 952,
+          "name": "Basculegion",
+          "slug": "basculegion",
+          "types": [
+            "Agua",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 954,
+          "name": "Overqwil",
+          "slug": "overqwil",
+          "types": [
+            "Siniestro",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nebulogénesis",
+      "desc": "Crea un campo de niebla al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 838,
+          "name": "Tapu Fini",
+          "slug": "tapufini",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nerviosismo",
+      "desc": "Pone nervioso al rival y le impide usar bayas.",
+      "pokemon": [
+        {
+          "pid": 645,
+          "name": "Joltik",
+          "slug": "joltik",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 646,
+          "name": "Galvantula",
+          "slug": "galvantula",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 717,
+          "name": "Litleo",
+          "slug": "litleo",
+          "types": [
+            "Fuego",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 718,
+          "name": "Pyroar",
+          "slug": "pyroar",
+          "types": [
+            "Fuego",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 871,
+          "name": "Rookidee",
+          "slug": "rookidee",
+          "types": [
+            "Volador"
+          ]
+        },
+        {
+          "pid": 872,
+          "name": "Corvisquire",
+          "slug": "corvisquire",
+          "types": [
+            "Volador"
+          ]
+        },
+        {
+          "pid": 873,
+          "name": "Corviknight",
+          "slug": "corviknight",
+          "types": [
+            "Volador",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 948,
+          "name": "Calyrex",
+          "slug": "calyrex",
+          "types": [
+            "Psíquico",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "desc": "Invoca una tormenta de granizo al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 459,
+          "name": "Snover",
+          "slug": "snover",
+          "types": [
+            "Planta",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 460,
+          "name": "Abomasnow",
+          "slug": "abomasnow",
+          "types": [
+            "Planta",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 634,
+          "name": "Vanilluxe",
+          "slug": "vanilluxe",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 748,
+          "name": "Amaura",
+          "slug": "amaura",
+          "types": [
+            "Roca",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 749,
+          "name": "Aurorus",
+          "slug": "aurorus",
+          "types": [
+            "Roca",
+            "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Normalidad",
+      "desc": "Hace que todos sus movimientos se vuelvan de tipo Normal y aumenten ligeramente su potencia.",
+      "pokemon": [
+        {
+          "pid": 300,
+          "name": "Skitty",
+          "slug": "skitty",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 301,
+          "name": "Delcatty",
+          "slug": "delcatty",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ojo Compuesto",
+      "desc": "Aumenta la precisión de sus movimientos.",
+      "pokemon": [
+        {
+          "pid": 12,
+          "name": "Butterfree",
+          "slug": "butterfree",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 48,
+          "name": "Venonat",
+          "slug": "venonat",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 193,
+          "name": "Yanma",
+          "slug": "yanma",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 290,
+          "name": "Nincada",
+          "slug": "nincada",
+          "types": [
+            "Bicho",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 645,
+          "name": "Joltik",
+          "slug": "joltik",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 646,
+          "name": "Galvantula",
+          "slug": "galvantula",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 714,
+          "name": "Scatterbug",
+          "slug": "scatterbug",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 716,
+          "name": "Vivillon",
+          "slug": "vivillon",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 874,
+          "name": "Blipbug",
+          "slug": "blipbug",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 875,
+          "name": "Dottler",
+          "slug": "dottler",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1003,
+          "name": "Rellor",
+          "slug": "rellor",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": "628_hisui",
+          "name": "Braviary de Hisui",
+          "slug": "braviary-hisui",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pararrayos",
+      "desc": "Atrae y neutraliza los movimientos de tipo Eléctrico, que además le suben el Ataque Especial.",
+      "pokemon": [
+        {
+          "pid": 104,
+          "name": "Cubone",
+          "slug": "cubone",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 105,
+          "name": "Marowak",
+          "slug": "marowak",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 111,
+          "name": "Rhyhorn",
+          "slug": "rhyhorn",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 112,
+          "name": "Rhydon",
+          "slug": "rhydon",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 118,
+          "name": "Goldeen",
+          "slug": "goldeen",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 119,
+          "name": "Seaking",
+          "slug": "seaking",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 309,
+          "name": "Electrike",
+          "slug": "electrike",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 310,
+          "name": "Manectric",
+          "slug": "manectric",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 464,
+          "name": "Rhyperior",
+          "slug": "rhyperior",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 827,
+          "name": "Togedemaru",
+          "slug": "togedemaru",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 921,
+          "name": "Pincurchin",
+          "slug": "pincurchin",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "105_alola",
+          "name": "Marowak de Alola",
+          "slug": "marowak-alola",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pareja de Baile",
+      "desc": "Puede copiar inmediatamente cualquier movimiento de baile que haya usado otro Pokémon presente en el combate.",
+      "pokemon": [
+        {
+          "pid": 791,
+          "name": "Oricorio",
+          "slug": "oricorio",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pelaje Recio",
+      "desc": "Reduce a la mitad el daño que recibe de ataques físicos del rival.",
+      "pokemon": [
+        {
+          "pid": 726,
+          "name": "Furfrou",
+          "slug": "furfrou",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peluche",
+      "desc": "Reduce a la mitad el daño provocado por los movimientos de contacto, pero duplica el infligido por los de tipo Fuego.",
+      "pokemon": [
+        {
+          "pid": 809,
+          "name": "Stufful",
+          "slug": "stufful",
+          "types": [
+            "Normal",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 810,
+          "name": "Bewear",
+          "slug": "bewear",
+          "types": [
+            "Normal",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 881,
+          "name": "Wooloo",
+          "slug": "wooloo",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 882,
+          "name": "Dubwool",
+          "slug": "dubwool",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pelusa",
+      "desc": "Al ser alcanzado por un ataque, suelta una pelusa de algodón que reduce la Velocidad de todos los demás Pokémon.",
+      "pokemon": [
+        {
+          "pid": 879,
+          "name": "Gossifleur",
+          "slug": "gossifleur",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 880,
+          "name": "Eldegoss",
+          "slug": "eldegoss",
+          "types": [
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piel Eléctrica",
+      "desc": "Convierte los movimientos de tipo Normal en tipo Eléctrico y aumenta ligeramente su potencia.",
+      "pokemon": [
+        {
+          "pid": "76_alola",
+          "name": "Golem de Alola",
+          "slug": "golem-alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "75_alola",
+          "name": "Graveler de Alola",
+          "slug": "graveler-alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": "74_alola",
+          "name": "Geodude de Alola",
+          "slug": "geodude-alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piel Feérica",
+      "desc": "Convierte los movimientos de tipo Normal en tipo Hada y aumenta ligeramente su potencia.",
+      "pokemon": [
+        {
+          "pid": 750,
+          "name": "Sylveon",
+          "slug": "sylveon",
+          "types": [
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piel Helada",
+      "desc": "Convierte los movimientos de tipo Normal en tipo Hielo y aumenta ligeramente su potencia.",
+      "pokemon": [
+        {
+          "pid": 748,
+          "name": "Amaura",
+          "slug": "amaura",
+          "types": [
+            "Roca",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 749,
+          "name": "Aurorus",
+          "slug": "aurorus",
+          "types": [
+            "Roca",
+            "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piel Milagro",
+      "desc": "Presenta una mayor resistencia ante los movimientos de estado.",
+      "pokemon": [
+        {
+          "pid": 611,
+          "name": "Sigilyph",
+          "slug": "sigilyph",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piel Seca",
+      "desc": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+      "pokemon": [
+        {
+          "pid": 46,
+          "name": "Paras",
+          "slug": "paras",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 47,
+          "name": "Parasect",
+          "slug": "parasect",
+          "types": [
+            "Bicho",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 155,
+          "name": "Cyndaquil",
+          "slug": "cyndaquil",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 156,
+          "name": "Quilava",
+          "slug": "quilava",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 157,
+          "name": "Typhlosion",
+          "slug": "typhlosion",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 453,
+          "name": "Croagunk",
+          "slug": "croagunk",
+          "types": [
+            "Veneno",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 454,
+          "name": "Toxicroak",
+          "slug": "toxicroak",
+          "types": [
+            "Veneno",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 744,
+          "name": "Helioptile",
+          "slug": "helioptile",
+          "types": [
+            "Eléctrico",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 745,
+          "name": "Heliolisk",
+          "slug": "heliolisk",
+          "types": [
+            "Eléctrico",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piel Tosca",
+      "desc": "Hiere con su piel áspera al rival que lo ataque con un movimiento de contacto.",
+      "pokemon": [
+        {
+          "pid": 318,
+          "name": "Carvanha",
+          "slug": "carvanha",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 319,
+          "name": "Sharpedo",
+          "slug": "sharpedo",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 443,
+          "name": "Gible",
+          "slug": "gible",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 444,
+          "name": "Gabite",
+          "slug": "gabite",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 445,
+          "name": "Garchomp",
+          "slug": "garchomp",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 671,
+          "name": "Druddigon",
+          "slug": "druddigon",
+          "types": [
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pies Rápidos",
+      "desc": "Aumenta la Velocidad si sufre problemas de estado.",
+      "pokemon": [
+        {
+          "pid": 210,
+          "name": "Granbull",
+          "slug": "granbull",
+          "types": [
+            "Hada",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 216,
+          "name": "Teddiursa",
+          "slug": "teddiursa",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 217,
+          "name": "Ursaring",
+          "slug": "ursaring",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 261,
+          "name": "Poochyena",
+          "slug": "poochyena",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 262,
+          "name": "Mightyena",
+          "slug": "mightyena",
+          "types": [
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poder Arena",
+      "desc": "Potencia los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena.",
+      "pokemon": [
+        {
+          "pid": 579,
+          "name": "Drilbur",
+          "slug": "drilbur",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 580,
+          "name": "Excadrill",
+          "slug": "excadrill",
+          "types": [
+            "Tierra",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 695,
+          "name": "Landorus",
+          "slug": "landorus",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poder Solar",
+      "desc": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+      "pokemon": [
+        {
+          "pid": 4,
+          "name": "Charmander",
+          "slug": "charmander",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 5,
+          "name": "Charmeleon",
+          "slug": "charmeleon",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 6,
+          "name": "Charizard",
+          "slug": "charizard",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 191,
+          "name": "Sunkern",
+          "slug": "sunkern",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 192,
+          "name": "Sunflora",
+          "slug": "sunflora",
+          "types": [
+            "Planta",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 357,
+          "name": "Tropius",
+          "slug": "tropius",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 1034,
+          "name": "Colmilargo",
+          "slug": "greattusk",
+          "types": [
+            "Tierra",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1035,
+          "name": "Colagrito",
+          "slug": "screamtail",
+          "types": [
+            "Hada",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1036,
+          "name": "Furioseta",
+          "slug": "furioseta",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1037,
+          "name": "Melenaleteo",
+          "slug": "fluttermane",
+          "types": [
+            "Fantasma",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1038,
+          "name": "Reptalada",
+          "slug": "slitherwing",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1039,
+          "name": "Pelarena",
+          "slug": "sandyshocks",
+          "types": [
+            "Eléctrico",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1055,
+          "name": "Bramaluna",
+          "slug": "roaringmoon",
+          "types": [
+            "Dragón",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1059,
+          "name": "Ondulagua",
+          "slug": "walkingwake",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 1070,
+          "name": "Flamariete",
+          "slug": "gougingfire",
+          "types": [
+            "Fuego",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 1071,
+          "name": "Electrofuria",
+          "slug": "ragingbolt",
+          "types": [
+            "Eléctrico",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polvo Escudo",
+      "desc": "El polvo de escamas que lo envuelve lo protege de los efectos secundarios de los ataques recibidos.",
+      "pokemon": [
+        {
+          "pid": 10,
+          "name": "Caterpie",
+          "slug": "caterpie",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 13,
+          "name": "Weedle",
+          "slug": "weedle",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 49,
+          "name": "Venomoth",
+          "slug": "venomoth",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 265,
+          "name": "Wurmple",
+          "slug": "wurmple",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 269,
+          "name": "Dustox",
+          "slug": "dustox",
+          "types": [
+            "Psíquico",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 714,
+          "name": "Scatterbug",
+          "slug": "scatterbug",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 716,
+          "name": "Vivillon",
+          "slug": "vivillon",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 792,
+          "name": "Cutiefly",
+          "slug": "cutiefly",
+          "types": [
+            "Bicho",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 793,
+          "name": "Ribombee",
+          "slug": "ribombee",
+          "types": [
+            "Bicho",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 922,
+          "name": "Snom",
+          "slug": "snom",
+          "types": [
+            "Hielo",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 923,
+          "name": "Frosmoth",
+          "slug": "frosmoth",
+          "types": [
+            "Hielo",
+            "Bicho"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pompa",
+      "desc": "Reduce el daño que le provocan los movimientos de tipo Fuego y es inmune a las quemaduras.",
+      "pokemon": [
+        {
+          "pid": 801,
+          "name": "Dewpider",
+          "slug": "dewpider",
+          "types": [
+            "Agua",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 802,
+          "name": "Araquanid",
+          "slug": "araquanid",
+          "types": [
+            "Agua",
+            "Bicho"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potencia",
+      "desc": "Duplica la potencia de sus ataques físicos.",
+      "pokemon": [
+        {
+          "pid": 183,
+          "name": "Marill",
+          "slug": "marill",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 184,
+          "name": "Azumarill",
+          "slug": "azumarill",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 298,
+          "name": "Azurill",
+          "slug": "azurill",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 709,
+          "name": "Bunnelby",
+          "slug": "bunnelby",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 710,
+          "name": "Diggersby",
+          "slug": "diggersby",
+          "types": [
+            "Normal",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potencia Bruta",
+      "desc": "Sube la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados.",
+      "pokemon": [
+        {
+          "pid": 31,
+          "name": "Nidoqueen",
+          "slug": "nidoqueen",
+          "types": [
+            "Veneno",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 34,
+          "name": "Nidoking",
+          "slug": "nidoking",
+          "types": [
+            "Veneno",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 582,
+          "name": "Timburr",
+          "slug": "timburr",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 583,
+          "name": "Gurdurr",
+          "slug": "gurdurr",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 584,
+          "name": "Conkeldurr",
+          "slug": "conkeldurr",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 605,
+          "name": "Darmanitan",
+          "slug": "darmanitan",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 671,
+          "name": "Druddigon",
+          "slug": "druddigon",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 677,
+          "name": "Rufflet",
+          "slug": "rufflet",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 678,
+          "name": "Braviary",
+          "slug": "braviary",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 928,
+          "name": "Cufant",
+          "slug": "cufant",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 929,
+          "name": "Copperajah",
+          "slug": "copperajah",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 950,
+          "name": "Kleavor",
+          "slug": "kleavor",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": "628_hisui",
+          "name": "Braviary de Hisui",
+          "slug": "braviary-hisui",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Predicción",
+      "desc": "Cambia a tipo Agua, Fuego o Hielo en función del tiempo atmosférico.",
+      "pokemon": [
+        {
+          "pid": 351,
+          "name": "Castform",
+          "slug": "castform",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Presión",
+      "desc": "Presiona al rival para que sus PP se acaben antes.",
+      "pokemon": [
+        {
+          "pid": 142,
+          "name": "Aerodactyl",
+          "slug": "aerodactyl",
+          "types": [
+            "Roca",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 144,
+          "name": "Articuno",
+          "slug": "articuno",
+          "types": [
+            "Hielo",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 145,
+          "name": "Zapdos",
+          "slug": "zapdos",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 146,
+          "name": "Moltres",
+          "slug": "moltres",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 150,
+          "name": "Mewtwo",
+          "slug": "mewtwo",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 243,
+          "name": "Raikou",
+          "slug": "raikou",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 244,
+          "name": "Entei",
+          "slug": "entei",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 245,
+          "name": "Suicune",
+          "slug": "suicune",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 249,
+          "name": "Lugia",
+          "slug": "lugia",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 250,
+          "name": "Ho-Oh",
+          "slug": "hooh",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 356,
+          "name": "Dusclops",
+          "slug": "dusclops",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 359,
+          "name": "Absol",
+          "slug": "absol",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 386,
+          "name": "Deoxys",
+          "slug": "deoxys",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 416,
+          "name": "Vespiquen",
+          "slug": "vespiquen",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 442,
+          "name": "Spiritomb",
+          "slug": "spiritomb",
+          "types": [
+            "Fantasma",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 461,
+          "name": "Weavile",
+          "slug": "weavile",
+          "types": [
+            "Siniestro",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 477,
+          "name": "Dusknoir",
+          "slug": "dusknoir",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 483,
+          "name": "Dialga",
+          "slug": "dialga",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 484,
+          "name": "Palkia",
+          "slug": "palkia",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 487,
+          "name": "Giratina",
+          "slug": "giratina",
+          "types": [
+            "Fantasma",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 696,
+          "name": "Kyurem",
+          "slug": "kyurem",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 873,
+          "name": "Corviknight",
+          "slug": "corviknight",
+          "types": [
+            "Volador",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 938,
+          "name": "Zacian",
+          "slug": "zacian",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 939,
+          "name": "Zamazenta",
+          "slug": "zamazenta",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 940,
+          "name": "Eternatus",
+          "slug": "eternatus",
+          "types": [
+            "Veneno",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 953,
+          "name": "Sneasler",
+          "slug": "sneasler",
+          "types": [
+            "Lucha",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prestidigitador",
+      "desc": "Roba el objeto del Pokémon al que alcance con un movimiento.",
+      "pokemon": [
+        {
+          "pid": 770,
+          "name": "Hoopa",
+          "slug": "hoopa",
+          "types": [
+            "Psíquico",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Primer Auxilio",
+      "desc": "Da prioridad a los movimientos que restauran PS.",
+      "pokemon": [
+        {
+          "pid": 152,
+          "name": "Chikorita",
+          "slug": "chikorita",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 153,
+          "name": "Bayleef",
+          "slug": "bayleef",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 154,
+          "name": "Meganium",
+          "slug": "meganium",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 814,
+          "name": "Comfey",
+          "slug": "comfey",
+          "types": [
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psicogénesis",
+      "desc": "Crea un campo psíquico al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 836,
+          "name": "Tapu Lele",
+          "slug": "tapulele",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Punta Acero",
+      "desc": "Inflige daño al rival si este le golpea con un movimiento de contacto.",
+      "pokemon": [
+        {
+          "pid": 647,
+          "name": "Ferroseed",
+          "slug": "ferroseed",
+          "types": [
+            "Planta",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 648,
+          "name": "Ferrothorn",
+          "slug": "ferrothorn",
+          "types": [
+            "Planta",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 827,
+          "name": "Togedemaru",
+          "slug": "togedemaru",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Punto Tóxico",
+      "desc": "Puede envenenar al mínimo contacto.",
+      "pokemon": [
+        {
+          "pid": 29,
+          "name": "Nidoran♀",
+          "slug": "nidoran",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 30,
+          "name": "Nidorina",
+          "slug": "nidorina",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 31,
+          "name": "Nidoqueen",
+          "slug": "nidoqueen",
+          "types": [
+            "Veneno",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 32,
+          "name": "Nidoran♂",
+          "slug": "nidoran",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 33,
+          "name": "Nidorino",
+          "slug": "nidorino",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 34,
+          "name": "Nidoking",
+          "slug": "nidoking",
+          "types": [
+            "Veneno",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 117,
+          "name": "Seadra",
+          "slug": "seadra",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 211,
+          "name": "Qwilfish",
+          "slug": "qwilfish",
+          "types": [
+            "Agua",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 593,
+          "name": "Venipede",
+          "slug": "venipede",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 594,
+          "name": "Whirlipede",
+          "slug": "whirlipede",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 595,
+          "name": "Scolipede",
+          "slug": "scolipede",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 954,
+          "name": "Overqwil",
+          "slug": "overqwil",
+          "types": [
+            "Siniestro",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1030,
+          "name": "Clodsire",
+          "slug": "clodsire",
+          "types": [
+            "Veneno",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puño Férreo",
+      "desc": "Aumenta la potencia de los puñetazos.",
+      "pokemon": [
+        {
+          "pid": 107,
+          "name": "Hitmonchan",
+          "slug": "hitmonchan",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 390,
+          "name": "Chimchar",
+          "slug": "chimchar",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 391,
+          "name": "Monferno",
+          "slug": "monferno",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 392,
+          "name": "Infernape",
+          "slug": "infernape",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 672,
+          "name": "Golett",
+          "slug": "golett",
+          "types": [
+            "Tierra",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 673,
+          "name": "Golurk",
+          "slug": "golurk",
+          "types": [
+            "Tierra",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 724,
+          "name": "Pancham",
+          "slug": "pancham",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 725,
+          "name": "Pangoro",
+          "slug": "pangoro",
+          "types": [
+            "Lucha",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 789,
+          "name": "Crabrawler",
+          "slug": "crabrawler",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 790,
+          "name": "Crabominable",
+          "slug": "crabominable",
+          "types": [
+            "Lucha",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 859,
+          "name": "Melmetal",
+          "slug": "melmetal",
+          "types": [
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quitanieves",
+      "desc": "Aumenta su Velocidad si está granizando.",
+      "pokemon": [
+        {
+          "pid": 663,
+          "name": "Cubchoo",
+          "slug": "cubchoo",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 664,
+          "name": "Beartic",
+          "slug": "beartic",
+          "types": [
+            "Hielo",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1025,
+          "name": "Cetitan",
+          "slug": "cetitan",
+          "types": [
+            "Hielo",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Receptor",
+      "desc": "Adquiere la habilidad de un aliado debilitado.",
+      "pokemon": [
+        {
+          "pid": 816,
+          "name": "Passimian",
+          "slug": "passimian",
+          "types": [
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recogebolas",
+      "desc": "Si no lleva equipado ningún objeto, recupera la Poké Ball del primer intento de captura fallido.",
+      "pokemon": [
+        {
+          "pid": 885,
+          "name": "Yamper",
+          "slug": "yamper",
+          "types": [
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recogemiel",
+      "desc": "Puede que encuentre Miel una vez concluido el combate.",
+      "pokemon": [
+        {
+          "pid": 415,
+          "name": "Combee",
+          "slug": "combee",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 792,
+          "name": "Cutiefly",
+          "slug": "cutiefly",
+          "types": [
+            "Bicho",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 793,
+          "name": "Ribombee",
+          "slug": "ribombee",
+          "types": [
+            "Bicho",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recogida",
+      "desc": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+      "pokemon": [
+        {
+          "pid": 52,
+          "name": "Meowth",
+          "slug": "meowth",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 190,
+          "name": "Aipom",
+          "slug": "aipom",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 216,
+          "name": "Teddiursa",
+          "slug": "teddiursa",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 231,
+          "name": "Phanpy",
+          "slug": "phanpy",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 263,
+          "name": "Zigzagoon",
+          "slug": "zigzagoon",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 264,
+          "name": "Linoone",
+          "slug": "linoone",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 417,
+          "name": "Pachirisu",
+          "slug": "pachirisu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 446,
+          "name": "Munchlax",
+          "slug": "munchlax",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 556,
+          "name": "Lillipup",
+          "slug": "lillipup",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 709,
+          "name": "Bunnelby",
+          "slug": "bunnelby",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 710,
+          "name": "Diggersby",
+          "slug": "diggersby",
+          "types": [
+            "Normal",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 752,
+          "name": "Dedenne",
+          "slug": "dedenne",
+          "types": [
+            "Eléctrico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 760,
+          "name": "Pumpkaboo",
+          "slug": "pumpkaboo",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 761,
+          "name": "Gourgeist",
+          "slug": "gourgeist",
+          "types": [
+            "Fantasma",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 974,
+          "name": "Tandemaus",
+          "slug": "tandemaus",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 1021,
+          "name": "Greavard",
+          "slug": "greavard",
+          "types": [
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regeneración",
+      "desc": "Recupera unos pocos PS al ser cambiado por otro Pokémon.",
+      "pokemon": [
+        {
+          "pid": 79,
+          "name": "Slowpoke",
+          "slug": "slowpoke",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 80,
+          "name": "Slowbro",
+          "slug": "slowbro",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 114,
+          "name": "Tangela",
+          "slug": "tangela",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 222,
+          "name": "Corsola",
+          "slug": "corsola",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 465,
+          "name": "Tangrowth",
+          "slug": "tangrowth",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 581,
+          "name": "Audino",
+          "slug": "audino",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 627,
+          "name": "Solosis",
+          "slug": "solosis",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 628,
+          "name": "Duosion",
+          "slug": "duosion",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 629,
+          "name": "Reuniclus",
+          "slug": "reuniclus",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 640,
+          "name": "Foongus",
+          "slug": "foongus",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 641,
+          "name": "Amoonguss",
+          "slug": "amoonguss",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 669,
+          "name": "Mienfoo",
+          "slug": "mienfoo",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 670,
+          "name": "Mienshao",
+          "slug": "mienshao",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 797,
+          "name": "Mareanie",
+          "slug": "mareanie",
+          "types": [
+            "Veneno",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 798,
+          "name": "Toxapex",
+          "slug": "toxapex",
+          "types": [
+            "Veneno",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 879,
+          "name": "Gossifleur",
+          "slug": "gossifleur",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 880,
+          "name": "Eldegoss",
+          "slug": "eldegoss",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1069,
+          "name": "Hydrapple",
+          "slug": "hydrapple",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regia Presencia",
+      "desc": "Intimida al objetivo y le impide usar movimientos con prioridad.",
+      "pokemon": [
+        {
+          "pid": 813,
+          "name": "Tsareena",
+          "slug": "tsareena",
+          "types": [
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remoto",
+      "desc": "Puede usar cualquier movimiento sin entrar en contacto con el rival.",
+      "pokemon": [
+        {
+          "pid": 772,
+          "name": "Rowlet",
+          "slug": "rowlet",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 773,
+          "name": "Dartrix",
+          "slug": "dartrix",
+          "types": [
+            "Planta",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 774,
+          "name": "Decidueye",
+          "slug": "decidueye",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respondón",
+      "desc": "Invierte los cambios en las características: bajan cuando les toca subir y suben cuando les toca bajar.",
+      "pokemon": [
+        {
+          "pid": 545,
+          "name": "Snivy",
+          "slug": "snivy",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 546,
+          "name": "Servine",
+          "slug": "servine",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 547,
+          "name": "Serperior",
+          "slug": "serperior",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 736,
+          "name": "Inkay",
+          "slug": "inkay",
+          "types": [
+            "Siniestro",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 737,
+          "name": "Malamar",
+          "slug": "malamar",
+          "types": [
+            "Siniestro",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revés",
+      "desc": "Al caer debilitado, inflige al rival un daño equivalente a los PS que le quedaran.",
+      "pokemon": [
+        {
+          "pid": 821,
+          "name": "Pyukumuku",
+          "slug": "pyukumuku",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ritmo Propio",
+      "desc": "Como le gusta hacer las cosas a su manera, los rivales no logran confundirlo.",
+      "pokemon": [
+        {
+          "pid": 108,
+          "name": "Lickitung",
+          "slug": "lickitung",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 199,
+          "name": "Slowking",
+          "slug": "slowking",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 235,
+          "name": "Smeargle",
+          "slug": "smeargle",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 325,
+          "name": "Spoink",
+          "slug": "spoink",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 326,
+          "name": "Grumpig",
+          "slug": "grumpig",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 327,
+          "name": "Spinda",
+          "slug": "spinda",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 431,
+          "name": "Glameow",
+          "slug": "glameow",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 432,
+          "name": "Purugly",
+          "slug": "purugly",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 463,
+          "name": "Lickilicky",
+          "slug": "lickilicky",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 598,
+          "name": "Petilil",
+          "slug": "petilil",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 599,
+          "name": "Lilligant",
+          "slug": "lilligant",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 762,
+          "name": "Bergmite",
+          "slug": "bergmite",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 763,
+          "name": "Avalugg",
+          "slug": "avalugg",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 799,
+          "name": "Mudbray",
+          "slug": "mudbray",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 800,
+          "name": "Mudsdale",
+          "slug": "mudsdale",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 976,
+          "name": "Fidough",
+          "slug": "fidough",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 988,
+          "name": "Tadbulb",
+          "slug": "tadbulb",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 1007,
+          "name": "Tinkatink",
+          "slug": "tinkatink",
+          "types": [
+            "Hada",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1008,
+          "name": "Tinkatuff",
+          "slug": "tinkatuff",
+          "types": [
+            "Hada",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1009,
+          "name": "Tinkaton",
+          "slug": "tinkaton",
+          "types": [
+            "Hada",
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rivalidad",
+      "desc": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir más daño. Si es del sexo contrario, en cambio, el daño será menor.",
+      "pokemon": [
+        {
+          "pid": 29,
+          "name": "Nidoran♀",
+          "slug": "nidoran",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 30,
+          "name": "Nidorina",
+          "slug": "nidorina",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 32,
+          "name": "Nidoran♂",
+          "slug": "nidoran",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 33,
+          "name": "Nidorino",
+          "slug": "nidorino",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 403,
+          "name": "Shinx",
+          "slug": "shinx",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 404,
+          "name": "Luxio",
+          "slug": "luxio",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 405,
+          "name": "Luxray",
+          "slug": "luxray",
+          "types": [
+            "Eléctrico",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 660,
+          "name": "Axew",
+          "slug": "axew",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 661,
+          "name": "Fraxure",
+          "slug": "fraxure",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 662,
+          "name": "Haxorus",
+          "slug": "haxorus",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 717,
+          "name": "Litleo",
+          "slug": "litleo",
+          "types": [
+            "Fuego",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 718,
+          "name": "Pyroar",
+          "slug": "pyroar",
+          "types": [
+            "Fuego",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Robustez",
+      "desc": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes.",
+      "pokemon": [
+        {
+          "pid": 74,
+          "name": "Geodude",
+          "slug": "geodude",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 75,
+          "name": "Graveler",
+          "slug": "graveler",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 76,
+          "name": "Golem",
+          "slug": "golem",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 81,
+          "name": "Magnemite",
+          "slug": "magnemite",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 82,
+          "name": "Magneton",
+          "slug": "magneton",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 95,
+          "name": "Onix",
+          "slug": "onix",
+          "types": [
+            "Roca",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 185,
+          "name": "Sudowoodo",
+          "slug": "sudowoodo",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 204,
+          "name": "Pineco",
+          "slug": "pineco",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 205,
+          "name": "Forretress",
+          "slug": "forretress",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 208,
+          "name": "Steelix",
+          "slug": "steelix",
+          "types": [
+            "Acero",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 213,
+          "name": "Shuckle",
+          "slug": "shuckle",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 227,
+          "name": "Skarmory",
+          "slug": "skarmory",
+          "types": [
+            "Acero",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 232,
+          "name": "Donphan",
+          "slug": "donphan",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 299,
+          "name": "Nosepass",
+          "slug": "nosepass",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 410,
+          "name": "Shieldon",
+          "slug": "shieldon",
+          "types": [
+            "Roca",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 411,
+          "name": "Bastiodon",
+          "slug": "bastiodon",
+          "types": [
+            "Roca",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 438,
+          "name": "Bonsly",
+          "slug": "bonsly",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 462,
+          "name": "Magnezone",
+          "slug": "magnezone",
+          "types": [
+            "Eléctrico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 476,
+          "name": "Probopass",
+          "slug": "probopass",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 574,
+          "name": "Roggenrola",
+          "slug": "roggenrola",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 575,
+          "name": "Boldore",
+          "slug": "boldore",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 576,
+          "name": "Gigalith",
+          "slug": "gigalith",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 589,
+          "name": "Sawk",
+          "slug": "sawk",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 607,
+          "name": "Dwebble",
+          "slug": "dwebble",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 608,
+          "name": "Crustle",
+          "slug": "crustle",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 614,
+          "name": "Tirtouga",
+          "slug": "tirtouga",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 615,
+          "name": "Carracosta",
+          "slug": "carracosta",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 840,
+          "name": "Cosmoem",
+          "slug": "cosmoem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 982,
+          "name": "Nacli",
+          "slug": "nacli",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 982,
+          "name": "Nacli",
+          "slug": "nacli",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 983,
+          "name": "Naclstack",
+          "slug": "naclstack",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 983,
+          "name": "Naclstack",
+          "slug": "naclstack",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 984,
+          "name": "Garganacl",
+          "slug": "garganacl",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 984,
+          "name": "Garganacl",
+          "slug": "garganacl",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1068,
+          "name": "Archaludon",
+          "slug": "archaludon",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roca Sólida",
+      "desc": "Mitiga el daño que le infligen los movimientos supereficaces.",
+      "pokemon": [
+        {
+          "pid": 323,
+          "name": "Camerupt",
+          "slug": "camerupt",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 464,
+          "name": "Rhyperior",
+          "slug": "rhyperior",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 614,
+          "name": "Tirtouga",
+          "slug": "tirtouga",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 615,
+          "name": "Carracosta",
+          "slug": "carracosta",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 887,
+          "name": "Rolycoly",
+          "slug": "rolycoly",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 888,
+          "name": "Carkol",
+          "slug": "carkol",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 889,
+          "name": "Coalossal",
+          "slug": "coalossal",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rompeaura",
+      "desc": "Invierte los efectos de las auras, por lo que baja la potencia de ciertos movimientos en vez de subirla.",
+      "pokemon": [
+        {
+          "pid": 768,
+          "name": "Zygarde",
+          "slug": "zygarde",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rompemoldes",
+      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
+      "pokemon": [
+        {
+          "pid": 408,
+          "name": "Cranidos",
+          "slug": "cranidos",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 409,
+          "name": "Rampardos",
+          "slug": "rampardos",
+          "types": [
+            "Roca",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 660,
+          "name": "Axew",
+          "slug": "axew",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 661,
+          "name": "Fraxure",
+          "slug": "fraxure",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 662,
+          "name": "Haxorus",
+          "slug": "haxorus",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 724,
+          "name": "Pancham",
+          "slug": "pancham",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 725,
+          "name": "Pangoro",
+          "slug": "pangoro",
+          "types": [
+            "Lucha",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1007,
+          "name": "Tinkatink",
+          "slug": "tinkatink",
+          "types": [
+            "Hada",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1008,
+          "name": "Tinkatuff",
+          "slug": "tinkatuff",
+          "types": [
+            "Hada",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1009,
+          "name": "Tinkaton",
+          "slug": "tinkaton",
+          "types": [
+            "Hada",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1026,
+          "name": "Veluza",
+          "slug": "veluza",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sacapecho",
+      "desc": "Impide que el rival le baje la Defensa.",
+      "pokemon": [
+        {
+          "pid": 569,
+          "name": "Pidove",
+          "slug": "pidove",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 570,
+          "name": "Tranquill",
+          "slug": "tranquill",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 571,
+          "name": "Unfezant",
+          "slug": "unfezant",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 630,
+          "name": "Ducklett",
+          "slug": "ducklett",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 631,
+          "name": "Swanna",
+          "slug": "swanna",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 679,
+          "name": "Vullaby",
+          "slug": "vullaby",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 680,
+          "name": "Mandibuzz",
+          "slug": "mandibuzz",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 711,
+          "name": "Fletchling",
+          "slug": "fletchling",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 1012,
+          "name": "Bombirdier",
+          "slug": "bombirdier",
+          "types": [
+            "Volador",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sebo",
+      "desc": "Gracias a la gruesa capa de grasa que lo protege, reduce a la mitad el daño que recibe de ataques de tipo Fuego o Hielo.",
+      "pokemon": [
+        {
+          "pid": 86,
+          "name": "Seel",
+          "slug": "seel",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 87,
+          "name": "Dewgong",
+          "slug": "dewgong",
+          "types": [
+            "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 143,
+          "name": "Snorlax",
+          "slug": "snorlax",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 183,
+          "name": "Marill",
+          "slug": "marill",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 184,
+          "name": "Azumarill",
+          "slug": "azumarill",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 220,
+          "name": "Swinub",
+          "slug": "swinub",
+          "types": [
+            "Hielo",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 221,
+          "name": "Piloswine",
+          "slug": "piloswine",
+          "types": [
+            "Hielo",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 241,
+          "name": "Miltank",
+          "slug": "miltank",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 296,
+          "name": "Makuhita",
+          "slug": "makuhita",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 297,
+          "name": "Hariyama",
+          "slug": "hariyama",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 298,
+          "name": "Azurill",
+          "slug": "azurill",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 325,
+          "name": "Spoink",
+          "slug": "spoink",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 326,
+          "name": "Grumpig",
+          "slug": "grumpig",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 363,
+          "name": "Spheal",
+          "slug": "spheal",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 364,
+          "name": "Sealeo",
+          "slug": "sealeo",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 365,
+          "name": "Walrein",
+          "slug": "walrein",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 432,
+          "name": "Purugly",
+          "slug": "purugly",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 446,
+          "name": "Munchlax",
+          "slug": "munchlax",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 473,
+          "name": "Mamoswine",
+          "slug": "mamoswine",
+          "types": [
+            "Hielo",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 548,
+          "name": "Tepig",
+          "slug": "tepig",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 549,
+          "name": "Pignite",
+          "slug": "pignite",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 550,
+          "name": "Emboar",
+          "slug": "emboar",
+          "types": [
+            "Fuego",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 734,
+          "name": "Swirlix",
+          "slug": "swirlix",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 735,
+          "name": "Slurpuff",
+          "slug": "slurpuff",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1024,
+          "name": "Cetoddle",
+          "slug": "cetoddle",
+          "types": [
+            "Hielo",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1025,
+          "name": "Cetitan",
+          "slug": "cetitan",
+          "types": [
+            "Hielo",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sequía",
+      "desc": "Cuando entra en combate, el tiempo pasa a ser soleado.",
+      "pokemon": [
+        {
+          "pid": 37,
+          "name": "Vulpix",
+          "slug": "vulpix",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 38,
+          "name": "Ninetales",
+          "slug": "ninetales",
+          "types": [
+            "Fuego",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 324,
+          "name": "Torkoal",
+          "slug": "torkoal",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 383,
+          "name": "Groudon",
+          "slug": "groudon",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1057,
+          "name": "Koraidon",
+          "slug": "koraidon",
+          "types": [
+            "Lucha",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Simple",
+      "desc": "Duplica los cambios en las características.",
+      "pokemon": [
+        {
+          "pid": 322,
+          "name": "Numel",
+          "slug": "numel",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 399,
+          "name": "Bidoof",
+          "slug": "bidoof",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 400,
+          "name": "Bibarel",
+          "slug": "bibarel",
+          "types": [
+            "Normal",
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sincronía",
+      "desc": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+      "pokemon": [
+        {
+          "pid": 63,
+          "name": "Abra",
+          "slug": "abra",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 64,
+          "name": "Kadabra",
+          "slug": "kadabra",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 65,
+          "name": "Alakazam",
+          "slug": "alakazam",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 151,
+          "name": "Mew",
+          "slug": "mew",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 177,
+          "name": "Natu",
+          "slug": "natu",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 178,
+          "name": "Xatu",
+          "slug": "xatu",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 196,
+          "name": "Espeon",
+          "slug": "espeon",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 197,
+          "name": "Umbreon",
+          "slug": "umbreon",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 280,
+          "name": "Ralts",
+          "slug": "ralts",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 281,
+          "name": "Kirlia",
+          "slug": "kirlia",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 282,
+          "name": "Gardevoir",
+          "slug": "gardevoir",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 567,
+          "name": "Munna",
+          "slug": "munna",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 568,
+          "name": "Musharna",
+          "slug": "musharna",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 655,
+          "name": "Elgyem",
+          "slug": "elgyem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 656,
+          "name": "Beheeyem",
+          "slug": "beheeyem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 926,
+          "name": "Indeedee",
+          "slug": "indeedee",
+          "types": [
+            "Psíquico",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 1004,
+          "name": "Rabsca",
+          "slug": "rabsca",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sombra Trampa",
+      "desc": "Impide que el enemigo huya o sea cambiado por otro.",
+      "pokemon": [
+        {
+          "pid": 202,
+          "name": "Wobbuffet",
+          "slug": "wobbuffet",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 360,
+          "name": "Wynaut",
+          "slug": "wynaut",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Superguarda",
+      "desc": "Gracias a un poder misterioso, solo le hacen daño los movimientos supereficaces.",
+      "pokemon": [
+        {
+          "pid": 292,
+          "name": "Shedinja",
+          "slug": "shedinja",
+          "types": [
+            "Bicho",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telepatía",
+      "desc": "Elude los ataques de los aliados durante el combate.",
+      "pokemon": [
+        {
+          "pid": 655,
+          "name": "Elgyem",
+          "slug": "elgyem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 656,
+          "name": "Beheeyem",
+          "slug": "beheeyem",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 815,
+          "name": "Oranguru",
+          "slug": "oranguru",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tenacidad",
+      "desc": "Aumenta mucho su Ataque Especial cuando el rival le baja cualquiera de sus características.",
+      "pokemon": [
+        {
+          "pid": 174,
+          "name": "Igglybuff",
+          "slug": "igglybuff",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Terravoltaje",
+      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
+      "pokemon": [
+        {
+          "pid": 694,
+          "name": "Zekrom",
+          "slug": "zekrom",
+          "types": [
+            "Dragón",
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tinovictoria",
+      "desc": "Sube su Precisión y la de sus aliados.",
+      "pokemon": [
+        {
+          "pid": 544,
+          "name": "Victini",
+          "slug": "victini",
+          "types": [
+            "Psíquico",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toque Tóxico",
+      "desc": "Puede envenenar al objetivo con solo tocarlo.",
+      "pokemon": [
+        {
+          "pid": 740,
+          "name": "Skrelp",
+          "slug": "skrelp",
+          "types": [
+            "Veneno",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 741,
+          "name": "Dragalge",
+          "slug": "dragalge",
+          "types": [
+            "Veneno",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 995,
+          "name": "Grafaiai",
+          "slug": "grafaiai",
+          "types": [
+            "Veneno",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 1064,
+          "name": "Okidogi",
+          "slug": "okidogi",
+          "types": [
+            "Veneno",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1065,
+          "name": "Munkidori",
+          "slug": "munkidori",
+          "types": [
+            "Veneno",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1066,
+          "name": "Fezandipiti",
+          "slug": "fezandipiti",
+          "types": [
+            "Veneno",
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Torrente",
+      "desc": "Potencia sus movimientos de tipo Agua cuando le quedan pocos PS.",
+      "pokemon": [
+        {
+          "pid": 7,
+          "name": "Squirtle",
+          "slug": "squirtle",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 8,
+          "name": "Wartortle",
+          "slug": "wartortle",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 9,
+          "name": "Blastoise",
+          "slug": "blastoise",
+          "types": [
+            "Agua",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 158,
+          "name": "Totodile",
+          "slug": "totodile",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 159,
+          "name": "Croconaw",
+          "slug": "croconaw",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 160,
+          "name": "Feraligatr",
+          "slug": "feraligatr",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 258,
+          "name": "Mudkip",
+          "slug": "mudkip",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 259,
+          "name": "Marshtomp",
+          "slug": "marshtomp",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 260,
+          "name": "Swampert",
+          "slug": "swampert",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 393,
+          "name": "Piplup",
+          "slug": "piplup",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 394,
+          "name": "Prinplup",
+          "slug": "prinplup",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 395,
+          "name": "Empoleon",
+          "slug": "empoleon",
+          "types": [
+            "Agua",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 551,
+          "name": "Oshawott",
+          "slug": "oshawott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 552,
+          "name": "Dewott",
+          "slug": "dewott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 553,
+          "name": "Samurott",
+          "slug": "samurott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 706,
+          "name": "Froakie",
+          "slug": "froakie",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 707,
+          "name": "Frogadier",
+          "slug": "frogadier",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 708,
+          "name": "Greninja",
+          "slug": "greninja",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 778,
+          "name": "Popplio",
+          "slug": "popplio",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 779,
+          "name": "Brionne",
+          "slug": "brionne",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 780,
+          "name": "Primarina",
+          "slug": "primarina",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 866,
+          "name": "Sobble",
+          "slug": "sobble",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 867,
+          "name": "Drizzile",
+          "slug": "drizzile",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 868,
+          "name": "Inteleon",
+          "slug": "inteleon",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 962,
+          "name": "Quaxly",
+          "slug": "quaxly",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 963,
+          "name": "Quaxwell",
+          "slug": "quaxwell",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 964,
+          "name": "Quaquaval",
+          "slug": "quaquaval",
+          "types": [
+            "Agua",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": "503_hisui",
+          "name": "Samurott de Hisui",
+          "slug": "samurott-hisui",
+          "types": [
+            "Agua",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tragamisil",
+      "desc": "Tras usar Surf o Buceo, emerge con una presa en la boca. Al recibir daño, ataca escupiéndola al rival.",
+      "pokemon": [
+        {
+          "pid": 895,
+          "name": "Cramorant",
+          "slug": "cramorant",
+          "types": [
+            "Volador",
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trampa Arena",
+      "desc": "Evita que el rival huya.",
+      "pokemon": [
+        {
+          "pid": 50,
+          "name": "Diglett",
+          "slug": "diglett",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 51,
+          "name": "Dugtrio",
+          "slug": "dugtrio",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 328,
+          "name": "Trapinch",
+          "slug": "trapinch",
+          "types": [
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tumbos",
+      "desc": "Sube su Evasión si está confuso.",
+      "pokemon": [
+        {
+          "pid": 16,
+          "name": "Pidgey",
+          "slug": "pidgey",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 17,
+          "name": "Pidgeotto",
+          "slug": "pidgeotto",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 18,
+          "name": "Pidgeot",
+          "slug": "pidgeot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 327,
+          "name": "Spinda",
+          "slug": "spinda",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 441,
+          "name": "Chatot",
+          "slug": "chatot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 616,
+          "name": "Archen",
+          "slug": "archen",
+          "types": [
+            "Roca",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 617,
+          "name": "Archeops",
+          "slug": "archeops",
+          "types": [
+            "Roca",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 916,
+          "name": "Mr. Rime",
+          "slug": "mrrime",
+          "types": [
+            "Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1023,
+          "name": "Flamigo",
+          "slug": "flamigo",
+          "types": [
+            "Volador",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turbollama",
+      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
+      "pokemon": [
+        {
+          "pid": 693,
+          "name": "Reshiram",
+          "slug": "reshiram",
+          "types": [
+            "Dragón",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ultraimpulso",
+      "desc": "Si derrota a un rival en ese turno, aumenta su característica más fuerte.",
+      "pokemon": [
+        {
+          "pid": 843,
+          "name": "Nihilego",
+          "slug": "nihilego",
+          "types": [
+            "Roca",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 844,
+          "name": "Buzzwole",
+          "slug": "buzzwole",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 845,
+          "name": "Pheromosa",
+          "slug": "pheromosa",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 846,
+          "name": "Xurkitree",
+          "slug": "xurkitree",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 847,
+          "name": "Celesteela",
+          "slug": "celesteela",
+          "types": [
+            "Acero",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 848,
+          "name": "Kartana",
+          "slug": "kartana",
+          "types": [
+            "Planta",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 849,
+          "name": "Guzzlord",
+          "slug": "guzzlord",
+          "types": [
+            "Siniestro",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 853,
+          "name": "Poipole",
+          "slug": "poipole",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 854,
+          "name": "Naganadel",
+          "slug": "naganadel",
+          "types": [
+            "Veneno",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 855,
+          "name": "Stakataka",
+          "slug": "stakataka",
+          "types": [
+            "Roca",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 856,
+          "name": "Blacephalon",
+          "slug": "blacephalon",
+          "types": [
+            "Fuego",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veleta",
+      "desc": "Una característica le sube mucho en cada turno, pero le baja otra.",
+      "pokemon": [
+        {
+          "pid": 399,
+          "name": "Bidoof",
+          "slug": "bidoof",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 400,
+          "name": "Bibarel",
+          "slug": "bibarel",
+          "types": [
+            "Normal",
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velo Agua",
+      "desc": "Evita las quemaduras gracias a la capa de agua que lo envuelve.",
+      "pokemon": [
+        {
+          "pid": 320,
+          "name": "Wailmer",
+          "slug": "wailmer",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 321,
+          "name": "Wailord",
+          "slug": "wailord",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1013,
+          "name": "Finizen",
+          "slug": "finizen",
+          "types": [
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velo Arena",
+      "desc": "Aumenta su Evasión durante las tormentas de arena.",
+      "pokemon": [
+        {
+          "pid": 27,
+          "name": "Sandshrew",
+          "slug": "sandshrew",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 28,
+          "name": "Sandslash",
+          "slug": "sandslash",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 50,
+          "name": "Diglett",
+          "slug": "diglett",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 51,
+          "name": "Dugtrio",
+          "slug": "dugtrio",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 207,
+          "name": "Gligar",
+          "slug": "gligar",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 331,
+          "name": "Cacnea",
+          "slug": "cacnea",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 332,
+          "name": "Cacturne",
+          "slug": "cacturne",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 443,
+          "name": "Gible",
+          "slug": "gible",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 444,
+          "name": "Gabite",
+          "slug": "gabite",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 445,
+          "name": "Garchomp",
+          "slug": "garchomp",
+          "types": [
+            "Dragón",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 472,
+          "name": "Gliscor",
+          "slug": "gliscor",
+          "types": [
+            "Tierra",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 744,
+          "name": "Helioptile",
+          "slug": "helioptile",
+          "types": [
+            "Eléctrico",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 745,
+          "name": "Heliolisk",
+          "slug": "heliolisk",
+          "types": [
+            "Eléctrico",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velo Aroma",
+      "desc": "Se protege a sí mismo y a sus aliados de ataques que impiden elegir movimientos.",
+      "pokemon": [
+        {
+          "pid": 965,
+          "name": "Lechonk",
+          "slug": "lechonk",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velo Flor",
+      "desc": "Evita que los Pokémon de tipo Planta aliados sufran problemas de estado o que les bajen sus características.",
+      "pokemon": [
+        {
+          "pid": 719,
+          "name": "Flabébé",
+          "slug": "flabb",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 720,
+          "name": "Floette",
+          "slug": "floette",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 721,
+          "name": "Florges",
+          "slug": "florges",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 814,
+          "name": "Comfey",
+          "slug": "comfey",
+          "types": [
+            "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ventosas",
+      "desc": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+      "pokemon": [
+        {
+          "pid": 224,
+          "name": "Octillery",
+          "slug": "octillery",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 345,
+          "name": "Lileep",
+          "slug": "lileep",
+          "types": [
+            "Roca",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 346,
+          "name": "Cradily",
+          "slug": "cradily",
+          "types": [
+            "Roca",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 736,
+          "name": "Inkay",
+          "slug": "inkay",
+          "types": [
+            "Siniestro",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 737,
+          "name": "Malamar",
+          "slug": "malamar",
+          "types": [
+            "Siniestro",
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vigilante",
+      "desc": "Si el objetivo de su ataque es sustituido por otro, duplica el daño que infligirá.",
+      "pokemon": [
+        {
+          "pid": 784,
+          "name": "Yungoos",
+          "slug": "yungoos",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 785,
+          "name": "Gumshoos",
+          "slug": "gumshoos",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Viscosidad",
+      "desc": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos.",
+      "pokemon": [
+        {
+          "pid": 88,
+          "name": "Grimer",
+          "slug": "grimer",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 89,
+          "name": "Muk",
+          "slug": "muk",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 316,
+          "name": "Gulpin",
+          "slug": "gulpin",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 317,
+          "name": "Swalot",
+          "slug": "swalot",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 422,
+          "name": "Shellos",
+          "slug": "shellos",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 423,
+          "name": "Gastrodon",
+          "slug": "gastrodon",
+          "types": [
+            "Agua",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 618,
+          "name": "Trubbish",
+          "slug": "trubbish",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 667,
+          "name": "Accelgor",
+          "slug": "accelgor",
+          "types": [
+            "Bicho"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vista Lince",
+      "desc": "Su aguda vista evita que le disminuya la Precisión.",
+      "pokemon": [
+        {
+          "pid": 16,
+          "name": "Pidgey",
+          "slug": "pidgey",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 17,
+          "name": "Pidgeotto",
+          "slug": "pidgeotto",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 18,
+          "name": "Pidgeot",
+          "slug": "pidgeot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 21,
+          "name": "Spearow",
+          "slug": "spearow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 22,
+          "name": "Fearow",
+          "slug": "fearow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 83,
+          "name": "Farfetch’d",
+          "slug": "farfetchd",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 107,
+          "name": "Hitmonchan",
+          "slug": "hitmonchan",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 161,
+          "name": "Sentret",
+          "slug": "sentret",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 162,
+          "name": "Furret",
+          "slug": "furret",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 163,
+          "name": "Hoothoot",
+          "slug": "hoothoot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 164,
+          "name": "Noctowl",
+          "slug": "noctowl",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 215,
+          "name": "Sneasel",
+          "slug": "sneasel",
+          "types": [
+            "Siniestro",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 227,
+          "name": "Skarmory",
+          "slug": "skarmory",
+          "types": [
+            "Acero",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 278,
+          "name": "Wingull",
+          "slug": "wingull",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 279,
+          "name": "Pelipper",
+          "slug": "pelipper",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 302,
+          "name": "Sableye",
+          "slug": "sableye",
+          "types": [
+            "Siniestro",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 396,
+          "name": "Starly",
+          "slug": "starly",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 441,
+          "name": "Chatot",
+          "slug": "chatot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 554,
+          "name": "Patrat",
+          "slug": "patrat",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 555,
+          "name": "Watchog",
+          "slug": "watchog",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 630,
+          "name": "Ducklett",
+          "slug": "ducklett",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 631,
+          "name": "Swanna",
+          "slug": "swanna",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 677,
+          "name": "Rufflet",
+          "slug": "rufflet",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 678,
+          "name": "Braviary",
+          "slug": "braviary",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 727,
+          "name": "Espurr",
+          "slug": "espurr",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 728,
+          "name": "Meowstic",
+          "slug": "meowstic",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 781,
+          "name": "Pikipek",
+          "slug": "pikipek",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 782,
+          "name": "Trumbeak",
+          "slug": "trumbeak",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 783,
+          "name": "Toucannon",
+          "slug": "toucannon",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 794,
+          "name": "Rockruff",
+          "slug": "rockruff",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 795,
+          "name": "Lycanroc",
+          "slug": "lycanroc",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 871,
+          "name": "Rookidee",
+          "slug": "rookidee",
+          "types": [
+            "Volador"
+          ]
+        },
+        {
+          "pid": 872,
+          "name": "Corvisquire",
+          "slug": "corvisquire",
+          "types": [
+            "Volador"
+          ]
+        },
+        {
+          "pid": 1012,
+          "name": "Bombirdier",
+          "slug": "bombirdier",
+          "types": [
+            "Volador",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Voz Fluida",
+      "desc": "Hace que todos sus movimientos que usan sonido pasen a ser de tipo Agua.",
+      "pokemon": [
+        {
+          "pid": 778,
+          "name": "Popplio",
+          "slug": "popplio",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 779,
+          "name": "Brionne",
+          "slug": "brionne",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 780,
+          "name": "Primarina",
+          "slug": "primarina",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 899,
+          "name": "Toxtricity",
+          "slug": "toxtricity",
+          "types": [
+            "Eléctrico",
+            "Veneno"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zoquete",
+      "desc": "No puede usar objetos equipados.",
+      "pokemon": [
+        {
+          "pid": 577,
+          "name": "Woobat",
+          "slug": "woobat",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 578,
+          "name": "Swoobat",
+          "slug": "swoobat",
+          "types": [
+            "Psíquico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 672,
+          "name": "Golett",
+          "slug": "golett",
+          "types": [
+            "Tierra",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 673,
+          "name": "Golurk",
+          "slug": "golurk",
+          "types": [
+            "Tierra",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 809,
+          "name": "Stufful",
+          "slug": "stufful",
+          "types": [
+            "Normal",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 810,
+          "name": "Bewear",
+          "slug": "bewear",
+          "types": [
+            "Normal",
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ímpetu Arena",
+      "desc": "Aumenta su Velocidad durante las tormentas de arena.",
+      "pokemon": [
+        {
+          "pid": 557,
+          "name": "Herdier",
+          "slug": "herdier",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 558,
+          "name": "Stoutland",
+          "slug": "stoutland",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 579,
+          "name": "Drilbur",
+          "slug": "drilbur",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 580,
+          "name": "Excadrill",
+          "slug": "excadrill",
+          "types": [
+            "Tierra",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 795,
+          "name": "Lycanroc",
+          "slug": "lycanroc",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1022,
+          "name": "Houndstone",
+          "slug": "houndstone",
+          "types": [
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ímpetu Tóxico",
+      "desc": "Aumenta la potencia de sus ataques físicos cuando está envenenado.",
+      "pokemon": [
+        {
+          "pid": 335,
+          "name": "Zangoose",
+          "slug": "zangoose",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "name": "Cordón Unión",

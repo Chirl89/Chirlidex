@@ -28,6 +28,23 @@
       </div>
 
       <div class="header-actions">
+        <div class="dropdown-wrapper">
+          <button id="menu-dropdown-toggle" class="btn-menu-dropdown" title="Menú de Navegación">
+            <span>☰ Menú</span> <span class="caret-arrow">▾</span>
+          </button>
+          <div id="header-dropdown-menu" class="header-dropdown-menu">
+            <a href="javascript:void(0)" class="dropdown-item active" data-tab="inicio">🏠 Inicio / Portada</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="pokedex">📖 Pokédex Completa</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="guia">📜 Guía Paso a Paso</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="rutas">🗺️ Rutas & Mapa</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="lideres">🏆 Líderes & Liga</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="objetos">🎒 Tiendas & Objetos</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="movimientos">⚔️ Movimientos</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="habilidades">✨ Habilidades</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="novedades">⭐ Novedades ChirlGold</a>
+            <a href="javascript:void(0)" class="dropdown-item" data-tab="no-incluidos">🚫 No Incluidos</a>
+          </div>
+        </div>
         <button id="theme-toggle" class="theme-toggle" title="Cambiar tema claro/oscuro">☀️</button>
       </div>
     </div>
@@ -36,20 +53,139 @@
   <!-- Barra de Pestañas de Navegación -->
   <nav class="nav-tabs">
     <div class="nav-container">
-      <button class="nav-tab active" data-tab="pokedex">📖 Pokédex</button>
-      <button class="nav-tab" data-tab="rutas">🗺️ Rutas y Encuentros</button>
-      <button class="nav-tab" data-tab="lideres">🏆 Líderes & Level Caps</button>
-      <button class="nav-tab" data-tab="objetos">🎒 Tiendas & Objetos</button>
+      <button class="nav-tab active" data-tab="inicio">🏠 Inicio</button>
+      <button class="nav-tab" data-tab="pokedex">📖 Pokédex</button>
+      <button class="nav-tab" data-tab="guia">📜 Guía Paso a Paso</button>
+      <button class="nav-tab" data-tab="rutas">🗺️ Rutas y Mapa</button>
+      <button class="nav-tab" data-tab="lideres">🏆 Líderes & Liga</button>
+      <button class="nav-tab" data-tab="objetos">🎒 Objetos</button>
       <button class="nav-tab" data-tab="movimientos">⚔️ Movimientos</button>
-      <button class="nav-tab" data-tab="novedades">⭐ Novedades ChirlGold</button>
+      <button class="nav-tab" data-tab="habilidades">✨ Habilidades</button>
+      <button class="nav-tab" data-tab="novedades">⭐ Novedades</button>
       <button class="nav-tab" data-tab="no-incluidos">🚫 No Incluidos</button>
     </div>
   </nav>
 
   <!-- Contenido Principal -->
   <main>
+
+    <!-- VISTA 0: PORTADA / HUB PRINCIPAL -->
+    <section id="view-inicio" class="tab-view active">
+      <div class="hero-cover">
+        <div class="hero-badge">🎮 ROM HACK NDS · HEARTGOLD GENERATIONS · v0.4.3</div>
+        <h1 class="hero-title">Pokémon ChirlGold</h1>
+        <p class="hero-subtitle">Guía Maestra & WikiDex Definitiva Adaptada</p>
+        <p class="hero-desc">
+          Toda la información de la ROM hack al descubierto. Datos extraídos directamente de la ROM: 1044 especies con ataques por nivel, árbol genealógico evolutivo interactivo, mapa esquemático oficial del Pokégear y recorrido completo paso a paso de Johto y Kanto.
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat-card">
+            <span class="hero-stat-num">1044</span>
+            <span class="hero-stat-label">Pokémon (Gen 1-9)</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="hero-stat-num">62</span>
+            <span class="hero-stat-label">Rutas con Mapa</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="hero-stat-num">923</span>
+            <span class="hero-stat-label">Movimientos</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="hero-stat-num">219</span>
+            <span class="hero-stat-label">Habilidades</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="hero-btn hero-btn-primary" onclick="window.switchTab('pokedex')">📖 Explorar Pokédex</button>
+          <button class="hero-btn hero-btn-secondary" onclick="window.switchTab('guia')">📜 Guía Paso a Paso</button>
+          <button class="hero-btn hero-btn-secondary" onclick="window.switchTab('rutas')">🗺️ Ver Mapa de Rutas</button>
+        </div>
+      </div>
+
+      <!-- Hub de Módulos Rápidos -->
+      <div class="modules-section">
+        <h2 class="modules-section-title">🧭 Módulos y Secciones de la Guía</h2>
+        <div class="modules-grid">
+          <div class="module-card" onclick="window.switchTab('pokedex')">
+            <div class="module-icon">📖</div>
+            <div class="module-info">
+              <h3>Pokédex & WikiDex</h3>
+              <p>Fichas individuales, stats base, tipos, habilidades, movimientos por nivel y árboles evolutivos interactivos.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('guia')">
+            <div class="module-icon">📜</div>
+            <div class="module-info">
+              <h3>Guía Paso a Paso</h3>
+              <p>El recorrido completo de la aventura desde Pueblo Primavera hasta la cima del Monte Plateado con level caps.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('rutas')">
+            <div class="module-icon">🗺️</div>
+            <div class="module-info">
+              <h3>Rutas & Mapa Interactivo</h3>
+              <p>Mapa esquemático del Pokégear con indicador GPS milimétrico y porcentajes exactos de encuentros salvajes.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('lideres')">
+            <div class="module-icon">🏆</div>
+            <div class="module-info">
+              <h3>Líderes de Gimnasio & Liga</h3>
+              <p>Equipos competitivos de los 16 líderes de Johto y Kanto, el Alto Mando, el Campeón Lance y Red.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('objetos')">
+            <div class="module-icon">🎒</div>
+            <div class="module-info">
+              <h3>Tiendas & Objetos Evolutivos</h3>
+              <p>Localizaciones exactas de todas las piedras evolutivas, Cordón Unión, Mineral Evol y objetos competitivos.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('movimientos')">
+            <div class="module-icon">⚔️</div>
+            <div class="module-info">
+              <h3>Catálogo de Movimientos</h3>
+              <p>Buscador de los 923 ataques con filtros por tipo, potencia, precisión, PP y categoría física/especial/estado.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('habilidades')">
+            <div class="module-icon">✨</div>
+            <div class="module-info">
+              <h3>Habilidades Pokémon</h3>
+              <p>Catálogo de las 219 habilidades del juego con descripciones oficiales y lista de Pokémon que las poseen.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+
+          <div class="module-card" onclick="window.switchTab('novedades')">
+            <div class="module-icon">⭐</div>
+            <div class="module-info">
+              <h3>Novedades & Calidad de Vida</h3>
+              <p>Exp All moderno, curación pre-boss, 60 FPS, selector de ataques en batalla y soluciones a bugs conocidos.</p>
+            </div>
+            <span class="module-arrow">➔</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- VISTA 1: POKÉDEX / WIKIDEX -->
-    <section id="view-pokedex" class="tab-view active">
+    <section id="view-pokedex" class="tab-view">
       <div class="filters-bar">
         <div class="filters-group">
           <label style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Tipo:</label>
@@ -90,6 +226,361 @@
       <!-- Cuadrícula de Pokémon -->
       <div id="pokemon-grid" class="pokemon-grid"></div>
     </section>
+
+    <!-- VISTA: GUÍA PASO A PASO -->
+    <section id="view-guia" class="tab-view">
+      <div class="walkthrough-header">
+        <div>
+          <span style="font-size: 0.85rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Aventura Completa</span>
+          <h2 style="font-size: 1.8rem; font-weight: 800; margin: 4px 0;">📜 Guía Paso a Paso de Pokémon ChirlGold</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0;">
+            Recorrido estratégico capítulo a capítulo por Johto y Kanto con los 16 gimnasios, Liga Pokémon y el combate cumbre en el Monte Plateado.
+          </p>
+        </div>
+      </div>
+
+      <div class="walkthrough-chapters" id="walkthrough-accordion">
+
+        <!-- Cap 1 -->
+        <div class="chapter-card active">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 1</span>
+              <h3 class="chapter-title">El Despertar en Pueblo Primavera y la Primera Misión</h3>
+            </div>
+            <span class="chapter-tag region-johto">Johto · Inicio</span>
+          </div>
+          <div class="chapter-body">
+            <p>Comienzas tu aventura en <b>Pueblo Primavera</b>. Tras ajustar la hora en el Pokégear y hablar con tu madre, dirígete al laboratorio del <b>Profesor Elm</b> para escoger a tu compañero inicial:</p>
+            <ul>
+              <li>🔥 <b>Cyndaquil</b> (Fuego): Excelente para los primeros gimnasios (Bicho e Insectos) y evoluciona en Typhlosion o Typhlosion de Hisui.</li>
+              <li>💧 <b>Totodile</b> (Agua): Gran atacante físico con Cascada, Triturar y Danza Dragón.</li>
+              <li>🌿 <b>Chikorita</b> (Planta): Opción defensiva y de soporte con Reflejo, Pantalla de Luz y Drenadoras.</li>
+            </ul>
+            <div class="walkthrough-tip">
+              💡 <b>Ventaja ChirlGold:</b> El ayudante del Profesor Elm en el laboratorio te entrega <b>21 Mentas de Naturaleza</b> para personalizar las estadísticas de tus Pokémon desde el minuto 1, además del Caramelo Raro Infinito.
+            </div>
+            <p>Avanza por la <b>Ruta 29</b> hacia el oeste derrotando Pokémon salvajes hasta llegar a <b>Ciudad Cerezo</b>. Sube hacia el norte por la <b>Ruta 30</b> hasta la <b>Casa del Sr. Pokémon</b>, donde recibirás el <b>Huevo Misterioso</b> y la <b>Pokédex</b> de manos del Profesor Oak.</p>
+            <p>Al regresar hacia Ciudad Cerezo, serás interceptado por tu misterioso <b>Rival pelirrojo</b>. Derrótalo aprovechando la ventaja de tipo y vuelve al laboratorio de Elm para bautizarlo y comenzar oficialmente tu desafío de los 8 gimnasios de Johto.</p>
+          </div>
+        </div>
+
+        <!-- Cap 2 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 2</span>
+              <h3 class="chapter-title">Las Alas de Ciudad Malvalba y la Torre Bellsprout</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 13</span>
+          </div>
+          <div class="chapter-body">
+            <p>Atraviesa la <b>Ruta 31</b> y explora la entrada de la <b>Cueva Oscura</b> para capturar especies como Geodude o Zubat. Al llegar a <b>Ciudad Malvalba</b>, visita la mística <b>Torre Bellsprout</b> antes del gimnasio:</p>
+            <ul>
+              <li>Derrota a los monjes ascendiendo por los pilares oscilantes.</li>
+              <li>Vence al Venerable en la cima para recibir la <b>MT Flash</b>.</li>
+              <li>El ayudante de Elm te esperará en la Tienda Pokémon para entregarte el Huevo del que nacerá <b>Togepi</b>.</li>
+            </ul>
+            <h4>⚔️ Gimnasio 1: Pegaso (Falkner) — Medalla Céfiro</h4>
+            <p>Pegaso utiliza Pokémon de tipo Volador con gran cobertura. Sus componentes principales son <b>Hoothoot (Nv. 12)</b>, <b>Doduo (Nv. 12)</b> y su as <b>Noctowl (Nv. 13)</b> con Baya Aranja e Hipnosis.</p>
+            <div class="walkthrough-tip">
+              🛡️ <b>Estrategia recomendada:</b> Un Geodude o Mareep capturado en la Ruta 32 resistirá fácilmente sus ataques y asestará golpes súper eficaces.
+            </div>
+          </div>
+        </div>
+
+        <!-- Cap 3 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 3</span>
+              <h3 class="chapter-title">El Pozo Slowpoke y el Gimnasio Colmena de Pueblo Azalea</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 17</span>
+          </div>
+          <div class="chapter-body">
+            <p>Desciende por la <b>Ruta 32</b> (donde puedes visitar las <b>Ruinas Alfa</b> para resolver los puzles de los Unown). Atraviesa la <b>Cueva Unión</b>, ideal para capturar a Wooper, Onix y Lapras (los viernes en el lago inferior), y sal a la lluviosa <b>Ruta 33</b> hasta alcanzar <b>Pueblo Azalea</b>.</p>
+            <p>En el pueblo descubrirás que los malvados reclutas del <b>Team Rocket</b> han tomado el <b>Pozo Slowpoke</b> para cortar y vender colas de Slowpoke en el mercado negro:</p>
+            <ul>
+              <li>Habla con el artesano de Pokéballs <b>César</b> y acompáñalo al interior del pozo.</li>
+              <li>Derrota al Ejecutivo Protón en el fondo de la cueva para expulsar al Team Rocket.</li>
+              <li>César te premiará con sus famosas <b>Pokéballs artesanales de Bonguris</b>.</li>
+            </ul>
+            <h4>⚔️ Gimnasio 2: Antón (Bugsy) — Medalla Colmena</h4>
+            <p>Antón cuenta con <b>Spinarak (Nv. 15)</b>, <b>Metapod (Nv. 15)</b> y su temible <b>Scyther (Nv. 17)</b> con Ida y Vuelta.</p>
+            <div class="walkthrough-tip">
+              🔥 <b>Estrategia:</b> Ataques de tipo Fuego, Volador o Roca son indispensables para frenar a Scyther antes de que gane inercia con Danza Espada.
+            </div>
+          </div>
+        </div>
+
+        <!-- Cap 4 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 4</span>
+              <h3 class="chapter-title">El Encinar y el Desafío de Blanca en Ciudad Trigal</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 20</span>
+          </div>
+          <div class="chapter-body">
+            <p>Al intentar cruzar al <b>Encinar</b>, tu Rival te desafiará a un nuevo combate. En el interior del bosque sombrío, rescata a los dos Farfetch'd perdidos para que su dueño te entregue la <b>MO01 Corte</b>, indispensable para despejar arbustos.</p>
+            <p>Avanza por la <b>Ruta 34</b>, donde se encuentra la <b>Guardería Pokémon</b>, hasta llegar a la colosal <b>Ciudad Trigal</b>:</p>
+            <ul>
+              <li><b>Centro Comercial de Trigal:</b> En el piso 3F encontrarás la tienda competitiva con <b>Cordón Unión</b>, <b>Mineral Evol</b>, <b>Restos</b>, <b>Vidasfera</b> y todas las piedras evolutivas.</li>
+              <li><b>Casa de Bill:</b> Bill te regalará un <b>Eevee</b> en perfecto estado.</li>
+              <li><b>Torre Radio:</b> Responde a las 5 preguntas del concurso para obtener la tarjeta de Radio del Pokégear.</li>
+              <li><b>Tienda de Bicis:</b> Consigue la Bicicleta para desplazarte a toda velocidad.</li>
+            </ul>
+            <h4>⚔️ Gimnasio 3: Blanca (Whitney) — Medalla Planicie</h4>
+            <p>El gimnasio normal de Blanca es legendario por su dificultad. Utiliza a <b>Clefairy (Nv. 18)</b> con Metrónomo y el temible <b>Miltank (Nv. 20)</b> con Desenrollar, Atracción y Batido.</p>
+            <div class="walkthrough-tip">
+              ⚠️ <b>Cómo vencer a Miltank:</b> Intercambia un Drowzee por el Machop ("Machi") en los grandes almacenes de Trigal, o usa cambios de estado (Parálisis o Hipnosis) para romper el combo de Desenrollar.
+            </div>
+          </div>
+        </div>
+
+        <!-- Cap 5 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 5</span>
+              <h3 class="chapter-title">El Parque Nacional, Sudowoodo y los Espectros de Iris</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 25</span>
+          </div>
+          <div class="chapter-body">
+            <p>Sal por la puerta norte de Trigal hacia la <b>Ruta 35</b> y adéntrate en el <b>Parque Nacional</b> (donde se celebra los martes, jueves y sábados el Concurso de Captura de Bichos). En ChirlGold, en el Parque Nacional habitan Pokémon fósiles y especies de gran potencial.</p>
+            <p>En la <b>Ruta 36</b> riega con la Regadera al árbol danzante para entablar combate contra el curioso <b>Sudowoodo</b> (Roca pura). Sigue por la <b>Ruta 37</b> hasta entrar en la histórica <b>Ciudad Iris</b>:</p>
+            <ul>
+              <li><b>Teatro de Danza:</b> Vence al recluta del Team Rocket para recibir la <b>MO03 Surf</b> del señor del público.</li>
+              <li><b>Torre Quemada:</b> Al explorar sus ruinas te enfrentarás a tu Rival y presenciarás el despertar de las tres bestias legendarias: <b>Raikou, Entei y Suicune</b>, que empezarán a recorrer las rutas de Johto.</li>
+            </ul>
+            <h4>⚔️ Gimnasio 4: Morti (Morty) — Medalla Niebla</h4>
+            <p>El suelo del gimnasio es un abismo en penumbra. Morti comanda fantasmas: <b>Gastly (Nv. 21)</b>, dos <b>Haunter (Nv. 21 y 23)</b> y su veloz <b>Gengar (Nv. 25)</b> con Bola Sombra e Hipnosis.</p>
+            <div class="walkthrough-tip">
+              🔮 <b>Estrategia:</b> Los Pokémon de tipo Normal son inmunes a los ataques de Fantasma. Ataques de tipo Siniestro como Mordisco o Triturar barren su equipo.
+            </div>
+          </div>
+        </div>
+
+        <!-- Cap 6 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 6</span>
+              <h3 class="chapter-title">La Odisea Marítima de Olivo y el Faro de Orquídea</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 31 - 35</span>
+          </div>
+          <div class="chapter-body">
+            <p>Avanza hacia el oeste por la <b>Ruta 38</b> y la <b>Ruta 39</b> (visita la Granja Mumu para comprar Leche Mu-mu) hasta <b>Ciudad Olivo</b>. En el gran Faro encontrarás a la líder <b>Yasmina</b> cuidando desesperada de un Ampharos enfermo ("Amphy").</p>
+            <p>Surfea por las <b>Rutas 40 y 41</b> (donde se vislumbran las misteriosas Islas Remolino) hasta la lejana <b>Ciudad Orquídea</b>:</p>
+            <ul>
+              <li>Entra en la Farmacia de Orquídea para obtener la <b>Poción Secreta</b> para Amphy.</li>
+              <li>Habla con la esposa de Aníbal fuera del gimnasio para recibir la <b>MO02 Vuelo</b>.</li>
+            </ul>
+            <h4>⚔️ Gimnasio 5: Aníbal (Chuck) — Medalla Tormenta (Nv. Cap 31)</h4>
+            <p>Gimnasio de artes marciales con <b>Primeape (Nv. 29)</b> y <b>Poliwrath (Nv. 31)</b> con Puño Dinámico e Hipnosis. Los tipos Volador y Psíquico tienen ventaja absoluta.</p>
+            <p>Regresa volando al Faro de Olivo, entrega la medicina a Yasmina y el faro volverá a brillar con fuerza. Yasmina regresará a su gimnasio de tipo Acero:</p>
+            <h4>⚔️ Gimnasio 6: Yasmina (Jasmine) — Medalla Mineral (Nv. Cap 35)</h4>
+            <p>Utiliza dos <b>Magnemite (Nv. 30)</b> y su imponente <b>Steelix (Nv. 35)</b> con Cola Férrea y Terremoto. Los ataques de tipo Fuego, Agua, Tierra y Lucha son letales.</p>
+          </div>
+        </div>
+
+        <!-- Cap 7 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 7</span>
+              <h3 class="chapter-title">La Furia de Caoba y la Base Secreta del Team Rocket</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 34</span>
+          </div>
+          <div class="chapter-body">
+            <p>Desde Ciudad Iris ve hacia el este por la <b>Ruta 42</b> (que rodea los tres accesos del colosal <b>Monte Mortero</b>) hasta llegar al rústico <b>Pueblo Caoba</b>. El gimnasio estará bloqueado por un extraño vendedor.</p>
+            <p>Sube por la <b>Ruta 43</b> hasta el imponente <b>Lago de la Furia</b>:</p>
+            <ul>
+              <li>En medio de la lluvia torrencial, enfréntate al legendario <b>Gyarados Rojo (Shiny)</b> en nivel 30 y atrápalo.</li>
+              <li>En la orilla te espera el Campeón <b>Lance</b> y su Dragonite. Acepta ayudarlo a investigar la extraña señal de radio que altera a los Pokémon.</li>
+              <li>Regresa a la tienda de Caoba con Lance y descubre la entrada secreta a la <b>Base Subterránea del Team Rocket</b>.</li>
+              <li>Desactiva las trampas, derrota a los científicos y ejecutivos, y desconecta el generador de ondas debilitando a los Electrode. Lance te recompensará con la <b>MO05 Torbellino</b>.</li>
+            </ul>
+            <h4>⚔️ Gimnasio 7: Fredo (Pryce) — Medalla Glaciar</h4>
+            <p>El veterano Fredo te espera en un suelo de hielo resbaladizo. Combate con <b>Seel (Nv. 30)</b>, <b>Dewgong (Nv. 32)</b> y <b>Piloswine (Nv. 34)</b> con Colmillo Hielo y Terremoto.</p>
+          </div>
+        </div>
+
+        <!-- Cap 8 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 8</span>
+              <h3 class="chapter-title">El Asedio a la Torre Radio de Trigal</h3>
+            </div>
+            <span class="chapter-tag region-johto">Punto Clave</span>
+          </div>
+          <div class="chapter-body">
+            <p>Al salir del gimnasio de Fredo, el Profesor Elm te llamará alertando de que el <b>Team Rocket ha tomado la Torre Radio de Ciudad Trigal</b> para intentar contactar a su desaparecido líder Giovanni:</p>
+            <ul>
+              <li>Ve al Subterráneo de Trigal y disfrázate con el uniforme del Team Rocket.</li>
+              <li>Sube a la Torre Radio hasta que tu Rival revele tu identidad por error.</li>
+              <li>Desciende al Almacén Subterráneo, derrota a los secuaces y rescata al auténtico <b>Director de la Radio</b>, quien te otorgará la <b>Llave Magnética</b>.</li>
+              <li>Regresa a la torre y sube a los pisos superiores venciendo a los cuatro Ejecutivos: <b>Petrel</b>, <b>Protón</b>, <b>Atenea (Ariana)</b> y al líder interino <b>Atlas (Archer)</b>.</li>
+              <li>Con el Team Rocket desmantelado para siempre en Johto, el Director te premiará con el <b>Ala Arcoíris</b> (HeartGold) o el <b>Ala Plateada</b> (SoulSilver).</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cap 9 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 9</span>
+              <h3 class="chapter-title">El Clan Dragón de Endrino y el Vuelo Legendario</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 41</span>
+          </div>
+          <div class="chapter-body">
+            <p>Desde Caoba cruza la <b>Ruta 44</b> y adéntrate en la gélida <b>Ruta Helada</b>, un complejo de cavernas con puzles de empujar rocas y patinar en hielo. En su interior encontrarás la <b>MO07 Cascada</b> antes de salir a la recóndita <b>Ciudad Endrino</b>.</p>
+            <h4>⚔️ Gimnasio 8: Débora (Clair) — Medalla Dragón</h4>
+            <p>El gimnasio cuenta con plataformas móviles sobre lava ardiente. Débora combate con tres <b>Dragonair (Nv. 38)</b> y su devastador <b>Kingdra (Nv. 41)</b> de tipo Agua/Dragón con Hidrobomba y Pulso Dragón.</p>
+            <div class="walkthrough-tip">
+              🐉 <b>Estrategia:</b> Kingdra solo es débil a Dragón y Hada. Si trajiste Pokémon de tipo Hada o un atacante con ataques de Hielo potentes, podrás neutralizarlo.
+            </div>
+            <p>Débora se negará a darte la medalla hasta que demuestres tu pureza moral en la <b>Guarida Dragón</b> tras el gimnasio. Responde con nobleza a las 5 preguntas del Anciano y Débora se verá obligada a entregarte la octava medalla y la <b>MT Pulso Dragón</b>.</p>
+            <p>Tras esto, las Chicas Tradicionales de Ciudad Iris te pondrán a prueba en el Teatro de Danza. Al vencerlas, ascenderás a la <b>Torre Campana</b> para invocar al guardián de los cielos, <b>Ho-Oh</b> (Nv. 45).</p>
+          </div>
+        </div>
+
+        <!-- Cap 10 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 10</span>
+              <h3 class="chapter-title">Rumbo a la Meseta Añil y la Calle Victoria</h3>
+            </div>
+            <span class="chapter-tag region-johto">Ruta a la Liga</span>
+          </div>
+          <div class="chapter-body">
+            <p>Con las 8 medallas de Johto, dirígete al este de Pueblo Primavera y haz Surf por la <b>Ruta 27</b>. Cruzarás las <b>Cascadas Tohjo</b> (la frontera natural entre Johto y Kanto) y avanzarás por la <b>Ruta 26</b> combatiendo contra entrenadores de élite.</p>
+            <p>Pasa el control de medallas en la Recepción de la Liga y adéntrate en la <b>Calle Victoria</b>, una caverna escarpada sin entrenadores salvajes donde te espera tu <b>Rival</b> para disputar el combate decisivo antes de la cumbre.</p>
+          </div>
+        </div>
+
+        <!-- Cap 11 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 11</span>
+              <h3 class="chapter-title">El Alto Mando y el Campeón Lance en la Liga Pokémon</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 47 - 50</span>
+          </div>
+          <div class="chapter-body">
+            <p>La Meseta Añil alberga el desafío supremo de Johto. Deberás derrotar a los cuatro miembros del Alto Mando y al Campeón sin descanso:</p>
+            <div class="elite-grid">
+              <div class="elite-member-card">
+                <b>1. Mento (Will) — Psíquico (Nv. 40-42)</b>
+                <p>Xatu, Jynx, Slowbro, Exeggutor y Xatu. Débiles a Siniestro, Fantasma y Bicho.</p>
+              </div>
+              <div class="elite-member-card">
+                <b>2. Koga — Veneno (Nv. 40-44)</b>
+                <p>Ariados, Venomoth, Forretress, Muk y Crobat. Usa Fuego para Forretress y Psíquico/Tierra para el resto.</p>
+              </div>
+              <div class="elite-member-card">
+                <b>3. Bruno — Lucha / Roca (Nv. 42-46)</b>
+                <p>Hitmontop, Hitmonlee, Hitmonchan, Onix y Machamp. Volador, Psíquico y Agua dominan el combate.</p>
+              </div>
+              <div class="elite-member-card">
+                <b>4. Karen — Siniestro (Nv. 42-47)</b>
+                <p>Umbreon, Vileplume, Gengar, Murkrow y Houndoom. Lucha para Umbreon y Houndoom; Tierra para Gengar.</p>
+              </div>
+            </div>
+            <h4 style="margin-top: 16px;">👑 Campeón Lance — Dragones de Élite (Nv. 46-50)</h4>
+            <p>Lance cuenta con <b>Gyarados (Nv. 46)</b> con Cascada, <b>Aerodactyl (Nv. 48)</b> con Avalancha, <b>Charizard (Nv. 48)</b> y tres <b>Dragonite (Nv. 49, 49 y 50)</b> con Llamarada, Trueno, Ventisca e Enfado.</p>
+            <div class="walkthrough-tip">
+              ⚡ <b>Claves de victoria:</b> Un ataque Eléctrico elimina a Gyarados al instante (x4). Ataques de Hielo barrieron a sus tres Dragonite (x4 de debilidad). ¡Felicidades, te has coronado Campeón de Johto!
+            </div>
+          </div>
+        </div>
+
+        <!-- Cap 12 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 12</span>
+              <h3 class="chapter-title">El Barco S.S. Aqua y el Desembarco en Kanto</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 53</span>
+          </div>
+          <div class="chapter-body">
+            <p>Tras los créditos, el Profesor Elm te entregará el <b>Ticket del Barco</b> en Pueblo Primavera. Ve a Ciudad Olivo y embárcate en el lujoso <b>S.S. Aqua</b> rumbo a Kanto. Resuelve el misterio de la niña extraviada para que el Abuelo te premie con el <b>Revestimiento Metálico</b>.</p>
+            <p>Desembarcarás en <b>Ciudad Carmín</b> en la histórica región de Kanto:</p>
+            <h4>⚔️ Gimnasio de Carmín: Lt. Surge — Medalla Trueno (Nv. Cap 53)</h4>
+            <p>Despeja los cubos de basura con el doble interruptor para enfrentarte al soldado americano y sus Pokémon eléctricos: Raichu, dos Electrode, Magneton y Electabuzz. El tipo Tierra es inmune y letal.</p>
+          </div>
+        </div>
+
+        <!-- Cap 13 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 13</span>
+              <h3 class="chapter-title">Las 8 Medallas de Kanto y la Restauración de la Central</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 54 - 60</span>
+          </div>
+          <div class="chapter-body">
+            <p>Kanto te ofrece total libertad para afrontar sus gimnasios en el orden que prefieras:</p>
+            <ul>
+              <li><b>Ciudad Azafrán:</b> Derrota a <b>Sabrina (Nv. 55)</b> y sus poderosos tipos Psíquicos.</li>
+              <li><b>Ciudad Azulona:</b> Vence a <b>Érika (Nv. 56)</b> en su jardín botánico de tipo Planta.</li>
+              <li><b>Ciudad Fucsia:</b> Supera el laberinto de paredes invisibles de <b>Sachiko (Janine, Nv. 56)</b>.</li>
+              <li><b>Misterio de la Central de Energía:</b> En la Ruta 10 descubre que han robado la Maquinaria. Encuentra al ladrón en el Gimnasio de Ciudad Celeste, recupera la pieza oculta en el agua de la piscina y devuélvela a la Central para restaurar la luz de todo Kanto.</li>
+              <li><b>Cabo Celeste & Ciudad Celeste:</b> Interrumpe la cita de <b>Misty</b> en la Ruta 25 y enfréntate a ella en su gimnasio (Nv. 55).</li>
+              <li><b>Pueblo Lavanda:</b> En la Torre Radio te entregarán el <b>Pase de Radio de Kanto</b> como agradecimiento.</li>
+              <li><b>Ciudad Plateada:</b> Sintoniza la Pokéflauta en la radio para despertar a <b>Snorlax</b> en la Ruta 11 o 12. Cruza la Cueva Diglett y vence a <b>Brock (Nv. 54)</b> y sus moles de Roca.</li>
+              <li><b>Islas Espuma:</b> En las islas del sur encontrarás el gimnasio provisional de <b>Blaine (Nv. 59)</b> tras la erupción del volcán de Canela.</li>
+              <li><b>Ciudad Verde:</b> Habla con <b>Azul (Blue)</b> en Isla Canela y combate contra su equipo variado en el Gimnasio 16 (Nv. 60) con Pidgeot, Machamp, Alakazam, Rhydon, Gyarados y Exeggutor.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cap 14 -->
+        <div class="chapter-card">
+          <div class="chapter-header" onclick="window.toggleChapter(this)">
+            <div class="chapter-title-group">
+              <span class="chapter-num">Capítulo 14</span>
+              <h3 class="chapter-title">La Batalla Cumbre en el Monte Plateado contra Red</h3>
+            </div>
+            <span class="chapter-cap">CAP: Nv. 88 - 100</span>
+          </div>
+          <div class="chapter-body">
+            <p>Con las 16 medallas en tu posesión, visita al <b>Profesor Oak</b> en Pueblo Paleta. Reconocerá tu maestría y te otorgará el permiso especial para acceder a la zona más peligrosa del mundo Pokémon: el <b>Monte Plateado</b>.</p>
+            <p>Dirígete a la Recepción de la Liga y cruza la puerta oeste hacia la <b>Ruta 28</b>:</p>
+            <div class="walkthrough-tip">
+              ⭐ <b>Encuentros Exclusivos de ChirlGold en la Ruta 28:</b> En la hierba alta de la Ruta 28 y las faldas del Monte Plateado aparecen de forma salvaje titanes como <b>Arceus (30%)</b>, <b>Eternatus (30%)</b>, <b>Regidrago (20%)</b> y <b>Stakataka (20%)</b>.
+            </div>
+            <p>Sube por las oscuras galerías del interior del Monte Plateado usando Flash, Treparrocas y Cascada hasta emerger en la <b>Cima Nevada</b> envuelta en granizo permanente. Allí, silencioso frente al horizonte, te aguarda el mayor entrenador de la historia:</p>
+            <h4>👑 El Duelo Legendario: Rojo (Red) — Nivel 88</h4>
+            <ul>
+              <li>⚡ <b>Pikachu (Nv. 88)</b> con Bola Luminosa, Placaje Eléctrico, Surf y Cola Férrea.</li>
+              <li>🌿 <b>Venusaur (Nv. 84)</b> con Gigadrenado, Bomba Lodo y Rayo Solar.</li>
+              <li>🔥 <b>Charizard (Nv. 84)</b> con Lanzallamas, Onda Certera y Tajo Aéreo.</li>
+              <li>💧 <b>Blastoise (Nv. 84)</b> con Ventisca, Onda Certera e Hidrobomba.</li>
+              <li>💤 <b>Snorlax (Nv. 82)</b> con Golpe Cuerpo, Ventisca y Bola Sombra.</li>
+              <li>❄️ <b>Lapras (Nv. 80)</b> con Ventisca, Salmuera y Psíquico.</li>
+            </ul>
+            <div class="walkthrough-tip">
+              🏆 <b>Victoria Definitiva:</b> Cambia el clima en el primer turno para quitar el granizo y neutralizar la Ventisca precisa de su equipo. ¡Al derrotar a Red, te consagrarás como la auténtica leyenda viva de Pokémon ChirlGold!
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
 
     <!-- VISTA 2: RUTAS Y ENCUENTROS -->
     <section id="view-rutas" class="tab-view">
@@ -191,6 +682,21 @@
       </div>
     </section>
 
+    <!-- VISTA: HABILIDADES -->
+    <section id="view-habilidades" class="tab-view">
+      <div class="filters-bar">
+        <div class="filters-group">
+          <input type="text" id="ability-search-input" class="select-filter" placeholder="Buscar por nombre de habilidad o efecto..." style="min-width: 260px;">
+        </div>
+        <span id="abilities-count" class="results-count">Cargando habilidades...</span>
+      </div>
+
+      <div class="abilities-grid" id="abilities-grid">
+        <!-- Renderizado dinámicamente con app.js -->
+      </div>
+    </section>
+
+
     <!-- VISTA 6: NOVEDADES CHIRLGOLD -->
     <section id="view-novedades" class="tab-view">
       <div class="info-card" style="border-left: 4px solid var(--success);">
@@ -246,6 +752,14 @@
     <div class="modal-container modal-route-container" style="max-width: 860px;">
       <button id="route-modal-close" class="modal-close" title="Cerrar">&times;</button>
       <div id="route-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- MODAL 5: DETALLE DE HABILIDAD -->
+  <div id="ability-modal" class="modal-overlay" style="z-index: 350;">
+    <div class="modal-container" style="max-width: 680px;">
+      <button id="ability-modal-close" class="modal-close" title="Cerrar">&times;</button>
+      <div id="ability-modal-content"></div>
     </div>
   </div>
 
