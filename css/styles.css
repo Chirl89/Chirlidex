@@ -946,6 +946,9 @@ main {
   height: auto;
   display: block;
   user-select: none;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
 
 /* Pin interactivo animado */

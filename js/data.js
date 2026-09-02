@@ -342908,8 +342908,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Casa de Bill (Ciudad Trigal)",
       "region": "Johto",
-      "x": 20,
-      "y": 52,
+      "x": 26.6,
+      "y": 57.5,
       "desc": "Hogar familiar de Bill en Ciudad Trigal donde te regala a Eevee.",
       "connections": [
         "Ciudad Trigal"
@@ -342927,8 +342927,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ciudad Olivo",
       "region": "Johto",
-      "x": 15,
-      "y": 38,
+      "x": 22.7,
+      "y": 42.5,
       "desc": "Importante puerto marítimo con un gran faro, hogar del Gimnasio de Yasmina.",
       "connections": [
         "Ruta 39",
@@ -342954,8 +342954,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Cueva Oscura (Acceso Ruta 31)",
       "region": "Johto",
-      "x": 63,
-      "y": 42,
+      "x": 53.5,
+      "y": 45.0,
       "desc": "Laberíntica caverna subterránea que une la Ruta 31 con Ciudad Endrino.",
       "connections": [
         "Ruta 31",
@@ -343087,8 +343087,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Cueva Unión",
       "region": "Johto",
-      "x": 44,
-      "y": 77,
+      "x": 42.2,
+      "y": 75.0,
       "desc": "Extensa cueva de múltiples niveles que conecta la Ruta 32 con la Ruta 33.",
       "connections": [
         "Ruta 32",
@@ -343227,8 +343227,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Encinar",
       "region": "Johto",
-      "x": 20,
-      "y": 75,
+      "x": 26.6,
+      "y": 76.9,
       "desc": "Bosque ancestral y sombrío custodiado por el altar del protector del bosque, Celebi.",
       "connections": [
         "Pueblo Azalea",
@@ -343359,8 +343359,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Entrega especial (Ciudad Orquídea)",
       "region": "Johto",
-      "x": 5,
-      "y": 70,
+      "x": 11.3,
+      "y": 61.3,
       "desc": "Población costera al otro lado del mar donde te entregan a Shuckle para cuidarlo.",
       "connections": [
         "Ciudad Orquídea",
@@ -343380,8 +343380,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Guardia de la puerta norte (Ciudad Trigal)",
       "region": "Johto",
-      "x": 20,
-      "y": 46,
+      "x": 26.6,
+      "y": 51.2,
       "desc": "Puesto fronterizo norte de Ciudad Trigal que da paso a la Ruta 35.",
       "connections": [
         "Ciudad Trigal",
@@ -343400,8 +343400,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Guarida Dragón (Ciudad Endrino)",
       "region": "Johto",
-      "x": 84,
-      "y": 28,
+      "x": 62.5,
+      "y": 25.0,
       "desc": "Santuario subterráneo del clan de los dragones tras el Gimnasio de Débora.",
       "connections": [
         "Ciudad Endrino"
@@ -343419,8 +343419,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Huevo del ayudante del Prof. Elm (Ciudad Malvalba)",
       "region": "Johto",
-      "x": 44,
-      "y": 45,
+      "x": 42.2,
+      "y": 53.1,
       "desc": "Tienda Pokémon de Ciudad Malvalba donde el ayudante entrega el huevo misterioso.",
       "connections": [
         "Ciudad Malvalba"
@@ -343438,8 +343438,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Laboratorio del Prof. Elm (Pueblo Primavera)",
       "region": "Johto",
-      "x": 84,
-      "y": 72,
+      "x": 66.8,
+      "y": 71.2,
       "desc": "Laboratorio de investigación donde el Prof. Elm entrega el Pokémon inicial.",
       "connections": [
         "Pueblo Primavera",
@@ -343472,8 +343472,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Maestro del Monte Mortero",
       "region": "Johto",
-      "x": 47,
-      "y": 15,
+      "x": 42.2,
+      "y": 26.2,
       "desc": "Profundidades del Monte Mortero donde el Maestro Karateka entrega a Tyrogue.",
       "connections": [
         "Monte Mortero"
@@ -343491,8 +343491,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Monte Mortero",
       "region": "Johto",
-      "x": 47,
-      "y": 15,
+      "x": 42.2,
+      "y": 26.2,
       "desc": "Gigantesco complejo cavernoso de tres entradas en la ladera de la Ruta 42.",
       "connections": [
         "Ruta 42"
@@ -343629,8 +343629,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Parque Nacional",
       "region": "Johto",
-      "x": 20,
-      "y": 32,
+      "x": 30.5,
+      "y": 42.5,
       "desc": "Amplio parque ajardinado de recreo. En ChirlGold habitan fósiles y pseudolegendarios.",
       "connections": [
         "Ruta 35",
@@ -343789,8 +343789,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Pozo Slowpoke",
       "region": "Johto",
-      "x": 28,
-      "y": 77,
+      "x": 34.4,
+      "y": 76.9,
       "desc": "Caverna kárstica en Pueblo Azalea sagrada para los Slowpoke y fuente de lluvia.",
       "connections": [
         "Pueblo Azalea"
@@ -343871,8 +343871,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruinas Alfa",
       "region": "Johto",
-      "x": 37,
-      "y": 53,
+      "x": 37.5,
+      "y": 57.5,
       "desc": "Místicas ruinas arqueológicas con enigmas sobre los Unown y el origen de Johto.",
       "connections": [
         "Ruta 32",
@@ -344018,8 +344018,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 29",
       "region": "Johto",
-      "x": 75,
-      "y": 72,
+      "x": 61.3,
+      "y": 71.2,
       "desc": "Conecta Pueblo Primavera al este con Ciudad Cerezo al oeste.",
       "connections": [
         "Pueblo Primavera",
@@ -344144,8 +344144,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 30",
       "region": "Johto",
-      "x": 64,
-      "y": 56,
+      "x": 53.5,
+      "y": 62.5,
       "desc": "Se extiende hacia el norte desde Ciudad Cerezo hasta la casa del Sr. Pokémon y la Ruta 31.",
       "connections": [
         "Ciudad Cerezo",
@@ -344269,8 +344269,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 31",
       "region": "Johto",
-      "x": 55,
-      "y": 45,
+      "x": 49.2,
+      "y": 53.1,
       "desc": "Conecta la Ruta 30 con Ciudad Malvalba y da acceso a la Cueva Oscura.",
       "connections": [
         "Ciudad Malvalba",
@@ -344374,8 +344374,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 32",
       "region": "Johto",
-      "x": 44,
-      "y": 64,
+      "x": 42.2,
+      "y": 65.6,
       "desc": "Larga vía costera hacia el sur entre Ciudad Malvalba y la Cueva Unión.",
       "connections": [
         "Ciudad Malvalba",
@@ -344500,8 +344500,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 33",
       "region": "Johto",
-      "x": 35,
-      "y": 77,
+      "x": 37.5,
+      "y": 80.0,
       "desc": "Corta ruta lluviosa que une la salida de la Cueva Unión con Pueblo Azalea.",
       "connections": [
         "Cueva Unión",
@@ -344618,8 +344618,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 34",
       "region": "Johto",
-      "x": 20,
-      "y": 63,
+      "x": 26.6,
+      "y": 65.6,
       "desc": "Concurrente camino entre el Encinar y Ciudad Trigal. Aloja la Guardería Pokémon.",
       "connections": [
         "Encinar",
@@ -344834,8 +344834,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 35",
       "region": "Johto",
-      "x": 20,
-      "y": 42,
+      "x": 26.6,
+      "y": 45.6,
       "desc": "Ruta hacia el norte que conecta Ciudad Trigal con la entrada sur del Parque Nacional.",
       "connections": [
         "Ciudad Trigal",
@@ -344946,8 +344946,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 36",
       "region": "Johto",
-      "x": 32,
-      "y": 36,
+      "x": 34.4,
+      "y": 45.6,
       "desc": "Cruce estratégico que conecta Ciudad Malvalba, el Parque Nacional y Ciudad Iris.",
       "connections": [
         "Ciudad Malvalba",
@@ -345101,8 +345101,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 37",
       "region": "Johto",
-      "x": 32,
-      "y": 26,
+      "x": 34.4,
+      "y": 36.2,
       "desc": "Sendero flanqueado por árboles de bayas que conduce a las puertas de Ciudad Iris.",
       "connections": [
         "Ruta 36",
@@ -345338,8 +345338,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 38",
       "region": "Johto",
-      "x": 23,
-      "y": 19,
+      "x": 29.3,
+      "y": 30.0,
       "desc": "Vía campestre hacia el oeste desde Ciudad Iris hacia la Granja Mumu.",
       "connections": [
         "Ciudad Iris",
@@ -345477,8 +345477,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 39",
       "region": "Johto",
-      "x": 15,
-      "y": 28,
+      "x": 24.2,
+      "y": 36.2,
       "desc": "Camino rural que bordea la Granja Mumu y desciende hacia Ciudad Olivo.",
       "connections": [
         "Ruta 38",
@@ -345616,8 +345616,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 42",
       "region": "Johto",
-      "x": 47,
-      "y": 19,
+      "x": 42.2,
+      "y": 30.0,
       "desc": "Ruta escarpada que bordea tres accesos al Monte Mortero entre Iris y Caoba.",
       "connections": [
         "Ciudad Iris",
@@ -345756,8 +345756,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 43",
       "region": "Johto",
-      "x": 60,
-      "y": 10,
+      "x": 49.2,
+      "y": 20.0,
       "desc": "Camino septentrional que sube desde Pueblo Caoba hasta las orillas del Lago de la Furia.",
       "connections": [
         "Pueblo Caoba",
@@ -345825,8 +345825,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 46",
       "region": "Johto",
-      "x": 84,
-      "y": 60,
+      "x": 62.5,
+      "y": 63.7,
       "desc": "Desfiladero montañoso escalonado que conecta la Ruta 29 con la Ruta 45.",
       "connections": [
         "Ruta 29",
@@ -345951,8 +345951,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 47",
       "region": "Johto",
-      "x": 3,
-      "y": 58,
+      "x": 7.4,
+      "y": 56.2,
       "desc": "Ruta sobre acantilados rocosos y cascadas inaugurada en HGSS al oeste de Orquídea.",
       "connections": [
         "Ciudad Orquídea",
@@ -346105,8 +346105,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 48",
       "region": "Johto",
-      "x": 3,
-      "y": 48,
+      "x": 7.4,
+      "y": 45.6,
       "desc": "Hermoso prado montañoso que conduce al acceso principal de la Zona Safari de Johto.",
       "connections": [
         "Ruta 47",
@@ -346223,8 +346223,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta Helada",
       "region": "Johto",
-      "x": 79,
-      "y": 19,
+      "x": 59.4,
+      "y": 30.0,
       "desc": "Peligrosa caverna glaciar cubierta de placas resbaladizas entre Caoba y Endrino.",
       "connections": [
         "Ruta 44",
@@ -346362,8 +346362,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Torre Bellsprout",
       "region": "Johto",
-      "x": 44,
-      "y": 39,
+      "x": 42.2,
+      "y": 45.6,
       "desc": "Torre milenaria de monjes que veneran a Bellsprout en Ciudad Malvalba.",
       "connections": [
         "Ciudad Malvalba"
@@ -346486,8 +346486,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Bosque Verde",
       "region": "Kanto",
-      "x": 28,
-      "y": 44,
+      "x": 52.0,
+      "y": 32.5,
       "desc": "Laberíntico bosque tupido de tipo bicho y eléctrico en el corazón de Kanto.",
       "connections": [
         "Ruta 2"
@@ -346533,8 +346533,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Cueva Diglett",
       "region": "Kanto",
-      "x": 32,
-      "y": 47,
+      "x": 53.9,
+      "y": 40.6,
       "desc": "Túnel excavado por Pokémon topo que conecta la Ruta 11 con la Ruta 2.",
       "connections": [
         "Ruta 11",
@@ -346567,8 +346567,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Islas Espuma",
       "region": "Kanto",
-      "x": 44,
-      "y": 89,
+      "x": 59.4,
+      "y": 85.6,
       "desc": "Par de islas heladas con corrientes marinas entre Fucsia e Isla Canela.",
       "connections": [
         "Ruta 19",
@@ -346601,8 +346601,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Monte Plateado (Cima)",
       "region": "Kanto",
-      "x": 5,
-      "y": 28,
+      "x": 32.8,
+      "y": 38.8,
       "desc": "La cima nevada del Monte Plateado donde reina el frío extremo y las leyendas supremas.",
       "connections": [
         "Monte Plateado (Interior)"
@@ -346634,8 +346634,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Monte Plateado (Exterior / Centro Pokémon)",
       "region": "Kanto",
-      "x": 5,
-      "y": 41,
+      "x": 32.8,
+      "y": 46.9,
       "desc": "La explanada exterior frente a la montaña más sagrada y peligrosa de toda la región.",
       "connections": [
         "Ruta 28",
@@ -346675,8 +346675,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Monte Plateado (Interior)",
       "region": "Kanto",
-      "x": 5,
-      "y": 35,
+      "x": 32.8,
+      "y": 43.8,
       "desc": "Profundas galerías subterráneas en la penumbra del Monte Plateado habitadas por legendarios.",
       "connections": [
         "Monte Plateado (Exterior)",
@@ -346709,8 +346709,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 1",
       "region": "Kanto",
-      "x": 28,
-      "y": 65,
+      "x": 52.0,
+      "y": 59.4,
       "desc": "La histórica primera ruta de Kanto, uniendo Pueblo Paleta con Ciudad Verde.",
       "connections": [
         "Pueblo Paleta",
@@ -346743,8 +346743,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 10",
       "region": "Kanto",
-      "x": 77,
-      "y": 29,
+      "x": 89.1,
+      "y": 28.1,
       "desc": "Ruta dividida por el Túnel Roca junto a la Central de Energía de Kanto.",
       "connections": [
         "Ruta 9",
@@ -346786,8 +346786,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 11",
       "region": "Kanto",
-      "x": 69,
-      "y": 59,
+      "x": 82.8,
+      "y": 53.1,
       "desc": "Camino al este de Ciudad Carmín que conecta con la Cueva Diglett y la Ruta 12.",
       "connections": [
         "Ciudad Carmín",
@@ -346821,8 +346821,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 13",
       "region": "Kanto",
-      "x": 77,
-      "y": 64,
+      "x": 86.7,
+      "y": 61.3,
       "desc": "Ruta costera laberíntica de vallas de madera al sur del Puente del Silencio.",
       "connections": [
         "Ruta 12",
@@ -346855,8 +346855,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 14",
       "region": "Kanto",
-      "x": 74,
-      "y": 72,
+      "x": 83.6,
+      "y": 65.6,
       "desc": "Paso verde costero que bordea el litoral oriental de Kanto hacia Fucsia.",
       "connections": [
         "Ruta 13",
@@ -346889,8 +346889,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 15",
       "region": "Kanto",
-      "x": 63,
-      "y": 77,
+      "x": 75.8,
+      "y": 71.2,
       "desc": "Vía amurallada hacia el oeste que desemboca en la puerta este de Ciudad Fucsia.",
       "connections": [
         "Ruta 14",
@@ -346923,8 +346923,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 16",
       "region": "Kanto",
-      "x": 36,
-      "y": 43,
+      "x": 60.9,
+      "y": 40.6,
       "desc": "Salida oeste de Ciudad Azulona y punto de partida del Camino de Bicis.",
       "connections": [
         "Ciudad Azulona",
@@ -346957,8 +346957,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 17",
       "region": "Kanto",
-      "x": 36,
-      "y": 62,
+      "x": 60.9,
+      "y": 53.1,
       "desc": "El famoso Camino de Bicis sobre el mar en pendiente descendente hacia Fucsia.",
       "connections": [
         "Ruta 16",
@@ -346991,8 +346991,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 18",
       "region": "Kanto",
-      "x": 43,
-      "y": 77,
+      "x": 64.5,
+      "y": 65.6,
       "desc": "Tramo final del Camino de Bicis que enlaza directamente con Ciudad Fucsia.",
       "connections": [
         "Ruta 17",
@@ -347025,8 +347025,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 2",
       "region": "Kanto",
-      "x": 28,
-      "y": 36,
+      "x": 52.0,
+      "y": 36.2,
       "desc": "Vía dividida por el Bosque Verde que une Ciudad Verde con Ciudad Plateada.",
       "connections": [
         "Ciudad Verde",
@@ -347061,8 +347061,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 21",
       "region": "Kanto",
-      "x": 28,
-      "y": 81,
+      "x": 52.0,
+      "y": 78.8,
       "desc": "Ruta marítima para hacer Surf entre Pueblo Paleta e Isla Canela.",
       "connections": [
         "Pueblo Paleta",
@@ -347095,8 +347095,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 22",
       "region": "Kanto",
-      "x": 21,
-      "y": 56,
+      "x": 46.9,
+      "y": 46.9,
       "desc": "Camino al oeste de Ciudad Verde hacia el edificio de control de la Liga Pokémon.",
       "connections": [
         "Ciudad Verde",
@@ -347136,8 +347136,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 24",
       "region": "Kanto",
-      "x": 60,
-      "y": 15,
+      "x": 78.1,
+      "y": 13.8,
       "desc": "El legendario Puente Pepita al norte de Ciudad Celeste.",
       "connections": [
         "Ciudad Celeste",
@@ -347170,8 +347170,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 25",
       "region": "Kanto",
-      "x": 68,
-      "y": 15,
+      "x": 83.6,
+      "y": 13.8,
       "desc": "Ruta panorámica del Cabo Celeste que conduce a la casa del mirador de Bill.",
       "connections": [
         "Ruta 24"
@@ -347203,8 +347203,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 28",
       "region": "Kanto",
-      "x": 11,
-      "y": 41,
+      "x": 38.3,
+      "y": 46.9,
       "desc": "Ruta aislada y secreta hacia el Monte Plateado donde aguardan Arceus y Eternatus.",
       "connections": [
         "Entrada Meseta Añil",
@@ -347244,8 +347244,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 3",
       "region": "Kanto",
-      "x": 38,
-      "y": 24,
+      "x": 58.6,
+      "y": 23.8,
       "desc": "Camino montañoso al este de Ciudad Plateada que conduce a los pies del Monte Moon.",
       "connections": [
         "Ciudad Plateada",
@@ -347307,8 +347307,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 4",
       "region": "Kanto",
-      "x": 51,
-      "y": 24,
+      "x": 70.3,
+      "y": 23.8,
       "desc": "Salida oriental del Monte Moon que desciende hacia Ciudad Celeste.",
       "connections": [
         "Monte Moon",
@@ -347348,8 +347348,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 5",
       "region": "Kanto",
-      "x": 60,
-      "y": 34,
+      "x": 76.6,
+      "y": 32.5,
       "desc": "Sendero hacia el sur que baja de Ciudad Celeste a Ciudad Azafrán.",
       "connections": [
         "Ciudad Celeste",
@@ -347375,8 +347375,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 6",
       "region": "Kanto",
-      "x": 60,
-      "y": 51,
+      "x": 76.6,
+      "y": 46.9,
       "desc": "Ruta hacia el sur desde Ciudad Azafrán hasta el puerto de Ciudad Carmín.",
       "connections": [
         "Ciudad Azafrán",
@@ -347402,8 +347402,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 7",
       "region": "Kanto",
-      "x": 52,
-      "y": 43,
+      "x": 71.9,
+      "y": 40.6,
       "desc": "Corta ruta que conecta Ciudad Azafrán con Ciudad Azulona.",
       "connections": [
         "Ciudad Azafrán",
@@ -347436,8 +347436,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 8",
       "region": "Kanto",
-      "x": 68,
-      "y": 43,
+      "x": 82.8,
+      "y": 40.6,
       "desc": "Vía directa al este de Ciudad Azafrán hacia Pueblo Lavanda.",
       "connections": [
         "Ciudad Azafrán",
@@ -347470,8 +347470,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Ruta 9",
       "region": "Kanto",
-      "x": 69,
-      "y": 24,
+      "x": 83.6,
+      "y": 23.8,
       "desc": "Sendero rocoso al este de Ciudad Celeste hacia la entrada de la Central de Energía.",
       "connections": [
         "Ciudad Celeste",
@@ -347504,8 +347504,8 @@ window.CHIRLGOLD_DATA = {
     {
       "name": "Túnel Roca",
       "region": "Kanto",
-      "x": 77,
-      "y": 34,
+      "x": 89.1,
+      "y": 32.5,
       "desc": "Oscura cueva natural en la Ruta 10 que atraviesa la cordillera hacia Lavanda.",
       "connections": [
         "Ruta 10"

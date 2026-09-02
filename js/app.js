@@ -731,7 +731,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!activeRouteForMap) return;
     const r = activeRouteForMap;
     const isShowingActiveRegion = (currentMapRegion === r.region);
-    const mapSrc = (currentMapRegion === "Kanto") ? "img/mapa_kanto.png" : "img/mapa_johto.png";
+    const mapSrc = (currentMapRegion === "Kanto") ? "img/mapa_kanto_esquematico.png" : "img/mapa_johto_esquematico.png";
     const regionBadgeClass = (r.region === "Kanto") ? "route-region-kanto" : "route-region-johto";
 
     let spawnsHtml = "";
@@ -769,13 +769,13 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
-      <!-- Selector de Mapa Johto / Kanto -->
+      <!-- Selector de Mapa Johto / Kanto (Vista esquemática de HGSS) -->
       <div class="map-controls-bar">
         <button class="map-switch-btn ${currentMapRegion === 'Johto' ? 'active' : ''}" onclick="window.switchMapRegion('Johto')">
-          🗺️ Mapa de Johto
+          🎮 Mapa Esquemático de Johto
         </button>
         <button class="map-switch-btn ${currentMapRegion === 'Kanto' ? 'active' : ''}" onclick="window.switchMapRegion('Kanto')">
-          🗺️ Mapa de Kanto
+          🎮 Mapa Esquemático de Kanto
         </button>
       </div>
 
