@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon ChirlGold — WikiDex & Guía Maestra Oficial</title>
+  <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.4.3: Pokédex, rutas con horarios y %, learnsets por nivel, evoluciones especiales y level caps.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23d4af37'/><circle cx='50' cy='50' r='20' fill='%231e293b'/></svg>">
+</head>
+<body>
+
+  <!-- Encabezado Superior -->
+  <header>
+    <div class="header-container">
+      <a href="#pokedex" class="brand">
+        <div class="brand-icon">CG</div>
+        <div>
+          <span class="brand-title">POKÉMON CHIRLGOLD</span>
+          <span class="brand-sub">WikiDex & Guía Oficial v0.4.3 (Castellano)</span>
+        </div>
+      </a>
+
+      <!-- Buscador Global Universal -->
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="global-search" class="search-input" placeholder="Buscar Pokémon, ataque, habilidad, ruta o líder..." autocomplete="off">
+      </div>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" title="Cambiar tema claro/oscuro">☀️</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Barra de Pestañas de Navegación -->
+  <nav class="nav-tabs">
+    <div class="nav-container">
+      <button class="nav-tab active" data-tab="pokedex">📖 Pokédex</button>
+      <button class="nav-tab" data-tab="rutas">🗺️ Rutas y Encuentros</button>
+      <button class="nav-tab" data-tab="lideres">🏆 Líderes & Level Caps</button>
+      <button class="nav-tab" data-tab="objetos">🎒 Tiendas & Objetos</button>
+      <button class="nav-tab" data-tab="novedades">⭐ Novedades ChirlGold</button>
+      <button class="nav-tab" data-tab="no-incluidos">🚫 No Incluidos</button>
+    </div>
+  </nav>
+
+  <!-- Contenido Principal -->
+  <main>
+    <!-- VISTA 1: POKÉDEX / WIKIDEX -->
+    <section id="view-pokedex" class="tab-view active">
+      <div class="filters-bar">
+        <div class="filters-group">
+          <label style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Tipo:</label>
+          <select id="type-filter" class="select-filter">
+            <option value="">Todos los Tipos</option>
+            <option value="Normal">Normal</option>
+            <option value="Fuego">Fuego</option>
+            <option value="Agua">Agua</option>
+            <option value="Planta">Planta</option>
+            <option value="Eléctrico">Eléctrico</option>
+            <option value="Hielo">Hielo</option>
+            <option value="Lucha">Lucha</option>
+            <option value="Veneno">Veneno</option>
+            <option value="Tierra">Tierra</option>
+            <option value="Volador">Volador</option>
+            <option value="Psíquico">Psíquico</option>
+            <option value="Bicho">Bicho</option>
+            <option value="Roca">Roca</option>
+            <option value="Fantasma">Fantasma</option>
+            <option value="Dragón">Dragón</option>
+            <option value="Siniestro">Siniestro</option>
+            <option value="Acero">Acero</option>
+            <option value="Hada">Hada</option>
+          </select>
+
+          <label style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Ordenar:</label>
+          <select id="sort-filter" class="select-filter">
+            <option value="id-asc">Número Pokédex (1 → 1027)</option>
+            <option value="id-desc">Número Pokédex (1027 → 1)</option>
+            <option value="name-asc">Nombre (A - Z)</option>
+            <option value="stat-desc">Estadísticas Totales (BST)</option>
+          </select>
+        </div>
+
+        <span id="results-count" class="results-count">Cargando catálogo...</span>
+      </div>
+
+      <!-- Cuadrícula de Pokémon -->
+      <div id="pokemon-grid" class="pokemon-grid"></div>
+    </section>
+
+    <!-- VISTA 2: RUTAS Y ENCUENTROS -->
+    <section id="view-rutas" class="tab-view">
+      <div class="filters-bar">
+        <div class="filters-group">
+          <label style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Región:</label>
+          <select id="region-filter" class="select-filter">
+            <option value="all">Todas las Regiones (Johto & Kanto)</option>
+            <option value="Johto">Johto</option>
+            <option value="Kanto">Kanto</option>
+          </select>
+        </div>
+        <span style="font-size: 0.85rem; color: var(--text-muted);">Selecciona una ruta en la lista lateral para ver todos sus encuentros.</span>
+      </div>
+
+      <div class="routes-layout">
+        <div id="route-list" class="route-list-panel"></div>
+        <div id="route-detail" class="route-detail-panel"></div>
+      </div>
+    </section>
+
+    <!-- VISTA 3: LÍDERES Y LEVEL CAPS -->
+    <section id="view-lideres" class="tab-view">
+      <div class="info-card" style="margin-bottom: 24px; border-left: 4px solid var(--gold);">
+        <h3>🛡️ Sistema de Level Caps de Pokémon ChirlGold</h3>
+        <p style="font-size: 0.95rem; color: var(--text-muted);">
+          Para garantizar una experiencia estratégica y desafiante, la ROM cuenta con un límite de nivel estricto por cada líder y batalla de jefe. 
+          Los Pokémon que alcancen el Level Cap no obtendrán más experiencia hasta superar el combate.
+        </p>
+      </div>
+
+      <div id="leaders-grid" class="leaders-grid"></div>
+    </section>
+
+    <!-- VISTA 4: TIENDAS Y OBJETOS -->
+    <section id="view-objetos" class="tab-view">
+      <div class="info-card" style="margin-bottom: 24px; border-left: 4px solid var(--primary);">
+        <h3>🛍️ Centro Comercial de Trigal y Azulona (Piso 3F)</h3>
+        <p style="font-size: 0.95rem; color: var(--text-muted);">
+          Se ha habilitado una tienda competitiva y evolutiva integral con los 56 objetos clave: Cordón Unión, piedras elementales, Mineral Evol, Vidasfera, Restos, Chaleco Asalto y las 21 mentas de naturaleza.
+        </p>
+      </div>
+
+      <div id="items-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px;"></div>
+    </section>
+
+    <!-- VISTA 5: NOVEDADES CHIRLGOLD -->
+    <section id="view-novedades" class="tab-view">
+      <div class="info-card" style="border-left: 4px solid var(--success);">
+        <h3 style="color: var(--success);">⭐ Novedades y Calidad de Vida (QoL)</h3>
+        <ul id="qol-list" style="list-style: none; padding: 0; margin-top: 12px;"></ul>
+      </div>
+
+      <div class="info-card" style="border-left: 4px solid var(--danger); margin-top: 24px;">
+        <h3 style="color: var(--danger);">🐛 Solución a Problemas Conocidos de Emulación</h3>
+        <div id="bugs-list" style="margin-top: 12px;"></div>
+      </div>
+    </section>
+
+    <!-- VISTA 6: NO INCLUIDOS -->
+    <section id="view-no-incluidos" class="tab-view">
+      <div class="info-card" style="margin-bottom: 20px; border-left: 4px solid var(--gold);">
+        <h3>ℹ️ Limitaciones Técnicas del Motor de HeartGold</h3>
+        <p style="font-size: 0.95rem; color: var(--text-muted);">
+          Debido a la limitación de 255 habilidades máximas en el motor de NDS (hg-engine) y la falta de sprites en algunas especies de Gen 7-9, las siguientes especies no están presentes en esta edición:
+        </p>
+      </div>
+
+      <div id="non-included-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;"></div>
+    </section>
+  </main>
+
+  <!-- Modal Detallado de Pokémon -->
+  <div id="pokemon-modal" class="modal-overlay">
+    <div class="modal-container">
+      <button id="modal-close" class="modal-close" title="Cerrar ficha">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Pie de página -->
+  <footer>
+    <p><b>Pokémon ChirlGold v0.4.3</b> — Guía Maestra & WikiDex Adaptada.</p>
+    <p style="margin-top: 4px; font-size: 0.8rem; color: var(--text-muted);">
+      Todos los datos (ataques por nivel, tipos, habilidades, evoluciones y encuentros) han sido extraídos directamente de la ROM.
+    </p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
