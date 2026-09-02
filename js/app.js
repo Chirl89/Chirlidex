@@ -144,17 +144,34 @@ document.addEventListener("DOMContentLoaded", () => {
     return `<span class="cat-badge cat-${cat}">${cat}</span>`;
   }
 
-  // Helper para Sprites
+  // Helper canónico para Sprites (Gen 5 pixel-art oficial para todas las generaciones)
+  const PARADOX_SLUGS = {
+    "flamariete": "gougingfire",
+    "electrofuria": "ragingbolt",
+    "ferromole": "ironboulder",
+    "ferrotesta": "ironcrown",
+    "colmilargo": "greattusk",
+    "colagrito": "screamtail",
+    "furiasaltor": "brutebonnet",
+    "melenaleteo": "fluttermane",
+    "reptalada": "slitherwing",
+    "pelarena": "sandyshocks",
+    "ferrodada": "irontreads",
+    "ferrosaco": "ironbundle",
+    "ferropalmas": "ironhands",
+    "ferrocuello": "ironjugulis",
+    "ferropolilla": "ironmoth",
+    "ferropuas": "ironthorns",
+    "ferrovaliente": "ironvaliant",
+    "bramaluna": "roaringmoon",
+    "ondulagua": "walkingwake",
+    "ferroverdor": "ironleaves"
+  };
+
   function getSpriteUrl(monId, name, slug) {
-    if (slug) {
-      return `https://play.pokemonshowdown.com/sprites/dex/${slug}.png`;
-    }
-    const numId = typeof monId === "number" ? monId : parseInt(monId);
-    if (numId && numId <= 1025) {
-      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${numId}.png`;
-    }
     const clean = (name || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-    return `https://play.pokemonshowdown.com/sprites/dex/${clean}.png`;
+    const actualSlug = slug || PARADOX_SLUGS[clean] || clean;
+    return `https://play.pokemonshowdown.com/sprites/gen5/${actualSlug}.png`;
   }
 
   // =========================================================================
@@ -181,7 +198,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.innerHTML = `
         <span class="card-id">${displayId}</span>
         <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy" 
-             onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.name||'').toLowerCase().replace(/[^a-z0-9]/g, '')}.png';">
+             onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.slug||mon.name||'').toLowerCase().replace(/[^a-z0-9\-]/g, '')}.png';">
         <div class="card-name">${mon.name}</div>
         <div class="card-types">${typeBadges}</div>
       `;
@@ -224,7 +241,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.innerHTML = `
         <span class="card-id">${displayId}</span>
-        <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy">
+        <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy"
+             onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.slug||mon.name||'').toLowerCase().replace(/[^a-z0-9\\-]/g, '')}.png';">
         <div class="card-name">${mon.name}</div>
         <div class="card-types">${typeBadges}</div>
       `;
@@ -389,7 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     modalContent.innerHTML = `
       <div class="modal-header">
-        <img class="modal-sprite" src="${spriteUrl}" alt="${mon.name}">
+        <img class="modal-sprite" src="${spriteUrl}" alt="${mon.name}" onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.slug||mon.name||'').toLowerCase().replace(/[^a-z0-9\\-]/g, '')}.png';">
         <div class="modal-title-area">
           <span class="modal-id">${displayId}</span>
           <h2>${mon.name}</h2>
