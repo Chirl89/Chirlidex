@@ -350,13 +350,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // Construcción del diagrama de flujo de evolución completo
     let evoHtml = renderEvolutionFlow(mon);
 
-    // Encuentros
+    // Encuentros interactivos que abren el mapa de la ruta
     let encHtml = `<p style="color: var(--text-muted);">No se conocen encuentros salvajes en Johto ni Kanto (o es inicial/evento).</p>`;
     if (mon.encounters && mon.encounters.length > 0) {
       encHtml = `<div class="encounters-list">` + 
         mon.encounters.map(e => `
-          <div class="encounter-card">
-            <span class="encounter-route">📍 ${e.route}</span>
+          <div class="encounter-card encounter-clickable" onclick="window.openRouteModal('${e.route.replace(/'/g, "\\'")}')" title="Pulsar para ver la ubicación de ${e.route} en el mapa">
+            <span class="encounter-route">
+              <span>📍 ${e.route}</span>
+              <span class="enc-map-pill">🗺️ Ver mapa</span>
+            </span>
             <div class="encounter-details">
               <span>🕐 ${e.time}</span>
               <span style="font-weight: 700; color: var(--gold);">${e.rate} (${e.method})</span>
@@ -686,10 +689,147 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === moveModalOverlay) closeMoveModal();
   });
 
+  // =========================================================================
+  // 4. MODAL DE RUTA Y MAPA INTERACTIVO (HGSS / WIKIDEX)
+  // =========================================================================
+  const routeModalOverlay = document.getElementById("route-modal");
+  const routeModalClose = document.getElementById("route-modal-close");
+  const routeModalContent = document.getElementById("route-modal-content");
+
+  let activeRouteForMap = null;
+  let currentMapRegion = "Johto";
+
+  function openRouteModal(routeName) {
+    if (!routeName) return;
+    const cleanTarget = routeName.trim().toLowerCase();
+    
+    // Buscar coincidencia exacta o por subcadena
+    let route = data.routes.find(r => r.name.toLowerCase() === cleanTarget);
+    if (!route) {
+      route = data.routes.find(r => r.name.toLowerCase().includes(cleanTarget) || cleanTarget.includes(r.name.toLowerCase()));
+    }
+    
+    if (!route) {
+      route = {
+        name: routeName,
+        region: "Johto",
+        x: 50,
+        y: 50,
+        desc: `Ubicación especial en Pokémon ChirlGold: ${routeName}.`,
+        connections: [],
+        encounters: []
+      };
+    }
+
+    activeRouteForMap = route;
+    currentMapRegion = route.region || "Johto";
+    renderRouteModal();
+    routeModalOverlay.classList.add("active");
+  }
+
+  function renderRouteModal() {
+    if (!activeRouteForMap) return;
+    const r = activeRouteForMap;
+    const isShowingActiveRegion = (currentMapRegion === r.region);
+    const mapSrc = (currentMapRegion === "Kanto") ? "img/mapa_kanto.png" : "img/mapa_johto.png";
+    const regionBadgeClass = (r.region === "Kanto") ? "route-region-kanto" : "route-region-johto";
+
+    let spawnsHtml = "";
+    if (r.encounters && r.encounters.length > 0) {
+      spawnsHtml = `
+        <div class="route-spawns-section">
+          <h3>🐾 Pokémon salvajes en esta zona (${r.encounters.length})</h3>
+          <div class="route-spawns-grid">
+            ${r.encounters.map(e => {
+              const mon = data.pokemon.find(p => p.id === e.pid);
+              const spriteUrl = getSpriteUrl(e.pid, e.pokemon, mon ? mon.slug : null);
+              const typeBadges = mon ? mon.types.map(t => getTypeBadgeHtml(t, true)).join(" ") : "";
+              return `
+                <div class="route-spawn-card" onclick="window.openPokemonModal('${e.pid}')" title="Ver ficha de ${e.pokemon}">
+                  <img src="${spriteUrl}" alt="${e.pokemon}" class="route-spawn-sprite" 
+                       onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon ? mon.slug || mon.name : e.pokemon).toLowerCase().replace(/[^a-z0-9\\-]/g, '')}.png';">
+                  <div class="route-spawn-info">
+                    <div class="route-spawn-name">${e.pokemon}</div>
+                    <div class="route-spawn-types">${typeBadges}</div>
+                    <div class="route-spawn-rate"><b>${e.rate}</b> · ${e.time} (${e.method})</div>
+                  </div>
+                </div>
+              `;
+            }).join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    routeModalContent.innerHTML = `
+      <div class="route-modal-header">
+        <div class="route-modal-title">
+          <span class="route-region-badge ${regionBadgeClass}">Región de ${r.region}</span>
+          <h2 style="font-size: 1.6rem; font-weight: 800; margin: 0;">📍 ${r.name}</h2>
+        </div>
+      </div>
+
+      <!-- Selector de Mapa Johto / Kanto -->
+      <div class="map-controls-bar">
+        <button class="map-switch-btn ${currentMapRegion === 'Johto' ? 'active' : ''}" onclick="window.switchMapRegion('Johto')">
+          🗺️ Mapa de Johto
+        </button>
+        <button class="map-switch-btn ${currentMapRegion === 'Kanto' ? 'active' : ''}" onclick="window.switchMapRegion('Kanto')">
+          🗺️ Mapa de Kanto
+        </button>
+      </div>
+
+      <!-- Visor del Mapa con Pin Animado -->
+      <div class="route-map-viewport">
+        <img class="route-map-img" src="${mapSrc}" alt="Mapa de ${currentMapRegion}">
+        ${isShowingActiveRegion ? `
+          <div class="map-pin" style="left: ${r.x || 50}%; top: ${r.y || 50}%;">
+            <div class="map-pin-pulse"></div>
+            <div class="map-pin-icon">📍</div>
+            <div class="map-pin-label">${r.name}</div>
+          </div>
+        ` : `
+          <div style="position: absolute; top: 12px; left: 12px; background: rgba(15,23,42,0.92); color: #fff; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; border: 1px solid var(--border);">
+            ℹ️ ${r.name} pertenece a <b>${r.region}</b>. Pulsa el botón de arriba para ver su posición.
+          </div>
+        `}
+      </div>
+
+      <!-- Caja de Información Geográfica y Conexiones -->
+      <div class="route-info-box">
+        <p><b>🧭 Descripción:</b> ${r.desc || 'Ruta oficial de la región.'}</p>
+        ${r.connections && r.connections.length > 0 ? `
+          <div class="route-info-connections">
+            <b>🔗 Conexiones directas:</b> ${r.connections.join(", ")}
+          </div>
+        ` : ''}
+      </div>
+
+      ${spawnsHtml}
+    `;
+  }
+
+  function switchMapRegion(regionName) {
+    currentMapRegion = regionName;
+    renderRouteModal();
+  }
+
+  function closeRouteModal() {
+    if (routeModalOverlay) routeModalOverlay.classList.remove("active");
+  }
+
+  if (routeModalClose) routeModalClose.addEventListener("click", closeRouteModal);
+  if (routeModalOverlay) {
+    routeModalOverlay.addEventListener("click", (e) => {
+      if (e.target === routeModalOverlay) closeRouteModal();
+    });
+  }
+
   // Escape key closes open modals
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      if (moveModalOverlay.classList.contains("active")) closeMoveModal();
+      if (routeModalOverlay && routeModalOverlay.classList.contains("active")) closeRouteModal();
+      else if (moveModalOverlay.classList.contains("active")) closeMoveModal();
       else if (itemModalOverlay.classList.contains("active")) closeItemModal();
       else if (modalOverlay.classList.contains("active")) closeModal();
     }
@@ -699,6 +839,9 @@ document.addEventListener("DOMContentLoaded", () => {
   window.openPokemonModal = openPokemonModal;
   window.openItemModal = openItemModal;
   window.openMoveModal = openMoveModal;
+  window.openRouteModal = openRouteModal;
+  window.switchMapRegion = switchMapRegion;
+  window.closeRouteModal = closeRouteModal;
 
   // =========================================================================
   // 5. VISTA DE MOVIMIENTOS COMPLETA
@@ -772,22 +915,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderRouteDetail(route) {
     routeDetail.innerHTML = `
-      <div style="border-bottom: 2px solid var(--border); padding-bottom: 12px; margin-bottom: 20px;">
-        <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); font-weight: 700;">${route.region}</span>
-        <h2 style="font-size: 1.6rem; font-weight: 800;">📍 ${route.name}</h2>
-        <p style="color: var(--text-muted); font-size: 0.9rem;">Encuentros salvajes registrados con horarios y porcentajes exactos de aparición.</p>
+      <div style="border-bottom: 2px solid var(--border); padding-bottom: 14px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); font-weight: 700;">Región de ${route.region}</span>
+          <h2 style="font-size: 1.6rem; font-weight: 800; margin: 4px 0;">📍 ${route.name}</h2>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">${route.desc || 'Encuentros salvajes registrados con horarios y porcentajes exactos de aparición.'}</p>
+        </div>
+        <button class="select-filter" style="cursor: pointer; font-weight: 700; background: var(--primary); color: #fff; border: none; padding: 10px 18px; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgba(230,57,70,0.4);" onclick="window.openRouteModal('${route.name.replace(/'/g, "\\'")}')">
+          🗺️ Ver ubicación en el Mapa
+        </button>
       </div>
 
       <div class="pokemon-grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
         ${route.encounters.map(e => {
           const mon = data.pokemon.find(p => p.id === e.pid);
-          const typeBadges = mon ? mon.types.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ") : "";
+          const typeBadges = mon ? mon.types.map(t => getTypeBadgeHtml(t, true)).join(" ") : "";
           const spriteUrl = getSpriteUrl(e.pid, e.pokemon, mon ? mon.slug : null);
 
           return `
             <div class="pokemon-card" onclick="window.openPokemonModal('${e.pid}')">
               <span class="card-id">${e.rate}</span>
-              <img class="card-sprite" src="${spriteUrl}" alt="${e.pokemon}">
+              <img class="card-sprite" src="${spriteUrl}" alt="${e.pokemon}" loading="lazy"
+                   onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon ? mon.slug || mon.name : e.pokemon).toLowerCase().replace(/[^a-z0-9\\-]/g, '')}.png';">
               <div class="card-name">${e.pokemon}</div>
               <div style="margin-bottom: 6px;">${typeBadges}</div>
               <span style="font-size: 0.75rem; background: var(--bg-input); padding: 3px 8px; border-radius: 6px; border: 1px solid var(--border);">
