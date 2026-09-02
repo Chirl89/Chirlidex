@@ -30,14 +30,26 @@ document.addEventListener("DOMContentLoaded", () => {
   // Líderes View
   const leadersGrid = document.getElementById("leaders-grid");
 
-  // Modal
+  // Movimientos View
+  const moveSearchInput = document.getElementById("move-search-input");
+  const moveTypeFilter = document.getElementById("move-type-filter");
+  const moveCatFilter = document.getElementById("move-cat-filter");
+  const movesTableBody = document.getElementById("moves-table-body");
+  const movesCount = document.getElementById("moves-count");
+
+  // Modales
   const modalOverlay = document.getElementById("pokemon-modal");
   const modalClose = document.getElementById("modal-close");
 
-  let currentPokemonList = [...data.pokemon];
-  let selectedPokemon = null;
+  const itemModalOverlay = document.getElementById("item-modal");
+  const itemModalClose = document.getElementById("item-modal-close");
 
-  // Inicialización de Tema
+  const moveModalOverlay = document.getElementById("move-modal");
+  const moveModalClose = document.getElementById("move-modal-close");
+
+  let currentPokemonList = [...data.pokemon];
+
+  // Inicialización de Tema Claro/Oscuro
   const savedTheme = localStorage.getItem("chirlgold-theme") || "dark";
   document.documentElement.setAttribute("data-theme", savedTheme);
   themeToggle.textContent = savedTheme === "dark" ? "☀️" : "🌙";
@@ -64,37 +76,46 @@ document.addEventListener("DOMContentLoaded", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  // URL hash navigation
+  // URL Hash Handler
   function handleHash() {
     const hash = window.location.hash.replace("#", "");
     if (hash.startsWith("pokemon/")) {
-      const monId = parseInt(hash.split("/")[1]);
-      const mon = data.pokemon.find(p => p.id === monId);
-      if (mon) openPokemonModal(mon);
-    } else if (["pokedex", "rutas", "lideres", "objetos", "novedades", "no-incluidos"].includes(hash)) {
+      const monId = hash.split("/")[1];
+      openPokemonModal(monId);
+    } else if (hash.startsWith("objeto/")) {
+      const itemName = decodeURIComponent(hash.split("/")[1]);
+      openItemModal(itemName);
+    } else if (hash.startsWith("movimiento/")) {
+      const moveId = parseInt(hash.split("/")[1]);
+      openMoveModal(moveId);
+    } else if (["pokedex", "rutas", "lideres", "objetos", "movimientos", "novedades", "no-incluidos"].includes(hash)) {
       switchTab(hash);
     }
   }
   window.addEventListener("hashchange", handleHash);
 
   // Helper para Sprites
-  function getSpriteUrl(monId, name) {
-    // Showdown / PokeAPI animated / static
-    if (monId <= 1025) {
-      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${monId}.png`;
+  function getSpriteUrl(monId, name, slug) {
+    if (slug) {
+      return `https://play.pokemonshowdown.com/sprites/dex/${slug}.png`;
     }
-    const clean = name.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const numId = typeof monId === "number" ? monId : parseInt(monId);
+    if (numId && numId <= 1025) {
+      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${numId}.png`;
+    }
+    const clean = (name || "").toLowerCase().replace(/[^a-z0-9]/g, "");
     return `https://play.pokemonshowdown.com/sprites/dex/${clean}.png`;
   }
 
-  // Render Pokédex Grid
+  // =========================================================================
+  // 1. POKÉDEX GRID
+  // =========================================================================
   function renderPokemonGrid() {
     pokemonGrid.innerHTML = "";
     resultsCount.textContent = `${currentPokemonList.length} Pokémon encontrados`;
 
-    // Renderizado eficiente por fragmentos
     const fragment = document.createDocumentFragment();
-    const displayList = currentPokemonList.slice(0, 120); // Renderizado inicial rápido
+    const displayList = currentPokemonList.slice(0, 120);
 
     displayList.forEach(mon => {
       const card = document.createElement("div");
@@ -104,12 +125,13 @@ document.addEventListener("DOMContentLoaded", () => {
         .map(t => `<span class="type-badge type-${t}">${t}</span>`)
         .join("");
 
-      const spriteUrl = getSpriteUrl(mon.id, mon.name);
+      const spriteUrl = getSpriteUrl(mon.id, mon.name, mon.slug);
+      const displayId = typeof mon.id === "number" ? `#${String(mon.id).padStart(3, "0")}` : "Forma";
 
       card.innerHTML = `
-        <span class="card-id">#${String(mon.id).padStart(3, "0")}</span>
+        <span class="card-id">${displayId}</span>
         <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy" 
-             onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${mon.id}.png';">
+             onerror="this.onerror=null; this.src='https://play.pokemonshowdown.com/sprites/dex/${(mon.name||'').toLowerCase().replace(/[^a-z0-9]/g, '')}.png';">
         <div class="card-name">${mon.name}</div>
         <div class="card-types">${typeBadges}</div>
       `;
@@ -123,7 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     pokemonGrid.appendChild(fragment);
 
-    // Carga diferida si hay más de 120 resultados
     if (currentPokemonList.length > 120) {
       const loadMoreBtn = document.createElement("button");
       loadMoreBtn.className = "select-filter";
@@ -148,10 +169,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.className = "pokemon-card";
       const typeBadges = mon.types.map(t => `<span class="type-badge type-${t}">${t}</span>`).join("");
-      const spriteUrl = getSpriteUrl(mon.id, mon.name);
+      const spriteUrl = getSpriteUrl(mon.id, mon.name, mon.slug);
+      const displayId = typeof mon.id === "number" ? `#${String(mon.id).padStart(3, "0")}` : "Forma";
 
       card.innerHTML = `
-        <span class="card-id">#${String(mon.id).padStart(3, "0")}</span>
+        <span class="card-id">${displayId}</span>
         <img class="card-sprite" src="${spriteUrl}" alt="${mon.name}" loading="lazy">
         <div class="card-name">${mon.name}</div>
         <div class="card-types">${typeBadges}</div>
@@ -178,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Filtrado y búsqueda reactiva
+  // Filtrado y búsqueda reactiva Pokédex
   function filterPokemon() {
     const query = globalSearch.value.trim().toLowerCase();
     const type = typeFilter.value;
@@ -197,8 +219,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return matchesQuery && matchesType;
     });
 
-    if (sort === "id-asc") currentPokemonList.sort((a, b) => a.id - b.id);
-    else if (sort === "id-desc") currentPokemonList.sort((a, b) => b.id - a.id);
+    if (sort === "id-asc") currentPokemonList.sort((a, b) => (typeof a.id === "number" ? a.id : 9999) - (typeof b.id === "number" ? b.id : 9999));
+    else if (sort === "id-desc") currentPokemonList.sort((a, b) => (typeof b.id === "number" ? b.id : 9999) - (typeof a.id === "number" ? a.id : 9999));
     else if (sort === "name-asc") currentPokemonList.sort((a, b) => a.name.localeCompare(b.name));
     else if (sort === "stat-desc") currentPokemonList.sort((a, b) => b.stats.total - a.stats.total);
 
@@ -206,7 +228,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   globalSearch.addEventListener("input", () => {
-    // Si estamos en otra pestaña, cambiar a pokedex
     if (!document.getElementById("view-pokedex").classList.contains("active")) {
       switchTab("pokedex");
     }
@@ -215,11 +236,25 @@ document.addEventListener("DOMContentLoaded", () => {
   typeFilter.addEventListener("change", filterPokemon);
   sortFilter.addEventListener("change", filterPokemon);
 
-  // Modal de Detalle de Pokémon
-  function openPokemonModal(mon) {
-    selectedPokemon = mon;
+  // =========================================================================
+  // 2. MODAL DETALLADO DE POKÉMON & ÁRBOL EVOLUTIVO COMPLETO
+  // =========================================================================
+  function openPokemonModal(monOrId) {
+    let mon = null;
+    if (typeof monOrId === "object") {
+      mon = monOrId;
+    } else {
+      mon = data.pokemon.find(p => String(p.id).toLowerCase() === String(monOrId).toLowerCase() || p.name.toLowerCase() === String(monOrId).toLowerCase());
+    }
+
+    if (!mon) {
+      console.warn("Pokémon no encontrado:", monOrId);
+      return;
+    }
+
     const modalContent = document.getElementById("modal-content");
-    const spriteUrl = getSpriteUrl(mon.id, mon.name);
+    const spriteUrl = getSpriteUrl(mon.id, mon.name, mon.slug);
+    const displayId = typeof mon.id === "number" ? `#${String(mon.id).padStart(3, "0")}` : "Forma Especial";
 
     const typeBadges = mon.types
       .map(t => `<span class="type-badge type-${t}">${t}</span>`)
@@ -244,13 +279,8 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `).join("");
 
-    // Evoluciones
-    let evoHtml = `<p style="color: var(--text-muted);">No tiene evoluciones registradas en esta ROM.</p>`;
-    if (mon.evolutions && mon.evolutions.length > 0) {
-      evoHtml = `<ul class="evo-list">` + 
-        mon.evolutions.map(e => `<li class="evo-item">⚡ ${e}</li>`).join("") + 
-        `</ul>`;
-    }
+    // Construcción del diagrama de flujo de evolución completo
+    let evoHtml = renderEvolutionFlow(mon);
 
     // Encuentros
     let encHtml = `<p style="color: var(--text-muted);">No se conocen encuentros salvajes en Johto ni Kanto (o es inicial/evento).</p>`;
@@ -268,7 +298,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `</div>`;
     }
 
-    // Ataques por nivel
+    // Ataques por nivel interactivos
     let learnsetHtml = `<p style="color: var(--text-muted);">Sin ataques por nivel registrados.</p>`;
     if (mon.learnset && mon.learnset.length > 0) {
       learnsetHtml = `
@@ -277,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <thead>
               <tr>
                 <th>Nivel</th>
-                <th>Movimiento</th>
+                <th>Movimiento (Clic para info)</th>
                 <th>Tipo</th>
                 <th>Categoría</th>
                 <th>Potencia</th>
@@ -289,7 +319,11 @@ document.addEventListener("DOMContentLoaded", () => {
               ${mon.learnset.map(m => `
                 <tr>
                   <td style="font-weight: 700; color: var(--gold);">Nv. ${m.lvl}</td>
-                  <td style="font-weight: 600;">${m.name}</td>
+                  <td>
+                    <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
+                      ${m.name} 🔍
+                    </a>
+                  </td>
                   <td><span class="type-badge type-${m.type}">${m.type}</span></td>
                   <td><span class="cat-badge cat-${m.cat}">${m.cat}</span></td>
                   <td>${m.power > 0 ? m.power : "—"}</td>
@@ -307,7 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="modal-header">
         <img class="modal-sprite" src="${spriteUrl}" alt="${mon.name}">
         <div class="modal-title-area">
-          <span class="modal-id">#${String(mon.id).padStart(3, "0")}</span>
+          <span class="modal-id">${displayId}</span>
           <h2>${mon.name}</h2>
           <div style="margin-top: 6px;">${typeBadges}</div>
         </div>
@@ -327,9 +361,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="stats-grid">${statRows}</div>
         </div>
 
-        <!-- Evolución -->
+        <!-- Línea Evolutiva Completa e Interactiva -->
         <div class="detail-section">
-          <h3>🧬 Línea Evolutiva en esta ROM</h3>
+          <h3>🧬 Línea Evolutiva Completa (Haz clic en Pokémon, Objetos o Ataques)</h3>
           ${evoHtml}
         </div>
 
@@ -351,6 +385,95 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.hash = `pokemon/${mon.id}`;
   }
 
+  function renderEvolutionFlow(currentMon) {
+    if (!currentMon.family_tree || currentMon.family_tree.length === 0) {
+      return `<p style="color: var(--text-muted);">Este Pokémon no tiene evoluciones registradas en esta ROM.</p>`;
+    }
+
+    // Aplanar caminos evolutivos para visualizarlos claramente como cadenas conectadas
+    let html = `<div class="evo-flow-container">`;
+
+    currentMon.family_tree.forEach(root => {
+      const paths = getTreePaths(root);
+      paths.forEach(path => {
+        html += `<div class="evo-chain">`;
+        path.forEach((step, idx) => {
+          if (idx > 0) {
+            let reqText = step.method || "Evolución";
+            if (step.item) {
+              reqText = reqText.replace(
+                step.item,
+                `<a href="javascript:void(0)" class="link-item" onclick="window.openItemModal('${step.item}')">${step.item} 🎒</a>`
+              );
+            }
+            if (step.move) {
+              const moveObj = data.moves.find(m => m.name.toLowerCase() === step.move.toLowerCase());
+              const moveParam = moveObj ? moveObj.id : `'${step.move}'`;
+              reqText = reqText.replace(
+                step.move,
+                `<a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${moveParam})">${step.move} ⚔️</a>`
+              );
+            }
+
+            html += `
+              <div class="evo-arrow-box">
+                <span class="evo-method-pill">${reqText}</span>
+                <span class="evo-arrow-symbol">➔</span>
+              </div>
+            `;
+          }
+
+          const isCurrent = String(step.id).toLowerCase() === String(currentMon.id).toLowerCase() ||
+                            step.name.toLowerCase() === currentMon.name.toLowerCase();
+          const spriteUrl = getSpriteUrl(step.id, step.name, step.slug);
+          const typeBadges = (step.types || [])
+            .map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:1px 6px;">${t}</span>`)
+            .join(" ");
+
+          html += `
+            <div class="evo-node ${isCurrent ? "current-mon" : ""}" onclick="window.openPokemonModal('${step.id}')">
+              <img class="evo-node-sprite" src="${spriteUrl}" alt="${step.name}">
+              <span class="evo-node-name">${step.name}</span>
+              <div style="margin-top: 4px;">${typeBadges}</div>
+              ${isCurrent ? '<span style="font-size: 0.65rem; color: var(--gold); font-weight: 800; margin-top:2px;">(Actual)</span>' : ''}
+            </div>
+          `;
+        });
+        html += `</div>`;
+      });
+    });
+
+    html += `</div>`;
+    return html;
+  }
+
+  function getTreePaths(node) {
+    const currentStep = {
+      id: node.id,
+      name: node.name,
+      types: node.types,
+      slug: node.slug,
+      method: node.method,
+      method_type: node.method_type,
+      item: node.item,
+      move: node.move
+    };
+
+    if (!node.evolves_to || node.evolves_to.length === 0) {
+      return [[currentStep]];
+    }
+
+    const allPaths = [];
+    node.evolves_to.forEach(child => {
+      const childPaths = getTreePaths(child);
+      childPaths.forEach(p => {
+        allPaths.push([currentStep, ...p]);
+      });
+    });
+
+    return allPaths;
+  }
+
   function closeModal() {
     modalOverlay.classList.remove("active");
     if (window.location.hash.startsWith("#pokemon/")) {
@@ -362,11 +485,197 @@ document.addEventListener("DOMContentLoaded", () => {
   modalOverlay.addEventListener("click", (e) => {
     if (e.target === modalOverlay) closeModal();
   });
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && modalOverlay.classList.contains("active")) closeModal();
+
+  // =========================================================================
+  // 3. MODAL DE OBJETO (DÓNDE SE CONSIGUE, DESCRIPCIÓN Y USOS EVOLUTIVOS)
+  // =========================================================================
+  function openItemModal(itemName) {
+    const item = data.items.find(i => i.name.toLowerCase() === itemName.toLowerCase() || itemName.toLowerCase().includes(i.name.toLowerCase()));
+    if (!item) {
+      alert(`Información del objeto "${itemName}" disponible en Tiendas.`);
+      return;
+    }
+
+    const content = document.getElementById("item-modal-content");
+    let evolvesHtml = "";
+    if (item.evolves && item.evolves.length > 0) {
+      evolvesHtml = `
+        <div class="detail-section">
+          <h3>🧬 Pokémon que Evolucionan con este Objeto</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Haz clic en cualquier Pokémon para saltar directamente a su ficha:</p>
+          <div class="mini-pkm-list">
+            ${item.evolves.map(e => `
+              <div class="mini-pkm-pill" onclick="window.openPokemonModal('${e.from_id || e.from}')">
+                <span>⭐ <b>${e.from}</b> ➔ <b>${e.to}</b></span>
+                <span style="font-size: 0.75rem; color: var(--gold);">(${e.method})</span>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    content.innerHTML = `
+      <div class="modal-header">
+        <div>
+          <span style="font-size: 0.85rem; color: var(--primary); font-weight: 700; text-transform: uppercase;">${item.category}</span>
+          <h2 style="font-size: 1.6rem; font-weight: 800;">🎒 ${item.name}</h2>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>📍 Dónde y Cómo Conseguirlo en ChirlGold</h3>
+          <p style="font-weight: 700; color: var(--gold); font-size: 1.05rem;">${item.location}</p>
+        </div>
+        <div class="detail-section">
+          <h3>📝 Descripción Oficial</h3>
+          <p style="font-size: 0.95rem; line-height: 1.6;">${item.desc}</p>
+        </div>
+        ${evolvesHtml}
+      </div>
+    `;
+
+    itemModalOverlay.classList.add("active");
+  }
+
+  function closeItemModal() {
+    itemModalOverlay.classList.remove("active");
+  }
+  itemModalClose.addEventListener("click", closeItemModal);
+  itemModalOverlay.addEventListener("click", (e) => {
+    if (e.target === itemModalOverlay) closeItemModal();
   });
 
-  // Rutas View Logic
+  // =========================================================================
+  // 4. MODAL DE MOVIMIENTO (CARACTERÍSTICAS, DESCRIPCIÓN Y QUIÉN LO APRENDE)
+  // =========================================================================
+  function openMoveModal(moveIdOrName) {
+    let move = null;
+    if (typeof moveIdOrName === "number") {
+      move = data.moves.find(m => m.id === moveIdOrName);
+    } else {
+      move = data.moves.find(m => m.name.toLowerCase() === String(moveIdOrName).toLowerCase() || m.id === parseInt(moveIdOrName));
+    }
+
+    if (!move) {
+      console.warn("Movimiento no encontrado:", moveIdOrName);
+      return;
+    }
+
+    const content = document.getElementById("move-modal-content");
+    let learnedHtml = "";
+    if (move.learned_by && move.learned_by.length > 0) {
+      learnedHtml = `
+        <div class="detail-section">
+          <h3>⚡ Pokémon que lo Aprenden por Nivel (${move.learned_by.length})</h3>
+          <div class="mini-pkm-list">
+            ${move.learned_by.map(p => `
+              <div class="mini-pkm-pill" onclick="window.openPokemonModal('${p.pid}')">
+                <span><b>${p.pokemon}</b></span>
+                <span style="color: var(--gold);">Nv. ${p.lvl}</span>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    content.innerHTML = `
+      <div class="modal-header">
+        <div>
+          <div style="display:flex; gap: 8px; margin-bottom: 6px;">
+            <span class="type-badge type-${move.type}">${move.type}</span>
+            <span class="cat-badge cat-${move.category}">${move.category}</span>
+          </div>
+          <h2 style="font-size: 1.6rem; font-weight: 800;">⚔️ ${move.name}</h2>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>📊 Atributos de Combate</h3>
+          <div class="stats-grid">
+            <div><b>Potencia:</b> <span style="font-weight:700; color:var(--gold);">${move.power > 0 ? move.power : "—"}</span></div>
+            <div><b>Precisión:</b> <span style="font-weight:700; color:var(--gold);">${move.accuracy > 0 ? move.accuracy + "%" : "—"}</span></div>
+            <div><b>Puntos de Poder (PP):</b> <span style="font-weight:700; color:var(--gold);">${move.pp}</span></div>
+            <div><b>Categoría:</b> <span style="font-weight:700;">${move.category}</span></div>
+          </div>
+        </div>
+        <div class="detail-section">
+          <h3>📝 Descripción Oficial en la ROM</h3>
+          <p style="font-size: 1rem; line-height: 1.6; font-style: italic;">"${move.desc}"</p>
+        </div>
+        ${learnedHtml}
+      </div>
+    `;
+
+    moveModalOverlay.classList.add("active");
+  }
+
+  function closeMoveModal() {
+    moveModalOverlay.classList.remove("active");
+  }
+  moveModalClose.addEventListener("click", closeMoveModal);
+  moveModalOverlay.addEventListener("click", (e) => {
+    if (e.target === moveModalOverlay) closeMoveModal();
+  });
+
+  // Escape key closes open modals
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      if (moveModalOverlay.classList.contains("active")) closeMoveModal();
+      else if (itemModalOverlay.classList.contains("active")) closeItemModal();
+      else if (modalOverlay.classList.contains("active")) closeModal();
+    }
+  });
+
+  // Exponer a nivel de ventana para llamadas onclick
+  window.openPokemonModal = openPokemonModal;
+  window.openItemModal = openItemModal;
+  window.openMoveModal = openMoveModal;
+
+  // =========================================================================
+  // 5. VISTA DE MOVIMIENTOS COMPLETA
+  // =========================================================================
+  function renderMovesTable() {
+    if (!movesTableBody) return;
+    const query = (moveSearchInput ? moveSearchInput.value : "").trim().toLowerCase();
+    const type = moveTypeFilter ? moveTypeFilter.value : "";
+    const cat = moveCatFilter ? moveCatFilter.value : "";
+
+    const filtered = data.moves.filter(m => {
+      const matchQ = !query || m.name.toLowerCase().includes(query) || m.desc.toLowerCase().includes(query);
+      const matchT = !type || m.type === type;
+      const matchC = !cat || m.category === cat;
+      return matchQ && matchT && matchC;
+    });
+
+    movesCount.textContent = `${filtered.length} movimientos encontrados`;
+
+    // Renderizar primeros 100
+    movesTableBody.innerHTML = filtered.slice(0, 100).map(m => `
+      <tr>
+        <td>
+          <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
+            <b>${m.name}</b> 🔍
+          </a>
+        </td>
+        <td><span class="type-badge type-${m.type}">${m.type}</span></td>
+        <td><span class="cat-badge cat-${m.category}">${m.category}</span></td>
+        <td style="font-weight:700;">${m.power > 0 ? m.power : "—"}</td>
+        <td>${m.accuracy > 0 ? m.accuracy + "%" : "—"}</td>
+        <td>${m.pp}</td>
+        <td style="font-size:0.85rem; color:var(--text-muted); max-width:300px;">${m.desc}</td>
+      </tr>
+    `).join("");
+  }
+
+  if (moveSearchInput) moveSearchInput.addEventListener("input", renderMovesTable);
+  if (moveTypeFilter) moveTypeFilter.addEventListener("change", renderMovesTable);
+  if (moveCatFilter) moveCatFilter.addEventListener("change", renderMovesTable);
+
+  // =========================================================================
+  // 6. RUTAS VIEW LOGIC
+  // =========================================================================
   function initRoutesView() {
     routeList.innerHTML = "";
     const selectedRegion = regionFilter.value;
@@ -406,10 +715,10 @@ document.addEventListener("DOMContentLoaded", () => {
         ${route.encounters.map(e => {
           const mon = data.pokemon.find(p => p.id === e.pid);
           const typeBadges = mon ? mon.types.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ") : "";
-          const spriteUrl = getSpriteUrl(e.pid, e.pokemon);
+          const spriteUrl = getSpriteUrl(e.pid, e.pokemon, mon ? mon.slug : null);
 
           return `
-            <div class="pokemon-card" onclick="window.openMonById(${e.pid})">
+            <div class="pokemon-card" onclick="window.openPokemonModal('${e.pid}')">
               <span class="card-id">${e.rate}</span>
               <img class="card-sprite" src="${spriteUrl}" alt="${e.pokemon}">
               <div class="card-name">${e.pokemon}</div>
@@ -425,12 +734,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   regionFilter.addEventListener("change", initRoutesView);
-  window.openMonById = function(id) {
-    const mon = data.pokemon.find(p => p.id === id);
-    if (mon) openPokemonModal(mon);
-  };
 
-  // Líderes View Logic
+  // =========================================================================
+  // 7. LÍDERES VIEW LOGIC
+  // =========================================================================
   function initLeadersView() {
     leadersGrid.innerHTML = data.gym_leaders.map(l => `
       <div class="leader-card">
@@ -445,11 +752,15 @@ document.addEventListener("DOMContentLoaded", () => {
           ${l.team.map(m => `
             <div class="team-member">
               <div class="member-top">
-                <span>⭐ ${m.pokemon}</span>
+                <span>⭐ <b>${m.pokemon}</b></span>
                 <span style="color: var(--gold);">Nv. ${m.level}</span>
               </div>
-              <div style="font-size: 0.75rem; color: var(--text-muted);">Objeto: <b>${m.item}</b></div>
-              <div class="member-moves">Ataques: ${m.moves.join(", ")}</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">
+                Objeto: <a href="javascript:void(0)" class="link-item" onclick="window.openItemModal('${m.item}')">${m.item}</a>
+              </div>
+              <div class="member-moves">
+                Ataques: ${m.moves.map(mv => `<a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal('${mv}')">${mv}</a>`).join(", ")}
+              </div>
             </div>
           `).join("")}
         </div>
@@ -457,21 +768,31 @@ document.addEventListener("DOMContentLoaded", () => {
     `).join("");
   }
 
-  // Tiendas y Objetos View Logic
+  // =========================================================================
+  // 8. OBJETOS VIEW LOGIC
+  // =========================================================================
   function initItemsView() {
     const itemsGrid = document.getElementById("items-grid");
     if (!itemsGrid) return;
 
-    itemsGrid.innerHTML = data.item_locations.map(item => `
-      <div class="info-card">
-        <h3>🎒 ${item.item}</h3>
-        <p style="font-weight: 700; color: var(--primary); margin-bottom: 4px;">📍 Ubicación: ${item.loc}</p>
-        <p style="font-size: 0.9rem; color: var(--text-muted);">${item.desc}</p>
+    itemsGrid.innerHTML = data.items.map(item => `
+      <div class="info-card" style="cursor: pointer;" onclick="window.openItemModal('${item.name}')">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+          <h3 style="margin-bottom: 4px;">🎒 ${item.name}</h3>
+          <span style="font-size:0.75rem; background:var(--bg-input); padding:3px 8px; border-radius:6px; color:var(--primary); font-weight:700;">
+            ${item.category}
+          </span>
+        </div>
+        <p style="font-weight: 700; color: var(--gold); font-size: 0.9rem; margin-bottom: 6px;">📍 ${item.location}</p>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">${item.desc}</p>
+        ${item.evolves && item.evolves.length > 0 ? `<p style="font-size:0.8rem; color:var(--accent); font-weight:700; margin-top:8px;">🧬 Hace evolucionar a ${item.evolves.length} Pokémon (Clic para ver)</p>` : ''}
       </div>
     `).join("");
   }
 
-  // Novedades View Logic
+  // =========================================================================
+  // 9. NOVEDADES & NO INCLUIDOS VIEW LOGIC
+  // =========================================================================
   function initFeaturesView() {
     const qolList = document.getElementById("qol-list");
     const bugsList = document.getElementById("bugs-list");
@@ -491,7 +812,6 @@ document.addEventListener("DOMContentLoaded", () => {
     `).join("");
   }
 
-  // No Incluidos View Logic
   function initNonIncludedView() {
     const nonIncGrid = document.getElementById("non-included-grid");
     if (!nonIncGrid) return;
@@ -506,14 +826,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `).join("");
   }
 
-  // Inicializar todas las vistas
+  // Inicializar vistas
   renderPokemonGrid();
   initRoutesView();
   initLeadersView();
   initItemsView();
+  renderMovesTable();
   initFeaturesView();
   initNonIncludedView();
 
-  // Comprobar si hay hash al cargar
+  // Comprobar Hash inicial
   handleHash();
 });

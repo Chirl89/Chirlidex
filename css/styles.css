@@ -380,13 +380,13 @@ main {
 .type-Siniestro { background-color: var(--type-siniestro); }
 .type-Hada { background-color: var(--type-hada); }
 
-/* Modal Detalle de Pokémon */
+/* Modales */
 .modal-overlay {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
   z-index: 200;
   justify-content: center;
   align-items: center;
@@ -401,17 +401,17 @@ main {
   background: var(--bg-modal);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  max-width: 900px;
+  max-width: 920px;
   width: 100%;
-  max-height: 90vh;
+  max-height: 92vh;
   overflow-y: auto;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
   position: relative;
-  animation: modalScale 0.25s ease-out;
+  animation: modalScale 0.2s ease-out;
 }
 
 @keyframes modalScale {
-  from { transform: scale(0.95); opacity: 0; }
+  from { transform: scale(0.96); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
 
@@ -421,16 +421,17 @@ main {
   right: 18px;
   background: transparent;
   border: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--text-muted);
   cursor: pointer;
   z-index: 10;
   transition: var(--transition);
+  line-height: 1;
 }
 
 .modal-close:hover {
-  color: var(--text-main);
-  transform: scale(1.1);
+  color: var(--danger);
+  transform: scale(1.15);
 }
 
 .modal-header {
@@ -446,7 +447,7 @@ main {
   width: 110px;
   height: 110px;
   object-fit: contain;
-  filter: drop-shadow(0 6px 8px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 6px 8px rgba(0,0,0,0.35));
 }
 
 .modal-title-area h2 {
@@ -527,6 +528,135 @@ main {
   transition: width 0.4s ease;
 }
 
+/* ==========================================================================
+   LÍNEAS EVOLUTIVAS INTERACTIVAS (Flowchart)
+   ========================================================================== */
+.evo-flow-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: var(--bg-input);
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.evo-chain {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start;
+  padding: 8px 0;
+}
+
+.evo-node {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+  min-width: 120px;
+  position: relative;
+}
+
+.evo-node:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary);
+  background: var(--bg-card-hover);
+  box-shadow: var(--shadow);
+}
+
+.evo-node.current-mon {
+  border-color: var(--gold);
+  background: rgba(212, 175, 55, 0.1);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.evo-node-sprite {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+}
+
+.evo-node-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 4px;
+  color: var(--text-main);
+}
+
+.evo-arrow-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  max-width: 190px;
+  text-align: center;
+}
+
+.evo-method-pill {
+  background: rgba(59, 130, 246, 0.15);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.evo-arrow-symbol {
+  font-size: 1.2rem;
+  color: var(--gold);
+  font-weight: bold;
+}
+
+/* Enlaces clicables interactivos */
+.link-interactive {
+  color: var(--gold);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.link-interactive:hover {
+  color: #fef08a;
+  text-shadow: 0 0 6px rgba(254, 240, 138, 0.6);
+}
+
+.link-item {
+  color: #38bdf8;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.link-item:hover {
+  color: #7dd3fc;
+}
+
+.link-move {
+  color: #f472b6;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.link-move:hover {
+  color: #fbcfe8;
+}
+
 /* Learnset Table */
 .learnset-table-wrapper {
   overflow-x: auto;
@@ -567,22 +697,6 @@ main {
 .cat-Físico { background: #b91c1c; color: white; }
 .cat-Especial { background: #1d4ed8; color: white; }
 .cat-Estado { background: #475569; color: white; }
-
-/* Evoluciones */
-.evo-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.evo-item {
-  background: var(--bg-input);
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-weight: 600;
-  border-left: 3px solid var(--accent);
-}
 
 /* Encuentros */
 .encounters-list {
@@ -748,6 +862,36 @@ main {
 .info-card h3 {
   color: var(--gold);
   margin-bottom: 10px;
+}
+
+/* Mini lista de Pokémon en modales secundarios */
+.mini-pkm-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 4px;
+}
+
+.mini-pkm-pill {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mini-pkm-pill:hover {
+  border-color: var(--primary);
+  background: var(--bg-card-hover);
+  transform: translateY(-2px);
 }
 
 /* Footer */

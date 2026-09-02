@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokémon ChirlGold — WikiDex & Guía Maestra Oficial</title>
-  <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.4.3: Pokédex, rutas con horarios y %, learnsets por nivel, evoluciones especiales y level caps.">
+  <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.4.3: Pokédex con árboles evolutivos completos, learnsets por nivel, objetos, ataques y level caps.">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23d4af37'/><circle cx='50' cy='50' r='20' fill='%231e293b'/></svg>">
 </head>
@@ -24,7 +24,7 @@
       <!-- Buscador Global Universal -->
       <div class="search-wrapper">
         <span class="search-icon">🔍</span>
-        <input type="text" id="global-search" class="search-input" placeholder="Buscar Pokémon, ataque, habilidad, ruta o líder..." autocomplete="off">
+        <input type="text" id="global-search" class="search-input" placeholder="Buscar Pokémon, ataque, objeto o ruta..." autocomplete="off">
       </div>
 
       <div class="header-actions">
@@ -40,6 +40,7 @@
       <button class="nav-tab" data-tab="rutas">🗺️ Rutas y Encuentros</button>
       <button class="nav-tab" data-tab="lideres">🏆 Líderes & Level Caps</button>
       <button class="nav-tab" data-tab="objetos">🎒 Tiendas & Objetos</button>
+      <button class="nav-tab" data-tab="movimientos">⚔️ Movimientos</button>
       <button class="nav-tab" data-tab="novedades">⭐ Novedades ChirlGold</button>
       <button class="nav-tab" data-tab="no-incluidos">🚫 No Incluidos</button>
     </div>
@@ -129,13 +130,68 @@
         <h3>🛍️ Centro Comercial de Trigal y Azulona (Piso 3F)</h3>
         <p style="font-size: 0.95rem; color: var(--text-muted);">
           Se ha habilitado una tienda competitiva y evolutiva integral con los 56 objetos clave: Cordón Unión, piedras elementales, Mineral Evol, Vidasfera, Restos, Chaleco Asalto y las 21 mentas de naturaleza.
+          Haz clic en cualquier objeto para ver su ficha técnica y qué Pokémon evolucionan con él.
         </p>
       </div>
 
       <div id="items-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px;"></div>
     </section>
 
-    <!-- VISTA 5: NOVEDADES CHIRLGOLD -->
+    <!-- VISTA 5: MOVIMIENTOS -->
+    <section id="view-movimientos" class="tab-view">
+      <div class="filters-bar">
+        <div class="filters-group">
+          <input type="text" id="move-search-input" class="select-filter" placeholder="Buscar por nombre de ataque..." style="min-width: 240px;">
+          <select id="move-type-filter" class="select-filter">
+            <option value="">Todos los Tipos</option>
+            <option value="Normal">Normal</option>
+            <option value="Fuego">Fuego</option>
+            <option value="Agua">Agua</option>
+            <option value="Planta">Planta</option>
+            <option value="Eléctrico">Eléctrico</option>
+            <option value="Hielo">Hielo</option>
+            <option value="Lucha">Lucha</option>
+            <option value="Veneno">Veneno</option>
+            <option value="Tierra">Tierra</option>
+            <option value="Volador">Volador</option>
+            <option value="Psíquico">Psíquico</option>
+            <option value="Bicho">Bicho</option>
+            <option value="Roca">Roca</option>
+            <option value="Fantasma">Fantasma</option>
+            <option value="Dragón">Dragón</option>
+            <option value="Siniestro">Siniestro</option>
+            <option value="Acero">Acero</option>
+            <option value="Hada">Hada</option>
+          </select>
+          <select id="move-cat-filter" class="select-filter">
+            <option value="">Todas las Categorías</option>
+            <option value="Físico">Físico</option>
+            <option value="Especial">Especial</option>
+            <option value="Estado">Estado</option>
+          </select>
+        </div>
+        <span id="moves-count" class="results-count">Cargando movimientos...</span>
+      </div>
+
+      <div id="moves-table-wrapper" class="learnset-table-wrapper" style="background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);">
+        <table class="learnset-table">
+          <thead>
+            <tr>
+              <th>Ataque</th>
+              <th>Tipo</th>
+              <th>Categoría</th>
+              <th>Potencia</th>
+              <th>Precisión</th>
+              <th>PP</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody id="moves-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- VISTA 6: NOVEDADES CHIRLGOLD -->
     <section id="view-novedades" class="tab-view">
       <div class="info-card" style="border-left: 4px solid var(--success);">
         <h3 style="color: var(--success);">⭐ Novedades y Calidad de Vida (QoL)</h3>
@@ -148,7 +204,7 @@
       </div>
     </section>
 
-    <!-- VISTA 6: NO INCLUIDOS -->
+    <!-- VISTA 7: NO INCLUIDOS -->
     <section id="view-no-incluidos" class="tab-view">
       <div class="info-card" style="margin-bottom: 20px; border-left: 4px solid var(--gold);">
         <h3>ℹ️ Limitaciones Técnicas del Motor de HeartGold</h3>
@@ -161,11 +217,27 @@
     </section>
   </main>
 
-  <!-- Modal Detallado de Pokémon -->
+  <!-- MODAL 1: FICHA DETALLADA DE POKÉMON -->
   <div id="pokemon-modal" class="modal-overlay">
     <div class="modal-container">
       <button id="modal-close" class="modal-close" title="Cerrar ficha">&times;</button>
       <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: DETALLE DE OBJETO -->
+  <div id="item-modal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 650px;">
+      <button id="item-modal-close" class="modal-close" title="Cerrar">&times;</button>
+      <div id="item-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: DETALLE DE MOVIMIENTO -->
+  <div id="move-modal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 650px;">
+      <button id="move-modal-close" class="modal-close" title="Cerrar">&times;</button>
+      <div id="move-modal-content"></div>
     </div>
   </div>
 
