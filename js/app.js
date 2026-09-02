@@ -94,6 +94,56 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   window.addEventListener("hashchange", handleHash);
 
+  // =========================================================================
+  // ASSETS OFICIALES DE WIKIDEX (Tipos y Clases de Movimientos)
+  // =========================================================================
+  const WIKIDEX_TYPES = {
+    "Normal": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/99/latest/20221208180705/Tipo_normal_EP.png/80px-Tipo_normal_EP.png",
+    "Fuego": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c0/latest/20221208180625/Tipo_fuego_EP.png/80px-Tipo_fuego_EP.png",
+    "Agua": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/59/latest/20221208180426/Tipo_agua_EP.png/80px-Tipo_agua_EP.png",
+    "Planta": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a7/latest/20221208180710/Tipo_planta_EP.png/80px-Tipo_planta_EP.png",
+    "Eléctrico": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/37/latest/20221208180447/Tipo_el%C3%A9ctrico_EP.png/80px-Tipo_el%C3%A9ctrico_EP.png",
+    "Hielo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/17/latest/20221208180641/Tipo_hielo_EP.png/80px-Tipo_hielo_EP.png",
+    "Lucha": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5f/latest/20221208180651/Tipo_lucha_EP.png/80px-Tipo_lucha_EP.png",
+    "Veneno": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/11/latest/20221208180751/Tipo_veneno_EP.png/80px-Tipo_veneno_EP.png",
+    "Tierra": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c9/latest/20221208180742/Tipo_tierra_EP.png/80px-Tipo_tierra_EP.png",
+    "Volador": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9a/latest/20221208180800/Tipo_volador_EP.png/80px-Tipo_volador_EP.png",
+    "Psíquico": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/16/latest/20221208180718/Tipo_ps%C3%ADquico_EP.png/80px-Tipo_ps%C3%ADquico_EP.png",
+    "Bicho": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5d/latest/20221208180434/Tipo_bicho_EP.png/80px-Tipo_bicho_EP.png",
+    "Roca": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/88/latest/20221208180726/Tipo_roca_EP.png/80px-Tipo_roca_EP.png",
+    "Fantasma": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/03/latest/20221208180503/Tipo_fantasma_EP.png/80px-Tipo_fantasma_EP.png",
+    "Dragón": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/01/latest/20221208180455/Tipo_drag%C3%B3n_EP.png/80px-Tipo_drag%C3%B3n_EP.png",
+    "Siniestro": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/de/latest/20221208180734/Tipo_siniestro_EP.png/80px-Tipo_siniestro_EP.png",
+    "Acero": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/52/latest/20221208180543/Tipo_acero_EP.png/80px-Tipo_acero_EP.png",
+    "Hada": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/97/latest/20221208180633/Tipo_hada_EP.png/80px-Tipo_hada_EP.png"
+  };
+
+  const WIKIDEX_CATEGORIES = {
+    "Físico": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/55/latest/20251010111650/Clase_f%C3%ADsico_EP.png/24px-Clase_f%C3%ADsico_EP.png",
+    "Especial": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6e/latest/20251010111700/Clase_especial_EP.png/24px-Clase_especial_EP.png",
+    "Estado": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/bc/latest/20251010111711/Clase_estado_EP.png/24px-Clase_estado_EP.png"
+  };
+
+  function getTypeBadgeHtml(type, isCompact = false) {
+    const imgUrl = WIKIDEX_TYPES[type];
+    if (imgUrl) {
+      return `<img class="wikidex-type-img ${isCompact ? 'compact' : ''}" src="${imgUrl}" alt="${type}" title="Tipo ${type}" loading="lazy" onerror="this.outerHTML='<span class=\\'type-badge type-${type}\\'>${type}</span>'">`;
+    }
+    return `<span class="type-badge type-${type}">${type}</span>`;
+  }
+
+  function getCategoryBadgeHtml(cat) {
+    const imgUrl = WIKIDEX_CATEGORIES[cat];
+    if (imgUrl) {
+      return `
+        <span class="wikidex-cat-badge cat-${cat}" title="Clase ${cat}">
+          <img src="${imgUrl}" alt="${cat}" width="18" height="18" loading="lazy">
+        </span>
+      `;
+    }
+    return `<span class="cat-badge cat-${cat}">${cat}</span>`;
+  }
+
   // Helper para Sprites
   function getSpriteUrl(monId, name, slug) {
     if (slug) {
@@ -122,8 +172,8 @@ document.addEventListener("DOMContentLoaded", () => {
       card.className = "pokemon-card";
       
       const typeBadges = mon.types
-        .map(t => `<span class="type-badge type-${t}">${t}</span>`)
-        .join("");
+        .map(t => getTypeBadgeHtml(t, true))
+        .join(" ");
 
       const spriteUrl = getSpriteUrl(mon.id, mon.name, mon.slug);
       const displayId = typeof mon.id === "number" ? `#${String(mon.id).padStart(3, "0")}` : "Forma";
@@ -168,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nextList.forEach(mon => {
       const card = document.createElement("div");
       card.className = "pokemon-card";
-      const typeBadges = mon.types.map(t => `<span class="type-badge type-${t}">${t}</span>`).join("");
+      const typeBadges = mon.types.map(t => getTypeBadgeHtml(t, true)).join(" ");
       const spriteUrl = getSpriteUrl(mon.id, mon.name, mon.slug);
       const displayId = typeof mon.id === "number" ? `#${String(mon.id).padStart(3, "0")}` : "Forma";
 
@@ -257,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const displayId = typeof mon.id === "number" ? `#${String(mon.id).padStart(3, "0")}` : "Forma Especial";
 
     const typeBadges = mon.types
-      .map(t => `<span class="type-badge type-${t}">${t}</span>`)
+      .map(t => getTypeBadgeHtml(t))
       .join(" ");
 
     const stats = mon.stats;
@@ -298,7 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `</div>`;
     }
 
-    // Ataques por nivel interactivos
+    // Ataques por nivel interactivos estilo WikiDex
     let learnsetHtml = `<p style="color: var(--text-muted);">Sin ataques por nivel registrados.</p>`;
     if (mon.learnset && mon.learnset.length > 0) {
       learnsetHtml = `
@@ -306,29 +356,29 @@ document.addEventListener("DOMContentLoaded", () => {
           <table class="learnset-table">
             <thead>
               <tr>
-                <th>Nivel</th>
-                <th>Movimiento (Clic para info)</th>
-                <th>Tipo</th>
-                <th>Categoría</th>
-                <th>Potencia</th>
-                <th>Precisión</th>
-                <th>PP</th>
+                <th style="width: 45px;">Nivel</th>
+                <th>Movimiento</th>
+                <th style="width: 75px;">Tipo</th>
+                <th style="width: 48px;">Clase</th>
+                <th style="width: 48px;">Pot.</th>
+                <th style="width: 48px;">Prec.</th>
+                <th style="width: 42px;">PP</th>
               </tr>
             </thead>
             <tbody>
               ${mon.learnset.map(m => `
                 <tr>
-                  <td style="font-weight: 700; color: var(--gold);">Nv. ${m.lvl}</td>
-                  <td>
+                  <td class="col-lvl">${m.lvl === 0 ? "Evo." : m.lvl}</td>
+                  <td class="col-name">
                     <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
-                      ${m.name} 🔍
+                      ${m.name}
                     </a>
                   </td>
-                  <td><span class="type-badge type-${m.type}">${m.type}</span></td>
-                  <td><span class="cat-badge cat-${m.cat}">${m.cat}</span></td>
-                  <td>${m.power > 0 ? m.power : "—"}</td>
-                  <td>${m.acc > 0 ? m.acc + "%" : "—"}</td>
-                  <td>${m.pp}</td>
+                  <td class="col-center">${getTypeBadgeHtml(m.type, true)}</td>
+                  <td class="col-center">${getCategoryBadgeHtml(m.cat)}</td>
+                  <td class="col-num">${m.power > 0 ? m.power : "—"}</td>
+                  <td class="col-num">${m.acc > 0 ? m.acc + "%" : "—"}</td>
+                  <td class="col-num">${m.pp}</td>
                 </tr>
               `).join("")}
             </tbody>
@@ -343,7 +393,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="modal-title-area">
           <span class="modal-id">${displayId}</span>
           <h2>${mon.name}</h2>
-          <div style="margin-top: 6px;">${typeBadges}</div>
+          <div style="margin-top: 6px; display:flex; gap:6px; flex-wrap:wrap;">${typeBadges}</div>
         </div>
       </div>
       <div class="modal-body">
@@ -425,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             step.name.toLowerCase() === currentMon.name.toLowerCase();
           const spriteUrl = getSpriteUrl(step.id, step.name, step.slug);
           const typeBadges = (step.types || [])
-            .map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:1px 6px;">${t}</span>`)
+            .map(t => getTypeBadgeHtml(t, true))
             .join(" ");
 
           html += `
@@ -581,9 +631,10 @@ document.addEventListener("DOMContentLoaded", () => {
     content.innerHTML = `
       <div class="modal-header">
         <div>
-          <div style="display:flex; gap: 8px; margin-bottom: 6px;">
-            <span class="type-badge type-${move.type}">${move.type}</span>
-            <span class="cat-badge cat-${move.category}">${move.category}</span>
+          <div style="display:flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+            ${getTypeBadgeHtml(move.type)}
+            ${getCategoryBadgeHtml(move.category)}
+            <span style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted); margin-left: 4px;">Clase ${move.category}</span>
           </div>
           <h2 style="font-size: 1.6rem; font-weight: 800;">⚔️ ${move.name}</h2>
         </div>
@@ -595,7 +646,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div><b>Potencia:</b> <span style="font-weight:700; color:var(--gold);">${move.power > 0 ? move.power : "—"}</span></div>
             <div><b>Precisión:</b> <span style="font-weight:700; color:var(--gold);">${move.accuracy > 0 ? move.accuracy + "%" : "—"}</span></div>
             <div><b>Puntos de Poder (PP):</b> <span style="font-weight:700; color:var(--gold);">${move.pp}</span></div>
-            <div><b>Categoría:</b> <span style="font-weight:700;">${move.category}</span></div>
+            <div><b>Clase:</b> <span style="font-weight:700;">${move.category}</span></div>
           </div>
         </div>
         <div class="detail-section">
@@ -649,20 +700,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     movesCount.textContent = `${filtered.length} movimientos encontrados`;
 
-    // Renderizar primeros 100
+    // Renderizar primeros 100 con formato WikiDex
     movesTableBody.innerHTML = filtered.slice(0, 100).map(m => `
       <tr>
-        <td>
+        <td class="col-name">
           <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
-            <b>${m.name}</b> 🔍
+            <b>${m.name}</b>
           </a>
         </td>
-        <td><span class="type-badge type-${m.type}">${m.type}</span></td>
-        <td><span class="cat-badge cat-${m.category}">${m.category}</span></td>
-        <td style="font-weight:700;">${m.power > 0 ? m.power : "—"}</td>
-        <td>${m.accuracy > 0 ? m.accuracy + "%" : "—"}</td>
-        <td>${m.pp}</td>
-        <td style="font-size:0.85rem; color:var(--text-muted); max-width:300px;">${m.desc}</td>
+        <td class="col-center">${getTypeBadgeHtml(m.type, true)}</td>
+        <td class="col-center">${getCategoryBadgeHtml(m.category)}</td>
+        <td class="col-num">${m.power > 0 ? m.power : "—"}</td>
+        <td class="col-num">${m.accuracy > 0 ? m.accuracy + "%" : "—"}</td>
+        <td class="col-num">${m.pp}</td>
+        <td style="font-size:0.8rem; color:var(--text-muted); max-width:300px;">${m.desc}</td>
       </tr>
     `).join("");
   }
