@@ -608,8 +608,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="evo-node ${isCurrent ? "current-mon" : ""}" onclick="window.openPokemonModal('${step.id}')">
               <img class="evo-node-sprite" src="${spriteUrl}" alt="${step.name}">
               <span class="evo-node-name">${step.name}</span>
-              <div style="margin-top: 4px;">${typeBadges}</div>
-              ${isCurrent ? '<span style="font-size: 0.65rem; color: var(--gold); font-weight: 800; margin-top:2px;">(Actual)</span>' : ''}
+              <div class="evo-types-row">${typeBadges}</div>
+              ${isCurrent ? '<span class="evo-current-tag">Actual</span>' : ''}
             </div>
           `;
         });
