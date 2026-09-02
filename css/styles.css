@@ -534,40 +534,46 @@ main {
 .evo-flow-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
   background: var(--bg-input);
-  padding: 16px;
+  padding: 10px 8px;
   border-radius: 10px;
   border: 1px solid var(--border);
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .evo-chain {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-wrap: nowrap;
+  gap: 4px;
   justify-content: flex-start;
-  padding: 8px 0;
+  padding: 4px 0;
+  width: 100%;
 }
 
 .evo-node {
   background: var(--bg-card);
-  border: 2px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   cursor: pointer;
   transition: var(--transition);
-  min-width: 120px;
+  flex: 1 1 0px;
+  min-width: 66px;
+  max-width: 100px;
+  flex-shrink: 0;
   position: relative;
+  box-sizing: border-box;
 }
 
 .evo-node:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   border-color: var(--primary);
   background: var(--bg-card-hover);
   box-shadow: var(--shadow);
@@ -575,22 +581,28 @@ main {
 
 .evo-node.current-mon {
   border-color: var(--gold);
-  background: rgba(212, 175, 55, 0.1);
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+  background: rgba(212, 175, 55, 0.12);
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.35);
 }
 
 .evo-node-sprite {
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+  flex-shrink: 0;
 }
 
 .evo-node-name {
-  font-size: 0.9rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  margin-top: 4px;
+  margin-top: 2px;
   color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 85px;
+  line-height: 1.2;
 }
 
 .evo-arrow-box {
@@ -598,27 +610,34 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 6px;
-  max-width: 190px;
+  padding: 0 2px;
+  flex: 0 1 auto;
+  min-width: 32px;
+  max-width: 68px;
+  flex-shrink: 1;
   text-align: center;
 }
 
 .evo-method-pill {
   background: rgba(59, 130, 246, 0.15);
   color: #93c5fd;
-  border: 1px solid rgba(59, 130, 246, 0.4);
-  padding: 4px 10px;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  padding: 2px 5px;
   border-radius: 9999px;
-  font-size: 0.75rem;
+  font-size: 0.62rem;
   font-weight: 600;
-  line-height: 1.3;
-  margin-bottom: 4px;
+  line-height: 1.15;
+  margin-bottom: 2px;
+  text-align: center;
+  word-break: normal;
 }
 
 .evo-arrow-symbol {
-  font-size: 1.2rem;
+  font-size: 0.85rem;
   color: var(--gold);
   font-weight: bold;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 /* Enlaces clicables interactivos */
@@ -909,3 +928,167 @@ footer a {
   color: var(--primary);
   text-decoration: none;
 }
+
+/* ==========================================================================
+   OPTIMIZACIONES ESPECÍFICAS PARA IPHONE, SAFARI Y MÓVILES (< 600px)
+   ========================================================================== */
+@media (max-width: 600px) {
+  .header-container {
+    padding: 8px 12px;
+  }
+
+  .brand-title {
+    font-size: 1.05rem;
+  }
+
+  .brand-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  .search-wrapper {
+    min-width: 100%;
+    order: 3;
+    margin-top: 4px;
+  }
+
+  nav.nav-tabs {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav-tab {
+    padding: 10px 10px;
+    font-size: 0.85rem;
+  }
+
+  main {
+    padding: 12px 8px;
+  }
+
+  /* Modales en móvil */
+  .modal-overlay {
+    padding: 6px;
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .modal-container {
+    max-height: 90dvh;
+    max-height: 90vh;
+    border-radius: 12px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .modal-header {
+    padding: 12px 10px;
+    gap: 10px;
+  }
+
+  .modal-sprite {
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
+  }
+
+  .modal-title-area h2 {
+    font-size: 1.35rem;
+  }
+
+  .modal-close {
+    top: 8px;
+    right: 12px;
+    font-size: 1.6rem;
+  }
+
+  .modal-body {
+    padding: 12px 8px;
+    gap: 12px;
+  }
+
+  .detail-section {
+    padding: 10px 8px;
+    border-radius: 8px;
+  }
+
+  .detail-section h3 {
+    font-size: 0.92rem;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+  }
+
+  /* Cadena evolutiva garantizada en una sola línea en iPhone */
+  .evo-flow-container {
+    padding: 8px 4px;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .evo-chain {
+    gap: 2px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .evo-node {
+    min-width: 58px;
+    max-width: 84px;
+    padding: 5px 2px;
+    border-radius: 6px;
+    flex: 1 1 0px;
+  }
+
+  .evo-node-sprite {
+    width: 38px;
+    height: 38px;
+  }
+
+  .evo-node-name {
+    font-size: 0.68rem;
+    max-width: 76px;
+  }
+
+  .evo-arrow-box {
+    min-width: 26px;
+    max-width: 58px;
+    padding: 0 1px;
+    flex: 0 1 auto;
+  }
+
+  .evo-method-pill {
+    font-size: 0.58rem;
+    padding: 1px 4px;
+    line-height: 1.1;
+    margin-bottom: 1px;
+  }
+
+  .evo-arrow-symbol {
+    font-size: 0.72rem;
+  }
+
+  /* Estadísticas y tablas en móvil */
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .stat-row {
+    font-size: 0.82rem;
+    gap: 8px;
+  }
+
+  .stat-label {
+    width: 65px;
+  }
+
+  .learnset-table th, .learnset-table td {
+    padding: 6px 4px;
+    font-size: 0.75rem;
+  }
+
+  .cat-badge {
+    font-size: 0.68rem;
+    padding: 1px 4px;
+  }
+}
+

@@ -400,19 +400,17 @@ document.addEventListener("DOMContentLoaded", () => {
         path.forEach((step, idx) => {
           if (idx > 0) {
             let reqText = step.method || "Evolución";
-            if (step.item) {
-              reqText = reqText.replace(
-                step.item,
-                `<a href="javascript:void(0)" class="link-item" onclick="window.openItemModal('${step.item}')">${step.item} 🎒</a>`
-              );
+            reqText = reqText.replace(/Nivel\s*/gi, "Nv. ");
+            if (reqText.includes("(sin Marcha Espectral)") || reqText.includes("(sin Tajo Metralla)") || reqText.includes("(sin Flechas Triples)")) {
+              reqText = "Nv. 36";
             }
-            if (step.move) {
+            if (step.item) {
+              const cleanItem = step.item.replace(/Usar\s*/gi, "").trim();
+              reqText = `<a href="javascript:void(0)" class="link-item" onclick="window.openItemModal('${step.item}')">${cleanItem} 🎒</a>`;
+            } else if (step.move) {
               const moveObj = data.moves.find(m => m.name.toLowerCase() === step.move.toLowerCase());
               const moveParam = moveObj ? moveObj.id : `'${step.move}'`;
-              reqText = reqText.replace(
-                step.move,
-                `<a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${moveParam})">${step.move} ⚔️</a>`
-              );
+              reqText = `<a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${moveParam})">${step.move} ⚔️</a>`;
             }
 
             html += `
