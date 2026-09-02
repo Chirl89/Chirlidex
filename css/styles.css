@@ -951,57 +951,68 @@ main {
   image-rendering: crisp-edges;
 }
 
-/* Pin interactivo animado */
+/* Cursor/mira de precisión milimétrica estilo Pokégear (sin texto redundante) */
 .map-pin {
   position: absolute;
-  transform: translate(-50%, -90%);
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   z-index: 10;
-  cursor: pointer;
   pointer-events: none;
 }
 
+/* Retícula / mira de selección animada */
+.map-pin-reticle {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #ff3838;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(255, 56, 56, 0.8), inset 0 0 6px rgba(255, 56, 56, 0.4);
+  animation: reticlePulse 1.4s infinite ease-in-out;
+}
+
+@keyframes reticlePulse {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.85;
+    border-color: #ff3838;
+    box-shadow: 0 0 10px rgba(255, 56, 56, 0.8), inset 0 0 6px rgba(255, 56, 56, 0.4);
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+    border-color: #ffd32a;
+    box-shadow: 0 0 16px rgba(255, 211, 42, 0.95), inset 0 0 8px rgba(255, 211, 42, 0.6);
+  }
+}
+
+/* Anillo de radar concéntrico que se expande desde el centro exacto */
 .map-pin-pulse {
   position: absolute;
-  bottom: 8px;
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  background: rgba(230, 57, 70, 0.45);
-  border: 2px solid #e63946;
+  border: 2px solid #ff3838;
   animation: pinRadar 1.8s infinite ease-out;
 }
 
 @keyframes pinRadar {
   0% { transform: scale(0.2); opacity: 1; }
-  100% { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(2.0); opacity: 0; }
 }
 
-.map-pin-icon {
-  font-size: 32px;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8));
-  animation: pinBounce 1.5s infinite ease-in-out;
-}
-
-@keyframes pinBounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
-
-.map-pin-label {
-  background: rgba(15, 23, 42, 0.95);
-  color: #fff;
-  font-size: 0.78rem;
-  font-weight: 800;
-  padding: 4px 10px;
-  border-radius: 6px;
-  border: 1px solid var(--gold);
-  white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
-  margin-top: 2px;
-  letter-spacing: 0.3px;
+/* Punto central de impacto exacto */
+.map-pin-beacon {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  border: 2px solid #ff3838;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #ff3838;
+  z-index: 2;
 }
 
 .route-info-box {

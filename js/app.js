@@ -785,8 +785,8 @@ document.addEventListener("DOMContentLoaded", () => {
         ${isShowingActiveRegion ? `
           <div class="map-pin" style="left: ${r.x || 50}%; top: ${r.y || 50}%;">
             <div class="map-pin-pulse"></div>
-            <div class="map-pin-icon">📍</div>
-            <div class="map-pin-label">${r.name}</div>
+            <div class="map-pin-reticle"></div>
+            <div class="map-pin-beacon"></div>
           </div>
         ` : `
           <div style="position: absolute; top: 12px; left: 12px; background: rgba(15,23,42,0.92); color: #fff; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; border: 1px solid var(--border);">
