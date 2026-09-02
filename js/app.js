@@ -11,10 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Elementos DOM principales
-  const navTabs = document.querySelectorAll(".nav-tab");
   const tabViews = document.querySelectorAll(".tab-view");
   const globalSearch = document.getElementById("global-search");
-  const themeToggle = document.getElementById("theme-toggle");
+  const menuDropdownToggle = document.getElementById("menu-dropdown-toggle");
+  const headerDropdownMenu = document.getElementById("header-dropdown-menu");
+  const menuBackdrop = document.getElementById("menu-backdrop");
+  const menuCloseBtn = document.getElementById("menu-close-btn");
 
   // Pokédex View
   const pokemonGrid = document.getElementById("pokemon-grid");
@@ -120,59 +122,55 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let currentPokemonList = [...data.pokemon];
 
-  // Inicialización de Tema Claro/Oscuro
-  const savedTheme = localStorage.getItem("chirlgold-theme") || "dark";
-  document.documentElement.setAttribute("data-theme", savedTheme);
-  themeToggle.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+  // Modo Oscuro Permanente Exclusivo (WikiDex Dark)
+  document.documentElement.setAttribute("data-theme", "dark");
 
-  themeToggle.addEventListener("click", () => {
-    const curTheme = document.documentElement.getAttribute("data-theme");
-    const nextTheme = curTheme === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", nextTheme);
-    localStorage.setItem("chirlgold-theme", nextTheme);
-    themeToggle.textContent = nextTheme === "dark" ? "☀️" : "🌙";
-  });
+  // Control del Menú Lateral / Drawer (Compatible 100% con iOS y sin desbordamientos)
+  function openMenu() {
+    if (headerDropdownMenu) headerDropdownMenu.classList.add("show");
+    if (menuBackdrop) menuBackdrop.classList.add("show");
+    document.body.style.overflow = "hidden";
+  }
 
-  // Navegación por pestañas y Menú Desplegable
-  const menuDropdownToggle = document.getElementById("menu-dropdown-toggle");
-  const headerDropdownMenu = document.getElementById("header-dropdown-menu");
+  function closeMenu() {
+    if (headerDropdownMenu) headerDropdownMenu.classList.remove("show");
+    if (menuBackdrop) menuBackdrop.classList.remove("show");
+    document.body.style.overflow = "";
+  }
 
-  if (menuDropdownToggle && headerDropdownMenu) {
+  if (menuDropdownToggle) {
     menuDropdownToggle.addEventListener("click", (e) => {
       e.stopPropagation();
-      headerDropdownMenu.classList.toggle("show");
+      openMenu();
     });
+  }
 
-    document.addEventListener("click", (e) => {
-      if (!headerDropdownMenu.contains(e.target) && e.target !== menuDropdownToggle) {
-        headerDropdownMenu.classList.remove("show");
-      }
-    });
+  if (menuCloseBtn) {
+    menuCloseBtn.addEventListener("click", closeMenu);
+  }
 
+  if (menuBackdrop) {
+    menuBackdrop.addEventListener("click", closeMenu);
+  }
+
+  if (headerDropdownMenu) {
     headerDropdownMenu.querySelectorAll(".dropdown-item").forEach(item => {
       item.addEventListener("click", () => {
         const targetView = item.getAttribute("data-tab");
         window.switchTab(targetView);
-        headerDropdownMenu.classList.remove("show");
+        closeMenu();
       });
     });
   }
 
-  navTabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      const targetView = tab.getAttribute("data-tab");
-      window.switchTab(targetView);
-    });
-  });
-
   window.switchTab = function(viewId) {
-    navTabs.forEach(t => t.classList.toggle("active", t.getAttribute("data-tab") === viewId));
     if (headerDropdownMenu) {
       headerDropdownMenu.querySelectorAll(".dropdown-item").forEach(item => {
         item.classList.toggle("active", item.getAttribute("data-tab") === viewId);
       });
     }
     tabViews.forEach(v => v.classList.toggle("active", v.id === `view-${viewId}`));
+    closeMenu();
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
