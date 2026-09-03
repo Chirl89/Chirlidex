@@ -458,9 +458,9 @@ document.addEventListener("DOMContentLoaded", () => {
       { name: "PS", val: stats.hp, color: "#ef4444" },
       { name: "Ataque", val: stats.atk, color: "#f97316" },
       { name: "Defensa", val: stats.def, color: "#eab308" },
-      { name: "Velocidad", val: stats.spe, color: "#3b82f6" },
       { name: "At. Esp.", val: stats.spa, color: "#8b5cf6" },
       { name: "Def. Esp.", val: stats.spd, color: "#10b981" },
+      { name: "Velocidad", val: stats.spe, color: "#3b82f6" },
     ].map(s => `
       <div class="stat-row">
         <span class="stat-label">${s.name}</span>

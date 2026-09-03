@@ -7,7 +7,7 @@
   <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.5.0: Pokédex con árboles evolutivos completos, learnsets por nivel, objetos, ataques y level caps.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="css/styles.css?v=0.5.1">
+  <link rel="stylesheet" href="css/styles.css?v=0.5.2">
   <link rel="icon" type="image/png" href="img/mew.png">
   <style>
     /* Color de alta legibilidad para movimientos y ataques (Amarillo Dorado / Crema) */
@@ -58,9 +58,8 @@
       </div>
 
       <div class="header-actions">
-        <button id="menu-dropdown-toggle" class="btn-menu-dropdown" title="Abrir menú de secciones" aria-label="Abrir menú">
+        <button id="menu-dropdown-toggle" class="btn-menu-dropdown" title="Menú de navegación" aria-label="Abrir menú">
           <span class="menu-icon">☰</span>
-          <span class="menu-label">Secciones</span>
         </button>
       </div>
     </div>
@@ -99,11 +98,8 @@
     <section id="view-inicio" class="tab-view active">
       <div class="hero-cover">
         <div class="hero-badge">🎮 ROM HACK NDS · HEARTGOLD GENERATIONS · <span class="guide-version-tag">v0.5.0</span></div>
-        <h1 class="hero-title">
-          <span class="hero-pokemon">POKÉMON</span>
-          <span class="hero-chirlgold">CHIRLGOLD</span>
-        </h1>
-        <p class="hero-subtitle">Guía Maestra & WikiDex Definitiva Adaptada</p>
+        <h1 class="hero-title">WikiDex & Guía Maestra Oficial</h1>
+        <p class="hero-subtitle">Base de Datos Integral & Recorrido Paso a Paso para Entrenadores</p>
         <p class="hero-desc">
           Toda la información de la ROM hack al descubierto. Datos extraídos directamente de la ROM: 1044 especies con ataques por nivel, árbol genealógico evolutivo interactivo, mapa esquemático oficial del Pokégear y recorrido completo paso a paso de Johto y Kanto.
         </p>
@@ -785,7 +781,7 @@
   </div>
 
   <!-- MODAL 5: DETALLE DE HABILIDAD -->
-  <div id="ability-modal" class="modal-overlay" style="z-index: 350;">
+  <div id="ability-modal" class="modal-overlay">
     <div class="modal-container" style="max-width: 680px;">
       <button id="ability-modal-close" class="modal-close" title="Cerrar">&times;</button>
       <div id="ability-modal-content"></div>
