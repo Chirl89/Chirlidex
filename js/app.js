@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let evoHtml = renderEvolutionFlow(mon);
 
     // Encuentros interactivos que abren el mapa de la ruta
-    let encHtml = `<p style="color: var(--text-muted);">No se conocen encuentros salvajes en Johto ni Kanto (o es inicial/evento).</p>`;
+    let encHtml = `<p style="color: #cbd5e1; font-weight: 600; background: var(--bg-input); padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border);">🚫 <b>Pokémon Inicial / Exclusivo:</b> No aparece en estado salvaje en rutas ni cuevas (obtenible únicamente mediante elección inicial del Profesor Elm o eventos especiales).</p>`;
     if (mon.encounters && mon.encounters.length > 0) {
       encHtml = `<div class="encounters-list">` + 
         mon.encounters.map(e => `
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <tr>
                   <td class="col-lvl">${m.lvl === 0 ? "Evo" : m.lvl}</td>
                   <td class="col-name" style="text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                    <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
+                    <a href="javascript:void(0)" class="link-move" style="color: #fde047 !important; font-weight: 700; text-decoration: none;" onclick="window.openMoveModal(${m.id})">
                       ${m.name}
                     </a>
                   </td>
@@ -605,7 +605,7 @@ document.addEventListener("DOMContentLoaded", () => {
             } else if (step.move) {
               const moveObj = data.moves.find(m => m.name.toLowerCase() === step.move.toLowerCase());
               const moveParam = moveObj ? moveObj.id : `'${step.move}'`;
-              reqText = `<a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${moveParam})">${step.move} ⚔️</a>`;
+              reqText = `<a href="javascript:void(0)" class="link-move" style="color: #fde047 !important; font-weight: 700; text-decoration: none;" onclick="window.openMoveModal(${moveParam})">${step.move} ⚔️</a>`;
             }
 
             html += `
@@ -989,7 +989,7 @@ document.addEventListener("DOMContentLoaded", () => {
     movesTableBody.innerHTML = filtered.slice(0, 100).map(m => `
       <tr>
         <td class="col-name">
-          <a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal(${m.id})">
+          <a href="javascript:void(0)" class="link-move" style="color: #fde047 !important; font-weight: 700; text-decoration: none;" onclick="window.openMoveModal(${m.id})">
             <b>${m.name}</b>
           </a>
         </td>
@@ -1099,7 +1099,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 Objeto: <a href="javascript:void(0)" class="link-item" onclick="window.openItemModal('${m.item}')">${m.item}</a>
               </div>
               <div class="member-moves">
-                Ataques: ${m.moves.map(mv => `<a href="javascript:void(0)" class="link-move" onclick="window.openMoveModal('${mv}')">${mv}</a>`).join(", ")}
+                Ataques: ${m.moves.map(mv => `<a href="javascript:void(0)" class="link-move" style="color: #fde047 !important; font-weight: 700; text-decoration: none;" onclick="window.openMoveModal('${mv}')">${mv}</a>`).join(", ")}
               </div>
             </div>
           `).join("")}

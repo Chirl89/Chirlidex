@@ -7,9 +7,31 @@
   <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.5.0: Pokédex con árboles evolutivos completos, learnsets por nivel, objetos, ataques y level caps.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=0.5.1">
   <link rel="icon" type="image/png" href="img/mew.png">
+  <style>
+    /* Color de alta legibilidad para movimientos y ataques (Amarillo Dorado / Crema) */
+    .link-move,
+    .move-clickable,
+    .learnset-table td.col-name a,
+    .learnset-table td.col-name,
+    #moves-table-body td.col-name a,
+    .member-moves a {
+      color: #fde047 !important;
+      font-weight: 700 !important;
+      text-decoration: none !important;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) !important;
+    }
+    .link-move:hover,
+    .move-clickable:hover,
+    .learnset-table td.col-name a:hover,
+    #moves-table-body td.col-name a:hover,
+    .member-moves a:hover {
+      color: #ffffff !important;
+      text-decoration: underline !important;
+      text-shadow: 0 0 10px rgba(253, 224, 71, 0.8) !important;
+    }
+  </style>
 </head>
 <body>
 
