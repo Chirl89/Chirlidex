@@ -4,20 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokémon ChirlGold — WikiDex & Guía Maestra Oficial</title>
-  <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.4.3: Pokédex con árboles evolutivos completos, learnsets por nivel, objetos, ataques y level caps.">
+  <meta name="description" content="WikiDex interactiva y guía oficial completa en castellano de Pokémon ChirlGold v0.5.0: Pokédex con árboles evolutivos completos, learnsets por nivel, objetos, ataques y level caps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23d4af37'/><circle cx='50' cy='50' r='20' fill='%231e293b'/></svg>">
+  <link rel="icon" type="image/png" href="img/mew.png">
 </head>
 <body>
 
   <!-- Encabezado Superior -->
   <header>
     <div class="header-container">
-      <a href="#pokedex" class="brand">
-        <div class="brand-icon">CG</div>
-        <div>
-          <span class="brand-title">POKÉMON CHIRLGOLD</span>
-          <span class="brand-sub">WikiDex & Guía Oficial v0.4.3 (Castellano)</span>
+      <a href="#pokedex" class="brand" title="Pokémon ChirlGold - WikiDex & Guía Oficial">
+        <div class="brand-logo-mew">
+          <img src="img/mew.png" alt="Mew" class="brand-sprite-mew">
+        </div>
+        <div class="brand-text-block">
+          <div class="brand-title-row">
+            <span class="brand-pokemon">POKÉMON</span>
+            <span class="brand-chirlgold">CHIRLGOLD</span>
+          </div>
+          <span class="brand-sub">WikiDex & Guía Oficial <span class="guide-version-tag">v0.5.0</span> (Castellano)</span>
         </div>
       </a>
 
@@ -41,7 +49,9 @@
   <nav id="header-dropdown-menu" class="header-dropdown-menu" aria-label="Menú Principal">
     <div class="menu-drawer-header">
       <div class="menu-drawer-brand">
-        <span class="brand-icon" style="width: 26px; height: 26px; font-size: 0.75rem;">CG</span>
+        <div class="brand-logo-mew" style="width: 32px; height: 32px;">
+          <img src="img/mew.png" alt="Mew" class="brand-sprite-mew" style="width: 30px; height: 30px;">
+        </div>
         <span class="menu-drawer-title">SECCIONES</span>
       </div>
       <button id="menu-close-btn" class="menu-close-btn" title="Cerrar menú">&times;</button>
@@ -66,8 +76,11 @@
     <!-- VISTA 0: PORTADA / HUB PRINCIPAL -->
     <section id="view-inicio" class="tab-view active">
       <div class="hero-cover">
-        <div class="hero-badge">🎮 ROM HACK NDS · HEARTGOLD GENERATIONS · v0.4.3</div>
-        <h1 class="hero-title">Pokémon ChirlGold</h1>
+        <div class="hero-badge">🎮 ROM HACK NDS · HEARTGOLD GENERATIONS · <span class="guide-version-tag">v0.5.0</span></div>
+        <h1 class="hero-title">
+          <span class="hero-pokemon">POKÉMON</span>
+          <span class="hero-chirlgold">CHIRLGOLD</span>
+        </h1>
         <p class="hero-subtitle">Guía Maestra & WikiDex Definitiva Adaptada</p>
         <p class="hero-desc">
           Toda la información de la ROM hack al descubierto. Datos extraídos directamente de la ROM: 1044 especies con ataques por nivel, árbol genealógico evolutivo interactivo, mapa esquemático oficial del Pokégear y recorrido completo paso a paso de Johto y Kanto.
@@ -759,7 +772,7 @@
 
   <!-- Pie de página -->
   <footer>
-    <p><b>Pokémon ChirlGold v0.4.3</b> — Guía Maestra & WikiDex Adaptada.</p>
+    <p><b>Pokémon ChirlGold <span class="guide-version-tag">v0.5.0</span></b> — Guía Maestra & WikiDex Adaptada.</p>
     <p style="margin-top: 4px; font-size: 0.8rem; color: var(--text-muted);">
       Todos los datos (ataques por nivel, tipos, habilidades, evoluciones y encuentros) han sido extraídos directamente de la ROM.
     </p>

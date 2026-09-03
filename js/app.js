@@ -10,6 +10,27 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  // Sincronización dinámica de versión
+  function syncVersion() {
+    const activeVersion = data.version || window.CHIRLGOLD_VERSION || "v0.5.0";
+    document.querySelectorAll(".guide-version-tag").forEach(el => {
+      el.textContent = activeVersion;
+    });
+    try {
+      fetch("../version.json")
+        .then(res => res.json())
+        .then(cfg => {
+          if (cfg && cfg.version) {
+            document.querySelectorAll(".guide-version-tag").forEach(el => {
+              el.textContent = cfg.version;
+            });
+          }
+        })
+        .catch(() => {});
+    } catch (e) {}
+  }
+  syncVersion();
+
   // Elementos DOM principales
   const tabViews = document.querySelectorAll(".tab-view");
   const globalSearch = document.getElementById("global-search");

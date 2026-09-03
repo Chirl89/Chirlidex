@@ -1,8 +1,18 @@
 /* ==========================================================================
-   POKÉMON CHIRLGOLD v0.4.3 - WikiDex & Guía Maestra Oficial
+   POKÉMON CHIRLGOLD - WikiDex & Guía Maestra Oficial
    Diseño Editorial Nítido, Técnico y Profesional (Dark Theme Exclusivo)
    Optimizado para iOS / Safari / Escritorio / Móvil
    ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url('../fonts/Pokemon-Solid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --bg-main: #0b0f19;
@@ -77,23 +87,23 @@ body {
 /* ==========================================================================
    HEADER & ACCIONES
    ========================================================================== */
-header.header {
-  background: #0d131f;
-  border-bottom: 1px solid var(--border);
+header, header.header {
+  background: linear-gradient(180deg, #131a28 0%, #0a0e17 100%);
+  border-bottom: 2px solid rgba(212, 175, 55, 0.45);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
 }
 
 .header-container {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 8px 12px;
+  padding: 8px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 14px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -110,9 +120,23 @@ header.header {
     grid-column: 1;
     grid-row: 1;
     min-width: 0;
+    gap: 8px;
   }
-  .brand-title {
-    font-size: 0.88rem;
+  .brand-logo-mew {
+    width: 38px;
+    height: 38px;
+  }
+  .brand-sprite-mew {
+    width: 36px;
+    height: 36px;
+  }
+  .brand-pokemon {
+    font-size: 1.05rem;
+    letter-spacing: 1.5px;
+  }
+  .brand-chirlgold {
+    font-size: 1.05rem;
+    letter-spacing: 1.8px;
   }
   .brand-sub {
     display: none;
@@ -132,40 +156,97 @@ header.header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   text-decoration: none;
   color: var(--text-main);
   flex-shrink: 0;
+  transition: var(--transition);
 }
 
-.brand-icon {
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(135deg, #b91c1c, #7f1d1d);
-  border: 1px solid var(--gold);
-  border-radius: var(--radius-sm);
+.brand-logo-mew {
+  width: 46px;
+  height: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
-  font-size: 0.85rem;
-  color: #fff;
-  letter-spacing: 0.5px;
+  background: radial-gradient(circle, rgba(234, 179, 8, 0.28) 0%, rgba(17, 24, 39, 0.95) 75%);
+  border: 1.5px solid rgba(212, 175, 55, 0.75);
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4), inset 0 0 8px rgba(212, 175, 55, 0.25);
+  flex-shrink: 0;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.brand-title {
-  font-weight: 800;
-  font-size: 1rem;
-  letter-spacing: 0.8px;
-  display: block;
-  color: #fff;
+.brand:hover .brand-logo-mew {
+  transform: scale(1.08) rotate(-4deg);
+  border-color: #ffd700;
+  box-shadow: 0 0 18px rgba(255, 215, 0, 0.6), inset 0 0 10px rgba(255, 215, 0, 0.35);
+}
+
+.brand-sprite-mew {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+}
+
+.brand-text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.brand-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.brand-pokemon {
+  font-family: 'PokemonSolid', -apple-system, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  color: #ffcb05;
+  -webkit-text-stroke: 1.2px #2a75bb;
+  text-shadow: 
+    1.5px 1.5px 0 #1b4987,
+    -1px -1px 0 #1b4987,
+    1px -1px 0 #1b4987,
+    -1px 1px 0 #1b4987,
+    0 3px 6px rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  transform: skewX(-2deg);
+}
+
+.brand-chirlgold {
+  font-family: 'Cinzel', 'Trajan Pro', 'Georgia', serif;
+  font-weight: 900;
+  font-size: 1.22rem;
+  letter-spacing: 2.5px;
+  background: linear-gradient(180deg, #fffdf0 0%, #ffe066 32%, #d4af37 68%, #8f6918 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 10px rgba(212, 175, 55, 0.4));
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .brand-sub {
   font-size: 0.72rem;
-  display: block;
-  color: var(--text-muted);
+  color: #cbd5e1;
   font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-top: 2px;
+}
+
+.brand-sub .guide-version-tag {
+  color: #fde047;
+  font-weight: 700;
 }
 
 /* Search Bar */
@@ -405,11 +486,42 @@ main {
 }
 
 .hero-title {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  font-weight: 800;
-  letter-spacing: -0.3px;
-  margin: 0 0 6px 0;
-  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 8px 0;
+  line-height: 1.1;
+}
+
+.hero-pokemon {
+  font-family: 'PokemonSolid', -apple-system, sans-serif;
+  font-size: clamp(2rem, 5.5vw, 3.2rem);
+  letter-spacing: 3px;
+  color: #ffcb05;
+  -webkit-text-stroke: 2px #2a75bb;
+  text-shadow: 
+    2px 2px 0 #1b4987,
+    -1.5px -1.5px 0 #1b4987,
+    1.5px -1.5px 0 #1b4987,
+    -1.5px 1.5px 0 #1b4987,
+    0 4px 10px rgba(0, 0, 0, 0.9);
+  transform: skewX(-3deg);
+  display: inline-block;
+}
+
+.hero-chirlgold {
+  font-family: 'Cinzel', 'Trajan Pro', 'Georgia', serif;
+  font-weight: 900;
+  font-size: clamp(2.1rem, 5.6vw, 3.4rem);
+  letter-spacing: 4px;
+  background: linear-gradient(180deg, #fffdf0 0%, #ffe066 32%, #d4af37 68%, #8f6918 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 16px rgba(212, 175, 55, 0.5));
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .hero-subtitle {
@@ -987,7 +1099,8 @@ main {
 }
 
 .col-name {
-  font-weight: 600;
+  font-weight: 700;
+  color: #f8fafc;
 }
 
 .col-num {
@@ -1023,17 +1136,27 @@ main {
   vertical-align: middle;
 }
 
-.move-clickable {
-  color: #60a5fa;
+.link-move,
+.move-clickable,
+.learnset-table td.col-name a,
+#moves-table-body td.col-name a {
+  color: #f8fafc !important;
   font-weight: 700;
   cursor: pointer;
   text-decoration: none;
   text-align: left;
+  transition: var(--transition);
+  display: inline-block;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-.move-clickable:hover {
-  color: #93c5fd;
+.link-move:hover,
+.move-clickable:hover,
+.learnset-table td.col-name a:hover,
+#moves-table-body td.col-name a:hover {
+  color: #fde047 !important;
   text-decoration: underline;
+  text-shadow: 0 0 8px rgba(253, 224, 71, 0.55);
 }
 
 .move-cat-icon {
