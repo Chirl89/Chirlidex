@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let evoHtml = renderEvolutionFlow(mon);
 
     // Encuentros interactivos que abren el mapa de la ruta
-    let encHtml = `<p style="color: #cbd5e1; font-weight: 600; background: var(--bg-input); padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border);">🚫 <b>Pokémon Inicial / Exclusivo:</b> No aparece en estado salvaje en rutas ni cuevas (obtenible únicamente mediante elección inicial del Profesor Elm o eventos especiales).</p>`;
+    let encHtml = "";
     if (mon.encounters && mon.encounters.length > 0) {
       encHtml = `<div class="encounters-list">` + 
         mon.encounters.map(e => `
@@ -491,6 +491,28 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         `).join("") + 
         `</div>`;
+    } else {
+      // Si este Pokémon no aparece salvaje, buscar si desciende de pre-evoluciones capturables
+      const catchablePreEvos = getCatchableAncestors(mon);
+      if (catchablePreEvos.length > 0) {
+        encHtml = `
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+            <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 12px; font-weight: 500;">
+              🌿 <b>Evolución Exclusiva:</b> <b>${mon.name}</b> no aparece directamente en estado salvaje. Para conseguirlo, debes capturar a su pre-evolución y evolucionarlo:
+            </p>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+              ${catchablePreEvos.map(anc => `
+                <button type="button" class="btn-filter" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: rgba(234, 179, 8, 0.15); border: 1px solid var(--gold); color: #fef08a; border-radius: 8px; font-weight: 700; cursor: pointer; transition: all 0.2s;" onclick="window.openPokemonModal('${anc.id}')" title="Ver rutas de captura de ${anc.name}">
+                  <img src="${getSpriteUrl(anc.id, anc.name, anc.slug)}" alt="${anc.name}" style="width: 28px; height: 28px; object-fit: contain;">
+                  <span>📍 Ver dónde capturar a ${anc.name} ➔</span>
+                </button>
+              `).join("")}
+            </div>
+          </div>
+        `;
+      } else {
+        encHtml = `<p style="color: #cbd5e1; font-weight: 600; background: var(--bg-input); padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border);">🚫 <b>Pokémon Inicial / Exclusivo:</b> No aparece en estado salvaje en rutas ni cuevas (obtenible únicamente mediante elección inicial del Profesor Elm o eventos especiales).</p>`;
+      }
     }
 
     // Ataques por nivel interactivos estilo WikiDex
@@ -665,6 +687,43 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     return allPaths;
+  }
+
+  function getCatchableAncestors(currentMon) {
+    if (!currentMon.family_tree || currentMon.family_tree.length === 0) return [];
+    
+    const curIdStr = String(currentMon.id).toLowerCase();
+    const curNameStr = currentMon.name.toLowerCase();
+    const catchable = [];
+    const seenIds = new Set();
+
+    function searchNode(node, ancestors) {
+      const isTarget = String(node.id).toLowerCase() === curIdStr || node.name.toLowerCase() === curNameStr;
+      if (isTarget) {
+        ancestors.forEach(anc => {
+          const fullMon = data.pokemon.find(p => String(p.id).toLowerCase() === String(anc.id).toLowerCase() || p.name.toLowerCase() === anc.name.toLowerCase());
+          if (fullMon && fullMon.encounters && fullMon.encounters.length > 0) {
+            if (!seenIds.has(String(fullMon.id))) {
+              seenIds.add(String(fullMon.id));
+              catchable.push(fullMon);
+            }
+          }
+        });
+        return;
+      }
+
+      if (node.evolves_to && node.evolves_to.length > 0) {
+        node.evolves_to.forEach(child => {
+          searchNode(child, [...ancestors, node]);
+        });
+      }
+    }
+
+    currentMon.family_tree.forEach(root => {
+      searchNode(root, []);
+    });
+
+    return catchable;
   }
 
   function closeModal() {

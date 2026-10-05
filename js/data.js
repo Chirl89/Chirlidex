@@ -2361,7 +2361,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Caterpie",
@@ -2832,7 +2839,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Weedle",
@@ -3350,7 +3364,26 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pidgey",
@@ -4032,6 +4065,36 @@ window.CHIRLGOLD_DATA = {
           "route": "Ruta 34",
           "time": "Todo el día",
           "rate": "30%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "20%",
           "method": "Hierba"
         }
       ],
@@ -4891,7 +4954,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Ekans",
@@ -6055,7 +6125,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "8%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 35",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sandshrew",
@@ -6547,7 +6630,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "8%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nidoran♀",
@@ -7277,7 +7367,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Noche",
+          "rate": "8%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nidoran♂",
@@ -8747,7 +8844,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "8%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Vulpix",
@@ -9313,7 +9423,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Igglybuff",
@@ -9831,7 +9954,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Zubat",
@@ -10331,7 +10461,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Oddish",
@@ -11089,7 +11226,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Paras",
@@ -11497,7 +11641,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Venonat",
@@ -11974,7 +12125,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Diglett",
@@ -12476,7 +12640,32 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Meowth",
@@ -13008,7 +13197,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Psyduck",
@@ -13510,7 +13706,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mankey",
@@ -14024,7 +14227,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Growlithe",
@@ -14486,7 +14702,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Poliwag",
@@ -15131,6 +15360,36 @@ window.CHIRLGOLD_DATA = {
           "route": "Ruta 34",
           "time": "Todo el día",
           "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "11%",
           "method": "Hierba"
         }
       ],
@@ -15929,7 +16188,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Machop",
@@ -16736,7 +17008,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bellsprout",
@@ -17414,7 +17693,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tentacool",
@@ -17942,7 +18228,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Geodude",
@@ -18670,7 +18963,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Ponyta",
@@ -19705,7 +20011,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Magnemite",
@@ -20315,7 +20634,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "farfetchd"
@@ -20502,7 +20834,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Doduo",
@@ -20979,7 +21324,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Seel",
@@ -21464,7 +21816,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Grimer",
@@ -21936,7 +22301,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shellder",
@@ -22432,7 +22804,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Gastly",
@@ -23290,7 +23675,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Onix",
@@ -23519,6 +23911,30 @@ window.CHIRLGOLD_DATA = {
           "route": "Ruta 34",
           "time": "Todo el día",
           "rate": "50%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "20%",
           "method": "Hierba"
         }
       ],
@@ -24555,7 +24971,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Voltorb",
@@ -25058,7 +25487,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Exeggcute",
@@ -25604,7 +26040,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cubone",
@@ -26977,7 +27420,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Lickitung",
@@ -27189,7 +27639,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "7%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Koffing",
@@ -27721,7 +28184,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rhyhorn",
@@ -28666,7 +29136,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tangela",
@@ -28938,7 +29415,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "12%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "kangaskhan"
@@ -29618,7 +30108,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Goldeen",
@@ -30909,7 +31412,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Scyther",
@@ -31239,7 +31749,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Smoochum",
@@ -31998,7 +32521,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "pinsir"
@@ -32164,7 +32694,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "tauros"
@@ -32785,6 +33322,36 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
         }
       ],
       "family_tree": null,
@@ -32998,6 +33565,18 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -34482,7 +35061,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Porygon",
@@ -34719,7 +35305,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Omanyte",
@@ -35257,7 +35850,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Kabuto",
@@ -35845,7 +36445,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "aerodactyl"
@@ -37066,6 +37673,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -40428,7 +41041,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sentret",
@@ -40871,7 +41491,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Hoothoot",
@@ -41269,7 +41902,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Ledyba",
@@ -41717,7 +42357,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Spinarak",
@@ -42553,7 +43206,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 25
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "65%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Chinchou",
@@ -43030,7 +43690,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pichu",
@@ -43220,7 +43887,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cleffa",
@@ -43397,7 +44071,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Igglybuff",
@@ -44191,7 +44872,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Natu",
@@ -44668,7 +45356,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mareep",
@@ -47011,7 +47706,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Hoppip",
@@ -47798,7 +48500,26 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Aipom",
@@ -48010,7 +48731,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sunkern",
@@ -48466,7 +49194,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 43",
+          "time": "Mañana y Día",
+          "rate": "40%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 43",
+          "time": "Noche",
+          "rate": "40%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Yanma",
@@ -48671,7 +49412,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wooper",
@@ -49911,7 +50665,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Murkrow",
@@ -50382,7 +51149,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "40%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Misdreavus",
@@ -50445,7 +51225,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "unown"
@@ -50812,7 +51605,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 43",
+          "time": "Mañana y Día",
+          "rate": "39%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 43",
+          "time": "Noche",
+          "rate": "39%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Girafarig",
@@ -51006,7 +51812,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pineco",
@@ -51531,7 +52350,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Dunsparce",
@@ -51734,7 +52566,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Gligar",
@@ -52291,7 +53130,32 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Snubbull",
@@ -52837,7 +53701,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 30
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "qwilfish"
@@ -53427,6 +54304,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
+        },
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
         }
       ],
       "family_tree": null,
@@ -53685,7 +54568,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "heracross"
@@ -53832,7 +54722,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sneasel",
@@ -54036,7 +54939,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Teddiursa",
@@ -54500,7 +55416,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Slugma",
@@ -54976,7 +55899,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Swinub",
@@ -55576,7 +56512,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "corsola"
@@ -55742,7 +56691,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Remoraid",
@@ -56115,7 +57071,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "delibird"
@@ -56625,7 +57594,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "skarmory"
@@ -56812,7 +57788,26 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Houndour",
@@ -57546,7 +58541,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Phanpy",
@@ -58234,7 +59236,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Stantler",
@@ -58387,7 +59396,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 1
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "smeargle"
@@ -58469,6 +59491,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
+        },
+        {
+          "route": "Ruta 35",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -59137,7 +60165,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Smoochum",
@@ -59341,7 +60382,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Elekid",
@@ -59579,7 +60627,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Magby",
@@ -59828,7 +60883,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "miltank"
@@ -61217,7 +62279,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Larvitar",
@@ -65574,7 +66643,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Poochyena",
@@ -66106,7 +67182,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "40%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Zigzagoon",
@@ -66518,7 +67601,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wurmple",
@@ -67473,7 +68563,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Lotad",
@@ -68260,7 +69357,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Seedot",
@@ -69165,7 +70269,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Taillow",
@@ -69593,7 +70704,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wingull",
@@ -70181,7 +71299,26 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Mañana",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Ralts",
@@ -71082,7 +72219,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Surskit",
@@ -71519,7 +72663,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "18%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shroomish",
@@ -71904,7 +73055,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Slakoth",
@@ -72571,7 +73729,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nincada",
@@ -73394,7 +74559,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Whismur",
@@ -74190,7 +75362,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Makuhita",
@@ -74603,7 +75782,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Azurill",
@@ -74833,7 +76019,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nosepass",
@@ -75077,7 +76270,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Skitty",
@@ -75433,7 +76633,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sableye"
@@ -75680,7 +76887,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "mawile"
@@ -75887,7 +77101,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Aron",
@@ -76705,7 +77926,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Meditite",
@@ -77202,7 +78430,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Electrike",
@@ -77714,7 +78949,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "plusle"
@@ -77950,7 +79198,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "minun"
@@ -78136,7 +79397,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "volbeat"
@@ -78322,7 +79590,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "illumise"
@@ -78798,7 +80073,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Gulpin",
@@ -79311,7 +80599,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "34%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Carvanha",
@@ -79858,7 +81153,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wailmer",
@@ -80351,7 +81653,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Numel",
@@ -80878,7 +82187,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "torkoal"
@@ -81054,7 +82370,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Spoink",
@@ -81496,7 +82819,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "spinda"
@@ -81722,7 +83058,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Trapinch",
@@ -82726,7 +84069,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cacnea",
@@ -83242,7 +84592,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Swablu",
@@ -83799,7 +85162,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "zangoose"
@@ -84025,7 +85395,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "seviper"
@@ -84262,7 +85639,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "lunatone"
@@ -84489,7 +85873,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "solrock"
@@ -84676,7 +86067,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Barboach",
@@ -85213,7 +86611,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Corphish",
@@ -85749,7 +87154,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Baltoy",
@@ -86257,7 +87669,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Lileep",
@@ -86745,7 +88164,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Anorith",
@@ -87565,7 +88991,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 43",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 43",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "castform"
@@ -87781,7 +89220,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "kecleon"
@@ -87968,7 +89420,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shuppet",
@@ -88445,7 +89904,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Duskull",
@@ -89018,7 +90484,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "tropius"
@@ -89534,7 +91007,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "absol"
@@ -89680,7 +91160,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wynaut",
@@ -89882,7 +91369,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Snorunt",
@@ -90417,7 +91917,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Spheal",
@@ -91777,7 +93290,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "relicanth"
@@ -91973,7 +93493,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 25
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "luvdisc"
@@ -92171,6 +93698,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -92845,6 +94378,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "11%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -97861,7 +99400,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Starly",
@@ -98498,7 +100044,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bidoof",
@@ -98823,7 +100376,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Kricketot",
@@ -99255,7 +100815,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Noche",
+          "rate": "30%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shinx",
@@ -99906,7 +101473,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "18%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Budew",
@@ -100363,7 +101937,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cranidos",
@@ -100749,7 +102330,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shieldon",
@@ -101056,7 +102644,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Burmy",
@@ -101687,7 +103282,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Combee",
@@ -102194,7 +103796,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "pachirisu"
@@ -102360,7 +103969,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Buizel",
@@ -102782,7 +104398,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cherubi",
@@ -103234,7 +104857,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shellos",
@@ -103930,7 +105560,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Drifloon",
@@ -104497,7 +106134,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Buneary",
@@ -105337,7 +106981,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Glameow",
@@ -105689,7 +107340,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Chingling",
@@ -105942,7 +107600,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Stunky",
@@ -106460,7 +108131,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bronzor",
@@ -106967,7 +108645,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bonsly",
@@ -107270,7 +108955,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mime Jr.",
@@ -107435,7 +109127,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Happiny",
@@ -107692,7 +109397,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "chatot"
@@ -107919,7 +109631,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "spiritomb"
@@ -108098,6 +109817,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -108946,7 +110671,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Munchlax",
@@ -109168,7 +110900,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Riolu",
@@ -109763,7 +111502,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Hippopotas",
@@ -110266,7 +112018,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Skorupi",
@@ -110834,7 +112593,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Croagunk",
@@ -111281,7 +113053,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "carnivine"
@@ -111447,7 +113226,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Finneon",
@@ -112082,7 +113868,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Snover",
@@ -118455,7 +120254,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "rotom"
@@ -123846,7 +125652,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Noche",
+          "rate": "24%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Patrat",
@@ -124328,7 +126141,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Lillipup",
@@ -125094,7 +126914,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Purrloin",
@@ -125566,7 +127393,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pansage",
@@ -125868,7 +127702,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pansear",
@@ -126170,7 +128011,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Panpour",
@@ -126522,7 +128370,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Munna",
@@ -126955,7 +128810,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pidove",
@@ -127653,7 +129515,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Blitzle",
@@ -128075,7 +129944,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Roggenrola",
@@ -128822,7 +130698,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Woobat",
@@ -129319,7 +131202,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Drilbur",
@@ -129904,7 +131794,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "audino"
@@ -130100,7 +131997,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Timburr",
@@ -130876,7 +132780,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tympole",
@@ -131660,7 +133571,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "throh"
@@ -131846,7 +133764,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sawk"
@@ -131963,7 +133888,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sewaddle",
@@ -132591,7 +134523,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Venipede",
@@ -133439,7 +135378,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cottonee",
@@ -133976,7 +135922,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Petilil",
@@ -134497,7 +136450,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "basculin"
@@ -134714,7 +136674,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sandile",
@@ -135531,7 +137498,26 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Darumaka",
@@ -136123,7 +138109,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "maractus"
@@ -136310,7 +138303,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Dwebble",
@@ -136818,7 +138818,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Scraggy",
@@ -137336,7 +139349,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sigilyph"
@@ -137532,7 +139552,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Yamask",
@@ -138065,7 +140098,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tirtouga",
@@ -138593,7 +140633,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Archen",
@@ -139080,7 +141127,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Trubbish",
@@ -139592,7 +141646,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Zorua",
@@ -140134,7 +142201,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Minccino",
@@ -140596,7 +142670,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Gothita",
@@ -141412,7 +143493,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Solosis",
@@ -142299,7 +144387,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Ducklett",
@@ -142766,7 +144861,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Vanillite",
@@ -143573,7 +145681,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Deerling",
@@ -144071,7 +146186,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 30
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "7%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "emolga"
@@ -144267,7 +146395,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Karrablast",
@@ -144823,7 +146958,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Foongus",
@@ -145905,7 +148053,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "alomomola"
@@ -146112,7 +148267,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Joltik",
@@ -146600,7 +148768,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Ferroseed",
@@ -147087,7 +149262,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Klink",
@@ -147743,7 +149931,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tynamo",
@@ -148399,7 +150600,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Elgyem",
@@ -148952,7 +151160,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "25%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Litwick",
@@ -149719,7 +151934,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Axew",
@@ -150565,7 +152793,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cubchoo",
@@ -151210,7 +153451,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "cryogonal"
@@ -151396,7 +153650,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shelmet",
@@ -152009,7 +154270,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "stunfisk"
@@ -152225,7 +154493,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mienfoo",
@@ -152747,7 +155022,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "druddigon"
@@ -152994,7 +155276,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Golett",
@@ -153522,7 +155811,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pawniard",
@@ -154061,7 +156357,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "bouffalant"
@@ -154228,7 +156531,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rufflet",
@@ -154725,7 +157035,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Vullaby",
@@ -155342,7 +157659,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "heatmor"
@@ -155569,7 +157893,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "durant"
@@ -155798,6 +158129,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "20%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -156637,7 +158974,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "7%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Larvesta",
@@ -162216,7 +164566,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bunnelby",
@@ -162752,7 +165109,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Fletchling",
@@ -163469,7 +165833,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "25%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Scatterbug",
@@ -164020,7 +166391,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Litleo",
@@ -164448,7 +166826,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Flabébé",
@@ -165074,7 +167459,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Skiddo",
@@ -165546,7 +167938,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pancham",
@@ -166051,7 +168450,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "furfrou"
@@ -166177,7 +168589,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Espurr",
@@ -166711,7 +169130,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Noche",
+          "rate": "25%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Honedge",
@@ -167448,7 +169874,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Spritzee",
@@ -167950,7 +170383,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 25
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Swirlix",
@@ -168443,7 +170883,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Inkay",
@@ -168951,7 +171398,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Binacle",
@@ -170483,7 +172937,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Helioptile",
@@ -170911,7 +173372,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tyrunt",
@@ -171449,7 +173917,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Amaura",
@@ -172408,7 +174883,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "hawlucha"
@@ -172832,7 +175314,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 25
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "carbink"
@@ -173026,6 +175515,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "31%",
           "method": "Surf"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -173952,7 +176447,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 43",
+          "time": "Mañana y Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 43",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "klefki"
@@ -174159,7 +176667,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Phantump",
@@ -174657,7 +177172,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pumpkaboo",
@@ -175194,7 +177716,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bergmite",
@@ -175804,7 +178333,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Noibat",
@@ -180293,7 +182829,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pikipek",
@@ -180545,6 +183088,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -181455,7 +184004,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "25%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Grubbin",
@@ -182249,7 +184805,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Crabrawler",
@@ -182852,7 +185415,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cutiefly",
@@ -183309,7 +185879,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rockruff",
@@ -183982,7 +186559,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mareanie",
@@ -184439,7 +187023,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mudbray",
@@ -184932,7 +187529,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Dewpider",
@@ -185389,7 +187993,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Fomantis",
@@ -185872,7 +188483,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Morelull",
@@ -186340,7 +188958,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Salandit",
@@ -186898,7 +189529,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Stufful",
@@ -188151,7 +190789,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "comfey"
@@ -188338,7 +190983,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "oranguru"
@@ -188581,7 +191233,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 40
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wimpod",
@@ -190608,7 +193267,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "turtonator"
@@ -190805,7 +193471,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "togedemaru"
@@ -190992,7 +193665,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "mimikyu"
@@ -191139,7 +193819,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "bruxish"
@@ -191316,7 +194003,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "drampa"
@@ -191553,7 +194247,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "dhelmise"
@@ -200638,7 +203339,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rookidee",
@@ -201098,7 +203806,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Blipbug",
@@ -202306,7 +205021,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wooloo",
@@ -202628,7 +205350,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Chewtle",
@@ -203315,7 +206044,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rolycoly",
@@ -203790,7 +206526,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Noche",
+          "rate": "24%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Applin",
@@ -204541,7 +207284,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Silicobra",
@@ -205310,7 +208060,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 30
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Toxel",
@@ -205799,7 +208556,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sizzlipede",
@@ -206156,7 +208920,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Clobbopus",
@@ -206518,7 +209289,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sinistea",
@@ -206880,7 +209658,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Hatenna",
@@ -207471,7 +210256,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Impidimp",
@@ -209447,7 +212239,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Milcery",
@@ -209819,7 +212624,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "falinks"
@@ -210032,7 +212850,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Snom",
@@ -210449,7 +213280,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "stonjourner"
@@ -210752,7 +213590,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "indeedee"
@@ -211075,7 +213920,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cufant",
@@ -212076,7 +214928,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Duraludon",
@@ -212183,6 +215042,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "20%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -215629,7 +218494,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "basculegion"
@@ -219190,7 +222062,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nymble",
@@ -219645,7 +222524,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Pawmi",
@@ -220359,7 +223245,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tandemaus",
@@ -220771,7 +223664,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Fidough",
@@ -222644,7 +225544,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Charcadet",
@@ -223727,7 +226634,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 36",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wattrel",
@@ -224134,7 +227054,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Noche",
+          "rate": "12%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Maschiff",
@@ -224567,7 +227494,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Shroodle",
@@ -225413,7 +228347,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Toedscool",
@@ -225996,7 +228937,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 37",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 37",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Capsakid",
@@ -226391,7 +229345,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rellor",
@@ -227229,7 +230190,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tinkatink",
@@ -227896,7 +230864,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Wiglett",
@@ -228289,7 +231264,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "bombirdier"
@@ -228878,7 +231866,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 42",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Varoom",
@@ -229306,7 +232307,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "cyclizar"
@@ -229639,7 +232647,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Glimmet",
@@ -230076,7 +233091,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "25%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Greavard",
@@ -230499,7 +233521,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "flamigo"
@@ -230676,7 +233705,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cetoddle",
@@ -231064,7 +234106,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "veluza"
@@ -235208,6 +238257,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "14%",
           "method": "Cueva"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -245181,7 +248236,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "geodude-alola"
@@ -355551,6 +358613,86 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "Pesca (Caña Vieja)",
           "method": "Pesca"
+        },
+        {
+          "pid": 789,
+          "pokemon": "Crabrawler",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        },
+        {
+          "pid": 90,
+          "pokemon": "Shellder",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        },
+        {
+          "pid": 341,
+          "pokemon": "Corphish",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 339,
+          "pokemon": "Barboach",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 456,
+          "pokemon": "Finneon",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ]
+    },
+    {
+      "name": "Ciudad Orquídea",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 797,
+          "pokemon": "Mareanie",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        },
+        {
+          "pid": 1026,
+          "pokemon": "Veluza",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        },
+        {
+          "pid": 370,
+          "pokemon": "Luvdisc",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 644,
+          "pokemon": "Alomomola",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 952,
+          "pokemon": "Basculegion",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
         }
       ]
     },
@@ -355624,6 +358766,418 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Cueva"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Oscura (Acceso Ruta 31)",
+      "region": "Johto",
+      "x": 53.1,
+      "y": 42.7,
+      "desc": "Laberíntica caverna subterránea que une la Ruta 31 con Ciudad Endrino.",
+      "connections": [
+        "Ruta 31",
+        "Ruta 46",
+        "Ciudad Endrino"
+      ],
+      "encounters": [
+        {
+          "pid": 231,
+          "pokemon": "Phanpy",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 50,
+          "pokemon": "Diglett",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 74,
+          "pokemon": "Geodude",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 574,
+          "pokemon": "Roggenrola",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 331,
+          "pokemon": "Cacnea",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 579,
+          "pokemon": "Drilbur",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 27,
+          "pokemon": "Sandshrew",
+          "time": "Mañana y Día",
+          "rate": "8%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 764,
+          "pokemon": "Noibat",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 52,
+          "pokemon": "Meowth",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 887,
+          "pokemon": "Rolycoly",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 50,
+          "pokemon": "Diglett",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": "74_alola",
+          "pokemon": "Geodude de Alola",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1019,
+          "pokemon": "Glimmet",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 41,
+          "pokemon": "Zubat",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 328,
+          "pokemon": "Trapinch",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 37,
+          "pokemon": "Vulpix",
+          "time": "Noche",
+          "rate": "8%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 52,
+          "pokemon": "Meowth",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Unión",
+      "region": "Johto",
+      "x": 46.2,
+      "y": 72.9,
+      "desc": "Extensa cueva de múltiples niveles que conecta la Ruta 32 con la Ruta 33.",
+      "connections": [
+        "Ruta 32",
+        "Ruta 33",
+        "Ruinas Alfa"
+      ],
+      "encounters": [
+        {
+          "pid": 111,
+          "pokemon": "Rhyhorn",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 422,
+          "pokemon": "Shellos",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 447,
+          "pokemon": "Riolu",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 322,
+          "pokemon": "Numel",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 607,
+          "pokemon": "Dwebble",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 669,
+          "pokemon": "Mienfoo",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 647,
+          "pokemon": "Ferroseed",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 589,
+          "pokemon": "Sawk",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 95,
+          "pokemon": "Onix",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 909,
+          "pokemon": "Impidimp",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 753,
+          "pokemon": "Carbink",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 736,
+          "pokemon": "Inkay",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 425,
+          "pokemon": "Drifloon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 293,
+          "pokemon": "Whismur",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 46,
+          "pokemon": "Paras",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 104,
+          "pokemon": "Cubone",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 588,
+          "pokemon": "Throh",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 123,
+          "pokemon": "Scyther",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Encinar",
+      "region": "Johto",
+      "x": 30.6,
+      "y": 77.1,
+      "desc": "Bosque ancestral y sombrío custodiado por el altar del protector del bosque, Celebi.",
+      "connections": [
+        "Pueblo Azalea",
+        "Ruta 34"
+      ],
+      "encounters": [
+        {
+          "pid": 415,
+          "pokemon": "Combee",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 83,
+          "pokemon": "Farfetch’d",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 77,
+          "pokemon": "Ponyta",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 906,
+          "pokemon": "Hatenna",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 204,
+          "pokemon": "Pineco",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 102,
+          "pokemon": "Exeggcute",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 313,
+          "pokemon": "Volbeat",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 213,
+          "pokemon": "Shuckle",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 214,
+          "pokemon": "Heracross",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 590,
+          "pokemon": "Sewaddle",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 83,
+          "pokemon": "Farfetch’d",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 758,
+          "pokemon": "Phantump",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 760,
+          "pokemon": "Pumpkaboo",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 204,
+          "pokemon": "Pineco",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 114,
+          "pokemon": "Tangela",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 314,
+          "pokemon": "Illumise",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 198,
+          "pokemon": "Murkrow",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 127,
+          "pokemon": "Pinsir",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
         }
       ]
     },
@@ -355907,6 +359461,144 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Monte Mortero",
+      "region": "Johto",
+      "x": 44.4,
+      "y": 31.3,
+      "desc": "Gigantesco complejo cavernoso de tres entradas en la ladera de la Ruta 42.",
+      "connections": [
+        "Ruta 42"
+      ],
+      "encounters": [
+        {
+          "pid": 299,
+          "pokemon": "Nosepass",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 302,
+          "pokemon": "Sableye",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 303,
+          "pokemon": "Mawile",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 304,
+          "pokemon": "Aron",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 606,
+          "pokemon": "Maractus",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 215,
+          "pokemon": "Sneasel",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 109,
+          "pokemon": "Koffing",
+          "time": "Mañana y Día",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 88,
+          "pokemon": "Grimer",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 327,
+          "pokemon": "Spinda",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 904,
+          "pokemon": "Sinistea",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 926,
+          "pokemon": "Indeedee",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 934,
+          "pokemon": "Duraludon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 442,
+          "pokemon": "Spiritomb",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 479,
+          "pokemon": "Rotom",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 215,
+          "pokemon": "Sneasel",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 109,
+          "pokemon": "Koffing",
+          "time": "Noche",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 88,
+          "pokemon": "Grimer",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 327,
+          "pokemon": "Spinda",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
       "name": "Parque Nacional",
       "region": "Johto",
       "x": 35.0,
@@ -356056,6 +359748,724 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "pid": 138,
+          "pokemon": "Omanyte",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 140,
+          "pokemon": "Kabuto",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 345,
+          "pokemon": "Lileep",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 347,
+          "pokemon": "Anorith",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 408,
+          "pokemon": "Cranidos",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 410,
+          "pokemon": "Shieldon",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 614,
+          "pokemon": "Tirtouga",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 616,
+          "pokemon": "Archen",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 746,
+          "pokemon": "Tyrunt",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 748,
+          "pokemon": "Amaura",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 142,
+          "pokemon": "Aerodactyl",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 443,
+          "pokemon": "Gible",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 683,
+          "pokemon": "Deino",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 371,
+          "pokemon": "Bagon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 374,
+          "pokemon": "Beldum",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 246,
+          "pokemon": "Larvitar",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 147,
+          "pokemon": "Dratini",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 754,
+          "pokemon": "Goomy",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 782,
+          "pokemon": "Trumbeak",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 935,
+          "pokemon": "Dreepy",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1046,
+          "pokemon": "Frigibax",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Pozo Slowpoke",
+      "region": "Johto",
+      "x": 39.3,
+      "y": 78.8,
+      "desc": "Caverna kárstica en Pueblo Azalea sagrada para los Slowpoke y fuente de lluvia.",
+      "connections": [
+        "Pueblo Azalea"
+      ],
+      "encounters": [
+        {
+          "pid": 1010,
+          "pokemon": "Wiglett",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 883,
+          "pokemon": "Chewtle",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 54,
+          "pokemon": "Psyduck",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 738,
+          "pokemon": "Binacle",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 585,
+          "pokemon": "Tympole",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 618,
+          "pokemon": "Trubbish",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 672,
+          "pokemon": "Golett",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 762,
+          "pokemon": "Bergmite",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruinas Alfa",
+      "region": "Johto",
+      "x": 41.4,
+      "y": 55.2,
+      "desc": "Místicas ruinas arqueológicas con enigmas sobre los Unown y el origen de Johto.",
+      "connections": [
+        "Ruta 32",
+        "Ruta 36",
+        "Cueva Unión"
+      ],
+      "encounters": [
+        {
+          "pid": 177,
+          "pokemon": "Natu",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 436,
+          "pokemon": "Bronzor",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 627,
+          "pokemon": "Solosis",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 655,
+          "pokemon": "Elgyem",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 727,
+          "pokemon": "Espurr",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 137,
+          "pokemon": "Porygon",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 201,
+          "pokemon": "Unown",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 343,
+          "pokemon": "Baltoy",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 439,
+          "pokemon": "Mime Jr.",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 360,
+          "pokemon": "Wynaut",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 611,
+          "pokemon": "Sigilyph",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 200,
+          "pokemon": "Misdreavus",
+          "time": "Noche",
+          "rate": "40%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 624,
+          "pokemon": "Gothita",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 567,
+          "pokemon": "Munna",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 353,
+          "pokemon": "Shuppet",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 355,
+          "pokemon": "Duskull",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 433,
+          "pokemon": "Chingling",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 96,
+          "pokemon": "Drowzee",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 201,
+          "pokemon": "Unown",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 29",
+      "region": "Johto",
+      "x": 60.1,
+      "y": 71.5,
+      "desc": "Conecta Pueblo Primavera al este con Ciudad Cerezo al oeste.",
+      "connections": [
+        "Pueblo Primavera",
+        "Ciudad Cerezo",
+        "Ruta 46"
+      ],
+      "encounters": [
+        {
+          "pid": 396,
+          "pokemon": "Starly",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 709,
+          "pokemon": "Bunnelby",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 399,
+          "pokemon": "Bidoof",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 19,
+          "pokemon": "Rattata",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 161,
+          "pokemon": "Sentret",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 881,
+          "pokemon": "Wooloo",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 16,
+          "pokemon": "Pidgey",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 431,
+          "pokemon": "Glameow",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 971,
+          "pokemon": "Pawmi",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 263,
+          "pokemon": "Zigzagoon",
+          "time": "Noche",
+          "rate": "40%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 556,
+          "pokemon": "Lillipup",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 19,
+          "pokemon": "Rattata",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 724,
+          "pokemon": "Pancham",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 559,
+          "pokemon": "Purrloin",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 261,
+          "pokemon": "Poochyena",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 163,
+          "pokemon": "Hoothoot",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 30",
+      "region": "Johto",
+      "x": 53.1,
+      "y": 59.4,
+      "desc": "Se extiende hacia el norte desde Ciudad Cerezo hasta la casa del Sr. Pokémon y la Ruta 31.",
+      "connections": [
+        "Ciudad Cerezo",
+        "Ruta 31"
+      ],
+      "encounters": [
+        {
+          "pid": 786,
+          "pokemon": "Grubbin",
+          "time": "Mañana y Día",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 714,
+          "pokemon": "Scatterbug",
+          "time": "Mañana y Día",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 283,
+          "pokemon": "Surskit",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 265,
+          "pokemon": "Wurmple",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 167,
+          "pokemon": "Spinarak",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 165,
+          "pokemon": "Ledyba",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 10,
+          "pokemon": "Caterpie",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 13,
+          "pokemon": "Weedle",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 593,
+          "pokemon": "Venipede",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 48,
+          "pokemon": "Venonat",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 900,
+          "pokemon": "Sizzlipede",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 805,
+          "pokemon": "Morelull",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 874,
+          "pokemon": "Blipbug",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 969,
+          "pokemon": "Nymble",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 451,
+          "pokemon": "Skorupi",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 290,
+          "pokemon": "Nincada",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 31",
+      "region": "Johto",
+      "x": 49.6,
+      "y": 48.3,
+      "desc": "Conecta la Ruta 30 con Ciudad Malvalba y da acceso a la Cueva Oscura.",
+      "connections": [
+        "Ciudad Malvalba",
+        "Cueva Oscura",
+        "Ruta 30"
+      ],
+      "encounters": [
+        {
+          "pid": 569,
+          "pokemon": "Pidove",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 418,
+          "pokemon": "Buizel",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 781,
+          "pokemon": "Pikipek",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 792,
+          "pokemon": "Cutiefly",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 801,
+          "pokemon": "Dewpider",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 976,
+          "pokemon": "Fidough",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 191,
+          "pokemon": "Sunkern",
+          "time": "Mañana y Día",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 554,
+          "pokemon": "Patrat",
+          "time": "Noche",
+          "rate": "24%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 890,
+          "pokemon": "Applin",
+          "time": "Noche",
+          "rate": "24%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 974,
+          "pokemon": "Tandemaus",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 601,
+          "pokemon": "Sandile",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 817,
+          "pokemon": "Wimpod",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 401,
+          "pokemon": "Kricketot",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
         }
       ]
     },
@@ -356084,6 +360494,222 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "Pesca (Caña Vieja)",
           "method": "Pesca"
+        },
+        {
+          "pid": 270,
+          "pokemon": "Lotad",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 187,
+          "pokemon": "Hoppip",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 406,
+          "pokemon": "Budew",
+          "time": "Mañana y Día",
+          "rate": "18%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 179,
+          "pokemon": "Mareep",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 711,
+          "pokemon": "Fletchling",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 280,
+          "pokemon": "Ralts",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 814,
+          "pokemon": "Comfey",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 273,
+          "pokemon": "Seedot",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 998,
+          "pokemon": "Toedscool",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 285,
+          "pokemon": "Shroomish",
+          "time": "Noche",
+          "rate": "18%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 722,
+          "pokemon": "Skiddo",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 871,
+          "pokemon": "Rookidee",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 412,
+          "pokemon": "Burmy",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 222,
+          "pokemon": "Corsola",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 33",
+      "region": "Johto",
+      "x": 42.7,
+      "y": 81.4,
+      "desc": "Corta ruta lluviosa que une la salida de la Cueva Unión con Pueblo Azalea.",
+      "connections": [
+        "Cueva Unión",
+        "Pueblo Azalea"
+      ],
+      "encounters": [
+        {
+          "pid": 216,
+          "pokemon": "Teddiursa",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 794,
+          "pokemon": "Rockruff",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 172,
+          "pokemon": "Pichu",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 561,
+          "pokemon": "Pansage",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 563,
+          "pokemon": "Pansear",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 565,
+          "pokemon": "Panpour",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 239,
+          "pokemon": "Elekid",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 174,
+          "pokemon": "Igglybuff",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 216,
+          "pokemon": "Teddiursa",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 287,
+          "pokemon": "Slakoth",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 994,
+          "pokemon": "Shroodle",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1007,
+          "pokemon": "Tinkatink",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 240,
+          "pokemon": "Magby",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 173,
+          "pokemon": "Cleffa",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 298,
+          "pokemon": "Azurill",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ]
     },
@@ -356139,6 +360765,216 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "Pesca (Caña Vieja)",
           "method": "Pesca"
+        },
+        {
+          "pid": 96,
+          "pokemon": "Drowzee",
+          "time": "Mañana",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 96,
+          "pokemon": "Drowzee",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 96,
+          "pokemon": "Drowzee",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 19,
+          "pokemon": "Rattata",
+          "time": "Mañana",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 19,
+          "pokemon": "Rattata",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 19,
+          "pokemon": "Rattata",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 63,
+          "pokemon": "Abra",
+          "time": "Mañana",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 63,
+          "pokemon": "Abra",
+          "time": "Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 63,
+          "pokemon": "Abra",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 132,
+          "pokemon": "Ditto",
+          "time": "Mañana",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 132,
+          "pokemon": "Ditto",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 132,
+          "pokemon": "Ditto",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 16,
+          "pokemon": "Pidgey",
+          "time": "Mañana",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 16,
+          "pokemon": "Pidgey",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 163,
+          "pokemon": "Hoothoot",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 52,
+          "pokemon": "Meowth",
+          "time": "Mañana",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 52,
+          "pokemon": "Meowth",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 92,
+          "pokemon": "Gastly",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 209,
+          "pokemon": "Snubbull",
+          "time": "Mañana",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 209,
+          "pokemon": "Snubbull",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 228,
+          "pokemon": "Houndour",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 39,
+          "pokemon": "Jigglypuff",
+          "time": "Mañana",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 39,
+          "pokemon": "Jigglypuff",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 198,
+          "pokemon": "Murkrow",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 190,
+          "pokemon": "Aipom",
+          "time": "Mañana",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 190,
+          "pokemon": "Aipom",
+          "time": "Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 167,
+          "pokemon": "Spinarak",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 280,
+          "pokemon": "Ralts",
+          "time": "Mañana",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 280,
+          "pokemon": "Ralts",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 200,
+          "pokemon": "Misdreavus",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ]
     },
@@ -356167,6 +361003,1066 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "Pesca (Caña Vieja)",
           "method": "Pesca"
+        },
+        {
+          "pid": 719,
+          "pokemon": "Flabébé",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 27,
+          "pokemon": "Sandshrew",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 300,
+          "pokemon": "Skitty",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 56,
+          "pokemon": "Mankey",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 427,
+          "pokemon": "Buneary",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 236,
+          "pokemon": "Tyrogue",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 635,
+          "pokemon": "Deerling",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 928,
+          "pokemon": "Cufant",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 630,
+          "pokemon": "Ducklett",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 581,
+          "pokemon": "Audino",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1023,
+          "pokemon": "Flamigo",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 734,
+          "pokemon": "Swirlix",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 732,
+          "pokemon": "Spritzee",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 36",
+      "region": "Johto",
+      "x": 40.4,
+      "y": 48.3,
+      "desc": "Cruce estratégico que conecta Ciudad Malvalba, el Parque Nacional y Ciudad Iris.",
+      "connections": [
+        "Ciudad Malvalba",
+        "Parque Nacional",
+        "Ruta 37",
+        "Ruinas Alfa"
+      ],
+      "encounters": [
+        {
+          "pid": 66,
+          "pokemon": "Machop",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 133,
+          "pokemon": "Eevee",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 228,
+          "pokemon": "Houndour",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 209,
+          "pokemon": "Snubbull",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 316,
+          "pokemon": "Gulpin",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 807,
+          "pokemon": "Salandit",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 918,
+          "pokemon": "Milcery",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 990,
+          "pokemon": "Wattrel",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 311,
+          "pokemon": "Plusle",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 312,
+          "pokemon": "Minun",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 66,
+          "pokemon": "Machop",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 133,
+          "pokemon": "Eevee",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 228,
+          "pokemon": "Houndour",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 209,
+          "pokemon": "Snubbull",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 316,
+          "pokemon": "Gulpin",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 807,
+          "pokemon": "Salandit",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 918,
+          "pokemon": "Milcery",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 990,
+          "pokemon": "Wattrel",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 311,
+          "pokemon": "Plusle",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 312,
+          "pokemon": "Minun",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 37",
+      "region": "Johto",
+      "x": 37.4,
+      "y": 41.7,
+      "desc": "Sendero flanqueado por árboles de bayas que conduce a las puertas de Ciudad Iris.",
+      "connections": [
+        "Ruta 36",
+        "Ciudad Iris"
+      ],
+      "encounters": [
+        {
+          "pid": 645,
+          "pokemon": "Joltik",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 652,
+          "pokemon": "Tynamo",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 640,
+          "pokemon": "Foongus",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1001,
+          "pokemon": "Capsakid",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 453,
+          "pokemon": "Croagunk",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 434,
+          "pokemon": "Stunky",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 333,
+          "pokemon": "Swablu",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 637,
+          "pokemon": "Emolga",
+          "time": "Mañana y Día",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 645,
+          "pokemon": "Joltik",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 652,
+          "pokemon": "Tynamo",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 640,
+          "pokemon": "Foongus",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1001,
+          "pokemon": "Capsakid",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 453,
+          "pokemon": "Croagunk",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 434,
+          "pokemon": "Stunky",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 333,
+          "pokemon": "Swablu",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 637,
+          "pokemon": "Emolga",
+          "time": "Noche",
+          "rate": "7%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 38",
+      "region": "Johto",
+      "x": 31.9,
+      "y": 35.0,
+      "desc": "Vía campestre hacia el oeste desde Ciudad Iris hacia la Granja Mumu.",
+      "connections": [
+        "Ciudad Iris",
+        "Ruta 39"
+      ],
+      "encounters": [
+        {
+          "pid": 278,
+          "pokemon": "Wingull",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 194,
+          "pokemon": "Wooper",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 60,
+          "pokemon": "Poliwag",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 81,
+          "pokemon": "Magnemite",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 100,
+          "pokemon": "Voltorb",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 118,
+          "pokemon": "Goldeen",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 227,
+          "pokemon": "Skarmory",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 211,
+          "pokemon": "Qwilfish",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 206,
+          "pokemon": "Dunsparce",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 577,
+          "pokemon": "Woobat",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 194,
+          "pokemon": "Wooper",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 60,
+          "pokemon": "Poliwag",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 81,
+          "pokemon": "Magnemite",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 100,
+          "pokemon": "Voltorb",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 118,
+          "pokemon": "Goldeen",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 207,
+          "pokemon": "Gligar",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 211,
+          "pokemon": "Qwilfish",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 206,
+          "pokemon": "Dunsparce",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 39",
+      "region": "Johto",
+      "x": 28.0,
+      "y": 40.6,
+      "desc": "Camino rural que bordea la Granja Mumu y desciende hacia Ciudad Olivo.",
+      "connections": [
+        "Ruta 38",
+        "Ciudad Olivo"
+      ],
+      "encounters": [
+        {
+          "pid": 809,
+          "pokemon": "Stufful",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 609,
+          "pokemon": "Scraggy",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 649,
+          "pokemon": "Klink",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 449,
+          "pokemon": "Hippopotas",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 799,
+          "pokemon": "Mudbray",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 726,
+          "pokemon": "Furfrou",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 440,
+          "pokemon": "Happiny",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 241,
+          "pokemon": "Miltank",
+          "time": "Mañana y Día",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 234,
+          "pokemon": "Stantler",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 674,
+          "pokemon": "Pawniard",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 609,
+          "pokemon": "Scraggy",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 649,
+          "pokemon": "Klink",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 449,
+          "pokemon": "Hippopotas",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 799,
+          "pokemon": "Mudbray",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 726,
+          "pokemon": "Furfrou",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 440,
+          "pokemon": "Happiny",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 128,
+          "pokemon": "Tauros",
+          "time": "Noche",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 676,
+          "pokemon": "Bouffalant",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 40",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 170,
+          "pokemon": "Chinchou",
+          "time": "Todo el día",
+          "rate": "65%",
+          "method": "Surf"
+        },
+        {
+          "pid": 318,
+          "pokemon": "Carvanha",
+          "time": "Todo el día",
+          "rate": "34%",
+          "method": "Surf"
+        },
+        {
+          "pid": 369,
+          "pokemon": "Relicanth",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 41",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 223,
+          "pokemon": "Remoraid",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        },
+        {
+          "pid": 320,
+          "pokemon": "Wailmer",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        },
+        {
+          "pid": 72,
+          "pokemon": "Tentacool",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 86,
+          "pokemon": "Seel",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 600,
+          "pokemon": "Basculin",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 42",
+      "region": "Johto",
+      "x": 44.4,
+      "y": 36.5,
+      "desc": "Ruta escarpada que bordea tres accesos al Monte Mortero entre Iris y Caoba.",
+      "connections": [
+        "Ciudad Iris",
+        "Monte Mortero",
+        "Pueblo Caoba"
+      ],
+      "encounters": [
+        {
+          "pid": 441,
+          "pokemon": "Chatot",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 455,
+          "pokemon": "Carnivine",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 309,
+          "pokemon": "Electrike",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 893,
+          "pokemon": "Silicobra",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1015,
+          "pokemon": "Varoom",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 225,
+          "pokemon": "Delibird",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 84,
+          "pokemon": "Doduo",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 235,
+          "pokemon": "Smeargle",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 132,
+          "pokemon": "Ditto",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 751,
+          "pokemon": "Hawlucha",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 827,
+          "pokemon": "Togedemaru",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 831,
+          "pokemon": "Dhelmise",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 108,
+          "pokemon": "Lickitung",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1015,
+          "pokemon": "Varoom",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 225,
+          "pokemon": "Delibird",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 84,
+          "pokemon": "Doduo",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 235,
+          "pokemon": "Smeargle",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 132,
+          "pokemon": "Ditto",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 43",
+      "region": "Johto",
+      "x": 51.5,
+      "y": 27.1,
+      "desc": "Camino septentrional que sube desde Pueblo Caoba hasta las orillas del Lago de la Furia.",
+      "connections": [
+        "Pueblo Caoba",
+        "Lago de la Furia"
+      ],
+      "encounters": [
+        {
+          "pid": 193,
+          "pokemon": "Yanma",
+          "time": "Mañana y Día",
+          "rate": "40%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 203,
+          "pokemon": "Girafarig",
+          "time": "Mañana y Día",
+          "rate": "39%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 757,
+          "pokemon": "Klefki",
+          "time": "Mañana y Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 351,
+          "pokemon": "Castform",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 193,
+          "pokemon": "Yanma",
+          "time": "Noche",
+          "rate": "40%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 203,
+          "pokemon": "Girafarig",
+          "time": "Noche",
+          "rate": "39%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 757,
+          "pokemon": "Klefki",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 351,
+          "pokemon": "Castform",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 46",
+      "region": "Johto",
+      "x": 62.5,
+      "y": 63.5,
+      "desc": "Desfiladero montañoso escalonado que conecta la Ruta 29 con la Ruta 45.",
+      "connections": [
+        "Ruta 29",
+        "Ruta 45",
+        "Cueva Oscura"
+      ],
+      "encounters": [
+        {
+          "pid": 744,
+          "pokemon": "Helioptile",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 276,
+          "pokemon": "Taillow",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 190,
+          "pokemon": "Aipom",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 596,
+          "pokemon": "Cottonee",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 598,
+          "pokemon": "Petilil",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 622,
+          "pokemon": "Minccino",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 420,
+          "pokemon": "Cherubi",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 572,
+          "pokemon": "Blitzle",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 29,
+          "pokemon": "Nidoran♀",
+          "time": "Mañana y Día",
+          "rate": "8%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 417,
+          "pokemon": "Pachirisu",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 403,
+          "pokemon": "Shinx",
+          "time": "Noche",
+          "rate": "30%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 729,
+          "pokemon": "Honedge",
+          "time": "Noche",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 992,
+          "pokemon": "Maschiff",
+          "time": "Noche",
+          "rate": "12%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 23,
+          "pokemon": "Ekans",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 803,
+          "pokemon": "Fomantis",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 32,
+          "pokemon": "Nidoran♂",
+          "time": "Noche",
+          "rate": "8%",
+          "method": "Hierba"
         }
       ]
     },
@@ -356244,6 +362140,146 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "pid": 660,
+          "pokemon": "Axew",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1024,
+          "pokemon": "Cetoddle",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1012,
+          "pokemon": "Bombirdier",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 920,
+          "pokemon": "Falinks",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 632,
+          "pokemon": "Vanillite",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 682,
+          "pokemon": "Durant",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 686,
+          "pokemon": "Larvesta",
+          "time": "Mañana y Día",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 335,
+          "pokemon": "Zangoose",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 677,
+          "pokemon": "Rufflet",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 671,
+          "pokemon": "Druddigon",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 660,
+          "pokemon": "Axew",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1024,
+          "pokemon": "Cetoddle",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1012,
+          "pokemon": "Bombirdier",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 920,
+          "pokemon": "Falinks",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 632,
+          "pokemon": "Vanillite",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 222,
+          "pokemon": "Corsola",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 686,
+          "pokemon": "Larvesta",
+          "time": "Noche",
+          "rate": "7%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 336,
+          "pokemon": "Seviper",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 679,
+          "pokemon": "Vullaby",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 826,
+          "pokemon": "Turtonator",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
         }
       ]
     },
@@ -356319,6 +362355,510 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Treecko",
           "time": "Todo el día",
           "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1017,
+          "pokemon": "Cyclizar",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 357,
+          "pokemon": "Tropius",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 115,
+          "pokemon": "Kangaskhan",
+          "time": "Mañana y Día",
+          "rate": "12%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 668,
+          "pokemon": "Stunfisk",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 352,
+          "pokemon": "Kecleon",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 815,
+          "pokemon": "Oranguru",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 666,
+          "pokemon": "Shelmet",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 902,
+          "pokemon": "Clobbopus",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 924,
+          "pokemon": "Stonjourner",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 359,
+          "pokemon": "Absol",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 829,
+          "pokemon": "Bruxish",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 352,
+          "pokemon": "Kecleon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 830,
+          "pokemon": "Drampa",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 638,
+          "pokemon": "Karrablast",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 115,
+          "pokemon": "Kangaskhan",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta Helada",
+      "region": "Johto",
+      "x": 61.8,
+      "y": 33.4,
+      "desc": "Peligrosa caverna glaciar cubierta de placas resbaladizas entre Caoba y Endrino.",
+      "connections": [
+        "Ruta 44",
+        "Ciudad Endrino"
+      ],
+      "encounters": [
+        {
+          "pid": 361,
+          "pokemon": "Snorunt",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 363,
+          "pokemon": "Spheal",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 663,
+          "pokemon": "Cubchoo",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 220,
+          "pokemon": "Swinub",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 459,
+          "pokemon": "Snover",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 922,
+          "pokemon": "Snom",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 604,
+          "pokemon": "Darumaka",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 238,
+          "pokemon": "Smoochum",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 124,
+          "pokemon": "Jynx",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 665,
+          "pokemon": "Cryogonal",
+          "time": "Mañana y Día",
+          "rate": "2%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 361,
+          "pokemon": "Snorunt",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 363,
+          "pokemon": "Spheal",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 663,
+          "pokemon": "Cubchoo",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 220,
+          "pokemon": "Swinub",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 459,
+          "pokemon": "Snover",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 922,
+          "pokemon": "Snom",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 604,
+          "pokemon": "Darumaka",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 238,
+          "pokemon": "Smoochum",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 124,
+          "pokemon": "Jynx",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 665,
+          "pokemon": "Cryogonal",
+          "time": "Noche",
+          "rate": "2%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Torre Bellsprout",
+      "region": "Johto",
+      "x": 46.2,
+      "y": 41.7,
+      "desc": "Torre milenaria de monjes que veneran a Bellsprout en Ciudad Malvalba.",
+      "connections": [
+        "Ciudad Malvalba"
+      ],
+      "encounters": [
+        {
+          "pid": 43,
+          "pokemon": "Oddish",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 69,
+          "pokemon": "Bellsprout",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 37,
+          "pokemon": "Vulpix",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1003,
+          "pokemon": "Rellor",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 63,
+          "pokemon": "Abra",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 582,
+          "pokemon": "Timburr",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 438,
+          "pokemon": "Bonsly",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 296,
+          "pokemon": "Makuhita",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 604,
+          "pokemon": "Darumaka",
+          "time": "Mañana y Día",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 657,
+          "pokemon": "Litwick",
+          "time": "Noche",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 325,
+          "pokemon": "Spoink",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 92,
+          "pokemon": "Gastly",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 446,
+          "pokemon": "Munchlax",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 63,
+          "pokemon": "Abra",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 307,
+          "pokemon": "Meditite",
+          "time": "Noche",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 828,
+          "pokemon": "Mimikyu",
+          "time": "Noche",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Torre Quemada",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 58,
+          "pokemon": "Growlithe",
+          "time": "Mañana y Día",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 218,
+          "pokemon": "Slugma",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 620,
+          "pokemon": "Zorua",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 717,
+          "pokemon": "Litleo",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 77,
+          "pokemon": "Ponyta",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 612,
+          "pokemon": "Yamask",
+          "time": "Mañana y Día",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 338,
+          "pokemon": "Solrock",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 324,
+          "pokemon": "Torkoal",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 58,
+          "pokemon": "Growlithe",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1021,
+          "pokemon": "Greavard",
+          "time": "Noche",
+          "rate": "25%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 620,
+          "pokemon": "Zorua",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 612,
+          "pokemon": "Yamask",
+          "time": "Noche",
+          "rate": "15%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 898,
+          "pokemon": "Toxel",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 985,
+          "pokemon": "Charcadet",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 337,
+          "pokemon": "Lunatone",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 681,
+          "pokemon": "Heatmor",
+          "time": "Noche",
+          "rate": "5%",
           "method": "Hierba"
         }
       ]
