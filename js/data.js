@@ -1,5 +1,4 @@
-window.CHIRLGOLD_VERSION = "v0.6.0";
-/* Pokémon ChirlGold v0.5.0 - Base de Datos Oficial */
+/* Pokémon ChirlGold v0.9.0 - Base de Datos Oficial */
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -184,7 +183,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "8%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bulbasaur",
@@ -961,7 +967,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "8%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Charmander",
@@ -1731,7 +1744,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "8%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Squirtle",
@@ -2341,14 +2361,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Caterpie",
@@ -2819,14 +2832,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Weedle",
@@ -3344,14 +3350,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pidgey",
@@ -4033,18 +4032,6 @@ window.CHIRLGOLD_DATA = {
           "route": "Ruta 34",
           "time": "Todo el día",
           "rate": "30%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "10%",
           "method": "Hierba"
         }
       ],
@@ -4904,14 +4891,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Ekans",
@@ -6075,20 +6055,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 35",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sandshrew",
@@ -6580,14 +6547,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "8%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Nidoran♀",
@@ -7317,14 +7277,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Nidoran♂",
@@ -8794,20 +8747,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Vulpix",
@@ -9891,14 +9831,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Zubat",
@@ -10398,14 +10331,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Oddish",
@@ -11163,14 +11089,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Paras",
@@ -11578,14 +11497,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Venonat",
@@ -12062,20 +11974,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Diglett",
@@ -12577,20 +12476,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Meowth",
@@ -13122,14 +13008,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Psyduck",
@@ -13631,14 +13510,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Mankey",
@@ -14152,20 +14024,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Growlithe",
@@ -14627,20 +14486,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Poliwag",
@@ -15284,18 +15130,6 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 34",
           "time": "Todo el día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         }
@@ -16095,20 +15929,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Machop",
@@ -16915,14 +16736,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Bellsprout",
@@ -18128,20 +17942,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Geodude",
@@ -18869,20 +18670,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Ponyta",
@@ -19390,20 +19178,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Slowpoke",
@@ -19930,20 +19705,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Magnemite",
@@ -20553,14 +20315,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "farfetchd"
@@ -20747,20 +20502,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Doduo",
@@ -21722,20 +21464,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Grimer",
@@ -22703,14 +22432,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Gastly",
@@ -23568,14 +23290,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Onix",
@@ -23804,12 +23519,6 @@ window.CHIRLGOLD_DATA = {
           "route": "Ruta 34",
           "time": "Todo el día",
           "rate": "50%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "5%",
           "method": "Hierba"
         }
       ],
@@ -24846,20 +24555,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Voltorb",
@@ -25362,14 +25058,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Exeggcute",
@@ -25915,14 +25604,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cubone",
@@ -26631,7 +26313,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonchan",
               "evolves_to": [],
-              "method": "Nivel 20 (Ataque > Defensa)",
+              "method": "Nivel 20 (Ataque < Defensa)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -26644,9 +26326,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonlee",
               "evolves_to": [],
-              "method": "Subir nivel de día con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque > Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             },
             {
@@ -26657,9 +26339,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmontop",
               "evolves_to": [],
-              "method": "Subir nivel de noche con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque = Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             }
           ]
@@ -27067,7 +26749,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonchan",
               "evolves_to": [],
-              "method": "Nivel 20 (Ataque > Defensa)",
+              "method": "Nivel 20 (Ataque < Defensa)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -27080,9 +26762,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonlee",
               "evolves_to": [],
-              "method": "Subir nivel de día con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque > Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             },
             {
@@ -27093,9 +26775,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmontop",
               "evolves_to": [],
-              "method": "Subir nivel de noche con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque = Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             }
           ]
@@ -27295,14 +26977,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Lickitung",
@@ -27514,20 +27189,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Koffing",
@@ -28059,14 +27721,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Rhyhorn",
@@ -28757,9 +28412,9 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de día con Piedra Oval",
+              "method_type": "item",
+              "item": "Piedra Oval",
               "move": null
             }
           ]
@@ -29011,14 +28666,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tangela",
@@ -29290,20 +28938,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "12%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "kangaskhan"
@@ -29983,20 +29618,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Goldeen",
@@ -31287,14 +30909,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Scyther",
@@ -31624,20 +31239,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Smoochum",
@@ -32396,14 +31998,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "pinsir"
@@ -32569,14 +32164,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "6%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "tauros"
@@ -33197,18 +32785,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
         }
       ],
       "family_tree": null,
@@ -33422,18 +32998,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -34918,14 +34482,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Porygon",
@@ -35162,14 +34719,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Omanyte",
@@ -35707,14 +35257,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Kabuto",
@@ -36302,14 +35845,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "aerodactyl"
@@ -37509,15 +37045,27 @@ window.CHIRLGOLD_DATA = {
       "encounters": [
         {
           "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Todo el día",
+          "rate": "65%",
+          "method": "Surf"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
-        },
-        {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -37756,7 +37304,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Dratini",
@@ -38711,7 +38266,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        }
+      ],
       "family_tree": [
         {
           "name": "Chikorita",
@@ -39401,7 +38969,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "6%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cyndaquil",
@@ -40134,7 +39715,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        }
+      ],
       "family_tree": [
         {
           "name": "Totodile",
@@ -40834,14 +40428,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sentret",
@@ -41284,14 +40871,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Hoothoot",
@@ -41689,14 +41269,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Ledyba",
@@ -42144,14 +41717,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Spinarak",
@@ -43464,14 +43030,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pichu",
@@ -43661,14 +43220,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cleffa",
@@ -43845,14 +43397,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Igglybuff",
@@ -44646,14 +44191,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Natu",
@@ -45130,14 +44668,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Mareep",
@@ -47480,14 +47011,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Hoppip",
@@ -48274,14 +47798,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Aipom",
@@ -48493,14 +48010,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sunkern",
@@ -48956,20 +48466,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 43",
-          "time": "Mañana y Día",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 43",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Yanma",
@@ -49174,20 +48671,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wooper",
@@ -50427,14 +49911,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Murkrow",
@@ -50905,14 +50382,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Misdreavus",
@@ -50975,20 +50445,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "unown"
@@ -51355,20 +50812,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 43",
-          "time": "Mañana y Día",
-          "rate": "39%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 43",
-          "time": "Noche",
-          "rate": "39%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Girafarig",
@@ -51562,20 +51006,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pineco",
@@ -52100,20 +51531,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Dunsparce",
@@ -52316,14 +51734,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Gligar",
@@ -52343,16 +51754,16 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "gliscor",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de noche con Colmillagudo",
+              "method_type": "item",
+              "item": "Colmillagudo",
               "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Gliscor (Evolución especial)"
+        "Evoluciona a Gliscor (Subir nivel de noche con Colmillagudo)"
       ],
       "slug": "gligar"
     },
@@ -52880,20 +52291,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Snubbull",
@@ -53439,20 +52837,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 30
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "qwilfish"
@@ -54042,12 +53427,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
-        },
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
         }
       ],
       "family_tree": null,
@@ -54306,14 +53685,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "heracross"
@@ -54460,20 +53832,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sneasel",
@@ -54493,16 +53852,16 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "weavile",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de noche con Garrafilada",
+              "method_type": "item",
+              "item": "Garrafilada",
               "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Weavile (Evolución especial)"
+        "Evoluciona a Weavile (Subir nivel de noche con Garrafilada)"
       ],
       "slug": "sneasel"
     },
@@ -54677,20 +54036,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Teddiursa",
@@ -55154,14 +54500,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Slugma",
@@ -55637,20 +54976,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Swinub",
@@ -56250,20 +55576,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "corsola"
@@ -56802,20 +56115,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "delibird"
@@ -57092,7 +56392,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "mantine",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Con Remoraid en el equipo",
               "method_type": "special",
               "item": null,
               "move": null
@@ -57325,14 +56625,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "skarmory"
@@ -57519,20 +56812,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Houndour",
@@ -58266,14 +57546,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Phanpy",
@@ -58961,14 +58234,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Stantler",
@@ -59121,20 +58387,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 1
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "smeargle"
@@ -59216,12 +58469,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
-        },
-        {
-          "route": "Ruta 35",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -59241,7 +58488,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonchan",
               "evolves_to": [],
-              "method": "Nivel 20 (Ataque > Defensa)",
+              "method": "Nivel 20 (Ataque < Defensa)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -59254,9 +58501,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonlee",
               "evolves_to": [],
-              "method": "Subir nivel de día con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque > Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             },
             {
@@ -59267,18 +58514,18 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmontop",
               "evolves_to": [],
-              "method": "Subir nivel de noche con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque = Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Hitmonchan (Nivel 20 (Ataque > Defensa))",
-        "Evoluciona a Hitmonlee (Subir nivel de día con Antihielo)",
-        "Evoluciona a Hitmontop (Subir nivel de noche con Antihielo)"
+        "Evoluciona a Hitmonchan (Nivel 20 (Ataque < Defensa))",
+        "Evoluciona a Hitmonlee (Nivel 20 (Ataque > Defensa))",
+        "Evoluciona a Hitmontop (Nivel 20 (Ataque = Defensa))"
       ],
       "slug": "tyrogue"
     },
@@ -59651,7 +58898,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonchan",
               "evolves_to": [],
-              "method": "Nivel 20 (Ataque > Defensa)",
+              "method": "Nivel 20 (Ataque < Defensa)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -59664,9 +58911,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmonlee",
               "evolves_to": [],
-              "method": "Subir nivel de día con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque > Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             },
             {
@@ -59677,9 +58924,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "hitmontop",
               "evolves_to": [],
-              "method": "Subir nivel de noche con Antihielo",
-              "method_type": "item",
-              "item": "Antihielo",
+              "method": "Nivel 20 (Ataque = Defensa)",
+              "method_type": "level",
+              "item": null,
               "move": null
             }
           ]
@@ -59890,20 +59137,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Smoochum",
@@ -60107,14 +59341,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Elekid",
@@ -60352,14 +59579,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Magby",
@@ -60608,14 +59828,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "miltank"
@@ -60953,9 +60166,9 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de día con Piedra Oval",
+              "method_type": "item",
+              "item": "Piedra Oval",
               "move": null
             }
           ]
@@ -62004,14 +61217,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Larvitar",
@@ -63539,7 +62745,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Treecko",
@@ -64499,7 +63712,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "6%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Torchic",
@@ -65453,7 +64673,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "6%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mudkip",
@@ -66347,14 +65574,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Poochyena",
@@ -66886,14 +66106,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Zigzagoon",
@@ -67305,14 +66518,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wurmple",
@@ -67345,7 +66551,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque = Defensa)",
+              "method": "Nivel 7 (Personalidad Silcoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67373,7 +66579,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque < Defensa)",
+              "method": "Nivel 7 (Personalidad Cascoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67382,8 +66588,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Silcoon (Nivel 7 (Ataque = Defensa))",
-        "Evoluciona a Cascoon (Nivel 7 (Ataque < Defensa))"
+        "Evoluciona a Silcoon (Nivel 7 (Personalidad Silcoon))",
+        "Evoluciona a Cascoon (Nivel 7 (Personalidad Cascoon))"
       ],
       "slug": "wurmple"
     },
@@ -67461,7 +66667,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque = Defensa)",
+              "method": "Nivel 7 (Personalidad Silcoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67489,7 +66695,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque < Defensa)",
+              "method": "Nivel 7 (Personalidad Cascoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67697,7 +66903,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque = Defensa)",
+              "method": "Nivel 7 (Personalidad Silcoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67725,7 +66931,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque < Defensa)",
+              "method": "Nivel 7 (Personalidad Cascoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67810,7 +67016,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque = Defensa)",
+              "method": "Nivel 7 (Personalidad Silcoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -67838,7 +67044,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque < Defensa)",
+              "method": "Nivel 7 (Personalidad Cascoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -68046,7 +67252,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque = Defensa)",
+              "method": "Nivel 7 (Personalidad Silcoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -68074,7 +67280,7 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Nivel 7 (Ataque < Defensa)",
+              "method": "Nivel 7 (Personalidad Cascoon)",
               "method_type": "level",
               "item": null,
               "move": null
@@ -68267,14 +67473,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Lotad",
@@ -69061,14 +68260,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Seedot",
@@ -69973,14 +69165,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Taillow",
@@ -70408,14 +69593,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wingull",
@@ -71003,14 +70181,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Ralts",
@@ -71053,9 +70224,9 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "gallade",
                   "evolves_to": [],
-                  "method": "Belleza al máximo (o Escama Bella)",
-                  "method_type": "beauty",
-                  "item": "Escama Bella",
+                  "method": "Usar Piedra Alba (Macho)",
+                  "method_type": "item",
+                  "item": "Piedra Alba",
                   "move": null
                 }
               ],
@@ -71367,9 +70538,9 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "gallade",
                   "evolves_to": [],
-                  "method": "Belleza al máximo (o Escama Bella)",
-                  "method_type": "beauty",
-                  "item": "Escama Bella",
+                  "method": "Usar Piedra Alba (Macho)",
+                  "method_type": "item",
+                  "item": "Piedra Alba",
                   "move": null
                 }
               ],
@@ -71383,7 +70554,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "evolutions_text": [
         "Evoluciona a Gardevoir (Nivel 30)",
-        "Evoluciona a Gallade (Belleza al máximo (o Escama Bella))"
+        "Evoluciona a Gallade (Usar Piedra Alba (Macho))"
       ],
       "slug": "kirlia"
     },
@@ -71762,9 +70933,9 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "gallade",
                   "evolves_to": [],
-                  "method": "Belleza al máximo (o Escama Bella)",
-                  "method_type": "beauty",
-                  "item": "Escama Bella",
+                  "method": "Usar Piedra Alba (Macho)",
+                  "method_type": "item",
+                  "item": "Piedra Alba",
                   "move": null
                 }
               ],
@@ -71911,14 +71082,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Surskit",
@@ -72355,14 +71519,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "18%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shroomish",
@@ -72747,14 +71904,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Slakoth",
@@ -73421,14 +72571,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Nincada",
@@ -73448,8 +72591,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "ninjask",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20",
+              "method_type": "level",
               "item": null,
               "move": null
             },
@@ -73462,7 +72605,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "shedinja",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Nivel 20 (Espacio libre en equipo + Poké Ball)",
               "method_type": "special",
               "item": null,
               "move": null
@@ -73471,8 +72614,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Ninjask (Evolución especial)",
-        "Evoluciona a Shedinja (Evolución especial)"
+        "Evoluciona a Ninjask (Nivel 20)",
+        "Evoluciona a Shedinja (Nivel 20 (Espacio libre en equipo + Poké Ball))"
       ],
       "slug": "nincada"
     },
@@ -73788,8 +72931,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "ninjask",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20",
+              "method_type": "level",
               "item": null,
               "move": null
             },
@@ -73802,7 +72945,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "shedinja",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Nivel 20 (Espacio libre en equipo + Poké Ball)",
               "method_type": "special",
               "item": null,
               "move": null
@@ -74065,8 +73208,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "ninjask",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20",
+              "method_type": "level",
               "item": null,
               "move": null
             },
@@ -74079,7 +73222,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "shedinja",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Nivel 20 (Espacio libre en equipo + Poké Ball)",
               "method_type": "special",
               "item": null,
               "move": null
@@ -74251,14 +73394,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Whismur",
@@ -75054,14 +74190,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Makuhita",
@@ -75474,14 +74603,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Azurill",
@@ -75711,14 +74833,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Nosepass",
@@ -75962,14 +75077,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Skitty",
@@ -76325,14 +75433,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sableye"
@@ -76579,14 +75680,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "mawile"
@@ -76793,14 +75887,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Aron",
@@ -77618,14 +76705,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Meditite",
@@ -78122,14 +77202,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Electrike",
@@ -78641,20 +77714,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "plusle"
@@ -78890,20 +77950,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "minun"
@@ -79089,14 +78136,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "volbeat"
@@ -79282,14 +78322,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "illumise"
@@ -79765,20 +78798,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Gulpin",
@@ -81331,14 +80351,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Numel",
@@ -81865,14 +80878,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "torkoal"
@@ -82048,14 +81054,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Spoink",
@@ -82497,20 +81496,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "spinda"
@@ -82736,14 +81722,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Trapinch",
@@ -83747,14 +82726,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cacnea",
@@ -84270,20 +83242,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Swablu",
@@ -84840,14 +83799,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "zangoose"
@@ -85073,14 +84025,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "seviper"
@@ -85317,14 +84262,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "lunatone"
@@ -85551,14 +84489,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "solrock"
@@ -86818,14 +85749,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Baltoy",
@@ -87333,14 +86257,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Lileep",
@@ -87828,14 +86745,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Anorith",
@@ -88188,16 +87098,16 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "milotic",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Belleza al máximo (o Usar Escama Bella)",
+              "method_type": "beauty",
+              "item": "Escama Bella",
               "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Milotic (Evolución especial)",
+        "Evoluciona a Milotic (Belleza al máximo (o Usar Escama Bella))",
         "Evoluciona a Milotic (Usar Escama Bella)"
       ],
       "slug": "feebas"
@@ -88493,9 +87403,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "milotic",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Belleza al máximo (o Usar Escama Bella)",
+              "method_type": "beauty",
+              "item": "Escama Bella",
               "move": null
             }
           ]
@@ -88655,20 +87565,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 43",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 43",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "castform"
@@ -88884,20 +87781,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "kecleon"
@@ -89084,14 +87968,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shuppet",
@@ -89568,14 +88445,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Duskull",
@@ -90148,14 +89018,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "tropius"
@@ -90671,14 +89534,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "absol"
@@ -90824,14 +89680,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wynaut",
@@ -91033,20 +89882,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Snorunt",
@@ -91079,9 +89915,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "froslass",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Usar Piedra Alba (Hembra)",
+              "method_type": "item",
+              "item": "Piedra Alba",
               "move": null
             }
           ]
@@ -91089,7 +89925,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "evolutions_text": [
         "Evoluciona a Glalie (Nivel 42)",
-        "Evoluciona a Froslass (Evolución especial)"
+        "Evoluciona a Froslass (Usar Piedra Alba (Hembra))"
       ],
       "slug": "snorunt"
     },
@@ -91348,9 +90184,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "froslass",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Usar Piedra Alba (Hembra)",
+              "method_type": "item",
+              "item": "Piedra Alba",
               "move": null
             }
           ]
@@ -91581,20 +90417,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Spheal",
@@ -93338,10 +92161,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -94006,10 +92835,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
+          "rate": "11%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -96992,7 +95827,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Turtwig",
@@ -97642,7 +96490,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Chimchar",
@@ -98316,7 +97177,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Piplup",
@@ -98987,14 +97861,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Starly",
@@ -99631,14 +98498,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Bidoof",
@@ -99963,14 +98823,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Kricketot",
@@ -100402,14 +99255,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Noche",
-          "rate": "30%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shinx",
@@ -101060,14 +99906,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "18%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Budew",
@@ -101524,14 +100363,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cranidos",
@@ -101917,14 +100749,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shieldon",
@@ -102231,14 +101056,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Burmy",
@@ -102257,8 +101075,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "wormadam",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             },
@@ -102271,8 +101089,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "mothim",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -102280,8 +101098,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Wormadam (Evolución especial)",
-        "Evoluciona a Mothim (Evolución especial)"
+        "Evoluciona a Wormadam (Nivel 20 (Hembra))",
+        "Evoluciona a Mothim (Nivel 20 (Macho))"
       ],
       "slug": "burmy"
     },
@@ -102516,8 +101334,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "wormadam",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             },
@@ -102530,8 +101348,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "mothim",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -102762,8 +101580,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "wormadam",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             },
@@ -102776,8 +101594,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "mothim",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -102869,14 +101687,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Combee",
@@ -102896,8 +101707,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "vespiquen",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 21 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -102905,7 +101716,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Vespiquen (Evolución especial)"
+        "Evoluciona a Vespiquen (Nivel 21 (Hembra))"
       ],
       "slug": "combee"
     },
@@ -103201,8 +102012,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "vespiquen",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 21 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -103383,14 +102194,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "pachirisu"
@@ -103556,14 +102360,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Buizel",
@@ -103985,14 +102782,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cherubi",
@@ -104444,14 +103234,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shellos",
@@ -105147,14 +103930,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Drifloon",
@@ -105721,14 +104497,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Buneary",
@@ -106568,14 +105337,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Glameow",
@@ -106927,14 +105689,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Chingling",
@@ -107187,20 +105942,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Stunky",
@@ -107718,14 +106460,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Bronzor",
@@ -108232,14 +106967,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Bonsly",
@@ -108542,14 +107270,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Mime Jr.",
@@ -108714,20 +107435,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Happiny",
@@ -108759,16 +107467,16 @@ window.CHIRLGOLD_DATA = {
                   "move": null
                 }
               ],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de día con Piedra Oval",
+              "method_type": "item",
+              "item": "Piedra Oval",
               "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Chansey (Evolución especial)"
+        "Evoluciona a Chansey (Subir nivel de día con Piedra Oval)"
       ],
       "slug": "happiny"
     },
@@ -108984,14 +107692,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "chatot"
@@ -109218,14 +107919,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "spiritomb"
@@ -109394,10 +108088,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
           "rate": "20%",
-          "method": "Hierba"
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -110246,14 +108946,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Munchlax",
@@ -110475,14 +109168,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Riolu",
@@ -111077,20 +109763,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Hippopotas",
@@ -111593,14 +110266,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Skorupi",
@@ -112168,20 +110834,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Croagunk",
@@ -112628,14 +111281,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "carnivine"
@@ -113271,7 +111917,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "mantine",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Con Remoraid en el equipo",
               "method_type": "special",
               "item": null,
               "move": null
@@ -113280,7 +111926,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Mantine (Evolución especial)"
+        "Evoluciona a Mantine (Con Remoraid en el equipo)"
       ],
       "slug": "mantyke"
     },
@@ -113436,20 +112082,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Snover",
@@ -114007,9 +112640,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "weavile",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de noche con Garrafilada",
+              "method_type": "item",
+              "item": "Garrafilada",
               "move": null
             }
           ]
@@ -117432,9 +116065,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "gliscor",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de noche con Colmillagudo",
+              "method_type": "item",
+              "item": "Colmillagudo",
               "move": null
             }
           ]
@@ -118570,9 +117203,9 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "gallade",
                   "evolves_to": [],
-                  "method": "Belleza al máximo (o Escama Bella)",
-                  "method_type": "beauty",
-                  "item": "Escama Bella",
+                  "method": "Usar Piedra Alba (Macho)",
+                  "method_type": "item",
+                  "item": "Piedra Alba",
                   "move": null
                 }
               ],
@@ -119579,9 +118212,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "froslass",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Usar Piedra Alba (Hembra)",
+              "method_type": "item",
+              "item": "Piedra Alba",
               "move": null
             }
           ]
@@ -119822,14 +118455,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "rotom"
@@ -122922,7 +121548,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Snivy",
@@ -123628,7 +122267,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tepig",
@@ -124382,7 +123034,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Oshawott",
@@ -125181,14 +123846,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Noche",
-          "rate": "24%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Patrat",
@@ -125670,14 +124328,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Lillipup",
@@ -126443,14 +125094,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Purrloin",
@@ -126922,14 +125566,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pansage",
@@ -127231,14 +125868,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pansear",
@@ -127540,14 +126170,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Panpour",
@@ -127899,14 +126522,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Munna",
@@ -128339,14 +126955,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pidove",
@@ -128375,8 +126984,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "unfezant",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 32 (Macho)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -128625,8 +127234,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "unfezant",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 32 (Macho)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -128640,8 +127249,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Unfezant (Evolución especial)",
-        "Evoluciona a Unfezant (Evolución especial)"
+        "Evoluciona a Unfezant (Nivel 32 (Macho))",
+        "Evoluciona a Unfezant (Nivel 32 (Hembra))"
       ],
       "slug": "tranquill"
     },
@@ -128876,8 +127485,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "unfezant",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 32 (Macho)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -129044,14 +127653,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Blitzle",
@@ -129473,14 +128075,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Roggenrola",
@@ -130227,14 +128822,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Woobat",
@@ -130731,14 +129319,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Drilbur",
@@ -131323,14 +129904,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "audino"
@@ -131526,14 +130100,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Timburr",
@@ -132309,14 +130876,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tympole",
@@ -133100,14 +131660,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "throh"
@@ -133293,14 +131846,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sawk"
@@ -133417,14 +131963,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sewaddle",
@@ -134052,14 +132591,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Venipede",
@@ -134907,14 +133439,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cottonee",
@@ -135451,14 +133976,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Petilil",
@@ -136196,14 +134714,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sandile",
@@ -137020,14 +135531,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Darumaka",
@@ -137619,14 +136123,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "maractus"
@@ -137813,14 +136310,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Dwebble",
@@ -138328,20 +136818,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Scraggy",
@@ -138859,14 +137336,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sigilyph"
@@ -139062,20 +137532,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Yamask",
@@ -139608,14 +138065,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tirtouga",
@@ -140143,14 +138593,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Archen",
@@ -140637,14 +139080,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Trubbish",
@@ -141156,20 +139592,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Zorua",
@@ -141711,14 +140134,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Minccino",
@@ -142180,14 +140596,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Gothita",
@@ -143003,14 +141412,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Solosis",
@@ -143897,14 +142299,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Ducklett",
@@ -144371,20 +142766,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Vanillite",
@@ -145191,14 +143573,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Deerling",
@@ -145696,20 +144071,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 30
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "emolga"
@@ -145905,14 +144267,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Karrablast",
@@ -146468,20 +144823,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Foongus",
@@ -147770,20 +146112,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Joltik",
@@ -148271,14 +146600,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Ferroseed",
@@ -148765,20 +147087,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Klink",
@@ -149434,20 +147743,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tynamo",
@@ -150103,14 +148399,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Elgyem",
@@ -150663,14 +148952,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Litwick",
@@ -151437,20 +149719,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Axew",
@@ -152296,20 +150565,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cubchoo",
@@ -152954,20 +151210,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "cryogonal"
@@ -153153,14 +151396,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shelmet",
@@ -153773,14 +152009,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "stunfisk"
@@ -153996,14 +152225,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Mienfoo",
@@ -154525,14 +152747,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "druddigon"
@@ -154779,14 +152994,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Golett",
@@ -155314,14 +153522,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pawniard",
@@ -155860,14 +154061,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "bouffalant"
@@ -156034,14 +154228,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Rufflet",
@@ -156538,14 +154725,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Vullaby",
@@ -157162,14 +155342,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "heatmor"
@@ -157396,14 +155569,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "durant"
@@ -157622,10 +155788,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
           "rate": "20%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -158465,20 +156637,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Larvesta",
@@ -161698,7 +159857,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Chespin",
@@ -162458,7 +160630,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Fennekin",
@@ -163218,7 +161403,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Froakie",
@@ -164018,14 +162216,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Bunnelby",
@@ -164561,14 +162752,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Fletchling",
@@ -165285,14 +163469,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Scatterbug",
@@ -165843,14 +164020,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Litleo",
@@ -165870,8 +164040,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "pyroar",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 35 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -165879,8 +164049,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Pyroar (Evolución especial)",
-        "Evoluciona a Pyroar (Evolución especial)"
+        "Evoluciona a Pyroar (Nivel 35 (Macho))",
+        "Evoluciona a Pyroar (Nivel 35 (Hembra))"
       ],
       "slug": "litleo"
     },
@@ -166106,8 +164276,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "pyroar",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 35 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -166904,14 +165074,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Skiddo",
@@ -167383,14 +165546,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pancham",
@@ -167409,7 +165565,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "pangoro",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Nivel 32 (con Pokémon de tipo Siniestro en el equipo)",
               "method_type": "special",
               "item": null,
               "move": null
@@ -167418,7 +165574,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Pangoro (Evolución especial)"
+        "Evoluciona a Pangoro (Nivel 32 (con Pokémon de tipo Siniestro en el equipo))"
       ],
       "slug": "pancham"
     },
@@ -167733,7 +165889,7 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "pangoro",
               "evolves_to": [],
-              "method": "Evolución especial",
+              "method": "Nivel 32 (con Pokémon de tipo Siniestro en el equipo)",
               "method_type": "special",
               "item": null,
               "move": null
@@ -167895,20 +166051,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "furfrou"
@@ -168034,14 +166177,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruinas Alfa",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Espurr",
@@ -168059,8 +166195,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "meowstic",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 25 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -168068,8 +166204,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Meowstic (Evolución especial)",
-        "Evoluciona a Meowstic (Evolución especial)"
+        "Evoluciona a Meowstic (Nivel 25 (Macho))",
+        "Evoluciona a Meowstic (Nivel 25 (Hembra))"
       ],
       "slug": "espurr"
     },
@@ -168372,8 +166508,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "meowstic",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 25 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -168575,14 +166711,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Honedge",
@@ -169319,14 +167448,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Spritzee",
@@ -169828,14 +167950,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 25
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Swirlix",
@@ -170328,14 +168443,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Inkay",
@@ -170843,14 +168951,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Binacle",
@@ -172382,14 +170483,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Helioptile",
@@ -172817,14 +170911,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tyrunt",
@@ -172844,8 +170931,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "tyrantrum",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 39 (Día)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -172853,7 +170940,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Tyrantrum (Evolución especial)"
+        "Evoluciona a Tyrantrum (Nivel 39 (Día))"
       ],
       "slug": "tyrunt"
     },
@@ -173139,8 +171226,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "tyrantrum",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 39 (Día)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -173362,14 +171449,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Parque Nacional",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Amaura",
@@ -174328,14 +172408,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "hawlucha"
@@ -174759,14 +172832,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 25
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "carbink"
@@ -174944,10 +173010,22 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
           "rate": "5%",
-          "method": "Hierba"
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Todo el día",
+          "rate": "31%",
+          "method": "Surf"
         }
       ],
       "family_tree": [
@@ -175874,20 +173952,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 43",
-          "time": "Mañana y Día",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 43",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "klefki"
@@ -176094,14 +174159,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Phantump",
@@ -176599,14 +174657,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pumpkaboo",
@@ -177143,14 +175194,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Bergmite",
@@ -177760,14 +175804,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Noibat",
@@ -179806,7 +177843,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Rowlet",
@@ -180706,7 +178756,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Litten",
@@ -181506,7 +179569,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Popplio",
@@ -182217,14 +180293,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pikipek",
@@ -182466,10 +180535,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
           "rate": "5%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -182986,8 +181061,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "gumshoos",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Día)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -182995,7 +181070,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Gumshoos (Evolución especial)"
+        "Evoluciona a Gumshoos (Nivel 20 (Día))"
       ],
       "slug": "yungoos"
     },
@@ -183228,8 +181303,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "gumshoos",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 20 (Día)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -183380,14 +181455,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Grubbin",
@@ -184784,14 +182852,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cutiefly",
@@ -185248,14 +183309,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Rockruff",
@@ -186385,20 +184439,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 39",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Mudbray",
@@ -186891,14 +184932,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Dewpider",
@@ -187355,14 +185389,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Fomantis",
@@ -187380,8 +185407,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "lurantis",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 34 (Día)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -187389,7 +185416,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Lurantis (Evolución especial)"
+        "Evoluciona a Lurantis (Nivel 34 (Día))"
       ],
       "slug": "fomantis"
     },
@@ -187652,8 +185679,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "lurantis",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 34 (Día)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -187845,14 +185872,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Morelull",
@@ -188320,20 +186340,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Salandit",
@@ -188353,8 +186360,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "salazzle",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 33 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -188362,7 +186369,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Salazzle (Evolución especial)"
+        "Evoluciona a Salazzle (Nivel 33 (Hembra))"
       ],
       "slug": "salandit"
     },
@@ -188708,8 +186715,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "salazzle",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 33 (Hembra)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -188891,14 +186898,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 39",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Stufful",
@@ -190151,14 +188151,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "comfey"
@@ -190345,14 +188338,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "oranguru"
@@ -190595,14 +188581,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 40
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wimpod",
@@ -192629,14 +190608,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "turtonator"
@@ -192833,14 +190805,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "togedemaru"
@@ -193027,14 +190992,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Noche",
-          "rate": "6%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "mimikyu"
@@ -193181,14 +191139,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "bruxish"
@@ -193365,14 +191316,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "drampa"
@@ -193609,14 +191553,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "dhelmise"
@@ -195661,8 +193598,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "solgaleo",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Día)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 },
@@ -195675,8 +193612,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "lunala",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Noche)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -195772,8 +193709,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "solgaleo",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Día)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 },
@@ -195786,8 +193723,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "lunala",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Noche)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -195801,8 +193738,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Solgaleo (Evolución especial)",
-        "Evoluciona a Lunala (Evolución especial)"
+        "Evoluciona a Solgaleo (Nivel 53 (Día))",
+        "Evoluciona a Lunala (Nivel 53 (Noche))"
       ],
       "slug": "cosmoem"
     },
@@ -196055,8 +193992,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "solgaleo",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Día)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 },
@@ -196069,8 +194006,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "lunala",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Noche)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -196315,8 +194252,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "solgaleo",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Día)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 },
@@ -196329,8 +194266,8 @@ window.CHIRLGOLD_DATA = {
                   ],
                   "slug": "lunala",
                   "evolves_to": [],
-                  "method": "Evolución especial",
-                  "method_type": "special",
+                  "method": "Nivel 53 (Noche)",
+                  "method_type": "level",
                   "item": null,
                   "move": null
                 }
@@ -200592,7 +198529,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Grookey",
@@ -201178,7 +199128,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Scorbunny",
@@ -201734,7 +199697,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sobble",
@@ -202662,14 +200638,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Rookidee",
@@ -203129,14 +201098,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Blipbug",
@@ -204344,14 +202306,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wooloo",
@@ -204673,14 +202628,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Chewtle",
@@ -205367,14 +203315,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Rolycoly",
@@ -205849,14 +203790,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Noche",
-          "rate": "24%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Applin",
@@ -206607,14 +204541,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Silicobra",
@@ -207383,14 +205310,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 30
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Toxel",
@@ -207410,8 +205330,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "toxtricity",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 30 (Naturaleza Activa)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -207419,8 +205339,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Toxtricity (Evolución especial)",
-        "Evoluciona a Toxtricity (Evolución especial)"
+        "Evoluciona a Toxtricity (Nivel 30 (Naturaleza Activa))",
+        "Evoluciona a Toxtricity (Nivel 30 (Naturaleza Pasiva))"
       ],
       "slug": "toxel"
     },
@@ -207716,8 +205636,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "toxtricity",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 30 (Naturaleza Activa)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -207879,14 +205799,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sizzlipede",
@@ -208243,14 +206156,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Clobbopus",
@@ -208612,14 +206518,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Sinistea",
@@ -208981,14 +206880,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Encinar",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Hatenna",
@@ -209579,14 +207471,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Unión",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Impidimp",
@@ -211562,20 +209447,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Milcery",
@@ -211947,20 +209819,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "falinks"
@@ -212173,20 +210032,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta Helada",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta Helada",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Snom",
@@ -212603,14 +210449,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "stonjourner"
@@ -212913,14 +210752,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "indeedee"
@@ -213243,14 +211075,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cufant",
@@ -214251,14 +212076,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Monte Mortero",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Duraludon",
@@ -214355,10 +212173,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
           "rate": "5%",
-          "method": "Hierba"
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -218542,7 +216366,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 48",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sprigatito",
@@ -219212,7 +217049,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Acantilado",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Fuecoco",
@@ -219862,7 +217712,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Quaxly",
@@ -220560,8 +218423,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "oinkologne",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 18 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -220569,8 +218432,8 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Oinkologne (Evolución especial)",
-        "Evoluciona a Oinkologne (Evolución especial)"
+        "Evoluciona a Oinkologne (Nivel 18 (Macho))",
+        "Evoluciona a Oinkologne (Nivel 18 (Hembra))"
       ],
       "slug": "lechonk"
     },
@@ -220763,8 +218626,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "oinkologne",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 18 (Macho)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -221327,14 +219190,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 30",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Nymble",
@@ -221789,14 +219645,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 29",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Pawmi",
@@ -222510,14 +220359,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tandemaus",
@@ -222929,14 +220771,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 31",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Fidough",
@@ -224809,14 +222644,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Charcadet",
@@ -225899,20 +223727,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 36",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 36",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wattrel",
@@ -226319,14 +224134,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Noche",
-          "rate": "12%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Maschiff",
@@ -226759,14 +224567,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Shroodle",
@@ -227612,14 +225413,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Toedscool",
@@ -228202,20 +225996,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Capsakid",
@@ -228610,14 +226391,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Torre Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Rellor",
@@ -229455,14 +227229,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 33",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Tinkatink",
@@ -230129,14 +227896,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Pozo Slowpoke",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Wiglett",
@@ -230529,20 +228289,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "bombirdier"
@@ -231131,20 +228878,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 42",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 42",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Varoom",
@@ -231572,14 +229306,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 48",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "cyclizar"
@@ -231912,14 +229639,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Glimmet",
@@ -232356,14 +230076,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 37",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Greavard",
@@ -232381,8 +230094,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "houndstone",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 30 (Noche)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -232390,7 +230103,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Houndstone (Evolución especial)"
+        "Evoluciona a Houndstone (Nivel 30 (Noche))"
       ],
       "slug": "greavard"
     },
@@ -232603,8 +230316,8 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "houndstone",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
+              "method": "Nivel 30 (Noche)",
+              "method_type": "level",
               "item": null,
               "move": null
             }
@@ -232786,14 +230499,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "flamigo"
@@ -232970,20 +230676,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 47",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 47",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Cetoddle",
@@ -237505,10 +235198,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche (Pseudolegendarios)",
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Mañana y Día",
           "rate": "5%",
-          "method": "Hierba"
+          "method": "Cueva"
+        },
+        {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Cueva"
         }
       ],
       "family_tree": [
@@ -238066,16 +235765,16 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "gholdengo",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de día con Mon. Amuleto",
+              "method_type": "item",
+              "item": "Mon. Amuleto",
               "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Gholdengo (Evolución especial)"
+        "Evoluciona a Gholdengo (Subir nivel de día con Mon. Amuleto)"
       ],
       "slug": "gimmighoul"
     },
@@ -238240,9 +235939,9 @@ window.CHIRLGOLD_DATA = {
               ],
               "slug": "gholdengo",
               "evolves_to": [],
-              "method": "Evolución especial",
-              "method_type": "special",
-              "item": null,
+              "method": "Subir nivel de día con Mon. Amuleto",
+              "method_type": "item",
+              "item": "Mon. Amuleto",
               "move": null
             }
           ]
@@ -324205,7 +321904,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario se afila las garras para aumentar su Ataque y Precisión.",
+      "desc": "-----",
       "learned_by": []
     },
     {
@@ -324216,7 +321915,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+      "desc": "-----",
       "learned_by": []
     },
     {
@@ -324227,7 +321926,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con l...",
+      "desc": "-----",
       "learned_by": []
     },
     {
@@ -324238,7 +321937,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con lo...",
+      "desc": "El usuario se afila las garras para aumentar su Ataque y Precisión.",
       "learned_by": [
         {
           "pid": 215,
@@ -324485,7 +322184,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los...",
+      "desc": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
       "learned_by": [
         {
           "pid": 68,
@@ -324657,7 +322356,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Crea una onda psíquica que causa daño físico al objetivo.",
+      "desc": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con l...",
       "learned_by": [
         {
           "pid": 213,
@@ -324744,7 +322443,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Cubre al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+      "desc": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con lo...",
       "learned_by": [
         {
           "pid": 213,
@@ -324816,7 +322515,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar...",
+      "desc": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los...",
       "learned_by": [
         {
           "pid": 54,
@@ -324888,7 +322587,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+      "desc": "Crea una onda psíquica que causa daño físico al objetivo.",
       "learned_by": [
         {
           "pid": 64,
@@ -325020,7 +322719,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Cubre al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
       "learned_by": [
         {
           "pid": 15,
@@ -325162,7 +322861,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Crea un espacio misterioso que inutiliza todos los objetos de los Pokémon durante cinco...",
+      "desc": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar...",
       "learned_by": [
         {
           "pid": 205,
@@ -325264,7 +322963,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el...",
+      "desc": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
       "learned_by": [
         {
           "pid": 12,
@@ -325336,7 +323035,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Lanza un golpe devastador. Siempre asesta un golpe crítico.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 64,
@@ -325383,7 +323082,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Crea un espacio misterioso que inutiliza todos los objetos de los Pokémon durante cinco...",
       "learned_by": [
         {
           "pid": 337,
@@ -325435,7 +323134,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+      "desc": "Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el...",
       "learned_by": [
         {
           "pid": 74,
@@ -325622,7 +323321,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad.",
+      "desc": "Lanza un golpe devastador. Siempre asesta un golpe crítico.",
       "learned_by": [
         {
           "pid": 127,
@@ -325644,7 +323343,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del o...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 4,
@@ -325771,7 +323470,7 @@ window.CHIRLGOLD_DATA = {
       "power": 95,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
       "learned_by": [
         {
           "pid": 72,
@@ -325828,7 +323527,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del...",
+      "desc": "Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad.",
       "learned_by": [
         {
           "pid": 12,
@@ -325915,7 +323614,7 @@ window.CHIRLGOLD_DATA = {
       "power": 1,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Potente lluvia que transforma al objetivo en un Pokémon de tipo Agua.",
+      "desc": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del o...",
       "learned_by": [
         {
           "pid": 76,
@@ -326092,7 +323791,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 96,
@@ -326174,7 +323873,7 @@ window.CHIRLGOLD_DATA = {
       "power": 1,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario se concentra, lo que le permite aumentar su Ataque, Defensa y Precisión.",
+      "desc": "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del...",
       "learned_by": [
         {
           "pid": 25,
@@ -326306,7 +324005,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+      "desc": "Potente lluvia que transforma al objetivo en un Pokémon de tipo Agua.",
       "learned_by": [
         {
           "pid": 54,
@@ -326438,7 +324137,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo.",
+      "desc": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
       "learned_by": [
         {
           "pid": 77,
@@ -326620,7 +324319,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo...",
+      "desc": "El usuario se concentra, lo que le permite aumentar su Ataque, Defensa y Precisión.",
       "learned_by": [
         {
           "pid": 23,
@@ -326727,7 +324426,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+      "desc": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
       "learned_by": [
         {
           "pid": 66,
@@ -326789,7 +324488,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Una extraña danza que hace que el usuario y el objetivo tengan la misma habilidad.",
+      "desc": "Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo.",
       "learned_by": [
         {
           "pid": 23,
@@ -326921,7 +324620,7 @@ window.CHIRLGOLD_DATA = {
       "power": 95,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras...",
+      "desc": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo...",
       "learned_by": [
         {
           "pid": 198,
@@ -327048,7 +324747,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+      "desc": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
       "learned_by": [
         {
           "pid": 381,
@@ -327095,7 +324794,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+      "desc": "Una extraña danza que hace que el usuario y el objetivo tengan la misma habilidad.",
       "learned_by": [
         {
           "pid": 311,
@@ -327207,7 +324906,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras...",
       "learned_by": [
         {
           "pid": 35,
@@ -327314,7 +325013,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+      "desc": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
       "learned_by": [
         {
           "pid": 39,
@@ -327426,7 +325125,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el...",
+      "desc": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
       "learned_by": [
         {
           "pid": 39,
@@ -327593,7 +325292,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Se protege a sí mismo y a sus aliados de movimientos con prioridad.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 31,
@@ -327745,7 +325444,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terren...",
+      "desc": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
       "learned_by": [
         {
           "pid": 109,
@@ -327847,7 +325546,7 @@ window.CHIRLGOLD_DATA = {
       "power": 20,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+      "desc": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el...",
       "learned_by": [
         {
           "pid": 35,
@@ -327944,7 +325643,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataqu...",
+      "desc": "Se protege a sí mismo y a sus aliados de movimientos con prioridad.",
       "learned_by": [
         {
           "pid": 41,
@@ -328121,7 +325820,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+      "desc": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terren...",
       "learned_by": [
         {
           "pid": 64,
@@ -328193,7 +325892,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+      "desc": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
       "learned_by": [
         {
           "pid": 126,
@@ -328230,7 +325929,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataqu...",
       "learned_by": [
         {
           "pid": 7,
@@ -328347,7 +326046,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Al hacer girar los engranajes, el usuario mejora su Ataque y aumenta mucho su Veloc...",
+      "desc": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
       "learned_by": [
         {
           "pid": 79,
@@ -328474,7 +326173,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el comb...",
+      "desc": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
       "learned_by": [
         {
           "pid": 37,
@@ -328681,7 +326380,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se qu...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 142,
@@ -328703,7 +326402,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Consigue que el objetivo sea el último en moverse.",
+      "desc": "Al hacer girar los engranajes, el usuario mejora su Ataque y aumenta mucho su Veloc...",
       "learned_by": [
         {
           "pid": 649,
@@ -328750,7 +326449,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañ...",
+      "desc": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el comb...",
       "learned_by": [
         {
           "pid": 62,
@@ -328792,7 +326491,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+      "desc": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se qu...",
       "learned_by": [
         {
           "pid": 37,
@@ -328944,7 +326643,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Venga a los amigos caídos. Si en el turno anterior han derrotado a alguno, la potencia de...",
+      "desc": "Consigue que el objetivo sea el último en moverse.",
       "learned_by": [
         {
           "pid": 198,
@@ -328981,7 +326680,7 @@ window.CHIRLGOLD_DATA = {
       "power": 55,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+      "desc": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañ...",
       "learned_by": [
         {
           "pid": 83,
@@ -329138,7 +326837,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
       "learned_by": [
         {
           "pid": 73,
@@ -329180,7 +326879,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+      "desc": "Venga a los amigos caídos. Si en el turno anterior han derrotado a alguno, la potencia de...",
       "learned_by": [
         {
           "pid": 58,
@@ -329302,7 +327001,7 @@ window.CHIRLGOLD_DATA = {
       "power": 1,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Ataca con columnas de agua. Combinado con Voto Fuego, crea un arcoíris y aumenta su potencia.",
+      "desc": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
       "learned_by": [
         {
           "pid": 56,
@@ -329384,7 +327083,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Ataca con columnas de fuego. Combinado con Voto Planta, crea un mar de llamas y aumenta su po...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 35,
@@ -329451,7 +327150,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 50,
       "pp": 5,
-      "desc": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+      "desc": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
       "learned_by": [
         {
           "pid": 4,
@@ -329563,7 +327262,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Tras atacar, el usuario vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+      "desc": "Ataca con columnas de agua. Combinado con Voto Fuego, crea un arcoíris y aumenta su potencia.",
       "learned_by": []
     },
     {
@@ -329574,7 +327273,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+      "desc": "Ataca con columnas de fuego. Combinado con Voto Planta, crea un mar de llamas y aumenta su po...",
       "learned_by": []
     },
     {
@@ -329585,7 +327284,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velo...",
+      "desc": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
       "learned_by": []
     },
     {
@@ -329596,7 +327295,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+      "desc": "Tras atacar, el usuario vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
       "learned_by": [
         {
           "pid": 403,
@@ -329668,7 +327367,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el comb...",
+      "desc": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
       "learned_by": [
         {
           "pid": 213,
@@ -329825,7 +327524,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Quien lo usa se concentra y potencia su Ataque y su Ataque Especial.",
+      "desc": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velo...",
       "learned_by": [
         {
           "pid": 27,
@@ -330052,7 +327751,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velo...",
+      "desc": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
       "learned_by": [
         {
           "pid": 361,
@@ -330089,7 +327788,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+      "desc": "Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el comb...",
       "learned_by": [
         {
           "pid": 147,
@@ -330226,7 +327925,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 30,
-      "desc": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+      "desc": "Quien lo usa se concentra y potencia su Ataque y su Ataque Especial.",
       "learned_by": [
         {
           "pid": 128,
@@ -330403,7 +328102,7 @@ window.CHIRLGOLD_DATA = {
       "power": 55,
       "accuracy": 95,
       "pp": 15,
-      "desc": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+      "desc": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velo...",
       "learned_by": [
         {
           "pid": 645,
@@ -330430,7 +328129,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
       "learned_by": [
         {
           "pid": 25,
@@ -330552,7 +328251,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 95,
       "pp": 10,
-      "desc": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al obje...",
+      "desc": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
       "learned_by": [
         {
           "pid": 22,
@@ -330609,7 +328308,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 90,
       "pp": 15,
-      "desc": "El usuario ataca con una espada, ignorando cualquier cambio en las características del ob...",
+      "desc": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
       "learned_by": [
         {
           "pid": 66,
@@ -330676,7 +328375,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 25,
-      "desc": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 124,
@@ -330713,7 +328412,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca con su cuerpo ardiente. Cuanto mayor sea su peso comparado con el del o...",
+      "desc": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al obje...",
       "learned_by": [
         {
           "pid": 636,
@@ -330765,7 +328464,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Tritura con afiladas hojas y puede bajar la Precisión del objetivo.",
+      "desc": "El usuario ataca con una espada, ignorando cualquier cambio en las características del ob...",
       "learned_by": [
         {
           "pid": 688,
@@ -330842,7 +328541,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 95,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
       "learned_by": [
         {
           "pid": 90,
@@ -330919,7 +328618,7 @@ window.CHIRLGOLD_DATA = {
       "power": 1,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa.",
+      "desc": "El usuario ataca con su cuerpo ardiente. Cuanto mayor sea su peso comparado con el del o...",
       "learned_by": [
         {
           "pid": 548,
@@ -330961,7 +328660,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+      "desc": "Tritura con afiladas hojas y puede bajar la Precisión del objetivo.",
       "learned_by": [
         {
           "pid": 71,
@@ -331018,7 +328717,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Crea una onda psíquica que causa daño físico al objetivo.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 76,
@@ -331055,7 +328754,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Golpea con la cola de dos a cinco veces seguidas.",
+      "desc": "Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa.",
       "learned_by": [
         {
           "pid": 179,
@@ -331137,7 +328836,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 95,
       "pp": 10,
-      "desc": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+      "desc": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
       "learned_by": [
         {
           "pid": 620,
@@ -331164,7 +328863,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+      "desc": "Crea una onda psíquica que causa daño físico al objetivo.",
       "learned_by": [
         {
           "pid": 150,
@@ -331181,7 +328880,7 @@ window.CHIRLGOLD_DATA = {
       "power": 25,
       "accuracy": 85,
       "pp": 10,
-      "desc": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+      "desc": "Golpea con la cola de dos a cinco veces seguidas.",
       "learned_by": [
         {
           "pid": 622,
@@ -331218,7 +328917,7 @@ window.CHIRLGOLD_DATA = {
       "power": 110,
       "accuracy": 70,
       "pp": 10,
-      "desc": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+      "desc": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
       "learned_by": [
         {
           "pid": 16,
@@ -331355,7 +329054,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataca al objetivo con un gran láser. El tipo del ataque lo determina el cartucho que porta el...",
+      "desc": "Propina un tremendo cabezazo. También daña al usuario un poco.",
       "learned_by": [
         {
           "pid": 676,
@@ -331372,7 +329071,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 85,
       "pp": 15,
-      "desc": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+      "desc": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
       "learned_by": [
         {
           "pid": 649,
@@ -331399,7 +329098,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Ensarta al objetivo con un largo cuerno dotado de un poder místico que provoca daño físico.",
+      "desc": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
       "learned_by": [
         {
           "pid": 544,
@@ -331416,7 +329115,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Ataque con aire helado que baja la Velocidad del objetivo.",
+      "desc": "Ataca al objetivo con un gran láser. El tipo del ataque lo determina el cartucho que porta el...",
       "learned_by": [
         {
           "pid": 699,
@@ -331433,7 +329132,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede parali...",
+      "desc": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
       "learned_by": []
     },
     {
@@ -331444,7 +329143,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+      "desc": "Ensarta al objetivo con un largo cuerno dotado de un poder místico que provoca daño físico.",
       "learned_by": [
         {
           "pid": 697,
@@ -331461,7 +329160,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 95,
       "pp": 10,
-      "desc": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+      "desc": "Ataque con aire helado que baja la Velocidad del objetivo.",
       "learned_by": [
         {
           "pid": 696,
@@ -331478,7 +329177,7 @@ window.CHIRLGOLD_DATA = {
       "power": 130,
       "accuracy": 85,
       "pp": 5,
-      "desc": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él e...",
+      "desc": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede parali...",
       "learned_by": [
         {
           "pid": 694,
@@ -331495,7 +329194,7 @@ window.CHIRLGOLD_DATA = {
       "power": 130,
       "accuracy": 85,
       "pp": 5,
-      "desc": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+      "desc": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
       "learned_by": [
         {
           "pid": 693,
@@ -331512,7 +329211,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Chillido desagradable que baja el Ataque Especial del rival.",
+      "desc": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
       "learned_by": [
         {
           "pid": 687,
@@ -331534,7 +329233,7 @@ window.CHIRLGOLD_DATA = {
       "power": 140,
       "accuracy": 90,
       "pp": 5,
-      "desc": "Lanza grandes carámbanos. Puede amedrentar al objetivo.",
+      "desc": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él e...",
       "learned_by": []
     },
     {
@@ -331545,7 +329244,7 @@ window.CHIRLGOLD_DATA = {
       "power": 140,
       "accuracy": 90,
       "pp": 5,
-      "desc": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocida...",
+      "desc": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
       "learned_by": []
     },
     {
@@ -331556,7 +329255,7 @@ window.CHIRLGOLD_DATA = {
       "power": 55,
       "accuracy": 95,
       "pp": 15,
-      "desc": "Ataca con una llamarada gigantesca. Aumenta su potencia si es influenciada por una g...",
+      "desc": "Chillido desagradable que baja el Ataque Especial del rival.",
       "learned_by": [
         {
           "pid": 197,
@@ -331633,7 +329332,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una g...",
+      "desc": "Lanza grandes carámbanos. Puede amedrentar al objetivo.",
       "learned_by": [
         {
           "pid": 91,
@@ -331695,7 +329394,7 @@ window.CHIRLGOLD_DATA = {
       "power": 180,
       "accuracy": 95,
       "pp": 5,
-      "desc": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Vola...",
+      "desc": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocida...",
       "learned_by": [
         {
           "pid": 544,
@@ -331712,7 +329411,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario usa un tatami para escudarse de los ataques enemigos. Protege también a los aliados....",
+      "desc": "Ataca con una llamarada gigantesca. Aumenta su potencia si es influenciada por una g...",
       "learned_by": [
         {
           "pid": 693,
@@ -331729,7 +329428,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimien...",
+      "desc": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una g...",
       "learned_by": [
         {
           "pid": 694,
@@ -331746,7 +329445,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 95,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Vola...",
       "learned_by": [
         {
           "pid": 751,
@@ -331763,7 +329462,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier...",
+      "desc": "El usuario usa un tatami para escudarse de los ataques enemigos. Protege también a los aliados....",
       "learned_by": [
         {
           "pid": 588,
@@ -331785,7 +329484,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque de...",
+      "desc": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimien...",
       "learned_by": [
         {
           "pid": 23,
@@ -331922,7 +329621,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acert...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 51,
@@ -331984,7 +329683,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Invita al objetivo a celebrar Halloween, lo que añade el tipo Fantasma a los tipos d...",
+      "desc": "Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier...",
       "learned_by": [
         {
           "pid": 167,
@@ -332061,7 +329760,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 25,
-      "desc": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su At...",
+      "desc": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque de...",
       "learned_by": [
         {
           "pid": 15,
@@ -332148,7 +329847,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acert...",
       "learned_by": [
         {
           "pid": 292,
@@ -332275,7 +329974,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño produci...",
+      "desc": "Invita al objetivo a celebrar Halloween, lo que añade el tipo Fantasma a los tipos d...",
       "learned_by": [
         {
           "pid": 760,
@@ -332297,7 +329996,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 30,
-      "desc": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta...",
+      "desc": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su At...",
       "learned_by": [
         {
           "pid": 321,
@@ -332389,7 +330088,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 25,
-      "desc": "El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 170,
@@ -332436,7 +330135,7 @@ window.CHIRLGOLD_DATA = {
       "power": 65,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pok...",
+      "desc": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño produci...",
       "learned_by": [
         {
           "pid": 744,
@@ -332468,7 +330167,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre a...",
+      "desc": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta...",
       "learned_by": [
         {
           "pid": 758,
@@ -332490,7 +330189,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponent...",
+      "desc": "El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor.",
       "learned_by": [
         {
           "pid": 3,
@@ -332592,7 +330291,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Invierte por completo los cambios en las características del objetivo.",
+      "desc": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pok...",
       "learned_by": [
         {
           "pid": 144,
@@ -332664,7 +330363,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 0,
       "pp": 15,
-      "desc": "El usuario absorbe PS del objetivo con un beso y restaura su propia energía en una cantida...",
+      "desc": "Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre a...",
       "learned_by": [
         {
           "pid": 35,
@@ -332871,7 +330570,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Usa unos misteriosos poderes para protegerse a sí mismo y a sus aliados de movimientos de esta...",
+      "desc": "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponent...",
       "learned_by": [
         {
           "pid": 724,
@@ -332918,7 +330617,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos mi...",
+      "desc": "Invierte por completo los cambios en las características del objetivo.",
       "learned_by": [
         {
           "pid": 736,
@@ -332945,7 +330644,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en c...",
+      "desc": "El usuario absorbe PS del objetivo con un beso y restaura su propia energía en una cantida...",
       "learned_by": [
         {
           "pid": 124,
@@ -333087,7 +330786,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Durante cinco turnos, los Pokémon que están en el suelo no sufren problemas de estado y se reduce...",
+      "desc": "Usa unos misteriosos poderes para protegerse a sí mismo y a sus aliados de movimientos de esta...",
       "learned_by": [
         {
           "pid": 612,
@@ -333124,7 +330823,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+      "desc": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos mi...",
       "learned_by": [
         {
           "pid": 421,
@@ -333151,7 +330850,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ata...",
+      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en c...",
       "learned_by": [
         {
           "pid": 43,
@@ -333253,7 +330952,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+      "desc": "Durante cinco turnos, los Pokémon que están en el suelo no sufren problemas de estado y se reduce...",
       "learned_by": [
         {
           "pid": 122,
@@ -333355,7 +331054,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del...",
+      "desc": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
       "learned_by": [
         {
           "pid": 744,
@@ -333382,7 +331081,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Ataca a todos los Pokémon a su alrededor con una potentísima onda sonora.",
+      "desc": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ata...",
       "learned_by": [
         {
           "pid": 39,
@@ -333664,7 +331363,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 30,
-      "desc": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+      "desc": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
       "learned_by": [
         {
           "pid": 176,
@@ -333791,7 +331490,7 @@ window.CHIRLGOLD_DATA = {
       "power": 95,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario adopta una postura defensiva y se protege de cualquier daño. Reduce el Ataque...",
+      "desc": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del...",
       "learned_by": [
         {
           "pid": 35,
@@ -334023,7 +331722,7 @@ window.CHIRLGOLD_DATA = {
       "power": 140,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Se hace amigo de su oponente y consigue que a este se le quiten las ganas de combatir. Ade...",
+      "desc": "Ataca a todos los Pokémon a su alrededor con una potentísima onda sonora.",
       "learned_by": [
         {
           "pid": 295,
@@ -334080,7 +331779,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Es...",
+      "desc": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
       "learned_by": [
         {
           "pid": 757,
@@ -334097,7 +331796,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumen...",
+      "desc": "El usuario adopta una postura defensiva y se protege de cualquier daño. Reduce el Ataque...",
       "learned_by": [
         {
           "pid": 731,
@@ -334114,7 +331813,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a que...",
+      "desc": "Se hace amigo de su oponente y consigue que a este se le quiten las ganas de combatir. Ade...",
       "learned_by": [
         {
           "pid": 25,
@@ -334276,7 +331975,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que mo...",
+      "desc": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Es...",
       "learned_by": [
         {
           "pid": 441,
@@ -334308,7 +332007,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 95,
       "pp": 5,
-      "desc": "Golpea al oponente de dos a cinco veces con estrellas arrojadizas hechas de mucosidad. E...",
+      "desc": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumen...",
       "learned_by": [
         {
           "pid": 769,
@@ -334325,7 +332024,7 @@ window.CHIRLGOLD_DATA = {
       "power": 110,
       "accuracy": 95,
       "pp": 5,
-      "desc": "El usuario lanza por la boca una singular llama a gran temperatura con la que ataca a su oponent...",
+      "desc": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a que...",
       "learned_by": [
         {
           "pid": 771,
@@ -334342,7 +332041,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 0,
       "pp": 5,
-      "desc": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+      "desc": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que mo...",
       "learned_by": [
         {
           "pid": 770,
@@ -334359,7 +332058,7 @@ window.CHIRLGOLD_DATA = {
       "power": 15,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+      "desc": "Golpea al oponente de dos a cinco veces con estrellas arrojadizas hechas de mucosidad. E...",
       "learned_by": [
         {
           "pid": 667,
@@ -334381,7 +332080,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mu...",
+      "desc": "El usuario lanza por la boca una singular llama a gran temperatura con la que ataca a su oponent...",
       "learned_by": [
         {
           "pid": 429,
@@ -334428,7 +332127,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el Ataque Especial y l...",
+      "desc": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
       "learned_by": [
         {
           "pid": 332,
@@ -334470,7 +332169,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el...",
+      "desc": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
       "learned_by": [
         {
           "pid": 416,
@@ -334532,7 +332231,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Esp...",
+      "desc": "El usuario irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mu...",
       "learned_by": [
         {
           "pid": 100,
@@ -334574,7 +332273,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Manipula el campo magnético y logra aumentar la Defensa y la Defensa Especial de lo...",
+      "desc": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el Ataque Especial y l...",
       "learned_by": [
         {
           "pid": 89,
@@ -334671,7 +332370,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+      "desc": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el...",
       "learned_by": [
         {
           "pid": 716,
@@ -334688,7 +332387,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en c...",
+      "desc": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Esp...",
       "learned_by": [
         {
           "pid": 766,
@@ -334705,7 +332404,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Inflige daño a los oponentes con una potente luz.",
+      "desc": "Manipula el campo magnético y logra aumentar la Defensa y la Defensa Especial de lo...",
       "learned_by": [
         {
           "pid": 101,
@@ -334752,7 +332451,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 30,
-      "desc": "El Pokémon te felicita en un día muy especial para ti.",
+      "desc": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
       "learned_by": []
     },
     {
@@ -334763,7 +332462,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El Pokémon le da la mano a un aliado y ambos se sienten muy felices.",
+      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en c...",
       "learned_by": [
         {
           "pid": 82,
@@ -334905,7 +332604,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Lanza una mirada al objetivo con ojos acaramelados, con lo que logra que su Ataque se...",
+      "desc": "Inflige daño a los oponentes con una potente luz.",
       "learned_by": [
         {
           "pid": 122,
@@ -335012,7 +332711,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 40,
-      "desc": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue pa...",
+      "desc": "El Pokémon te felicita en un día muy especial para ti.",
       "learned_by": []
     },
     {
@@ -335023,7 +332722,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 40,
-      "desc": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+      "desc": "El Pokémon le da la mano a un aliado y ambos se sienten muy felices.",
       "learned_by": []
     },
     {
@@ -335034,7 +332733,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 30,
-      "desc": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+      "desc": "Lanza una mirada al objetivo con ojos acaramelados, con lo que logra que su Ataque se...",
       "learned_by": [
         {
           "pid": 37,
@@ -335241,7 +332940,7 @@ window.CHIRLGOLD_DATA = {
       "power": 20,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque de...",
+      "desc": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue pa...",
       "learned_by": [
         {
           "pid": 25,
@@ -335333,7 +333032,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 40,
-      "desc": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o super...",
+      "desc": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
       "learned_by": []
     },
     {
@@ -335344,7 +333043,7 @@ window.CHIRLGOLD_DATA = {
       "power": 20,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+      "desc": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
       "learned_by": [
         {
           "pid": 167,
@@ -335426,7 +333125,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 20,
-      "desc": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pok...",
+      "desc": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque de...",
       "learned_by": [
         {
           "pid": 107,
@@ -335483,7 +333182,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+      "desc": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o super...",
       "learned_by": [
         {
           "pid": 767,
@@ -335500,7 +333199,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario emplea el poder de la Flor Eterna para lanzar un potente rayo de luz, pero sufr...",
+      "desc": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
       "learned_by": [
         {
           "pid": 768,
@@ -335517,7 +333216,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca al objetivo con una infinidad de rayos de luz azulada.",
+      "desc": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pok...",
       "learned_by": [
         {
           "pid": 768,
@@ -335534,7 +333233,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Hace que el poder latente de la tierra se manifieste en forma de hojas afiladas y ataca...",
+      "desc": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
       "learned_by": [
         {
           "pid": 768,
@@ -335551,7 +333250,7 @@ window.CHIRLGOLD_DATA = {
       "power": 140,
       "accuracy": 90,
       "pp": 5,
-      "desc": "El usuario se precipita desde el cielo a una velocidad de vértigo para atacar al objetivo, pe...",
+      "desc": "El usuario emplea el poder de la Flor Eterna para lanzar un potente rayo de luz, pero sufr...",
       "learned_by": []
     },
     {
@@ -335562,7 +333261,7 @@ window.CHIRLGOLD_DATA = {
       "power": 110,
       "accuracy": 85,
       "pp": 10,
-      "desc": "Ataca al objetivo con una ráfaga de golpes que pasan por alto los efectos de movimientos...",
+      "desc": "Ataca al objetivo con una infinidad de rayos de luz azulada.",
       "learned_by": [
         {
           "pid": 382,
@@ -335579,7 +333278,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 85,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Hace que el poder latente de la tierra se manifieste en forma de hojas afiladas y ataca...",
       "learned_by": [
         {
           "pid": 383,
@@ -335596,7 +333295,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El usuario se precipita desde el cielo a una velocidad de vértigo para atacar al objetivo, pe...",
       "learned_by": [
         {
           "pid": 384,
@@ -335613,7 +333312,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 0,
       "pp": 5,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataca al objetivo con una ráfaga de golpes que pasan por alto los efectos de movimientos...",
       "learned_by": []
     },
     {
@@ -335998,7 +333697,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún má...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -336009,7 +333708,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Movimiento de gran potencia que solo puede usarse en el turno en que el usuario sale al com...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -336020,7 +333719,7 @@ window.CHIRLGOLD_DATA = {
       "power": 210,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -336031,7 +333730,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 5,
-      "desc": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida.",
+      "desc": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún má...",
       "learned_by": [
         {
           "pid": 819,
@@ -336053,7 +333752,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Gira sobre sí mismo y golpea al oponente con ambos brazos. Ignora los cambios en las caracte...",
+      "desc": "Movimiento de gran potencia que solo puede usarse en el turno en que el usuario sale al com...",
       "learned_by": [
         {
           "pid": 818,
@@ -336095,7 +333794,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciba...",
+      "desc": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto...",
       "learned_by": [
         {
           "pid": 798,
@@ -336112,7 +333811,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+      "desc": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida.",
       "learned_by": [
         {
           "pid": 774,
@@ -336129,7 +333828,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Restaura la mitad de los PS máximos del objetivo. Es más efectivo cuando se usa en conjunción con...",
+      "desc": "Gira sobre sí mismo y golpea al oponente con ambos brazos. Ignora los cambios en las caracte...",
       "learned_by": [
         {
           "pid": 777,
@@ -336146,7 +333845,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Asesta un golpe devastador usando todo su cuerpo.",
+      "desc": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciba...",
       "learned_by": [
         {
           "pid": 780,
@@ -336163,7 +333862,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida e...",
+      "desc": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
       "learned_by": [
         {
           "pid": 790,
@@ -336180,7 +333879,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla c...",
+      "desc": "Restaura la mitad de los PS máximos del objetivo. Es más efectivo cuando se usa en conjunción con...",
       "learned_by": [
         {
           "pid": 814,
@@ -336197,7 +333896,7 @@ window.CHIRLGOLD_DATA = {
       "power": 95,
       "accuracy": 95,
       "pp": 10,
-      "desc": "Ataca al oponente lanzando hojas.",
+      "desc": "Asesta un golpe devastador usando todo su cuerpo.",
       "learned_by": [
         {
           "pid": 143,
@@ -336259,7 +333958,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida e...",
       "learned_by": [
         {
           "pid": 426,
@@ -336301,7 +334000,7 @@ window.CHIRLGOLD_DATA = {
       "power": 125,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca al oponente con hilillos venenosos que reducen su Velocidad y lo envenenan.",
+      "desc": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla c...",
       "learned_by": [
         {
           "pid": 804,
@@ -336323,7 +334022,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 40,
-      "desc": "El usuario se concentra para que el siguiente ataque propine un golpe crítico.",
+      "desc": "Ataca al oponente lanzando hojas.",
       "learned_by": [
         {
           "pid": 252,
@@ -336435,7 +334134,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cu...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": [
         {
           "pid": 35,
@@ -336477,7 +334176,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que...",
+      "desc": "Ataca al oponente con hilillos venenosos que reducen su Velocidad y lo envenenan.",
       "learned_by": [
         {
           "pid": 167,
@@ -336499,7 +334198,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 30,
-      "desc": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+      "desc": "El usuario se concentra para que el siguiente ataque propine un golpe crítico.",
       "learned_by": [
         {
           "pid": 116,
@@ -336636,7 +334335,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+      "desc": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cu...",
       "learned_by": [
         {
           "pid": 651,
@@ -336658,7 +334357,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en e...",
+      "desc": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que...",
       "learned_by": [
         {
           "pid": 214,
@@ -336740,7 +334439,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque.",
+      "desc": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
       "learned_by": [
         {
           "pid": 793,
@@ -336757,7 +334456,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+      "desc": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
       "learned_by": [
         {
           "pid": 831,
@@ -336774,7 +334473,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características de...",
+      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en e...",
       "learned_by": [
         {
           "pid": 568,
@@ -336811,7 +334510,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente...",
+      "desc": "Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque.",
       "learned_by": [
         {
           "pid": 166,
@@ -336888,7 +334587,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Intercambia su Velocidad por la del oponente.",
+      "desc": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
       "learned_by": [
         {
           "pid": 681,
@@ -336920,7 +334619,7 @@ window.CHIRLGOLD_DATA = {
       "power": 20,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ensarta al adversario con su afilada cornamenta. Este movimiento acierta sie...",
+      "desc": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características de...",
       "learned_by": [
         {
           "pid": 601,
@@ -336967,7 +334666,7 @@ window.CHIRLGOLD_DATA = {
       "power": 130,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+      "desc": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente...",
       "learned_by": [
         {
           "pid": 146,
@@ -337009,7 +334708,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del...",
+      "desc": "Intercambia su Velocidad por la del oponente.",
       "learned_by": [
         {
           "pid": 845,
@@ -337031,7 +334730,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+      "desc": "El usuario ensarta al adversario con su afilada cornamenta. Este movimiento acierta sie...",
       "learned_by": [
         {
           "pid": 78,
@@ -337053,7 +334752,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Lanza una patada con la fuerza del trópico que golpea al rival y reduce su Ataque.",
+      "desc": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
       "learned_by": [
         {
           "pid": 821,
@@ -337070,7 +334769,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Fuerza al objetivo a repetir inmediatamente su último movimiento.",
+      "desc": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del...",
       "learned_by": [
         {
           "pid": 791,
@@ -337087,7 +334786,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este...",
+      "desc": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
       "learned_by": [
         {
           "pid": 768,
@@ -337104,7 +334803,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el a...",
+      "desc": "Lanza una patada con la fuerza del trópico que golpea al rival y reduce su Ataque.",
       "learned_by": [
         {
           "pid": 813,
@@ -337121,7 +334820,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+      "desc": "Fuerza al objetivo a repetir inmediatamente su último movimiento.",
       "learned_by": [
         {
           "pid": 815,
@@ -337138,7 +334837,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Hace pivotar su cuerpo para causar daño a su alrededor.",
+      "desc": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este...",
       "learned_by": [
         {
           "pid": 783,
@@ -337155,7 +334854,7 @@ window.CHIRLGOLD_DATA = {
       "power": 110,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco tu...",
+      "desc": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el a...",
       "learned_by": [
         {
           "pid": 834,
@@ -337172,7 +334871,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
       "learned_by": [
         {
           "pid": 1071,
@@ -337189,7 +334888,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Hace pivotar su cuerpo para causar daño a su alrededor.",
       "learned_by": [
         {
           "pid": 809,
@@ -337271,7 +334970,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco tu...",
       "learned_by": [
         {
           "pid": 460,
@@ -337357,7 +335056,7 @@ window.CHIRLGOLD_DATA = {
       "power": 195,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque fulgurante de tipo Agua que Primarina ejecuta con todo su poder tras canalizar la ener...",
       "learned_by": []
     },
     {
@@ -337379,7 +335078,7 @@ window.CHIRLGOLD_DATA = {
       "power": 210,
       "accuracy": 0,
       "pp": 1,
-      "desc": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la tram...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -337390,7 +335089,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -337401,7 +335100,7 @@ window.CHIRLGOLD_DATA = {
       "power": 185,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -337412,7 +335111,7 @@ window.CHIRLGOLD_DATA = {
       "power": 150,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario...",
+      "desc": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la tram...",
       "learned_by": [
         {
           "pid": 826,
@@ -337429,7 +335128,7 @@ window.CHIRLGOLD_DATA = {
       "power": 130,
       "accuracy": 90,
       "pp": 5,
-      "desc": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defen...",
+      "desc": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
       "learned_by": [
         {
           "pid": 851,
@@ -337446,7 +335145,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prior...",
+      "desc": "Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y...",
       "learned_by": [
         {
           "pid": 829,
@@ -337468,7 +335167,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+      "desc": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario...",
       "learned_by": [
         {
           "pid": 56,
@@ -337550,7 +335249,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario utiliza un prisma para emitir un rayo de gran potencia, pero no puede moverse...",
+      "desc": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defen...",
       "learned_by": []
     },
     {
@@ -337561,7 +335260,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 20,
-      "desc": "El usuario se esconde en la sombra del objetivo y lo ataca tras robarle las mejoras en sus caracte...",
+      "desc": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prior...",
       "learned_by": [
         {
           "pid": 362,
@@ -337583,7 +335282,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca al objetivo con la potencia de un meteoro, ignorando su habilidad.",
+      "desc": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
       "learned_by": [
         {
           "pid": 140,
@@ -337710,7 +335409,7 @@ window.CHIRLGOLD_DATA = {
       "power": 160,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca con un rayo misterioso que ignora la habilidad del objetivo.",
+      "desc": "El usuario utiliza un prisma para emitir un rayo de gran potencia, pero no puede moverse...",
       "learned_by": [
         {
           "pid": 850,
@@ -337727,7 +335426,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su...",
+      "desc": "El usuario se esconde en la sombra del objetivo y lo ataca tras robarle las mejoras en sus caracte...",
       "learned_by": [
         {
           "pid": 852,
@@ -337744,7 +335443,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede ha...",
+      "desc": "Ataca al objetivo con la potencia de un meteoro, ignorando su habilidad.",
       "learned_by": [
         {
           "pid": 841,
@@ -337761,7 +335460,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+      "desc": "Ataca con un rayo misterioso que ignora la habilidad del objetivo.",
       "learned_by": [
         {
           "pid": 842,
@@ -337778,7 +335477,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento...",
+      "desc": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su...",
       "learned_by": [
         {
           "pid": 185,
@@ -337835,7 +335534,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede ha...",
       "learned_by": [
         {
           "pid": 78,
@@ -337862,7 +335561,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 90,
       "pp": 10,
-      "desc": "El usuario hace explotar su cabeza para atacar a todos los Pokémon que se hallan a su alrededor,...",
+      "desc": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
       "learned_by": [
         {
           "pid": 835,
@@ -337894,7 +335593,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tip...",
+      "desc": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento...",
       "learned_by": [
         {
           "pid": 823,
@@ -337911,7 +335610,7 @@ window.CHIRLGOLD_DATA = {
       "power": 195,
       "accuracy": 0,
       "pp": 1,
-      "desc": "El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque Especi...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -337922,7 +335621,7 @@ window.CHIRLGOLD_DATA = {
       "power": 150,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El usuario hace explotar su cabeza para atacar a todos los Pokémon que se hallan a su alrededor,...",
       "learned_by": [
         {
           "pid": 856,
@@ -337939,7 +335638,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tip...",
       "learned_by": [
         {
           "pid": 857,
@@ -337956,7 +335655,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque Especi...",
       "learned_by": [
         {
           "pid": 850,
@@ -338006,7 +335705,7 @@ window.CHIRLGOLD_DATA = {
       "power": 190,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque demoledor de tipo Hada que Mimikyu ejecuta con todo su poder tras canalizar la energía Z.",
       "learned_by": []
     },
     {
@@ -338028,7 +335727,7 @@ window.CHIRLGOLD_DATA = {
       "power": 185,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque demoledor de tipo Dragón que Kommo-o ejecuta con energía Z. Sube todas sus caracte...",
       "learned_by": []
     },
     {
@@ -338149,7 +335848,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos vec...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -338160,7 +335859,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 85,
       "pp": 5,
-      "desc": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -338171,7 +335870,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "El usuario ataca emitiendo un rayo desde su núcleo. El daño infligido se duplica s...",
+      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
       "learned_by": []
     },
     {
@@ -338182,7 +335881,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Permite atacar al objetivo seleccionado ignorando las habilidades o movimientos que perm...",
+      "desc": "Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos vec...",
       "learned_by": [
         {
           "pid": 859,
@@ -338199,7 +335898,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Impide que tanto el atacante como el defensor puedan ser intercambiados hasta que uno de ellos...",
+      "desc": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
       "learned_by": []
     },
     {
@@ -338210,7 +335909,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario ingiere la baya que lleva equipada para aumentar mucho su Defensa.",
+      "desc": "El usuario ataca emitiendo un rayo desde su núcleo. El daño infligido se duplica s...",
       "learned_by": [
         {
           "pid": 940,
@@ -338227,7 +335926,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario aumenta todas sus características, pero ya no puede huir ni ser cambiado por otro.",
+      "desc": "Permite atacar al objetivo seleccionado ignorando las habilidades o movimientos que perm...",
       "learned_by": [
         {
           "pid": 868,
@@ -338244,7 +335943,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Cubre al objetivo de un alquitrán pegajoso que reduce su Velocidad y lo vuelve débil contra el...",
+      "desc": "Impide que tanto el atacante como el defensor puedan ser intercambiados hasta que uno de ellos...",
       "learned_by": [
         {
           "pid": 883,
@@ -338276,7 +335975,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico.",
+      "desc": "El usuario ingiere la baya que lleva equipada para aumentar mucho su Defensa.",
       "learned_by": [
         {
           "pid": 869,
@@ -338298,7 +335997,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 5,
-      "desc": "El usuario ataca propulsando a ambos Dreepy. En caso de haber dos adversarios, cada...",
+      "desc": "El usuario aumenta todas sus características, pero ya no puede huir ni ser cambiado por otro.",
       "learned_by": [
         {
           "pid": 920,
@@ -338315,7 +336014,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hac...",
+      "desc": "Cubre al objetivo de un alquitrán pegajoso que reduce su Velocidad y lo vuelve débil contra el...",
       "learned_by": [
         {
           "pid": 889,
@@ -338332,7 +336031,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Retiene al objetivo para impedir su huida, a la vez que reduce su Defensa y Defensa Especial cad...",
+      "desc": "Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico.",
       "learned_by": [
         {
           "pid": 908,
@@ -338349,7 +336048,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ensarta al objetivo con su pico cargado de electricidad. Si ataca en primer lug...",
+      "desc": "El usuario ataca propulsando a ambos Dreepy. En caso de haber dos adversarios, cada...",
       "learned_by": [
         {
           "pid": 937,
@@ -338366,7 +336065,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario agarra al objetivo con sus duras branquias. En caso de atacar antes que este...",
+      "desc": "El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hac...",
       "learned_by": [
         {
           "pid": 905,
@@ -338383,7 +336082,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Extraño poder que intercambia los efectos en el terreno de combate de ambos bandos.",
+      "desc": "Retiene al objetivo para impedir su huida, a la vez que reduce su Defensa y Defensa Especial cad...",
       "learned_by": [
         {
           "pid": 903,
@@ -338400,7 +336099,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataque de tipo Fuego ejecutado por un Pokémon Dinamax. Hace que se intensifique el efecto...",
+      "desc": "El usuario ensarta al objetivo con su pico cargado de electricidad. Si ataca en primer lug...",
       "learned_by": [
         {
           "pid": 930,
@@ -338422,7 +336121,7 @@ window.CHIRLGOLD_DATA = {
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataque de tipo Bicho ejecutado por un Pokémon Dinamax. Reduce el Ataque Especial del objetivo.",
+      "desc": "El usuario agarra al objetivo con sus duras branquias. En caso de atacar antes que este...",
       "learned_by": [
         {
           "pid": 932,
@@ -338444,7 +336143,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataque de tipo Eléctrico ejecutado por un Pokémon Dinamax. Crea un campo eléctrico durante cinc...",
+      "desc": "Extraño poder que intercambia los efectos en el terreno de combate de ambos bandos.",
       "learned_by": [
         {
           "pid": 865,
@@ -338461,7 +336160,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Normal ejecutado por un Pokémon Dinamax. Reduce la Velocidad del objetivo.",
+      "desc": "Ataque de tipo Fuego ejecutado por un Pokémon Dinamax. Hace que se intensifique el efecto...",
       "learned_by": []
     },
     {
@@ -338472,7 +336171,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Lucha ejecutado por un Pokémon Dinamax. Aumenta el Ataque de tu bando.",
+      "desc": "Ataque de tipo Bicho ejecutado por un Pokémon Dinamax. Reduce el Ataque Especial del objetivo.",
       "learned_by": []
     },
     {
@@ -338483,7 +336182,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Fantasma ejecutado por un Pokémon Dinamax. Reduce la Defensa de los rivales.",
+      "desc": "Ataque de tipo Eléctrico ejecutado por un Pokémon Dinamax. Crea un campo eléctrico durante cinc...",
       "learned_by": []
     },
     {
@@ -338494,7 +336193,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Hielo ejecutado por un Pokémon Dinamax. Crea una tormenta de granizo qu...",
+      "desc": "Ataque de tipo Normal ejecutado por un Pokémon Dinamax. Reduce la Velocidad del objetivo.",
       "learned_by": []
     },
     {
@@ -338505,7 +336204,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Veneno ejecutado por un Pokémon Dinamax. Aumenta el Ataque Especial de tu...",
+      "desc": "Ataque de tipo Lucha ejecutado por un Pokémon Dinamax. Aumenta el Ataque de tu bando.",
       "learned_by": []
     },
     {
@@ -338516,7 +336215,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Agua ejecutado por un Pokémon Dinamax. Desata un aguacero que dura cinc...",
+      "desc": "Ataque de tipo Fantasma ejecutado por un Pokémon Dinamax. Reduce la Defensa de los rivales.",
       "learned_by": []
     },
     {
@@ -338527,7 +336226,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Volador ejecutado por un Pokémon Dinamax. Aumenta la Velocidad de tu bando.",
+      "desc": "Ataque de tipo Hielo ejecutado por un Pokémon Dinamax. Crea una tormenta de granizo qu...",
       "learned_by": []
     },
     {
@@ -338538,7 +336237,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Hada ejecutado por un Pokémon Dinamax. Crea un campo de niebla durante cinco t...",
+      "desc": "Ataque de tipo Veneno ejecutado por un Pokémon Dinamax. Aumenta el Ataque Especial de tu...",
       "learned_by": []
     },
     {
@@ -338549,7 +336248,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Dragón ejecutado por un Pokémon Dinamax. Reduce el Ataque del objetivo.",
+      "desc": "Ataque de tipo Agua ejecutado por un Pokémon Dinamax. Desata un aguacero que dura cinc...",
       "learned_by": []
     },
     {
@@ -338560,7 +336259,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Psíquico ejecutado por un Pokémon Dinamax. Crea un campo psíquico durante cinco...",
+      "desc": "Ataque de tipo Volador ejecutado por un Pokémon Dinamax. Aumenta la Velocidad de tu bando.",
       "learned_by": []
     },
     {
@@ -338571,7 +336270,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Roca ejecutado por un Pokémon Dinamax. Levanta una tormenta de arena que...",
+      "desc": "Ataque de tipo Hada ejecutado por un Pokémon Dinamax. Crea un campo de niebla durante cinco t...",
       "learned_by": []
     },
     {
@@ -338582,7 +336281,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Tierra ejecutado por un Pokémon Dinamax. Aumenta la Defensa Especial de tu...",
+      "desc": "Ataque de tipo Dragón ejecutado por un Pokémon Dinamax. Reduce el Ataque del objetivo.",
       "learned_by": []
     },
     {
@@ -338593,7 +336292,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Siniestro ejecutado por un Pokémon Dinamax. Reduce la Defensa Especial del o...",
+      "desc": "Ataque de tipo Psíquico ejecutado por un Pokémon Dinamax. Crea un campo psíquico durante cinco...",
       "learned_by": []
     },
     {
@@ -338604,7 +336303,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Planta ejecutado por un Pokémon Dinamax. Crea un campo de hierba durante cinco t...",
+      "desc": "Ataque de tipo Roca ejecutado por un Pokémon Dinamax. Levanta una tormenta de arena que...",
       "learned_by": []
     },
     {
@@ -338615,7 +336314,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataque de tipo Acero ejecutado por un Pokémon Dinamax. Aumenta la Defensa de tu bando.",
+      "desc": "Ataque de tipo Tierra ejecutado por un Pokémon Dinamax. Aumenta la Defensa Especial de tu...",
       "learned_by": []
     },
     {
@@ -338626,7 +336325,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Utiliza parte de los PS propios para subir sus características.",
+      "desc": "Ataque de tipo Siniestro ejecutado por un Pokémon Dinamax. Reduce la Defensa Especial del o...",
       "learned_by": []
     },
     {
@@ -338637,7 +336336,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcio...",
+      "desc": "Ataque de tipo Planta ejecutado por un Pokémon Dinamax. Crea un campo de hierba durante cinco t...",
       "learned_by": []
     },
     {
@@ -338648,7 +336347,7 @@ window.CHIRLGOLD_DATA = {
       "power": 10,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Aumenta mucho el Ataque y el Ataque Especial del objetivo al decorarlo.",
+      "desc": "Ataque de tipo Acero ejecutado por un Pokémon Dinamax. Aumenta la Defensa de tu bando.",
       "learned_by": []
     },
     {
@@ -338659,7 +336358,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad de...",
+      "desc": "Utiliza parte de los PS propios para subir sus características.",
       "learned_by": [
         {
           "pid": 834,
@@ -338676,7 +336375,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Cepo que atrapa al objetivo durante cuatro o cinco turnos y le causa daño mientras se encue...",
+      "desc": "El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcio...",
       "learned_by": [
         {
           "pid": 486,
@@ -338698,7 +336397,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al rival. Pu...",
+      "desc": "Aumenta mucho el Ataque y el Ataque Especial del objetivo al decorarlo.",
       "learned_by": [
         {
           "pid": 919,
@@ -338715,7 +336414,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario se convierte en una espada gigante para rebanar al objetivo. Si este ha alcanzado e...",
+      "desc": "El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad de...",
       "learned_by": [
         {
           "pid": 862,
@@ -338732,7 +336431,7 @@ window.CHIRLGOLD_DATA = {
       "power": 35,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario se convierte en un escudo gigante para golpear al objetivo. Si este ha alcanzado el e...",
+      "desc": "Cepo que atrapa al objetivo durante cuatro o cinco turnos y le causa daño mientras se encue...",
       "learned_by": []
     },
     {
@@ -338743,7 +336442,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 90,
       "pp": 5,
-      "desc": "La energía que acumula en las mejillas le sirve para atacar y aumentar su Velocidad. Este movimi...",
+      "desc": "El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al rival. Pu...",
       "learned_by": [
         {
           "pid": 865,
@@ -338760,7 +336459,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario sacude violentamente su enorme cola para golpear a todos los rivales y reducir...",
+      "desc": "El usuario se convierte en una espada gigante para rebanar al objetivo. Si este ha alcanzado e...",
       "learned_by": []
     },
     {
@@ -338771,7 +336470,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Ataca pinchando al objetivo con una rama afilada.",
+      "desc": "El usuario se convierte en un escudo gigante para golpear al objetivo. Si este ha alcanzado el e...",
       "learned_by": []
     },
     {
@@ -338782,7 +336481,7 @@ window.CHIRLGOLD_DATA = {
       "power": 110,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario rasguea la guitarra o el bajo para generar enormes vibraciones de intensa...",
+      "desc": "La energía que acumula en las mejillas le sirve para atacar y aumentar su Velocidad. Este movimi...",
       "learned_by": [
         {
           "pid": 927,
@@ -338799,7 +336498,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataca al objetivo con el fluido corrosivo que desprende una manzana ácida, lo que también...",
+      "desc": "El usuario sacude violentamente su enorme cola para golpear a todos los rivales y reducir...",
       "learned_by": [
         {
           "pid": 934,
@@ -338841,7 +336540,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 100,
       "pp": 40,
-      "desc": "El usuario ataca haciendo caer una manzana desde gran altura. Disminuye la Defensa del objetivo.",
+      "desc": "Ataca pinchando al objetivo con una rama afilada.",
       "learned_by": [
         {
           "pid": 758,
@@ -338878,7 +336577,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuenc...",
+      "desc": "El usuario rasguea la guitarra o el bajo para generar enormes vibraciones de intensa...",
       "learned_by": [
         {
           "pid": 899,
@@ -338895,7 +336594,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Desprende un humo con el que ataca al objetivo, que puede acabar confundido.",
+      "desc": "Ataca al objetivo con el fluido corrosivo que desprende una manzana ácida, lo que también...",
       "learned_by": [
         {
           "pid": 892,
@@ -338912,7 +336611,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Vierte un agua misteriosa y balsámica que restaura tanto sus propios PS como los de aquellos aliado...",
+      "desc": "El usuario ataca haciendo caer una manzana desde gran altura. Disminuye la Defensa del objetivo.",
       "learned_by": [
         {
           "pid": 891,
@@ -338929,7 +336628,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Frena todos los ataques, pero puede fallar si se usa repetidamente. Reduce mucho la Defensa de qu...",
+      "desc": "El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuenc...",
       "learned_by": [
         {
           "pid": 911,
@@ -338951,7 +336650,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 95,
       "pp": 10,
-      "desc": "El usuario finge hacer una reverencia y aprovecha la ocasión para ensartar al objetivo c...",
+      "desc": "Desprende un humo con el que ataca al objetivo, que puede acabar confundido.",
       "learned_by": []
     },
     {
@@ -338962,7 +336661,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario agita violentamente su grueso puerro para atacar, pero el mareo que le provoc...",
+      "desc": "Vierte un agua misteriosa y balsámica que restaura tanto sus propios PS como los de aquellos aliado...",
       "learned_by": [
         {
           "pid": 35,
@@ -339109,7 +336808,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Este es el mayor ataque de Eternatus una vez adquirida su forma original. No puede mov...",
+      "desc": "Frena todos los ataques, pero puede fallar si se usa repetidamente. Reduce mucho la Defensa de qu...",
       "learned_by": [
         {
           "pid": 912,
@@ -339126,7 +336825,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Utiliza el acero de su cuerpo para disparar un potente rayo. También hiere al agresor.",
+      "desc": "El usuario finge hacer una reverencia y aprovecha la ocasión para ensartar al objetivo c...",
       "learned_by": [
         {
           "pid": 910,
@@ -339148,7 +336847,7 @@ window.CHIRLGOLD_DATA = {
       "power": 150,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario ataca al objetivo con sus poderes psíquicos. Cuando se usa en conjunción con un c...",
+      "desc": "El usuario agita violentamente su grueso puerro para atacar, pero el mareo que le provoc...",
       "learned_by": [
         {
           "pid": 915,
@@ -339165,7 +336864,7 @@ window.CHIRLGOLD_DATA = {
       "power": 160,
       "accuracy": 90,
       "pp": 5,
-      "desc": "El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y...",
+      "desc": "Este es el mayor ataque de Eternatus una vez adquirida su forma original. No puede mov...",
       "learned_by": [
         {
           "pid": 940,
@@ -339182,7 +336881,7 @@ window.CHIRLGOLD_DATA = {
       "power": 140,
       "accuracy": 95,
       "pp": 5,
-      "desc": "Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario,...",
+      "desc": "Utiliza el acero de su cuerpo para disparar un potente rayo. También hiere al agresor.",
       "learned_by": []
     },
     {
@@ -339193,7 +336892,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cós...",
+      "desc": "El usuario ataca al objetivo con sus poderes psíquicos. Cuando se usa en conjunción con un c...",
       "learned_by": [
         {
           "pid": 986,
@@ -339210,7 +336909,7 @@ window.CHIRLGOLD_DATA = {
       "power": 130,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario lanza un ataque físico o especial en función de cuál inflija más daño. Pued...",
+      "desc": "El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y...",
       "learned_by": [
         {
           "pid": 1040,
@@ -339227,7 +336926,7 @@ window.CHIRLGOLD_DATA = {
       "power": 25,
       "accuracy": 90,
       "pp": 20,
-      "desc": "El usuario ataca a todos a su alrededor, pero se debilita de inmediato. La potencia del movimient...",
+      "desc": "Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario,...",
       "learned_by": []
     },
     {
@@ -339238,7 +336937,7 @@ window.CHIRLGOLD_DATA = {
       "power": 120,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prior...",
+      "desc": "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cós...",
       "learned_by": []
     },
     {
@@ -339249,7 +336948,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimient...",
+      "desc": "El usuario lanza un ataque físico o especial en función de cuál inflija más daño. Pued...",
       "learned_by": []
     },
     {
@@ -339260,7 +336959,7 @@ window.CHIRLGOLD_DATA = {
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario ataca aprovechando la energía del campo activo, que determina tanto el tip...",
+      "desc": "El usuario ataca a todos a su alrededor, pero se debilita de inmediato. La potencia del movimient...",
       "learned_by": []
     },
     {
@@ -339271,7 +336970,7 @@ window.CHIRLGOLD_DATA = {
       "power": 55,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Espec...",
+      "desc": "Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prior...",
       "learned_by": []
     },
     {
@@ -339282,7 +336981,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokém...",
+      "desc": "Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimient...",
       "learned_by": [
         {
           "pid": 1071,
@@ -339299,7 +336998,7 @@ window.CHIRLGOLD_DATA = {
       "power": 50,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en...",
+      "desc": "El usuario ataca aprovechando la energía del campo activo, que determina tanto el tip...",
       "learned_by": [
         {
           "pid": 978,
@@ -339326,7 +337025,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 90,
       "pp": 10,
-      "desc": "El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado...",
+      "desc": "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Espec...",
       "learned_by": [
         {
           "pid": 967,
@@ -339363,7 +337062,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y...",
+      "desc": "Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokém...",
       "learned_by": []
     },
     {
@@ -339374,7 +337073,7 @@ window.CHIRLGOLD_DATA = {
       "power": 75,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario imparte indicaciones precisas a sus aliados, que ven aumentados su Ataque y...",
+      "desc": "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en...",
       "learned_by": []
     },
     {
@@ -339385,7 +337084,7 @@ window.CHIRLGOLD_DATA = {
       "power": 110,
       "accuracy": 90,
       "pp": 5,
-      "desc": "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo.",
+      "desc": "El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado...",
       "learned_by": []
     },
     {
@@ -339396,7 +337095,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 100,
       "pp": 40,
-      "desc": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+      "desc": "El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y...",
       "learned_by": []
     },
     {
@@ -339407,7 +337106,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Ataca al adversario golpeándolo dos veces con las alas.",
+      "desc": "El usuario imparte indicaciones precisas a sus aliados, que ven aumentados su Ataque y...",
       "learned_by": []
     },
     {
@@ -339418,7 +337117,7 @@ window.CHIRLGOLD_DATA = {
       "power": 60,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Puede causar...",
+      "desc": "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo.",
       "learned_by": [
         {
           "pid": 1014,
@@ -339440,7 +337139,7 @@ window.CHIRLGOLD_DATA = {
       "power": 20,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS n...",
+      "desc": "Patea hasta tres veces seguidas y cada vez más fuerte.",
       "learned_by": []
     },
     {
@@ -339451,7 +337150,7 @@ window.CHIRLGOLD_DATA = {
       "power": 40,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Golpe devastador que requiere un absoluto dominio de las artes siniestras. Siempre as...",
+      "desc": "Ataca al adversario golpeándolo dos veces con las alas.",
       "learned_by": [
         {
           "pid": 990,
@@ -339483,7 +337182,7 @@ window.CHIRLGOLD_DATA = {
       "power": 70,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario, dominador absoluto del líquido elemento, golpea hasta tres veces con movimie...",
+      "desc": "Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Puede causar...",
       "learned_by": []
     },
     {
@@ -339494,7 +337193,7 @@ window.CHIRLGOLD_DATA = {
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El objetivo queda atrapado en una jaula electrificada que permanece en el terren...",
+      "desc": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS n...",
       "learned_by": [
         {
           "pid": 943,
@@ -339511,7 +337210,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Cuantos m...",
+      "desc": "Golpe devastador que requiere un absoluto dominio de las artes siniestras. Siempre as...",
       "learned_by": [
         {
           "pid": 942,
@@ -339528,7 +337227,7 @@ window.CHIRLGOLD_DATA = {
       "power": 25,
       "accuracy": 100,
       "pp": 5,
-      "desc": "A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede...",
+      "desc": "El usuario, dominador absoluto del líquido elemento, golpea hasta tres veces con movimie...",
       "learned_by": []
     },
     {
@@ -339539,7 +337238,7 @@ window.CHIRLGOLD_DATA = {
       "power": 80,
       "accuracy": 90,
       "pp": 15,
-      "desc": "El usuario convierte su ira en un aura flamígera para lanzar su ataque. Puede amedrentar al ob...",
+      "desc": "El objetivo queda atrapado en una jaula electrificada que permanece en el terren...",
       "learned_by": [
         {
           "pid": 944,
@@ -339556,7 +337255,7 @@ window.CHIRLGOLD_DATA = {
       "power": 150,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Ba...",
+      "desc": "El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Cuantos m...",
       "learned_by": [
         {
           "pid": 945,
@@ -339573,7 +337272,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca al objetivo lanzándole un carámbano de hielo envuelto en una ventisca.",
+      "desc": "A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede...",
       "learned_by": []
     },
     {
@@ -339584,7 +337283,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca al objetivo lanzándole una ingente cantidad de pequeños fantasmas.",
+      "desc": "El usuario convierte su ira en un aura flamígera para lanzar su ataque. Puede amedrentar al ob...",
       "learned_by": []
     },
     {
@@ -339595,7 +337294,7 @@ window.CHIRLGOLD_DATA = {
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca con un poder psíquico de inmensa potencia y elimina 3 PP del último movimiento...",
+      "desc": "El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Ba...",
       "learned_by": []
     },
     {
@@ -357151,7 +354850,22 @@ window.CHIRLGOLD_DATA = {
       "category": "Objeto Evolutivo",
       "location": "Centro Comercial de Ciudad Trigal (Piso 3F) y Ciudad Azulona (Piso 3F).",
       "desc": "Una piedra peculiar que hace evolucionar a algunos Pokémon. Brilla como un lucero.",
-      "evolves": []
+      "evolves": [
+        {
+          "from": "Kirlia",
+          "from_id": 281,
+          "to": "Gallade",
+          "to_id": 475,
+          "method": "Usar Piedra Alba (Macho)"
+        },
+        {
+          "from": "Snorunt",
+          "from_id": 361,
+          "to": "Froslass",
+          "to_id": 478,
+          "method": "Usar Piedra Alba (Hembra)"
+        }
+      ]
     },
     {
       "name": "Piedra Hielo",
@@ -357628,6 +355342,192 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 956,
+          "pokemon": "Sprigatito",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 959,
+          "pokemon": "Fuecoco",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 962,
+          "pokemon": "Quaxly",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 387,
+          "pokemon": "Turtwig",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 390,
+          "pokemon": "Chimchar",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 393,
+          "pokemon": "Piplup",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 700,
+          "pokemon": "Chespin",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 703,
+          "pokemon": "Fennekin",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 706,
+          "pokemon": "Froakie",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 772,
+          "pokemon": "Rowlet",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 775,
+          "pokemon": "Litten",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 778,
+          "pokemon": "Popplio",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 545,
+          "pokemon": "Snivy",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 548,
+          "pokemon": "Tepig",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 551,
+          "pokemon": "Oshawott",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 860,
+          "pokemon": "Grookey",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 863,
+          "pokemon": "Scorbunny",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 866,
+          "pokemon": "Sobble",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
       "name": "Ciudad Olivo",
       "region": "Johto",
       "x": 28.0,
@@ -357655,407 +355555,75 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Cueva Oscura (Acceso Ruta 31)",
+      "name": "Cueva Acantilado",
       "region": "Johto",
-      "x": 53.1,
-      "y": 42.7,
-      "desc": "Laberíntica caverna subterránea que une la Ruta 31 con Ciudad Endrino.",
-      "connections": [
-        "Ruta 31",
-        "Ruta 46",
-        "Ciudad Endrino"
-      ],
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
       "encounters": [
         {
-          "pid": 231,
-          "pokemon": "Phanpy",
-          "time": "Mañana y Día",
+          "pid": 959,
+          "pokemon": "Fuecoco",
+          "time": "Todo el día",
           "rate": "20%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 887,
-          "pokemon": "Rolycoly",
-          "time": "Noche",
+          "pid": 775,
+          "pokemon": "Litten",
+          "time": "Todo el día",
           "rate": "20%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 50,
-          "pokemon": "Diglett",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 50,
-          "pokemon": "Diglett",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 74,
-          "pokemon": "Geodude",
-          "time": "Mañana y Día",
+          "pid": 863,
+          "pokemon": "Scorbunny",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 74,
-          "pokemon": "Geodude",
-          "time": "Noche",
+          "pid": 703,
+          "pokemon": "Fennekin",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 574,
-          "pokemon": "Roggenrola",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1019,
-          "pokemon": "Glimmet",
-          "time": "Noche",
+          "pid": 548,
+          "pokemon": "Tepig",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 41,
-          "pokemon": "Zubat",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 331,
-          "pokemon": "Cacnea",
-          "time": "Mañana y Día",
+          "pid": 390,
+          "pokemon": "Chimchar",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 328,
-          "pokemon": "Trapinch",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 579,
-          "pokemon": "Drilbur",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 27,
-          "pokemon": "Sandshrew",
-          "time": "Mañana y Día",
+          "pid": 4,
+          "pokemon": "Charmander",
+          "time": "Todo el día",
           "rate": "8%",
-          "method": "Hierba"
+          "method": "Cueva"
         },
         {
-          "pid": 37,
-          "pokemon": "Vulpix",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
+          "pid": 155,
+          "pokemon": "Cyndaquil",
+          "time": "Todo el día",
+          "rate": "6%",
+          "method": "Cueva"
         },
         {
-          "pid": 764,
-          "pokemon": "Noibat",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 52,
-          "pokemon": "Meowth",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 52,
-          "pokemon": "Meowth",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Cueva Unión",
-      "region": "Johto",
-      "x": 46.2,
-      "y": 72.9,
-      "desc": "Extensa cueva de múltiples niveles que conecta la Ruta 32 con la Ruta 33.",
-      "connections": [
-        "Ruta 32",
-        "Ruta 33",
-        "Ruinas Alfa"
-      ],
-      "encounters": [
-        {
-          "pid": 111,
-          "pokemon": "Rhyhorn",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 909,
-          "pokemon": "Impidimp",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 422,
-          "pokemon": "Shellos",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 753,
-          "pokemon": "Carbink",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 447,
-          "pokemon": "Riolu",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 736,
-          "pokemon": "Inkay",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 322,
-          "pokemon": "Numel",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 425,
-          "pokemon": "Drifloon",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 607,
-          "pokemon": "Dwebble",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 293,
-          "pokemon": "Whismur",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 46,
-          "pokemon": "Paras",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 669,
-          "pokemon": "Mienfoo",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 104,
-          "pokemon": "Cubone",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 647,
-          "pokemon": "Ferroseed",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 589,
-          "pokemon": "Sawk",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 588,
-          "pokemon": "Throh",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 95,
-          "pokemon": "Onix",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 123,
-          "pokemon": "Scyther",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Encinar",
-      "region": "Johto",
-      "x": 30.6,
-      "y": 77.1,
-      "desc": "Bosque ancestral y sombrío custodiado por el altar del protector del bosque, Celebi.",
-      "connections": [
-        "Pueblo Azalea",
-        "Ruta 34"
-      ],
-      "encounters": [
-        {
-          "pid": 415,
-          "pokemon": "Combee",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 590,
-          "pokemon": "Sewaddle",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 83,
-          "pokemon": "Farfetch’d",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 77,
-          "pokemon": "Ponyta",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 758,
-          "pokemon": "Phantump",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 906,
-          "pokemon": "Hatenna",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 760,
-          "pokemon": "Pumpkaboo",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 204,
-          "pokemon": "Pineco",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 204,
-          "pokemon": "Pineco",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 102,
-          "pokemon": "Exeggcute",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 114,
-          "pokemon": "Tangela",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 313,
-          "pokemon": "Volbeat",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 314,
-          "pokemon": "Illumise",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 213,
-          "pokemon": "Shuckle",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 198,
-          "pokemon": "Murkrow",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 214,
-          "pokemon": "Heracross",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 127,
-          "pokemon": "Pinsir",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
+          "pid": 255,
+          "pokemon": "Torchic",
+          "time": "Todo el día",
+          "rate": "6%",
+          "method": "Cueva"
         }
       ]
     },
@@ -358111,6 +355679,153 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 443,
+          "pokemon": "Gible",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 371,
+          "pokemon": "Bagon",
+          "time": "Mañana y Día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 147,
+          "pokemon": "Dratini",
+          "time": "Mañana y Día",
+          "rate": "14%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 374,
+          "pokemon": "Beldum",
+          "time": "Mañana y Día",
+          "rate": "11%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 754,
+          "pokemon": "Goomy",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 782,
+          "pokemon": "Trumbeak",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 683,
+          "pokemon": "Deino",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 935,
+          "pokemon": "Dreepy",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1046,
+          "pokemon": "Frigibax",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 935,
+          "pokemon": "Dreepy",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 683,
+          "pokemon": "Deino",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1046,
+          "pokemon": "Frigibax",
+          "time": "Noche",
+          "rate": "14%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 374,
+          "pokemon": "Beldum",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 443,
+          "pokemon": "Gible",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 371,
+          "pokemon": "Bagon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 754,
+          "pokemon": "Goomy",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 782,
+          "pokemon": "Trumbeak",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 147,
+          "pokemon": "Dratini",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 147,
+          "pokemon": "Dratini",
+          "time": "Todo el día",
+          "rate": "65%",
+          "method": "Surf"
+        },
+        {
+          "pid": 754,
+          "pokemon": "Goomy",
+          "time": "Todo el día",
+          "rate": "31%",
+          "method": "Surf"
+        },
+        {
+          "pid": 148,
+          "pokemon": "Dragonair",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
           "pid": 147,
           "pokemon": "Dratini",
           "time": "Regalo",
@@ -358139,6 +355854,40 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+      "region": "Johto",
+      "x": 67.1,
+      "y": 71.5,
+      "desc": "Laboratorio de investigación donde el Prof. Elm entrega el Pokémon inicial.",
+      "connections": [
+        "Pueblo Primavera",
+        "Ruta 29"
+      ],
+      "encounters": [
+        {
+          "pid": 152,
+          "pokemon": "Chikorita",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 155,
+          "pokemon": "Cyndaquil",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 158,
+          "pokemon": "Totodile",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        }
+      ]
+    },
+    {
       "name": "Maestro del Monte Mortero",
       "region": "Johto",
       "x": 44.4,
@@ -358154,144 +355903,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Regalo",
           "rate": "100%",
           "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Monte Mortero",
-      "region": "Johto",
-      "x": 44.4,
-      "y": 31.3,
-      "desc": "Gigantesco complejo cavernoso de tres entradas en la ladera de la Ruta 42.",
-      "connections": [
-        "Ruta 42"
-      ],
-      "encounters": [
-        {
-          "pid": 299,
-          "pokemon": "Nosepass",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 904,
-          "pokemon": "Sinistea",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 302,
-          "pokemon": "Sableye",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 926,
-          "pokemon": "Indeedee",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 303,
-          "pokemon": "Mawile",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 934,
-          "pokemon": "Duraludon",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 304,
-          "pokemon": "Aron",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 442,
-          "pokemon": "Spiritomb",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 606,
-          "pokemon": "Maractus",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 479,
-          "pokemon": "Rotom",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 215,
-          "pokemon": "Sneasel",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 215,
-          "pokemon": "Sneasel",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 109,
-          "pokemon": "Koffing",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 109,
-          "pokemon": "Koffing",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 88,
-          "pokemon": "Grimer",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 88,
-          "pokemon": "Grimer",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 327,
-          "pokemon": "Spinda",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 327,
-          "pokemon": "Spinda",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
         }
       ]
     },
@@ -358445,738 +356056,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "pid": 138,
-          "pokemon": "Omanyte",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 443,
-          "pokemon": "Gible",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 140,
-          "pokemon": "Kabuto",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 683,
-          "pokemon": "Deino",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 345,
-          "pokemon": "Lileep",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 371,
-          "pokemon": "Bagon",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 347,
-          "pokemon": "Anorith",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 374,
-          "pokemon": "Beldum",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 408,
-          "pokemon": "Cranidos",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 246,
-          "pokemon": "Larvitar",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 410,
-          "pokemon": "Shieldon",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 147,
-          "pokemon": "Dratini",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 614,
-          "pokemon": "Tirtouga",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 754,
-          "pokemon": "Goomy",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 616,
-          "pokemon": "Archen",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 782,
-          "pokemon": "Trumbeak",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 746,
-          "pokemon": "Tyrunt",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 935,
-          "pokemon": "Dreepy",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 748,
-          "pokemon": "Amaura",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1046,
-          "pokemon": "Frigibax",
-          "time": "Noche (Pseudolegendarios)",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 142,
-          "pokemon": "Aerodactyl",
-          "time": "Mañana y Día (Fósiles)",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Pozo Slowpoke",
-      "region": "Johto",
-      "x": 39.3,
-      "y": 78.8,
-      "desc": "Caverna kárstica en Pueblo Azalea sagrada para los Slowpoke y fuente de lluvia.",
-      "connections": [
-        "Pueblo Azalea"
-      ],
-      "encounters": [
-        {
-          "pid": 79,
-          "pokemon": "Slowpoke",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 79,
-          "pokemon": "Slowpoke",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1010,
-          "pokemon": "Wiglett",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 585,
-          "pokemon": "Tympole",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 883,
-          "pokemon": "Chewtle",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 618,
-          "pokemon": "Trubbish",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 672,
-          "pokemon": "Golett",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 54,
-          "pokemon": "Psyduck",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 738,
-          "pokemon": "Binacle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 762,
-          "pokemon": "Bergmite",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruinas Alfa",
-      "region": "Johto",
-      "x": 41.4,
-      "y": 55.2,
-      "desc": "Místicas ruinas arqueológicas con enigmas sobre los Unown y el origen de Johto.",
-      "connections": [
-        "Ruta 32",
-        "Ruta 36",
-        "Cueva Unión"
-      ],
-      "encounters": [
-        {
-          "pid": 177,
-          "pokemon": "Natu",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 200,
-          "pokemon": "Misdreavus",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 436,
-          "pokemon": "Bronzor",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 627,
-          "pokemon": "Solosis",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 624,
-          "pokemon": "Gothita",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 655,
-          "pokemon": "Elgyem",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 567,
-          "pokemon": "Munna",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 727,
-          "pokemon": "Espurr",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 353,
-          "pokemon": "Shuppet",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 137,
-          "pokemon": "Porygon",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 355,
-          "pokemon": "Duskull",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 201,
-          "pokemon": "Unown",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 433,
-          "pokemon": "Chingling",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 343,
-          "pokemon": "Baltoy",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 96,
-          "pokemon": "Drowzee",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 201,
-          "pokemon": "Unown",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 439,
-          "pokemon": "Mime Jr.",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 360,
-          "pokemon": "Wynaut",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 611,
-          "pokemon": "Sigilyph",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 29",
-      "region": "Johto",
-      "x": 60.1,
-      "y": 71.5,
-      "desc": "Conecta Pueblo Primavera al este con Ciudad Cerezo al oeste.",
-      "connections": [
-        "Pueblo Primavera",
-        "Ciudad Cerezo",
-        "Ruta 46"
-      ],
-      "encounters": [
-        {
-          "pid": 396,
-          "pokemon": "Starly",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 263,
-          "pokemon": "Zigzagoon",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 709,
-          "pokemon": "Bunnelby",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 399,
-          "pokemon": "Bidoof",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 556,
-          "pokemon": "Lillipup",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 19,
-          "pokemon": "Rattata",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 161,
-          "pokemon": "Sentret",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 724,
-          "pokemon": "Pancham",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 559,
-          "pokemon": "Purrloin",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 881,
-          "pokemon": "Wooloo",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 261,
-          "pokemon": "Poochyena",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 16,
-          "pokemon": "Pidgey",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 163,
-          "pokemon": "Hoothoot",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 431,
-          "pokemon": "Glameow",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 971,
-          "pokemon": "Pawmi",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 30",
-      "region": "Johto",
-      "x": 53.1,
-      "y": 59.4,
-      "desc": "Se extiende hacia el norte desde Ciudad Cerezo hasta la casa del Sr. Pokémon y la Ruta 31.",
-      "connections": [
-        "Ciudad Cerezo",
-        "Ruta 31"
-      ],
-      "encounters": [
-        {
-          "pid": 786,
-          "pokemon": "Grubbin",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 593,
-          "pokemon": "Venipede",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 714,
-          "pokemon": "Scatterbug",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 48,
-          "pokemon": "Venonat",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 283,
-          "pokemon": "Surskit",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 900,
-          "pokemon": "Sizzlipede",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 265,
-          "pokemon": "Wurmple",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 805,
-          "pokemon": "Morelull",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 167,
-          "pokemon": "Spinarak",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 874,
-          "pokemon": "Blipbug",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 165,
-          "pokemon": "Ledyba",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 969,
-          "pokemon": "Nymble",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 10,
-          "pokemon": "Caterpie",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 451,
-          "pokemon": "Skorupi",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 13,
-          "pokemon": "Weedle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 290,
-          "pokemon": "Nincada",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 31",
-      "region": "Johto",
-      "x": 49.6,
-      "y": 48.3,
-      "desc": "Conecta la Ruta 30 con Ciudad Malvalba y da acceso a la Cueva Oscura.",
-      "connections": [
-        "Ciudad Malvalba",
-        "Cueva Oscura",
-        "Ruta 30"
-      ],
-      "encounters": [
-        {
-          "pid": 569,
-          "pokemon": "Pidove",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 554,
-          "pokemon": "Patrat",
-          "time": "Noche",
-          "rate": "24%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 418,
-          "pokemon": "Buizel",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 890,
-          "pokemon": "Applin",
-          "time": "Noche",
-          "rate": "24%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 781,
-          "pokemon": "Pikipek",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 974,
-          "pokemon": "Tandemaus",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 792,
-          "pokemon": "Cutiefly",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 601,
-          "pokemon": "Sandile",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 801,
-          "pokemon": "Dewpider",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 817,
-          "pokemon": "Wimpod",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 976,
-          "pokemon": "Fidough",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 191,
-          "pokemon": "Sunkern",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 401,
-          "pokemon": "Kricketot",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
         }
       ]
     },
@@ -359205,222 +356084,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "Pesca (Caña Vieja)",
           "method": "Pesca"
-        },
-        {
-          "pid": 270,
-          "pokemon": "Lotad",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 273,
-          "pokemon": "Seedot",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 187,
-          "pokemon": "Hoppip",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 998,
-          "pokemon": "Toedscool",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 406,
-          "pokemon": "Budew",
-          "time": "Mañana y Día",
-          "rate": "18%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 285,
-          "pokemon": "Shroomish",
-          "time": "Noche",
-          "rate": "18%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 179,
-          "pokemon": "Mareep",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 722,
-          "pokemon": "Skiddo",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 711,
-          "pokemon": "Fletchling",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 871,
-          "pokemon": "Rookidee",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 280,
-          "pokemon": "Ralts",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 412,
-          "pokemon": "Burmy",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 814,
-          "pokemon": "Comfey",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 222,
-          "pokemon": "Corsola",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 33",
-      "region": "Johto",
-      "x": 42.7,
-      "y": 81.4,
-      "desc": "Corta ruta lluviosa que une la salida de la Cueva Unión con Pueblo Azalea.",
-      "connections": [
-        "Cueva Unión",
-        "Pueblo Azalea"
-      ],
-      "encounters": [
-        {
-          "pid": 216,
-          "pokemon": "Teddiursa",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 216,
-          "pokemon": "Teddiursa",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 794,
-          "pokemon": "Rockruff",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 287,
-          "pokemon": "Slakoth",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 172,
-          "pokemon": "Pichu",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 994,
-          "pokemon": "Shroodle",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 561,
-          "pokemon": "Pansage",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1007,
-          "pokemon": "Tinkatink",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 563,
-          "pokemon": "Pansear",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 565,
-          "pokemon": "Panpour",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 239,
-          "pokemon": "Elekid",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 240,
-          "pokemon": "Magby",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 174,
-          "pokemon": "Igglybuff",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 173,
-          "pokemon": "Cleffa",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 298,
-          "pokemon": "Azurill",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
         }
       ]
     },
@@ -359504,1095 +356167,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "Pesca (Caña Vieja)",
           "method": "Pesca"
-        },
-        {
-          "pid": 27,
-          "pokemon": "Sandshrew",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 300,
-          "pokemon": "Skitty",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 56,
-          "pokemon": "Mankey",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 427,
-          "pokemon": "Buneary",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 236,
-          "pokemon": "Tyrogue",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 635,
-          "pokemon": "Deerling",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 928,
-          "pokemon": "Cufant",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 630,
-          "pokemon": "Ducklett",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 581,
-          "pokemon": "Audino",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1023,
-          "pokemon": "Flamigo",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 734,
-          "pokemon": "Swirlix",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 732,
-          "pokemon": "Spritzee",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 36",
-      "region": "Johto",
-      "x": 40.4,
-      "y": 48.3,
-      "desc": "Cruce estratégico que conecta Ciudad Malvalba, el Parque Nacional y Ciudad Iris.",
-      "connections": [
-        "Ciudad Malvalba",
-        "Parque Nacional",
-        "Ruta 37",
-        "Ruinas Alfa"
-      ],
-      "encounters": [
-        {
-          "pid": 66,
-          "pokemon": "Machop",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 66,
-          "pokemon": "Machop",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 133,
-          "pokemon": "Eevee",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 133,
-          "pokemon": "Eevee",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 228,
-          "pokemon": "Houndour",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 228,
-          "pokemon": "Houndour",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 209,
-          "pokemon": "Snubbull",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 209,
-          "pokemon": "Snubbull",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 316,
-          "pokemon": "Gulpin",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 316,
-          "pokemon": "Gulpin",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 807,
-          "pokemon": "Salandit",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 807,
-          "pokemon": "Salandit",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 918,
-          "pokemon": "Milcery",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 918,
-          "pokemon": "Milcery",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 990,
-          "pokemon": "Wattrel",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 990,
-          "pokemon": "Wattrel",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 311,
-          "pokemon": "Plusle",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 311,
-          "pokemon": "Plusle",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 312,
-          "pokemon": "Minun",
-          "time": "Mañana y Día",
-          "rate": "1%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 312,
-          "pokemon": "Minun",
-          "time": "Noche",
-          "rate": "1%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 37",
-      "region": "Johto",
-      "x": 37.4,
-      "y": 41.7,
-      "desc": "Sendero flanqueado por árboles de bayas que conduce a las puertas de Ciudad Iris.",
-      "connections": [
-        "Ruta 36",
-        "Ciudad Iris"
-      ],
-      "encounters": [
-        {
-          "pid": 645,
-          "pokemon": "Joltik",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 645,
-          "pokemon": "Joltik",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 652,
-          "pokemon": "Tynamo",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 652,
-          "pokemon": "Tynamo",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 640,
-          "pokemon": "Foongus",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 640,
-          "pokemon": "Foongus",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1001,
-          "pokemon": "Capsakid",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1001,
-          "pokemon": "Capsakid",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 453,
-          "pokemon": "Croagunk",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 453,
-          "pokemon": "Croagunk",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 434,
-          "pokemon": "Stunky",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 434,
-          "pokemon": "Stunky",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 333,
-          "pokemon": "Swablu",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 333,
-          "pokemon": "Swablu",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 637,
-          "pokemon": "Emolga",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 637,
-          "pokemon": "Emolga",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 58,
-          "pokemon": "Growlithe",
-          "time": "Mañana y Día",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 58,
-          "pokemon": "Growlithe",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 218,
-          "pokemon": "Slugma",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1021,
-          "pokemon": "Greavard",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 620,
-          "pokemon": "Zorua",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 620,
-          "pokemon": "Zorua",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 717,
-          "pokemon": "Litleo",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 612,
-          "pokemon": "Yamask",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 77,
-          "pokemon": "Ponyta",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 898,
-          "pokemon": "Toxel",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 612,
-          "pokemon": "Yamask",
-          "time": "Mañana y Día",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 985,
-          "pokemon": "Charcadet",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 338,
-          "pokemon": "Solrock",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 337,
-          "pokemon": "Lunatone",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 324,
-          "pokemon": "Torkoal",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 681,
-          "pokemon": "Heatmor",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 38",
-      "region": "Johto",
-      "x": 31.9,
-      "y": 35.0,
-      "desc": "Vía campestre hacia el oeste desde Ciudad Iris hacia la Granja Mumu.",
-      "connections": [
-        "Ciudad Iris",
-        "Ruta 39"
-      ],
-      "encounters": [
-        {
-          "pid": 278,
-          "pokemon": "Wingull",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 577,
-          "pokemon": "Woobat",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 194,
-          "pokemon": "Wooper",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 194,
-          "pokemon": "Wooper",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 60,
-          "pokemon": "Poliwag",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 60,
-          "pokemon": "Poliwag",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 81,
-          "pokemon": "Magnemite",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 81,
-          "pokemon": "Magnemite",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 100,
-          "pokemon": "Voltorb",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 100,
-          "pokemon": "Voltorb",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 118,
-          "pokemon": "Goldeen",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 118,
-          "pokemon": "Goldeen",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 227,
-          "pokemon": "Skarmory",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 207,
-          "pokemon": "Gligar",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 211,
-          "pokemon": "Qwilfish",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 211,
-          "pokemon": "Qwilfish",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 206,
-          "pokemon": "Dunsparce",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 206,
-          "pokemon": "Dunsparce",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 39",
-      "region": "Johto",
-      "x": 28.0,
-      "y": 40.6,
-      "desc": "Camino rural que bordea la Granja Mumu y desciende hacia Ciudad Olivo.",
-      "connections": [
-        "Ruta 38",
-        "Ciudad Olivo"
-      ],
-      "encounters": [
-        {
-          "pid": 809,
-          "pokemon": "Stufful",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 674,
-          "pokemon": "Pawniard",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 609,
-          "pokemon": "Scraggy",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 609,
-          "pokemon": "Scraggy",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 649,
-          "pokemon": "Klink",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 649,
-          "pokemon": "Klink",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 449,
-          "pokemon": "Hippopotas",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 449,
-          "pokemon": "Hippopotas",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 799,
-          "pokemon": "Mudbray",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 799,
-          "pokemon": "Mudbray",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 726,
-          "pokemon": "Furfrou",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 726,
-          "pokemon": "Furfrou",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 440,
-          "pokemon": "Happiny",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 440,
-          "pokemon": "Happiny",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 241,
-          "pokemon": "Miltank",
-          "time": "Mañana y Día",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 128,
-          "pokemon": "Tauros",
-          "time": "Noche",
-          "rate": "6%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 234,
-          "pokemon": "Stantler",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 676,
-          "pokemon": "Bouffalant",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 42",
-      "region": "Johto",
-      "x": 44.4,
-      "y": 36.5,
-      "desc": "Ruta escarpada que bordea tres accesos al Monte Mortero entre Iris y Caoba.",
-      "connections": [
-        "Ciudad Iris",
-        "Monte Mortero",
-        "Pueblo Caoba"
-      ],
-      "encounters": [
-        {
-          "pid": 441,
-          "pokemon": "Chatot",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 751,
-          "pokemon": "Hawlucha",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 455,
-          "pokemon": "Carnivine",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 827,
-          "pokemon": "Togedemaru",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 309,
-          "pokemon": "Electrike",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 831,
-          "pokemon": "Dhelmise",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 893,
-          "pokemon": "Silicobra",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 108,
-          "pokemon": "Lickitung",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1015,
-          "pokemon": "Varoom",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1015,
-          "pokemon": "Varoom",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 225,
-          "pokemon": "Delibird",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 225,
-          "pokemon": "Delibird",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 84,
-          "pokemon": "Doduo",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 84,
-          "pokemon": "Doduo",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 235,
-          "pokemon": "Smeargle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 235,
-          "pokemon": "Smeargle",
-          "time": "Noche",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 132,
-          "pokemon": "Ditto",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 43",
-      "region": "Johto",
-      "x": 51.5,
-      "y": 27.1,
-      "desc": "Camino septentrional que sube desde Pueblo Caoba hasta las orillas del Lago de la Furia.",
-      "connections": [
-        "Pueblo Caoba",
-        "Lago de la Furia"
-      ],
-      "encounters": [
-        {
-          "pid": 193,
-          "pokemon": "Yanma",
-          "time": "Mañana y Día",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 193,
-          "pokemon": "Yanma",
-          "time": "Noche",
-          "rate": "40%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 203,
-          "pokemon": "Girafarig",
-          "time": "Mañana y Día",
-          "rate": "39%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 203,
-          "pokemon": "Girafarig",
-          "time": "Noche",
-          "rate": "39%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 757,
-          "pokemon": "Klefki",
-          "time": "Mañana y Día",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 757,
-          "pokemon": "Klefki",
-          "time": "Noche",
-          "rate": "11%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 351,
-          "pokemon": "Castform",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 351,
-          "pokemon": "Castform",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta 46",
-      "region": "Johto",
-      "x": 62.5,
-      "y": 63.5,
-      "desc": "Desfiladero montañoso escalonado que conecta la Ruta 29 con la Ruta 45.",
-      "connections": [
-        "Ruta 29",
-        "Ruta 45",
-        "Cueva Oscura"
-      ],
-      "encounters": [
-        {
-          "pid": 744,
-          "pokemon": "Helioptile",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 403,
-          "pokemon": "Shinx",
-          "time": "Noche",
-          "rate": "30%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 276,
-          "pokemon": "Taillow",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 729,
-          "pokemon": "Honedge",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 190,
-          "pokemon": "Aipom",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 992,
-          "pokemon": "Maschiff",
-          "time": "Noche",
-          "rate": "12%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 596,
-          "pokemon": "Cottonee",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 23,
-          "pokemon": "Ekans",
-          "time": "Noche",
-          "rate": "15%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 598,
-          "pokemon": "Petilil",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 803,
-          "pokemon": "Fomantis",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 622,
-          "pokemon": "Minccino",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 420,
-          "pokemon": "Cherubi",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 572,
-          "pokemon": "Blitzle",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 29,
-          "pokemon": "Nidoran♀",
-          "time": "Mañana y Día",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 32,
-          "pokemon": "Nidoran♂",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 417,
-          "pokemon": "Pachirisu",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
         }
       ]
     },
@@ -360609,143 +356183,66 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 660,
-          "pokemon": "Axew",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
+          "pid": 962,
+          "pokemon": "Quaxly",
+          "time": "Todo el día",
+          "rate": "60%",
+          "method": "Surf"
         },
         {
-          "pid": 660,
-          "pokemon": "Axew",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
+          "pid": 706,
+          "pokemon": "Froakie",
+          "time": "Todo el día",
+          "rate": "30%",
+          "method": "Surf"
         },
         {
-          "pid": 1024,
-          "pokemon": "Cetoddle",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1024,
-          "pokemon": "Cetoddle",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1012,
-          "pokemon": "Bombirdier",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1012,
-          "pokemon": "Bombirdier",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 920,
-          "pokemon": "Falinks",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 920,
-          "pokemon": "Falinks",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 632,
-          "pokemon": "Vanillite",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 632,
-          "pokemon": "Vanillite",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 682,
-          "pokemon": "Durant",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 222,
-          "pokemon": "Corsola",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 686,
-          "pokemon": "Larvesta",
-          "time": "Mañana y Día",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 686,
-          "pokemon": "Larvesta",
-          "time": "Noche",
-          "rate": "7%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 335,
-          "pokemon": "Zangoose",
-          "time": "Mañana y Día",
+          "pid": 778,
+          "pokemon": "Popplio",
+          "time": "Todo el día",
           "rate": "5%",
-          "method": "Hierba"
+          "method": "Surf"
         },
         {
-          "pid": 336,
-          "pokemon": "Seviper",
+          "pid": 866,
+          "pokemon": "Sobble",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 551,
+          "pokemon": "Oshawott",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        },
+        {
+          "pid": 7,
+          "pokemon": "Squirtle",
           "time": "Noche",
-          "rate": "5%",
+          "rate": "8%",
           "method": "Hierba"
         },
         {
-          "pid": 677,
-          "pokemon": "Rufflet",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 679,
-          "pokemon": "Vullaby",
+          "pid": 158,
+          "pokemon": "Totodile",
           "time": "Noche",
-          "rate": "4%",
+          "rate": "6%",
           "method": "Hierba"
         },
         {
-          "pid": 671,
-          "pokemon": "Druddigon",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 826,
-          "pokemon": "Turtonator",
+          "pid": 258,
+          "pokemon": "Mudkip",
           "time": "Noche",
-          "rate": "4%",
+          "rate": "6%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 393,
+          "pokemon": "Piplup",
+          "time": "Noche",
+          "rate": "10%",
           "method": "Hierba"
         }
       ]
@@ -360762,370 +356259,65 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 1017,
-          "pokemon": "Cyclizar",
-          "time": "Mañana y Día",
+          "pid": 956,
+          "pokemon": "Sprigatito",
+          "time": "Todo el día",
           "rate": "20%",
           "method": "Hierba"
         },
         {
-          "pid": 902,
-          "pokemon": "Clobbopus",
-          "time": "Noche",
+          "pid": 772,
+          "pokemon": "Rowlet",
+          "time": "Todo el día",
           "rate": "20%",
           "method": "Hierba"
         },
         {
-          "pid": 357,
-          "pokemon": "Tropius",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 924,
-          "pokemon": "Stonjourner",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 115,
-          "pokemon": "Kangaskhan",
-          "time": "Mañana y Día",
-          "rate": "12%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 359,
-          "pokemon": "Absol",
-          "time": "Noche",
+          "pid": 860,
+          "pokemon": "Grookey",
+          "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 668,
-          "pokemon": "Stunfisk",
-          "time": "Mañana y Día",
+          "pid": 700,
+          "pokemon": "Chespin",
+          "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 829,
-          "pokemon": "Bruxish",
-          "time": "Noche",
+          "pid": 545,
+          "pokemon": "Snivy",
+          "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 352,
-          "pokemon": "Kecleon",
-          "time": "Mañana y Día",
+          "pid": 387,
+          "pokemon": "Turtwig",
+          "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 352,
-          "pokemon": "Kecleon",
-          "time": "Noche",
-          "rate": "10%",
+          "pid": 1,
+          "pokemon": "Bulbasaur",
+          "time": "Todo el día",
+          "rate": "8%",
           "method": "Hierba"
         },
         {
-          "pid": 815,
-          "pokemon": "Oranguru",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 830,
-          "pokemon": "Drampa",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 666,
-          "pokemon": "Shelmet",
-          "time": "Mañana y Día",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 638,
-          "pokemon": "Karrablast",
-          "time": "Noche",
-          "rate": "14%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 115,
-          "pokemon": "Kangaskhan",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Ruta Helada",
-      "region": "Johto",
-      "x": 61.8,
-      "y": 33.4,
-      "desc": "Peligrosa caverna glaciar cubierta de placas resbaladizas entre Caoba y Endrino.",
-      "connections": [
-        "Ruta 44",
-        "Ciudad Endrino"
-      ],
-      "encounters": [
-        {
-          "pid": 361,
-          "pokemon": "Snorunt",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 361,
-          "pokemon": "Snorunt",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 363,
-          "pokemon": "Spheal",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 363,
-          "pokemon": "Spheal",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 663,
-          "pokemon": "Cubchoo",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 663,
-          "pokemon": "Cubchoo",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 220,
-          "pokemon": "Swinub",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 220,
-          "pokemon": "Swinub",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 459,
-          "pokemon": "Snover",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 459,
-          "pokemon": "Snover",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 922,
-          "pokemon": "Snom",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 922,
-          "pokemon": "Snom",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 238,
-          "pokemon": "Smoochum",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 238,
-          "pokemon": "Smoochum",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 124,
-          "pokemon": "Jynx",
-          "time": "Mañana y Día",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 124,
-          "pokemon": "Jynx",
-          "time": "Noche",
-          "rate": "4%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 665,
-          "pokemon": "Cryogonal",
-          "time": "Mañana y Día",
-          "rate": "2%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 665,
-          "pokemon": "Cryogonal",
-          "time": "Noche",
-          "rate": "2%",
-          "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Torre Bellsprout",
-      "region": "Johto",
-      "x": 46.2,
-      "y": 41.7,
-      "desc": "Torre milenaria de monjes que veneran a Bellsprout en Ciudad Malvalba.",
-      "connections": [
-        "Ciudad Malvalba"
-      ],
-      "encounters": [
-        {
-          "pid": 43,
-          "pokemon": "Oddish",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 657,
-          "pokemon": "Litwick",
-          "time": "Noche",
-          "rate": "25%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 69,
-          "pokemon": "Bellsprout",
-          "time": "Mañana y Día",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 325,
-          "pokemon": "Spoink",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 37,
-          "pokemon": "Vulpix",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 92,
-          "pokemon": "Gastly",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 1003,
-          "pokemon": "Rellor",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 446,
-          "pokemon": "Munchlax",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 63,
-          "pokemon": "Abra",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 63,
-          "pokemon": "Abra",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 582,
-          "pokemon": "Timburr",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 438,
-          "pokemon": "Bonsly",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 296,
-          "pokemon": "Makuhita",
-          "time": "Mañana y Día",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 307,
-          "pokemon": "Meditite",
-          "time": "Noche",
-          "rate": "9%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 604,
-          "pokemon": "Darumaka",
-          "time": "Mañana y Día",
+          "pid": 152,
+          "pokemon": "Chikorita",
+          "time": "Todo el día",
           "rate": "6%",
           "method": "Hierba"
         },
         {
-          "pid": 828,
-          "pokemon": "Mimikyu",
-          "time": "Noche",
+          "pid": 252,
+          "pokemon": "Treecko",
+          "time": "Todo el día",
           "rate": "6%",
           "method": "Hierba"
         }
@@ -362292,6 +357484,7 @@ window.CHIRLGOLD_DATA = {
       "Reordenación de Ataques con Botón SELECT: Pulsa SELECT en combate para cambiar el orden de tus movimientos al instante de manera persistente.",
       "Tienda Competitiva & Evolutiva (56 Objetos): Centro Comercial de Trigal y Azulona con Cordón Unión, Restos, Vidasfera, Mineral Evol y piedras.",
       "Traducción Completa al Castellano: Ataques, habilidades, objetos, diálogos y descripciones adaptados con terminología oficial de España.",
+      "Embajadores Regionales de Iniciales: En cada Centro Pokémon de Johto tras vencer al Líder de Gimnasio, desafía al Embajador de una región (Gens 4 a 9) a un combate temático al level cap para recibir de regalo a un inicial de esa región a Nivel 5.",
       "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio para moldear las naturalezas del equipo desde el inicio.",
       "Frame Rate Desbloqueado a 60 FPS: Experiencia visual suave y fluida en emuladores compatibles.",
       "Level Caps Integrados: Curva de niveles calibrada para mantener el desafío sin requerir grindeo excesivo."
