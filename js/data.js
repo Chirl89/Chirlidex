@@ -1,4 +1,5 @@
-/* Pokémon ChirlGold v0.9.0 - Base de Datos Oficial */
+/* Pokémon ChirlGold v0.9.1 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.9.1";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -4500,14 +4501,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [
-        {
-          "route": "Guardia de la puerta norte (Ciudad Trigal)",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Spearow",
@@ -11643,6 +11637,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 30",
           "time": "Noche",
           "rate": "20%",
@@ -11923,7 +11923,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Venonat",
@@ -29624,14 +29631,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ciudad Olivo",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Horsea",
@@ -30613,7 +30613,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Staryu",
@@ -31413,6 +31426,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
         {
           "route": "Cueva Unión",
           "time": "Noche",
@@ -32523,6 +32542,18 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
           "route": "Encinar",
           "time": "Noche",
           "rate": "1%",
@@ -32757,14 +32788,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Magikarp",
@@ -33280,7 +33304,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "route": "Islas Espuma (Kanto)",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "lapras"
@@ -33308,7 +33345,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 144,
-          "name": "Transform",
+          "name": "Transformación",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -33560,12 +33597,6 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
-        {
-          "route": "Casa de Bill (Ciudad Trigal)",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        },
         {
           "route": "Ruta 36",
           "time": "Mañana y Día",
@@ -37669,12 +37700,6 @@ window.CHIRLGOLD_DATA = {
           "method": "Surf"
         },
         {
-          "route": "Guarida Dragón (Ciudad Endrino)",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
           "route": "Parque Nacional",
           "time": "Noche",
           "rate": "10%",
@@ -38675,7 +38700,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 80,
           "id": 144,
-          "name": "Transform",
+          "name": "Transformación",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -38885,12 +38910,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Hierba"
-        },
-        {
-          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
-          "time": "Inicial / Elección",
-          "rate": "100%",
-          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -39588,12 +39607,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Cueva"
-        },
-        {
-          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
-          "time": "Inicial / Elección",
-          "rate": "100%",
-          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -40334,12 +40347,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "6%",
           "method": "Hierba"
-        },
-        {
-          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
-          "time": "Inicial / Elección",
-          "rate": "100%",
-          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -42359,6 +42366,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 30",
           "time": "Mañana y Día",
           "rate": "10%",
@@ -42675,7 +42688,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Spinarak",
@@ -44327,14 +44347,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Huevo del ayudante del Prof. Elm (Ciudad Malvalba)",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Togepi",
@@ -48732,6 +48745,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 31",
           "time": "Mañana y Día",
@@ -54300,10 +54319,16 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Entrega especial (Ciudad Orquídea)",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
         },
         {
           "route": "Encinar",
@@ -54569,6 +54594,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
         {
           "route": "Encinar",
           "time": "Mañana y Día",
@@ -59486,12 +59517,6 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
-        {
-          "route": "Maestro del Monte Mortero",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        },
         {
           "route": "Ruta 35",
           "time": "Noche",
@@ -73731,6 +73756,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 30",
           "time": "Noche",
           "rate": "9%",
@@ -74076,7 +74107,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nincada",
@@ -79399,6 +79437,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "route": "Encinar",
           "time": "Mañana y Día",
           "rate": "5%",
@@ -79591,6 +79635,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
         {
           "route": "Encinar",
           "time": "Noche",
@@ -85397,6 +85447,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 33",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 47",
           "time": "Noche",
           "rate": "5%",
@@ -88498,14 +88554,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 35",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Feebas",
@@ -89221,6 +89270,18 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ruta 43",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Bosque Verde (Kanto)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 48",
           "time": "Mañana y Día",
@@ -90485,6 +90546,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ruta 43",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 48",
           "time": "Mañana y Día",
@@ -92607,7 +92674,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Clamperl",
@@ -97372,12 +97446,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -98035,12 +98103,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -98722,12 +98784,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -103284,6 +103340,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "route": "Encinar",
           "time": "Mañana y Día",
           "rate": "20%",
@@ -104399,6 +104461,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 46",
           "time": "Mañana y Día",
@@ -113676,14 +113744,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ciudad Olivo",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Mantyke",
@@ -123360,12 +123421,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -124079,12 +124134,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -124846,12 +124895,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "1%",
           "method": "Surf"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -135380,6 +135423,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 46",
           "time": "Mañana y Día",
           "rate": "10%",
@@ -135923,6 +135972,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 46",
           "time": "Mañana y Día",
@@ -146397,6 +146452,18 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 11 (Kanto)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 48",
           "time": "Noche",
           "rate": "14%",
@@ -147469,14 +147536,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 34",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Frillish",
@@ -153652,6 +153712,18 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 38",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 11 (Kanto)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 48",
           "time": "Mañana y Día",
           "rate": "14%",
@@ -157039,7 +157111,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 47",
           "time": "Noche",
-          "rate": "4%",
+          "rate": "5%",
           "method": "Hierba"
         }
       ],
@@ -162213,12 +162285,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -162986,12 +163052,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -163759,12 +163819,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "30%",
           "method": "Surf"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -166827,6 +166881,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 35",
           "time": "Mañana y Día",
@@ -171923,14 +171983,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Skrelp",
@@ -172427,14 +172480,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 32",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Clauncher",
@@ -176669,6 +176715,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Encinar",
           "time": "Noche",
           "rate": "10%",
@@ -180385,12 +180437,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -181298,12 +181344,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Cueva"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -182111,12 +182151,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "5%",
           "method": "Surf"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -188485,6 +188519,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 30",
           "time": "Noche",
           "rate": "10%",
@@ -190985,6 +191025,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 48",
           "time": "Mañana y Día",
           "rate": "14%",
@@ -191688,7 +191734,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Sandygast",
@@ -192135,7 +192188,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "pyukumuku"
@@ -193269,6 +193329,18 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Túnel Roca (Kanto)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
           "route": "Ruta 47",
           "time": "Noche",
           "rate": "4%",
@@ -193821,6 +193893,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
           "route": "Ruta 48",
           "time": "Noche",
           "rate": "10%",
@@ -194004,6 +194082,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Monte Plateado",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 48",
           "time": "Noche",
@@ -201236,12 +201320,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -201835,12 +201913,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
-        },
-        {
-          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -202404,12 +202476,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
-        },
-        {
-          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -206528,6 +206594,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 31",
           "time": "Noche",
           "rate": "24%",
@@ -207780,14 +207852,7 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 34",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        }
-      ],
+      "encounters": [],
       "family_tree": [
         {
           "name": "Arrokuda",
@@ -208921,6 +208986,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
         {
           "route": "Ruta 48",
           "time": "Noche",
@@ -211001,7 +211072,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 17 (Camino de Bicis)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "obstagoon"
@@ -211187,7 +211271,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Túnel Roca (Kanto)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "perrserker"
@@ -211353,7 +211450,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "cursola"
@@ -211559,7 +211663,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 24 / 25 (Kanto)",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sirfetchd"
@@ -211886,7 +212003,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Islas Espuma (Kanto)",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "mrrime"
@@ -212093,7 +212223,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "runerigus"
@@ -213281,6 +213418,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "route": "Ruta 48",
           "time": "Noche",
@@ -218688,7 +218831,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "sneasler"
@@ -218885,7 +219035,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "overqwil"
@@ -219244,12 +219401,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Hierba"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -219927,12 +220078,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Cueva"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -220590,12 +220735,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "60%",
           "method": "Surf"
-        },
-        {
-          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -221670,7 +221809,20 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Bosque Verde (Kanto)",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tarountula",
@@ -232309,6 +232461,18 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 39",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 17 (Camino de Bicis)",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 48",
           "time": "Mañana y Día",
           "rate": "20%",
@@ -234939,7 +235103,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "clodsire"
@@ -235849,10 +236020,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Islas Espuma (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -236043,9 +236214,9 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
-          "rate": "10%",
+          "route": "Bosque Verde (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
           "method": "Hierba"
         }
       ],
@@ -236227,8 +236398,8 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Bosque Verde (Kanto)",
+          "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         }
@@ -236431,10 +236602,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Noche",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -236645,8 +236816,8 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Bosque Verde (Kanto)",
+          "time": "Mañana y Día",
           "rate": "10%",
           "method": "Hierba"
         }
@@ -236859,10 +237030,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
-          "rate": "10%",
-          "method": "Hierba"
+          "route": "Islas Espuma (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -237053,9 +237224,9 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
-          "rate": "10%",
+          "route": "Ruta 10 (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
           "method": "Hierba"
         }
       ],
@@ -237237,10 +237408,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Mañana y Día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -237451,8 +237622,8 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
+          "route": "Ruta 10 (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
         }
@@ -237655,10 +237826,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
+          "route": "Cueva Celeste (Kanto)",
           "time": "Noche",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -237869,10 +238040,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
+          "route": "Túnel Roca (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -238083,8 +238254,8 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
+          "route": "Ruta 10 (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
         }
@@ -240047,10 +240218,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -240261,10 +240432,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -240839,10 +241010,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Islas Espuma (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -241063,10 +241234,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -243129,10 +243300,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -243343,10 +243514,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Día",
+          "route": "Cueva Celeste (Kanto)",
+          "time": "Mañana y Día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -243547,10 +243718,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
+          "route": "Túnel Roca (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -243751,10 +243922,10 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "route": "Parque Nacional",
-          "time": "Noche",
+          "route": "Túnel Roca (Kanto)",
+          "time": "Todo el día",
           "rate": "10%",
-          "method": "Hierba"
+          "method": "Cueva"
         }
       ],
       "family_tree": null,
@@ -280658,7 +280829,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 144,
-      "name": "Transform",
+      "name": "Transformación",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
@@ -358385,211 +358556,6 @@ window.CHIRLGOLD_DATA = {
   ],
   "routes": [
     {
-      "name": "Casa de Bill (Ciudad Trigal)",
-      "region": "Johto",
-      "x": 32.7,
-      "y": 63.0,
-      "desc": "Hogar familiar de Bill en Ciudad Trigal donde te regala a Eevee.",
-      "connections": [
-        "Ciudad Trigal"
-      ],
-      "encounters": [
-        {
-          "pid": 133,
-          "pokemon": "Eevee",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 956,
-          "pokemon": "Sprigatito",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 959,
-          "pokemon": "Fuecoco",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 962,
-          "pokemon": "Quaxly",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 387,
-          "pokemon": "Turtwig",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 390,
-          "pokemon": "Chimchar",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 393,
-          "pokemon": "Piplup",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 700,
-          "pokemon": "Chespin",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 703,
-          "pokemon": "Fennekin",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 706,
-          "pokemon": "Froakie",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 772,
-          "pokemon": "Rowlet",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 775,
-          "pokemon": "Litten",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 778,
-          "pokemon": "Popplio",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 545,
-          "pokemon": "Snivy",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 548,
-          "pokemon": "Tepig",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 551,
-          "pokemon": "Oshawott",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
-      "region": "Johto",
-      "x": 50,
-      "y": 50,
-      "desc": "Zona de la región de Johto.",
-      "connections": [],
-      "encounters": [
-        {
-          "pid": 860,
-          "pokemon": "Grookey",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 863,
-          "pokemon": "Scorbunny",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        },
-        {
-          "pid": 866,
-          "pokemon": "Sobble",
-          "time": "Regalo / Elección Nv. 5",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
       "name": "Ciudad Olivo",
       "region": "Johto",
       "x": 28.0,
@@ -358601,18 +358567,25 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 458,
-          "pokemon": "Mantyke",
+          "pid": 902,
+          "pokemon": "Clobbopus",
           "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
+          "rate": "5%",
+          "method": "Surf"
         },
         {
-          "pid": 116,
-          "pokemon": "Horsea",
+          "pid": 120,
+          "pokemon": "Staryu",
           "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 819,
+          "pokemon": "Sandygast",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
         },
         {
           "pid": 789,
@@ -358659,6 +358632,13 @@ window.CHIRLGOLD_DATA = {
       "desc": "Zona de la región de Johto.",
       "connections": [],
       "encounters": [
+        {
+          "pid": 821,
+          "pokemon": "Pyukumuku",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
         {
           "pid": 797,
           "pokemon": "Mareanie",
@@ -358766,6 +358746,23 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Cueva"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Oscura",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 913,
+          "pokemon": "Perrserker",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         }
       ]
     },
@@ -358915,6 +358912,13 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 131,
+          "pokemon": "Lapras",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
           "pid": 111,
           "pokemon": "Rhyhorn",
           "time": "Mañana y Día",
@@ -359054,6 +359058,20 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 815,
+          "pokemon": "Oranguru",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 915,
+          "pokemon": "Sirfetch’d",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "pid": 415,
           "pokemon": "Combee",
           "time": "Mañana y Día",
@@ -359178,47 +359196,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "1%",
           "method": "Hierba"
-        }
-      ]
-    },
-    {
-      "name": "Entrega especial (Ciudad Orquídea)",
-      "region": "Johto",
-      "x": 17.1,
-      "y": 63.1,
-      "desc": "Población costera al otro lado del mar donde te entregan a Shuckle para cuidarlo.",
-      "connections": [
-        "Ciudad Orquídea",
-        "Ruta 41",
-        "Ruta 47"
-      ],
-      "encounters": [
-        {
-          "pid": 213,
-          "pokemon": "Shuckle",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Guardia de la puerta norte (Ciudad Trigal)",
-      "region": "Johto",
-      "x": 32.7,
-      "y": 57.3,
-      "desc": "Puesto fronterizo norte de Ciudad Trigal que da paso a la Ruta 35.",
-      "connections": [
-        "Ciudad Trigal",
-        "Ruta 35"
-      ],
-      "encounters": [
-        {
-          "pid": 21,
-          "pokemon": "Spearow",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ]
     },
@@ -359378,85 +359355,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
-        },
-        {
-          "pid": 147,
-          "pokemon": "Dratini",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Huevo del ayudante del Prof. Elm (Ciudad Malvalba)",
-      "region": "Johto",
-      "x": 46.2,
-      "y": 48.3,
-      "desc": "Tienda Pokémon de Ciudad Malvalba donde el ayudante entrega el huevo misterioso.",
-      "connections": [
-        "Ciudad Malvalba"
-      ],
-      "encounters": [
-        {
-          "pid": 175,
-          "pokemon": "Togepi",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
-        }
-      ]
-    },
-    {
-      "name": "Laboratorio del Prof. Elm (Pueblo Primavera)",
-      "region": "Johto",
-      "x": 67.1,
-      "y": 71.5,
-      "desc": "Laboratorio de investigación donde el Prof. Elm entrega el Pokémon inicial.",
-      "connections": [
-        "Pueblo Primavera",
-        "Ruta 29"
-      ],
-      "encounters": [
-        {
-          "pid": 152,
-          "pokemon": "Chikorita",
-          "time": "Inicial / Elección",
-          "rate": "100%",
-          "method": "Inicial"
-        },
-        {
-          "pid": 155,
-          "pokemon": "Cyndaquil",
-          "time": "Inicial / Elección",
-          "rate": "100%",
-          "method": "Inicial"
-        },
-        {
-          "pid": 158,
-          "pokemon": "Totodile",
-          "time": "Inicial / Elección",
-          "rate": "100%",
-          "method": "Inicial"
-        }
-      ]
-    },
-    {
-      "name": "Maestro del Monte Mortero",
-      "region": "Johto",
-      "x": 44.4,
-      "y": 31.3,
-      "desc": "Profundidades del Monte Mortero donde el Maestro Karateka entrega a Tyrogue.",
-      "connections": [
-        "Monte Mortero"
-      ],
-      "encounters": [
-        {
-          "pid": 236,
-          "pokemon": "Tyrogue",
-          "time": "Regalo",
-          "rate": "100%",
-          "method": "Regalo"
         }
       ]
     },
@@ -359470,6 +359368,13 @@ window.CHIRLGOLD_DATA = {
         "Ruta 42"
       ],
       "encounters": [
+        {
+          "pid": 953,
+          "pokemon": "Sneasler",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
         {
           "pid": 299,
           "pokemon": "Nosepass",
@@ -359610,143 +359515,164 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 1034,
-          "pokemon": "Colmilargo",
+          "pid": 123,
+          "pokemon": "Scyther",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 127,
+          "pokemon": "Pinsir",
+          "time": "Día",
+          "rate": "20%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 214,
+          "pokemon": "Heracross",
+          "time": "Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 719,
+          "pokemon": "Flabébé",
           "time": "Día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1035,
-          "pokemon": "Colagrito",
+          "pid": 596,
+          "pokemon": "Cottonee",
           "time": "Día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1036,
-          "pokemon": "Furioseta",
+          "pid": 598,
+          "pokemon": "Petilil",
           "time": "Día",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pid": 890,
+          "pokemon": "Applin",
           "time": "Día",
-          "rate": "10%",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
-          "pid": 1038,
-          "pokemon": "Reptalada",
+          "pid": 191,
+          "pokemon": "Sunkern",
           "time": "Día",
-          "rate": "10%",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
-          "pid": 1039,
-          "pokemon": "Pelarena",
+          "pid": 420,
+          "pokemon": "Cherubi",
           "time": "Día",
-          "rate": "10%",
+          "rate": "4%",
           "method": "Hierba"
         },
         {
-          "pid": 1055,
-          "pokemon": "Bramaluna",
+          "pid": 415,
+          "pokemon": "Combee",
           "time": "Día",
-          "rate": "10%",
+          "rate": "4%",
           "method": "Hierba"
         },
         {
-          "pid": 1059,
-          "pokemon": "Ondulagua",
+          "pid": 213,
+          "pokemon": "Shuckle",
           "time": "Día",
-          "rate": "10%",
+          "rate": "1%",
           "method": "Hierba"
         },
         {
-          "pid": 1070,
-          "pokemon": "Flamariete",
-          "time": "Día",
-          "rate": "10%",
+          "pid": 167,
+          "pokemon": "Spinarak",
+          "time": "Noche",
+          "rate": "20%",
           "method": "Hierba"
         },
         {
-          "pid": 1071,
-          "pokemon": "Electrofuria",
-          "time": "Día",
-          "rate": "10%",
+          "pid": 48,
+          "pokemon": "Venonat",
+          "time": "Noche",
+          "rate": "20%",
           "method": "Hierba"
         },
         {
-          "pid": 1040,
-          "pokemon": "Ferrodada",
+          "pid": 168,
+          "pokemon": "Ariados",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1041,
-          "pokemon": "Ferrosaco",
+          "pid": 49,
+          "pokemon": "Venomoth",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pid": 758,
+          "pokemon": "Phantump",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pid": 805,
+          "pokemon": "Morelull",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         },
         {
-          "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pid": 290,
+          "pokemon": "Nincada",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
-          "pid": 1045,
-          "pokemon": "Ferropúas",
+          "pid": 314,
+          "pokemon": "Illumise",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
-          "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pid": 313,
+          "pokemon": "Volbeat",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "4%",
           "method": "Hierba"
         },
         {
-          "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pid": 291,
+          "pokemon": "Ninjask",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "4%",
           "method": "Hierba"
         },
         {
-          "pid": 1072,
-          "pokemon": "Ferromole",
+          "pid": 213,
+          "pokemon": "Shuckle",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "1%",
           "method": "Hierba"
         },
         {
-          "pid": 1073,
-          "pokemon": "Ferrotesta",
+          "pid": 127,
+          "pokemon": "Pinsir",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "1%",
           "method": "Hierba"
         },
         {
@@ -359978,6 +359904,13 @@ window.CHIRLGOLD_DATA = {
         "Cueva Unión"
       ],
       "encounters": [
+        {
+          "pid": 917,
+          "pokemon": "Runerigus",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        },
         {
           "pid": 177,
           "pokemon": "Natu",
@@ -360251,6 +360184,13 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 967,
+          "pokemon": "Tarountula",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "pid": 786,
           "pokemon": "Grubbin",
           "time": "Mañana y Día",
@@ -360482,18 +360422,11 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 740,
-          "pokemon": "Skrelp",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        },
-        {
-          "pid": 742,
-          "pokemon": "Clauncher",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
+          "pid": 1030,
+          "pokemon": "Clodsire",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
         },
         {
           "pid": 270,
@@ -360606,6 +360539,13 @@ window.CHIRLGOLD_DATA = {
         "Pueblo Azalea"
       ],
       "encounters": [
+        {
+          "pid": 336,
+          "pokemon": "Seviper",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "pid": 216,
           "pokemon": "Teddiursa",
@@ -360751,20 +360691,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "pid": 896,
-          "pokemon": "Arrokuda",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        },
-        {
-          "pid": 642,
-          "pokemon": "Frillish",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
         },
         {
           "pid": 96,
@@ -360990,20 +360916,6 @@ window.CHIRLGOLD_DATA = {
         "Ruta 36"
       ],
       "encounters": [
-        {
-          "pid": 349,
-          "pokemon": "Feebas",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        },
-        {
-          "pid": 129,
-          "pokemon": "Magikarp",
-          "time": "Todo el día",
-          "rate": "Pesca (Caña Vieja)",
-          "method": "Pesca"
-        },
         {
           "pid": 719,
           "pokemon": "Flabébé",
@@ -361389,6 +361301,20 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 666,
+          "pokemon": "Shelmet",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 638,
+          "pokemon": "Karrablast",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "pid": 278,
           "pokemon": "Wingull",
           "time": "Mañana y Día",
@@ -361528,6 +361454,20 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 1017,
+          "pokemon": "Cyclizar",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 912,
+          "pokemon": "Obstagoon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "pid": 809,
           "pokemon": "Stufful",
           "time": "Mañana y Día",
@@ -361664,6 +361604,20 @@ window.CHIRLGOLD_DATA = {
       "connections": [],
       "encounters": [
         {
+          "pid": 829,
+          "pokemon": "Bruxish",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 120,
+          "pokemon": "Staryu",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
           "pid": 170,
           "pokemon": "Chinchou",
           "time": "Todo el día",
@@ -361694,6 +361648,20 @@ window.CHIRLGOLD_DATA = {
       "desc": "Zona de la región de Johto.",
       "connections": [],
       "encounters": [
+        {
+          "pid": 366,
+          "pokemon": "Clamperl",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 954,
+          "pokemon": "Overqwil",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
         {
           "pid": 223,
           "pokemon": "Remoraid",
@@ -361883,6 +361851,20 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 357,
+          "pokemon": "Tropius",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 352,
+          "pokemon": "Kecleon",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
           "pid": 193,
           "pokemon": "Yanma",
           "time": "Mañana y Día",
@@ -361952,6 +361934,13 @@ window.CHIRLGOLD_DATA = {
         "Cueva Oscura"
       ],
       "encounters": [
+        {
+          "pid": 924,
+          "pokemon": "Stonjourner",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
         {
           "pid": 744,
           "pokemon": "Helioptile",
@@ -362142,6 +362131,20 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 914,
+          "pokemon": "Cursola",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 679,
+          "pokemon": "Vullaby",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
           "pid": 660,
           "pokemon": "Axew",
           "time": "Mañana y Día",
@@ -362265,13 +362268,6 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Seviper",
           "time": "Noche",
           "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 679,
-          "pokemon": "Vullaby",
-          "time": "Noche",
-          "rate": "4%",
           "method": "Hierba"
         },
         {
@@ -362475,6 +362471,13 @@ window.CHIRLGOLD_DATA = {
         "Ciudad Endrino"
       ],
       "encounters": [
+        {
+          "pid": 916,
+          "pokemon": "Mr. Rime",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
         {
           "pid": 361,
           "pokemon": "Snorunt",
@@ -362750,6 +362753,13 @@ window.CHIRLGOLD_DATA = {
       "connections": [],
       "encounters": [
         {
+          "pid": 826,
+          "pokemon": "Turtonator",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
           "pid": 58,
           "pokemon": "Growlithe",
           "time": "Mañana y Día",
@@ -362860,6 +362870,320 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Bosque Verde (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1038,
+          "pokemon": "Reptalada",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1036,
+          "pokemon": "Furioseta",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1035,
+          "pokemon": "Colagrito",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 352,
+          "pokemon": "Kecleon",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 967,
+          "pokemon": "Tarountula",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Cueva Celeste (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1071,
+          "pokemon": "Electrofuria",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1037,
+          "pokemon": "Melenaleteo",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1041,
+          "pokemon": "Ferrosaco",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1043,
+          "pokemon": "Ferrocuello",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1055,
+          "pokemon": "Bramaluna",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1056,
+          "pokemon": "Ferropaladín",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1070,
+          "pokemon": "Flamariete",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1060,
+          "pokemon": "Ferroverdor",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ]
+    },
+    {
+      "name": "Islas Espuma (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1059,
+          "pokemon": "Ondulagua",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1034,
+          "pokemon": "Colmilargo",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1039,
+          "pokemon": "Pelarena",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 916,
+          "pokemon": "Mr. Rime",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 131,
+          "pokemon": "Lapras",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ]
+    },
+    {
+      "name": "Monte Plateado",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 830,
+          "pokemon": "Drampa",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 10 (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1042,
+          "pokemon": "Ferropalmas",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1045,
+          "pokemon": "Ferropúas",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1040,
+          "pokemon": "Ferrodada",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 11 (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 666,
+          "pokemon": "Shelmet",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 638,
+          "pokemon": "Karrablast",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 17 (Camino de Bicis)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1017,
+          "pokemon": "Cyclizar",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 912,
+          "pokemon": "Obstagoon",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Ruta 24 / 25 (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 915,
+          "pokemon": "Sirfetch’d",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ]
+    },
+    {
+      "name": "Túnel Roca (Kanto)",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1072,
+          "pokemon": "Ferromole",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1073,
+          "pokemon": "Ferrotesta",
+          "time": "Todo el día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 1044,
+          "pokemon": "Ferropolilla",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 826,
+          "pokemon": "Turtonator",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 913,
+          "pokemon": "Perrserker",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
         }
       ]
     }
@@ -364022,10 +364346,17 @@ window.CHIRLGOLD_DATA = {
       "Repartir Experiencia Moderno (EXP All Gen 6+): Todos los Pokémon del equipo reciben experiencia tras cada batalla sin restar puntos a los combatientes activos.",
       "Curación Automática Pre-Boss: El equipo se cura por completo (PS, PP y estados) justo antes de combatir contra Líderes de Gimnasio y Rivales.",
       "Reordenación de Ataques con Botón SELECT: Pulsa SELECT en combate para cambiar el orden de tus movimientos al instante de manera persistente.",
-      "Tienda Competitiva & Evolutiva (56 Objetos): Centro Comercial de Trigal y Azulona con Cordón Unión, Restos, Vidasfera, Mineral Evol y piedras.",
+      "Inspección Táctica en Combate (Botón START o L/R): Consulta en pantalla superior una ventana interactiva de 3 páginas con modificadores de estadísticas (-6 a +6) propias y del rival, y turnos restantes de clima (Lluvia, Sol, Tormenta de Arena, Granizo) y barreras (Reflejo, Pantalla de Luz, Espacio Raro).",
+      "Visualizador de IVs y EVs en el Sumario (Botón SELECT): Alterna en tiempo real entre Estadísticas Calculadas, IVs exactos (0-31) y EVs acumulados (0-252) con coloreado por naturaleza (verde incremento, rojo reducción) en el equipo y cajas del PC.",
+      "Supresión de Dependencia de MOs en Equipo: Ejecuta Corte, Surf, Fuerza, Golpe Roca, Cascada, Treparrocas y Torbellino directamente teniendo la Medalla y el ítem MO en la Mochila, y vuela desde el menú del equipo con cualquier Pokémon.",
+      "Modo de Combate 'Sin Cambios' Permanente (Set Mode): Combates dinámicos y competitivos sin pantalla de aviso de cambio de Pokémon cuando el rival saca un nuevo miembro.",
+      "6 Embajadores Regionales de Iniciales: En los Centros Pokémon de Johto tras ganar cada medalla, desafía a los embajadores de Teselia, Sinnoh, Alola, Kalos, Galar y Paldea a combates temáticos al level cap para recibir a los iniciales a Nivel 5 con objetos competitivos.",
+      "Ecosistema Safari con 27 Iniciales Salvajes: Iniciales de todas las generaciones capturables en estado salvaje en las Rutas 47, 48 y Cueva Acantilado.",
+      "8 Familias Pseudolegendarias en Guarida Dragón: Captura en su hábitat natural a Dratini, Larvitar, Bagon, Beldum, Gible, Deino, Goomy y Dreepy.",
+      "Evento Endgame de Celebi & Giovanni: Al vencer la Liga Pokémon, viaja en el tiempo en el Altar del Encinar para enfrentarte a Giovanni con un equipo competitivo escalado a tu nivel y captura a Celebi Nivel 50 post-evento.",
+      "Tienda Competitiva & Evolutiva (56 Objetos): Centros Comerciales de Trigal y Azulona con Cordón Unión, Restos, Vidasfera, Mineral Evolutivo y piedras evolutivas a precios accesibles de 4 dígitos.",
+      "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio del Profesor Elm para adaptar naturalezas sin grindeo.",
       "Traducción Completa al Castellano: Ataques, habilidades, objetos, diálogos y descripciones adaptados con terminología oficial de España.",
-      "Embajadores Regionales de Iniciales: En cada Centro Pokémon de Johto tras vencer al Líder de Gimnasio, desafía al Embajador de una región (Gens 4 a 9) a un combate temático al level cap para recibir de regalo a un inicial de esa región a Nivel 5.",
-      "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio para moldear las naturalezas del equipo desde el inicio.",
       "Frame Rate Desbloqueado a 60 FPS: Experiencia visual suave y fluida en emuladores compatibles.",
       "Level Caps Integrados: Curva de niveles calibrada para mantener el desafío sin requerir grindeo excesivo."
     ],
