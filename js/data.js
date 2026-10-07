@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.9.1 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.9.1";
+/* Pokémon ChirlGold v0.9.2 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.9.2";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -364343,6 +364343,8 @@ window.CHIRLGOLD_DATA = {
   ],
   "features": {
     "qol": [
+      "Megaevolución Funcional Completa: Desbloquea el Mega-Aro en cualquier Tienda Pokémon tras obtener la 5.ª Medalla (Aníbal/Orquídea). Equipa la Megapiedra a tu Pokémon y pulsa el botón táctil de Megaevolución antes de atacar para transformarlo al instante.",
+      "Acceso Portátil al PC (Botón L / L1): Pulsa L en el mapa en cualquier momento fuera de combate para abrir y gestionar las Cajas Pokémon de tu PC sin necesidad de acudir a un Centro Pokémon.",
       "Repartir Experiencia Moderno (EXP All Gen 6+): Todos los Pokémon del equipo reciben experiencia tras cada batalla sin restar puntos a los combatientes activos.",
       "Curación Automática Pre-Boss: El equipo se cura por completo (PS, PP y estados) justo antes de combatir contra Líderes de Gimnasio y Rivales.",
       "Reordenación de Ataques con Botón SELECT: Pulsa SELECT en combate para cambiar el orden de tus movimientos al instante de manera persistente.",
@@ -364354,6 +364356,8 @@ window.CHIRLGOLD_DATA = {
       "Ecosistema Safari con 27 Iniciales Salvajes: Iniciales de todas las generaciones capturables en estado salvaje en las Rutas 47, 48 y Cueva Acantilado.",
       "8 Familias Pseudolegendarias en Guarida Dragón: Captura en su hábitat natural a Dratini, Larvitar, Bagon, Beldum, Gible, Deino, Goomy y Dreepy.",
       "Evento Endgame de Celebi & Giovanni: Al vencer la Liga Pokémon, viaja en el tiempo en el Altar del Encinar para enfrentarte a Giovanni con un equipo competitivo escalado a tu nivel y captura a Celebi Nivel 50 post-evento.",
+      "Objetos de Calidad de Vida Infinitos: Caramelo Raro Infinito, Bolsa de Curación Infinita (Pocket Heal) y Repelente Infinito entregados por el ayudante del Profesor Elm.",
+      "Escamas Corazón y Master Balls Gratuitas: Escamas Corazón gratis tras 7 medallas (para recordar movimientos ilimitados) y Master Balls gratis tras 8 medallas en Tiendas Pokémon.",
       "Tienda Competitiva & Evolutiva (56 Objetos): Centros Comerciales de Trigal y Azulona con Cordón Unión, Restos, Vidasfera, Mineral Evolutivo y piedras evolutivas a precios accesibles de 4 dígitos.",
       "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio del Profesor Elm para adaptar naturalezas sin grindeo.",
       "Traducción Completa al Castellano: Ataques, habilidades, objetos, diálogos y descripciones adaptados con terminología oficial de España.",
