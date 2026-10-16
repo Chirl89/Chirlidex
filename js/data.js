@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.9.2 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.9.23";
+/* Pokémon ChirlGold v0.9.23 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.9.24";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -523,7 +523,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -543,7 +543,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -743,7 +743,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -3149,7 +3149,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -4377,7 +4377,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Vista Lince",
-        "-"
+        "Francotirador"
       ],
       "learnset": [
         {
@@ -4552,7 +4552,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Vista Lince",
-        "-"
+        "Francotirador"
       ],
       "learnset": [
         {
@@ -5296,7 +5296,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Pararrayos"
       ],
       "learnset": [
         {
@@ -5322,7 +5322,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -5472,7 +5472,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -5627,7 +5627,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Pararrayos"
       ],
       "learnset": [
         {
@@ -5673,7 +5673,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -5925,7 +5925,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Arena",
-        "-"
+        "Ímpetu Arena"
       ],
       "learnset": [
         {
@@ -6180,7 +6180,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Arena",
-        "-"
+        "Ímpetu Arena"
       ],
       "learnset": [
         {
@@ -7950,7 +7950,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -8070,7 +8070,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -8316,7 +8316,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -8346,7 +8346,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -8660,7 +8660,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 9,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -8700,7 +8700,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 18,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -9123,7 +9123,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gran Encanto",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -9139,7 +9139,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -9259,7 +9259,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -9496,7 +9496,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gran Encanto",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -9512,7 +9512,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -9784,7 +9784,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Fuerza Mental",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -10021,7 +10021,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Fuerza Mental",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -10291,7 +10291,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Fuga"
       ],
       "learnset": [
         {
@@ -10427,7 +10427,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 39,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -10541,7 +10541,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Hedor"
       ],
       "learnset": [
         {
@@ -10707,7 +10707,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -10717,7 +10717,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -10815,13 +10815,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Efecto Espora"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -10831,7 +10831,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -10921,7 +10921,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -10991,7 +10991,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -15587,7 +15587,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -15853,7 +15853,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -16572,7 +16572,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -16871,7 +16871,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -17088,7 +17088,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -17318,13 +17318,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -17334,7 +17334,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -18564,7 +18564,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -18634,7 +18634,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 540,
-          "name": "Rodillo de Púas",
+          "name": "Rodillo Púas",
           "type": "Bicho",
           "cat": "Físico",
           "power": 65,
@@ -18754,7 +18754,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -19040,7 +19040,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 687,
-          "name": "Cuerno Certero",
+          "name": "CuernoCerte.",
           "type": "Acero",
           "cat": "Físico",
           "power": 70,
@@ -19060,7 +19060,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 687,
-          "name": "Cuerno Certero",
+          "name": "CuernoCerte.",
           "type": "Acero",
           "cat": "Físico",
           "power": 70,
@@ -19240,7 +19240,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 719,
-          "name": "Electropunzada",
+          "name": "Electropunz.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 80,
@@ -20123,7 +20123,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -21890,7 +21890,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -21900,7 +21900,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -24520,7 +24520,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -25045,7 +25045,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -26667,7 +26667,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -27003,7 +27003,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 8,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -27482,7 +27482,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Levitación",
-        "-"
+        "Humo Blanco"
       ],
       "learnset": [
         {
@@ -27722,7 +27722,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Levitación",
-        "-"
+        "Humo Blanco"
       ],
       "learnset": [
         {
@@ -28589,7 +28589,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -29135,7 +29135,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -30924,7 +30924,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -30994,7 +30994,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -31214,7 +31214,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -31829,7 +31829,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -32067,7 +32067,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Llama",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -32667,7 +32667,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 876,
-          "name": "Furia Taurina",
+          "name": "FuriaTaurina",
           "type": "Normal",
           "cat": "Físico",
           "power": 90,
@@ -32754,7 +32754,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Cobardía"
       ],
       "learnset": [
         {
@@ -32838,7 +32838,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Intimidación",
-        "-"
+        "Autoestima"
       ],
       "learnset": [
         {
@@ -33339,7 +33339,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Flexibilidad",
-        "-"
+        "Impostor"
       ],
       "learnset": [
         {
@@ -33488,7 +33488,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -33755,7 +33755,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Agua",
-        "-"
+        "Hidratación"
       ],
       "learnset": [
         {
@@ -33921,7 +33921,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -34146,7 +34146,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Elec",
-        "-"
+        "Pies Rápidos"
       ],
       "learnset": [
         {
@@ -34312,7 +34312,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -34537,7 +34537,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "-"
+        "Agallas"
       ],
       "learnset": [
         {
@@ -34693,7 +34693,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -36761,7 +36761,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -36811,7 +36811,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -36876,7 +36876,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Manto Níveo"
       ],
       "learnset": [
         {
@@ -36972,7 +36972,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 38,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -37083,7 +37083,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Elec. Estática"
       ],
       "learnset": [
         {
@@ -37249,7 +37249,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 77,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -37290,7 +37290,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Cuerpo Llama"
       ],
       "learnset": [
         {
@@ -38338,7 +38338,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Nerviosismo"
       ],
       "learnset": [
         {
@@ -39198,7 +39198,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -39228,7 +39228,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -39771,7 +39771,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 847,
-          "name": "Marcha Espectral",
+          "name": "M. Espectral",
           "type": "Fantasma",
           "cat": "Especial",
           "power": 60,
@@ -42356,7 +42356,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 675,
-          "name": "Hilo Venenoso",
+          "name": "HiloVenenoso",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -42470,7 +42470,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -42480,7 +42480,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -42680,7 +42680,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 63,
           "id": 675,
-          "name": "Hilo Venenoso",
+          "name": "HiloVenenoso",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -42744,7 +42744,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Fuerza Mental",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -43218,7 +43218,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -43550,7 +43550,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -43606,7 +43606,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Pararrayos"
       ],
       "learnset": [
         {
@@ -43672,7 +43672,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -43869,7 +43869,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -44063,7 +44063,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -44418,7 +44418,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -44428,7 +44428,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -44528,7 +44528,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 14,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -44757,7 +44757,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -44999,7 +44999,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -45059,7 +45059,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 17,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -45215,7 +45215,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Más"
       ],
       "learnset": [
         {
@@ -45438,7 +45438,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Más"
       ],
       "learnset": [
         {
@@ -45674,7 +45674,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Más"
       ],
       "learnset": [
         {
@@ -45710,7 +45710,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -45720,7 +45720,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -45988,13 +45988,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Alma Cura"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -46014,7 +46014,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -46104,7 +46104,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -46224,7 +46224,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -47112,7 +47112,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -47571,7 +47571,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -47868,7 +47868,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -48158,7 +48158,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -48993,7 +48993,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -49727,7 +49727,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sincronía",
-        "-"
+        "Espejo Mágico"
       ],
       "learnset": [
         {
@@ -49883,7 +49883,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -50108,7 +50108,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sincronía",
-        "-"
+        "Fuerza Mental"
       ],
       "learnset": [
         {
@@ -50294,7 +50294,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -51100,7 +51100,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -51279,7 +51279,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sombra Trampa",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -51687,7 +51687,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Robustez",
-        "-"
+        "Funda"
       ],
       "learnset": [
         {
@@ -51894,7 +51894,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Robustez",
-        "-"
+        "Funda"
       ],
       "learnset": [
         {
@@ -51940,7 +51940,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -52160,7 +52160,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -52394,11 +52394,11 @@ window.CHIRLGOLD_DATA = {
           "evolves_to": [
             {
               "name": "Dudunsparce",
-              "id": 1032,
+              "id": "dudunsparce",
               "types": [
                 "Normal"
               ],
-              "slug": "dudunsparce",
+              "slug": "",
               "evolves_to": [],
               "method": "Conocer Hipertaladro",
               "method_type": "move",
@@ -53472,7 +53472,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -53612,7 +53612,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 34,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -54535,7 +54535,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -54822,7 +54822,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -55192,7 +55192,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -57294,7 +57294,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -58438,7 +58438,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Recogida",
-        "-"
+        "Velo Arena"
       ],
       "learnset": [
         {
@@ -58627,7 +58627,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Robustez",
-        "-"
+        "Velo Arena"
       ],
       "learnset": [
         {
@@ -59229,7 +59229,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 831,
-          "name": "Asalto Barrera",
+          "name": "AsaltoBarrer",
           "type": "Psíquico",
           "cat": "Físico",
           "power": 70,
@@ -59855,7 +59855,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -60253,7 +60253,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -60478,7 +60478,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Llama",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -60900,7 +60900,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -60953,7 +60953,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -61281,7 +61281,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Fuerza Mental"
       ],
       "learnset": [
         {
@@ -61537,7 +61537,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Fuerza Mental"
       ],
       "learnset": [
         {
@@ -61833,7 +61833,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Fuerza Mental"
       ],
       "learnset": [
         {
@@ -62120,7 +62120,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Agallas",
-        "-"
+        "Velo Arena"
       ],
       "learnset": [
         {
@@ -62677,7 +62677,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Chorro Arena",
-        "-"
+        "Nerviosismo"
       ],
       "learnset": [
         {
@@ -63005,7 +63005,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Multiescamas"
       ],
       "learnset": [
         {
@@ -63232,7 +63232,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Regeneración"
       ],
       "learnset": [
         {
@@ -67089,7 +67089,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 13,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -67308,7 +67308,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -67582,7 +67582,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Polvo Escudo",
-        "-"
+        "Fuga"
       ],
       "learnset": [
         {
@@ -67841,7 +67841,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "-"
+        "Rivalidad"
       ],
       "learnset": [
         {
@@ -68190,7 +68190,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Polvo Escudo",
-        "-"
+        "Ojo Compuesto"
       ],
       "learnset": [
         {
@@ -69803,13 +69803,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "-"
+        "Hurto"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -69819,7 +69819,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -70069,7 +70069,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 20,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -70160,7 +70160,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Agallas",
-        "-"
+        "Intrépido"
       ],
       "learnset": [
         {
@@ -70352,7 +70352,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Agallas",
-        "-"
+        "Intrépido"
       ],
       "learnset": [
         {
@@ -71136,7 +71136,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -71166,7 +71166,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -71316,7 +71316,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -71439,7 +71439,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -71499,7 +71499,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -71649,7 +71649,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 51,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -71744,7 +71744,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -71754,7 +71754,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -71774,7 +71774,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -71814,7 +71814,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -71844,7 +71844,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -71884,7 +71884,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -72034,7 +72034,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 58,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -72130,7 +72130,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Cura Lluvia"
       ],
       "learnset": [
         {
@@ -72302,7 +72302,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Intimidación",
-        "-"
+        "Nerviosismo"
       ],
       "learnset": [
         {
@@ -73620,7 +73620,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Ojo Compuesto",
-        "-"
+        "Fuga"
       ],
       "learnset": [
         {
@@ -73833,7 +73833,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Impulso",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -74383,7 +74383,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -74453,7 +74453,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Insonorización",
-        "-"
+        "Cobardía"
       ],
       "learnset": [
         {
@@ -74666,7 +74666,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Insonorización",
-        "-"
+        "Intrépido"
       ],
       "learnset": [
         {
@@ -74912,7 +74912,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Insonorización",
-        "-"
+        "Intrépido"
       ],
       "learnset": [
         {
@@ -75392,7 +75392,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -75651,7 +75651,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -76190,7 +76190,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 13,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -76757,7 +76757,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -76767,7 +76767,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 4,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -77121,7 +77121,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -77408,7 +77408,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 57,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -77708,7 +77708,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 65,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -77790,7 +77790,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Energía Pura",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -78022,7 +78022,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Energía Pura",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -78579,7 +78579,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -78719,7 +78719,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -78773,13 +78773,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Más",
-        "-"
+        "Pararrayos"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -79022,13 +79022,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Menos",
-        "-"
+        "Absorbe Elec"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -79856,7 +79856,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -80210,7 +80210,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -81135,7 +81135,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -81274,7 +81274,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -81324,7 +81324,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -81464,7 +81464,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -83945,7 +83945,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Arena",
-        "-"
+        "Absorbe Agua"
       ],
       "learnset": [
         {
@@ -84176,13 +84176,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Arena",
-        "-"
+        "Absorbe Agua"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -84192,7 +84192,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -84458,7 +84458,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cura Natural",
-        "-"
+        "Aclimatación"
       ],
       "learnset": [
         {
@@ -84494,7 +84494,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 7,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -84706,7 +84706,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cura Natural",
-        "-"
+        "Aclimatación"
       ],
       "learnset": [
         {
@@ -84772,7 +84772,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -84852,7 +84852,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -85241,7 +85241,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mudar",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -85347,7 +85347,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -87551,7 +87551,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Ventosas",
-        "-"
+        "Colector"
       ],
       "learnset": [
         {
@@ -87783,7 +87783,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Ventosas",
-        "-"
+        "Colector"
       ],
       "learnset": [
         {
@@ -88056,7 +88056,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Armad. Batalla",
-        "-"
+        "Nado Rápido"
       ],
       "learnset": [
         {
@@ -88278,7 +88278,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Armad. Batalla",
-        "-"
+        "Nado Rápido"
       ],
       "learnset": [
         {
@@ -88605,7 +88605,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Escama Especial",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -88711,7 +88711,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 7,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -88771,7 +88771,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -89075,7 +89075,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cambio Color",
-        "-"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -89473,7 +89473,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -89735,7 +89735,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -89791,7 +89791,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Levitación",
-        "-"
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -90034,7 +90034,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -90467,7 +90467,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 26,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -91103,7 +91103,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sombra Trampa",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -92620,7 +92620,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Caparazón",
-        "-"
+        "Cobardía"
       ],
       "learnset": [
         {
@@ -92743,7 +92743,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Velo Agua"
       ],
       "learnset": [
         {
@@ -92956,7 +92956,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Hidratación"
       ],
       "learnset": [
         {
@@ -93393,7 +93393,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Hidratación"
       ],
       "learnset": [
         {
@@ -93596,7 +93596,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cabeza Roca",
-        "-"
+        "Potencia Bruta"
       ],
       "learnset": [
         {
@@ -93842,7 +93842,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cabeza Roca",
-        "-"
+        "Funda"
       ],
       "learnset": [
         {
@@ -94110,7 +94110,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Intimidación",
-        "-"
+        "Autoestima"
       ],
       "learnset": [
         {
@@ -94416,7 +94416,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -94525,7 +94525,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -94805,7 +94805,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -95082,7 +95082,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Robustez"
       ],
       "learnset": [
         {
@@ -95308,7 +95308,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Gélido"
       ],
       "learnset": [
         {
@@ -95534,7 +95534,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -95700,7 +95700,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -95787,7 +95787,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -95887,7 +95887,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -96074,7 +96074,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -96174,7 +96174,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -96244,7 +96244,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -96490,7 +96490,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 621,
-          "name": "Pulso Primigenio",
+          "name": "PulsoPrimig.",
           "type": "Agua",
           "cat": "Especial",
           "power": 110,
@@ -96666,7 +96666,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 622,
-          "name": "Filo del Abismo",
+          "name": "Filo Abismo",
           "type": "Tierra",
           "cat": "Físico",
           "power": 120,
@@ -96743,7 +96743,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 623,
-          "name": "Ascenso Draco",
+          "name": "AscensoDraco",
           "type": "Volador",
           "cat": "Físico",
           "power": 120,
@@ -99332,7 +99332,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Vista Lince",
-        "-"
+        "Audaz"
       ],
       "learnset": [
         {
@@ -99529,7 +99529,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Intimidación",
-        "-"
+        "Audaz"
       ],
       "learnset": [
         {
@@ -99729,7 +99729,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Intimidación",
-        "-"
+        "Audaz"
       ],
       "learnset": [
         {
@@ -100388,7 +100388,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mudar",
-        "-"
+        "Fuga"
       ],
       "learnset": [
         {
@@ -100487,7 +100487,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "-"
+        "Experto"
       ],
       "learnset": [
         {
@@ -100593,7 +100593,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -100753,7 +100753,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -101185,7 +101185,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -101355,7 +101355,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 67,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -101608,7 +101608,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -101628,7 +101628,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -101718,7 +101718,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -101869,7 +101869,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Rompemoldes",
-        "-"
+        "Potencia Bruta"
       ],
       "learnset": [
         {
@@ -102050,7 +102050,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Rompemoldes",
-        "-"
+        "Potencia Bruta"
       ],
       "learnset": [
         {
@@ -102378,7 +102378,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -102600,7 +102600,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 58,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -102656,7 +102656,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mudar",
-        "-"
+        "Funda"
       ],
       "learnset": [
         {
@@ -102772,7 +102772,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Anticipación",
-        "-"
+        "Funda"
       ],
       "learnset": [
         {
@@ -103028,7 +103028,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "-"
+        "Cromolente"
       ],
       "learnset": [
         {
@@ -103274,7 +103274,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Recogemiel",
-        "-"
+        "Entusiasmo"
       ],
       "learnset": [
         {
@@ -103402,7 +103402,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Nerviosismo"
       ],
       "learnset": [
         {
@@ -103488,7 +103488,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -103518,7 +103518,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 8,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -103598,7 +103598,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 33,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -103770,7 +103770,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -103887,7 +103887,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Velo Agua"
       ],
       "learnset": [
         {
@@ -104086,7 +104086,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Velo Agua"
       ],
       "learnset": [
         {
@@ -104432,7 +104432,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -104557,7 +104557,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 582,
-          "name": "Defensa Floral",
+          "name": "Def. Floral",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -104697,7 +104697,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -105692,7 +105692,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -105702,7 +105702,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -105712,7 +105712,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 671,
-          "name": "Absorbefuerza",
+          "name": "Absorbefza.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -105932,7 +105932,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 65,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -106064,7 +106064,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -106325,7 +106325,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -106395,7 +106395,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 13,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -106617,7 +106617,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -106677,7 +106677,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -107640,7 +107640,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 39,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -107958,7 +107958,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -108181,7 +108181,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 39,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -108483,7 +108483,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -108665,7 +108665,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -109005,7 +109005,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -109167,7 +109167,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -109495,7 +109495,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -111241,7 +111241,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 17,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -111416,7 +111416,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Chorro Arena",
-        "-"
+        "Poder Arena"
       ],
       "learnset": [
         {
@@ -111631,7 +111631,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Chorro Arena",
-        "-"
+        "Poder Arena"
       ],
       "learnset": [
         {
@@ -112008,7 +112008,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 25,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -112210,7 +112210,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -112400,7 +112400,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 53,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -113053,7 +113053,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 31,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -113666,7 +113666,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -114236,7 +114236,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Hurto"
       ],
       "learnset": [
         {
@@ -114545,7 +114545,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -114555,7 +114555,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -115700,7 +115700,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 53,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -115765,7 +115765,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Electromotor",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -115811,7 +115811,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -115821,7 +115821,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -115921,7 +115921,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -115981,7 +115981,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 65,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -116051,7 +116051,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Llama",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -116355,7 +116355,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -116888,7 +116888,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Defensa Hoja",
-        "-"
+        "Clorofila"
       ],
       "learnset": [
         {
@@ -117054,7 +117054,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -117289,7 +117289,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Manto Níveo",
-        "-"
+        "Gélido"
       ],
       "learnset": [
         {
@@ -117445,7 +117445,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -117515,7 +117515,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -118626,7 +118626,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Impasible",
-        "-"
+        "Justiciero"
       ],
       "learnset": [
         {
@@ -118672,7 +118672,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -118822,7 +118822,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -118992,7 +118992,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -119012,7 +119012,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 58,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -119124,7 +119124,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -119154,7 +119154,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -119400,7 +119400,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -119735,7 +119735,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Manto Níveo",
-        "-"
+        "Cuerpo Maldito"
       ],
       "learnset": [
         {
@@ -120933,7 +120933,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -121110,7 +121110,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -121287,7 +121287,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "-"
+        "Cuerpo Llama"
       ],
       "learnset": [
         {
@@ -121549,7 +121549,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -121689,7 +121689,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 779,
-          "name": "Plancha Corporal",
+          "name": "Plancha Corp",
           "type": "Lucha",
           "cat": "Físico",
           "power": 80,
@@ -121699,7 +121699,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -121729,7 +121729,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 74,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -121780,7 +121780,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Presión",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -123171,7 +123171,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -123317,7 +123317,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 16,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -123570,7 +123570,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 16,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -123816,7 +123816,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 16,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -125108,7 +125108,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 848,
-          "name": "Tajo Metralla",
+          "name": "TajoMetralla",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 65,
@@ -126086,7 +126086,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 13,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -126329,7 +126329,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -126605,7 +126605,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -127272,7 +127272,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "-"
+        "Espesura"
       ],
       "learnset": [
         {
@@ -127491,7 +127491,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "-"
+        "Espesura"
       ],
       "learnset": [
         {
@@ -127581,7 +127581,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "-"
+        "Mar Llamas"
       ],
       "learnset": [
         {
@@ -127800,7 +127800,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "-"
+        "Mar Llamas"
       ],
       "learnset": [
         {
@@ -127890,7 +127890,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "-"
+        "Torrente"
       ],
       "learnset": [
         {
@@ -128109,7 +128109,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "-"
+        "Torrente"
       ],
       "learnset": [
         {
@@ -128205,7 +128205,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -128395,7 +128395,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -128474,7 +128474,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 681,
-          "name": "Campo Psíquico",
+          "name": "CampoPsíquic",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -128594,7 +128594,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -128893,6 +128893,19 @@ window.CHIRLGOLD_DATA = {
                   "method_type": "level",
                   "item": null,
                   "move": null
+                },
+                {
+                  "name": "Zoroark",
+                  "id": 621,
+                  "types": [
+                    "Siniestro"
+                  ],
+                  "slug": "zoroark",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Hembra)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
                 }
               ],
               "method": "Nivel 21",
@@ -128901,6 +128914,15 @@ window.CHIRLGOLD_DATA = {
               "move": null
             }
           ]
+        },
+        {
+          "name": "Zorua",
+          "id": 620,
+          "types": [
+            "Siniestro"
+          ],
+          "slug": "zorua",
+          "evolves_to": []
         }
       ],
       "evolutions_text": [
@@ -129143,6 +129165,19 @@ window.CHIRLGOLD_DATA = {
                   "method_type": "level",
                   "item": null,
                   "move": null
+                },
+                {
+                  "name": "Zoroark",
+                  "id": 621,
+                  "types": [
+                    "Siniestro"
+                  ],
+                  "slug": "zoroark",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Hembra)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
                 }
               ],
               "method": "Nivel 21",
@@ -129151,11 +129186,20 @@ window.CHIRLGOLD_DATA = {
               "move": null
             }
           ]
+        },
+        {
+          "name": "Zorua",
+          "id": 620,
+          "types": [
+            "Siniestro"
+          ],
+          "slug": "zorua",
+          "evolves_to": []
         }
       ],
       "evolutions_text": [
         "Evoluciona a Unfezant (Nivel 32 (Macho))",
-        "Evoluciona a Unfezant (Nivel 32 (Hembra))"
+        "Evoluciona a Zoroark (Nivel 32 (Hembra))"
       ],
       "slug": "tranquill"
     },
@@ -129394,6 +129438,19 @@ window.CHIRLGOLD_DATA = {
                   "method_type": "level",
                   "item": null,
                   "move": null
+                },
+                {
+                  "name": "Zoroark",
+                  "id": 621,
+                  "types": [
+                    "Siniestro"
+                  ],
+                  "slug": "zoroark",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Hembra)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
                 }
               ],
               "method": "Nivel 21",
@@ -129402,6 +129459,15 @@ window.CHIRLGOLD_DATA = {
               "move": null
             }
           ]
+        },
+        {
+          "name": "Zorua",
+          "id": 620,
+          "types": [
+            "Siniestro"
+          ],
+          "slug": "zorua",
+          "evolves_to": []
         }
       ],
       "evolutions_text": [],
@@ -129619,7 +129685,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -129789,7 +129855,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 58,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -131619,7 +131685,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -131649,7 +131715,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 7,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -131659,7 +131725,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 8,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -131819,7 +131885,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -133466,7 +133532,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 564,
-          "name": "Escudo Tatami",
+          "name": "EscudoTatami",
           "type": "Lucha",
           "cat": "Estado",
           "power": 0,
@@ -133566,7 +133632,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 25,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -134250,7 +134316,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -134518,7 +134584,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 33,
           "id": 540,
-          "name": "Rodillo de Púas",
+          "name": "Rodillo Púas",
           "type": "Bicho",
           "cat": "Físico",
           "power": 65,
@@ -134538,7 +134604,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 39,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -134805,7 +134871,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 37,
           "id": 540,
-          "name": "Rodillo de Púas",
+          "name": "Rodillo Púas",
           "type": "Bicho",
           "cat": "Físico",
           "power": 65,
@@ -134825,7 +134891,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -135105,7 +135171,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 39,
           "id": 540,
-          "name": "Rodillo de Púas",
+          "name": "Rodillo Púas",
           "type": "Bicho",
           "cat": "Físico",
           "power": 65,
@@ -135135,7 +135201,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -135253,7 +135319,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -135263,7 +135329,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 3,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -135691,7 +135757,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -136183,7 +136249,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -137369,7 +137435,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Entusiasmo",
-        "-"
+        "Fuerza Mental"
       ],
       "learnset": [
         {
@@ -137620,7 +137686,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Potencia Bruta",
-        "-"
+        "Modo Daruma"
       ],
       "learnset": [
         {
@@ -137926,7 +137992,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -138096,7 +138162,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -139499,7 +139565,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 20,
           "id": 581,
-          "name": "Truco Defensa",
+          "name": "TrucoDefensa",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -139804,7 +139870,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 20,
           "id": 581,
-          "name": "Truco Defensa",
+          "name": "TrucoDefensa",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -140055,7 +140121,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -140337,7 +140403,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -141717,27 +141783,66 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": [
         {
+          "name": "Pidove",
+          "id": 569,
+          "types": [
+            "Normal",
+            "Volador"
+          ],
+          "slug": "pidove",
+          "evolves_to": [
+            {
+              "name": "Tranquill",
+              "id": 570,
+              "types": [
+                "Normal",
+                "Volador"
+              ],
+              "slug": "tranquill",
+              "evolves_to": [
+                {
+                  "name": "Unfezant",
+                  "id": 571,
+                  "types": [
+                    "Normal",
+                    "Volador"
+                  ],
+                  "slug": "unfezant",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Macho)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
+                },
+                {
+                  "name": "Zoroark",
+                  "id": 621,
+                  "types": [
+                    "Siniestro"
+                  ],
+                  "slug": "zoroark",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Hembra)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
+                }
+              ],
+              "method": "Nivel 21",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        },
+        {
           "name": "Zorua",
           "id": 620,
           "types": [
             "Siniestro"
           ],
           "slug": "zorua",
-          "evolves_to": [
-            {
-              "name": "Zoroark",
-              "id": 621,
-              "types": [
-                "Siniestro"
-              ],
-              "slug": "zoroark",
-              "evolves_to": [],
-              "method": "Nivel 30",
-              "method_type": "level",
-              "item": null,
-              "move": null
-            }
-          ]
+          "evolves_to": []
         }
       ],
       "evolutions_text": [
@@ -142029,27 +142134,66 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": [
         {
+          "name": "Pidove",
+          "id": 569,
+          "types": [
+            "Normal",
+            "Volador"
+          ],
+          "slug": "pidove",
+          "evolves_to": [
+            {
+              "name": "Tranquill",
+              "id": 570,
+              "types": [
+                "Normal",
+                "Volador"
+              ],
+              "slug": "tranquill",
+              "evolves_to": [
+                {
+                  "name": "Unfezant",
+                  "id": 571,
+                  "types": [
+                    "Normal",
+                    "Volador"
+                  ],
+                  "slug": "unfezant",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Macho)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
+                },
+                {
+                  "name": "Zoroark",
+                  "id": 621,
+                  "types": [
+                    "Siniestro"
+                  ],
+                  "slug": "zoroark",
+                  "evolves_to": [],
+                  "method": "Nivel 32 (Hembra)",
+                  "method_type": "level",
+                  "item": null,
+                  "move": null
+                }
+              ],
+              "method": "Nivel 21",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        },
+        {
           "name": "Zorua",
           "id": 620,
           "types": [
             "Siniestro"
           ],
           "slug": "zorua",
-          "evolves_to": [
-            {
-              "name": "Zoroark",
-              "id": 621,
-              "types": [
-                "Siniestro"
-              ],
-              "slug": "zoroark",
-              "evolves_to": [],
-              "method": "Nivel 30",
-              "method_type": "level",
-              "item": null,
-              "move": null
-            }
-          ]
+          "evolves_to": []
         }
       ],
       "evolutions_text": [],
@@ -142088,7 +142232,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -142098,7 +142242,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 3,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -142447,7 +142591,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -142521,7 +142665,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cacheo",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -142794,7 +142938,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cacheo",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -143070,7 +143214,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cacheo",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -143480,7 +143624,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -143793,7 +143937,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -144149,7 +144293,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -145293,7 +145437,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -146047,13 +146191,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "-"
+        "Electromotor"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -146133,7 +146277,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -146525,7 +146669,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -146795,7 +146939,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -147905,7 +148049,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -148095,7 +148239,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 61,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -149294,7 +149438,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 43,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -149563,7 +149707,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -149659,7 +149803,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -149669,7 +149813,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 677,
-          "name": "Piñón Auxiliar",
+          "name": "PiñónAuxil.",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -149679,7 +149823,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -149849,7 +149993,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -149879,7 +150023,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -150348,7 +150492,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -150721,7 +150865,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 681,
-          "name": "Campo Psíquico",
+          "name": "CampoPsíquic",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -153162,7 +153306,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 38,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -153473,7 +153617,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -153783,7 +153927,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 597,
-          "name": "Shuriken de Agua",
+          "name": "ShurikenAgua",
           "type": "Agua",
           "cat": "Especial",
           "power": 15,
@@ -154264,7 +154408,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -154766,7 +154910,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 31,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -155290,7 +155434,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -155300,7 +155444,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -155412,7 +155556,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -155422,7 +155566,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -155482,7 +155626,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -155592,7 +155736,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -155632,7 +155776,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -155699,7 +155843,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Fuerza Mental",
-        "Fuerza Mental"
+        "Presión"
       ],
       "learnset": [
         {
@@ -155956,7 +156100,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Fuerza Mental",
-        "Fuerza Mental"
+        "Presión"
       ],
       "learnset": [
         {
@@ -156361,7 +156505,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -158892,7 +159036,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Llama",
-        "-"
+        "Enjambre"
       ],
       "learnset": [
         {
@@ -159110,7 +159254,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Llama",
-        "-"
+        "Enjambre"
       ],
       "learnset": [
         {
@@ -160203,7 +160347,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Bromista",
-        "-"
+        "Competitivo"
       ],
       "learnset": [
         {
@@ -160369,7 +160513,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 77,
           "id": 849,
-          "name": "Vendaval Gélido",
+          "name": "Vendav.Gélid",
           "type": "Volador",
           "cat": "Especial",
           "power": 100,
@@ -160400,7 +160544,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Bromista",
-        "-"
+        "Competitivo"
       ],
       "learnset": [
         {
@@ -160613,7 +160757,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -160743,7 +160887,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -160830,7 +160974,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -160960,7 +161104,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -161000,7 +161144,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 93,
           "id": 553,
-          "name": "Ataque Fulgor",
+          "name": "At. Fulgor",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 130,
@@ -161031,7 +161175,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Poder Arena",
-        "-"
+        "Potencia Bruta"
       ],
       "learnset": [
         {
@@ -161197,7 +161341,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 80,
           "id": 851,
-          "name": "Simún de Arena",
+          "name": "Simún Arena",
           "type": "Tierra",
           "cat": "Especial",
           "power": 100,
@@ -161244,7 +161388,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -161264,7 +161408,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -161431,7 +161575,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 551,
-          "name": "Sable Místico",
+          "name": "SableMístico",
           "type": "Lucha",
           "cat": "Especial",
           "power": 85,
@@ -161875,7 +162019,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -161955,7 +162099,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -162583,7 +162727,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -162593,7 +162737,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -163360,7 +163504,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -163370,7 +163514,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -164107,7 +164251,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 597,
-          "name": "Shuriken de Agua",
+          "name": "ShurikenAgua",
           "type": "Agua",
           "cat": "Especial",
           "power": 15,
@@ -164117,7 +164261,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 597,
-          "name": "Shuriken de Agua",
+          "name": "ShurikenAgua",
           "type": "Agua",
           "cat": "Especial",
           "power": 15,
@@ -164157,7 +164301,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 564,
-          "name": "Escudo Tatami",
+          "name": "EscudoTatami",
           "type": "Lucha",
           "cat": "Estado",
           "power": 0,
@@ -165182,13 +165326,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "fletchling",
           "evolves_to": [
             {
-              "name": "Fletchinder",
+              "name": "Flechinder",
               "id": 712,
               "types": [
                 "Fuego",
                 "Volador"
               ],
-              "slug": "fletchinder",
+              "slug": "flechinder",
               "evolves_to": [
                 {
                   "name": "Talonflame",
@@ -165214,13 +165358,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Fletchinder (Nivel 17)"
+        "Evoluciona a Flechinder (Nivel 17)"
       ],
       "slug": "fletchling"
     },
     {
       "id": 712,
-      "name": "Fletchinder",
+      "name": "Flechinder",
       "types": [
         "Fuego",
         "Volador"
@@ -165482,13 +165626,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "fletchling",
           "evolves_to": [
             {
-              "name": "Fletchinder",
+              "name": "Flechinder",
               "id": 712,
               "types": [
                 "Fuego",
                 "Volador"
               ],
-              "slug": "fletchinder",
+              "slug": "flechinder",
               "evolves_to": [
                 {
                   "name": "Talonflame",
@@ -165516,7 +165660,7 @@ window.CHIRLGOLD_DATA = {
       "evolutions_text": [
         "Evoluciona a Talonflame (Nivel 35)"
       ],
-      "slug": "fletchinder"
+      "slug": "flechinder"
     },
     {
       "id": 713,
@@ -165792,13 +165936,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "fletchling",
           "evolves_to": [
             {
-              "name": "Fletchinder",
+              "name": "Flechinder",
               "id": 712,
               "types": [
                 "Fuego",
                 "Volador"
               ],
-              "slug": "fletchinder",
+              "slug": "flechinder",
               "evolves_to": [
                 {
                   "name": "Talonflame",
@@ -165957,7 +166101,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mudar",
-        "-"
+        "Compiescolta"
       ],
       "learnset": [
         {
@@ -166081,7 +166225,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 603,
-          "name": "Polvo Explosivo",
+          "name": "PolvoExplos.",
           "type": "Bicho",
           "cat": "Estado",
           "power": 0,
@@ -166221,7 +166365,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 603,
-          "name": "Polvo Explosivo",
+          "name": "PolvoExplos.",
           "type": "Bicho",
           "cat": "Estado",
           "power": 0,
@@ -166347,7 +166491,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -166590,7 +166734,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -166736,7 +166880,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Flor",
-        "-"
+        "Simbiosis"
       ],
       "learnset": [
         {
@@ -166762,7 +166906,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 6,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -166812,7 +166956,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -166822,7 +166966,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -166842,7 +166986,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 37,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -166955,7 +167099,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Flor",
-        "-"
+        "Simbiosis"
       ],
       "learnset": [
         {
@@ -166981,7 +167125,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -166991,7 +167135,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 6,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -167041,7 +167185,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 27,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -167051,7 +167195,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 33,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -167071,7 +167215,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 43,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -167171,13 +167315,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Velo Flor",
-        "-"
+        "Simbiosis"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -167217,7 +167361,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 582,
-          "name": "Defensa Floral",
+          "name": "Def. Floral",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -167237,7 +167381,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -167247,7 +167391,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -167257,7 +167401,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -167355,7 +167499,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Herbívoro",
-        "-"
+        "Manto Frondoso"
       ],
       "learnset": [
         {
@@ -167574,7 +167718,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Herbívoro",
-        "-"
+        "Manto Frondoso"
       ],
       "learnset": [
         {
@@ -167970,7 +168114,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -168281,7 +168425,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -168412,7 +168556,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 9,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -168601,7 +168745,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 13,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -168751,7 +168895,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -168861,7 +169005,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 22,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -168961,7 +169105,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -169770,13 +169914,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Alma Cura",
-        "-"
+        "Velo Aroma"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -169876,7 +170020,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -169926,7 +170070,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -169989,13 +170133,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Alma Cura",
-        "-"
+        "Velo Aroma"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -170015,7 +170159,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -170145,7 +170289,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -170155,7 +170299,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -170269,7 +170413,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sebo",
-        "-"
+        "Liviano"
       ],
       "learnset": [
         {
@@ -170305,7 +170449,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -170498,7 +170642,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sebo",
-        "-"
+        "Liviano"
       ],
       "learnset": [
         {
@@ -170534,7 +170678,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -170544,7 +170688,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -172915,7 +173059,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 26,
           "id": 573,
-          "name": "Carga Parábola",
+          "name": "Carga Parab.",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 65,
@@ -172965,7 +173109,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 585,
-          "name": "Electrificación",
+          "name": "Electrific.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -173107,7 +173251,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 573,
-          "name": "Carga Parábola",
+          "name": "Carga Parab.",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 65,
@@ -173137,7 +173281,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 585,
-          "name": "Electrificación",
+          "name": "Electrific.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -173905,7 +174049,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -174027,7 +174171,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -174077,7 +174221,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -174197,7 +174341,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -174323,13 +174467,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Piel Feérica",
-        "-"
+        "Gran Encanto"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -174339,7 +174483,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -174349,7 +174493,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -174469,7 +174613,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -174499,7 +174643,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -174539,7 +174683,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -174871,7 +175015,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 563,
-          "name": "Plancha Voladora",
+          "name": "Plancha Vol.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 100,
@@ -174965,7 +175109,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -175035,7 +175179,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 20,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -175045,7 +175189,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 573,
-          "name": "Carga Parábola",
+          "name": "Carga Parab.",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 65,
@@ -175176,7 +175320,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Puro",
-        "-"
+        "Robustez"
       ],
       "learnset": [
         {
@@ -175981,7 +176125,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -176289,13 +176433,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Bromista",
-        "-"
+        "Prestidigitador"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 590,
-          "name": "Cerrojo Feérico",
+          "name": "CerrojoFeér.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -176335,7 +176479,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 6,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -176375,7 +176519,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 581,
-          "name": "Truco Defensa",
+          "name": "TrucoDefensa",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -176675,7 +176819,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -176695,7 +176839,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 574,
-          "name": "Condena Silvana",
+          "name": "Cond.Silvana",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -176973,7 +177117,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -176993,7 +177137,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 574,
-          "name": "Condena Silvana",
+          "name": "Cond.Silvana",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -177348,7 +177492,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -177488,7 +177632,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -177797,26 +177941,13 @@ window.CHIRLGOLD_DATA = {
               "method_type": "level",
               "item": null,
               "move": null
-            },
-            {
-              "name": "Avalugg De Hisui",
-              "id": "avalugg de hisui",
-              "types": [
-                "Normal"
-              ],
-              "slug": "",
-              "evolves_to": [],
-              "method": "Usar Protector",
-              "method_type": "item",
-              "item": "Protector",
-              "move": null
             }
           ]
         }
       ],
       "evolutions_text": [
         "Evoluciona a Avalugg (Nivel 37)",
-        "Evoluciona a Avalugg de Hisui (Usar Protector)"
+        "Evoluciona a Avalugg (Usar Protector)"
       ],
       "slug": "bergmite"
     },
@@ -177863,7 +177994,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -178142,19 +178273,6 @@ window.CHIRLGOLD_DATA = {
               "method": "Nivel 37",
               "method_type": "level",
               "item": null,
-              "move": null
-            },
-            {
-              "name": "Avalugg De Hisui",
-              "id": "avalugg de hisui",
-              "types": [
-                "Normal"
-              ],
-              "slug": "",
-              "evolves_to": [],
-              "method": "Usar Protector",
-              "method_type": "item",
-              "item": "Protector",
               "move": null
             }
           ]
@@ -178941,7 +179059,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -179168,7 +179286,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 38,
           "id": 616,
-          "name": "Ala Mortífera",
+          "name": "AlaMortífera",
           "type": "Volador",
           "cat": "Especial",
           "power": 80,
@@ -179208,7 +179326,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -179315,7 +179433,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 618,
-          "name": "Mil Temblores",
+          "name": "MilTemblores",
           "type": "Tierra",
           "cat": "Físico",
           "power": 90,
@@ -179325,7 +179443,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 690,
-          "name": "Núcleo Castigo",
+          "name": "NúcleoCastig",
           "type": "Dragón",
           "cat": "Especial",
           "power": 100,
@@ -179425,7 +179543,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 37,
           "id": 619,
-          "name": "Fuerza Telúrica",
+          "name": "Fza.Telúrica",
           "type": "Tierra",
           "cat": "Físico",
           "power": 90,
@@ -179732,7 +179850,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 71,
           "id": 594,
-          "name": "Tormenta de Diamantes",
+          "name": "Torm.Diaman.",
           "type": "Roca",
           "cat": "Físico",
           "power": 100,
@@ -179769,7 +179887,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 596,
-          "name": "Paso Dimensional",
+          "name": "Paso Dimens.",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 80,
@@ -179799,7 +179917,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -179889,7 +180007,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -179959,7 +180077,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 85,
           "id": 596,
-          "name": "Paso Dimensional",
+          "name": "Paso Dimens.",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 80,
@@ -180016,7 +180134,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 595,
-          "name": "Chorro de Vapor",
+          "name": "Chorro Vapor",
           "type": "Agua",
           "cat": "Especial",
           "power": 110,
@@ -180196,7 +180314,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 78,
           "id": 595,
-          "name": "Chorro de Vapor",
+          "name": "Chorro Vapor",
           "type": "Agua",
           "cat": "Especial",
           "power": 110,
@@ -180674,7 +180792,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 34,
           "id": 846,
-          "name": "Triple Flecha",
+          "name": "TripleFlecha",
           "type": "Lucha",
           "cat": "Físico",
           "power": 90,
@@ -180809,7 +180927,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 665,
-          "name": "Puntada Sombría",
+          "name": "Punt.Sombría",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 80,
@@ -180819,7 +180937,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 665,
-          "name": "Puntada Sombría",
+          "name": "Punt.Sombría",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 80,
@@ -180829,7 +180947,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -181662,7 +181780,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 666,
-          "name": "Lariat Oscuro",
+          "name": "LariatOscuro",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 85,
@@ -181672,7 +181790,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 666,
-          "name": "Lariat Oscuro",
+          "name": "LariatOscuro",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 85,
@@ -181692,7 +181810,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -182017,7 +182135,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 6,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -182037,7 +182155,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -182117,7 +182235,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -182251,7 +182369,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -182271,7 +182389,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 8,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -182291,7 +182409,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -182371,7 +182489,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -182519,7 +182637,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -182539,7 +182657,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 9,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -182559,7 +182677,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -182629,7 +182747,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -184761,7 +184879,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 22,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -184858,12 +184976,11 @@ window.CHIRLGOLD_DATA = {
           "evolves_to": [
             {
               "name": "Crabominable",
-              "id": 790,
+              "id": "crabominable",
               "types": [
-                "Lucha",
-                "Hielo"
+                "Normal"
               ],
-              "slug": "crabominable",
+              "slug": "",
               "evolves_to": [],
               "method": "Usar Piedra Hielo",
               "method_type": "item",
@@ -184880,7 +184997,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 790,
-      "name": "Crabominable",
+      "name": "Crabominab",
       "types": [
         "Lucha",
         "Hielo"
@@ -185002,7 +185119,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 22,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -185042,7 +185159,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 37,
           "id": 668,
-          "name": "Martillo Hielo",
+          "name": "Mart. Hielo",
           "type": "Hielo",
           "cat": "Físico",
           "power": 100,
@@ -185081,34 +185198,9 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": [
-        {
-          "name": "Crabrawler",
-          "id": 789,
-          "types": [
-            "Lucha"
-          ],
-          "slug": "crabrawler",
-          "evolves_to": [
-            {
-              "name": "Crabominable",
-              "id": 790,
-              "types": [
-                "Lucha",
-                "Hielo"
-              ],
-              "slug": "crabominable",
-              "evolves_to": [],
-              "method": "Usar Piedra Hielo",
-              "method_type": "item",
-              "item": "Piedra Hielo",
-              "move": null
-            }
-          ]
-        }
-      ],
+      "family_tree": null,
       "evolutions_text": [],
-      "slug": "crabominable"
+      "slug": "crabominab"
     },
     {
       "id": 791,
@@ -185254,7 +185346,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 689,
-          "name": "Danza Despertar",
+          "name": "DanzaDespert",
           "type": "Normal",
           "cat": "Especial",
           "power": 90,
@@ -185331,7 +185423,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -185341,7 +185433,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 4,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -185421,7 +185513,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -185513,7 +185605,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 679,
-          "name": "Bola de Polen",
+          "name": "Bola Polen",
           "type": "Bicho",
           "cat": "Especial",
           "power": 90,
@@ -185523,7 +185615,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 679,
-          "name": "Bola de Polen",
+          "name": "Bola Polen",
           "type": "Bicho",
           "cat": "Especial",
           "power": 90,
@@ -185553,7 +185645,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -185593,7 +185685,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 4,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -185673,7 +185765,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -186318,7 +186410,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 18,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -186495,7 +186587,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -186565,7 +186657,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -186697,7 +186789,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -186747,7 +186839,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 17,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -186817,7 +186909,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -186999,7 +187091,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 26,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -187019,7 +187111,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 31,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -187264,7 +187356,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 26,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -187294,7 +187386,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 34,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -187379,7 +187471,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Pompa",
-        "-"
+        "Absorbe Agua"
       ],
       "learnset": [
         {
@@ -187621,13 +187713,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Pompa",
-        "-"
+        "Absorbe Agua"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -187893,7 +187985,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Defensa Hoja",
-        "-"
+        "Respondón"
       ],
       "learnset": [
         {
@@ -188082,13 +188174,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Defensa Hoja",
-        "-"
+        "Respondón"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -188098,7 +188190,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -188298,7 +188390,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 672,
-          "name": "Cuchilla Solar",
+          "name": "Cuchilla Sol",
           "type": "Planta",
           "cat": "Físico",
           "power": 125,
@@ -188449,7 +188541,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 671,
-          "name": "Absorbefuerza",
+          "name": "Absorbefza.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -188469,7 +188561,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -188707,7 +188799,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 671,
-          "name": "Absorbefuerza",
+          "name": "Absorbefza.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -188727,7 +188819,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 38,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -188824,7 +188916,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Corrosión",
-        "-"
+        "Despiste"
       ],
       "learnset": [
         {
@@ -188970,7 +189062,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -189062,7 +189154,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Corrosión",
-        "-"
+        "Despiste"
       ],
       "learnset": [
         {
@@ -189348,7 +189440,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 51,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -189451,7 +189543,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 6,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -189673,7 +189765,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -189703,7 +189795,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -189955,7 +190047,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -190181,7 +190273,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -190287,7 +190379,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 691,
-          "name": "Patada Tropical",
+          "name": "PatadaTropic",
           "type": "Planta",
           "cat": "Físico",
           "power": 70,
@@ -190297,7 +190389,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 691,
-          "name": "Patada Tropical",
+          "name": "PatadaTropic",
           "type": "Planta",
           "cat": "Físico",
           "power": 70,
@@ -190467,7 +190559,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -190631,7 +190723,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 582,
-          "name": "Defensa Floral",
+          "name": "Def. Floral",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -190671,7 +190763,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 582,
-          "name": "Defensa Floral",
+          "name": "Def. Floral",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -190761,7 +190853,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -190821,7 +190913,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -190905,7 +190997,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -191058,7 +191150,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Receptor",
-        "-"
+        "Competitivo"
       ],
       "learnset": [
         {
@@ -191590,7 +191682,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Hidrorrefuerzo",
-        "-"
+        "Velo Arena"
       ],
       "learnset": [
         {
@@ -191792,7 +191884,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Hidrorrefuerzo",
-        "-"
+        "Velo Arena"
       ],
       "learnset": [
         {
@@ -192014,7 +192106,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Revés",
-        "-"
+        "Ignorante"
       ],
       "learnset": [
         {
@@ -192202,7 +192294,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 822,
-      "name": "Código Cero",
+      "name": "Cód. Cero",
       "types": [
         "Normal"
       ],
@@ -192414,12 +192506,12 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": [
         {
-          "name": "Código Cero",
+          "name": "Cód. Cero",
           "id": 822,
           "types": [
             "Normal"
           ],
-          "slug": "cdigocero",
+          "slug": "cdcero",
           "evolves_to": [
             {
               "name": "Silvally",
@@ -192440,7 +192532,7 @@ window.CHIRLGOLD_DATA = {
       "evolutions_text": [
         "Evoluciona a Silvally (Amistad al máximo)"
       ],
-      "slug": "cdigocero"
+      "slug": "cdcero"
     },
     {
       "id": 823,
@@ -192765,7 +192857,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 71,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -192776,12 +192868,12 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": [
         {
-          "name": "Código Cero",
+          "name": "Cód. Cero",
           "id": 822,
           "types": [
             "Normal"
           ],
-          "slug": "cdigocero",
+          "slug": "cdcero",
           "evolves_to": [
             {
               "name": "Silvally",
@@ -193299,7 +193391,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 707,
-          "name": "Coraza Trampa",
+          "name": "CorazaTrampa",
           "type": "Fuego",
           "cat": "Especial",
           "power": 150,
@@ -193375,7 +193467,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -193455,7 +193547,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -193475,7 +193567,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -193485,7 +193577,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 719,
-          "name": "Electropunzada",
+          "name": "Electropunz.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 80,
@@ -193515,7 +193607,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 43,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -193535,7 +193627,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -193649,7 +193741,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 14,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -193873,7 +193965,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 709,
-          "name": "Psicocolmillo",
+          "name": "Psicocolmill",
           "type": "Psíquico",
           "cat": "Físico",
           "power": 85,
@@ -194273,7 +194365,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -194313,7 +194405,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 57,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -194486,7 +194578,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -194765,7 +194857,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -194874,7 +194966,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 694,
-          "name": "Fragor Escamas",
+          "name": "FragorEscama",
           "type": "Dragón",
           "cat": "Especial",
           "power": 110,
@@ -194884,7 +194976,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 694,
-          "name": "Fragor Escamas",
+          "name": "FragorEscama",
           "type": "Dragón",
           "cat": "Especial",
           "power": 110,
@@ -195074,7 +195166,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -195114,7 +195206,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 68,
           "id": 778,
-          "name": "Estruendo Escama",
+          "name": "Estruen.Esca",
           "type": "Dragón",
           "cat": "Estado",
           "power": 0,
@@ -195195,7 +195287,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Electrogénesis",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -195221,7 +195313,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -195291,7 +195383,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -195391,7 +195483,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 720,
-          "name": "Furia Natural",
+          "name": "FuriaNatural",
           "type": "Hada",
           "cat": "Especial",
           "power": 0,
@@ -195441,7 +195533,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 75,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -195472,7 +195564,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Psicogénesis",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -195498,7 +195590,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 681,
-          "name": "Campo Psíquico",
+          "name": "CampoPsíquic",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -195508,7 +195600,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -195618,7 +195710,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -195658,7 +195750,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 720,
-          "name": "Furia Natural",
+          "name": "FuriaNatural",
           "type": "Hada",
           "cat": "Especial",
           "power": 0,
@@ -195708,7 +195800,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 75,
           "id": 681,
-          "name": "Campo Psíquico",
+          "name": "CampoPsíquic",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -195739,7 +195831,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Herbogénesis",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
@@ -195765,7 +195857,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -195945,7 +196037,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 720,
-          "name": "Furia Natural",
+          "name": "FuriaNatural",
           "type": "Hada",
           "cat": "Especial",
           "power": 0,
@@ -195995,7 +196087,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 75,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -196026,13 +196118,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nebulogénesis",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -196052,7 +196144,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -196252,7 +196344,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 720,
-          "name": "Furia Natural",
+          "name": "FuriaNatural",
           "type": "Hada",
           "cat": "Especial",
           "power": 0,
@@ -196292,7 +196384,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 75,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -196602,7 +196694,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -196712,7 +196804,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 59,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -196732,7 +196824,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 72,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -196972,7 +197064,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 62,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -196992,7 +197084,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 72,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -197282,7 +197374,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -197359,7 +197451,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -197379,7 +197471,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -197439,7 +197531,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -197846,7 +197938,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 63,
           "id": 686,
-          "name": "Cambiavelocidad",
+          "name": "Cambiaveloz",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -198072,7 +198164,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -198092,7 +198184,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 67,
           "id": 572,
-          "name": "Cortina Plasma",
+          "name": "Cort. Plasma",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -198159,7 +198251,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -198209,7 +198301,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -198339,7 +198431,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 63,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -198673,7 +198765,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -198763,7 +198855,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 540,
-          "name": "Rodillo de Púas",
+          "name": "Rodillo Púas",
           "type": "Bicho",
           "cat": "Físico",
           "power": 65,
@@ -198793,7 +198885,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 25,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -198853,7 +198945,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -199029,7 +199121,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 27,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -199099,7 +199191,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 61,
           "id": 725,
-          "name": "Géiser Fotónico",
+          "name": "GéiserFotón.",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 100,
@@ -199186,7 +199278,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 581,
-          "name": "Truco Defensa",
+          "name": "TrucoDefensa",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -199196,7 +199288,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 677,
-          "name": "Piñón Auxiliar",
+          "name": "PiñónAuxil.",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -199206,7 +199298,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -199286,7 +199378,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 677,
-          "name": "Piñón Auxiliar",
+          "name": "PiñónAuxil.",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -199346,7 +199438,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -199356,7 +199448,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 581,
-          "name": "Truco Defensa",
+          "name": "TrucoDefensa",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -199849,7 +199941,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -199859,7 +199951,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -200073,7 +200165,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -200083,7 +200175,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 29,
           "id": 602,
-          "name": "Trampa Venenosa",
+          "name": "Trampa Ven.",
           "type": "Veneno",
           "cat": "Estado",
           "power": 0,
@@ -200325,7 +200417,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -200400,7 +200492,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 856,
-      "name": "Blacephalon",
+      "name": "Blacefalon",
       "types": [
         "Fuego",
         "Fantasma"
@@ -200462,7 +200554,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 13,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -200542,7 +200634,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -200602,7 +200694,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 723,
-          "name": "Cabeza Sorpresa",
+          "name": "CabezaSorpr.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 150,
@@ -200613,7 +200705,7 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "blacephalon"
+      "slug": "blacefalon"
     },
     {
       "id": 857,
@@ -200638,7 +200730,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -201136,7 +201228,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 88,
           "id": 745,
-          "name": "Ferropuño Doble",
+          "name": "FerropuñoDob",
           "type": "Acero",
           "cat": "Físico",
           "power": 60,
@@ -201575,7 +201667,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 781,
-          "name": "Batería Asalto",
+          "name": "BateríaAsalt",
           "type": "Planta",
           "cat": "Físico",
           "power": 80,
@@ -201595,7 +201687,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -201605,7 +201697,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -202288,7 +202380,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 62,
           "id": 759,
-          "name": "Cambio de Cancha",
+          "name": "CambioCancha",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -202412,7 +202504,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 17,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -202595,7 +202687,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -202721,7 +202813,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 748,
-          "name": "Disparo Certero",
+          "name": "Disp.Certero",
           "type": "Agua",
           "cat": "Especial",
           "power": 80,
@@ -202791,7 +202883,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 19,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -202919,7 +203011,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Carrillo",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -202955,7 +203047,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 750,
-          "name": "Atiborramiento",
+          "name": "Atiborramien",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -203101,7 +203193,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Carrillo",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -203147,7 +203239,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 750,
-          "name": "Atiborramiento",
+          "name": "Atiborramien",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -203423,21 +203515,21 @@ window.CHIRLGOLD_DATA = {
           "slug": "rookidee",
           "evolves_to": [
             {
-              "name": "Corvisquire",
+              "name": "Corvsquire",
               "id": 872,
               "types": [
                 "Volador"
               ],
-              "slug": "corvisquire",
+              "slug": "corvsquire",
               "evolves_to": [
                 {
-                  "name": "Corviknight",
+                  "name": "Corviknite",
                   "id": 873,
                   "types": [
                     "Volador",
                     "Acero"
                   ],
-                  "slug": "corviknight",
+                  "slug": "corviknite",
                   "evolves_to": [],
                   "method": "Nivel 38",
                   "method_type": "level",
@@ -203454,13 +203546,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Corvisquire (Nivel 18)"
+        "Evoluciona a Corvsquire (Nivel 18)"
       ],
       "slug": "rookidee"
     },
     {
       "id": 872,
-      "name": "Corvisquire",
+      "name": "Corvsquire",
       "types": [
         "Volador"
       ],
@@ -203600,21 +203692,21 @@ window.CHIRLGOLD_DATA = {
           "slug": "rookidee",
           "evolves_to": [
             {
-              "name": "Corvisquire",
+              "name": "Corvsquire",
               "id": 872,
               "types": [
                 "Volador"
               ],
-              "slug": "corvisquire",
+              "slug": "corvsquire",
               "evolves_to": [
                 {
-                  "name": "Corviknight",
+                  "name": "Corviknite",
                   "id": 873,
                   "types": [
                     "Volador",
                     "Acero"
                   ],
-                  "slug": "corviknight",
+                  "slug": "corviknite",
                   "evolves_to": [],
                   "method": "Nivel 38",
                   "method_type": "level",
@@ -203631,13 +203723,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Corviknight (Nivel 38)"
+        "Evoluciona a Corviknite (Nivel 38)"
       ],
-      "slug": "corvisquire"
+      "slug": "corvsquire"
     },
     {
       "id": 873,
-      "name": "Corviknight",
+      "name": "Corviknite",
       "types": [
         "Volador",
         "Acero"
@@ -203808,21 +203900,21 @@ window.CHIRLGOLD_DATA = {
           "slug": "rookidee",
           "evolves_to": [
             {
-              "name": "Corvisquire",
+              "name": "Corvsquire",
               "id": 872,
               "types": [
                 "Volador"
               ],
-              "slug": "corvisquire",
+              "slug": "corvsquire",
               "evolves_to": [
                 {
-                  "name": "Corviknight",
+                  "name": "Corviknite",
                   "id": 873,
                   "types": [
                     "Volador",
                     "Acero"
                   ],
-                  "slug": "corviknight",
+                  "slug": "corviknite",
                   "evolves_to": [],
                   "method": "Nivel 38",
                   "method_type": "level",
@@ -203839,7 +203931,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [],
-      "slug": "corviknight"
+      "slug": "corviknite"
     },
     {
       "id": 874,
@@ -204149,7 +204241,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -204209,7 +204301,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 681,
-          "name": "Campo Psíquico",
+          "name": "CampoPsíquic",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -204567,7 +204659,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -204687,7 +204779,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -204859,7 +204951,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 539,
-          "name": "Ciclón de Hojas",
+          "name": "Ciclón Hojas",
           "type": "Planta",
           "cat": "Especial",
           "power": 65,
@@ -205388,7 +205480,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 749,
-          "name": "Presa Maxilar",
+          "name": "PresaMaxilar",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -205579,7 +205671,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 39,
           "id": 749,
-          "name": "Presa Maxilar",
+          "name": "PresaMaxilar",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -205664,7 +205756,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Recogebolas",
-        "-"
+        "Cobardía"
       ],
       "learnset": [
         {
@@ -205690,7 +205782,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -205826,13 +205918,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mandíbula Fuerte",
-        "-"
+        "Tenacidad"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 585,
-          "name": "Electrificación",
+          "name": "Electrific.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -205862,7 +205954,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -205952,7 +206044,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 62,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -206967,7 +207059,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "Gula"
+        "Sebo"
       ],
       "learnset": [
         {
@@ -207748,7 +207840,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "-"
+        "Hélice Caudal"
       ],
       "learnset": [
         {
@@ -207863,12 +207955,12 @@ window.CHIRLGOLD_DATA = {
           "slug": "arrokuda",
           "evolves_to": [
             {
-              "name": "Barraskewda",
+              "name": "Baraskewda",
               "id": 897,
               "types": [
                 "Agua"
               ],
-              "slug": "barraskewda",
+              "slug": "baraskewda",
               "evolves_to": [],
               "method": "Nivel 26",
               "method_type": "level",
@@ -207879,13 +207971,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Barraskewda (Nivel 26)"
+        "Evoluciona a Baraskewda (Nivel 26)"
       ],
       "slug": "arrokuda"
     },
     {
       "id": 897,
-      "name": "Barraskewda",
+      "name": "Baraskewda",
       "types": [
         "Agua"
       ],
@@ -207906,7 +207998,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -208025,12 +208117,12 @@ window.CHIRLGOLD_DATA = {
           "slug": "arrokuda",
           "evolves_to": [
             {
-              "name": "Barraskewda",
+              "name": "Baraskewda",
               "id": 897,
               "types": [
                 "Agua"
               ],
-              "slug": "barraskewda",
+              "slug": "baraskewda",
               "evolves_to": [],
               "method": "Nivel 26",
               "method_type": "level",
@@ -208041,7 +208133,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [],
-      "slug": "barraskewda"
+      "slug": "baraskewda"
     },
     {
       "id": 898,
@@ -208077,7 +208169,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -208087,7 +208179,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -208220,7 +208312,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 718,
-          "name": "Ojos Llorosos",
+          "name": "OjosLlorosos",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -208230,7 +208322,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -208300,7 +208392,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -208430,7 +208522,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -208640,13 +208732,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "sizzlipede",
           "evolves_to": [
             {
-              "name": "Centiskorch",
+              "name": "Centskorch",
               "id": 901,
               "types": [
                 "Fuego",
                 "Bicho"
               ],
-              "slug": "centiskorch",
+              "slug": "centskorch",
               "evolves_to": [],
               "method": "Nivel 28",
               "method_type": "level",
@@ -208657,13 +208749,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Centiskorch (Nivel 28)"
+        "Evoluciona a Centskorch (Nivel 28)"
       ],
       "slug": "sizzlipede"
     },
     {
       "id": 901,
-      "name": "Centiskorch",
+      "name": "Centskorch",
       "types": [
         "Fuego",
         "Bicho"
@@ -208835,13 +208927,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "sizzlipede",
           "evolves_to": [
             {
-              "name": "Centiskorch",
+              "name": "Centskorch",
               "id": 901,
               "types": [
                 "Fuego",
                 "Bicho"
               ],
-              "slug": "centiskorch",
+              "slug": "centskorch",
               "evolves_to": [],
               "method": "Nivel 28",
               "method_type": "level",
@@ -208852,7 +208944,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [],
-      "slug": "centiskorch"
+      "slug": "centskorch"
     },
     {
       "id": 902,
@@ -208871,7 +208963,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Flexibilidad",
-        "-"
+        "Experto"
       ],
       "learnset": [
         {
@@ -209046,7 +209138,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Flexibilidad",
-        "-"
+        "Experto"
       ],
       "learnset": [
         {
@@ -209236,7 +209328,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Armadura Frágil",
-        "-"
+        "Cuerpo Maldito"
       ],
       "learnset": [
         {
@@ -209262,7 +209354,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 6,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -209378,12 +209470,12 @@ window.CHIRLGOLD_DATA = {
           "slug": "sinistea",
           "evolves_to": [
             {
-              "name": "Polteageist",
+              "name": "Poltegeist",
               "id": 905,
               "types": [
                 "Fantasma"
               ],
-              "slug": "polteageist",
+              "slug": "poltegeist",
               "evolves_to": [],
               "method": "Usar Tetera Agrietada",
               "method_type": "item",
@@ -209394,13 +209486,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Polteageist (Usar Tetera Agrietada)"
+        "Evoluciona a Poltegeist (Usar Tetera Agrietada)"
       ],
       "slug": "sinistea"
     },
     {
       "id": 905,
-      "name": "Polteageist",
+      "name": "Poltegeist",
       "types": [
         "Fantasma"
       ],
@@ -209431,7 +209523,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 671,
-          "name": "Absorbefuerza",
+          "name": "Absorbefza.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -209461,7 +209553,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -209580,12 +209672,12 @@ window.CHIRLGOLD_DATA = {
           "slug": "sinistea",
           "evolves_to": [
             {
-              "name": "Polteageist",
+              "name": "Poltegeist",
               "id": 905,
               "types": [
                 "Fantasma"
               ],
-              "slug": "polteageist",
+              "slug": "poltegeist",
               "evolves_to": [],
               "method": "Usar Tetera Agrietada",
               "method_type": "item",
@@ -209596,7 +209688,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [],
-      "slug": "polteageist"
+      "slug": "poltegeist"
     },
     {
       "id": 906,
@@ -209651,7 +209743,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -209691,7 +209783,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -209845,7 +209937,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -209885,7 +209977,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -210043,7 +210135,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -210083,7 +210175,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -210616,7 +210708,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 792,
-          "name": "Choque Anímico",
+          "name": "ChoqueAnímic",
           "type": "Hada",
           "cat": "Físico",
           "power": 75,
@@ -210646,7 +210738,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 615,
-          "name": "Puño Incremento",
+          "name": "Puño Increm.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 40,
@@ -210924,7 +211016,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -211306,7 +211398,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Armadura Frágil",
-        "-"
+        "Cuerpo Mortal"
       ],
       "learnset": [
         {
@@ -211402,7 +211494,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 671,
-          "name": "Absorbefuerza",
+          "name": "Absorbefza.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -211479,7 +211571,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Impasible",
-        "-"
+        "Intrépido"
       ],
       "learnset": [
         {
@@ -211655,7 +211747,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 70,
           "id": 797,
-          "name": "Asalto Estelar",
+          "name": "AsaltoEstel.",
           "type": "Lucha",
           "cat": "Físico",
           "power": 150,
@@ -211699,7 +211791,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Tumbos",
-        "-"
+        "Antibarrera"
       ],
       "learnset": [
         {
@@ -211835,7 +211927,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -211845,7 +211937,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -211905,7 +211997,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 16,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -211975,7 +212067,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -212125,7 +212217,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 20,
           "id": 581,
-          "name": "Truco Defensa",
+          "name": "TrucoDefensa",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -212252,7 +212344,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Baba",
-        "-"
+        "Velo Aroma"
       ],
       "learnset": [
         {
@@ -212268,7 +212360,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -212338,7 +212430,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -212358,7 +212450,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -212437,7 +212529,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Baba",
-        "-"
+        "Velo Aroma"
       ],
       "learnset": [
         {
@@ -212463,7 +212555,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 600,
-          "name": "Niebla Aromática",
+          "name": "Niebla Arom.",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -212533,7 +212625,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -212553,7 +212645,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 584,
-          "name": "Campo de Niebla",
+          "name": "Campo Niebla",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -212617,7 +212709,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Armad. Batalla",
-        "-"
+        "Justiciero"
       ],
       "learnset": [
         {
@@ -212713,7 +212805,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 751,
-          "name": "Bastión Final",
+          "name": "BastiónFinal",
           "type": "Lucha",
           "cat": "Estado",
           "power": 0,
@@ -212796,7 +212888,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Pararrayos",
-        "-"
+        "Electrogénesis"
       ],
       "learnset": [
         {
@@ -212892,7 +212984,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -212912,7 +213004,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 719,
-          "name": "Electropunzada",
+          "name": "Electropunz.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 80,
@@ -212963,7 +213055,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Polvo Escudo",
-        "-"
+        "Escama de Hielo"
       ],
       "learnset": [
         {
@@ -213051,7 +213143,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Polvo Escudo",
-        "-"
+        "Escama de Hielo"
       ],
       "learnset": [
         {
@@ -213217,7 +213309,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -213268,7 +213360,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 924,
-      "name": "Stonjourner",
+      "name": "Stonjorner",
       "types": [
         "Roca"
       ],
@@ -213379,7 +213471,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -213389,7 +213481,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 54,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -213417,23 +213509,10 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ruta 46",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 48",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "stonjourner"
+      "slug": "stonjorner"
     },
     {
       "id": 925,
@@ -213528,7 +213607,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -213605,7 +213684,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 503,
-          "name": "Poder Reserva",
+          "name": "PoderReserva",
           "type": "Psíquico",
           "cat": "Especial",
           "power": 20,
@@ -213635,7 +213714,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -213715,7 +213794,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 681,
-          "name": "Campo Psíquico",
+          "name": "CampoPsíquic",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -213929,7 +214008,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Potencia Bruta",
-        "-"
+        "Metal Pesado"
       ],
       "learnset": [
         {
@@ -214045,7 +214124,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -214118,13 +214197,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Potencia Bruta",
-        "-"
+        "Metal Pesado"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -214244,7 +214323,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 58,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -214542,7 +214621,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -214729,7 +214808,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 63,
           "id": 758,
-          "name": "Branquibocado",
+          "name": "Branquibocad",
           "type": "Agua",
           "cat": "Físico",
           "power": 85,
@@ -214856,7 +214935,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -214886,7 +214965,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 63,
           "id": 758,
-          "name": "Branquibocado",
+          "name": "Branquibocad",
           "type": "Agua",
           "cat": "Físico",
           "power": 85,
@@ -214993,7 +215072,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 787,
-          "name": "Vasto Impacto",
+          "name": "VastoImpacto",
           "type": "Dragón",
           "cat": "Físico",
           "power": 60,
@@ -215384,7 +215463,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -215644,7 +215723,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -215937,7 +216016,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -216194,7 +216273,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 747,
-          "name": "Cañón Dinamax",
+          "name": "CañónDinamax",
           "type": "Dragón",
           "cat": "Especial",
           "power": 100,
@@ -216234,7 +216313,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 88,
           "id": 798,
-          "name": "Rayo Infinito",
+          "name": "RayoInfinito",
           "type": "Dragón",
           "cat": "Especial",
           "power": 160,
@@ -216866,7 +216945,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 90,
           "id": 819,
-          "name": "Cura Selvática",
+          "name": "CuraSelvátic",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -217764,7 +217843,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 831,
-          "name": "Asalto Barrera",
+          "name": "AsaltoBarrer",
           "type": "Psíquico",
           "cat": "Físico",
           "power": 70,
@@ -217774,7 +217853,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 831,
-          "name": "Asalto Barrera",
+          "name": "AsaltoBarrer",
           "type": "Psíquico",
           "cat": "Físico",
           "power": 70,
@@ -217976,7 +218055,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 833,
-          "name": "Hachazo Pétreo",
+          "name": "HachazoPétre",
           "type": "Roca",
           "cat": "Físico",
           "power": 65,
@@ -217986,7 +218065,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 833,
-          "name": "Hachazo Pétreo",
+          "name": "HachazoPétre",
           "type": "Roca",
           "cat": "Físico",
           "power": 65,
@@ -218363,7 +218442,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -218437,7 +218516,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 952,
-      "name": "Basculegion",
+      "name": "Basclegion",
       "types": [
         "Agua",
         "Fantasma"
@@ -218459,7 +218538,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -218599,7 +218678,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 837,
-          "name": "Envite Acuático",
+          "name": "EnviteAcuát.",
           "type": "Agua",
           "cat": "Físico",
           "power": 120,
@@ -218637,17 +218716,10 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [
-        {
-          "route": "Ciudad Orquídea",
-          "time": "Todo el día",
-          "rate": "1%",
-          "method": "Surf"
-        }
-      ],
+      "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "basculegion"
+      "slug": "basclegion"
     },
     {
       "id": 953,
@@ -218907,7 +218979,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 568,
-          "name": "Aguijón Letal",
+          "name": "AguijónLetal",
           "type": "Bicho",
           "cat": "Físico",
           "power": 50,
@@ -218947,7 +219019,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 842,
-          "name": "Mil Púas Tóxicas",
+          "name": "MilPúasTóxic",
           "type": "Veneno",
           "cat": "Físico",
           "power": 60,
@@ -219065,7 +219137,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gran Encanto",
-        "-"
+        "Respondón"
       ],
       "learnset": [
         {
@@ -219081,7 +219153,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -219151,7 +219223,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -219161,7 +219233,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -219231,7 +219303,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 75,
           "id": 834,
-          "name": "Ciclón Primavera",
+          "name": "Cicl.Primav.",
           "type": "Hada",
           "cat": "Especial",
           "power": 100,
@@ -219261,7 +219333,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Espesura",
-        "-"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -219421,13 +219493,13 @@ window.CHIRLGOLD_DATA = {
               "slug": "floragato",
               "evolves_to": [
                 {
-                  "name": "Meowscarada",
+                  "name": "Mewscarada",
                   "id": 958,
                   "types": [
                     "Planta",
                     "Siniestro"
                   ],
-                  "slug": "meowscarada",
+                  "slug": "mewscarada",
                   "evolves_to": [],
                   "method": "Nivel 36",
                   "method_type": "level",
@@ -219465,7 +219537,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Espesura",
-        "-"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -219628,13 +219700,13 @@ window.CHIRLGOLD_DATA = {
               "slug": "floragato",
               "evolves_to": [
                 {
-                  "name": "Meowscarada",
+                  "name": "Mewscarada",
                   "id": 958,
                   "types": [
                     "Planta",
                     "Siniestro"
                   ],
-                  "slug": "meowscarada",
+                  "slug": "mewscarada",
                   "evolves_to": [],
                   "method": "Nivel 36",
                   "method_type": "level",
@@ -219651,13 +219723,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Meowscarada (Nivel 36)"
+        "Evoluciona a Mewscarada (Nivel 36)"
       ],
       "slug": "floragato"
     },
     {
       "id": 958,
-      "name": "Meowscarada",
+      "name": "Mewscarada",
       "types": [
         "Planta",
         "Siniestro"
@@ -219673,7 +219745,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Espesura",
-        "-"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -219869,7 +219941,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 58,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -219906,13 +219978,13 @@ window.CHIRLGOLD_DATA = {
               "slug": "floragato",
               "evolves_to": [
                 {
-                  "name": "Meowscarada",
+                  "name": "Mewscarada",
                   "id": 958,
                   "types": [
                     "Planta",
                     "Siniestro"
                   ],
-                  "slug": "meowscarada",
+                  "slug": "mewscarada",
                   "evolves_to": [],
                   "method": "Nivel 36",
                   "method_type": "level",
@@ -219929,7 +220001,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [],
-      "slug": "meowscarada"
+      "slug": "mewscarada"
     },
     {
       "id": 959,
@@ -219948,7 +220020,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mar Llamas",
-        "-"
+        "Ignorante"
       ],
       "learnset": [
         {
@@ -220142,7 +220214,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mar Llamas",
-        "-"
+        "Ignorante"
       ],
       "learnset": [
         {
@@ -220350,13 +220422,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mar Llamas",
-        "-"
+        "Ignorante"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 874,
-          "name": "Canto Ardiente",
+          "name": "CantoArdient",
           "type": "Fuego",
           "cat": "Especial",
           "power": 80,
@@ -220366,7 +220438,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 874,
-          "name": "Canto Ardiente",
+          "name": "CantoArdient",
           "type": "Fuego",
           "cat": "Especial",
           "power": 80,
@@ -220605,7 +220677,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Torrente",
-        "-"
+        "Autoestima"
       ],
       "learnset": [
         {
@@ -220681,7 +220753,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 898,
-          "name": "Tajo Acuático",
+          "name": "TajoAcuático",
           "type": "Agua",
           "cat": "Físico",
           "power": 70,
@@ -220799,7 +220871,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Torrente",
-        "-"
+        "Autoestima"
       ],
       "learnset": [
         {
@@ -220895,7 +220967,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 898,
-          "name": "Tajo Acuático",
+          "name": "TajoAcuático",
           "type": "Agua",
           "cat": "Físico",
           "power": 70,
@@ -221017,13 +221089,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Torrente",
-        "-"
+        "Autoestima"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 875,
-          "name": "Danza Acuática",
+          "name": "DanzaAcuátic",
           "type": "Agua",
           "cat": "Físico",
           "power": 80,
@@ -221033,7 +221105,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 875,
-          "name": "Danza Acuática",
+          "name": "DanzaAcuátic",
           "type": "Agua",
           "cat": "Físico",
           "power": 80,
@@ -221133,7 +221205,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 898,
-          "name": "Tajo Acuático",
+          "name": "TajoAcuático",
           "type": "Agua",
           "cat": "Físico",
           "power": 70,
@@ -221213,7 +221285,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 64,
           "id": 837,
-          "name": "Envite Acuático",
+          "name": "EnviteAcuát.",
           "type": "Agua",
           "cat": "Físico",
           "power": 120,
@@ -221308,7 +221380,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -221465,7 +221537,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Gula",
-        "Gula"
+        "Sebo"
       ],
       "learnset": [
         {
@@ -221491,7 +221563,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -221665,7 +221737,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Insomnio",
-        "-"
+        "Vigilante"
       ],
       "learnset": [
         {
@@ -221791,7 +221863,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -221801,7 +221873,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 809,
-          "name": "Golpe Rastrero",
+          "name": "GolpeRastrer",
           "type": "Bicho",
           "cat": "Físico",
           "power": 70,
@@ -221870,7 +221942,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Insomnio",
-        "-"
+        "Vigilante"
       ],
       "learnset": [
         {
@@ -222016,7 +222088,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 45,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -222026,7 +222098,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 809,
-          "name": "Golpe Rastrero",
+          "name": "GolpeRastrer",
           "type": "Bicho",
           "cat": "Físico",
           "power": 70,
@@ -222080,7 +222152,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "-"
+        "Cromolente"
       ],
       "learnset": [
         {
@@ -222271,7 +222343,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "-"
+        "Cromolente"
       ],
       "learnset": [
         {
@@ -222427,7 +222499,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -222578,7 +222650,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -222824,7 +222896,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -222993,7 +223065,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 866,
-          "name": "Plegaria Vital",
+          "name": "PlegariaVit.",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -223003,7 +223075,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 866,
-          "name": "Plegaria Vital",
+          "name": "PlegariaVit.",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -223073,7 +223145,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 12,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -223183,7 +223255,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 895,
-          "name": "Electropalmas",
+          "name": "Electropalma",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 120,
@@ -223259,7 +223331,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -223389,7 +223461,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 863,
-          "name": "Proliferación",
+          "name": "Proliferac.",
           "type": "Normal",
           "cat": "Físico",
           "power": 20,
@@ -223452,13 +223524,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Compiescolta",
-        "-"
+        "Carrillo"
       ],
       "learnset": [
         {
           "lvl": 1,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -223488,7 +223560,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 885,
-          "name": "Limpieza General",
+          "name": "LimpiezaGen.",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -223608,7 +223680,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 53,
           "id": 863,
-          "name": "Proliferación",
+          "name": "Proliferac.",
           "type": "Normal",
           "cat": "Físico",
           "power": 20,
@@ -223662,7 +223734,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Ritmo Propio",
-        "-"
+        "Zoquete"
       ],
       "learnset": [
         {
@@ -223728,7 +223800,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -223871,7 +223943,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Velo Aroma"
       ],
       "learnset": [
         {
@@ -223937,7 +224009,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 15,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -224072,7 +224144,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Madrugar",
-        "-"
+        "Cosecha"
       ],
       "learnset": [
         {
@@ -224158,7 +224230,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -224198,7 +224270,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 38,
           "id": 808,
-          "name": "Pulso de Campo",
+          "name": "Pulso Campo",
           "type": "Normal",
           "cat": "Especial",
           "power": 50,
@@ -224272,7 +224344,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Madrugar",
-        "-"
+        "Cosecha"
       ],
       "learnset": [
         {
@@ -224358,7 +224430,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -224398,7 +224470,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 808,
-          "name": "Pulso de Campo",
+          "name": "Pulso Campo",
           "type": "Normal",
           "cat": "Especial",
           "power": 50,
@@ -224472,7 +224544,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Cosecha"
       ],
       "learnset": [
         {
@@ -224578,7 +224650,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 23,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -224618,7 +224690,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 808,
-          "name": "Pulso de Campo",
+          "name": "Pulso Campo",
           "type": "Normal",
           "cat": "Especial",
           "power": 50,
@@ -224628,7 +224700,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 52,
           "id": 575,
-          "name": "Tormenta Floral",
+          "name": "Torm. Floral",
           "type": "Planta",
           "cat": "Físico",
           "power": 90,
@@ -224694,7 +224766,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 981,
-      "name": "Squawkabilly",
+      "name": "Squawkbily",
       "types": [
         "Normal",
         "Volador"
@@ -224877,7 +224949,7 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "squawkabilly"
+      "slug": "squawkbily"
     },
     {
       "id": 982,
@@ -224896,7 +224968,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Robustez",
-        "Robustez"
+        "Cuerpo Puro"
       ],
       "learnset": [
         {
@@ -225012,7 +225084,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -225102,7 +225174,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Robustez",
-        "Robustez"
+        "Cuerpo Puro"
       ],
       "learnset": [
         {
@@ -225238,7 +225310,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -225328,7 +225400,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Robustez",
-        "Robustez"
+        "Cuerpo Puro"
       ],
       "learnset": [
         {
@@ -225394,7 +225466,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -225494,7 +225566,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -225592,7 +225664,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "-"
+        "Cuerpo Llama"
       ],
       "learnset": [
         {
@@ -225768,7 +225840,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "-"
+        "Armadura Frágil"
       ],
       "learnset": [
         {
@@ -225824,7 +225896,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -225834,7 +225906,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -225924,7 +225996,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -225954,7 +226026,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 62,
           "id": 893,
-          "name": "Cañón Armadura",
+          "name": "CañónArmadur",
           "type": "Fuego",
           "cat": "Especial",
           "power": 120,
@@ -226024,7 +226096,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "-"
+        "Armadura Frágil"
       ],
       "learnset": [
         {
@@ -226080,7 +226152,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -226090,7 +226162,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -226180,7 +226252,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -226190,7 +226262,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 894,
-          "name": "Espada Lamento",
+          "name": "EspadaLament",
           "type": "Fuego",
           "cat": "Físico",
           "power": 90,
@@ -226395,7 +226467,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -226471,7 +226543,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "Elec. Estática"
+        "Humedad"
       ],
       "learnset": [
         {
@@ -226587,7 +226659,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -226662,7 +226734,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Elec",
-        "Absorbe Elec"
+        "Tenacidad"
       ],
       "learnset": [
         {
@@ -226811,13 +226883,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "wattrel",
           "evolves_to": [
             {
-              "name": "Kilowattrel",
+              "name": "Kilowatrel",
               "id": 991,
               "types": [
                 "Eléctrico",
                 "Volador"
               ],
-              "slug": "kilowattrel",
+              "slug": "kilowatrel",
               "evolves_to": [],
               "method": "Nivel 25",
               "method_type": "level",
@@ -226828,13 +226900,13 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [
-        "Evoluciona a Kilowattrel (Nivel 25)"
+        "Evoluciona a Kilowatrel (Nivel 25)"
       ],
       "slug": "wattrel"
     },
     {
       "id": 991,
-      "name": "Kilowattrel",
+      "name": "Kilowatrel",
       "types": [
         "Eléctrico",
         "Volador"
@@ -227016,13 +227088,13 @@ window.CHIRLGOLD_DATA = {
           "slug": "wattrel",
           "evolves_to": [
             {
-              "name": "Kilowattrel",
+              "name": "Kilowatrel",
               "id": 991,
               "types": [
                 "Eléctrico",
                 "Volador"
               ],
-              "slug": "kilowattrel",
+              "slug": "kilowatrel",
               "evolves_to": [],
               "method": "Nivel 25",
               "method_type": "level",
@@ -227033,7 +227105,7 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "evolutions_text": [],
-      "slug": "kilowattrel"
+      "slug": "kilowatrel"
     },
     {
       "id": 992,
@@ -227188,7 +227260,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 43,
           "id": 749,
-          "name": "Presa Maxilar",
+          "name": "PresaMaxilar",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -227261,13 +227333,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Intimidación",
-        "-"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 897,
-          "name": "Resarcimiento",
+          "name": "Resarcimien.",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 1,
@@ -227277,7 +227349,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 897,
-          "name": "Resarcimiento",
+          "name": "Resarcimien.",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 1,
@@ -227417,7 +227489,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 749,
-          "name": "Presa Maxilar",
+          "name": "PresaMaxilar",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -227917,7 +227989,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -228023,7 +228095,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -228084,12 +228156,11 @@ window.CHIRLGOLD_DATA = {
           "evolves_to": [
             {
               "name": "Brambleghast",
-              "id": 997,
+              "id": "brambleghast",
               "types": [
-                "Planta",
-                "Fantasma"
+                "Normal"
               ],
-              "slug": "brambleghast",
+              "slug": "",
               "evolves_to": [],
               "method": "Nivel 32",
               "method_type": "level",
@@ -228106,7 +228177,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 997,
-      "name": "Brambleghast",
+      "name": "Bramblgast",
       "types": [
         "Planta",
         "Fantasma"
@@ -228228,7 +228299,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -228277,35 +228348,9 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": [
-        {
-          "name": "Bramblin",
-          "id": 996,
-          "types": [
-            "Planta",
-            "Fantasma"
-          ],
-          "slug": "bramblin",
-          "evolves_to": [
-            {
-              "name": "Brambleghast",
-              "id": 997,
-              "types": [
-                "Planta",
-                "Fantasma"
-              ],
-              "slug": "brambleghast",
-              "evolves_to": [],
-              "method": "Nivel 32",
-              "method_type": "level",
-              "item": null,
-              "move": null
-            }
-          ]
-        }
-      ],
+      "family_tree": null,
       "evolutions_text": [],
-      "slug": "brambleghast"
+      "slug": "bramblgast"
     },
     {
       "id": 998,
@@ -228789,7 +228834,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Caparazón",
-        "Caparazón"
+        "Regeneración"
       ],
       "learnset": [
         {
@@ -228915,7 +228960,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 670,
-          "name": "Fuerza Equina",
+          "name": "FuerzaEquina",
           "type": "Tierra",
           "cat": "Físico",
           "power": 95,
@@ -229168,7 +229213,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 861,
-          "name": "Extracto Picante",
+          "name": "ExtractoPic.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -229188,7 +229233,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 861,
-          "name": "Extracto Picante",
+          "name": "ExtractoPic.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -229393,7 +229438,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Ojo Compuesto",
-        "-"
+        "Mudar"
       ],
       "learnset": [
         {
@@ -229554,13 +229599,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sincronía",
-        "-"
+        "Telepatía"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 866,
-          "name": "Plegaria Vital",
+          "name": "PlegariaVit.",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -229570,7 +229615,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 866,
-          "name": "Plegaria Vital",
+          "name": "PlegariaVit.",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -229730,7 +229775,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 686,
-          "name": "Cambiavelocidad",
+          "name": "Cambiaveloz",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -229841,7 +229886,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 8,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -229851,7 +229896,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -229957,7 +230002,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cacheo",
-        "Cacheo"
+        "Impulso"
       ],
       "learnset": [
         {
@@ -230033,7 +230078,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 8,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -230043,7 +230088,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 11,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -230103,7 +230148,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 43,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -230194,7 +230239,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -230204,7 +230249,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -230324,7 +230369,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 809,
-          "name": "Golpe Rastrero",
+          "name": "GolpeRastrer",
           "type": "Bicho",
           "cat": "Físico",
           "power": 70,
@@ -230431,7 +230476,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -230441,7 +230486,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -230561,7 +230606,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 809,
-          "name": "Golpe Rastrero",
+          "name": "GolpeRastrer",
           "type": "Bicho",
           "cat": "Físico",
           "power": 70,
@@ -230651,7 +230696,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 896,
-          "name": "Martillo Colosal",
+          "name": "Mart.Colosal",
           "type": "Acero",
           "cat": "Físico",
           "power": 160,
@@ -230661,7 +230706,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 896,
-          "name": "Martillo Colosal",
+          "name": "Mart.Colosal",
           "type": "Acero",
           "cat": "Físico",
           "power": 160,
@@ -230681,7 +230726,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 587,
-          "name": "Viento Feérico",
+          "name": "Vien.Feérico",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -230691,7 +230736,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 5,
           "id": 611,
-          "name": "Ojitos Tiernos",
+          "name": "Ojos Tiernos",
           "type": "Hada",
           "cat": "Estado",
           "power": 0,
@@ -230811,7 +230856,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 47,
           "id": 809,
-          "name": "Golpe Rastrero",
+          "name": "GolpeRastrer",
           "type": "Bicho",
           "cat": "Físico",
           "power": 70,
@@ -230998,7 +231043,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -231157,7 +231202,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 868,
-          "name": "Triple Inmersión",
+          "name": "TripleInmers",
           "type": "Agua",
           "cat": "Físico",
           "power": 30,
@@ -231187,7 +231232,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -231408,7 +231453,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -231809,7 +231854,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 61,
           "id": 837,
-          "name": "Envite Acuático",
+          "name": "EnviteAcuát.",
           "type": "Agua",
           "cat": "Físico",
           "power": 120,
@@ -231864,7 +231909,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Funda",
-        "-"
+        "Inicio Lento"
       ],
       "learnset": [
         {
@@ -232082,13 +232127,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Funda",
-        "-"
+        "Filtro"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -232098,7 +232143,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -232315,7 +232360,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mudar",
-        "-"
+        "Regeneración"
       ],
       "learnset": [
         {
@@ -232361,7 +232406,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 14,
           "id": 787,
-          "name": "Vasto Impacto",
+          "name": "VastoImpacto",
           "type": "Dragón",
           "cat": "Físico",
           "power": 60,
@@ -232421,7 +232466,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 40,
           "id": 511,
-          "name": "Cambio de Marcha",
+          "name": "Camb. Marcha",
           "type": "Acero",
           "cat": "Estado",
           "power": 0,
@@ -232500,7 +232545,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Velo Arena"
       ],
       "learnset": [
         {
@@ -232875,7 +232920,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 869,
-          "name": "Giro Mortífero",
+          "name": "GiroMortífer",
           "type": "Veneno",
           "cat": "Físico",
           "power": 30,
@@ -232885,7 +232930,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 869,
-          "name": "Giro Mortífero",
+          "name": "GiroMortífer",
           "type": "Veneno",
           "cat": "Físico",
           "power": 30,
@@ -232925,7 +232970,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -233101,7 +233146,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Recogida",
-        "-"
+        "Peluche"
       ],
       "learnset": [
         {
@@ -233227,7 +233272,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 41,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -233310,13 +233355,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Ímpetu Arena",
-        "-"
+        "Peluche"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 857,
-          "name": "Homenaje Póstumo",
+          "name": "HomenajePóst",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 50,
@@ -233326,7 +233371,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 857,
-          "name": "Homenaje Póstumo",
+          "name": "HomenajePóst",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 50,
@@ -233456,7 +233501,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 46,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -233657,7 +233702,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -233667,7 +233712,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -233841,7 +233886,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 864,
-          "name": "Pirueta Helada",
+          "name": "PiruetaHelad",
           "type": "Hielo",
           "cat": "Físico",
           "power": 80,
@@ -234059,7 +234104,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 44,
           "id": 864,
-          "name": "Pirueta Helada",
+          "name": "PiruetaHelad",
           "type": "Hielo",
           "cat": "Físico",
           "power": 80,
@@ -234202,7 +234247,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 25,
           "id": 898,
-          "name": "Tajo Acuático",
+          "name": "TajoAcuático",
           "type": "Agua",
           "cat": "Físico",
           "power": 70,
@@ -234385,7 +234430,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 25,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -234445,7 +234490,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -234465,7 +234510,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 65,
           "id": 837,
-          "name": "Envite Acuático",
+          "name": "EnviteAcuát.",
           "type": "Agua",
           "cat": "Físico",
           "power": 120,
@@ -234496,7 +234541,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Colector"
       ],
       "learnset": [
         {
@@ -235133,7 +235178,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Herbívoro"
       ],
       "learnset": [
         {
@@ -235340,7 +235385,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1032,
-      "name": "Dudunsparce",
+      "name": "Dudunspars",
       "types": [
         "Normal"
       ],
@@ -235530,33 +235575,9 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": [
-        {
-          "name": "Dunsparce",
-          "id": 206,
-          "types": [
-            "Normal"
-          ],
-          "slug": "dunsparce",
-          "evolves_to": [
-            {
-              "name": "Dudunsparce",
-              "id": 1032,
-              "types": [
-                "Normal"
-              ],
-              "slug": "dudunsparce",
-              "evolves_to": [],
-              "method": "Conocer Hipertaladro",
-              "method_type": "move",
-              "item": null,
-              "move": "Hipertaladro"
-            }
-          ]
-        }
-      ],
+      "family_tree": null,
       "evolutions_text": [],
-      "slug": "dudunsparce"
+      "slug": "dudunspars"
     },
     {
       "id": 1033,
@@ -235576,13 +235597,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Presión"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 872,
-          "name": "Genufendiente",
+          "name": "Genufendient",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 85,
@@ -235592,7 +235613,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 872,
-          "name": "Genufendiente",
+          "name": "Genufendient",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 85,
@@ -236094,7 +236115,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 14,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -236154,7 +236175,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 709,
-          "name": "Psicocolmillo",
+          "name": "Psicocolmill",
           "type": "Psíquico",
           "cat": "Físico",
           "power": 85,
@@ -236410,7 +236431,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1037,
-      "name": "Melenaleteo",
+      "name": "Melenalete",
       "types": [
         "Fantasma",
         "Hada"
@@ -236512,7 +236533,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -236532,7 +236553,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -236562,7 +236583,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 70,
           "id": 569,
-          "name": "Golpe Fantasma",
+          "name": "G. Fantasma",
           "type": "Fantasma",
           "cat": "Físico",
           "power": 90,
@@ -236610,7 +236631,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "fluttermane"
+      "slug": "melenalete"
     },
     {
       "id": 1038,
@@ -236860,7 +236881,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -236950,7 +236971,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -237020,7 +237041,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 91,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -237074,7 +237095,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -237164,7 +237185,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -237214,7 +237235,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 91,
           "id": 801,
-          "name": "Allanador Férreo",
+          "name": "Allan.Férreo",
           "type": "Acero",
           "cat": "Físico",
           "power": 130,
@@ -237258,7 +237279,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -237328,7 +237349,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 576,
-          "name": "Liofilización",
+          "name": "Liofilizac.",
           "type": "Hielo",
           "cat": "Especial",
           "power": 70,
@@ -237368,7 +237389,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 70,
           "id": 886,
-          "name": "Paisaje Nevado",
+          "name": "PaisajeNevad",
           "type": "Hielo",
           "cat": "Estado",
           "power": 0,
@@ -237420,7 +237441,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1042,
-      "name": "Ferropalmas",
+      "name": "Ferropalma",
       "types": [
         "Lucha",
         "Eléctrico"
@@ -237442,7 +237463,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -237592,7 +237613,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 77,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -237630,11 +237651,11 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "ironhands"
+      "slug": "ferropalma"
     },
     {
       "id": 1043,
-      "name": "Ferrocuello",
+      "name": "Ferrocuell",
       "types": [
         "Siniestro",
         "Volador"
@@ -237666,7 +237687,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -237834,11 +237855,11 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "ironjugulis"
+      "slug": "ferrocuell"
     },
     {
       "id": 1044,
-      "name": "Ferropolilla",
+      "name": "Ferropolil",
       "types": [
         "Fuego",
         "Veneno"
@@ -237860,7 +237881,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -238048,7 +238069,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "ironmoth"
+      "slug": "ferropolil"
     },
     {
       "id": 1045,
@@ -238074,7 +238095,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -238282,7 +238303,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Gélido"
       ],
       "learnset": [
         {
@@ -238501,7 +238522,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Gélido"
       ],
       "learnset": [
         {
@@ -238701,13 +238722,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Gélido"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 865,
-          "name": "Asalto Espadón",
+          "name": "AsaltoEspad.",
           "type": "Dragón",
           "cat": "Físico",
           "power": 120,
@@ -238717,7 +238738,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 865,
-          "name": "Asalto Espadón",
+          "name": "AsaltoEspad.",
           "type": "Dragón",
           "cat": "Físico",
           "power": 120,
@@ -238727,7 +238748,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 787,
-          "name": "Vasto Impacto",
+          "name": "VastoImpacto",
           "type": "Dragón",
           "cat": "Físico",
           "power": 60,
@@ -238767,7 +238788,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 886,
-          "name": "Paisaje Nevado",
+          "name": "PaisajeNevad",
           "type": "Hielo",
           "cat": "Estado",
           "power": 0,
@@ -239118,7 +239139,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 877,
-          "name": "Fiebre Dorada",
+          "name": "FiebreDorada",
           "type": "Acero",
           "cat": "Especial",
           "power": 120,
@@ -239360,7 +239381,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 65,
           "id": 583,
-          "name": "Campo de Hierba",
+          "name": "Campo Hierba",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -239507,7 +239528,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 886,
-          "name": "Paisaje Nevado",
+          "name": "PaisajeNevad",
           "type": "Hielo",
           "cat": "Estado",
           "power": 0,
@@ -239587,7 +239608,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 70,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -239764,7 +239785,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 55,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -240188,7 +240209,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 77,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -240230,7 +240251,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1056,
-      "name": "Ferropaladín",
+      "name": "Ferropalad",
       "types": [
         "Hada",
         "Lucha"
@@ -240322,7 +240343,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 608,
-          "name": "Brillo Mágico",
+          "name": "BrilloMágico",
           "type": "Hada",
           "cat": "Especial",
           "power": 80,
@@ -240412,7 +240433,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 84,
           "id": 472,
-          "name": "Vasta Guardia",
+          "name": "VastaGuardia",
           "type": "Roca",
           "cat": "Estado",
           "power": 0,
@@ -240422,7 +240443,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 91,
           "id": 792,
-          "name": "Choque Anímico",
+          "name": "ChoqueAnímic",
           "type": "Hada",
           "cat": "Físico",
           "power": 75,
@@ -240440,7 +240461,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "ferropaladn"
+      "slug": "ferropalad"
     },
     {
       "id": 1057,
@@ -240466,7 +240487,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 787,
-          "name": "Vasto Impacto",
+          "name": "VastoImpacto",
           "type": "Dragón",
           "cat": "Físico",
           "power": 60,
@@ -240663,7 +240684,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -240703,7 +240724,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 573,
-          "name": "Carga Parábola",
+          "name": "Carga Parab.",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 65,
@@ -240743,7 +240764,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 882,
-          "name": "Electoderrape",
+          "name": "Electoderrap",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 100,
@@ -240920,7 +240941,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -240940,7 +240961,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 35,
           "id": 787,
-          "name": "Vasto Impacto",
+          "name": "VastoImpacto",
           "type": "Dragón",
           "cat": "Físico",
           "power": 60,
@@ -241022,7 +241043,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1060,
-      "name": "Ferroverdor",
+      "name": "Ferroverdo",
       "types": [
         "Planta",
         "Psíquico"
@@ -241044,7 +241065,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -241214,7 +241235,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 84,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -241224,7 +241245,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 91,
           "id": 672,
-          "name": "Cuchilla Solar",
+          "name": "Cuchilla Sol",
           "type": "Planta",
           "cat": "Físico",
           "power": 125,
@@ -241242,7 +241263,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "ironleaves"
+      "slug": "ferroverdo"
     },
     {
       "id": 1061,
@@ -241388,7 +241409,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 906,
-          "name": "Bomba Caramelo",
+          "name": "BombaCaramel",
           "type": "Planta",
           "cat": "Especial",
           "power": 60,
@@ -241408,7 +241429,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 916,
-          "name": "Bramido Dragón",
+          "name": "BramidoDrag.",
           "type": "Dragón",
           "cat": "Estado",
           "power": 0,
@@ -241514,7 +241535,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1062,
-      "name": "Poltchageist",
+      "name": "Polchgeist",
       "types": [
         "Planta",
         "Fantasma"
@@ -241667,13 +241688,13 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": [
         {
-          "name": "Poltchageist",
+          "name": "Polchgeist",
           "id": 1062,
           "types": [
             "Planta",
             "Fantasma"
           ],
-          "slug": "poltchageist",
+          "slug": "polchgeist",
           "evolves_to": [
             {
               "name": "Sinistcha",
@@ -241695,7 +241716,7 @@ window.CHIRLGOLD_DATA = {
       "evolutions_text": [
         "Evoluciona a Sinistcha (Usar Tetera Agrietada)"
       ],
-      "slug": "poltchageist"
+      "slug": "polchgeist"
     },
     {
       "id": 1063,
@@ -241715,13 +241736,13 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "-",
-        "-"
+        "Ignífugo"
       ],
       "learnset": [
         {
           "lvl": 0,
           "id": 905,
-          "name": "Cañón Batidor",
+          "name": "CañónBatidor",
           "type": "Planta",
           "cat": "Especial",
           "power": 80,
@@ -241731,7 +241752,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 905,
-          "name": "Cañón Batidor",
+          "name": "CañónBatidor",
           "type": "Planta",
           "cat": "Especial",
           "power": 80,
@@ -241831,7 +241852,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 671,
-          "name": "Absorbefuerza",
+          "name": "Absorbefza.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -241872,13 +241893,13 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": [
         {
-          "name": "Poltchageist",
+          "name": "Polchgeist",
           "id": 1062,
           "types": [
             "Planta",
             "Fantasma"
           ],
-          "slug": "poltchageist",
+          "slug": "polchgeist",
           "evolves_to": [
             {
               "name": "Sinistcha",
@@ -242065,7 +242086,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Toque Tóxico",
-        "-"
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -242191,7 +242212,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 72,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -242206,7 +242227,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1066,
-      "name": "Fezandipiti",
+      "name": "Fezanditi",
       "types": [
         "Veneno",
         "Hada"
@@ -242228,7 +242249,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 577,
-          "name": "Voz Cautivadora",
+          "name": "Voz Cautiv.",
           "type": "Hada",
           "cat": "Especial",
           "power": 40,
@@ -242369,7 +242390,7 @@ window.CHIRLGOLD_DATA = {
       "encounters": [],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "fezandipiti"
+      "slug": "fezanditi"
     },
     {
       "id": 1067,
@@ -242514,7 +242535,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 30,
           "id": 907,
-          "name": "Garrote Liana",
+          "name": "GarroteLiana",
           "type": "Planta",
           "cat": "Físico",
           "power": 100,
@@ -242524,7 +242545,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 36,
           "id": 678,
-          "name": "Golpe Mordaza",
+          "name": "GolpeMordaza",
           "type": "Siniestro",
           "cat": "Físico",
           "power": 80,
@@ -242544,7 +242565,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 599,
-          "name": "Barrera Espinosa",
+          "name": "Barr.Espin.",
           "type": "Planta",
           "cat": "Estado",
           "power": 0,
@@ -242681,7 +242702,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 24,
           "id": 787,
-          "name": "Vasto Impacto",
+          "name": "VastoImpacto",
           "type": "Dragón",
           "cat": "Físico",
           "power": 60,
@@ -242814,7 +242835,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 910,
-          "name": "Láser Veleidoso",
+          "name": "LáserVeleid.",
           "type": "Dragón",
           "cat": "Especial",
           "power": 80,
@@ -242824,7 +242845,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 910,
-          "name": "Láser Veleidoso",
+          "name": "LáserVeleid.",
           "type": "Dragón",
           "cat": "Especial",
           "power": 80,
@@ -242954,7 +242975,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 906,
-          "name": "Bomba Caramelo",
+          "name": "BombaCaramel",
           "type": "Planta",
           "cat": "Especial",
           "power": 60,
@@ -243120,7 +243141,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 571,
-          "name": "Rugido de Guerra",
+          "name": "RugidoGuerra",
           "type": "Normal",
           "cat": "Estado",
           "power": 0,
@@ -243230,7 +243251,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 911,
-          "name": "Llama Protectora",
+          "name": "LlamaProtect",
           "type": "Fuego",
           "cat": "Estado",
           "power": 0,
@@ -243290,7 +243311,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 91,
           "id": 836,
-          "name": "Erupción de Ira",
+          "name": "Erupción Ira",
           "type": "Fuego",
           "cat": "Físico",
           "power": 120,
@@ -243312,7 +243333,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 1071,
-      "name": "Electrofuria",
+      "name": "Electrofur",
       "types": [
         "Eléctrico",
         "Dragón"
@@ -243404,7 +243425,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 21,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -243444,7 +243465,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 49,
           "id": 912,
-          "name": "Relámpago Súbito",
+          "name": "Relámp.Súbit",
           "type": "Eléctrico",
           "cat": "Especial",
           "power": 70,
@@ -243454,7 +243475,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 56,
           "id": 695,
-          "name": "Martillo Dragón",
+          "name": "Mart. Dragón",
           "type": "Dragón",
           "cat": "Físico",
           "power": 90,
@@ -243494,7 +243515,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 84,
           "id": 779,
-          "name": "Plancha Corporal",
+          "name": "Plancha Corp",
           "type": "Lucha",
           "cat": "Físico",
           "power": 80,
@@ -243522,7 +243543,7 @@ window.CHIRLGOLD_DATA = {
       ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "ragingbolt"
+      "slug": "electrofur"
     },
     {
       "id": 1072,
@@ -243548,7 +243569,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -243762,7 +243783,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 607,
-          "name": "Campo Eléctrico",
+          "name": "Campo Eléct.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -243792,7 +243813,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 7,
           "id": 687,
-          "name": "Cuerno Certero",
+          "name": "CuernoCerte.",
           "type": "Acero",
           "cat": "Físico",
           "power": 70,
@@ -244025,7 +244046,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 50,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -244202,7 +244223,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 32,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -244222,7 +244243,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 48,
           "id": 922,
-          "name": "Cadena Virulenta",
+          "name": "CadenaVirul.",
           "type": "Veneno",
           "cat": "Especial",
           "power": 100,
@@ -244747,7 +244768,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 42,
           "id": 578,
-          "name": "Última Palabra",
+          "name": "Últ. Palabra",
           "type": "Siniestro",
           "cat": "Estado",
           "power": 0,
@@ -244898,7 +244919,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 612,
-          "name": "Moflete Estático",
+          "name": "Moflete Est.",
           "type": "Eléctrico",
           "cat": "Físico",
           "power": 20,
@@ -246448,7 +246469,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 28,
           "id": 505,
-          "name": "Cambio de Banda",
+          "name": "Cambio Banda",
           "type": "Psíquico",
           "cat": "Estado",
           "power": 0,
@@ -246595,7 +246616,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 0,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -246605,7 +246626,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 598,
-          "name": "Llama Embrujada",
+          "name": "LlamaEmbruj.",
           "type": "Fuego",
           "cat": "Especial",
           "power": 75,
@@ -247588,7 +247609,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 605,
-          "name": "Aura Magnética",
+          "name": "Aura Magnét.",
           "type": "Eléctrico",
           "cat": "Estado",
           "power": 0,
@@ -247815,7 +247836,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 1,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -247885,7 +247906,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 10,
           "id": 540,
-          "name": "Rodillo de Púas",
+          "name": "Rodillo Púas",
           "type": "Bicho",
           "cat": "Físico",
           "power": 65,
@@ -248005,7 +248026,7 @@ window.CHIRLGOLD_DATA = {
         {
           "lvl": 60,
           "id": 487,
-          "name": "Cuerpo Pesado",
+          "name": "CuerpoPesado",
           "type": "Acero",
           "cat": "Físico",
           "power": 1,
@@ -249337,7 +249358,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 0
         },
         {
@@ -249449,7 +249470,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 21
         }
       ]
@@ -249921,7 +249942,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 1
         },
         {
@@ -250217,7 +250238,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 27
         },
         {
@@ -250252,7 +250273,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 70
         },
         {
@@ -250594,7 +250615,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 35
         },
         {
@@ -250823,7 +250844,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 1
         }
       ]
@@ -251040,7 +251061,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 24
         }
       ]
@@ -251187,12 +251208,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 14
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 1
         },
         {
@@ -251229,7 +251250,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 64
         },
         {
@@ -251254,7 +251275,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 30
         },
         {
@@ -251663,7 +251684,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 32
         },
         {
@@ -251733,7 +251754,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 28
         },
         {
@@ -252062,7 +252083,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 24
         },
         {
@@ -252122,7 +252143,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 1
         }
       ]
@@ -252329,7 +252350,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 1
         },
         {
@@ -252371,7 +252392,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 66
         },
         {
@@ -252922,7 +252943,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 1
         }
       ]
@@ -253329,7 +253350,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 24
         },
         {
@@ -253728,12 +253749,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 12
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 12
         },
         {
@@ -253748,7 +253769,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 1
         },
         {
@@ -253758,7 +253779,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 17
         }
       ]
@@ -254837,7 +254858,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 1
         },
         {
@@ -255082,7 +255103,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 1
         },
         {
@@ -255267,7 +255288,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 4
         },
         {
@@ -255447,7 +255468,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 1
         },
         {
@@ -255759,7 +255780,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 42
         },
         {
@@ -255956,7 +255977,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 1
         },
         {
@@ -256618,7 +256639,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 45
         },
         {
@@ -256678,7 +256699,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 36
         },
         {
@@ -256723,7 +256744,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 21
         },
         {
@@ -257075,7 +257096,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 48
         },
         {
@@ -257557,7 +257578,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 66
         },
         {
@@ -257612,7 +257633,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 56
         },
         {
@@ -257647,7 +257668,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 52
         },
         {
@@ -257712,7 +257733,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 48
         },
         {
@@ -258174,7 +258195,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 1
         },
         {
@@ -258189,7 +258210,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 1
         },
         {
@@ -259442,7 +259463,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 1
         },
         {
@@ -259497,12 +259518,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 1
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         },
         {
@@ -259687,7 +259708,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 1
         },
         {
@@ -260444,7 +260465,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 1
         },
         {
@@ -260454,7 +260475,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 1
         },
         {
@@ -260524,7 +260545,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 16
         },
         {
@@ -260544,7 +260565,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 7
         },
         {
@@ -261341,7 +261362,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 1
         },
         {
@@ -261571,7 +261592,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 1
         },
         {
@@ -261581,7 +261602,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 1
         },
         {
@@ -261898,7 +261919,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 7
         },
         {
@@ -262596,7 +262617,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 29
         },
         {
@@ -262606,7 +262627,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 1
         }
       ]
@@ -263010,7 +263031,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 0
         },
         {
@@ -263060,7 +263081,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 1
         },
         {
@@ -263085,7 +263106,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 1
         },
         {
@@ -263125,7 +263146,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 1
         },
         {
@@ -264211,7 +264232,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 1
         },
         {
@@ -265486,7 +265507,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 7
         },
         {
@@ -265748,7 +265769,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 17
         },
         {
@@ -266092,7 +266113,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 91
         },
         {
@@ -266304,7 +266325,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 1
         },
         {
@@ -266384,12 +266405,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 1
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         },
         {
@@ -266404,7 +266425,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 1
         },
         {
@@ -266419,7 +266440,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 1
         },
         {
@@ -266429,7 +266450,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 1
         },
         {
@@ -266454,7 +266475,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 1
         }
       ]
@@ -266541,12 +266562,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 34
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 34
         },
         {
@@ -267034,7 +267055,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 42
         }
       ]
@@ -267503,7 +267524,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 5
         },
         {
@@ -267528,7 +267549,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 6
         },
         {
@@ -267835,7 +267856,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 1
         },
         {
@@ -267865,7 +267886,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 25
         },
         {
@@ -267890,7 +267911,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 24
         },
         {
@@ -269367,7 +269388,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 1
         },
         {
@@ -270012,7 +270033,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 1
         },
         {
@@ -270022,7 +270043,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 39
         },
         {
@@ -270042,7 +270063,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 14
         }
       ]
@@ -270299,7 +270320,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 4
         },
         {
@@ -270765,7 +270786,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 91
         }
       ]
@@ -270942,7 +270963,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 1
         },
         {
@@ -272961,7 +272982,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 35
         },
         {
@@ -272981,7 +273002,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 7
         }
       ]
@@ -273500,7 +273521,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 21
         },
         {
@@ -273570,7 +273591,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 18
         },
         {
@@ -273640,7 +273661,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 36
         },
         {
@@ -274132,7 +274153,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 1
         },
         {
@@ -274247,7 +274268,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 15
         },
         {
@@ -274267,7 +274288,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 6
         },
         {
@@ -274277,7 +274298,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 7
         },
         {
@@ -274297,12 +274318,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 1
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 8
         },
         {
@@ -274454,7 +274475,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 5
         },
         {
@@ -274703,7 +274724,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 18
         },
         {
@@ -274795,7 +274816,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 1
         }
       ]
@@ -275322,7 +275343,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 16
         },
         {
@@ -275332,7 +275353,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 35
         },
         {
@@ -275569,12 +275590,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 1
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 1
         }
       ]
@@ -276472,7 +276493,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 1
         }
       ]
@@ -276769,7 +276790,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 20
         },
         {
@@ -276794,7 +276815,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 1
         },
         {
@@ -276956,7 +276977,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 1
         },
         {
@@ -276966,7 +276987,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 1
         },
         {
@@ -277278,7 +277299,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 1
         },
         {
@@ -277293,7 +277314,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 1
         },
         {
@@ -277617,7 +277638,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 16
         },
         {
@@ -278358,12 +278379,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 1
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 1
         },
         {
@@ -279443,7 +279464,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 51
         },
         {
@@ -280430,7 +280451,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 12
         }
       ]
@@ -280619,7 +280640,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 1
         },
         {
@@ -281096,7 +281117,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 1
         },
         {
@@ -281158,7 +281179,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 25
         }
       ]
@@ -282800,7 +282821,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 36
         },
         {
@@ -283048,7 +283069,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 53
         },
         {
@@ -283063,7 +283084,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 1
         },
         {
@@ -283692,7 +283713,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 33
         },
         {
@@ -284124,7 +284145,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 15
         },
         {
@@ -284453,7 +284474,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 66
         },
         {
@@ -284478,7 +284499,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 45
         }
       ]
@@ -284750,7 +284771,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 15
         },
         {
@@ -284850,7 +284871,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 8
         },
         {
@@ -284895,7 +284916,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 1
         }
       ]
@@ -285183,7 +285204,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 33
         },
         {
@@ -285223,7 +285244,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 52
         },
         {
@@ -285320,7 +285341,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 1
         },
         {
@@ -285894,7 +285915,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 18
         },
         {
@@ -286478,7 +286499,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 19
         },
         {
@@ -286513,12 +286534,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 28
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 28
         },
         {
@@ -286558,7 +286579,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 20
         },
         {
@@ -287184,7 +287205,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 84
         }
       ]
@@ -287588,7 +287609,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 4
         }
       ]
@@ -287834,7 +287855,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 77
         }
       ]
@@ -288123,7 +288144,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 77
         },
         {
@@ -288220,7 +288241,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 91
         }
       ]
@@ -288594,7 +288615,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 70
         }
       ]
@@ -288940,7 +288961,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 77
         },
         {
@@ -289469,7 +289490,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 36
         },
         {
@@ -289484,7 +289505,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 40
         },
         {
@@ -289509,7 +289530,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 42
         }
       ]
@@ -290490,7 +290511,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 1
         },
         {
@@ -290505,7 +290526,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 8
         },
         {
@@ -290909,12 +290930,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 40
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 42
         },
         {
@@ -290949,7 +290970,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 38
         },
         {
@@ -290984,7 +291005,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 56
         }
       ]
@@ -291248,7 +291269,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 15
         },
         {
@@ -291485,7 +291506,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 1
         }
       ]
@@ -291512,7 +291533,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 52
         },
         {
@@ -291522,7 +291543,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         }
       ]
@@ -291664,7 +291685,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 14
         },
         {
@@ -291796,7 +291817,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 16
         }
       ]
@@ -292315,12 +292336,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 50
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 32
         }
       ]
@@ -292496,7 +292517,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 45
         },
         {
@@ -292628,7 +292649,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 77
         },
         {
@@ -292855,7 +292876,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 21
         },
         {
@@ -292900,7 +292921,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 14
         }
       ]
@@ -293631,12 +293652,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 1
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 10
         },
         {
@@ -293833,7 +293854,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 9
         },
         {
@@ -294563,7 +294584,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 70
         },
         {
@@ -295153,7 +295174,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 1
         }
       ]
@@ -295637,7 +295658,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 1
         }
       ]
@@ -296269,7 +296290,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 40
         },
         {
@@ -296279,7 +296300,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 46
         },
         {
@@ -296314,7 +296335,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 32
         },
         {
@@ -296379,7 +296400,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 35
         },
         {
@@ -297137,7 +297158,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 20
         },
         {
@@ -297152,7 +297173,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 1
         },
         {
@@ -297339,7 +297360,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 43
         },
         {
@@ -297349,7 +297370,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 48
         },
         {
@@ -297359,12 +297380,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 1
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 42
         },
         {
@@ -297374,7 +297395,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 48
         },
         {
@@ -297626,7 +297647,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 21
         },
         {
@@ -297708,7 +297729,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 1
         },
         {
@@ -298032,7 +298053,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 48
         }
       ]
@@ -298209,7 +298230,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 7
         },
         {
@@ -298401,7 +298422,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 40
         },
         {
@@ -298421,7 +298442,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 24
         },
         {
@@ -298431,7 +298452,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 19
         },
         {
@@ -299148,7 +299169,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 10
         },
         {
@@ -299320,7 +299341,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 56
         }
       ]
@@ -299427,7 +299448,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 55
         },
         {
@@ -299574,7 +299595,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 54
         },
         {
@@ -299589,7 +299610,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 21
         },
         {
@@ -299609,7 +299630,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 54
         },
         {
@@ -299686,7 +299707,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 34
         }
       ]
@@ -299768,7 +299789,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 91
         }
       ]
@@ -300171,7 +300192,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 49
         },
         {
@@ -300186,7 +300207,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 7
         }
       ]
@@ -300443,12 +300464,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 22
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 22
         },
         {
@@ -300488,7 +300509,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 20
         },
         {
@@ -300935,7 +300956,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 1
         },
         {
@@ -301007,12 +301028,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 53
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 1
         }
       ]
@@ -301176,7 +301197,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 28
         }
       ]
@@ -301654,7 +301675,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 16
         },
         {
@@ -302197,7 +302218,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 28
         },
         {
@@ -302404,7 +302425,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 52
         },
         {
@@ -302449,7 +302470,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 63
         },
         {
@@ -302459,7 +302480,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 70
         }
       ]
@@ -302706,7 +302727,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 52
         },
         {
@@ -303007,7 +303028,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 1
         },
         {
@@ -303027,7 +303048,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 70
         }
       ]
@@ -303337,7 +303358,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 24
         },
         {
@@ -303414,7 +303435,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 1
         }
       ]
@@ -304288,7 +304309,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 42
         }
       ]
@@ -304467,7 +304488,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 25
         },
         {
@@ -304948,7 +304969,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 1
         },
         {
@@ -304973,7 +304994,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 1
         },
         {
@@ -305043,7 +305064,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 1
         },
         {
@@ -305083,7 +305104,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 1
         },
         {
@@ -305103,7 +305124,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 1
         },
         {
@@ -305357,7 +305378,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 30
         },
         {
@@ -305631,7 +305652,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 1
         }
       ]
@@ -305723,7 +305744,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 91
         },
         {
@@ -306007,7 +306028,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 12
         },
         {
@@ -306261,7 +306282,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 31
         },
         {
@@ -306286,7 +306307,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         },
         {
@@ -306311,7 +306332,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 63
         },
         {
@@ -307465,7 +307486,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 13
         },
         {
@@ -307602,7 +307623,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 36
         },
         {
@@ -307637,7 +307658,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 12
         },
         {
@@ -307667,7 +307688,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 13
         }
       ]
@@ -307981,7 +308002,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 42
         },
         {
@@ -308051,7 +308072,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         },
         {
@@ -308218,7 +308239,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 1
         },
         {
@@ -309526,12 +309547,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 13
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 7
         }
       ]
@@ -309895,7 +309916,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 41
         },
         {
@@ -309935,7 +309956,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 42
         }
       ]
@@ -310067,12 +310088,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 49
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 49
         }
       ]
@@ -310448,7 +310469,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 1
         }
       ]
@@ -310976,7 +310997,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 42
         },
         {
@@ -311026,7 +311047,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 47
         },
         {
@@ -311036,7 +311057,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 24
         },
         {
@@ -311046,7 +311067,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 36
         },
         {
@@ -311056,7 +311077,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 64
         }
       ]
@@ -311123,7 +311144,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 18
         },
         {
@@ -312162,7 +312183,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 31
         },
         {
@@ -312339,7 +312360,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 1
         },
         {
@@ -312404,7 +312425,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 14
         }
       ]
@@ -312516,12 +312537,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 16
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 16
         },
         {
@@ -312546,7 +312567,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 11
         },
         {
@@ -312728,7 +312749,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 46
         },
         {
@@ -313049,7 +313070,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 24
         },
         {
@@ -313196,7 +313217,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 49
         },
         {
@@ -313276,12 +313297,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 63
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 63
         },
         {
@@ -313291,7 +313312,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 63
         }
       ]
@@ -313875,7 +313896,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 14
         }
       ]
@@ -314320,7 +314341,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 85
         },
         {
@@ -314855,7 +314876,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 46
         },
         {
@@ -315072,7 +315093,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 27
         },
         {
@@ -315298,7 +315319,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 65
         },
         {
@@ -315647,7 +315668,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 29
         },
         {
@@ -315979,7 +316000,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 24
         },
         {
@@ -316716,7 +316737,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 35
         },
         {
@@ -316895,7 +316916,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 6
         },
         {
@@ -317224,7 +317245,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 70
         },
         {
@@ -317501,7 +317522,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 38
         },
         {
@@ -317526,12 +317547,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 42
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 28
         }
       ]
@@ -317875,7 +317896,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 20
         },
         {
@@ -318177,7 +318198,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 44
         },
         {
@@ -318227,7 +318248,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 56
         }
       ]
@@ -318384,7 +318405,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 37
         },
         {
@@ -318591,7 +318612,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 84
         }
       ]
@@ -318823,7 +318844,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 84
         },
         {
@@ -318848,7 +318869,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 70
         }
       ]
@@ -318975,7 +318996,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 40
         },
         {
@@ -319152,7 +319173,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 56
         },
         {
@@ -319385,7 +319406,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 42
         },
         {
@@ -319532,12 +319553,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 46
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 50
         },
         {
@@ -319547,7 +319568,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "pokemon": "Squawkabilly",
+          "pokemon": "Squawkbily",
           "lvl": 42
         },
         {
@@ -320285,7 +320306,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 42
         },
         {
@@ -320434,7 +320455,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 29
         },
         {
@@ -321326,7 +321347,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 1
         }
       ]
@@ -321530,7 +321551,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 35
         },
         {
@@ -322510,7 +322531,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 48
         },
         {
@@ -322520,7 +322541,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 42
         },
         {
@@ -322530,7 +322551,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 28
         }
       ]
@@ -322789,7 +322810,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 64
         },
         {
@@ -322799,7 +322820,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 60
         },
         {
@@ -322881,7 +322902,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 55
         },
         {
@@ -322980,7 +323001,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 32
         }
       ]
@@ -323179,7 +323200,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 47
         },
         {
@@ -323493,7 +323514,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 60
         },
         {
@@ -323812,7 +323833,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 30
         },
         {
@@ -324150,7 +324171,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 20
         },
         {
@@ -324516,12 +324537,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 1
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 12
         },
         {
@@ -324704,7 +324725,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 56
         },
         {
@@ -324806,7 +324827,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "pokemon": "Código Cero",
+          "pokemon": "Cód. Cero",
           "lvl": 33
         },
         {
@@ -325329,12 +325350,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 1
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         },
         {
@@ -325379,7 +325400,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 10
         },
         {
@@ -325411,7 +325432,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 472,
-      "name": "Vasta Guardia",
+      "name": "VastaGuardia",
       "type": "Roca",
       "category": "Estado",
       "power": 0,
@@ -325546,7 +325567,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 48
         },
         {
@@ -325576,7 +325597,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 84
         }
       ]
@@ -325934,7 +325955,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 63
         },
         {
@@ -326250,7 +326271,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 36
         },
         {
@@ -326690,7 +326711,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 17
         }
       ]
@@ -326742,7 +326763,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 49
         },
         {
@@ -326841,7 +326862,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 487,
-      "name": "Cuerpo Pesado",
+      "name": "CuerpoPesado",
       "type": "Acero",
       "category": "Físico",
       "power": 1,
@@ -326966,7 +326987,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 924,
-          "pokemon": "Stonjourner",
+          "pokemon": "Stonjorner",
           "lvl": 54
         },
         {
@@ -327006,7 +327027,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 77
         },
         {
@@ -327225,7 +327246,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 0
         }
       ]
@@ -327347,7 +327368,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 28
         },
         {
@@ -327479,7 +327500,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 0
         },
         {
@@ -327641,12 +327662,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 25
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 44
         }
       ]
@@ -327840,7 +327861,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 1
         }
       ]
@@ -327962,7 +327983,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 18
         },
         {
@@ -328773,7 +328794,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 503,
-      "name": "Poder Reserva",
+      "name": "PoderReserva",
       "type": "Psíquico",
       "category": "Especial",
       "power": 20,
@@ -328858,7 +328879,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 13
         },
         {
@@ -329025,12 +329046,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 84
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 21
         },
         {
@@ -329047,13 +329068,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 505,
-      "name": "Cambio de Banda",
+      "name": "Cambio Banda",
       "type": "Psíquico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terren...",
+      "desc": "Ataque con Cambio Banda.",
       "learned_by": [
         {
           "pid": 64,
@@ -329112,7 +329133,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 84
         }
       ]
@@ -329266,7 +329287,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 60
         }
       ]
@@ -329580,7 +329601,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 21
         },
         {
@@ -329595,7 +329616,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 30
         },
         {
@@ -329629,13 +329650,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 511,
-      "name": "Cambio de Marcha",
+      "name": "Camb. Marcha",
       "type": "Acero",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Al hacer girar los engranajes, el usuario mejora su Ataque y aumenta mucho su Veloc...",
+      "desc": "Ataque con Camb. Marcha.",
       "learned_by": [
         {
           "pid": 649,
@@ -329803,7 +329824,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 30
         },
         {
@@ -329900,7 +329921,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 1
         }
       ]
@@ -330002,7 +330023,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "pokemon": "Fletchinder",
+          "pokemon": "Flechinder",
           "lvl": 31
         },
         {
@@ -330216,7 +330237,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 14
         },
         {
@@ -330477,7 +330498,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 1
         },
         {
@@ -330582,7 +330603,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 43
         },
         {
@@ -330744,7 +330765,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 7
         }
       ]
@@ -331145,7 +331166,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 35
         }
       ]
@@ -331317,12 +331338,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 1
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 1
         }
       ]
@@ -331466,7 +331487,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 56
         },
         {
@@ -331528,7 +331549,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 24
         }
       ]
@@ -331751,7 +331772,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 42
         },
         {
@@ -331887,13 +331908,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 539,
-      "name": "Ciclón de Hojas",
+      "name": "Ciclón Hojas",
       "type": "Planta",
       "category": "Especial",
       "power": 65,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Tritura con afiladas hojas y puede bajar la Precisión del objetivo.",
+      "desc": "Ataque con Ciclón Hojas.",
       "learned_by": [
         {
           "pid": 71,
@@ -331944,13 +331965,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 540,
-      "name": "Rodillo de Púas",
+      "name": "Rodillo Púas",
       "type": "Bicho",
       "category": "Físico",
       "power": 65,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Rodillo Púas.",
       "learned_by": [
         {
           "pid": 76,
@@ -332137,7 +332158,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 40
         }
       ]
@@ -332264,17 +332285,17 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 55
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 56
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 77
         }
       ]
@@ -332359,7 +332380,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 550,
-      "name": "Canto Arcaico",
+      "name": "CantoArcaico",
       "type": "Normal",
       "category": "Especial",
       "power": 75,
@@ -332370,7 +332391,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 551,
-      "name": "Sable Místico",
+      "name": "SableMístico",
       "type": "Lucha",
       "category": "Especial",
       "power": 85,
@@ -332404,13 +332425,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 553,
-      "name": "Ataque Fulgor",
+      "name": "At. Fulgor",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 130,
       "accuracy": 85,
       "pp": 5,
-      "desc": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede parali...",
+      "desc": "Ataque con At. Fulgor.",
       "learned_by": [
         {
           "pid": 694,
@@ -332453,7 +332474,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 56
         }
       ]
@@ -332552,7 +332573,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 28
         }
       ]
@@ -332672,13 +332693,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 563,
-      "name": "Plancha Voladora",
+      "name": "Plancha Vol.",
       "type": "Lucha",
       "category": "Físico",
       "power": 100,
       "accuracy": 95,
       "pp": 10,
-      "desc": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Vola...",
+      "desc": "Ataque con Plancha Vol..",
       "learned_by": [
         {
           "pid": 751,
@@ -332689,7 +332710,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 564,
-      "name": "Escudo Tatami",
+      "name": "EscudoTatami",
       "type": "Lucha",
       "category": "Estado",
       "power": 0,
@@ -332987,7 +333008,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 568,
-      "name": "Aguijón Letal",
+      "name": "AguijónLetal",
       "type": "Bicho",
       "category": "Físico",
       "power": 50,
@@ -333074,13 +333095,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 569,
-      "name": "Golpe Fantasma",
+      "name": "G. Fantasma",
       "type": "Fantasma",
       "category": "Físico",
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acert...",
+      "desc": "Ataque con G. Fantasma.",
       "learned_by": [
         {
           "pid": 292,
@@ -333169,7 +333190,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 1
         },
         {
@@ -333179,7 +333200,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 35
         },
         {
@@ -333194,7 +333215,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 70
         }
       ]
@@ -333223,13 +333244,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 571,
-      "name": "Rugido de Guerra",
+      "name": "RugidoGuerra",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 30,
-      "desc": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su At...",
+      "desc": "Ataque con RugidoGuerra.",
       "learned_by": [
         {
           "pid": 321,
@@ -333315,13 +333336,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 572,
-      "name": "Cortina Plasma",
+      "name": "Cort. Plasma",
       "type": "Eléctrico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 25,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Cort. Plasma.",
       "learned_by": [
         {
           "pid": 170,
@@ -333362,13 +333383,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 573,
-      "name": "Carga Parábola",
+      "name": "Carga Parab.",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 65,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño produci...",
+      "desc": "Ataque con Carga Parab..",
       "learned_by": [
         {
           "pid": 744,
@@ -333394,13 +333415,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 574,
-      "name": "Condena Silvana",
+      "name": "Cond.Silvana",
       "type": "Planta",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta...",
+      "desc": "Ataque con Cond.Silvana.",
       "learned_by": [
         {
           "pid": 758,
@@ -333416,13 +333437,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 575,
-      "name": "Tormenta Floral",
+      "name": "Torm. Floral",
       "type": "Planta",
       "category": "Físico",
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor.",
+      "desc": "Ataque con Torm. Floral.",
       "learned_by": [
         {
           "pid": 3,
@@ -333518,13 +333539,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 576,
-      "name": "Liofilización",
+      "name": "Liofilizac.",
       "type": "Hielo",
       "category": "Especial",
       "power": 70,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pok...",
+      "desc": "Ataque con Liofilizac..",
       "learned_by": [
         {
           "pid": 144,
@@ -333590,13 +333611,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 577,
-      "name": "Voz Cautivadora",
+      "name": "Voz Cautiv.",
       "type": "Hada",
       "category": "Especial",
       "power": 40,
       "accuracy": 0,
       "pp": 15,
-      "desc": "Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre a...",
+      "desc": "Ataque con Voz Cautiv..",
       "learned_by": [
         {
           "pid": 35,
@@ -333790,20 +333811,20 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 1
         }
       ]
     },
     {
       "id": 578,
-      "name": "Última Palabra",
+      "name": "Últ. Palabra",
       "type": "Siniestro",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponent...",
+      "desc": "Ataque con Últ. Palabra.",
       "learned_by": [
         {
           "pid": 724,
@@ -334013,7 +334034,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 581,
-      "name": "Truco Defensa",
+      "name": "TrucoDefensa",
       "type": "Hada",
       "category": "Estado",
       "power": 0,
@@ -334050,13 +334071,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 582,
-      "name": "Defensa Floral",
+      "name": "Def. Floral",
       "type": "Hada",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos mi...",
+      "desc": "Ataque con Def. Floral.",
       "learned_by": [
         {
           "pid": 421,
@@ -334077,13 +334098,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 583,
-      "name": "Campo de Hierba",
+      "name": "Campo Hierba",
       "type": "Planta",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en c...",
+      "desc": "Ataque con Campo Hierba.",
       "learned_by": [
         {
           "pid": 43,
@@ -334152,7 +334173,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 58
         },
         {
@@ -334179,13 +334200,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 584,
-      "name": "Campo de Niebla",
+      "name": "Campo Niebla",
       "type": "Hada",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Durante cinco turnos, los Pokémon que están en el suelo no sufren problemas de estado y se reduce...",
+      "desc": "Ataque con Campo Niebla.",
       "learned_by": [
         {
           "pid": 122,
@@ -334281,13 +334302,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 585,
-      "name": "Electrificación",
+      "name": "Electrific.",
       "type": "Eléctrico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+      "desc": "Ataque con Electrific..",
       "learned_by": [
         {
           "pid": 744,
@@ -334533,7 +334554,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 47
         },
         {
@@ -334590,13 +334611,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 587,
-      "name": "Viento Feérico",
+      "name": "Vien.Feérico",
       "type": "Hada",
       "category": "Especial",
       "power": 40,
       "accuracy": 100,
       "pp": 30,
-      "desc": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+      "desc": "Ataque con Vien.Feérico.",
       "learned_by": [
         {
           "pid": 176,
@@ -334932,17 +334953,17 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 84
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 56
         },
         {
           "pid": 1066,
-          "pokemon": "Fezandipiti",
+          "pokemon": "Fezanditi",
           "lvl": 72
         }
       ]
@@ -334994,7 +335015,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 62
         },
         {
@@ -335006,13 +335027,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 590,
-      "name": "Cerrojo Feérico",
+      "name": "CerrojoFeér.",
       "type": "Hada",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+      "desc": "Ataque con CerrojoFeér..",
       "learned_by": [
         {
           "pid": 757,
@@ -335234,13 +335255,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 594,
-      "name": "Tormenta de Diamantes",
+      "name": "Torm.Diaman.",
       "type": "Roca",
       "category": "Físico",
       "power": 100,
       "accuracy": 95,
       "pp": 5,
-      "desc": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumen...",
+      "desc": "Ataque con Torm.Diaman..",
       "learned_by": [
         {
           "pid": 769,
@@ -335251,13 +335272,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 595,
-      "name": "Chorro de Vapor",
+      "name": "Chorro Vapor",
       "type": "Agua",
       "category": "Especial",
       "power": 110,
       "accuracy": 95,
       "pp": 5,
-      "desc": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a que...",
+      "desc": "Ataque con Chorro Vapor.",
       "learned_by": [
         {
           "pid": 771,
@@ -335268,13 +335289,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 596,
-      "name": "Paso Dimensional",
+      "name": "Paso Dimens.",
       "type": "Psíquico",
       "category": "Especial",
       "power": 80,
       "accuracy": 0,
       "pp": 5,
-      "desc": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que mo...",
+      "desc": "Ataque con Paso Dimens..",
       "learned_by": [
         {
           "pid": 770,
@@ -335285,13 +335306,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 597,
-      "name": "Shuriken de Agua",
+      "name": "ShurikenAgua",
       "type": "Agua",
       "category": "Especial",
       "power": 15,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Golpea al oponente de dos a cinco veces con estrellas arrojadizas hechas de mucosidad. E...",
+      "desc": "Ataque con ShurikenAgua.",
       "learned_by": [
         {
           "pid": 667,
@@ -335307,13 +335328,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 598,
-      "name": "Llama Embrujada",
+      "name": "LlamaEmbruj.",
       "type": "Fuego",
       "category": "Especial",
       "power": 75,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario lanza por la boca una singular llama a gran temperatura con la que ataca a su oponent...",
+      "desc": "Ataque con LlamaEmbruj..",
       "learned_by": [
         {
           "pid": 429,
@@ -335327,7 +335348,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 40
         },
         {
@@ -335347,20 +335368,20 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 49
         }
       ]
     },
     {
       "id": 599,
-      "name": "Barrera Espinosa",
+      "name": "Barr.Espin.",
       "type": "Planta",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+      "desc": "Ataque con Barr.Espin..",
       "learned_by": [
         {
           "pid": 332,
@@ -335396,13 +335417,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 600,
-      "name": "Niebla Aromática",
+      "name": "Niebla Arom.",
       "type": "Hada",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+      "desc": "Ataque con Niebla Arom..",
       "learned_by": [
         {
           "pid": 416,
@@ -335441,7 +335462,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 1
         },
         {
@@ -335500,13 +335521,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 602,
-      "name": "Trampa Venenosa",
+      "name": "Trampa Ven.",
       "type": "Veneno",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el Ataque Especial y l...",
+      "desc": "Ataque con Trampa Ven..",
       "learned_by": [
         {
           "pid": 89,
@@ -335597,13 +335618,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 603,
-      "name": "Polvo Explosivo",
+      "name": "PolvoExplos.",
       "type": "Bicho",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el...",
+      "desc": "Ataque con PolvoExplos..",
       "learned_by": [
         {
           "pid": 716,
@@ -335631,13 +335652,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 605,
-      "name": "Aura Magnética",
+      "name": "Aura Magnét.",
       "type": "Eléctrico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Manipula el campo magnético y logra aumentar la Defensa y la Defensa Especial de lo...",
+      "desc": "Ataque con Aura Magnét..",
       "learned_by": [
         {
           "pid": 101,
@@ -335689,13 +335710,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 607,
-      "name": "Campo Eléctrico",
+      "name": "Campo Eléct.",
       "type": "Eléctrico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en c...",
+      "desc": "Ataque con Campo Eléct..",
       "learned_by": [
         {
           "pid": 82,
@@ -335784,17 +335805,17 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "lvl": 1
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "lvl": 1
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 1
         },
         {
@@ -335809,12 +335830,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 1
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 21
         },
         {
@@ -335831,7 +335852,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 608,
-      "name": "Brillo Mágico",
+      "name": "BrilloMágico",
       "type": "Hada",
       "category": "Especial",
       "power": 80,
@@ -335926,12 +335947,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "lvl": 35
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 28
         }
       ]
@@ -335960,13 +335981,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 611,
-      "name": "Ojitos Tiernos",
+      "name": "Ojos Tiernos",
       "type": "Hada",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 30,
-      "desc": "Lanza una mirada al objetivo con ojos acaramelados, con lo que logra que su Ataque se...",
+      "desc": "Ataque con Ojos Tiernos.",
       "learned_by": [
         {
           "pid": 37,
@@ -336167,13 +336188,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 612,
-      "name": "Moflete Estático",
+      "name": "Moflete Est.",
       "type": "Eléctrico",
       "category": "Físico",
       "power": 20,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue pa...",
+      "desc": "Ataque con Moflete Est..",
       "learned_by": [
         {
           "pid": 25,
@@ -336335,7 +336356,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 997,
-          "pokemon": "Brambleghast",
+          "pokemon": "Bramblgast",
           "lvl": 17
         },
         {
@@ -336352,13 +336373,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 615,
-      "name": "Puño Incremento",
+      "name": "Puño Increm.",
       "type": "Lucha",
       "category": "Físico",
       "power": 40,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque de...",
+      "desc": "Ataque con Puño Increm..",
       "learned_by": [
         {
           "pid": 107,
@@ -336387,7 +336408,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 22
         },
         {
@@ -336409,7 +336430,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 616,
-      "name": "Ala Mortífera",
+      "name": "AlaMortífera",
       "type": "Volador",
       "category": "Especial",
       "power": 80,
@@ -336443,7 +336464,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 618,
-      "name": "Mil Temblores",
+      "name": "MilTemblores",
       "type": "Tierra",
       "category": "Físico",
       "power": 90,
@@ -336460,13 +336481,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 619,
-      "name": "Fuerza Telúrica",
+      "name": "Fza.Telúrica",
       "type": "Tierra",
       "category": "Físico",
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+      "desc": "Ataque con Fza.Telúrica.",
       "learned_by": [
         {
           "pid": 768,
@@ -336477,24 +336498,24 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 620,
-      "name": "Luz Aniquiladora",
+      "name": "Luz Aniquil.",
       "type": "Hada",
       "category": "Especial",
       "power": 140,
       "accuracy": 90,
       "pp": 5,
-      "desc": "El usuario emplea el poder de la Flor Eterna para lanzar un potente rayo de luz, pero sufr...",
+      "desc": "Ataque con Luz Aniquil..",
       "learned_by": []
     },
     {
       "id": 621,
-      "name": "Pulso Primigenio",
+      "name": "PulsoPrimig.",
       "type": "Agua",
       "category": "Especial",
       "power": 110,
       "accuracy": 85,
       "pp": 10,
-      "desc": "Ataca al objetivo con una infinidad de rayos de luz azulada.",
+      "desc": "Ataque con PulsoPrimig..",
       "learned_by": [
         {
           "pid": 382,
@@ -336505,13 +336526,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 622,
-      "name": "Filo del Abismo",
+      "name": "Filo Abismo",
       "type": "Tierra",
       "category": "Físico",
       "power": 120,
       "accuracy": 85,
       "pp": 10,
-      "desc": "Hace que el poder latente de la tierra se manifieste en forma de hojas afiladas y ataca...",
+      "desc": "Ataque con Filo Abismo.",
       "learned_by": [
         {
           "pid": 383,
@@ -336522,7 +336543,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 623,
-      "name": "Ascenso Draco",
+      "name": "AscensoDraco",
       "type": "Volador",
       "category": "Físico",
       "power": 120,
@@ -336539,420 +336560,420 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 624,
-      "name": "Cerco Dimensión",
+      "name": "CercoDimens.",
       "type": "Siniestro",
       "category": "Físico",
       "power": 100,
       "accuracy": 0,
       "pp": 5,
-      "desc": "Ataca al objetivo con una ráfaga de golpes que pasan por alto los efectos de movimientos...",
+      "desc": "Ataque con CercoDimens..",
       "learned_by": []
     },
     {
       "id": 625,
-      "name": "Carrera Arrolladora",
+      "name": "Carr.Arroll.",
       "type": "Normal",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Carr.Arroll..",
       "learned_by": []
     },
     {
       "id": 626,
-      "name": "Carrera Arrolladora",
+      "name": "Carr.Arroll.",
       "type": "Normal",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Carr.Arroll..",
       "learned_by": []
     },
     {
       "id": 627,
-      "name": "Ráfaga Demoledora",
+      "name": "Ráf.Demoled.",
       "type": "Lucha",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Ráf.Demoled..",
       "learned_by": []
     },
     {
       "id": 628,
-      "name": "Ráfaga Demoledora",
+      "name": "Ráf.Demoled.",
       "type": "Lucha",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Ráf.Demoled..",
       "learned_by": []
     },
     {
       "id": 629,
-      "name": "Picado Supersónico",
+      "name": "Pic.Supersó.",
       "type": "Volador",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Pic.Supersó..",
       "learned_by": []
     },
     {
       "id": 630,
-      "name": "Picado Supersónico",
+      "name": "Pic.Supersó.",
       "type": "Volador",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Pic.Supersó..",
       "learned_by": []
     },
     {
       "id": 631,
-      "name": "Diluvio Corrosivo",
+      "name": "Diluv.Corros",
       "type": "Veneno",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Diluv.Corros.",
       "learned_by": []
     },
     {
       "id": 632,
-      "name": "Diluvio Corrosivo",
+      "name": "Diluv.Corros",
       "type": "Veneno",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Diluv.Corros.",
       "learned_by": []
     },
     {
       "id": 633,
-      "name": "Barrena Telúrica",
+      "name": "Barren.Telúr",
       "type": "Tierra",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Barren.Telúr.",
       "learned_by": []
     },
     {
       "id": 634,
-      "name": "Barrena Telúrica",
+      "name": "Barren.Telúr",
       "type": "Tierra",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Barren.Telúr.",
       "learned_by": []
     },
     {
       "id": 635,
-      "name": "Aplastamiento Gigalítico",
+      "name": "Aplast.Giga.",
       "type": "Roca",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Aplast.Giga..",
       "learned_by": []
     },
     {
       "id": 636,
-      "name": "Aplastamiento Gigalítico",
+      "name": "Aplast.Giga.",
       "type": "Roca",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Aplast.Giga..",
       "learned_by": []
     },
     {
       "id": 637,
-      "name": "Guadaña Sedosa",
+      "name": "GuadañaSedos",
       "type": "Bicho",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con GuadañaSedos.",
       "learned_by": []
     },
     {
       "id": 638,
-      "name": "Guadaña Sedosa",
+      "name": "GuadañaSedos",
       "type": "Bicho",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con GuadañaSedos.",
       "learned_by": []
     },
     {
       "id": 639,
-      "name": "Presa Espectral",
+      "name": "PresaEspect.",
       "type": "Fantasma",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con PresaEspect..",
       "learned_by": []
     },
     {
       "id": 640,
-      "name": "Presa Espectral",
+      "name": "PresaEspect.",
       "type": "Fantasma",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con PresaEspect..",
       "learned_by": []
     },
     {
       "id": 641,
-      "name": "Hélice Trepanadora",
+      "name": "HéliceTrepan",
       "type": "Acero",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con HéliceTrepan.",
       "learned_by": []
     },
     {
       "id": 642,
-      "name": "Hélice Trepanadora",
+      "name": "HéliceTrepan",
       "type": "Acero",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con HéliceTrepan.",
       "learned_by": []
     },
     {
       "id": 643,
-      "name": "Hecatombe Pírica",
+      "name": "Hecatom.Píri",
       "type": "Fuego",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Hecatom.Píri.",
       "learned_by": []
     },
     {
       "id": 644,
-      "name": "Hecatombe Pírica",
+      "name": "Hecatom.Píri",
       "type": "Fuego",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Hecatom.Píri.",
       "learned_by": []
     },
     {
       "id": 645,
-      "name": "Hidrovórtice Abisal",
+      "name": "Hidrov.Abis.",
       "type": "Agua",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Hidrov.Abis..",
       "learned_by": []
     },
     {
       "id": 646,
-      "name": "Hidrovórtice Abisal",
+      "name": "Hidrov.Abis.",
       "type": "Agua",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Hidrov.Abis..",
       "learned_by": []
     },
     {
       "id": 647,
-      "name": "Megatón Floral",
+      "name": "Megat.Floral",
       "type": "Planta",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Megat.Floral.",
       "learned_by": []
     },
     {
       "id": 648,
-      "name": "Megatón Floral",
+      "name": "Megat.Floral",
       "type": "Planta",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Megat.Floral.",
       "learned_by": []
     },
     {
       "id": 649,
-      "name": "Gigavoltio Destructor",
+      "name": "Gigavolt.Des",
       "type": "Eléctrico",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Gigavolt.Des.",
       "learned_by": []
     },
     {
       "id": 650,
-      "name": "Gigavoltio Destructor",
+      "name": "Gigavolt.Des",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Gigavolt.Des.",
       "learned_by": []
     },
     {
       "id": 651,
-      "name": "Disruptor Psíquico",
+      "name": "Disrupt.Psí.",
       "type": "Psíquico",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Disrupt.Psí..",
       "learned_by": []
     },
     {
       "id": 652,
-      "name": "Disruptor Psíquico",
+      "name": "Disrupt.Psí.",
       "type": "Psíquico",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Disrupt.Psí..",
       "learned_by": []
     },
     {
       "id": 653,
-      "name": "Crioaliento Despiadado",
+      "name": "Crioal.Desp.",
       "type": "Hielo",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Crioal.Desp..",
       "learned_by": []
     },
     {
       "id": 654,
-      "name": "Crioaliento Despiadado",
+      "name": "Crioal.Desp.",
       "type": "Hielo",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Crioal.Desp..",
       "learned_by": []
     },
     {
       "id": 655,
-      "name": "Dracoaliento Devastador",
+      "name": "Dracoal.Dev.",
       "type": "Dragón",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Dracoal.Dev..",
       "learned_by": []
     },
     {
       "id": 656,
-      "name": "Dracoaliento Devastador",
+      "name": "Dracoal.Dev.",
       "type": "Dragón",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Dracoal.Dev..",
       "learned_by": []
     },
     {
       "id": 657,
-      "name": "Agujero Negro Aniquilador",
+      "name": "Aguj.Neg.Ani",
       "type": "Siniestro",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Aguj.Neg.Ani.",
       "learned_by": []
     },
     {
       "id": 658,
-      "name": "Agujero Negro Aniquilador",
+      "name": "Aguj.Neg.Ani",
       "type": "Siniestro",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Aguj.Neg.Ani.",
       "learned_by": []
     },
     {
       "id": 659,
-      "name": "Arrumaco Sideral",
+      "name": "Arrum.Sider.",
       "type": "Hada",
       "category": "Físico",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Arrum.Sider..",
       "learned_by": []
     },
     {
       "id": 660,
-      "name": "Arrumaco Sideral",
+      "name": "Arrum.Sider.",
       "type": "Hada",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Arrum.Sider..",
       "learned_by": []
     },
     {
       "id": 661,
-      "name": "Pikavoltio Letal",
+      "name": "Pikavolt.Let",
       "type": "Eléctrico",
       "category": "Físico",
       "power": 210,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Pikavolt.Let.",
       "learned_by": []
     },
     {
@@ -337038,13 +337059,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 665,
-      "name": "Puntada Sombría",
+      "name": "Punt.Sombría",
       "type": "Fantasma",
       "category": "Físico",
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida.",
+      "desc": "Ataque con Punt.Sombría.",
       "learned_by": [
         {
           "pid": 774,
@@ -337055,7 +337076,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 666,
-      "name": "Lariat Oscuro",
+      "name": "LariatOscuro",
       "type": "Siniestro",
       "category": "Físico",
       "power": 85,
@@ -337089,17 +337110,17 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 668,
-      "name": "Martillo Hielo",
+      "name": "Mart. Hielo",
       "type": "Hielo",
       "category": "Físico",
       "power": 100,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+      "desc": "Ataque con Mart. Hielo.",
       "learned_by": [
         {
           "pid": 790,
-          "pokemon": "Crabominable",
+          "pokemon": "Crabominab",
           "lvl": 37
         }
       ]
@@ -337123,7 +337144,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 670,
-      "name": "Fuerza Equina",
+      "name": "FuerzaEquina",
       "type": "Tierra",
       "category": "Físico",
       "power": 95,
@@ -337185,13 +337206,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 671,
-      "name": "Absorbefuerza",
+      "name": "Absorbefza.",
       "type": "Planta",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida e...",
+      "desc": "Ataque con Absorbefza..",
       "learned_by": [
         {
           "pid": 426,
@@ -337210,7 +337231,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 1
         },
         {
@@ -337227,13 +337248,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 672,
-      "name": "Cuchilla Solar",
+      "name": "Cuchilla Sol",
       "type": "Planta",
       "category": "Físico",
       "power": 125,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla c...",
+      "desc": "Ataque con Cuchilla Sol.",
       "learned_by": [
         {
           "pid": 804,
@@ -337242,7 +337263,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 91
         }
       ]
@@ -337344,7 +337365,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 1
         },
         {
@@ -337403,7 +337424,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 675,
-      "name": "Hilo Venenoso",
+      "name": "HiloVenenoso",
       "type": "Veneno",
       "category": "Estado",
       "power": 0,
@@ -337535,7 +337556,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 32
         },
         {
@@ -337562,13 +337583,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 677,
-      "name": "Piñón Auxiliar",
+      "name": "PiñónAuxil.",
       "type": "Acero",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 20,
-      "desc": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cu...",
+      "desc": "Ataque con PiñónAuxil..",
       "learned_by": [
         {
           "pid": 651,
@@ -337584,7 +337605,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 678,
-      "name": "Golpe Mordaza",
+      "name": "GolpeMordaza",
       "type": "Siniestro",
       "category": "Físico",
       "power": 80,
@@ -337609,7 +337630,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 1
         },
         {
@@ -337666,13 +337687,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 679,
-      "name": "Bola de Polen",
+      "name": "Bola Polen",
       "type": "Bicho",
       "category": "Especial",
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+      "desc": "Ataque con Bola Polen.",
       "learned_by": [
         {
           "pid": 793,
@@ -337700,13 +337721,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 681,
-      "name": "Campo Psíquico",
+      "name": "CampoPsíquic",
       "type": "Psíquico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en e...",
+      "desc": "Ataque con CampoPsíquic.",
       "learned_by": [
         {
           "pid": 568,
@@ -337782,7 +337803,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 60
         },
         {
@@ -337807,7 +337828,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "lvl": 28
         }
       ]
@@ -337839,7 +337860,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 53
         }
       ]
@@ -337876,12 +337897,12 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "pokemon": "Corvisquire",
+          "pokemon": "Corvsquire",
           "lvl": 1
         },
         {
           "pid": 873,
-          "pokemon": "Corviknight",
+          "pokemon": "Corviknite",
           "lvl": 1
         },
         {
@@ -337928,20 +337949,20 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "pokemon": "Centiskorch",
+          "pokemon": "Centskorch",
           "lvl": 67
         }
       ]
     },
     {
       "id": 686,
-      "name": "Cambiavelocidad",
+      "name": "Cambiaveloz",
       "type": "Psíquico",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Intercambia su Velocidad por la del oponente.",
+      "desc": "Ataque con Cambiaveloz.",
       "learned_by": [
         {
           "pid": 845,
@@ -337957,13 +337978,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 687,
-      "name": "Cuerno Certero",
+      "name": "CuernoCerte.",
       "type": "Acero",
       "category": "Físico",
       "power": 70,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario ensarta al adversario con su afilada cornamenta. Este movimiento acierta sie...",
+      "desc": "Ataque con CuernoCerte..",
       "learned_by": [
         {
           "pid": 78,
@@ -337996,13 +338017,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 689,
-      "name": "Danza Despertar",
+      "name": "DanzaDespert",
       "type": "Normal",
       "category": "Especial",
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del...",
+      "desc": "Ataque con DanzaDespert.",
       "learned_by": [
         {
           "pid": 791,
@@ -338013,13 +338034,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 690,
-      "name": "Núcleo Castigo",
+      "name": "NúcleoCastig",
       "type": "Dragón",
       "category": "Especial",
       "power": 100,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+      "desc": "Ataque con NúcleoCastig.",
       "learned_by": [
         {
           "pid": 768,
@@ -338030,13 +338051,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 691,
-      "name": "Patada Tropical",
+      "name": "PatadaTropic",
       "type": "Planta",
       "category": "Físico",
       "power": 70,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Lanza una patada con la fuerza del trópico que golpea al rival y reduce su Ataque.",
+      "desc": "Ataque con PatadaTropic.",
       "learned_by": [
         {
           "pid": 813,
@@ -338081,13 +338102,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 694,
-      "name": "Fragor Escamas",
+      "name": "FragorEscama",
       "type": "Dragón",
       "category": "Especial",
       "power": 110,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el a...",
+      "desc": "Ataque con FragorEscama.",
       "learned_by": [
         {
           "pid": 834,
@@ -338098,17 +338119,17 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 695,
-      "name": "Martillo Dragón",
+      "name": "Mart. Dragón",
       "type": "Dragón",
       "category": "Físico",
       "power": 90,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+      "desc": "Ataque con Mart. Dragón.",
       "learned_by": [
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 56
         }
       ]
@@ -338239,51 +338260,51 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 698,
-      "name": "Aluvión de Flechas Sombrías",
+      "name": "Aluv.Flechas",
       "type": "Fantasma",
       "category": "Físico",
       "power": 180,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Aluv.Flechas.",
       "learned_by": []
     },
     {
       "id": 699,
-      "name": "Hiperplancha Oscura",
+      "name": "Hiperplancha",
       "type": "Siniestro",
       "category": "Físico",
       "power": 180,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Hiperplancha.",
       "learned_by": []
     },
     {
       "id": 700,
-      "name": "Sinfonía de la Diva Marina",
+      "name": "Sinf.DivaMar",
       "type": "Agua",
       "category": "Especial",
       "power": 195,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Sinf.DivaMar.",
       "learned_by": []
     },
     {
       "id": 701,
-      "name": "Cólera del Guardián",
+      "name": "Cól.Guardián",
       "type": "Hada",
       "category": "Especial",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Cól.Guardián.",
       "learned_by": []
     },
     {
       "id": 702,
-      "name": "Sinfonía del Golpe de Gracia",
+      "name": "Sinf.GolpeGr",
       "type": "Fantasma",
       "category": "Físico",
       "power": 195,
@@ -338294,51 +338315,51 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 703,
-      "name": "Surfeo Galvánico",
+      "name": "Surf.Galván.",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 175,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Surf.Galván..",
       "learned_by": []
     },
     {
       "id": 704,
-      "name": "Arrojo Intempestivo",
+      "name": "ArrojoIntemp",
       "type": "Normal",
       "category": "Físico",
       "power": 210,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con ArrojoIntemp.",
       "learned_by": []
     },
     {
       "id": 705,
-      "name": "Novena Potencia",
+      "name": "NovenaPotenc",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con NovenaPotenc.",
       "learned_by": []
     },
     {
       "id": 706,
-      "name": "Supernova Original",
+      "name": "SupernovaOri",
       "type": "Psíquico",
       "category": "Especial",
       "power": 185,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con SupernovaOri.",
       "learned_by": []
     },
     {
       "id": 707,
-      "name": "Coraza Trampa",
+      "name": "CorazaTrampa",
       "type": "Fuego",
       "category": "Especial",
       "power": 150,
@@ -338372,13 +338393,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 709,
-      "name": "Psicocolmillo",
+      "name": "Psicocolmill",
       "type": "Psíquico",
       "category": "Físico",
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y...",
+      "desc": "Ataque con Psicocolmill.",
       "learned_by": [
         {
           "pid": 829,
@@ -338476,7 +338497,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 711,
-      "name": "Hueso Sombrío",
+      "name": "HuesoSombrío",
       "type": "Fantasma",
       "category": "Físico",
       "power": 85,
@@ -338599,7 +338620,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "pokemon": "Barraskewda",
+          "pokemon": "Baraskewda",
           "lvl": 48
         },
         {
@@ -338704,7 +338725,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 718,
-      "name": "Ojos Llorosos",
+      "name": "OjosLlorosos",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
@@ -338761,13 +338782,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 719,
-      "name": "Electropunzada",
+      "name": "Electropunz.",
       "type": "Eléctrico",
       "category": "Físico",
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede ha...",
+      "desc": "Ataque con Electropunz..",
       "learned_by": [
         {
           "pid": 78,
@@ -338788,7 +338809,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 720,
-      "name": "Furia Natural",
+      "name": "FuriaNatural",
       "type": "Hada",
       "category": "Especial",
       "power": 0,
@@ -338837,28 +338858,28 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 722,
-      "name": "Gigarrayo Fulminante",
+      "name": "GigarrayoFul",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 195,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con GigarrayoFul.",
       "learned_by": []
     },
     {
       "id": 723,
-      "name": "Cabeza Sorpresa",
+      "name": "CabezaSorpr.",
       "type": "Fuego",
       "category": "Especial",
       "power": 150,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario hace explotar su cabeza para atacar a todos los Pokémon que se hallan a su alrededor,...",
+      "desc": "Ataque con CabezaSorpr..",
       "learned_by": [
         {
           "pid": 856,
-          "pokemon": "Blacephalon",
+          "pokemon": "Blacefalon",
           "lvl": 64
         }
       ]
@@ -338882,13 +338903,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 725,
-      "name": "Géiser Fotónico",
+      "name": "GéiserFotón.",
       "type": "Psíquico",
       "category": "Especial",
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque Especi...",
+      "desc": "Ataque con GéiserFotón..",
       "learned_by": [
         {
           "pid": 850,
@@ -338899,40 +338920,40 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 726,
-      "name": "Fotodestrucción Apocalíptica",
+      "name": "Fotodestruc.",
       "type": "Psíquico",
       "category": "Especial",
       "power": 200,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Fotodestruc..",
       "learned_by": []
     },
     {
       "id": 727,
-      "name": "Embestida Solar",
+      "name": "Embest.Solar",
       "type": "Acero",
       "category": "Físico",
       "power": 200,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Embest.Solar.",
       "learned_by": []
     },
     {
       "id": 728,
-      "name": "Deflagración Lunar",
+      "name": "Deflag.Lunar",
       "type": "Fantasma",
       "category": "Especial",
       "power": 200,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Deflag.Lunar.",
       "learned_by": []
     },
     {
       "id": 729,
-      "name": "Achuchón Cariñoso",
+      "name": "AchuchónCar.",
       "type": "Hada",
       "category": "Físico",
       "power": 190,
@@ -338943,18 +338964,18 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 730,
-      "name": "Tempestad Rocosa",
+      "name": "Tempest.Roc.",
       "type": "Roca",
       "category": "Físico",
       "power": 190,
       "accuracy": 0,
       "pp": 1,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Tempest.Roc..",
       "learned_by": []
     },
     {
       "id": 731,
-      "name": "Fragor Escama Espectacular",
+      "name": "FragorEspect",
       "type": "Dragón",
       "category": "Especial",
       "power": 185,
@@ -339020,24 +339041,24 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 737,
-      "name": "Joltioparálisis",
+      "name": "Joltioparál.",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 60,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Joltioparál..",
       "learned_by": []
     },
     {
       "id": 738,
-      "name": "Flarembestida",
+      "name": "Flarembestid",
       "type": "Fuego",
       "category": "Físico",
       "power": 60,
       "accuracy": 100,
       "pp": 20,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Flarembestid.",
       "learned_by": []
     },
     {
@@ -339064,13 +339085,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 741,
-      "name": "Leafitobombas",
+      "name": "Leafitobomba",
       "type": "Planta",
       "category": "Físico",
       "power": 100,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Leafitobomba.",
       "learned_by": []
     },
     {
@@ -339086,13 +339107,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 743,
-      "name": "Sylveotornado",
+      "name": "Sylveotornad",
       "type": "Hada",
       "category": "Especial",
       "power": 120,
       "accuracy": 85,
       "pp": 5,
-      "desc": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique qu...",
+      "desc": "Ataque con Sylveotornad.",
       "learned_by": []
     },
     {
@@ -339108,13 +339129,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 745,
-      "name": "Ferropuño Doble",
+      "name": "FerropuñoDob",
       "type": "Acero",
       "category": "Físico",
       "power": 60,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos vec...",
+      "desc": "Ataque con FerropuñoDob.",
       "learned_by": [
         {
           "pid": 859,
@@ -339136,7 +339157,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 747,
-      "name": "Cañón Dinamax",
+      "name": "CañónDinamax",
       "type": "Dragón",
       "category": "Especial",
       "power": 100,
@@ -339153,13 +339174,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 748,
-      "name": "Disparo Certero",
+      "name": "Disp.Certero",
       "type": "Agua",
       "category": "Especial",
       "power": 80,
       "accuracy": 100,
       "pp": 15,
-      "desc": "Permite atacar al objetivo seleccionado ignorando las habilidades o movimientos que perm...",
+      "desc": "Ataque con Disp.Certero.",
       "learned_by": [
         {
           "pid": 868,
@@ -339170,7 +339191,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 749,
-      "name": "Presa Maxilar",
+      "name": "PresaMaxilar",
       "type": "Siniestro",
       "category": "Físico",
       "power": 80,
@@ -339202,13 +339223,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 750,
-      "name": "Atiborramiento",
+      "name": "Atiborramien",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "El usuario ingiere la baya que lleva equipada para aumentar mucho su Defensa.",
+      "desc": "Ataque con Atiborramien.",
       "learned_by": [
         {
           "pid": 869,
@@ -339224,7 +339245,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 751,
-      "name": "Bastión Final",
+      "name": "BastiónFinal",
       "type": "Lucha",
       "category": "Estado",
       "power": 0,
@@ -339302,7 +339323,7 @@ window.CHIRLGOLD_DATA = {
       "learned_by": [
         {
           "pid": 905,
-          "pokemon": "Polteageist",
+          "pokemon": "Poltegeist",
           "lvl": 1
         }
       ]
@@ -339348,13 +339369,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 758,
-      "name": "Branquibocado",
+      "name": "Branquibocad",
       "type": "Agua",
       "category": "Físico",
       "power": 85,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario agarra al objetivo con sus duras branquias. En caso de atacar antes que este...",
+      "desc": "Ataque con Branquibocad.",
       "learned_by": [
         {
           "pid": 932,
@@ -339370,13 +339391,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 759,
-      "name": "Cambio de Cancha",
+      "name": "CambioCancha",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Extraño poder que intercambia los efectos en el terreno de combate de ambos bandos.",
+      "desc": "Ataque con CambioCancha.",
       "learned_by": [
         {
           "pid": 865,
@@ -339585,13 +339606,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 778,
-      "name": "Estruendo Escama",
+      "name": "Estruen.Esca",
       "type": "Dragón",
       "category": "Estado",
       "power": 0,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Utiliza parte de los PS propios para subir sus características.",
+      "desc": "Ataque con Estruen.Esca.",
       "learned_by": [
         {
           "pid": 834,
@@ -339602,13 +339623,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 779,
-      "name": "Plancha Corporal",
+      "name": "Plancha Corp",
       "type": "Lucha",
       "category": "Físico",
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcio...",
+      "desc": "Ataque con Plancha Corp.",
       "learned_by": [
         {
           "pid": 486,
@@ -339617,7 +339638,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 84
         }
       ]
@@ -339641,13 +339662,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 781,
-      "name": "Batería Asalto",
+      "name": "BateríaAsalt",
       "type": "Planta",
       "category": "Físico",
       "power": 80,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad de...",
+      "desc": "Ataque con BateríaAsalt.",
       "learned_by": [
         {
           "pid": 862,
@@ -339697,13 +339718,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 785,
-      "name": "Embate Supremo",
+      "name": "EmbateSuprem",
       "type": "Acero",
       "category": "Físico",
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario se convierte en un escudo gigante para golpear al objetivo. Si este ha alcanzado el e...",
+      "desc": "Ataque con EmbateSuprem.",
       "learned_by": []
     },
     {
@@ -339725,7 +339746,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 787,
-      "name": "Vasto Impacto",
+      "name": "VastoImpacto",
       "type": "Dragón",
       "category": "Físico",
       "power": 60,
@@ -339855,13 +339876,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 792,
-      "name": "Choque Anímico",
+      "name": "ChoqueAnímic",
       "type": "Hada",
       "category": "Físico",
       "power": 75,
       "accuracy": 100,
       "pp": 15,
-      "desc": "El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuenc...",
+      "desc": "Ataque con ChoqueAnímic.",
       "learned_by": [
         {
           "pid": 911,
@@ -339870,7 +339891,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "lvl": 91
         }
       ]
@@ -340023,7 +340044,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1062,
-          "pokemon": "Poltchageist",
+          "pokemon": "Polchgeist",
           "lvl": 12
         },
         {
@@ -340074,7 +340095,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 797,
-      "name": "Asalto Estelar",
+      "name": "AsaltoEstel.",
       "type": "Lucha",
       "category": "Físico",
       "power": 150,
@@ -340091,7 +340112,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 798,
-      "name": "Rayo Infinito",
+      "name": "RayoInfinito",
       "type": "Dragón",
       "category": "Especial",
       "power": 160,
@@ -340136,13 +340157,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 801,
-      "name": "Allanador Férreo",
+      "name": "Allan.Férreo",
       "type": "Acero",
       "category": "Físico",
       "power": 130,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y...",
+      "desc": "Ataque con Allan.Férreo.",
       "learned_by": [
         {
           "pid": 1040,
@@ -340153,24 +340174,24 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 802,
-      "name": "Ráfaga Escamas",
+      "name": "Ráfag.Escama",
       "type": "Dragón",
       "category": "Físico",
       "power": 25,
       "accuracy": 90,
       "pp": 20,
-      "desc": "Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario,...",
+      "desc": "Ataque con Ráfag.Escama.",
       "learned_by": []
     },
     {
       "id": 803,
-      "name": "Rayo Meteórico",
+      "name": "Rayo Meteór.",
       "type": "Roca",
       "category": "Especial",
       "power": 120,
       "accuracy": 90,
       "pp": 10,
-      "desc": "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cós...",
+      "desc": "Ataque con Rayo Meteór..",
       "learned_by": []
     },
     {
@@ -340186,13 +340207,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 805,
-      "name": "Bruma Explosiva",
+      "name": "BrumaExplos.",
       "type": "Hada",
       "category": "Especial",
       "power": 100,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario ataca a todos a su alrededor, pero se debilita de inmediato. La potencia del movimient...",
+      "desc": "Ataque con BrumaExplos..",
       "learned_by": []
     },
     {
@@ -340218,20 +340239,20 @@ window.CHIRLGOLD_DATA = {
       "learned_by": [
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 63
         }
       ]
     },
     {
       "id": 808,
-      "name": "Pulso de Campo",
+      "name": "Pulso Campo",
       "type": "Normal",
       "category": "Especial",
       "power": 50,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario ataca aprovechando la energía del campo activo, que determina tanto el tip...",
+      "desc": "Ataque con Pulso Campo.",
       "learned_by": [
         {
           "pid": 978,
@@ -340252,13 +340273,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 809,
-      "name": "Golpe Rastrero",
+      "name": "GolpeRastrer",
       "type": "Bicho",
       "category": "Físico",
       "power": 70,
       "accuracy": 90,
       "pp": 10,
-      "desc": "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Espec...",
+      "desc": "Ataque con GolpeRastrer.",
       "learned_by": [
         {
           "pid": 967,
@@ -340289,13 +340310,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 810,
-      "name": "Envidia Ardiente",
+      "name": "EnvidiaArdie",
       "type": "Fuego",
       "category": "Especial",
       "power": 70,
       "accuracy": 100,
       "pp": 5,
-      "desc": "Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokém...",
+      "desc": "Ataque con EnvidiaArdie.",
       "learned_by": []
     },
     {
@@ -340322,7 +340343,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 813,
-      "name": "Gas Corrosivo",
+      "name": "GasCorrosivo",
       "type": "Veneno",
       "category": "Estado",
       "power": 0,
@@ -340392,7 +340413,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "pokemon": "Kilowattrel",
+          "pokemon": "Kilowatrel",
           "lvl": 30
         },
         {
@@ -340409,24 +340430,24 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 818,
-      "name": "Arenas Ardientes",
+      "name": "ArenasArdian",
       "type": "Tierra",
       "category": "Especial",
       "power": 70,
       "accuracy": 100,
       "pp": 10,
-      "desc": "Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Puede causar...",
+      "desc": "Ataque con ArenasArdian.",
       "learned_by": []
     },
     {
       "id": 819,
-      "name": "Cura Selvática",
+      "name": "CuraSelvátic",
       "type": "Planta",
       "category": "Estado",
       "power": 0,
       "accuracy": 0,
       "pp": 10,
-      "desc": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS n...",
+      "desc": "Ataque con CuraSelvátic.",
       "learned_by": [
         {
           "pid": 943,
@@ -340454,13 +340475,13 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 821,
-      "name": "Azote Torrencial",
+      "name": "AzoteTorrenc",
       "type": "Agua",
       "category": "Físico",
       "power": 25,
       "accuracy": 100,
       "pp": 5,
-      "desc": "El usuario, dominador absoluto del líquido elemento, golpea hasta tres veces con movimie...",
+      "desc": "Ataque con AzoteTorrenc.",
       "learned_by": []
     },
     {
@@ -340499,40 +340520,40 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 824,
-      "name": "Mirada Heladora",
+      "name": "MiradaHelad.",
       "type": "Psíquico",
       "category": "Especial",
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede...",
+      "desc": "Ataque con MiradaHelad..",
       "learned_by": []
     },
     {
       "id": 825,
-      "name": "Furia Candente",
+      "name": "FuriaCandent",
       "type": "Siniestro",
       "category": "Especial",
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario convierte su ira en un aura flamígera para lanzar su ataque. Puede amedrentar al ob...",
+      "desc": "Ataque con FuriaCandent.",
       "learned_by": []
     },
     {
       "id": 826,
-      "name": "Patada Relámpago",
+      "name": "Pat.Relámp.",
       "type": "Lucha",
       "category": "Físico",
       "power": 90,
       "accuracy": 100,
       "pp": 10,
-      "desc": "El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Ba...",
+      "desc": "Ataque con Pat.Relámp..",
       "learned_by": []
     },
     {
       "id": 827,
-      "name": "Lanza Glacial",
+      "name": "LanzaGlacial",
       "type": "Hielo",
       "category": "Físico",
       "power": 130,
@@ -340543,7 +340564,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 828,
-      "name": "Orbes Espectro",
+      "name": "OrbesEspect.",
       "type": "Fantasma",
       "category": "Especial",
       "power": 120,
@@ -340554,7 +340575,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 829,
-      "name": "Conjuro Funesto",
+      "name": "Conj.Funesto",
       "type": "Psíquico",
       "category": "Especial",
       "power": 80,
@@ -340582,7 +340603,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 831,
-      "name": "Asalto Barrera",
+      "name": "AsaltoBarrer",
       "type": "Psíquico",
       "category": "Físico",
       "power": 70,
@@ -340615,7 +340636,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 833,
-      "name": "Hachazo Pétreo",
+      "name": "HachazoPétre",
       "type": "Roca",
       "category": "Físico",
       "power": 65,
@@ -340632,7 +340653,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 834,
-      "name": "Ciclón Primavera",
+      "name": "Cicl.Primav.",
       "type": "Hada",
       "category": "Especial",
       "power": 100,
@@ -340649,7 +340670,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 835,
-      "name": "Poder Místico",
+      "name": "PoderMístico",
       "type": "Psíquico",
       "category": "Especial",
       "power": 70,
@@ -340660,7 +340681,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 836,
-      "name": "Erupción de Ira",
+      "name": "Erupción Ira",
       "type": "Fuego",
       "category": "Físico",
       "power": 120,
@@ -340677,7 +340698,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 837,
-      "name": "Envite Acuático",
+      "name": "EnviteAcuát.",
       "type": "Agua",
       "category": "Físico",
       "power": 120,
@@ -340687,7 +340708,7 @@ window.CHIRLGOLD_DATA = {
       "learned_by": [
         {
           "pid": 952,
-          "pokemon": "Basculegion",
+          "pokemon": "Basclegion",
           "lvl": 44
         },
         {
@@ -340720,7 +340741,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 839,
-      "name": "Viento Carámbano",
+      "name": "Vien.Carámba",
       "type": "Hielo",
       "category": "Físico",
       "power": 100,
@@ -340731,7 +340752,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 840,
-      "name": "Danza Triunfal",
+      "name": "DanzaTriunf.",
       "type": "Lucha",
       "category": "Estado",
       "power": 0,
@@ -340764,7 +340785,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 842,
-      "name": "Mil Púas Tóxicas",
+      "name": "MilPúasTóxic",
       "type": "Veneno",
       "category": "Físico",
       "power": 60,
@@ -340792,7 +340813,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 844,
-      "name": "Rencor Reprimido",
+      "name": "RencorReprim",
       "type": "Fantasma",
       "category": "Especial",
       "power": 75,
@@ -340814,7 +340835,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 846,
-      "name": "Triple Flecha",
+      "name": "TripleFlecha",
       "type": "Lucha",
       "category": "Físico",
       "power": 90,
@@ -340831,7 +340852,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 847,
-      "name": "Marcha Espectral",
+      "name": "M. Espectral",
       "type": "Fantasma",
       "category": "Especial",
       "power": 60,
@@ -340848,7 +340869,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 848,
-      "name": "Tajo Metralla",
+      "name": "TajoMetralla",
       "type": "Siniestro",
       "category": "Físico",
       "power": 65,
@@ -340865,7 +340886,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 849,
-      "name": "Vendaval Gélido",
+      "name": "Vendav.Gélid",
       "type": "Volador",
       "category": "Especial",
       "power": 100,
@@ -340899,7 +340920,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 851,
-      "name": "Simún de Arena",
+      "name": "Simún Arena",
       "type": "Tierra",
       "category": "Especial",
       "power": 100,
@@ -340916,7 +340937,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 852,
-      "name": "Plegaria Lunar",
+      "name": "Plegar.Lunar",
       "type": "Psíquico",
       "category": "Estado",
       "power": 0,
@@ -340927,7 +340948,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 853,
-      "name": "Bálsamo Osado",
+      "name": "BálsamoOsado",
       "type": "Psíquico",
       "category": "Estado",
       "power": 0,
@@ -340938,7 +340959,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 854,
-      "name": "Teraexplosión",
+      "name": "Teraexplos.",
       "type": "Normal",
       "category": "Especial",
       "power": 80,
@@ -340983,7 +341004,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 857,
-      "name": "Homenaje Póstumo",
+      "name": "HomenajePóst",
       "type": "Fantasma",
       "category": "Físico",
       "power": 50,
@@ -341051,7 +341072,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 861,
-      "name": "Extracto Picante",
+      "name": "ExtractoPic.",
       "type": "Planta",
       "category": "Estado",
       "power": 0,
@@ -341090,7 +341111,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 863,
-      "name": "Proliferación",
+      "name": "Proliferac.",
       "type": "Normal",
       "category": "Físico",
       "power": 20,
@@ -341112,7 +341133,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 864,
-      "name": "Pirueta Helada",
+      "name": "PiruetaHelad",
       "type": "Hielo",
       "category": "Físico",
       "power": 80,
@@ -341134,7 +341155,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 865,
-      "name": "Asalto Espadón",
+      "name": "AsaltoEspad.",
       "type": "Dragón",
       "category": "Físico",
       "power": 120,
@@ -341151,7 +341172,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 866,
-      "name": "Plegaria Vital",
+      "name": "PlegariaVit.",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
@@ -341195,7 +341216,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 868,
-      "name": "Triple Inmersión",
+      "name": "TripleInmers",
       "type": "Agua",
       "category": "Físico",
       "power": 30,
@@ -341212,7 +341233,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 869,
-      "name": "Giro Mortífero",
+      "name": "GiroMortífer",
       "type": "Veneno",
       "category": "Físico",
       "power": 30,
@@ -341263,7 +341284,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 872,
-      "name": "Genufendiente",
+      "name": "Genufendient",
       "type": "Siniestro",
       "category": "Físico",
       "power": 85,
@@ -341290,14 +341311,14 @@ window.CHIRLGOLD_DATA = {
       "learned_by": [
         {
           "pid": 958,
-          "pokemon": "Meowscarada",
+          "pokemon": "Mewscarada",
           "lvl": 0
         }
       ]
     },
     {
       "id": 874,
-      "name": "Canto Ardiente",
+      "name": "CantoArdient",
       "type": "Fuego",
       "category": "Especial",
       "power": 80,
@@ -341314,7 +341335,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 875,
-      "name": "Danza Acuática",
+      "name": "DanzaAcuátic",
       "type": "Agua",
       "category": "Físico",
       "power": 80,
@@ -341331,7 +341352,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 876,
-      "name": "Furia Taurina",
+      "name": "FuriaTaurina",
       "type": "Normal",
       "category": "Físico",
       "power": 90,
@@ -341348,7 +341369,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 877,
-      "name": "Fiebre Dorada",
+      "name": "FiebreDorada",
       "type": "Acero",
       "category": "Especial",
       "power": 120,
@@ -341375,7 +341396,7 @@ window.CHIRLGOLD_DATA = {
       "learned_by": [
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "lvl": 56
         }
       ]
@@ -341453,7 +341474,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 882,
-      "name": "Electoderrape",
+      "name": "Electoderrap",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 100,
@@ -341509,7 +341530,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 885,
-      "name": "Limpieza General",
+      "name": "LimpiezaGen.",
       "type": "Normal",
       "category": "Estado",
       "power": 0,
@@ -341526,7 +341547,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 886,
-      "name": "Paisaje Nevado",
+      "name": "PaisajeNevad",
       "type": "Hielo",
       "category": "Estado",
       "power": 0,
@@ -341601,7 +341622,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "pokemon": "Dudunsparce",
+          "pokemon": "Dudunspars",
           "lvl": 32
         }
       ]
@@ -341652,7 +341673,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 893,
-      "name": "Cañón Armadura",
+      "name": "CañónArmadur",
       "type": "Fuego",
       "category": "Especial",
       "power": 120,
@@ -341669,7 +341690,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 894,
-      "name": "Espada Lamento",
+      "name": "EspadaLament",
       "type": "Fuego",
       "category": "Físico",
       "power": 90,
@@ -341686,7 +341707,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 895,
-      "name": "Electropalmas",
+      "name": "Electropalma",
       "type": "Eléctrico",
       "category": "Físico",
       "power": 120,
@@ -341703,7 +341724,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 896,
-      "name": "Martillo Colosal",
+      "name": "Mart.Colosal",
       "type": "Acero",
       "category": "Físico",
       "power": 160,
@@ -341720,7 +341741,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 897,
-      "name": "Resarcimiento",
+      "name": "Resarcimien.",
       "type": "Siniestro",
       "category": "Físico",
       "power": 1,
@@ -341737,7 +341758,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 898,
-      "name": "Tajo Acuático",
+      "name": "TajoAcuático",
       "type": "Agua",
       "category": "Físico",
       "power": 70,
@@ -341835,7 +341856,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 905,
-      "name": "Cañón Batidor",
+      "name": "CañónBatidor",
       "type": "Planta",
       "category": "Especial",
       "power": 80,
@@ -341852,7 +341873,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 906,
-      "name": "Bomba Caramelo",
+      "name": "BombaCaramel",
       "type": "Planta",
       "category": "Especial",
       "power": 60,
@@ -341874,7 +341895,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 907,
-      "name": "Garrote Liana",
+      "name": "GarroteLiana",
       "type": "Planta",
       "category": "Físico",
       "power": 100,
@@ -341925,7 +341946,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 910,
-      "name": "Láser Veleidoso",
+      "name": "LáserVeleid.",
       "type": "Dragón",
       "category": "Especial",
       "power": 80,
@@ -341942,7 +341963,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 911,
-      "name": "Llama Protectora",
+      "name": "LlamaProtect",
       "type": "Fuego",
       "category": "Estado",
       "power": 0,
@@ -341959,7 +341980,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 912,
-      "name": "Relámpago Súbito",
+      "name": "Relámp.Súbit",
       "type": "Eléctrico",
       "category": "Especial",
       "power": 70,
@@ -341969,7 +341990,7 @@ window.CHIRLGOLD_DATA = {
       "learned_by": [
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "lvl": 49
         }
       ]
@@ -342010,7 +342031,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 915,
-      "name": "Prensa Metálica",
+      "name": "PrensaMetál.",
       "type": "Acero",
       "category": "Físico",
       "power": 0,
@@ -342021,7 +342042,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 916,
-      "name": "Bramido Dragón",
+      "name": "BramidoDrag.",
       "type": "Dragón",
       "category": "Estado",
       "power": 0,
@@ -342038,7 +342059,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 917,
-      "name": "Canto Encantador",
+      "name": "CantoEncant.",
       "type": "Hada",
       "category": "Especial",
       "power": 80,
@@ -342049,7 +342070,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 918,
-      "name": "Cólera Ardiente",
+      "name": "Cól.Ardiente",
       "type": "Fuego",
       "category": "Físico",
       "power": 75,
@@ -342060,7 +342081,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 919,
-      "name": "Plancha Voltaica",
+      "name": "PlanchaVolt.",
       "type": "Eléctrico",
       "category": "Físico",
       "power": 100,
@@ -342093,7 +342114,7 @@ window.CHIRLGOLD_DATA = {
     },
     {
       "id": 922,
-      "name": "Cadena Virulenta",
+      "name": "CadenaVirul.",
       "type": "Veneno",
       "category": "Especial",
       "power": 100,
@@ -342221,6 +342242,23 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 331,
+          "name": "Cacnea",
+          "slug": "cacnea",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 332,
+          "name": "Cacturne",
+          "slug": "cacturne",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
           "pid": 458,
           "name": "Mantyke",
           "slug": "mantyke",
@@ -342291,6 +342329,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 801,
+          "name": "Dewpider",
+          "slug": "dewpider",
+          "types": [
+            "Agua",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 802,
+          "name": "Araquanid",
+          "slug": "araquanid",
+          "types": [
+            "Agua",
+            "Bicho"
+          ]
+        },
+        {
           "pid": 932,
           "name": "Dracovish",
           "slug": "dracovish",
@@ -342350,6 +342406,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 312,
+          "name": "Minun",
+          "slug": "minun",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 857,
           "name": "Zeraora",
           "slug": "zeraora",
@@ -342403,9 +342467,9 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 990,
-          "name": "Wattrel",
-          "slug": "wattrel",
+          "pid": 991,
+          "name": "Kilowatrel",
+          "slug": "kilowatrel",
           "types": [
             "Eléctrico",
             "Volador"
@@ -342413,17 +342477,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 991,
-          "name": "Kilowattrel",
-          "slug": "kilowattrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 991,
-          "name": "Kilowattrel",
-          "slug": "kilowattrel",
+          "name": "Kilowatrel",
+          "slug": "kilowatrel",
           "types": [
             "Eléctrico",
             "Volador"
@@ -342567,8 +342622,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "name": "Centiskorch",
-          "slug": "centiskorch",
+          "name": "Centskorch",
+          "slug": "centskorch",
           "types": [
             "Fuego",
             "Bicho"
@@ -342644,6 +342699,24 @@ window.CHIRLGOLD_DATA = {
           "slug": "golduck",
           "types": [
             "Agua"
+          ]
+        },
+        {
+          "pid": 333,
+          "name": "Swablu",
+          "slug": "swablu",
+          "types": [
+            "Hada",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 334,
+          "name": "Altaria",
+          "slug": "altaria",
+          "types": [
+            "Dragón",
+            "Hada"
           ]
         }
       ]
@@ -342740,8 +342813,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 952,
-          "name": "Basculegion",
-          "slug": "basculegion",
+          "name": "Basclegion",
+          "slug": "basclegion",
           "types": [
             "Agua",
             "Fantasma"
@@ -342879,6 +342952,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 136,
+          "name": "Flareon",
+          "slug": "flareon",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
           "pid": 214,
           "name": "Heracross",
           "slug": "heracross",
@@ -343013,8 +343094,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "name": "Fletchinder",
-          "slug": "fletchinder",
+          "name": "Flechinder",
+          "slug": "flechinder",
           "types": [
             "Fuego",
             "Volador"
@@ -343091,6 +343172,59 @@ window.CHIRLGOLD_DATA = {
       "name": "Allanamiento",
       "desc": "Ataca sorteando la barrera o el sustituto del rival.",
       "pokemon": [
+        {
+          "pid": 41,
+          "name": "Zubat",
+          "slug": "zubat",
+          "types": [
+            "Veneno",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 42,
+          "name": "Golbat",
+          "slug": "golbat",
+          "types": [
+            "Veneno",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 169,
+          "name": "Crobat",
+          "slug": "crobat",
+          "types": [
+            "Veneno",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 291,
+          "name": "Ninjask",
+          "slug": "ninjask",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 336,
+          "name": "Seviper",
+          "slug": "seviper",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 442,
+          "name": "Spiritomb",
+          "slug": "spiritomb",
+          "types": [
+            "Fantasma",
+            "Siniestro"
+          ]
+        },
         {
           "pid": 596,
           "name": "Cottonee",
@@ -343178,6 +343312,15 @@ window.CHIRLGOLD_DATA = {
             "Lucha",
             "Siniestro"
           ]
+        },
+        {
+          "pid": 996,
+          "name": "Bramblin",
+          "slug": "bramblin",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
         }
       ]
     },
@@ -343185,6 +343328,14 @@ window.CHIRLGOLD_DATA = {
       "name": "Alma Cura",
       "desc": "A veces cura los problemas de estado de un aliado.",
       "pokemon": [
+        {
+          "pid": 182,
+          "name": "Bellossom",
+          "slug": "bellossom",
+          "types": [
+            "Planta"
+          ]
+        },
         {
           "pid": 581,
           "name": "Audino",
@@ -343321,6 +343472,21 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Tierra",
             "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Antibarrera",
+      "desc": "Anula los efectos de Pantalla de Luz, Reflejo y Velo Aurora tanto de rivales como de aliados al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 916,
+          "name": "Mr. Rime",
+          "slug": "mrrime",
+          "types": [
+            "Hielo",
+            "Psíquico"
           ]
         }
       ]
@@ -343510,8 +343676,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 822,
-          "name": "Código Cero",
-          "slug": "cdigocero",
+          "name": "Cód. Cero",
+          "slug": "cdcero",
           "types": [
             "Normal"
           ]
@@ -343580,8 +343746,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 905,
-          "name": "Polteageist",
-          "slug": "polteageist",
+          "name": "Poltegeist",
+          "slug": "poltegeist",
           "types": [
             "Fantasma"
           ]
@@ -343591,6 +343757,24 @@ window.CHIRLGOLD_DATA = {
           "name": "Cursola",
           "slug": "cursola",
           "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 986,
+          "name": "Armarouge",
+          "slug": "armarouge",
+          "types": [
+            "Fuego",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 987,
+          "name": "Ceruledge",
+          "slug": "ceruledge",
+          "types": [
+            "Fuego",
             "Fantasma"
           ]
         }
@@ -343620,6 +343804,33 @@ window.CHIRLGOLD_DATA = {
           "slug": "hitmonlee",
           "types": [
             "Lucha"
+          ]
+        },
+        {
+          "pid": 396,
+          "name": "Starly",
+          "slug": "starly",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 397,
+          "name": "Staravia",
+          "slug": "staravia",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 398,
+          "name": "Staraptor",
+          "slug": "staraptor",
+          "types": [
+            "Normal",
+            "Volador"
           ]
         },
         {
@@ -343713,12 +343924,30 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 130,
+          "name": "Gyarados",
+          "slug": "gyarados",
+          "types": [
+            "Agua",
+            "Volador"
+          ]
+        },
+        {
           "pid": 214,
           "name": "Heracross",
           "slug": "heracross",
           "types": [
             "Bicho",
             "Lucha"
+          ]
+        },
+        {
+          "pid": 373,
+          "name": "Salamence",
+          "slug": "salamence",
+          "types": [
+            "Dragón",
+            "Volador"
           ]
         },
         {
@@ -343763,6 +343992,31 @@ window.CHIRLGOLD_DATA = {
           "slug": "scrafty",
           "types": [
             "Siniestro",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 962,
+          "name": "Quaxly",
+          "slug": "quaxly",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 963,
+          "name": "Quaxwell",
+          "slug": "quaxwell",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 964,
+          "name": "Quaquaval",
+          "slug": "quaquaval",
+          "types": [
+            "Agua",
             "Lucha"
           ]
         }
@@ -344147,6 +344401,30 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 355,
+          "name": "Duskull",
+          "slug": "duskull",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 356,
+          "name": "Dusclops",
+          "slug": "dusclops",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 477,
+          "name": "Dusknoir",
+          "slug": "dusknoir",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
           "pid": 624,
           "name": "Gothita",
           "slug": "gothita",
@@ -344286,10 +344564,11 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1006,
-          "name": "Espathra",
-          "slug": "espathra",
+          "pid": 1065,
+          "name": "Munkidori",
+          "slug": "munkidori",
           "types": [
+            "Veneno",
             "Psíquico"
           ]
         },
@@ -344599,14 +344878,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1000,
-          "name": "Klawf",
-          "slug": "klawf",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
           "pid": "705_hisui",
           "name": "Sliggoo de Hisui",
           "slug": "sliggoo-hisui",
@@ -344665,6 +344936,14 @@ window.CHIRLGOLD_DATA = {
           "pid": 870,
           "name": "Greedent",
           "slug": "greedent",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 975,
+          "name": "Maushold",
+          "slug": "maushold",
           "types": [
             "Normal"
           ]
@@ -344941,6 +345220,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 470,
+          "name": "Leafeon",
+          "slug": "leafeon",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
           "pid": 590,
           "name": "Sewaddle",
           "slug": "sewaddle",
@@ -345042,6 +345329,38 @@ window.CHIRLGOLD_DATA = {
       "desc": "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, el miedo hace que le suba la Velocidad.",
       "pokemon": [
         {
+          "pid": 129,
+          "name": "Magikarp",
+          "slug": "magikarp",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 293,
+          "name": "Whismur",
+          "slug": "whismur",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 366,
+          "name": "Clamperl",
+          "slug": "clamperl",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 885,
+          "name": "Yamper",
+          "slug": "yamper",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 898,
           "name": "Toxel",
           "slug": "toxel",
@@ -345100,8 +345419,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1042,
-          "name": "Ferropalmas",
-          "slug": "ironhands",
+          "name": "Ferropalma",
+          "slug": "ferropalma",
           "types": [
             "Lucha",
             "Eléctrico"
@@ -345109,8 +345428,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "name": "Ferrocuello",
-          "slug": "ironjugulis",
+          "name": "Ferrocuell",
+          "slug": "ferrocuell",
           "types": [
             "Siniestro",
             "Volador"
@@ -345118,8 +345437,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "name": "Ferropolilla",
-          "slug": "ironmoth",
+          "name": "Ferropolil",
+          "slug": "ferropolil",
           "types": [
             "Fuego",
             "Veneno"
@@ -345136,8 +345455,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "name": "Ferropaladín",
-          "slug": "ferropaladn",
+          "name": "Ferropalad",
+          "slug": "ferropalad",
           "types": [
             "Hada",
             "Lucha"
@@ -345145,8 +345464,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "name": "Ferroverdor",
-          "slug": "ironleaves",
+          "name": "Ferroverdo",
+          "slug": "ferroverdo",
           "types": [
             "Planta",
             "Psíquico"
@@ -345186,6 +345505,24 @@ window.CHIRLGOLD_DATA = {
       "desc": "Atrae y neutraliza los movimientos de tipo Agua, que además le suben el Ataque Especial.",
       "pokemon": [
         {
+          "pid": 345,
+          "name": "Lileep",
+          "slug": "lileep",
+          "types": [
+            "Roca",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 346,
+          "name": "Cradily",
+          "slug": "cradily",
+          "types": [
+            "Roca",
+            "Planta"
+          ]
+        },
+        {
           "pid": 422,
           "name": "Shellos",
           "slug": "shellos",
@@ -345217,6 +345554,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua"
           ]
+        },
+        {
+          "pid": 1028,
+          "name": "Tatsugiri",
+          "slug": "tatsugiri",
+          "types": [
+            "Dragón",
+            "Agua"
+          ]
         }
       ]
     },
@@ -345224,6 +345570,31 @@ window.CHIRLGOLD_DATA = {
       "name": "Competitivo",
       "desc": "Sube mucho su Ataque cuando el rival le baja las características.",
       "pokemon": [
+        {
+          "pid": 691,
+          "name": "Tornadus",
+          "slug": "tornadus",
+          "types": [
+            "Volador"
+          ]
+        },
+        {
+          "pid": 692,
+          "name": "Thundurus",
+          "slug": "thundurus",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 816,
+          "name": "Passimian",
+          "slug": "passimian",
+          "types": [
+            "Lucha"
+          ]
+        },
         {
           "pid": 1067,
           "name": "Ogerpon",
@@ -345238,6 +345609,14 @@ window.CHIRLGOLD_DATA = {
       "name": "Compiescolta",
       "desc": "Reduce el daño que sufren los aliados.",
       "pokemon": [
+        {
+          "pid": 715,
+          "name": "Spewpa",
+          "slug": "spewpa",
+          "types": [
+            "Bicho"
+          ]
+        },
         {
           "pid": 975,
           "name": "Maushold",
@@ -345369,8 +345748,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "name": "Crabominable",
-          "slug": "crabominable",
+          "name": "Crabominab",
+          "slug": "crabominab",
           "types": [
             "Lucha",
             "Hielo"
@@ -345398,6 +345777,33 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Psíquico"
+          ]
+        },
+        {
+          "pid": 978,
+          "name": "Smoliv",
+          "slug": "smoliv",
+          "types": [
+            "Planta",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 979,
+          "name": "Dolliv",
+          "slug": "dolliv",
+          "types": [
+            "Planta",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 980,
+          "name": "Arboliva",
+          "slug": "arboliva",
+          "types": [
+            "Planta",
+            "Normal"
           ]
         }
       ]
@@ -345458,12 +345864,38 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 414,
+          "name": "Mothim",
+          "slug": "mothim",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
           "pid": 469,
           "name": "Yanmega",
           "slug": "yanmega",
           "types": [
             "Bicho",
             "Dragón"
+          ]
+        },
+        {
+          "pid": 969,
+          "name": "Nymble",
+          "slug": "nymble",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 970,
+          "name": "Lokix",
+          "slug": "lokix",
+          "types": [
+            "Bicho",
+            "Siniestro"
           ]
         }
       ]
@@ -345479,6 +345911,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Agua"
+          ]
+        },
+        {
+          "pid": 146,
+          "name": "Moltres",
+          "slug": "moltres",
+          "types": [
+            "Fuego",
+            "Volador"
           ]
         },
         {
@@ -345514,6 +345955,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Agua"
+          ]
+        },
+        {
+          "pid": 485,
+          "name": "Heatran",
+          "slug": "heatran",
+          "types": [
+            "Fuego",
+            "Acero"
           ]
         },
         {
@@ -345563,8 +346013,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 712,
-          "name": "Fletchinder",
-          "slug": "fletchinder",
+          "name": "Flechinder",
+          "slug": "flechinder",
           "types": [
             "Fuego",
             "Volador"
@@ -345596,6 +346046,14 @@ window.CHIRLGOLD_DATA = {
             "Roca",
             "Fuego"
           ]
+        },
+        {
+          "pid": 985,
+          "name": "Charcadet",
+          "slug": "charcadet",
+          "types": [
+            "Fuego"
+          ]
         }
       ]
     },
@@ -345610,6 +346068,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fantasma",
             "Veneno"
+          ]
+        },
+        {
+          "pid": 478,
+          "name": "Froslass",
+          "slug": "froslass",
+          "types": [
+            "Hielo",
+            "Fantasma"
           ]
         },
         {
@@ -345631,11 +346098,33 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 904,
+          "name": "Sinistea",
+          "slug": "sinistea",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
           "pid": "105_alola",
           "name": "Marowak de Alola",
           "slug": "marowak-alola",
           "types": [
             "Fuego",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Mortal",
+      "desc": "Si le alcanza un movimiento de contacto, se debilitará al cabo de 3 turnos, así como su agresor, a menos que abandonen el terreno de combate.",
+      "pokemon": [
+        {
+          "pid": 914,
+          "name": "Cursola",
+          "slug": "cursola",
+          "types": [
             "Fantasma"
           ]
         }
@@ -345782,6 +346271,30 @@ window.CHIRLGOLD_DATA = {
             "Dragón",
             "Fantasma"
           ]
+        },
+        {
+          "pid": 982,
+          "name": "Nacli",
+          "slug": "nacli",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 983,
+          "name": "Naclstack",
+          "slug": "naclstack",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 984,
+          "name": "Garganacl",
+          "slug": "garganacl",
+          "types": [
+            "Roca"
+          ]
         }
       ]
     },
@@ -345829,6 +346342,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Planta"
+          ]
+        },
+        {
+          "pid": 283,
+          "name": "Surskit",
+          "slug": "surskit",
+          "types": [
+            "Bicho",
+            "Agua"
           ]
         }
       ]
@@ -346291,6 +346813,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 807,
+          "name": "Salandit",
+          "slug": "salandit",
+          "types": [
+            "Veneno",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 808,
+          "name": "Salazzle",
+          "slug": "salazzle",
+          "types": [
+            "Veneno",
+            "Fuego"
+          ]
+        },
+        {
           "pid": 811,
           "name": "Bounsweet",
           "slug": "bounsweet",
@@ -346440,8 +346980,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "name": "Dudunsparce",
-          "slug": "dudunsparce",
+          "name": "Dudunspars",
+          "slug": "dudunspars",
           "types": [
             "Normal"
           ]
@@ -346481,6 +347021,15 @@ window.CHIRLGOLD_DATA = {
       "name": "Efecto Espora",
       "desc": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
       "pokemon": [
+        {
+          "pid": 45,
+          "name": "Vileplume",
+          "slug": "vileplume",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
         {
           "pid": 46,
           "name": "Paras",
@@ -346608,6 +347157,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 145,
+          "name": "Zapdos",
+          "slug": "zapdos",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
           "pid": 172,
           "name": "Pichu",
           "slug": "pichu",
@@ -346724,14 +347282,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 989,
-          "name": "Bellibolt",
-          "slug": "bellibolt",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
           "pid": "101_hisui",
           "name": "Electrode de Hisui",
           "slug": "electrode-hisui",
@@ -346753,6 +347303,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Eléctrico",
             "Hada"
+          ]
+        },
+        {
+          "pid": 921,
+          "name": "Pincurchin",
+          "slug": "pincurchin",
+          "types": [
+            "Eléctrico"
           ]
         },
         {
@@ -346793,6 +347351,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "zebstrika",
           "types": [
             "Eléctrico"
+          ]
+        },
+        {
+          "pid": 637,
+          "name": "Emolga",
+          "slug": "emolga",
+          "types": [
+            "Eléctrico",
+            "Volador"
           ]
         }
       ]
@@ -347049,6 +347616,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 686,
+          "name": "Larvesta",
+          "slug": "larvesta",
+          "types": [
+            "Bicho",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 687,
+          "name": "Volcarona",
+          "slug": "volcarona",
+          "types": [
+            "Bicho",
+            "Fuego"
+          ]
+        },
+        {
           "pid": 786,
           "name": "Grubbin",
           "slug": "grubbin",
@@ -347156,6 +347741,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 415,
+          "name": "Combee",
+          "slug": "combee",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
           "pid": 604,
           "name": "Darumaka",
           "slug": "darumaka",
@@ -347201,8 +347795,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "name": "Squawkabilly",
-          "slug": "squawkabilly",
+          "name": "Squawkbily",
+          "slug": "squawkbily",
           "types": [
             "Normal",
             "Volador"
@@ -347230,6 +347824,30 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escama de Hielo",
+      "desc": "Las gélidas escamas que protegen su cuerpo reducen a la mitad el daño que le infligen los ataques especiales.",
+      "pokemon": [
+        {
+          "pid": 922,
+          "name": "Snom",
+          "slug": "snom",
+          "types": [
+            "Hielo",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 923,
+          "name": "Frosmoth",
+          "slug": "frosmoth",
+          "types": [
+            "Hielo",
+            "Bicho"
           ]
         }
       ]
@@ -347301,6 +347919,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Psíquico",
             "Volador"
+          ]
+        },
+        {
+          "pid": 196,
+          "name": "Espeon",
+          "slug": "espeon",
+          "types": [
+            "Psíquico"
           ]
         },
         {
@@ -347461,6 +348087,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 561,
+          "name": "Pansage",
+          "slug": "pansage",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 562,
+          "name": "Simisage",
+          "slug": "simisage",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
           "pid": 700,
           "name": "Chespin",
           "slug": "chespin",
@@ -347554,8 +348196,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 958,
-          "name": "Meowscarada",
-          "slug": "meowscarada",
+          "name": "Mewscarada",
+          "slug": "mewscarada",
           "types": [
             "Planta",
             "Siniestro"
@@ -347593,12 +348235,46 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 125,
+          "name": "Electabuzz",
+          "slug": "electabuzz",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 126,
+          "name": "Magmar",
+          "slug": "magmar",
+          "types": [
+            "Fuego",
+            "Agua"
+          ]
+        },
+        {
           "pid": 225,
           "name": "Delibird",
           "slug": "delibird",
           "types": [
             "Hielo",
             "Volador"
+          ]
+        },
+        {
+          "pid": 239,
+          "name": "Elekid",
+          "slug": "elekid",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 240,
+          "name": "Magby",
+          "slug": "magby",
+          "types": [
+            "Fuego",
+            "Agua"
           ]
         },
         {
@@ -347635,6 +348311,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 466,
+          "name": "Electivire",
+          "slug": "electivire",
+          "types": [
+            "Eléctrico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 467,
+          "name": "Magmortar",
+          "slug": "magmortar",
+          "types": [
+            "Fuego",
+            "Agua"
+          ]
+        },
+        {
           "pid": 556,
           "name": "Lillipup",
           "slug": "lillipup",
@@ -347648,6 +348342,14 @@ window.CHIRLGOLD_DATA = {
           "slug": "rockruff",
           "types": [
             "Roca"
+          ]
+        },
+        {
+          "pid": 993,
+          "name": "Mabosstiff",
+          "slug": "mabosstiff",
+          "types": [
+            "Siniestro"
           ]
         },
         {
@@ -347725,6 +348427,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 402,
+          "name": "Kricketune",
+          "slug": "kricketune",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
           "pid": 407,
           "name": "Roserade",
           "slug": "roserade",
@@ -347764,6 +348474,22 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Lucha",
             "Fantasma"
+          ]
+        },
+        {
+          "pid": 902,
+          "name": "Clobbopus",
+          "slug": "clobbopus",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 903,
+          "name": "Grapploct",
+          "slug": "grapploct",
+          "types": [
+            "Lucha"
           ]
         }
       ]
@@ -347815,6 +348541,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Psíquico",
             "Hada"
+          ]
+        },
+        {
+          "pid": 1016,
+          "name": "Revavroom",
+          "slug": "revavroom",
+          "types": [
+            "Acero",
+            "Veneno"
           ]
         }
       ]
@@ -347960,6 +348695,24 @@ window.CHIRLGOLD_DATA = {
       "desc": "Potencia los golpes críticos que asesta aún más de lo normal.",
       "pokemon": [
         {
+          "pid": 21,
+          "name": "Spearow",
+          "slug": "spearow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 22,
+          "name": "Fearow",
+          "slug": "fearow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
           "pid": 116,
           "name": "Horsea",
           "slug": "horsea",
@@ -348087,8 +348840,8 @@ window.CHIRLGOLD_DATA = {
       "pokemon": [
         {
           "pid": 924,
-          "name": "Stonjourner",
-          "slug": "stonjourner",
+          "name": "Stonjorner",
+          "slug": "stonjorner",
           "types": [
             "Roca"
           ]
@@ -348169,6 +348922,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 197,
+          "name": "Umbreon",
+          "slug": "umbreon",
+          "types": [
+            "Siniestro"
+          ]
+        },
+        {
           "pid": 203,
           "name": "Girafarig",
           "slug": "girafarig",
@@ -348184,6 +348945,30 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Siniestro",
             "Hielo"
+          ]
+        },
+        {
+          "pid": 243,
+          "name": "Raikou",
+          "slug": "raikou",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 244,
+          "name": "Entei",
+          "slug": "entei",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 245,
+          "name": "Suicune",
+          "slug": "suicune",
+          "types": [
+            "Agua"
           ]
         },
         {
@@ -348237,6 +349022,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 604,
+          "name": "Darumaka",
+          "slug": "darumaka",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
           "pid": 669,
           "name": "Mienfoo",
           "slug": "mienfoo",
@@ -348256,24 +349049,6 @@ window.CHIRLGOLD_DATA = {
           "pid": 674,
           "name": "Pawniard",
           "slug": "pawniard",
-          "types": [
-            "Siniestro",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 674,
-          "name": "Pawniard",
-          "slug": "pawniard",
-          "types": [
-            "Siniestro",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 675,
-          "name": "Bisharp",
-          "slug": "bisharp",
           "types": [
             "Siniestro",
             "Acero"
@@ -348343,6 +349118,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "raticate",
           "types": [
             "Normal"
+          ]
+        },
+        {
+          "pid": 43,
+          "name": "Oddish",
+          "slug": "oddish",
+          "types": [
+            "Planta",
+            "Veneno"
           ]
         },
         {
@@ -348430,6 +349214,31 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 265,
+          "name": "Wurmple",
+          "slug": "wurmple",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 290,
+          "name": "Nincada",
+          "slug": "nincada",
+          "types": [
+            "Bicho",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 401,
+          "name": "Kricketot",
+          "slug": "kricketot",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
           "pid": 417,
           "name": "Pachirisu",
           "slug": "pachirisu",
@@ -348487,8 +349296,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1032,
-          "name": "Dudunsparce",
-          "slug": "dudunsparce",
+          "name": "Dudunspars",
+          "slug": "dudunspars",
           "types": [
             "Normal"
           ]
@@ -348499,6 +349308,48 @@ window.CHIRLGOLD_DATA = {
       "name": "Funda",
       "desc": "No le afectan las tormentas de arena, el granizo y los movimientos con polvos.",
       "pokemon": [
+        {
+          "pid": 204,
+          "name": "Pineco",
+          "slug": "pineco",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 205,
+          "name": "Forretress",
+          "slug": "forretress",
+          "types": [
+            "Bicho",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 372,
+          "name": "Shelgon",
+          "slug": "shelgon",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 412,
+          "name": "Burmy",
+          "slug": "burmy",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 413,
+          "name": "Wormadam",
+          "slug": "wormadam",
+          "types": [
+            "Bicho",
+            "Planta"
+          ]
+        },
         {
           "pid": 679,
           "name": "Vullaby",
@@ -348674,6 +349525,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 750,
+          "name": "Sylveon",
+          "slug": "sylveon",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
           "pid": 955,
           "name": "Enamorus",
           "slug": "enamorus",
@@ -348718,6 +349577,33 @@ window.CHIRLGOLD_DATA = {
       "name": "Gula",
       "desc": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
       "pokemon": [
+        {
+          "pid": 69,
+          "name": "Bellsprout",
+          "slug": "bellsprout",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 70,
+          "name": "Weepinbell",
+          "slug": "weepinbell",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 71,
+          "name": "Victreebel",
+          "slug": "victreebel",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
         {
           "pid": 213,
           "name": "Shuckle",
@@ -348800,6 +349686,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 869,
+          "name": "Skwovet",
+          "slug": "skwovet",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 870,
+          "name": "Greedent",
+          "slug": "greedent",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
           "pid": 890,
           "name": "Applin",
           "slug": "applin",
@@ -348827,26 +349729,9 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 892,
-          "name": "Appletun",
-          "slug": "appletun",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
           "pid": 965,
           "name": "Lechonk",
           "slug": "lechonk",
-          "types": [
-            "Normal"
-          ]
-        },
-        {
-          "pid": 966,
-          "name": "Oinkologne",
-          "slug": "oinkologne",
           "types": [
             "Normal"
           ]
@@ -348919,6 +349804,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 378,
+          "name": "Regice",
+          "slug": "regice",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 471,
+          "name": "Glaceon",
+          "slug": "glaceon",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
           "pid": 632,
           "name": "Vanillite",
           "slug": "vanillite",
@@ -348966,6 +349867,33 @@ window.CHIRLGOLD_DATA = {
             "Agua",
             "Hielo"
           ]
+        },
+        {
+          "pid": 1046,
+          "name": "Frigibax",
+          "slug": "frigibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1047,
+          "name": "Arctibax",
+          "slug": "arctibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1048,
+          "name": "Baxcalibur",
+          "slug": "baxcalibur",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
         }
       ]
     },
@@ -348973,6 +349901,15 @@ window.CHIRLGOLD_DATA = {
       "name": "Hedor",
       "desc": "Puede amedrentar al rival al atacarlo debido al mal olor que emana.",
       "pokemon": [
+        {
+          "pid": 44,
+          "name": "Gloom",
+          "slug": "gloom",
+          "types": [
+            "Planta",
+            "Veneno"
+          ]
+        },
         {
           "pid": 88,
           "name": "Grimer",
@@ -349160,6 +350097,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 1031,
+          "name": "Farigiraf",
+          "slug": "farigiraf",
+          "types": [
+            "Normal",
+            "Psíquico"
+          ]
+        },
+        {
           "pid": 1061,
           "name": "Dipplin",
           "slug": "dipplin",
@@ -349219,12 +350165,36 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 134,
+          "name": "Vaporeon",
+          "slug": "vaporeon",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
           "pid": 278,
           "name": "Wingull",
           "slug": "wingull",
           "types": [
             "Agua",
             "Volador"
+          ]
+        },
+        {
+          "pid": 368,
+          "name": "Gorebyss",
+          "slug": "gorebyss",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 370,
+          "name": "Luvdisc",
+          "slug": "luvdisc",
+          "types": [
+            "Agua"
           ]
         },
         {
@@ -349405,6 +350375,14 @@ window.CHIRLGOLD_DATA = {
             "Agua",
             "Tierra"
           ]
+        },
+        {
+          "pid": 989,
+          "name": "Bellibolt",
+          "slug": "bellibolt",
+          "types": [
+            "Eléctrico"
+          ]
         }
       ]
     },
@@ -349412,6 +350390,22 @@ window.CHIRLGOLD_DATA = {
       "name": "Humo Blanco",
       "desc": "El humo blanco que lo protege evita que otros Pokémon le bajen las características.",
       "pokemon": [
+        {
+          "pid": 109,
+          "name": "Koffing",
+          "slug": "koffing",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 110,
+          "name": "Weezing",
+          "slug": "weezing",
+          "types": [
+            "Veneno"
+          ]
+        },
         {
           "pid": 324,
           "name": "Torkoal",
@@ -349431,8 +350425,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 901,
-          "name": "Centiskorch",
-          "slug": "centiskorch",
+          "name": "Centskorch",
+          "slug": "centskorch",
           "types": [
             "Fuego",
             "Bicho"
@@ -349445,12 +350439,44 @@ window.CHIRLGOLD_DATA = {
       "desc": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
       "pokemon": [
         {
+          "pid": 275,
+          "name": "Shiftry",
+          "slug": "shiftry",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 461,
+          "name": "Weavile",
+          "slug": "weavile",
+          "types": [
+            "Siniestro",
+            "Hielo"
+          ]
+        },
+        {
           "pid": 994,
           "name": "Shroodle",
           "slug": "shroodle",
           "types": [
             "Veneno",
             "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hélice Caudal",
+      "desc": "Impide que el rival pueda atraer ataques hacia sí mismo por efecto de su habilidad o sus movimientos.",
+      "pokemon": [
+        {
+          "pid": 896,
+          "name": "Arrokuda",
+          "slug": "arrokuda",
+          "types": [
+            "Agua"
           ]
         }
       ]
@@ -349478,11 +350504,44 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 821,
+          "name": "Pyukumuku",
+          "slug": "pyukumuku",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
           "pid": 839,
           "name": "Cosmog",
           "slug": "cosmog",
           "types": [
             "Psíquico"
+          ]
+        },
+        {
+          "pid": 959,
+          "name": "Fuecoco",
+          "slug": "fuecoco",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 960,
+          "name": "Crocalor",
+          "slug": "crocalor",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 961,
+          "name": "Skeledirge",
+          "slug": "skeledirge",
+          "types": [
+            "Fuego",
+            "Fantasma"
           ]
         },
         {
@@ -349523,6 +350582,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "rolycoly",
           "types": [
             "Roca"
+          ]
+        },
+        {
+          "pid": 1063,
+          "name": "Sinistcha",
+          "slug": "sinistcha",
+          "types": [
+            "Planta",
+            "Fantasma"
           ]
         }
       ]
@@ -349672,6 +350740,20 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Impostor",
+      "desc": "Se transforma en el Pokémon que tiene enfrente.",
+      "pokemon": [
+        {
+          "pid": 132,
+          "name": "Ditto",
+          "slug": "ditto",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Impulso",
       "desc": "Aumenta su Velocidad en cada turno.",
       "pokemon": [
@@ -349771,6 +350853,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Bicho",
             "Veneno"
+          ]
+        },
+        {
+          "pid": 1006,
+          "name": "Espathra",
+          "slug": "espathra",
+          "types": [
+            "Psíquico"
           ]
         }
       ]
@@ -349919,6 +351009,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "regigigas",
           "types": [
             "Normal"
+          ]
+        },
+        {
+          "pid": 1015,
+          "name": "Varoom",
+          "slug": "varoom",
+          "types": [
+            "Acero",
+            "Veneno"
           ]
         }
       ]
@@ -350415,8 +351514,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 981,
-          "name": "Squawkabilly",
-          "slug": "squawkabilly",
+          "name": "Squawkbily",
+          "slug": "squawkbily",
           "types": [
             "Normal",
             "Volador"
@@ -350506,6 +351605,48 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 276,
+          "name": "Taillow",
+          "slug": "taillow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 277,
+          "name": "Swellow",
+          "slug": "swellow",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 294,
+          "name": "Loudred",
+          "slug": "loudred",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 295,
+          "name": "Exploud",
+          "slug": "exploud",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 915,
+          "name": "Sirfetch’d",
+          "slug": "sirfetchd",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
           "pid": 1023,
           "name": "Flamigo",
           "slug": "flamigo",
@@ -350560,6 +351701,15 @@ window.CHIRLGOLD_DATA = {
       "desc": "Si le alcanza un movimiento de tipo Siniestro, aumenta el Ataque debido a su integridad.",
       "pokemon": [
         {
+          "pid": 475,
+          "name": "Gallade",
+          "slug": "gallade",
+          "types": [
+            "Psíquico",
+            "Lucha"
+          ]
+        },
+        {
           "pid": 688,
           "name": "Cobalion",
           "slug": "cobalion",
@@ -350592,6 +351742,14 @@ window.CHIRLGOLD_DATA = {
           "slug": "keldeo",
           "types": [
             "Agua",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 920,
+          "name": "Falinks",
+          "slug": "falinks",
+          "types": [
             "Lucha"
           ]
         }
@@ -350959,6 +352117,22 @@ window.CHIRLGOLD_DATA = {
           "slug": "liepard",
           "types": [
             "Siniestro"
+          ]
+        },
+        {
+          "pid": 734,
+          "name": "Swirlix",
+          "slug": "swirlix",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 735,
+          "name": "Slurpuff",
+          "slug": "slurpuff",
+          "types": [
+            "Hada"
           ]
         },
         {
@@ -351360,9 +352534,40 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Manto Frondoso",
+      "desc": "Aumenta su Defensa si hay un campo de hierba en el terreno de combate.",
+      "pokemon": [
+        {
+          "pid": 722,
+          "name": "Skiddo",
+          "slug": "skiddo",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 723,
+          "name": "Gogoat",
+          "slug": "gogoat",
+          "types": [
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Manto Níveo",
       "desc": "Sube la Evasión cuando graniza.",
       "pokemon": [
+        {
+          "pid": 144,
+          "name": "Articuno",
+          "slug": "articuno",
+          "types": [
+            "Hielo",
+            "Volador"
+          ]
+        },
         {
           "pid": 220,
           "name": "Swinub",
@@ -351584,6 +352789,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 563,
+          "name": "Pansear",
+          "slug": "pansear",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 564,
+          "name": "Simisear",
+          "slug": "simisear",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
           "pid": 703,
           "name": "Fennekin",
           "slug": "fennekin",
@@ -351759,6 +352980,41 @@ window.CHIRLGOLD_DATA = {
       "desc": "Reduce a la mitad su peso.",
       "pokemon": [
         {
+          "pid": 374,
+          "name": "Beldum",
+          "slug": "beldum",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 375,
+          "name": "Metang",
+          "slug": "metang",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 376,
+          "name": "Metagross",
+          "slug": "metagross",
+          "types": [
+            "Acero",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 379,
+          "name": "Registeel",
+          "slug": "registeel",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
           "pid": 934,
           "name": "Duraludon",
           "slug": "duraludon",
@@ -351774,12 +353030,42 @@ window.CHIRLGOLD_DATA = {
       "desc": "Duplica su peso.",
       "pokemon": [
         {
+          "pid": 928,
+          "name": "Cufant",
+          "slug": "cufant",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 929,
+          "name": "Copperajah",
+          "slug": "copperajah",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
           "pid": 934,
           "name": "Duraludon",
           "slug": "duraludon",
           "types": [
             "Acero",
             "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modo Daruma",
+      "desc": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+      "pokemon": [
+        {
+          "pid": 605,
+          "name": "Darmanitan",
+          "slug": "darmanitan",
+          "types": [
+            "Fuego"
           ]
         }
       ]
@@ -351969,6 +353255,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 1003,
+          "name": "Rellor",
+          "slug": "rellor",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
           "pid": 1017,
           "name": "Cyclizar",
           "slug": "cyclizar",
@@ -352005,6 +353299,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "dragonite",
           "types": [
             "Dragón",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 249,
+          "name": "Lugia",
+          "slug": "lugia",
+          "types": [
+            "Psíquico",
             "Volador"
           ]
         }
@@ -352092,6 +353395,14 @@ window.CHIRLGOLD_DATA = {
       "desc": "Cambia su tipo al del movimiento que va a usar.",
       "pokemon": [
         {
+          "pid": 352,
+          "name": "Kecleon",
+          "slug": "kecleon",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
           "pid": 706,
           "name": "Froakie",
           "slug": "froakie",
@@ -352115,6 +353426,31 @@ window.CHIRLGOLD_DATA = {
             "Agua",
             "Siniestro"
           ]
+        },
+        {
+          "pid": 956,
+          "name": "Sprigatito",
+          "slug": "sprigatito",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 957,
+          "name": "Floragato",
+          "slug": "floragato",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 958,
+          "name": "Mewscarada",
+          "slug": "mewscarada",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
         }
       ]
     },
@@ -352122,6 +353458,30 @@ window.CHIRLGOLD_DATA = {
       "name": "Más",
       "desc": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
       "pokemon": [
+        {
+          "pid": 179,
+          "name": "Mareep",
+          "slug": "mareep",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 180,
+          "name": "Flaaffy",
+          "slug": "flaaffy",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 181,
+          "name": "Ampharos",
+          "slug": "ampharos",
+          "types": [
+            "Eléctrico"
+          ]
+        },
         {
           "pid": 311,
           "name": "Plusle",
@@ -352301,6 +353661,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 347,
+          "name": "Anorith",
+          "slug": "anorith",
+          "types": [
+            "Roca",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 348,
+          "name": "Armaldo",
+          "slug": "armaldo",
+          "types": [
+            "Roca",
+            "Bicho"
+          ]
+        },
+        {
           "pid": 349,
           "name": "Feebas",
           "slug": "feebas",
@@ -352418,16 +353796,16 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 897,
-          "name": "Barraskewda",
-          "slug": "barraskewda",
+          "name": "Baraskewda",
+          "slug": "baraskewda",
           "types": [
             "Agua"
           ]
         },
         {
           "pid": 952,
-          "name": "Basculegion",
-          "slug": "basculegion",
+          "name": "Basclegion",
+          "slug": "basclegion",
           "types": [
             "Agua",
             "Fantasma"
@@ -352463,6 +353841,41 @@ window.CHIRLGOLD_DATA = {
       "name": "Nerviosismo",
       "desc": "Pone nervioso al rival y le impide usar bayas.",
       "pokemon": [
+        {
+          "pid": 150,
+          "name": "Mewtwo",
+          "slug": "mewtwo",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 248,
+          "name": "Tyranitar",
+          "slug": "tyranitar",
+          "types": [
+            "Roca",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 284,
+          "name": "Masquerain",
+          "slug": "masquerain",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 416,
+          "name": "Vespiquen",
+          "slug": "vespiquen",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
         {
           "pid": 645,
           "name": "Joltik",
@@ -352509,16 +353922,16 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "name": "Corvisquire",
-          "slug": "corvisquire",
+          "name": "Corvsquire",
+          "slug": "corvsquire",
           "types": [
             "Volador"
           ]
         },
         {
           "pid": 873,
-          "name": "Corviknight",
-          "slug": "corviknight",
+          "name": "Corviknite",
+          "slug": "corviknite",
           "types": [
             "Volador",
             "Acero"
@@ -352640,6 +354053,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 269,
+          "name": "Dustox",
+          "slug": "dustox",
+          "types": [
+            "Psíquico",
+            "Veneno"
+          ]
+        },
+        {
           "pid": 290,
           "name": "Nincada",
           "slug": "nincada",
@@ -352724,6 +354146,22 @@ window.CHIRLGOLD_DATA = {
       "desc": "Atrae y neutraliza los movimientos de tipo Eléctrico, que además le suben el Ataque Especial.",
       "pokemon": [
         {
+          "pid": 25,
+          "name": "Pikachu",
+          "slug": "pikachu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 26,
+          "name": "Raichu",
+          "slug": "raichu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 104,
           "name": "Cubone",
           "slug": "cubone",
@@ -352774,6 +354212,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 172,
+          "name": "Pichu",
+          "slug": "pichu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 309,
           "name": "Electrike",
           "slug": "electrike",
@@ -352785,6 +354231,14 @@ window.CHIRLGOLD_DATA = {
           "pid": 310,
           "name": "Manectric",
           "slug": "manectric",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 311,
+          "name": "Plusle",
+          "slug": "plusle",
           "types": [
             "Eléctrico"
           ]
@@ -352891,6 +354345,22 @@ window.CHIRLGOLD_DATA = {
           "slug": "dubwool",
           "types": [
             "Normal"
+          ]
+        },
+        {
+          "pid": 1021,
+          "name": "Greavard",
+          "slug": "greavard",
+          "types": [
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 1022,
+          "name": "Houndstone",
+          "slug": "houndstone",
+          "types": [
+            "Fantasma"
           ]
         }
       ]
@@ -353152,6 +354622,14 @@ window.CHIRLGOLD_DATA = {
       "desc": "Aumenta la Velocidad si sufre problemas de estado.",
       "pokemon": [
         {
+          "pid": 135,
+          "name": "Jolteon",
+          "slug": "jolteon",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 210,
           "name": "Granbull",
           "slug": "granbull",
@@ -353198,6 +354676,22 @@ window.CHIRLGOLD_DATA = {
       "name": "Poder Arena",
       "desc": "Potencia los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena.",
       "pokemon": [
+        {
+          "pid": 449,
+          "name": "Hippopotas",
+          "slug": "hippopotas",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 450,
+          "name": "Hippowdon",
+          "slug": "hippowdon",
+          "types": [
+            "Tierra"
+          ]
+        },
         {
           "pid": 579,
           "name": "Drilbur",
@@ -353310,8 +354804,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1037,
-          "name": "Melenaleteo",
-          "slug": "fluttermane",
+          "name": "Melenalete",
+          "slug": "melenalete",
           "types": [
             "Fantasma",
             "Hada"
@@ -353364,8 +354858,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1071,
-          "name": "Electrofuria",
-          "slug": "ragingbolt",
+          "name": "Electrofur",
+          "slug": "electrofur",
           "types": [
             "Eléctrico",
             "Dragón"
@@ -353572,6 +355066,31 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 371,
+          "name": "Bagon",
+          "slug": "bagon",
+          "types": [
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 408,
+          "name": "Cranidos",
+          "slug": "cranidos",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 409,
+          "name": "Rampardos",
+          "slug": "rampardos",
+          "types": [
+            "Roca",
+            "Lucha"
+          ]
+        },
+        {
           "pid": 582,
           "name": "Timburr",
           "slug": "timburr",
@@ -353626,6 +355145,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "braviary",
           "types": [
             "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 695,
+          "name": "Landorus",
+          "slug": "landorus",
+          "types": [
+            "Tierra",
             "Volador"
           ]
         },
@@ -353856,6 +355384,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 674,
+          "name": "Pawniard",
+          "slug": "pawniard",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 675,
+          "name": "Bisharp",
+          "slug": "bisharp",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
           "pid": 696,
           "name": "Kyurem",
           "slug": "kyurem",
@@ -353866,8 +355412,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 873,
-          "name": "Corviknight",
-          "slug": "corviknight",
+          "name": "Corviknite",
+          "slug": "corviknite",
           "types": [
             "Volador",
             "Acero"
@@ -353906,6 +355452,15 @@ window.CHIRLGOLD_DATA = {
             "Lucha",
             "Veneno"
           ]
+        },
+        {
+          "pid": 1033,
+          "name": "Kingambit",
+          "slug": "kingambit",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
         }
       ]
     },
@@ -353913,6 +355468,15 @@ window.CHIRLGOLD_DATA = {
       "name": "Prestidigitador",
       "desc": "Roba el objeto del Pokémon al que alcance con un movimiento.",
       "pokemon": [
+        {
+          "pid": 757,
+          "name": "Klefki",
+          "slug": "klefki",
+          "types": [
+            "Acero",
+            "Hada"
+          ]
+        },
         {
           "pid": 770,
           "name": "Hoopa",
@@ -354213,8 +355777,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 790,
-          "name": "Crabominable",
-          "slug": "crabominable",
+          "name": "Crabominab",
+          "slug": "crabominab",
           "types": [
             "Lucha",
             "Hielo"
@@ -354501,6 +356065,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 250,
+          "name": "Ho-Oh",
+          "slug": "hooh",
+          "types": [
+            "Fuego",
+            "Volador"
+          ]
+        },
+        {
           "pid": 465,
           "name": "Tangrowth",
           "slug": "tangrowth",
@@ -354609,6 +356182,23 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 1000,
+          "name": "Klawf",
+          "slug": "klawf",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1017,
+          "name": "Cyclizar",
+          "slug": "cyclizar",
+          "types": [
+            "Dragón",
+            "Normal"
+          ]
+        },
+        {
           "pid": 1069,
           "name": "Hydrapple",
           "slug": "hydrapple",
@@ -354710,6 +356300,31 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Siniestro",
             "Psíquico"
+          ]
+        },
+        {
+          "pid": 803,
+          "name": "Fomantis",
+          "slug": "fomantis",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 804,
+          "name": "Lurantis",
+          "slug": "lurantis",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 955,
+          "name": "Enamorus",
+          "slug": "enamorus",
+          "types": [
+            "Hada",
+            "Volador"
           ]
         }
       ]
@@ -354935,6 +356550,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 267,
+          "name": "Beautifly",
+          "slug": "beautifly",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
           "pid": 403,
           "name": "Shinx",
           "slug": "shinx",
@@ -355131,6 +356755,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 377,
+          "name": "Regirock",
+          "slug": "regirock",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
           "pid": 410,
           "name": "Shieldon",
           "slug": "shieldon",
@@ -355243,6 +356875,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 753,
+          "name": "Carbink",
+          "slug": "carbink",
+          "types": [
+            "Roca",
+            "Hada"
+          ]
+        },
+        {
           "pid": 840,
           "name": "Cosmoem",
           "slug": "cosmoem",
@@ -355259,33 +356900,9 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 982,
-          "name": "Nacli",
-          "slug": "nacli",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
           "pid": 983,
           "name": "Naclstack",
           "slug": "naclstack",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 983,
-          "name": "Naclstack",
-          "slug": "naclstack",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 984,
-          "name": "Garganacl",
-          "slug": "garganacl",
           "types": [
             "Roca"
           ]
@@ -355788,6 +357405,23 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 892,
+          "name": "Appletun",
+          "slug": "appletun",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 966,
+          "name": "Oinkologne",
+          "slug": "oinkologne",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
           "pid": 1024,
           "name": "Cetoddle",
           "slug": "cetoddle",
@@ -355851,6 +357485,36 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Lucha",
             "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Simbiosis",
+      "desc": "Pasa su objeto a un aliado que ya haya utilizado el suyo.",
+      "pokemon": [
+        {
+          "pid": 719,
+          "name": "Flabébé",
+          "slug": "flabb",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 720,
+          "name": "Floette",
+          "slug": "floette",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 721,
+          "name": "Florges",
+          "slug": "florges",
+          "types": [
+            "Hada"
           ]
         }
       ]
@@ -356078,6 +357742,67 @@ window.CHIRLGOLD_DATA = {
       "desc": "Elude los ataques de los aliados durante el combate.",
       "pokemon": [
         {
+          "pid": 202,
+          "name": "Wobbuffet",
+          "slug": "wobbuffet",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 307,
+          "name": "Meditite",
+          "slug": "meditite",
+          "types": [
+            "Lucha",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 308,
+          "name": "Medicham",
+          "slug": "medicham",
+          "types": [
+            "Lucha",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 360,
+          "name": "Wynaut",
+          "slug": "wynaut",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 483,
+          "name": "Dialga",
+          "slug": "dialga",
+          "types": [
+            "Acero",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 484,
+          "name": "Palkia",
+          "slug": "palkia",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 487,
+          "name": "Giratina",
+          "slug": "giratina",
+          "types": [
+            "Fantasma",
+            "Dragón"
+          ]
+        },
+        {
           "pid": 655,
           "name": "Elgyem",
           "slug": "elgyem",
@@ -356101,6 +357826,51 @@ window.CHIRLGOLD_DATA = {
             "Normal",
             "Psíquico"
           ]
+        },
+        {
+          "pid": 835,
+          "name": "Tapu Koko",
+          "slug": "tapukoko",
+          "types": [
+            "Eléctrico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 836,
+          "name": "Tapu Lele",
+          "slug": "tapulele",
+          "types": [
+            "Psíquico",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 837,
+          "name": "Tapu Bulu",
+          "slug": "tapubulu",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 838,
+          "name": "Tapu Fini",
+          "slug": "tapufini",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1004,
+          "name": "Rabsca",
+          "slug": "rabsca",
+          "types": [
+            "Bicho",
+            "Psíquico"
+          ]
         }
       ]
     },
@@ -356109,12 +357879,80 @@ window.CHIRLGOLD_DATA = {
       "desc": "Aumenta mucho su Ataque Especial cuando el rival le baja cualquiera de sus características.",
       "pokemon": [
         {
+          "pid": 39,
+          "name": "Jigglypuff",
+          "slug": "jigglypuff",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 40,
+          "name": "Wigglytuff",
+          "slug": "wigglytuff",
+          "types": [
+            "Normal",
+            "Hada"
+          ]
+        },
+        {
           "pid": 174,
           "name": "Igglybuff",
           "slug": "igglybuff",
           "types": [
             "Normal",
             "Hada"
+          ]
+        },
+        {
+          "pid": 350,
+          "name": "Milotic",
+          "slug": "milotic",
+          "types": [
+            "Agua",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 624,
+          "name": "Gothita",
+          "slug": "gothita",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 625,
+          "name": "Gothorita",
+          "slug": "gothorita",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 626,
+          "name": "Gothitelle",
+          "slug": "gothitelle",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 886,
+          "name": "Boltund",
+          "slug": "boltund",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 990,
+          "name": "Wattrel",
+          "slug": "wattrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
           ]
         }
       ]
@@ -356200,8 +358038,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1066,
-          "name": "Fezandipiti",
-          "slug": "fezandipiti",
+          "name": "Fezanditi",
+          "slug": "fezanditi",
           "types": [
             "Veneno",
             "Hada"
@@ -356334,6 +358172,22 @@ window.CHIRLGOLD_DATA = {
           "pid": 553,
           "name": "Samurott",
           "slug": "samurott",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 565,
+          "name": "Panpour",
+          "slug": "panpour",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 566,
+          "name": "Simipour",
+          "slug": "simipour",
           "types": [
             "Agua"
           ]
@@ -356688,8 +358542,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 856,
-          "name": "Blacephalon",
-          "slug": "blacephalon",
+          "name": "Blacefalon",
+          "slug": "blacefalon",
           "types": [
             "Fuego",
             "Fantasma"
@@ -356736,6 +358590,30 @@ window.CHIRLGOLD_DATA = {
           "pid": 321,
           "name": "Wailord",
           "slug": "wailord",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 367,
+          "name": "Huntail",
+          "slug": "huntail",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 418,
+          "name": "Buizel",
+          "slug": "buizel",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 419,
+          "name": "Floatzel",
+          "slug": "floatzel",
           "types": [
             "Agua"
           ]
@@ -356793,6 +358671,31 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Tierra",
             "Volador"
+          ]
+        },
+        {
+          "pid": 231,
+          "name": "Phanpy",
+          "slug": "phanpy",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 232,
+          "name": "Donphan",
+          "slug": "donphan",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 246,
+          "name": "Larvitar",
+          "slug": "larvitar",
+          "types": [
+            "Roca",
+            "Tierra"
           ]
         },
         {
@@ -356865,6 +358768,32 @@ window.CHIRLGOLD_DATA = {
             "Eléctrico",
             "Normal"
           ]
+        },
+        {
+          "pid": 819,
+          "name": "Sandygast",
+          "slug": "sandygast",
+          "types": [
+            "Fantasma",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 820,
+          "name": "Palossand",
+          "slug": "palossand",
+          "types": [
+            "Fantasma",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1018,
+          "name": "Orthworm",
+          "slug": "orthworm",
+          "types": [
+            "Acero"
+          ]
         }
       ]
     },
@@ -356873,11 +358802,51 @@ window.CHIRLGOLD_DATA = {
       "desc": "Se protege a sí mismo y a sus aliados de ataques que impiden elegir movimientos.",
       "pokemon": [
         {
+          "pid": 732,
+          "name": "Spritzee",
+          "slug": "spritzee",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 733,
+          "name": "Aromatisse",
+          "slug": "aromatisse",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 918,
+          "name": "Milcery",
+          "slug": "milcery",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 919,
+          "name": "Alcremie",
+          "slug": "alcremie",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
           "pid": 965,
           "name": "Lechonk",
           "slug": "lechonk",
           "types": [
             "Normal"
+          ]
+        },
+        {
+          "pid": 977,
+          "name": "Dachsbun",
+          "slug": "dachsbun",
+          "types": [
+            "Hada"
           ]
         }
       ]
@@ -356988,6 +358957,22 @@ window.CHIRLGOLD_DATA = {
           "slug": "gumshoos",
           "types": [
             "Normal"
+          ]
+        },
+        {
+          "pid": 967,
+          "name": "Tarountula",
+          "slug": "tarountula",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 968,
+          "name": "Spidops",
+          "slug": "spidops",
+          "types": [
+            "Bicho"
           ]
         }
       ]
@@ -357347,8 +359332,8 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 872,
-          "name": "Corvisquire",
-          "slug": "corvisquire",
+          "name": "Corvsquire",
+          "slug": "corvsquire",
           "types": [
             "Volador"
           ]
@@ -357461,6 +359446,14 @@ window.CHIRLGOLD_DATA = {
             "Normal",
             "Lucha"
           ]
+        },
+        {
+          "pid": 976,
+          "name": "Fidough",
+          "slug": "fidough",
+          "types": [
+            "Hada"
+          ]
         }
       ]
     },
@@ -357468,6 +359461,22 @@ window.CHIRLGOLD_DATA = {
       "name": "Ímpetu Arena",
       "desc": "Aumenta su Velocidad durante las tormentas de arena.",
       "pokemon": [
+        {
+          "pid": 27,
+          "name": "Sandshrew",
+          "slug": "sandshrew",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 28,
+          "name": "Sandslash",
+          "slug": "sandslash",
+          "types": [
+            "Tierra"
+          ]
+        },
         {
           "pid": 557,
           "name": "Herdier",
@@ -358117,7 +360126,7 @@ window.CHIRLGOLD_DATA = {
           "from": "Crabrawler",
           "from_id": 789,
           "to": "Crabominable",
-          "to_id": 790,
+          "to_id": 0,
           "method": "Usar Piedra Hielo"
         },
         {
@@ -358297,7 +360306,7 @@ window.CHIRLGOLD_DATA = {
         {
           "from": "Bergmite",
           "from_id": 762,
-          "to": "Avalugg de Hisui",
+          "to": "Avalugg",
           "to_id": 763,
           "method": "Usar Protector"
         }
@@ -358665,13 +360674,6 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Alomomola",
           "time": "Todo el día",
           "rate": "4%",
-          "method": "Surf"
-        },
-        {
-          "pid": 952,
-          "pokemon": "Basculegion",
-          "time": "Todo el día",
-          "rate": "1%",
           "method": "Surf"
         }
       ]
@@ -361935,13 +363937,6 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
-          "pid": 924,
-          "pokemon": "Stonjourner",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
           "pid": 744,
           "pokemon": "Helioptile",
           "time": "Mañana y Día",
@@ -362405,13 +364400,6 @@ window.CHIRLGOLD_DATA = {
         {
           "pid": 902,
           "pokemon": "Clobbopus",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 924,
-          "pokemon": "Stonjourner",
           "time": "Noche",
           "rate": "20%",
           "method": "Hierba"
@@ -362928,14 +364916,14 @@ window.CHIRLGOLD_DATA = {
       "encounters": [
         {
           "pid": 1071,
-          "pokemon": "Electrofuria",
+          "pokemon": "Electrofur",
           "time": "Mañana y Día",
           "rate": "10%",
           "method": "Cueva"
         },
         {
           "pid": 1037,
-          "pokemon": "Melenaleteo",
+          "pokemon": "Melenalete",
           "time": "Noche",
           "rate": "10%",
           "method": "Cueva"
@@ -362949,7 +364937,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1043,
-          "pokemon": "Ferrocuello",
+          "pokemon": "Ferrocuell",
           "time": "Noche",
           "rate": "10%",
           "method": "Cueva"
@@ -362963,7 +364951,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1056,
-          "pokemon": "Ferropaladín",
+          "pokemon": "Ferropalad",
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
@@ -362977,7 +364965,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1060,
-          "pokemon": "Ferroverdor",
+          "pokemon": "Ferroverdo",
           "time": "Todo el día",
           "rate": "5%",
           "method": "Cueva"
@@ -363056,7 +365044,7 @@ window.CHIRLGOLD_DATA = {
       "encounters": [
         {
           "pid": 1042,
-          "pokemon": "Ferropalmas",
+          "pokemon": "Ferropalma",
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
@@ -363166,7 +365154,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pid": 1044,
-          "pokemon": "Ferropolilla",
+          "pokemon": "Ferropolil",
           "time": "Todo el día",
           "rate": "5%",
           "method": "Cueva"
