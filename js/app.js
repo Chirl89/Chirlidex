@@ -468,6 +468,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="stat-bar-bg">
           <div class="stat-bar-fill" style="width: ${Math.min(100, (s.val / maxStat) * 100)}%; background-color: ${s.color};"></div>
         </div>
+        ${l.strategy ? `<div class="leader-strategy" style="margin-top: 10px; padding: 10px 14px; background: rgba(212, 175, 55, 0.12); border-left: 3px solid var(--gold); font-size: 0.82rem; color: #e2e8f0; border-radius: 4px; line-height: 1.45;"><b>💡 Estrategia y Consejos:</b> ${l.strategy}</div>` : ''}
       </div>
     `).join("");
 
@@ -1163,6 +1164,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           `).join("")}
         </div>
+        ${l.strategy ? `<div class="leader-strategy" style="margin-top: 10px; padding: 10px 14px; background: rgba(212, 175, 55, 0.12); border-left: 3px solid var(--gold); font-size: 0.82rem; color: #e2e8f0; border-radius: 4px; line-height: 1.45;"><b>💡 Estrategia y Consejos:</b> ${l.strategy}</div>` : ''}
       </div>
     `).join("");
   }
