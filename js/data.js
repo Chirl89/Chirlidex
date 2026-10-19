@@ -1,5 +1,5 @@
 /* Pokémon ChirlGold v0.9.23 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.10.0";
+window.CHIRLGOLD_VERSION = "v0.10.1";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -366051,7 +366051,7 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Xatu",
-          "level": 53,
+          "level": 55,
           "item": "Restos",
           "moves": [
             "Foco Energía",
@@ -366062,7 +366062,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Bronzong",
-          "level": 53,
+          "level": 55,
           "item": "Chaleco Asalto",
           "moves": [
             "Psíquico",
@@ -366073,7 +366073,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Jynx",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Rayo Hielo",
@@ -366084,7 +366084,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Alakazam",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Psíquico",
@@ -366105,7 +366105,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Estrategia Trick Room (Espacio Raro) iniciada por Hatterene y Bronzong. Armarouge lanza Cañón Armadura destructivo bajo Distorsión; Slowbro frena todo daño físico. <b>Consejo:</b> Usa Mofa en turno 1 para evitar que activen Espacio Raro. Los tipos Siniestro, Fantasma y Bicho (Triturar, Bola Sombra) barren su equipo. Si el Espacio Raro se activa, aguanta con Protección o tanques lentos como Tyranitar."
+      "strategy": "Pantallas de soporte con Xatu, Bronzong resistente con Chaleco Asalto y Trampa Rocas, cobertura de Jynx y Alakazam con Vidasfera y Mega-Slowbro como muro físico y atacante con Paz Mental. Todos los Pokémon a Nivel 55. <b>Consejo:</b> Usa tipos Siniestro, Bicho y Fantasma (Triturar, Bola Sombra). Un ataque Eléctrico o Planta contundente derriba a Slowbro antes de que acumule Paz Mental."
     },
     {
       "name": "Koga - Alto Mando #2",
@@ -366115,7 +366115,7 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Forretress",
-          "level": 53,
+          "level": 55,
           "item": "Casco Dentado",
           "moves": [
             "Púas Tóxicas",
@@ -366126,7 +366126,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Muk",
-          "level": 53,
+          "level": 55,
           "item": "Lodo Negro",
           "moves": [
             "Bomba Lodo",
@@ -366137,7 +366137,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Venomoth",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Bomba Lodo",
@@ -366148,7 +366148,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Crobat",
-          "level": 54,
+          "level": 55,
           "item": "Cinta Xperto",
           "moves": [
             "Ataque Ala",
@@ -366169,7 +366169,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Red masiva de Hazards (Trampa Rocas + Púas Tóxicas con Forretress); Clodsire actúa como muro especial con Absorbe Agua y Terremoto; Overqwil y Crobat castigan con veneno e intimidación. <b>Consejo:</b> Abre con Fuego veloz para eliminar a Forretress de un golpe antes de que ponga púas. Un tipo Tierra o Psíquico barre a Clodsire y Overqwil. Los tipos Acero son inmunes a todo su veneno."
+      "strategy": "Red masiva de Hazards (Trampa Rocas y Púas Tóxicas) con Forretress; Muk con Lodo Negro y Puño Drenaje; Venomoth y Crobat veloces con veneno e intimidación; y Mega-Beedrill devastador con Tijera X y Bomba Lodo. Todos a Nivel 55. <b>Consejo:</b> Abre con un ataque de Fuego rápido para noquear a Forretress antes de que ensucie el campo. Los tipos Acero son completamente inmunes a su veneno."
     },
     {
       "name": "Bruno - Alto Mando #3",
@@ -366179,7 +366179,7 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Hitmonlee",
-          "level": 53,
+          "level": 55,
           "item": "Cin. Elegida",
           "moves": [
             "A Bocajarro",
@@ -366190,7 +366190,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Hitmonchan",
-          "level": 53,
+          "level": 55,
           "item": "Cinta Xperto",
           "moves": [
             "Puño Drenaje",
@@ -366201,7 +366201,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Steelix",
-          "level": 54,
+          "level": 55,
           "item": "Chaleco Asalto",
           "moves": [
             "Terremoto",
@@ -366212,7 +366212,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Machamp",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "A Bocajarro",
@@ -366233,7 +366233,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Potencia física brutal de Pasado y Futuro: Colmillolargo (Great Tusk) desata Terremoto y A Bocajarro; Ferropaladín (Iron Valiant) ataca veloz con Brillo Mágico; Machamp confunde siempre con Indefenso y Puñodinámico. <b>Consejo:</b> Tipos Volador y Hada son esenciales. Ataca a Colmillolargo con Agua o Planta Especial. Para Machamp, atácalo a distancia con Psíquico o Hada para evitar su confusión."
+      "strategy": "Fuerza física imparable a Nivel 55: Hitmonlee con Cinta Elegida y Hitmonchan con coberturas elementales; Steelix tanque con Chaleco Asalto; Machamp con Indefenso; y Mega-Medicham con A Bocajarro y Danza Espada. <b>Consejo:</b> Tipos Volador y Hada son clave para resistir sus golpes de lucha. Ataca el lado especial de Steelix con Agua o Fuego para derribarlo rápidamente."
     },
     {
       "name": "Karen - Alto Mando #4",
@@ -366243,7 +366243,7 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Umbreon",
-          "level": 53,
+          "level": 55,
           "item": "Restos",
           "moves": [
             "Día Soleado",
@@ -366254,7 +366254,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Weavile",
-          "level": 53,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Chuzos",
@@ -366265,7 +366265,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Gengar",
-          "level": 54,
+          "level": 55,
           "item": "Banda Focus",
           "moves": [
             "Bola Sombra",
@@ -366276,7 +366276,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Honchkrow",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Pulso Umbrío",
@@ -366297,7 +366297,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Ting-Lu reduce el ataque especial de tu equipo con Vasija del Debacle y planta Púas; Chien-Pao baja la defensa física un 25% y castiga con Chuzos; Umbreon se atrinchera con Luz Lunar y Campana Cura. <b>Consejo:</b> Lucha y Hada son obligatorios. Desgasta a Ting-Lu con daño físico de Lucha o Planta. Frente a Chien-Pao, ataques de prioridad (Ultrapuño, Puño Bala, Onda Vacío) lo noquean antes de que mueva sus garras."
+      "strategy": "Estrategia oscura y climática a Nivel 55: Umbreon invoca Día Soleado y se recupera con Deseo; Weavile ataca veloz con Chuzos y Danza Espada; Gengar con Banda Focus; Honchkrow; y Mega-Houndoom desatando Llamaradas colosales bajo el sol. <b>Consejo:</b> Tipos Lucha y Hada son letales contra casi todo su equipo. Apaga el sol con cambios de clima para reducir a la mitad la potencia ígnea de Houndoom."
     },
     {
       "name": "Lance - Campeón de la Liga",
@@ -366307,7 +366307,7 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Gyarados",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Escaldar",
@@ -366318,7 +366318,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Aerodactyl",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Avalancha",
@@ -366329,7 +366329,7 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Kingdra",
-          "level": 54,
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
             "Escaldar",
@@ -366361,7 +366361,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "6 dragones colosales: Bramaluna (Roaring Moon) con Paleosíntesis; Baxcalibur convierte ataques de fuego en daño propio; Gyarados y Charizard cubren tipos elementales; Dragonite remata con Danza Dragón y Velocidad Extrema. <b>Consejo:</b> ¡Trampa Rocas en turno 1 quita el 50% de PS a Charizard y rompe la Multiescala de Dragonite! Hada es inmune a sus ataques dragón y Rayo Hielo daña x4 a Dragonite y Salamence."
+      "strategy": "Ofensiva aérea y dracónica implacable a Nivel 55: Gyarados, Aerodactyl y Kingdra con Danza Dragón; Dragonite con Multiescala y Seguro Debilidad; y Mega-Charizard X con Envite Ígneo y Garra Dragón. <b>Consejo:</b> ¡Trampa Rocas en turno 1 quita 50% de PS a Charizard y rompe la Multiescala de Dragonite! Ataques de tipo Hada y Rayo Hielo (daño x4 a Dragonite) son definitivos para alzarte con el título de Campeón."
     },
     {
       "name": "Lt. Surge",
