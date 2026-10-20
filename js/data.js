@@ -365184,36 +365184,47 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 14,
       "team": [
         {
-          "pokemon": "Hoothoot",
-          "level": 12,
-          "item": "Restos",
+          "pokemon": "Gligar",
+          "level": 13,
+          "item": "Baya Aranja",
           "moves": [
-            "Placaje",
+            "Bofetón Lodo",
+            "Picotazo Ven",
             "At. Rápido",
-            "Burbuja",
-            "Psicorrayo"
+            "Fortaleza"
+          ]
+        },
+        {
+          "pokemon": "Wattrel",
+          "level": 13,
+          "item": "Baya Caquic",
+          "moves": [
+            "Impactrueno",
+            "Aire Afilado",
+            "Onda Trueno",
+            "At. Rápido"
           ]
         },
         {
           "pokemon": "Doduo",
           "level": 13,
-          "item": "Vidasfera",
+          "item": "Baya Aranja",
           "moves": [
-            "Pico Taladro",
-            "Placaje",
-            "At. Rápido",
+            "Picotazo",
+            "Doble Patada",
+            "Bofetón Lodo",
             "Malicioso"
           ]
         },
         {
           "pokemon": "Noctowl",
-          "level": 14,
-          "item": "Cinta Fuerte",
+          "level": 13,
+          "item": "Baya Zidra",
           "moves": [
-            "Ataque Ala",
-            "Sustituto",
-            "Foco Energía",
-            "Hipnosis"
+            "Tornado",
+            "Respiro",
+            "Hipnosis",
+            "Vien. Aciago"
           ]
         }
       ],
@@ -365226,36 +365237,58 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 18,
       "team": [
         {
-          "pokemon": "Ledian",
-          "level": 16,
-          "item": "Restos",
+          "pokemon": "Dwebble",
+          "level": 17,
+          "item": "Baya Aranja",
           "moves": [
-            "Foco Energía",
-            "Pantalla Luz",
-            "At. Rápido",
-            "Tornado"
+            "Trampa Rocas",
+            "Tumba Rocas",
+            "Tijera X",
+            "Protección"
           ]
         },
         {
           "pokemon": "Ariados",
           "level": 17,
-          "item": "Casco Dentado",
+          "item": "Baya Zidra",
           "moves": [
-            "Chupavidas",
-            "Tajo Umbrío",
-            "Púas Tóxicas",
-            "Disp. Demora"
+            "Disp. Demora",
+            "Picotazo Ven",
+            "Sombra Vil",
+            "Tinieblas"
+          ]
+        },
+        {
+          "pokemon": "Heracross",
+          "level": 17,
+          "item": "Baya Aranja",
+          "moves": [
+            "Demolición",
+            "Cornada",
+            "Golpe Aéreo",
+            "At. Rápido"
+          ]
+        },
+        {
+          "pokemon": "Yanma",
+          "level": 17,
+          "item": "Baya Caquic",
+          "moves": [
+            "Aire Afilado",
+            "Doble Rayo",
+            "Detección",
+            "Hipnosis"
           ]
         },
         {
           "pokemon": "Scyther",
-          "level": 18,
-          "item": "Vidasfera",
+          "level": 17,
+          "item": "Baya Zidra",
           "moves": [
-            "Tijera X",
-            "Ataque Ala",
+            "Ida y Vuelta",
+            "Golpe Aéreo",
             "At. Rápido",
-            "Danza Espada"
+            "Picadura"
           ]
         }
       ],
@@ -365269,35 +365302,57 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Clefairy",
-          "level": 20,
-          "item": "Restos",
+          "level": 21,
+          "item": "Mineral Evol",
           "moves": [
-            "Pantallahumo",
-            "Pantalla Luz",
-            "Encanto",
-            "Doblebofetón"
+            "Reflejo",
+            "Onda Trueno",
+            "Voz Cautiv.",
+            "Metrónomo"
+          ]
+        },
+        {
+          "pokemon": "Ambipom",
+          "level": 21,
+          "item": "Baya Meloc",
+          "moves": [
+            "Sorpresa",
+            "Doble Golpe",
+            "Bofetón Lodo",
+            "Persecución"
+          ]
+        },
+        {
+          "pokemon": "Furret",
+          "level": 21,
+          "item": "Baya Caquic",
+          "moves": [
+            "At. Rápido",
+            "Golpes Furia",
+            "Desenrollar",
+            "Bofetón Lodo"
           ]
         },
         {
           "pokemon": "Wigglytuff",
           "level": 21,
-          "item": "Vidasfera",
+          "item": "Restos",
           "moves": [
-            "Doblebofetón",
-            "Rayo Hielo",
-            "Rayo",
-            "Encanto"
+            "Encanto",
+            "Onda Trueno",
+            "Voz Cautiv.",
+            "Espacio Raro"
           ]
         },
         {
           "pokemon": "Miltank",
-          "level": 22,
-          "item": "Restos",
+          "level": 21,
+          "item": "Baya Zidra",
           "moves": [
+            "Pisotón",
             "Desenrollar",
-            "Rizo Defensa",
-            "Ataque Arena",
-            "Foco Energía"
+            "Batido",
+            "Atracción"
           ]
         }
       ],
@@ -365310,31 +365365,42 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 28,
       "team": [
         {
-          "pokemon": "Gastly",
-          "level": 25,
+          "pokemon": "Haunter",
+          "level": 27,
           "item": "Banda Focus",
           "moves": [
             "Fuego Fatuo",
-            "Bola Sombra",
+            "Tinieblas",
             "Rayo Confuso",
             "Mismodestino"
           ]
         },
         {
-          "pokemon": "Mismagius",
-          "level": 26,
-          "item": "Vidasfera",
+          "pokemon": "Sableye",
+          "level": 27,
+          "item": "Restos",
+          "moves": [
+            "Fuego Fatuo",
+            "Desarme",
+            "Recuperación",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Misdreavus",
+          "level": 27,
+          "item": "Mineral Evol",
           "moves": [
             "Bola Sombra",
-            "Recuperación",
-            "Psicorrayo",
-            "Rayo Confuso"
+            "LlamaEmbruj.",
+            "Rayo Confuso",
+            "Tóxico"
           ]
         },
         {
           "pokemon": "Drifblim",
-          "level": 26,
-          "item": "Restos",
+          "level": 27,
+          "item": "Baya Zidra",
           "moves": [
             "Bola Sombra",
             "Vuelo",
@@ -365344,13 +365410,24 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Gengar",
-          "level": 28,
+          "level": 27,
           "item": "Vidasfera",
           "moves": [
             "Bola Sombra",
             "Bomba Lodo",
             "Esfera Aural",
             "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Mismagius",
+          "level": 27,
+          "item": "Vidasfera",
+          "moves": [
+            "Bola Sombra",
+            "LlamaEmbruj.",
+            "Psíquico",
+            "Paz Mental"
           ]
         }
       ],
@@ -365363,47 +365440,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 34,
       "team": [
         {
+          "pokemon": "Hitmontop",
+          "level": 35,
+          "item": "Restos",
+          "moves": [
+            "Sorpresa",
+            "Golpe Bajo",
+            "A Bocajarro",
+            "Giro Rápido"
+          ]
+        },
+        {
           "pokemon": "Primeape",
-          "level": 32,
+          "level": 35,
           "item": "Vidasfera",
           "moves": [
             "A Bocajarro",
-            "Puño Fuego",
             "Puño Hielo",
+            "Desarme",
             "Roca Afilada"
           ]
         },
         {
-          "pokemon": "Hitmonchan",
-          "level": 32,
-          "item": "Cinta Xperto",
+          "pokemon": "Breloom",
+          "level": 35,
+          "item": "Banda Focus",
           "moves": [
-            "Puño Drenaje",
-            "Puño Bala",
-            "Puño Fuego",
-            "Puño Hielo"
+            "Espora",
+            "Ultrapuño",
+            "Abatidoras",
+            "Roca Afilada"
           ]
         },
         {
-          "pokemon": "Hitmonlee",
-          "level": 33,
-          "item": "Cin. Elegida",
+          "pokemon": "Machamp",
+          "level": 35,
+          "item": "Baya Zidra",
           "moves": [
-            "A Bocajarro",
-            "Avalancha",
-            "Tajo Umbrío",
-            "Puño Bala"
+            "Puñodinámico",
+            "Roca Afilada",
+            "Puño Hielo",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 35,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Esfera Aural",
+            "Foco Respl.",
+            "Pulso Dragón",
+            "Vel. Extrema"
           ]
         },
         {
           "pokemon": "Poliwrath",
-          "level": 34,
-          "item": "Restos",
+          "level": 35,
+          "item": "Baya Zidra",
           "moves": [
-            "Escaldar",
-            "A Bocajarro",
-            "Rayo Hielo",
-            "Protección"
+            "Cascada",
+            "Puño Hielo",
+            "Hipnosis",
+            "Demolición"
           ]
         }
       ],
@@ -365417,46 +365516,68 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Skarmory",
-          "level": 36,
-          "item": "Restos",
+          "level": 40,
+          "item": "Casco Dentado",
           "moves": [
-            "Foco Respl.",
-            "Ataque Ala",
             "Trampa Rocas",
-            "Respiro"
+            "Púas",
+            "Pájaro Osado",
+            "Remolino"
           ]
         },
         {
-          "pokemon": "Magneton",
-          "level": 36,
-          "item": "Vidasfera",
+          "pokemon": "Bronzong",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Giro Bola",
+            "Paranormal",
+            "Pantalla Luz",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 40,
+          "item": "Gafas Elegid",
           "moves": [
             "Rayo",
             "Foco Respl.",
             "Voltiocambio",
-            "Onda Trueno"
+            "Poder Oculto"
           ]
         },
         {
-          "pokemon": "Forretress",
-          "level": 37,
-          "item": "Casco Dentado",
+          "pokemon": "Empoleon",
+          "level": 40,
+          "item": "Chaleco Asalto",
           "moves": [
-            "Púas",
-            "Púas Tóxicas",
-            "Cabezahierro",
-            "Bola Sombra"
+            "Escaldar",
+            "Foco Respl.",
+            "Rayo Hielo",
+            "Acua Jet"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Demolición"
           ]
         },
         {
           "pokemon": "Steelix",
-          "level": 38,
-          "item": "Seguro Debilidad",
+          "level": 40,
+          "item": "Cinta Xperto",
           "moves": [
             "Terremoto",
-            "Cabezahierro",
-            "Roca Afilada",
-            "Danza Dragón"
+            "Testarazo",
+            "Giro Bola",
+            "Colm. Ígneo"
           ]
         }
       ],
@@ -365469,51 +365590,148 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 40,
       "team": [
         {
-          "pokemon": "Ninetales",
-          "level": 38,
-          "item": "Banda Focus",
+          "pokemon": "Abomasnow",
+          "level": 40,
+          "item": "Roca Helada",
           "moves": [
-            "Rayo Hielo",
-            "Fuerza Lunar",
-            "Foco Energía",
-            "Día Soleado"
+            "Ventisca",
+            "Gigadrenado",
+            "Canto Helado",
+            "Mazazo"
           ]
         },
         {
           "pokemon": "Dewgong",
-          "level": 39,
+          "level": 40,
           "item": "Restos",
           "moves": [
-            "Escaldar",
+            "Surf",
             "Rayo Hielo",
-            "Niebla",
-            "Descanso"
+            "Manto Espejo",
+            "Otra Vez"
           ]
         },
         {
           "pokemon": "Froslass",
-          "level": 39,
+          "level": 40,
+          "item": "Banda Focus",
+          "moves": [
+            "Ventisca",
+            "Bola Sombra",
+            "Púas",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Cloyster",
+          "level": 40,
+          "item": "Ninguno",
+          "moves": [
+            "Rompecoraza",
+            "Carámbano",
+            "Pedrada",
+            "Concha Filo"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 40,
           "item": "Vidasfera",
           "moves": [
-            "Rayo Hielo",
-            "Bola Sombra",
-            "Trampa Rocas",
-            "Mismodestino"
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Demolición"
           ]
         },
         {
           "pokemon": "Mamoswine",
           "level": 40,
-          "item": "Vidasfera",
+          "item": "Cinta Xperto",
           "moves": [
             "Terremoto",
             "Chuzos",
-            "Roca Afilada",
-            "Avalancha"
+            "Canto Helado",
+            "Fuerza Bruta"
           ]
         }
       ],
       "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
+    },
+    {
+      "name": "Débora (Clair)",
+      "city": "Ciudad Endrino (Gimnasio 8)",
+      "badge": "Medalla Dragón",
+      "level_cap": 45,
+      "team": [
+        {
+          "pokemon": "Garchomp",
+          "level": 45,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Terremoto",
+            "Cola Dragón",
+            "Avalancha"
+          ]
+        },
+        {
+          "pokemon": "Dragonair",
+          "level": 45,
+          "item": "Mineral Evol",
+          "moves": [
+            "Onda Trueno",
+            "Pulso Dragón",
+            "Acua Cola",
+            "Descanso"
+          ]
+        },
+        {
+          "pokemon": "Flygon",
+          "level": 45,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Terremoto",
+            "Garra Dragón",
+            "Ida y Vuelta",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Altaria",
+          "level": 45,
+          "item": "Restos",
+          "moves": [
+            "Voz Cautiv.",
+            "Lanzallamas",
+            "Respiro",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 45,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 45,
+          "item": "Vidasfera",
+          "moves": [
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo",
+            "Foco Energía"
+          ]
+        }
+      ],
+      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
     },
     {
       "name": "Rival Silver (Combate 1)",
@@ -365522,35 +365740,13 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 15,
       "team": [
         {
-          "pokemon": "Gastly",
-          "level": 13,
-          "item": "Ninguno",
+          "pokemon": "Cyndaquil",
+          "level": 5,
+          "item": "Baya Aranja",
           "moves": [
-            "Lengüetazo",
-            "Rencor",
-            "Rayo Confuso",
-            "Tinieblas"
-          ]
-        },
-        {
-          "pokemon": "Zubat",
-          "level": 14,
-          "item": "Ninguno",
-          "moves": [
-            "Chupavidas",
-            "Ataque Ala",
-            "Supersónico",
-            "Rayo Confuso"
-          ]
-        },
-        {
-          "pokemon": "Croconaw",
-          "level": 15,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pistola Agua",
+            "Placaje",
             "Malicioso",
-            "Mordisco",
+            "Ascuas",
             "At. Rápido"
           ]
         }
@@ -365565,46 +365761,57 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Gastly",
-          "level": 18,
-          "item": "Vidasfera",
+          "level": 17,
+          "item": "Polvo Brillo",
           "moves": [
             "Tinieblas",
             "Rayo Confuso",
-            "Lengüetazo",
-            "Maldición"
+            "Fuego Fatuo",
+            "Rompecoraza"
           ]
         },
         {
           "pokemon": "Zubat",
-          "level": 18,
-          "item": "Ninguno",
+          "level": 17,
+          "item": "Baya Meloc",
           "moves": [
             "Ataque Ala",
-            "Chupavidas",
-            "Supersónico",
-            "Rayo Confuso"
+            "Mordisco",
+            "Colmillo Ven",
+            "Supersónico"
           ]
         },
         {
           "pokemon": "Magnemite",
-          "level": 19,
-          "item": "Ninguno",
+          "level": 17,
+          "item": "Baya Aranja",
           "moves": [
-            "Rayo",
+            "Impactrueno",
             "Onda Trueno",
+            "Bofetón Lodo",
+            "Reflejo"
+          ]
+        },
+        {
+          "pokemon": "Sneasel",
+          "level": 17,
+          "item": "Baya Caquic",
+          "moves": [
             "At. Rápido",
-            "Gruñido"
+            "Finta",
+            "Viento Hielo",
+            "Malicioso"
           ]
         },
         {
           "pokemon": "Croconaw",
-          "level": 20,
-          "item": "Cinta Xperto",
+          "level": 17,
+          "item": "Baya Zidra",
           "moves": [
-            "Giro Rápido",
+            "Pistola Agua",
             "Mordisco",
-            "Avalancha",
-            "At. Rápido"
+            "Arañazo",
+            "Malicioso"
           ]
         }
       ],
@@ -365618,44 +365825,66 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Haunter",
-          "level": 35,
+          "level": 23,
           "item": "Banda Focus",
           "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
             "Fuego Fatuo",
-            "Rayo Confuso"
+            "Tinieblas",
+            "Rayo Confuso",
+            "Mismodestino"
           ]
         },
         {
-          "pokemon": "Magneton",
-          "level": 36,
-          "item": "Vidasfera",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Onda Trueno"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 36,
-          "item": "Cinta Xperto",
+          "pokemon": "Golbat",
+          "level": 23,
+          "item": "Baya Meloc",
           "moves": [
             "Ataque Ala",
-            "Bomba Lodo",
-            "Ida y Vuelta",
-            "Rayo Confuso"
+            "Colmillo Ven",
+            "Mordisco",
+            "Supersónico"
+          ]
+        },
+        {
+          "pokemon": "Magnemite",
+          "level": 23,
+          "item": "Mineral Evol",
+          "moves": [
+            "Rayo",
+            "Onda Trueno",
+            "Bofetón Lodo",
+            "Reflejo"
+          ]
+        },
+        {
+          "pokemon": "Kadabra",
+          "level": 24,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Psicorrayo",
+            "Rayo Confuso",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Sneasel",
+          "level": 24,
+          "item": "Cinta Xperto",
+          "moves": [
+            "At. Rápido",
+            "Tajo Umbrío",
+            "Chuzos",
+            "Danza Espada"
           ]
         },
         {
           "pokemon": "Feraligatr",
-          "level": 38,
-          "item": "Vidasfera",
+          "level": 25,
+          "item": "Baya Zidra",
           "moves": [
             "Escaldar",
-            "Mordisco",
+            "Triturar",
             "Rayo Hielo",
             "Danza Dragón"
           ]
@@ -365670,8 +365899,8 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 42,
       "team": [
         {
-          "pokemon": "Haunter",
-          "level": 40,
+          "pokemon": "Gengar",
+          "level": 42,
           "item": "Banda Focus",
           "moves": [
             "Bola Sombra",
@@ -365681,9 +365910,9 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Magnezone",
-          "level": 41,
-          "item": "Vidasfera",
+          "pokemon": "Magneton",
+          "level": 42,
+          "item": "Mineral Evol",
           "moves": [
             "Rayo",
             "Foco Respl.",
@@ -365693,19 +365922,41 @@ window.CHIRLGOLD_DATA = {
         },
         {
           "pokemon": "Crobat",
-          "level": 41,
+          "level": 42,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 42,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 42,
           "item": "Cinta Xperto",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
-            "Ida y Vuelta",
-            "Rayo Confuso"
+            "Chuzos",
+            "Tajo Umbrío",
+            "Canto Helado",
+            "Demolición"
           ]
         },
         {
           "pokemon": "Feraligatr",
           "level": 42,
-          "item": "Vidasfera",
+          "item": "Baya Zidra",
           "moves": [
             "Escaldar",
             "Triturar",
@@ -365723,64 +365974,64 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 55,
       "team": [
         {
-          "pokemon": "Weavile",
-          "level": 53,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Tajo Umbrío",
-            "Golpe Bajo",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 53,
-          "item": "Vidasfera",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Onda Trueno"
-          ]
-        },
-        {
           "pokemon": "Gengar",
-          "level": 54,
+          "level": 55,
           "item": "Banda Focus",
           "moves": [
             "Bola Sombra",
             "Bomba Lodo",
-            "Esfera Aural",
-            "Mismodestino"
+            "Onda Certera",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 55,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Triataque"
           ]
         },
         {
           "pokemon": "Crobat",
-          "level": 54,
-          "item": "Cinta Xperto",
+          "level": 55,
+          "item": "Lodo Negro",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
+            "Pájaro Osado",
+            "Veneno X",
             "Ida y Vuelta",
-            "Rayo Confuso"
+            "Mofa"
           ]
         },
         {
-          "pokemon": "Honchkrow",
-          "level": 54,
+          "pokemon": "Alakazam",
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
-            "Pulso Umbrío",
-            "Ataque Ala",
-            "Golpe Bajo",
-            "Onda Certera"
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "BrilloMágico"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 55,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Demolición"
           ]
         },
         {
           "pokemon": "Feraligatr",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Baya Zidra",
           "moves": [
             "Escaldar",
             "Triturar",
@@ -365798,36 +366049,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 40,
       "team": [
         {
-          "pokemon": "Weezing",
-          "level": 38,
-          "item": "Lodo Negro",
+          "pokemon": "Gengar",
+          "level": 40,
+          "item": "Banda Focus",
           "moves": [
+            "Bola Sombra",
             "Bomba Lodo",
             "Fuego Fatuo",
-            "Tierra Viva",
             "Mismodestino"
           ]
         },
         {
-          "pokemon": "Golbat",
-          "level": 39,
-          "item": "Vidasfera",
+          "pokemon": "Arbok",
+          "level": 40,
+          "item": "Lodo Negro",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
-            "Chupavidas",
-            "Rayo Confuso"
+            "Puya Nociva",
+            "Terremoto",
+            "Desarme",
+            "Deslumbrar"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 40,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
           ]
         },
         {
           "pokemon": "Raticate",
           "level": 40,
-          "item": "Vidasfera",
+          "item": "Ninguno",
           "moves": [
-            "Vel. Extrema",
-            "Mordisco",
+            "Imagen",
+            "Golpe Bajo",
+            "Triturar",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Drapion",
+          "level": 40,
+          "item": "Casco Dentado",
+          "moves": [
+            "Desarme",
             "Terremoto",
-            "Tajo Umbrío"
+            "Puya Nociva",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Fuego Fatuo",
+            "Divide Dolor"
           ]
         }
       ],
@@ -365851,18 +366135,7 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Honchkrow",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Pulso Umbrío",
-            "Ataque Ala",
-            "Golpe Bajo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Vileplume",
+          "pokemon": "Gloom",
           "level": 40,
           "item": "Restos",
           "moves": [
@@ -365870,6 +366143,17 @@ window.CHIRLGOLD_DATA = {
             "Bomba Lodo",
             "Tóxico",
             "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Murkrow",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Pulso Umbrío",
+            "Ataque Ala",
+            "Golpe Bajo",
+            "Onda Certera"
           ]
         }
       ],
@@ -365882,36 +366166,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 43,
       "team": [
         {
-          "pokemon": "Weezing",
-          "level": 41,
-          "item": "Lodo Negro",
+          "pokemon": "Zoroark",
+          "level": 43,
+          "item": "Banda Focus",
           "moves": [
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Tierra Viva",
-            "Mismodestino"
+            "Pulso Umbrío",
+            "Lanzallamas",
+            "Onda Certera",
+            "Maquinación"
           ]
         },
         {
-          "pokemon": "Zoroark",
-          "level": 42,
-          "item": "Vidasfera",
+          "pokemon": "Crobat",
+          "level": 43,
+          "item": "Cinta Xperto",
           "moves": [
-            "Pulso Umbrío",
-            "Llamarada",
-            "Onda Certera",
-            "Bola Sombra"
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
           ]
         },
         {
           "pokemon": "Drapion",
           "level": 43,
-          "item": "Cinta Xperto",
+          "item": "Casco Dentado",
           "moves": [
-            "Tajo Umbrío",
-            "Bomba Lodo",
+            "Desarme",
             "Terremoto",
-            "Danza Espada"
+            "Puya Nociva",
+            "Trampa Ven."
+          ]
+        },
+        {
+          "pokemon": "Muk",
+          "level": 43,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Desarme",
+            "Puya Nociva",
+            "Puño Fuego",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 43,
+          "item": "Vidasfera",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Foco Respl.",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 43,
+          "item": "Lodo Negro",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Divide Dolor",
+            "Fuego Fatuo"
           ]
         }
       ],
@@ -365925,35 +366242,68 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Qwilfish",
-          "level": 41,
+          "level": 43,
           "item": "Banda Focus",
           "moves": [
             "Púas Tóxicas",
-            "Trampa Rocas",
-            "Escaldar",
+            "Cascada",
+            "Puya Nociva",
             "Mismodestino"
           ]
         },
         {
           "pokemon": "Golbat",
-          "level": 42,
+          "level": 43,
+          "item": "Mineral Evol",
+          "moves": [
+            "Veneno X",
+            "Golpe Aéreo",
+            "Respiro",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Skuntank",
+          "level": 43,
           "item": "Vidasfera",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
-            "Chupavidas",
-            "Rayo Confuso"
+            "Golpe Bajo",
+            "Puya Nociva",
+            "Triturar",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Toxicroak",
+          "level": 43,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Demolición",
+            "Puya Nociva",
+            "Golpe Bajo",
+            "Puño Hielo"
           ]
         },
         {
           "pokemon": "Houndoom",
           "level": 43,
-          "item": "Vidasfera",
+          "item": "Gafas Elegid",
           "moves": [
-            "Llamarada",
+            "Lanzallamas",
             "Pulso Umbrío",
             "Onda Ígnea",
-            "Paz Mental"
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 43,
+          "item": "Casco Dentado",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Explosión",
+            "Divide Dolor"
           ]
         }
       ],
@@ -365966,25 +366316,25 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 44,
       "team": [
         {
-          "pokemon": "Arbok",
-          "level": 42,
-          "item": "Lodo Negro",
+          "pokemon": "Roserade",
+          "level": 44,
+          "item": "Banda Focus",
           "moves": [
+            "Púas Tóxicas",
+            "Gigadrenado",
             "Bomba Lodo",
-            "Terremoto",
-            "Triturar",
-            "Tóxico"
+            "Paranormal"
           ]
         },
         {
-          "pokemon": "Vileplume",
-          "level": 43,
-          "item": "Restos",
+          "pokemon": "Arbok",
+          "level": 44,
+          "item": "Lodo Negro",
           "moves": [
-            "Energibola",
-            "Bomba Lodo",
-            "Tóxico",
-            "Recuperación"
+            "Puya Nociva",
+            "Terremoto",
+            "Desarme",
+            "Enrosque"
           ]
         },
         {
@@ -365992,10 +366342,43 @@ window.CHIRLGOLD_DATA = {
           "level": 44,
           "item": "Vidasfera",
           "moves": [
-            "Pulso Umbrío",
-            "Ataque Ala",
             "Golpe Bajo",
-            "Onda Certera"
+            "Pájaro Osado",
+            "Tajo Umbrío",
+            "Onda Ígnea"
+          ]
+        },
+        {
+          "pokemon": "Toxicroak",
+          "level": 44,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Demolición",
+            "Puya Nociva",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Nidoqueen",
+          "level": 44,
+          "item": "Casco Dentado",
+          "moves": [
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Rayo Hielo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Vileplume",
+          "level": 44,
+          "item": "Restos",
+          "moves": [
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Drenadoras",
+            "BrilloMágico"
           ]
         }
       ],
@@ -366008,36 +366391,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 44,
       "team": [
         {
-          "pokemon": "Houndoom",
-          "level": 42,
-          "item": "Vidasfera",
+          "pokemon": "Tyranitar",
+          "level": 44,
+          "item": "Baya Pasio",
           "moves": [
-            "Llamarada",
-            "Pulso Umbrío",
-            "Onda Ígnea",
-            "Golpe Bajo"
+            "Trampa Rocas",
+            "Roca Afilada",
+            "Terremoto",
+            "Triturar"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 44,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Fuego Fatuo"
           ]
         },
         {
           "pokemon": "Nidoking",
-          "level": 43,
+          "level": 44,
           "item": "Vidasfera",
           "moves": [
-            "Terremoto",
+            "Tierra Viva",
             "Bomba Lodo",
-            "Llamarada",
+            "Lanzallamas",
             "Rayo Hielo"
           ]
         },
         {
-          "pokemon": "Tyranitar",
+          "pokemon": "Scrafty",
           "level": 44,
-          "item": "Restos",
+          "item": "Chaleco Asalto",
           "moves": [
-            "Triturar",
-            "Roca Afilada",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Drenaje",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Salamence",
+          "level": 44,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Garra Dragón",
             "Terremoto",
+            "Golpe Aéreo",
             "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Houndoom",
+          "level": 44,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Lanzallamas",
+            "Pulso Umbrío",
+            "Onda Ígnea",
+            "Bomba Lodo"
           ]
         }
       ],
@@ -366052,44 +366468,55 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Xatu",
           "level": 55,
-          "item": "Restos",
+          "item": "Refleluz",
           "moves": [
-            "Foco Energía",
+            "Reflejo",
             "Pantalla Luz",
-            "Ida y Vuelta",
-            "Psíquico"
+            "Respiro",
+            "Paranormal"
           ]
         },
         {
           "pokemon": "Bronzong",
           "level": 55,
-          "item": "Chaleco Asalto",
+          "item": "Restos",
           "moves": [
+            "Giro Bola",
             "Psíquico",
-            "Foco Respl.",
             "Terremoto",
-            "Trampa Rocas"
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Reuniclus",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Paz Mental",
+            "Psicocarga",
+            "Onda Certera",
+            "Recuperación"
           ]
         },
         {
           "pokemon": "Jynx",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Banda Focus",
           "moves": [
-            "Rayo Hielo",
+            "Beso Amoroso",
+            "Ventisca",
             "Psíquico",
-            "Hipnosis",
-            "Esfera Aural"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Esfera Aural",
-            "Bola Sombra",
             "Onda Certera"
           ]
         },
@@ -366101,7 +366528,7 @@ window.CHIRLGOLD_DATA = {
             "Escaldar",
             "Psíquico",
             "Paz Mental",
-            "Recuperación"
+            "Relajo"
           ]
         }
       ],
@@ -366120,41 +366547,52 @@ window.CHIRLGOLD_DATA = {
           "moves": [
             "Púas Tóxicas",
             "Trampa Rocas",
-            "Cabezahierro",
-            "Terremoto"
+            "Giro Rápido",
+            "Explosión"
           ]
         },
         {
           "pokemon": "Muk",
           "level": 55,
-          "item": "Lodo Negro",
+          "item": "Chaleco Asalto",
           "moves": [
-            "Bomba Lodo",
-            "Triturar",
-            "Puño Drenaje",
-            "Mismodestino"
+            "Desarme",
+            "Puya Nociva",
+            "Sombra Vil",
+            "Puño Fuego"
           ]
         },
         {
-          "pokemon": "Venomoth",
+          "pokemon": "Tentacruel",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Lodo Negro",
           "moves": [
+            "Escaldar",
             "Bomba Lodo",
-            "Tijera X",
-            "Paz Mental",
-            "Hipnosis"
+            "Niebla",
+            "Otra Vez"
           ]
         },
         {
           "pokemon": "Crobat",
           "level": 55,
-          "item": "Cinta Xperto",
+          "item": "Vidasfera",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
+            "Pájaro Osado",
+            "Veneno X",
             "Ida y Vuelta",
-            "Rayo Confuso"
+            "Despejar"
+          ]
+        },
+        {
+          "pokemon": "Venomoth",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Danza Aleteo",
+            "Zumbido",
+            "Bomba Lodo",
+            "Somnífero"
           ]
         },
         {
@@ -366162,10 +366600,10 @@ window.CHIRLGOLD_DATA = {
           "level": 55,
           "item": "Beedrillita",
           "moves": [
+            "Puya Nociva",
             "Tijera X",
-            "Bomba Lodo",
-            "Roca Afilada",
-            "Ida y Vuelta"
+            "Taladradora",
+            "Desquite"
           ]
         }
       ],
@@ -366178,47 +366616,58 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 55,
       "team": [
         {
-          "pokemon": "Hitmonlee",
+          "pokemon": "Hitmontop",
           "level": 55,
-          "item": "Cin. Elegida",
+          "item": "Casco Dentado",
           "moves": [
+            "Sorpresa",
+            "Giro Rápido",
             "A Bocajarro",
-            "Avalancha",
-            "Tajo Umbrío",
-            "Puño Bala"
-          ]
-        },
-        {
-          "pokemon": "Hitmonchan",
-          "level": 55,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Puño Drenaje",
-            "Puño Bala",
-            "Puño Fuego",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 55,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Terremoto",
-            "Cabezahierro",
-            "Roca Afilada",
-            "Bola Sombra"
+            "Desarme"
           ]
         },
         {
           "pokemon": "Machamp",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Chaleco Asalto",
           "moves": [
-            "A Bocajarro",
+            "Puñodinámico",
             "Roca Afilada",
-            "Puño Fuego",
-            "Puño Hielo"
+            "Puño Bala",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Conkeldurr",
+          "level": 55,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Puño Drenaje",
+            "Ultrapuño",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Esfera Aural",
+            "Foco Respl.",
+            "Maquinación",
+            "Onda Vacío"
+          ]
+        },
+        {
+          "pokemon": "Scrafty",
+          "level": 55,
+          "item": "Restos",
+          "moves": [
+            "Desarme",
+            "Machada",
+            "Puño Hielo",
+            "Danza Espada"
           ]
         },
         {
@@ -366226,10 +366675,10 @@ window.CHIRLGOLD_DATA = {
           "level": 55,
           "item": "Medichamita",
           "moves": [
-            "A Bocajarro",
-            "Psíquico",
-            "Puño Bala",
-            "Danza Espada"
+            "Patada Salto",
+            "Cabezazo Zen",
+            "Puño Hielo",
+            "Puño Fuego"
           ]
         }
       ],
@@ -366242,36 +366691,47 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 55,
       "team": [
         {
-          "pokemon": "Umbreon",
+          "pokemon": "Spiritomb",
           "level": 55,
           "item": "Restos",
           "moves": [
+            "Fuego Fatuo",
+            "Rompecoraza",
+            "Paz Mental",
+            "Divide Dolor"
+          ]
+        },
+        {
+          "pokemon": "Umbreon",
+          "level": 55,
+          "item": "Roca Calor",
+          "moves": [
             "Día Soleado",
-            "Deseo",
-            "Protección",
-            "Juego Sucio"
+            "Luz Lunar",
+            "Juego Sucio",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Krookodile",
+          "level": 55,
+          "item": "Casco Dentado",
+          "moves": [
+            "Terremoto",
+            "Triturar",
+            "Roca Afilada",
+            "Trampa Rocas"
           ]
         },
         {
           "pokemon": "Weavile",
           "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Tajo Umbrío",
-            "Golpe Bajo",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 55,
           "item": "Banda Focus",
           "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Esfera Aural",
-            "Mismodestino"
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Danza Espada"
           ]
         },
         {
@@ -366279,10 +366739,10 @@ window.CHIRLGOLD_DATA = {
           "level": 55,
           "item": "Vidasfera",
           "moves": [
-            "Pulso Umbrío",
-            "Ataque Ala",
             "Golpe Bajo",
-            "Onda Certera"
+            "Pájaro Osado",
+            "Onda Ígnea",
+            "Persecución"
           ]
         },
         {
@@ -366293,7 +366753,7 @@ window.CHIRLGOLD_DATA = {
             "Llamarada",
             "Pulso Umbrío",
             "Rayo Solar",
-            "Paz Mental"
+            "Bomba Lodo"
           ]
         }
       ],
@@ -366306,47 +366766,58 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 55,
       "team": [
         {
-          "pokemon": "Gyarados",
+          "pokemon": "Aerodactyl",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Banda Focus",
           "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Terremoto",
-            "Danza Dragón"
+            "Trampa Rocas",
+            "Mofa",
+            "Avalancha",
+            "Golpe Aéreo"
           ]
         },
         {
-          "pokemon": "Aerodactyl",
+          "pokemon": "Gyarados",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Baya Zidra",
           "moves": [
-            "Avalancha",
-            "Ataque Ala",
+            "Danza Dragón",
+            "Cascada",
             "Terremoto",
-            "Vel. Extrema"
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Garchomp",
+          "level": 55,
+          "item": "Baya Alcho",
+          "moves": [
+            "Terremoto",
+            "Garra Dragón",
+            "Roca Afilada",
+            "Danza Espada"
           ]
         },
         {
           "pokemon": "Kingdra",
           "level": 55,
-          "item": "Vidasfera",
+          "item": "Periscopio",
           "moves": [
-            "Escaldar",
-            "Cometa Draco",
-            "Rayo Hielo",
-            "Danza Dragón"
+            "Foco Energía",
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo"
           ]
         },
         {
           "pokemon": "Dragonite",
           "level": 55,
-          "item": "Seguro Debilidad",
+          "item": "Restos",
           "moves": [
+            "Danza Dragón",
             "Garra Dragón",
-            "Vel. Extrema",
-            "Terremoto",
-            "Danza Dragón"
+            "Puño Fuego",
+            "Vel. Extrema"
           ]
         },
         {
@@ -366370,58 +366841,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 64,
       "team": [
         {
+          "pokemon": "Galvantula",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
+            "Voltiocambio"
+          ]
+        },
+        {
           "pokemon": "Tapu Koko",
-          "level": 62,
-          "item": "Vidasfera",
+          "level": 65,
+          "item": "Cinta Xperto",
           "moves": [
+            "Ida y Vuelta",
             "Rayo",
-            "Fuerza Lunar",
-            "Voltiocambio",
-            "Respiro"
+            "BrilloMágico",
+            "Mofa"
           ]
         },
         {
-          "pokemon": "Raichu",
-          "level": 62,
-          "item": "Vidasfera",
-          "moves": [
-            "Rayo",
-            "Esfera Aural",
-            "Voltiocambio",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 63,
+          "pokemon": "Eelektross",
+          "level": 65,
           "item": "Chaleco Asalto",
           "moves": [
+            "Gigadrenado",
+            "Lanzallamas",
             "Rayo",
-            "Foco Respl.",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Hidrobomba",
             "Voltiocambio",
-            "Onda Trueno"
+            "Fuego Fatuo",
+            "Divide Dolor"
           ]
         },
         {
           "pokemon": "Electivire",
-          "level": 63,
-          "item": "Cin. Elegida",
+          "level": 65,
+          "item": "Vidasfera",
           "moves": [
-            "Rayo",
-            "Puño Fuego",
+            "Puño Trueno",
+            "Terremoto",
             "Puño Hielo",
-            "Terremoto"
+            "Tajo Cruzado"
           ]
         },
         {
           "pokemon": "Manectric",
-          "level": 64,
-          "item": "Sharpedonita",
+          "level": 65,
+          "item": "Manectricita",
           "moves": [
             "Rayo",
-            "Llamarada",
             "Voltiocambio",
-            "Respiro"
+            "Sofoco",
+            "Poder Oculto"
           ]
         }
       ],
@@ -366434,58 +366916,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 68,
       "team": [
         {
-          "pokemon": "Indeedee",
-          "level": 66,
-          "item": "Restos",
+          "pokemon": "Espeon",
+          "level": 65,
+          "item": "Refleluz",
           "moves": [
-            "Psíquico",
-            "Fuerza Lunar",
-            "Deseo",
-            "Protección"
+            "Reflejo",
+            "Pantalla Luz",
+            "Psicocarga",
+            "BrilloMágico"
           ]
         },
         {
-          "pokemon": "Espeon",
-          "level": 66,
+          "pokemon": "Metagross",
+          "level": 65,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Puño Meteoro",
+            "Cabezazo Zen",
+            "Terremoto",
+            "Puño Bala"
+          ]
+        },
+        {
+          "pokemon": "Hatterene",
+          "level": 65,
           "item": "Vidasfera",
           "moves": [
+            "BrilloMágico",
             "Psíquico",
             "Bola Sombra",
-            "Fuerza Lunar",
-            "Paz Mental"
+            "Onda Certera"
           ]
         },
         {
-          "pokemon": "Cresselia",
-          "level": 67,
-          "item": "Restos",
+          "pokemon": "Slowking",
+          "level": 65,
+          "item": "Casco Dentado",
           "moves": [
+            "Escaldar",
             "Psíquico",
-            "Fuerza Lunar",
-            "Paz Mental",
-            "Recuperación"
+            "Relajo",
+            "Llamarada"
           ]
         },
         {
           "pokemon": "Gallade",
-          "level": 67,
-          "item": "Vidasfera",
+          "level": 65,
+          "item": "Cinta Xperto",
           "moves": [
             "A Bocajarro",
-            "Psíquico",
-            "Puño Bala",
-            "Danza Espada"
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
           ]
         },
         {
           "pokemon": "Alakazam",
-          "level": 68,
+          "level": 65,
           "item": "Alakazamita",
           "moves": [
             "Psíquico",
-            "Esfera Aural",
+            "Onda Certera",
             "Bola Sombra",
-            "Onda Certera"
+            "BrilloMágico"
           ]
         }
       ],
@@ -366499,57 +366992,68 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Whimsicott",
-          "level": 70,
-          "item": "Banda Focus",
+          "level": 65,
+          "item": "Roca Calor",
           "moves": [
             "Día Soleado",
-            "Energibola",
-            "Fuerza Lunar",
-            "Chupavidas"
+            "Drenadoras",
+            "Otra Vez",
+            "Fuerza Lunar"
           ]
         },
         {
           "pokemon": "Rillaboom",
-          "level": 70,
+          "level": 65,
           "item": "Vidasfera",
           "moves": [
             "Energibola",
-            "Terremoto",
-            "Cabezahierro",
+            "Fuerza Bruta",
+            "Desarme",
             "Ida y Vuelta"
           ]
         },
         {
           "pokemon": "Bellossom",
-          "level": 71,
-          "item": "Restos",
+          "level": 65,
+          "item": "Banda Focus",
           "moves": [
-            "Energibola",
-            "Fuerza Lunar",
+            "Día Soleado",
             "Rayo Solar",
-            "Recuperación"
+            "BrilloMágico",
+            "Danza Aleteo"
           ]
         },
         {
-          "pokemon": "Wo-Chien",
-          "level": 71,
-          "item": "Chaleco Asalto",
+          "pokemon": "Virizion",
+          "level": 65,
+          "item": "Cinta Xperto",
           "moves": [
-            "Energibola",
-            "Pulso Umbrío",
-            "Chupavidas",
-            "Recuperación"
+            "Hoja Aguda",
+            "A Bocajarro",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Ferrothorn",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Giro Bola",
+            "Drenadoras",
+            "Latigazo"
           ]
         },
         {
           "pokemon": "Venusaur",
-          "level": 72,
+          "level": 65,
           "item": "Venusaurita",
           "moves": [
-            "Energibola",
+            "Gigadrenado",
             "Bomba Lodo",
-            "Rayo Solar",
-            "Recuperación"
+            "Tierra Viva",
+            "Síntesis"
           ]
         }
       ],
@@ -366563,57 +367067,68 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Pelipper",
-          "level": 74,
-          "item": "Restos",
+          "level": 65,
+          "item": "Roca Lluvia",
           "moves": [
+            "Vendaval",
             "Escaldar",
-            "Ataque Ala",
             "Respiro",
             "Ida y Vuelta"
           ]
         },
         {
-          "pokemon": "Starmie",
-          "level": 74,
-          "item": "Vidasfera",
-          "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Rayo Hielo",
-            "Rayo"
-          ]
-        },
-        {
-          "pokemon": "Manaphy",
-          "level": 75,
-          "item": "Vidasfera",
-          "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Energibola",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Milotic",
-          "level": 75,
+          "pokemon": "Politoed",
+          "level": 65,
           "item": "Restos",
           "moves": [
             "Escaldar",
             "Rayo Hielo",
-            "Tóxico",
-            "Recuperación"
+            "Hipnosis",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Manaphy",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Ráfaga",
+            "Trueno",
+            "Escaldar",
+            "Descanso"
+          ]
+        },
+        {
+          "pokemon": "Starmie",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidrobomba",
+            "Trueno",
+            "Rayo Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hidrobomba",
+            "Gigadrenado",
+            "Rayo Hielo",
+            "Onda Certera"
           ]
         },
         {
           "pokemon": "Swampert",
-          "level": 76,
+          "level": 65,
           "item": "Swampertita",
           "moves": [
-            "Escaldar",
+            "Cascada",
             "Terremoto",
-            "Roca Afilada",
-            "Puño Hielo"
+            "Puño Hielo",
+            "Fuerza Bruta"
           ]
         }
       ],
@@ -366627,56 +367142,67 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Glimmora",
-          "level": 78,
+          "level": 65,
           "item": "Banda Focus",
           "moves": [
             "Trampa Rocas",
+            "Púas Tóxicas",
             "Bomba Lodo",
-            "Tierra Viva",
-            "BrilloMágico"
+            "Joya de Luz"
           ]
         },
         {
           "pokemon": "Salazzle",
-          "level": 78,
+          "level": 65,
           "item": "Vidasfera",
           "moves": [
-            "Bomba Lodo",
-            "Llamarada",
             "Tóxico",
-            "Esfera Aural"
+            "Lanzallamas",
+            "Bomba Lodo",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 65,
+          "item": "Lodo Negro",
+          "moves": [
+            "Escaldar",
+            "Recuperación",
+            "Niebla",
+            "Protección"
           ]
         },
         {
           "pokemon": "Naganadel",
-          "level": 79,
-          "item": "Vidasfera",
+          "level": 65,
+          "item": "Cinta Xperto",
           "moves": [
-            "Cometa Draco",
+            "Pulso Dragón",
             "Bomba Lodo",
-            "Llamarada",
+            "Lanzallamas",
             "Maquinación"
           ]
         },
         {
           "pokemon": "Crobat",
-          "level": 79,
-          "item": "Cinta Xperto",
+          "level": 65,
+          "item": "Vidasfera",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
-            "Ida y Vuelta",
-            "Rayo Confuso"
+            "Pájaro Osado",
+            "Veneno X",
+            "Mofa",
+            "Ida y Vuelta"
           ]
         },
         {
           "pokemon": "Gengar",
-          "level": 80,
+          "level": 65,
           "item": "Gengarita",
           "moves": [
-            "Bomba Lodo",
             "Bola Sombra",
-            "Esfera Aural",
+            "Bomba Lodo",
+            "Onda Certera",
             "Mismodestino"
           ]
         }
@@ -366691,57 +367217,68 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Gigalith",
-          "level": 82,
-          "item": "Restos",
+          "level": 65,
+          "item": "Roca Suave",
           "moves": [
             "Trampa Rocas",
+            "Púas",
             "Roca Afilada",
-            "Terremoto",
-            "Avalancha"
+            "Terremoto"
           ]
         },
         {
           "pokemon": "Ting-Lu",
-          "level": 82,
-          "item": "Chaleco Asalto",
+          "level": 65,
+          "item": "Restos",
           "moves": [
+            "Púas",
             "Terremoto",
             "Remolino",
-            "Trampa Rocas",
-            "Triturar"
+            "Mofa"
           ]
         },
         {
           "pokemon": "Cradily",
-          "level": 83,
-          "item": "Restos",
+          "level": 65,
+          "item": "Casco Dentado",
           "moves": [
-            "Energibola",
-            "Roca Afilada",
+            "Gigadrenado",
             "Recuperación",
-            "Tóxico"
+            "Tóxico",
+            "Poder Pasado"
           ]
         },
         {
           "pokemon": "Rhyperior",
-          "level": 83,
-          "item": "Cin. Elegida",
+          "level": 65,
+          "item": "Chaleco Asalto",
           "moves": [
             "Terremoto",
             "Roca Afilada",
             "Puño Fuego",
-            "Puño Hielo"
+            "Megacuerno"
           ]
         },
         {
-          "pokemon": "Diancie",
-          "level": 84,
-          "item": "Diancita",
+          "pokemon": "Steelix",
+          "level": 65,
+          "item": "Baya Zidra",
+          "moves": [
+            "Giro Bola",
+            "Terremoto",
+            "Rugido",
+            "Def. Férrea"
+          ]
+        },
+        {
+          "pokemon": "Tyranitar",
+          "level": 65,
+          "item": "Tyranitarita",
           "moves": [
             "Roca Afilada",
-            "Fuerza Lunar",
+            "Triturar",
             "Terremoto",
-            "Paz Mental"
+            "Danza Dragón"
           ]
         }
       ],
@@ -366755,57 +367292,68 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Ninetales",
-          "level": 86,
-          "item": "Banda Focus",
+          "level": 65,
+          "item": "Roca Calor",
           "moves": [
-            "Día Soleado",
             "Llamarada",
             "Rayo Solar",
-            "Respiro"
+            "Fuego Fatuo",
+            "Hipnosis"
           ]
         },
         {
           "pokemon": "Volcanion",
-          "level": 86,
-          "item": "Vidasfera",
+          "level": 65,
+          "item": "Restos",
           "moves": [
-            "Escaldar",
-            "Llamarada",
-            "Terremoto",
-            "Onda Certera"
+            "Chorro Vapor",
+            "Tierra Viva",
+            "Lanzallamas",
+            "Bomba Lodo"
           ]
         },
         {
           "pokemon": "Flamariete",
-          "level": 87,
+          "level": 65,
           "item": "Vidasfera",
           "moves": [
             "Envite Ígneo",
-            "Terremoto",
             "Garra Dragón",
+            "Terremoto",
             "Danza Dragón"
           ]
         },
         {
-          "pokemon": "Magmortar",
-          "level": 87,
-          "item": "Cin. Elegida",
+          "pokemon": "Volcarona",
+          "level": 65,
+          "item": "Banda Focus",
           "moves": [
-            "Llamarada",
+            "Danza Aleteo",
+            "Onda Ígnea",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Sofoco",
             "Rayo",
-            "Esfera Aural",
-            "Terremoto"
+            "Voltiocambio",
+            "Fuego Fatuo"
           ]
         },
         {
           "pokemon": "Charizard",
-          "level": 88,
+          "level": 65,
           "item": "Charizardita Y",
           "moves": [
             "Llamarada",
             "Rayo Solar",
-            "Onda Certera",
-            "Respiro"
+            "Tajo Aéreo",
+            "Onda Certera"
           ]
         }
       ],
@@ -366819,57 +367367,57 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Rhyperior",
-          "level": 88,
-          "item": "Casco Dentado",
+          "level": 90,
+          "item": "Banda Focus",
           "moves": [
             "Trampa Rocas",
             "Terremoto",
             "Roca Afilada",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Zeraora",
-          "level": 88,
-          "item": "Vidasfera",
-          "moves": [
-            "Rayo",
-            "Puño Drenaje",
-            "Golpe Bajo",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Xerneas",
-          "level": 89,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Geocontrol",
-            "Fuerza Lunar",
-            "Rayo",
-            "Esfera Aural"
-          ]
-        },
-        {
-          "pokemon": "Tyranitar",
-          "level": 89,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Triturar",
-            "Roca Afilada",
-            "Terremoto",
             "Puño Fuego"
           ]
         },
         {
+          "pokemon": "Machamp",
+          "level": 90,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Puñodinámico",
+            "Roca Afilada",
+            "Desarme",
+            "Puño Bala"
+          ]
+        },
+        {
+          "pokemon": "Arcanine",
+          "level": 90,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Envite Ígneo",
+            "Vel. Extrema",
+            "A Bocajarro",
+            "Voltio Cruel"
+          ]
+        },
+        {
           "pokemon": "Gyarados",
-          "level": 89,
+          "level": 90,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Zeraora",
+          "level": 90,
           "item": "Vidasfera",
           "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Terremoto",
-            "Danza Dragón"
+            "Puños Plasma",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Hielo"
           ]
         },
         {
@@ -366877,10 +367425,10 @@ window.CHIRLGOLD_DATA = {
           "level": 90,
           "item": "Pidgeotita",
           "moves": [
-            "Ataque Ala",
-            "Sofoco",
-            "Ida y Vuelta",
-            "Respiro"
+            "Vendaval",
+            "Onda Ígnea",
+            "Respiro",
+            "Ida y Vuelta"
           ]
         }
       ],
@@ -366895,11 +367443,11 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Pikachu",
           "level": 100,
-          "item": "Banda Focus",
+          "item": "Ninguno",
           "moves": [
-            "Voltiocambio",
-            "Rayo",
-            "Paz Mental",
+            "Placaje",
+            "Surf",
+            "Hierba Lazo",
             "At. Rápido"
           ]
         },
@@ -366908,18 +367456,18 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Rayo Hielo",
+            "Ventisca",
+            "Liofilizac.",
             "Respiro",
-            "Niebla",
-            "Tóxico"
+            "Manto Espejo"
           ]
         },
         {
           "pokemon": "Zapdos",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Casco Dentado",
           "moves": [
-            "Rayo",
+            "Carga",
             "Onda Ígnea",
             "Respiro",
             "Voltiocambio"
@@ -366931,9 +367479,9 @@ window.CHIRLGOLD_DATA = {
           "item": "Vidasfera",
           "moves": [
             "Llamarada",
-            "Respiro",
+            "Tajo Aéreo",
             "Rayo Solar",
-            "Fuerza Lunar"
+            "Poder Oculto"
           ]
         },
         {
@@ -366941,10 +367489,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Restos",
           "moves": [
+            "Transformación",
             "Psíquico",
-            "Bola Sombra",
             "Esfera Aural",
-            "Recuperación"
+            "Maquinación"
           ]
         },
         {
@@ -366952,10 +367500,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Mewtwoita X",
           "moves": [
-            "Onda Mental",
             "A Bocajarro",
-            "Terremoto",
-            "Puño Fuego"
+            "Cabezazo Zen",
+            "Puño Hielo",
+            "Terremoto"
           ]
         }
       ],
@@ -366972,54 +367520,54 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Banda Focus",
           "moves": [
-            "Torbellino",
-            "Sofoco",
-            "Ida y Vuelta",
-            "Rayo Confuso"
+            "Viento Afín",
+            "Mofa",
+            "Vendaval",
+            "Onda Ígnea"
+          ]
+        },
+        {
+          "pokemon": "Gliscor",
+          "level": 100,
+          "item": "Toxisfera",
+          "moves": [
+            "Terremoto",
+            "Desarme",
+            "Respiro",
+            "Mofa"
           ]
         },
         {
           "pokemon": "Corviknite",
           "level": 100,
-          "item": "Restos",
+          "item": "Casco Dentado",
           "moves": [
-            "Cabezahierro",
+            "Pájaro Osado",
+            "Plancha Corp",
             "Respiro",
-            "Despejar",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
-            "Ida y Vuelta",
-            "Rayo Confuso"
-          ]
-        },
-        {
-          "pokemon": "Swellow",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Ataque Ala",
-            "A Bocajarro",
-            "At. Rápido",
-            "Ida y Vuelta"
+            "Despejar"
           ]
         },
         {
           "pokemon": "Staraptor",
           "level": 100,
-          "item": "Cin. Elegida",
+          "item": "Pañ. Elegido",
           "moves": [
-            "Ataque Ala",
+            "Pájaro Osado",
+            "Doble Filo",
             "A Bocajarro",
-            "Ida y Vuelta",
-            "Roca Afilada"
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Togekiss",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Tajo Aéreo",
+            "BrilloMágico",
+            "Lanzallamas",
+            "Onda Trueno"
           ]
         },
         {
@@ -367027,9 +367575,9 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Salamencita",
           "moves": [
-            "Garra Dragón",
+            "Doble Filo",
             "Terremoto",
-            "Envite Ígneo",
+            "Garra Dragón",
             "Danza Dragón"
           ]
         }
@@ -367047,43 +367595,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Banda Focus",
           "moves": [
-            "Rayo",
-            "Energibola",
-            "Voltiocambio",
-            "Onda Trueno"
-          ]
-        },
-        {
-          "pokemon": "Forretress",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Púas Tóxicas",
-            "Trampa Rocas",
-            "Cabezahierro",
-            "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Ferrothorn",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Cabezahierro",
-            "Energibola",
-            "Chupavidas",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Heracross",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "A Bocajarro",
-            "Tijera X",
-            "Roca Afilada",
-            "Danza Espada"
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
+            "Voltiocambio"
           ]
         },
         {
@@ -367092,9 +367607,42 @@ window.CHIRLGOLD_DATA = {
           "item": "Pañ. Elegido",
           "moves": [
             "Ida y Vuelta",
-            "Llamarada",
+            "Lanzallamas",
             "Rayo Hielo",
-            "Rayo"
+            "Cabezahierro"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Danza Aleteo",
+            "Llamarada",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Heracross",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "A Bocajarro",
+            "Megacuerno",
+            "Imagen",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Golisopod",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaramuza",
+            "Cascada",
+            "Golpe Bajo",
+            "Chupavidas"
           ]
         },
         {
@@ -367103,9 +367651,9 @@ window.CHIRLGOLD_DATA = {
           "item": "Scizorita",
           "moves": [
             "Puño Bala",
-            "Tijera X",
-            "Respiro",
-            "Danza Espada"
+            "Picadura",
+            "Danza Espada",
+            "Respiro"
           ]
         }
       ],
@@ -367122,10 +367670,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Banda Focus",
           "moves": [
-            "Hipnosis",
+            "Espora",
+            "Red Viscosa",
             "Trampa Rocas",
-            "Púas Tóxicas",
-            "Mismodestino"
+            "Barrera"
           ]
         },
         {
@@ -367133,9 +367681,9 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Deseo",
-            "Protección",
-            "Campana Cura",
+            "Mov. Sísmico",
+            "Amortiguador",
+            "Aromaterapia",
             "Tóxico"
           ]
         },
@@ -367144,21 +367692,21 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Vidasfera",
           "moves": [
+            "Vozarrón",
             "Psíquico",
-            "Bola Sombra",
-            "Fuerza Lunar",
-            "Paz Mental"
+            "BrilloMágico",
+            "Onda Certera"
           ]
         },
         {
           "pokemon": "Porygon-Z",
           "level": 100,
-          "item": "Cin. Elegida",
+          "item": "Pañ. Elegido",
           "moves": [
-            "Picotazo",
+            "Triataque",
             "Rayo",
             "Rayo Hielo",
-            "Tierra Viva"
+            "Bola Sombra"
           ]
         },
         {
@@ -367166,10 +367714,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Casco Dentado",
           "moves": [
-            "Desenrollar",
-            "Rizo Defensa",
-            "Juego Sucio",
-            "Ataque Arena"
+            "Batido",
+            "Golpe Cuerpo",
+            "Campana Cura",
+            "Terremoto"
           ]
         },
         {
@@ -367177,10 +367725,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Kangaskhanita",
           "moves": [
-            "Vel. Extrema",
-            "A Bocajarro",
-            "Terremoto",
-            "Triturar"
+            "Sorpresa",
+            "Puño Increm.",
+            "Retroceso",
+            "Golpe Bajo"
           ]
         }
       ],
@@ -367197,43 +367745,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Banda Focus",
           "moves": [
-            "Rayo Hielo",
-            "Bola Sombra",
-            "Trampa Rocas",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Marshadow",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Robasombra",
-            "A Bocajarro",
-            "Sombra Vil",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Chandelure",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Bola Sombra",
-            "Llamarada",
-            "Energibola",
-            "Esfera Aural"
-          ]
-        },
-        {
-          "pokemon": "Dusknoir",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Bola Sombra",
-            "Terremoto",
-            "Fuego Fatuo",
-            "Recuperación"
+            "Púas",
+            "Mismodestino",
+            "Ventisca",
+            "Bola Sombra"
           ]
         },
         {
@@ -367243,8 +367758,41 @@ window.CHIRLGOLD_DATA = {
           "moves": [
             "Bola Sombra",
             "Bomba Lodo",
-            "Esfera Aural",
-            "Mismodestino"
+            "Fuego Fatuo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Marshadow",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Robasombra",
+            "A Bocajarro",
+            "Sombra Vil",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Chandelure",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Llamarada",
+            "Bola Sombra",
+            "Energibola",
+            "Truco"
+          ]
+        },
+        {
+          "pokemon": "Aegislash",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Escudo Real",
+            "Bola Sombra",
+            "Foco Respl.",
+            "Sombra Vil"
           ]
         },
         {
@@ -367252,10 +367800,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Sableynita",
           "moves": [
-            "Juego Sucio",
             "Fuego Fatuo",
             "Recuperación",
-            "Protección"
+            "Desarme",
+            "Juego Sucio"
           ]
         }
       ],
@@ -367268,6 +367816,39 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 100,
       "team": [
         {
+          "pokemon": "Hitmontop",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Sorpresa",
+            "Giro Rápido",
+            "A Bocajarro",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Machamp",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Puñodinámico",
+            "Roca Afilada",
+            "Puño Bala",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Conkeldurr",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Puño Drenaje",
+            "Ultrapuño",
+            "Desarme"
+          ]
+        },
+        {
           "pokemon": "Urshifu",
           "level": 100,
           "item": "Cin. Elegida",
@@ -367275,51 +367856,18 @@ window.CHIRLGOLD_DATA = {
             "Golpe Oscuro",
             "A Bocajarro",
             "Golpe Bajo",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Machamp",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "A Bocajarro",
-            "Roca Afilada",
-            "Puño Fuego",
             "Puño Hielo"
           ]
         },
         {
-          "pokemon": "Breloom",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Hipnosis",
-            "Energibola",
-            "A Bocajarro",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Conkeldurr",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Puño Drenaje",
-            "A Bocajarro",
-            "Puño Bala",
-            "Avalancha"
-          ]
-        },
-        {
-          "pokemon": "Scrafty",
+          "pokemon": "Poliwrath",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "A Bocajarro",
-            "Triturar",
-            "Puño Drenaje",
-            "Danza Dragón"
+            "Cascada",
+            "Puñodinámico",
+            "Puño Hielo",
+            "Tambor"
           ]
         },
         {
@@ -367329,8 +367877,8 @@ window.CHIRLGOLD_DATA = {
           "moves": [
             "A Bocajarro",
             "Puño Bala",
-            "Triturar",
-            "Danza Espada"
+            "Danza Espada",
+            "Triturar"
           ]
         }
       ],
@@ -367345,56 +367893,56 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Skarmory",
           "level": 100,
-          "item": "Restos",
+          "item": "Casco Dentado",
           "moves": [
-            "Foco Respl.",
             "Trampa Rocas",
-            "Respiro",
-            "Ida y Vuelta"
+            "Púas",
+            "Pájaro Osado",
+            "Remolino"
           ]
         },
         {
           "pokemon": "Heatran",
           "level": 100,
-          "item": "Restos",
+          "item": "Globo Helio",
           "moves": [
             "Llamarada",
             "Tierra Viva",
             "Foco Respl.",
-            "Día Soleado"
+            "Poder Oculto"
           ]
         },
         {
           "pokemon": "Empoleon",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Chaleco Asalto",
           "moves": [
             "Escaldar",
             "Foco Respl.",
             "Rayo Hielo",
-            "Respiro"
+            "Acua Jet"
           ]
         },
         {
           "pokemon": "Magnezone",
           "level": 100,
-          "item": "Chaleco Asalto",
+          "item": "Gafas Elegid",
           "moves": [
             "Rayo",
             "Foco Respl.",
             "Voltiocambio",
-            "Onda Trueno"
+            "Onda Certera"
           ]
         },
         {
-          "pokemon": "Metagross",
+          "pokemon": "Scizor",
           "level": 100,
-          "item": "Cin. Elegida",
+          "item": "Vidasfera",
           "moves": [
-            "Puño Meteoro",
             "Puño Bala",
-            "Terremoto",
-            "Roca Afilada"
+            "Picadura",
+            "Danza Espada",
+            "Demolición"
           ]
         },
         {
@@ -367402,10 +367950,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Steelixita",
           "moves": [
+            "Giro Bola",
             "Terremoto",
-            "Cabezahierro",
-            "Roca Afilada",
-            "Danza Dragón"
+            "Testarazo",
+            "Colm. Ígneo"
           ]
         }
       ],
@@ -367420,12 +367968,12 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Ninetales",
           "level": 100,
-          "item": "Banda Focus",
+          "item": "Roca Helada",
           "moves": [
-            "Rayo Hielo",
-            "Fuerza Lunar",
-            "Foco Energía",
-            "Día Soleado"
+            "Velo Aurora",
+            "Ventisca",
+            "Liofilizac.",
+            "Otra Vez"
           ]
         },
         {
@@ -367434,42 +367982,42 @@ window.CHIRLGOLD_DATA = {
           "item": "Vidasfera",
           "moves": [
             "Chuzos",
-            "Golpe Bajo",
             "Triturar",
+            "Canto Helado",
             "Espada Santa"
+          ]
+        },
+        {
+          "pokemon": "Cloyster",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Rompecoraza",
+            "Carámbano",
+            "Pedrada",
+            "Concha Filo"
           ]
         },
         {
           "pokemon": "Mamoswine",
           "level": 100,
-          "item": "Cin. Elegida",
+          "item": "Cinta Xperto",
           "moves": [
             "Terremoto",
             "Chuzos",
-            "Roca Afilada",
-            "Avalancha"
+            "Canto Helado",
+            "Fuerza Bruta"
           ]
         },
         {
           "pokemon": "Weavile",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Banda Focus",
           "moves": [
             "Chuzos",
-            "Tajo Umbrío",
-            "Golpe Bajo",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Glaceon",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Rayo Hielo",
-            "Bola Sombra",
-            "Tierra Viva",
-            "Recuperación"
+            "Desarme",
+            "Canto Helado",
+            "Patada Salto"
           ]
         },
         {
@@ -367477,10 +368025,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Glalita",
           "moves": [
-            "Chuzos",
+            "Doble Filo",
             "Terremoto",
-            "Tajo Umbrío",
-            "Descanso"
+            "Canto Helado",
+            "Explosión"
           ]
         }
       ],
@@ -367499,7 +368047,7 @@ window.CHIRLGOLD_DATA = {
           "moves": [
             "Trampa Rocas",
             "Terremoto",
-            "Garra Dragón",
+            "Cola Dragón",
             "Fuego Fatuo"
           ]
         },
@@ -367508,10 +368056,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Garra Dragón",
-            "Psíquico",
+            "Cometa Draco",
             "Paz Mental",
-            "Recuperación"
+            "Respiro",
+            "Bola Sombra"
           ]
         },
         {
@@ -367519,32 +368067,32 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Vidasfera",
           "moves": [
-            "Garra Dragón",
+            "Dracoflechas",
             "Bola Sombra",
-            "Llamarada",
-            "Voltiocambio"
+            "Lanzallamas",
+            "Ida y Vuelta"
           ]
         },
         {
           "pokemon": "Dragonite",
           "level": 100,
-          "item": "Seguro Debilidad",
+          "item": "Baya Ziuela",
           "moves": [
+            "Danza Dragón",
             "Garra Dragón",
-            "Vel. Extrema",
-            "Terremoto",
-            "Danza Dragón"
+            "Puño Fuego",
+            "Vel. Extrema"
           ]
         },
         {
           "pokemon": "Kingdra",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Periscopio",
           "moves": [
-            "Escaldar",
-            "Cometa Draco",
-            "Rayo Hielo",
-            "Danza Dragón"
+            "Foco Energía",
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo"
           ]
         },
         {
@@ -367552,10 +368100,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Altarianita",
           "moves": [
-            "Fuerza Lunar",
-            "Garra Dragón",
-            "Envite Ígneo",
-            "Danza Dragón"
+            "Doble Filo",
+            "Danza Dragón",
+            "Terremoto",
+            "Respiro"
           ]
         }
       ],
@@ -367568,69 +368116,69 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 100,
       "team": [
         {
-          "pokemon": "Tapu Koko",
+          "pokemon": "Galvantula",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Banda Focus",
           "moves": [
-            "Rayo",
-            "Fuerza Lunar",
-            "Voltiocambio",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Zapdos",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Rayo",
-            "Onda Ígnea",
-            "Respiro",
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
             "Voltiocambio"
           ]
         },
         {
-          "pokemon": "Magnezone",
+          "pokemon": "Tapu Koko",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Ida y Vuelta",
+            "Rayo",
+            "BrilloMágico",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Eelektross",
           "level": 100,
           "item": "Chaleco Asalto",
           "moves": [
+            "Gigadrenado",
+            "Lanzallamas",
             "Rayo",
-            "Foco Respl.",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Hidrobomba",
             "Voltiocambio",
-            "Onda Trueno"
+            "Fuego Fatuo",
+            "Divide Dolor"
           ]
         },
         {
           "pokemon": "Electivire",
           "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Rayo",
-            "Puño Fuego",
-            "Puño Hielo",
-            "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Raichu",
-          "level": 100,
           "item": "Vidasfera",
           "moves": [
-            "Rayo",
-            "Esfera Aural",
-            "Voltiocambio",
-            "Llamarada"
+            "Puño Trueno",
+            "Terremoto",
+            "Puño Hielo",
+            "Tajo Cruzado"
           ]
         },
         {
           "pokemon": "Manectric",
           "level": 100,
-          "item": "Sharpedonita",
+          "item": "Manectricita",
           "moves": [
             "Rayo",
-            "Llamarada",
             "Voltiocambio",
-            "Respiro"
+            "Sofoco",
+            "Poder Oculto"
           ]
         }
       ],
@@ -367645,12 +368193,12 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Indeedee",
           "level": 100,
-          "item": "Restos",
+          "item": "Ninguno",
           "moves": [
-            "Psíquico",
-            "Fuerza Lunar",
-            "Deseo",
-            "Protección"
+            "Fuerza",
+            "BrilloMágico",
+            "Pulso Umbrío",
+            "Otra Vez"
           ]
         },
         {
@@ -367658,43 +368206,43 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Psíquico",
-            "Fuerza Lunar",
             "Paz Mental",
-            "Recuperación"
+            "Luz Lunar",
+            "Psíquico",
+            "Rayo Hielo"
           ]
         },
         {
           "pokemon": "Necrozma",
           "level": 100,
-          "item": "Seguro Debilidad",
+          "item": "Vidasfera",
           "moves": [
             "Meteoimpacto",
             "Terremoto",
-            "Roca Afilada",
-            "Danza Dragón"
+            "Danza Espada",
+            "Corte"
           ]
         },
         {
-          "pokemon": "Espeon",
+          "pokemon": "Slowking",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Casco Dentado",
           "moves": [
+            "Escaldar",
             "Psíquico",
-            "Bola Sombra",
-            "Fuerza Lunar",
-            "Paz Mental"
+            "Relajo",
+            "Llamarada"
           ]
         },
         {
           "pokemon": "Gallade",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Cinta Xperto",
           "moves": [
             "A Bocajarro",
-            "Psíquico",
-            "Puño Bala",
-            "Danza Espada"
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
           ]
         },
         {
@@ -367703,9 +368251,9 @@ window.CHIRLGOLD_DATA = {
           "item": "Alakazamita",
           "moves": [
             "Psíquico",
-            "Esfera Aural",
+            "Onda Certera",
             "Bola Sombra",
-            "Onda Certera"
+            "BrilloMágico"
           ]
         }
       ],
@@ -367720,56 +368268,56 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Whimsicott",
           "level": 100,
-          "item": "Banda Focus",
+          "item": "Roca Calor",
           "moves": [
             "Día Soleado",
-            "Energibola",
-            "Fuerza Lunar",
-            "Chupavidas"
+            "Drenadoras",
+            "Otra Vez",
+            "Fuerza Lunar"
           ]
         },
         {
           "pokemon": "Rillaboom",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Chaleco Asalto",
           "moves": [
             "Energibola",
-            "Terremoto",
-            "Cabezahierro",
+            "Fuerza Bruta",
+            "Desarme",
             "Ida y Vuelta"
           ]
         },
         {
           "pokemon": "Wo-Chien",
           "level": 100,
-          "item": "Chaleco Asalto",
+          "item": "Restos",
           "moves": [
-            "Energibola",
-            "Pulso Umbrío",
-            "Chupavidas",
-            "Recuperación"
+            "Drenadoras",
+            "Desarme",
+            "Protección",
+            "Gigadrenado"
           ]
         },
         {
           "pokemon": "Virizion",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Cinta Xperto",
           "moves": [
-            "Energibola",
+            "Hoja Aguda",
             "A Bocajarro",
             "Roca Afilada",
             "Danza Espada"
           ]
         },
         {
-          "pokemon": "Bellossom",
+          "pokemon": "Ferrothorn",
           "level": 100,
-          "item": "Restos",
+          "item": "Casco Dentado",
           "moves": [
-            "Energibola",
-            "Fuerza Lunar",
-            "Rayo Solar",
-            "Recuperación"
+            "Trampa Rocas",
+            "Giro Bola",
+            "Drenadoras",
+            "Latigazo"
           ]
         },
         {
@@ -367777,10 +368325,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Venusaurita",
           "moves": [
-            "Energibola",
+            "Gigadrenado",
             "Bomba Lodo",
-            "Rayo Solar",
-            "Recuperación"
+            "Tierra Viva",
+            "Síntesis"
           ]
         }
       ],
@@ -367793,25 +368341,47 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 100,
       "team": [
         {
+          "pokemon": "Pelipper",
+          "level": 100,
+          "item": "Roca Lluvia",
+          "moves": [
+            "Vendaval",
+            "Escaldar",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
+        },
+        {
           "pokemon": "Kyogre",
           "level": 100,
           "item": "Pañ. Elegido",
           "moves": [
-            "Escaldar",
+            "Salpicar",
+            "Trueno",
             "Rayo Hielo",
-            "Rayo",
-            "Onda Certera"
+            "Hidrobomba"
           ]
         },
         {
           "pokemon": "Manaphy",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Restos",
           "moves": [
+            "Ráfaga",
+            "Trueno",
             "Escaldar",
+            "Descanso"
+          ]
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hidrobomba",
+            "Gigadrenado",
             "Rayo Hielo",
-            "Energibola",
-            "Recuperación"
+            "Onda Certera"
           ]
         },
         {
@@ -367819,32 +368389,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Vidasfera",
           "moves": [
-            "Escaldar",
-            "Psíquico",
+            "Hidrobomba",
+            "Trueno",
             "Rayo Hielo",
-            "Rayo"
-          ]
-        },
-        {
-          "pokemon": "Milotic",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Tóxico",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Lapras",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Rayo",
-            "Bola Sombra"
+            "Psíquico"
           ]
         },
         {
@@ -367852,10 +368400,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Swampertita",
           "moves": [
-            "Escaldar",
+            "Cascada",
             "Terremoto",
-            "Roca Afilada",
-            "Puño Hielo"
+            "Puño Hielo",
+            "Fuerza Bruta"
           ]
         }
       ],
@@ -367873,9 +368421,9 @@ window.CHIRLGOLD_DATA = {
           "item": "Banda Focus",
           "moves": [
             "Trampa Rocas",
+            "Púas Tóxicas",
             "Bomba Lodo",
-            "Tierra Viva",
-            "BrilloMágico"
+            "Joya de Luz"
           ]
         },
         {
@@ -367884,9 +368432,31 @@ window.CHIRLGOLD_DATA = {
           "item": "Restos",
           "moves": [
             "CadenaVirul.",
-            "Bola Sombra",
             "Recuperación",
+            "Bola Sombra",
             "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Salazzle",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Tóxico",
+            "Lanzallamas",
+            "Bomba Lodo",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 100,
+          "item": "Lodo Negro",
+          "moves": [
+            "Escaldar",
+            "Recuperación",
+            "Niebla",
+            "Protección"
           ]
         },
         {
@@ -367894,32 +368464,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Vidasfera",
           "moves": [
-            "Cometa Draco",
+            "Pulso Dragón",
             "Bomba Lodo",
-            "Llamarada",
+            "Lanzallamas",
             "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Salazzle",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Bomba Lodo",
-            "Llamarada",
-            "Tóxico",
-            "Esfera Aural"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
-            "Ida y Vuelta",
-            "Rayo Confuso"
           ]
         },
         {
@@ -367927,9 +368475,9 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Gengarita",
           "moves": [
-            "Bomba Lodo",
             "Bola Sombra",
-            "Esfera Aural",
+            "Bomba Lodo",
+            "Onda Certera",
             "Mismodestino"
           ]
         }
@@ -367945,56 +368493,56 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Gigalith",
           "level": 100,
-          "item": "Restos",
+          "item": "Roca Suave",
           "moves": [
             "Trampa Rocas",
+            "Púas",
             "Roca Afilada",
-            "Terremoto",
-            "Avalancha"
+            "Terremoto"
           ]
         },
         {
           "pokemon": "Ting-Lu",
           "level": 100,
-          "item": "Chaleco Asalto",
+          "item": "Restos",
           "moves": [
+            "Púas",
             "Terremoto",
             "Remolino",
-            "Trampa Rocas",
-            "Triturar"
+            "Mofa"
           ]
         },
         {
           "pokemon": "Cradily",
           "level": 100,
-          "item": "Restos",
+          "item": "Casco Dentado",
           "moves": [
-            "Energibola",
-            "Roca Afilada",
+            "Gigadrenado",
             "Recuperación",
-            "Tóxico"
+            "Tóxico",
+            "Poder Pasado"
           ]
         },
         {
           "pokemon": "Rhyperior",
           "level": 100,
-          "item": "Cin. Elegida",
+          "item": "Chaleco Asalto",
           "moves": [
             "Terremoto",
             "Roca Afilada",
             "Puño Fuego",
-            "Puño Hielo"
+            "Megacuerno"
           ]
         },
         {
-          "pokemon": "Rampardos",
+          "pokemon": "Steelix",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Baya Zidra",
           "moves": [
-            "Roca Afilada",
+            "Giro Bola",
             "Terremoto",
-            "A Bocajarro",
-            "Puño Fuego"
+            "Rugido",
+            "Def. Férrea"
           ]
         },
         {
@@ -368002,9 +368550,9 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Diancita",
           "moves": [
-            "Roca Afilada",
+            "Torm.Diaman.",
             "Fuerza Lunar",
-            "Terremoto",
+            "Tierra Viva",
             "Paz Mental"
           ]
         }
@@ -368020,23 +368568,23 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Ninetales",
           "level": 100,
-          "item": "Banda Focus",
+          "item": "Roca Calor",
           "moves": [
-            "Día Soleado",
             "Llamarada",
             "Rayo Solar",
-            "Respiro"
+            "Fuego Fatuo",
+            "Hipnosis"
           ]
         },
         {
           "pokemon": "Volcanion",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Restos",
           "moves": [
-            "Escaldar",
-            "Llamarada",
-            "Terremoto",
-            "Onda Certera"
+            "Chorro Vapor",
+            "Tierra Viva",
+            "Lanzallamas",
+            "Bomba Lodo"
           ]
         },
         {
@@ -368045,31 +368593,31 @@ window.CHIRLGOLD_DATA = {
           "item": "Vidasfera",
           "moves": [
             "Envite Ígneo",
-            "Terremoto",
             "Garra Dragón",
+            "Terremoto",
             "Danza Dragón"
           ]
         },
         {
-          "pokemon": "Arcanine",
+          "pokemon": "Volcarona",
           "level": 100,
-          "item": "Cin. Elegida",
+          "item": "Banda Focus",
           "moves": [
-            "Envite Ígneo",
-            "Vel. Extrema",
-            "Terremoto",
-            "Roca Afilada"
+            "Danza Aleteo",
+            "Onda Ígnea",
+            "Zumbido",
+            "Gigadrenado"
           ]
         },
         {
-          "pokemon": "Magmortar",
+          "pokemon": "Rotom",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Cinta Xperto",
           "moves": [
-            "Llamarada",
+            "Sofoco",
             "Rayo",
-            "Esfera Aural",
-            "Terremoto"
+            "Voltiocambio",
+            "Fuego Fatuo"
           ]
         },
         {
@@ -368079,8 +368627,8 @@ window.CHIRLGOLD_DATA = {
           "moves": [
             "Llamarada",
             "Rayo Solar",
-            "Onda Certera",
-            "Respiro"
+            "Tajo Aéreo",
+            "Onda Certera"
           ]
         }
       ],
@@ -368095,12 +368643,45 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Rhyperior",
           "level": 100,
-          "item": "Casco Dentado",
+          "item": "Banda Focus",
           "moves": [
             "Trampa Rocas",
             "Terremoto",
             "Roca Afilada",
-            "Vel. Extrema"
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Arcanine",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Envite Ígneo",
+            "Vel. Extrema",
+            "A Bocajarro",
+            "Voltio Cruel"
+          ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 100,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Xerneas",
+          "level": 100,
+          "item": "Hierba Única",
+          "moves": [
+            "Geocontrol",
+            "Fuerza Lunar",
+            "Onda Certera",
+            "Psíquico"
           ]
         },
         {
@@ -368108,43 +368689,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Vidasfera",
           "moves": [
-            "Rayo",
-            "Puño Drenaje",
-            "Golpe Bajo",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Xerneas",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Geocontrol",
-            "Fuerza Lunar",
-            "Rayo",
-            "Esfera Aural"
-          ]
-        },
-        {
-          "pokemon": "Tyranitar",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Triturar",
-            "Roca Afilada",
-            "Terremoto",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Terremoto",
-            "Danza Dragón"
+            "Puños Plasma",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Hielo"
           ]
         },
         {
@@ -368152,10 +368700,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Pidgeotita",
           "moves": [
-            "Ataque Ala",
-            "Sofoco",
-            "Ida y Vuelta",
-            "Respiro"
+            "Vendaval",
+            "Onda Ígnea",
+            "Respiro",
+            "Ida y Vuelta"
           ]
         }
       ],
@@ -368172,10 +368720,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Banda Focus",
           "moves": [
-            "Hipnosis",
-            "Maquinación",
+            "Brecha Negra",
             "Pulso Umbrío",
-            "Bomba Lodo"
+            "Come Sueños",
+            "Maquinación"
           ]
         },
         {
@@ -368183,21 +368731,21 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Vidasfera",
           "moves": [
-            "Rayo Solar",
-            "Energibola",
-            "Fuerza Lunar",
-            "Recuperación"
+            "Fogonazo",
+            "Tierra Viva",
+            "BrilloMágico",
+            "Síntesis"
           ]
         },
         {
           "pokemon": "Crobat",
           "level": 100,
-          "item": "Cinta Xperto",
+          "item": "Lodo Negro",
           "moves": [
-            "Ataque Ala",
-            "Bomba Lodo",
+            "Pájaro Osado",
+            "Veneno X",
             "Ida y Vuelta",
-            "Rayo Confuso"
+            "Mofa"
           ]
         },
         {
@@ -368208,13 +368756,13 @@ window.CHIRLGOLD_DATA = {
             "Rayo",
             "Foco Respl.",
             "Voltiocambio",
-            "Onda Trueno"
+            "Triataque"
           ]
         },
         {
           "pokemon": "Feraligatr",
           "level": 100,
-          "item": "Vidasfera",
+          "item": "Restos",
           "moves": [
             "Escaldar",
             "Triturar",
@@ -368227,10 +368775,10 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Absolita",
           "moves": [
-            "Tajo Umbrío",
             "Golpe Bajo",
-            "A Bocajarro",
-            "Danza Espada"
+            "Danza Espada",
+            "Carantoña",
+            "A Bocajarro"
           ]
         }
       ],
@@ -368256,7 +368804,7 @@ window.CHIRLGOLD_DATA = {
         {
           "pokemon": "Tapu Lele",
           "level": 100,
-          "item": "Gafas Elegid",
+          "item": "Pañ. Elegido",
           "moves": [
             "Psicocarga",
             "Fuerza Lunar",
@@ -368272,7 +368820,7 @@ window.CHIRLGOLD_DATA = {
             "Paz Mental",
             "Rayo Umbrío",
             "Onda Certera",
-            "Recuperación"
+            "Respiro"
           ]
         },
         {
@@ -368569,7 +369117,7 @@ window.CHIRLGOLD_DATA = {
           "level": 100,
           "item": "Gafas Elegid",
           "moves": [
-            "Rayo",
+            "Electoderrap",
             "Cometa Draco",
             "Voltiocambio",
             "Sofoco"
