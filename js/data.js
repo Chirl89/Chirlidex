@@ -1,4 +1,4 @@
-/* Pokémon ChirlGold v0.9.23 - Base de Datos Oficial */
+/* Pokémon ChirlGold v0.13.0 - Base de Datos Oficial */
 window.CHIRLGOLD_VERSION = "v0.13.0";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
@@ -2844,7 +2844,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 30",
           "time": "Mañana y Día",
-          "rate": "5%",
+          "rate": "9%",
           "method": "Hierba"
         }
       ],
@@ -4501,7 +4501,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 33",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Spearow",
@@ -6120,12 +6127,6 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Mañana y Día",
-          "rate": "8%",
-          "method": "Hierba"
-        },
         {
           "route": "Ruta 35",
           "time": "Noche",
@@ -8839,12 +8840,6 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
-        {
-          "route": "Cueva Oscura (Acceso Ruta 31)",
-          "time": "Noche",
-          "rate": "8%",
-          "method": "Hierba"
-        },
         {
           "route": "Torre Bellsprout",
           "time": "Mañana y Día",
@@ -14240,12 +14235,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Mañana y Día",
           "rate": "25%",
           "method": "Hierba"
-        },
-        {
-          "route": "Torre Quemada",
-          "time": "Noche",
-          "rate": "20%",
-          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -19491,7 +19480,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Slowpoke",
@@ -24466,7 +24462,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Krabby",
@@ -24982,12 +24985,6 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 38",
           "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         }
@@ -29631,7 +29628,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Horsea",
@@ -30623,7 +30627,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 40",
           "time": "Todo el día",
-          "rate": "4%",
+          "rate": "5%",
           "method": "Surf"
         }
       ],
@@ -53724,12 +53728,6 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 38",
           "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "route": "Ruta 38",
-          "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
         }
@@ -80653,7 +80651,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 40",
           "time": "Todo el día",
-          "rate": "34%",
+          "rate": "94%",
           "method": "Surf"
         }
       ],
@@ -81207,7 +81205,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 41",
           "time": "Todo el día",
-          "rate": "30%",
+          "rate": "90%",
           "method": "Surf"
         }
       ],
@@ -86125,6 +86123,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 32",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        },
+        {
           "route": "Ciudad Olivo",
           "time": "Todo el día",
           "rate": "4%",
@@ -86668,6 +86672,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ciudad Cerezo",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
         {
           "route": "Ciudad Olivo",
           "time": "Todo el día",
@@ -88554,7 +88564,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Monte Mortero",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        }
+      ],
       "family_tree": [
         {
           "name": "Feebas",
@@ -91078,7 +91095,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 48",
           "time": "Noche",
-          "rate": "10%",
+          "rate": "11%",
           "method": "Hierba"
         }
       ],
@@ -92678,7 +92695,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 41",
           "time": "Todo el día",
-          "rate": "5%",
+          "rate": "35%",
           "method": "Surf"
         }
       ],
@@ -93366,6 +93383,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Islas Remolino",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        },
+        {
           "route": "Ruta 40",
           "time": "Todo el día",
           "rate": "1%",
@@ -93568,6 +93591,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "40%",
+          "method": "Pesca"
+        },
         {
           "route": "Ciudad Orquídea",
           "time": "Todo el día",
@@ -113296,6 +113325,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 41",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
           "route": "Ciudad Olivo",
           "time": "Todo el día",
           "rate": "1%",
@@ -113744,7 +113779,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Mantyke",
@@ -128415,6 +128457,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Parque Nacional",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruinas Alfa",
           "time": "Noche",
           "rate": "10%",
@@ -136573,6 +136621,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 42",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
+        {
           "route": "Ruta 41",
           "time": "Todo el día",
           "rate": "1%",
@@ -141773,12 +141827,6 @@ window.CHIRLGOLD_DATA = {
           "time": "Mañana y Día",
           "rate": "10%",
           "method": "Hierba"
-        },
-        {
-          "route": "Torre Quemada",
-          "time": "Noche",
-          "rate": "10%",
-          "method": "Hierba"
         }
       ],
       "family_tree": [
@@ -142404,7 +142452,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 46",
           "time": "Mañana y Día",
-          "rate": "10%",
+          "rate": "11%",
           "method": "Hierba"
         }
       ],
@@ -147680,7 +147728,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Frillish",
@@ -148261,7 +148316,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ciudad Orquídea",
           "time": "Todo el día",
-          "rate": "4%",
+          "rate": "9%",
           "method": "Surf"
         }
       ],
@@ -154490,7 +154545,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 48",
           "time": "Mañana y Día",
-          "rate": "10%",
+          "rate": "11%",
           "method": "Hierba"
         }
       ],
@@ -156749,6 +156804,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 48",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "route": "Ruta 47",
           "time": "Mañana y Día",
           "rate": "4%",
@@ -157256,6 +157317,12 @@ window.CHIRLGOLD_DATA = {
           "route": "Ruta 47",
           "time": "Noche",
           "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "1%",
           "method": "Hierba"
         }
       ],
@@ -168657,6 +168724,12 @@ window.CHIRLGOLD_DATA = {
       "encounters": [
         {
           "route": "Ruta 39",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 39",
           "time": "Mañana y Día",
           "rate": "10%",
           "method": "Hierba"
@@ -172127,7 +172200,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Islas Remolino",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Skrelp",
@@ -172624,7 +172704,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 47",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Clauncher",
@@ -175297,7 +175384,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 34",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "dedenne"
@@ -183242,6 +183336,12 @@ window.CHIRLGOLD_DATA = {
           "method": "Cueva"
         },
         {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
           "route": "Parque Nacional",
           "time": "Noche",
           "rate": "5%",
@@ -183744,7 +183844,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Yungoos",
@@ -184961,7 +185068,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ciudad Olivo",
           "time": "Todo el día",
-          "rate": "60%",
+          "rate": "120%",
           "method": "Surf"
         }
       ],
@@ -185384,7 +185491,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "oricorio"
@@ -186518,7 +186632,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "wishiwashi"
@@ -186689,7 +186810,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ciudad Orquídea",
           "time": "Todo el día",
-          "rate": "60%",
+          "rate": "120%",
           "method": "Surf"
         }
       ],
@@ -190065,7 +190186,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bounsweet",
@@ -191314,7 +191442,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 39",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "passimian"
@@ -191832,6 +191967,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "1%",
           "method": "Surf"
+        },
+        {
+          "route": "Ruta 34",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
         }
       ],
       "family_tree": [
@@ -192286,6 +192427,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
+        },
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
         }
       ],
       "family_tree": null,
@@ -193066,7 +193213,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Oscura",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "minior"
@@ -193222,7 +193376,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Encinar",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "komala"
@@ -193987,7 +194148,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 40",
           "time": "Todo el día",
-          "rate": "5%",
+          "rate": "35%",
           "method": "Surf"
         },
         {
@@ -203145,7 +203306,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 30",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Skwovet",
@@ -204485,7 +204653,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nickit",
@@ -204827,7 +205002,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Gossifleur",
@@ -205870,7 +206052,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 34",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Yamper",
@@ -207818,7 +208007,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 40",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "cramorant"
@@ -207944,7 +208140,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 42",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        }
+      ],
       "family_tree": [
         {
           "name": "Arrokuda",
@@ -209081,7 +209284,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ciudad Olivo",
           "time": "Todo el día",
-          "rate": "5%",
+          "rate": "35%",
           "method": "Surf"
         },
         {
@@ -211548,6 +211751,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "4%",
           "method": "Hierba"
+        },
+        {
+          "route": "Ruta 48",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
         }
       ],
       "family_tree": null,
@@ -213032,7 +213241,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "pincurchin"
@@ -213655,7 +213871,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "eiscue"
@@ -213841,8 +214064,8 @@ window.CHIRLGOLD_DATA = {
         "total": 436
       },
       "abilities": [
-        "-",
-        "-"
+        "Gula",
+        "Electromotor"
       ],
       "learnset": [
         {
@@ -213986,7 +214209,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 34",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "morpeko"
@@ -214522,7 +214752,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "dracozolt"
@@ -214679,7 +214916,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta Helada",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "arctozolt"
@@ -214836,7 +215080,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "dracovish"
@@ -214993,7 +215244,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Islas Espuma (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "arctovish"
@@ -218716,7 +218974,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "2%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "basclegion"
@@ -219111,11 +219376,37 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ruta 41",
           "time": "Todo el día",
-          "rate": "4%",
+          "rate": "5%",
           "method": "Surf"
         }
       ],
-      "family_tree": null,
+      "family_tree": [
+        {
+          "name": "Qwilfish de Hisui",
+          "id": "211_hisui",
+          "types": [
+            "Siniestro",
+            "Veneno"
+          ],
+          "slug": "qwilfish-hisui",
+          "evolves_to": [
+            {
+              "name": "Overqwil",
+              "id": 954,
+              "types": [
+                "Siniestro",
+                "Veneno"
+              ],
+              "slug": "overqwil",
+              "evolves_to": [],
+              "method": "Nivel 28",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
       "evolutions_text": [],
       "slug": "overqwil"
     },
@@ -221488,7 +221779,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 29",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Lechonk",
@@ -224278,7 +224576,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Smoliv",
@@ -224946,7 +225251,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "squawkbily"
@@ -225112,7 +225424,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cueva Unión",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Nacli",
@@ -226495,7 +226814,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Tadbulb",
@@ -228143,7 +228469,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Bramblin",
@@ -228192,8 +228525,8 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "-",
-        "-"
+        "Levitación",
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -228988,7 +229321,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 46",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "klawf"
@@ -229954,7 +230294,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Flittle",
@@ -231630,7 +231977,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": [
         {
           "name": "Finizen",
@@ -231677,8 +232031,8 @@ window.CHIRLGOLD_DATA = {
         "total": 457
       },
       "abilities": [
-        "-",
-        "-"
+        "Nado Rápido",
+        "Velo Agua"
       ],
       "learnset": [
         {
@@ -232689,7 +233043,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Túnel Roca (Kanto)",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "orthworm"
@@ -234319,7 +234680,7 @@ window.CHIRLGOLD_DATA = {
         {
           "route": "Ciudad Orquídea",
           "time": "Todo el día",
-          "rate": "30%",
+          "rate": "60%",
           "method": "Surf"
         }
       ],
@@ -234518,7 +234879,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Lago de la Furia",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "dondozo"
@@ -234665,7 +235033,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 10
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Lago de la Furia",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "tatsugiri"
@@ -238993,7 +239368,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 35
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruinas Alfa",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Gimmighoul",
@@ -239042,8 +239424,8 @@ window.CHIRLGOLD_DATA = {
         "total": 550
       },
       "abilities": [
-        "-",
-        "-"
+        "Cuerpo Puro",
+        "Filtro"
       ],
       "learnset": [
         {
@@ -241550,8 +241932,8 @@ window.CHIRLGOLD_DATA = {
         "total": 308
       },
       "abilities": [
-        "-",
-        "-"
+        "Ignífugo",
+        "Absorbe Fuego"
       ],
       "learnset": [
         {
@@ -241685,7 +242067,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Torre Bellsprout",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": [
         {
           "name": "Polchgeist",
@@ -247374,7 +247763,33 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": null,
+      "family_tree": [
+        {
+          "name": "Zorua de Hisui",
+          "id": "570_hisui",
+          "types": [
+            "Normal",
+            "Fantasma"
+          ],
+          "slug": "zorua-hisui",
+          "evolves_to": [
+            {
+              "name": "Zoroark de Hisui",
+              "id": "571_hisui",
+              "types": [
+                "Normal",
+                "Fantasma"
+              ],
+              "slug": "zoroark-hisui",
+              "evolves_to": [],
+              "method": "Nivel 30",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
       "evolutions_text": [],
       "slug": "zoroark-hisui"
     },
@@ -247581,7 +247996,33 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": null,
+      "family_tree": [
+        {
+          "name": "Growlithe de Hisui",
+          "id": "58_hisui",
+          "types": [
+            "Fuego",
+            "Roca"
+          ],
+          "slug": "growlithe-hisui",
+          "evolves_to": [
+            {
+              "name": "Arcanine de Hisui",
+              "id": "59_hisui",
+              "types": [
+                "Fuego",
+                "Roca"
+              ],
+              "slug": "arcanine-hisui",
+              "evolves_to": [],
+              "method": "Usar Piedra Fuego",
+              "method_type": "item",
+              "item": "Piedra Fuego",
+              "move": null
+            }
+          ]
+        }
+      ],
       "evolutions_text": [],
       "slug": "arcanine-hisui"
     },
@@ -247808,7 +248249,33 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": null,
+      "family_tree": [
+        {
+          "name": "Voltorb de Hisui",
+          "id": "100_hisui",
+          "types": [
+            "Eléctrico",
+            "Planta"
+          ],
+          "slug": "voltorb-hisui",
+          "evolves_to": [
+            {
+              "name": "Electrode de Hisui",
+              "id": "101_hisui",
+              "types": [
+                "Eléctrico",
+                "Planta"
+              ],
+              "slug": "electrode-hisui",
+              "evolves_to": [],
+              "method": "Usar Piedra Hoja",
+              "method_type": "item",
+              "item": "Piedra Hoja",
+              "move": null
+            }
+          ]
+        }
+      ],
       "evolutions_text": [],
       "slug": "electrode-hisui"
     },
@@ -248035,7 +248502,48 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": null,
+      "family_tree": [
+        {
+          "name": "Geodude de Alola",
+          "id": "74_alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ],
+          "slug": "geodude-alola",
+          "evolves_to": [
+            {
+              "name": "Graveler de Alola",
+              "id": "75_alola",
+              "types": [
+                "Roca",
+                "Eléctrico"
+              ],
+              "slug": "graveler-alola",
+              "evolves_to": [
+                {
+                  "name": "Golem de Alola",
+                  "id": "76_alola",
+                  "types": [
+                    "Roca",
+                    "Eléctrico"
+                  ],
+                  "slug": "golem-alola",
+                  "evolves_to": [],
+                  "method": "Usar Cable Link",
+                  "method_type": "item",
+                  "item": "Cable Link",
+                  "move": null
+                }
+              ],
+              "method": "Nivel 25",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
       "evolutions_text": [],
       "slug": "golem-alola"
     },
@@ -248242,8 +248750,51 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [],
-      "family_tree": null,
-      "evolutions_text": [],
+      "family_tree": [
+        {
+          "name": "Geodude de Alola",
+          "id": "74_alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ],
+          "slug": "geodude-alola",
+          "evolves_to": [
+            {
+              "name": "Graveler de Alola",
+              "id": "75_alola",
+              "types": [
+                "Roca",
+                "Eléctrico"
+              ],
+              "slug": "graveler-alola",
+              "evolves_to": [
+                {
+                  "name": "Golem de Alola",
+                  "id": "76_alola",
+                  "types": [
+                    "Roca",
+                    "Eléctrico"
+                  ],
+                  "slug": "golem-alola",
+                  "evolves_to": [],
+                  "method": "Usar Cable Link",
+                  "method_type": "item",
+                  "item": "Cable Link",
+                  "move": null
+                }
+              ],
+              "method": "Nivel 25",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Golem de Alola (Usar Cable Link)"
+      ],
       "slug": "graveler-alola"
     },
     {
@@ -248430,15 +248981,2632 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Cueva Oscura",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
           "route": "Cueva Oscura (Acceso Ruta 31)",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
         }
       ],
+      "family_tree": [
+        {
+          "name": "Geodude de Alola",
+          "id": "74_alola",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ],
+          "slug": "geodude-alola",
+          "evolves_to": [
+            {
+              "name": "Graveler de Alola",
+              "id": "75_alola",
+              "types": [
+                "Roca",
+                "Eléctrico"
+              ],
+              "slug": "graveler-alola",
+              "evolves_to": [
+                {
+                  "name": "Golem de Alola",
+                  "id": "76_alola",
+                  "types": [
+                    "Roca",
+                    "Eléctrico"
+                  ],
+                  "slug": "golem-alola",
+                  "evolves_to": [],
+                  "method": "Usar Cable Link",
+                  "method_type": "item",
+                  "item": "Cable Link",
+                  "move": null
+                }
+              ],
+              "method": "Nivel 25",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Graveler de Alola (Nivel 25)"
+      ],
+      "slug": "geodude-alola"
+    },
+    {
+      "id": "27_alola",
+      "name": "Sandshrew de Alola",
+      "types": [
+        "Hielo",
+        "Acero"
+      ],
+      "stats": {
+        "hp": 50,
+        "atk": 75,
+        "def": 90,
+        "spe": 40,
+        "spa": 10,
+        "spd": 35,
+        "total": 300
+      },
+      "abilities": [
+        "Manto Níveo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 10,
+          "name": "Arañazo",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 111,
+          "name": "Rizo Defensa",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 40
+        },
+        {
+          "lvl": 3,
+          "id": 40,
+          "name": "Picotazo Ven",
+          "type": "Veneno",
+          "cat": "Físico",
+          "power": 15,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 4,
+          "id": 28,
+          "name": "Ataque Arena",
+          "type": "Tierra",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 8,
+          "id": 205,
+          "name": "Desenrollar",
+          "type": "Roca",
+          "cat": "Físico",
+          "power": 30,
+          "acc": 90,
+          "pp": 20
+        },
+        {
+          "lvl": 11,
+          "id": 210,
+          "name": "Cortefuria",
+          "type": "Bicho",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 95,
+          "pp": 20
+        },
+        {
+          "lvl": 12,
+          "id": 229,
+          "name": "Giro Rápido",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 50,
+          "acc": 100,
+          "pp": 40
+        },
+        {
+          "lvl": 14,
+          "id": 222,
+          "name": "Magnitud",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 18,
+          "id": 526,
+          "name": "Terratemblor",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 19,
+          "id": 129,
+          "name": "Rapidez",
+          "type": "Normal",
+          "cat": "Especial",
+          "power": 60,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 22,
+          "id": 154,
+          "name": "Golpes Furia",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 18,
+          "acc": 80,
+          "pp": 15
+        },
+        {
+          "lvl": 23,
+          "id": 328,
+          "name": "Bucle Arena",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 35,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 27,
+          "id": 97,
+          "name": "Agilidad",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 30
+        },
+        {
+          "lvl": 28,
+          "id": 163,
+          "name": "Cuchillada",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 70,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 31,
+          "id": 91,
+          "name": "Excavar",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 80,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 35,
+          "id": 360,
+          "name": "Giro Bola",
+          "type": "Acero",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 5
+        },
+        {
+          "lvl": 38,
+          "id": 14,
+          "name": "Danza Espada",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 42,
+          "id": 201,
+          "name": "Torm. Arena",
+          "type": "Roca",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 45,
+          "id": 89,
+          "name": "Terremoto",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 100,
+          "acc": 100,
+          "pp": 10
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Cueva Oscura",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Mañana y Día",
+          "rate": "8%",
+          "method": "Hierba"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Sandshrew de Alola",
+          "id": "27_alola",
+          "types": [
+            "Hielo",
+            "Acero"
+          ],
+          "slug": "sandshrew-alola",
+          "evolves_to": [
+            {
+              "name": "Sandslash de Alola",
+              "id": "28_alola",
+              "types": [
+                "Hielo",
+                "Acero"
+              ],
+              "slug": "sandslash-alola",
+              "evolves_to": [],
+              "method": "Usar Piedra Hielo",
+              "method_type": "item",
+              "item": "Piedra Hielo",
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Sandslash de Alola (Usar Piedra Hielo)"
+      ],
+      "slug": "sandshrew-alola"
+    },
+    {
+      "id": "28_alola",
+      "name": "Sandslash de Alola",
+      "types": [
+        "Hielo",
+        "Acero"
+      ],
+      "stats": {
+        "hp": 75,
+        "atk": 100,
+        "def": 120,
+        "spe": 65,
+        "spa": 25,
+        "spd": 65,
+        "total": 450
+      },
+      "abilities": [
+        "Manto Níveo"
+      ],
+      "learnset": [
+        {
+          "lvl": 0,
+          "id": 306,
+          "name": "Garra Brutal",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 75,
+          "acc": 95,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 306,
+          "name": "Garra Brutal",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 75,
+          "acc": 95,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 10,
+          "name": "Arañazo",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 111,
+          "name": "Rizo Defensa",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 40
+        },
+        {
+          "lvl": 1,
+          "id": 40,
+          "name": "Picotazo Ven",
+          "type": "Veneno",
+          "cat": "Físico",
+          "power": 15,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 28,
+          "name": "Ataque Arena",
+          "type": "Tierra",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 3,
+          "id": 28,
+          "name": "Ataque Arena",
+          "type": "Tierra",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 5,
+          "id": 40,
+          "name": "Picotazo Ven",
+          "type": "Veneno",
+          "cat": "Físico",
+          "power": 15,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 8,
+          "id": 205,
+          "name": "Desenrollar",
+          "type": "Roca",
+          "cat": "Físico",
+          "power": 30,
+          "acc": 90,
+          "pp": 20
+        },
+        {
+          "lvl": 11,
+          "id": 210,
+          "name": "Cortefuria",
+          "type": "Bicho",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 95,
+          "pp": 20
+        },
+        {
+          "lvl": 12,
+          "id": 229,
+          "name": "Giro Rápido",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 50,
+          "acc": 100,
+          "pp": 40
+        },
+        {
+          "lvl": 14,
+          "id": 222,
+          "name": "Magnitud",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 18,
+          "id": 526,
+          "name": "Terratemblor",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 19,
+          "id": 129,
+          "name": "Rapidez",
+          "type": "Normal",
+          "cat": "Especial",
+          "power": 60,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 23,
+          "id": 154,
+          "name": "Golpes Furia",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 18,
+          "acc": 80,
+          "pp": 15
+        },
+        {
+          "lvl": 27,
+          "id": 328,
+          "name": "Bucle Arena",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 35,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 32,
+          "id": 163,
+          "name": "Cuchillada",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 70,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 37,
+          "id": 91,
+          "name": "Excavar",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 80,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 42,
+          "id": 360,
+          "name": "Giro Bola",
+          "type": "Acero",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 5
+        },
+        {
+          "lvl": 47,
+          "id": 14,
+          "name": "Danza Espada",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 52,
+          "id": 201,
+          "name": "Torm. Arena",
+          "type": "Roca",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 57,
+          "id": 89,
+          "name": "Terremoto",
+          "type": "Tierra",
+          "cat": "Físico",
+          "power": 100,
+          "acc": 100,
+          "pp": 10
+        }
+      ],
+      "encounters": [],
+      "family_tree": [
+        {
+          "name": "Sandshrew de Alola",
+          "id": "27_alola",
+          "types": [
+            "Hielo",
+            "Acero"
+          ],
+          "slug": "sandshrew-alola",
+          "evolves_to": [
+            {
+              "name": "Sandslash de Alola",
+              "id": "28_alola",
+              "types": [
+                "Hielo",
+                "Acero"
+              ],
+              "slug": "sandslash-alola",
+              "evolves_to": [],
+              "method": "Usar Piedra Hielo",
+              "method_type": "item",
+              "item": "Piedra Hielo",
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [],
+      "slug": "sandslash-alola"
+    },
+    {
+      "id": "37_alola",
+      "name": "Vulpix de Alola",
+      "types": [
+        "Hielo"
+      ],
+      "stats": {
+        "hp": 38,
+        "atk": 41,
+        "def": 40,
+        "spe": 65,
+        "spa": 50,
+        "spd": 65,
+        "total": 299
+      },
+      "abilities": [
+        "Manto Níveo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 52,
+          "name": "Ascuas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 39,
+          "name": "Látigo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 4,
+          "id": 50,
+          "name": "Anulación",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 4,
+          "id": 39,
+          "name": "Látigo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 7,
+          "id": 46,
+          "name": "Rugido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 8,
+          "id": 98,
+          "name": "At. Rápido",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 9,
+          "id": 611,
+          "name": "Ojos Tiernos",
+          "type": "Hada",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 12,
+          "id": 180,
+          "name": "Rencor",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 16,
+          "id": 513,
+          "name": "Calcinación",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 60,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 16,
+          "id": 109,
+          "name": "Rayo Confuso",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 18,
+          "id": 577,
+          "name": "Voz Cautiv.",
+          "type": "Hada",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 0,
+          "pp": 15
+        },
+        {
+          "lvl": 22,
+          "id": 261,
+          "name": "Fuego Fatuo",
+          "type": "Fuego",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 23,
+          "id": 185,
+          "name": "Finta",
+          "type": "Siniestro",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 26,
+          "id": 509,
+          "name": "Infortunio",
+          "type": "Fantasma",
+          "cat": "Especial",
+          "power": 65,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 28,
+          "id": 83,
+          "name": "Giro Fuego",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 35,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 28,
+          "id": 484,
+          "name": "Pirotecnia",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 70,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 29,
+          "id": 326,
+          "name": "Paranormal",
+          "type": "Psíquico",
+          "cat": "Especial",
+          "power": 80,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 33,
+          "id": 53,
+          "name": "Lanzallamas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 90,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 37,
+          "id": 286,
+          "name": "Cerca",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 39,
+          "id": 219,
+          "name": "Velo Sagrado",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 25
+        },
+        {
+          "lvl": 47,
+          "id": 445,
+          "name": "Seducción",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 48,
+          "id": 520,
+          "name": "Infierno",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 100,
+          "acc": 50,
+          "pp": 5
+        },
+        {
+          "lvl": 48,
+          "id": 288,
+          "name": "Rabia",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 49,
+          "id": 126,
+          "name": "Llamarada",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 110,
+          "acc": 85,
+          "pp": 5
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Cueva Oscura",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Cueva Oscura (Acceso Ruta 31)",
+          "time": "Noche",
+          "rate": "8%",
+          "method": "Hierba"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Vulpix de Alola",
+          "id": "37_alola",
+          "types": [
+            "Hielo"
+          ],
+          "slug": "vulpix-alola",
+          "evolves_to": [
+            {
+              "name": "Ninetales de Alola",
+              "id": "38_alola",
+              "types": [
+                "Hielo",
+                "Hada"
+              ],
+              "slug": "ninetales-alola",
+              "evolves_to": [],
+              "method": "Usar Piedra Hielo",
+              "method_type": "item",
+              "item": "Piedra Hielo",
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Ninetales de Alola (Usar Piedra Hielo)"
+      ],
+      "slug": "vulpix-alola"
+    },
+    {
+      "id": "38_alola",
+      "name": "Ninetales de Alola",
+      "types": [
+        "Hielo",
+        "Hada"
+      ],
+      "stats": {
+        "hp": 73,
+        "atk": 67,
+        "def": 75,
+        "spe": 109,
+        "spa": 81,
+        "spd": 100,
+        "total": 505
+      },
+      "abilities": [
+        "Manto Níveo"
+      ],
+      "learnset": [
+        {
+          "lvl": 0,
+          "id": 417,
+          "name": "Maquinación",
+          "type": "Siniestro",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 0,
+          "id": 588,
+          "name": "Fuerza Lunar",
+          "type": "Hada",
+          "cat": "Especial",
+          "power": 95,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 1,
+          "id": 180,
+          "name": "Rencor",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 109,
+          "name": "Rayo Confuso",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 261,
+          "name": "Fuego Fatuo",
+          "type": "Fuego",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 1,
+          "id": 326,
+          "name": "Paranormal",
+          "type": "Psíquico",
+          "cat": "Especial",
+          "power": 80,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 1,
+          "id": 53,
+          "name": "Lanzallamas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 90,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 1,
+          "id": 286,
+          "name": "Cerca",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 83,
+          "name": "Giro Fuego",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 35,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 1,
+          "id": 219,
+          "name": "Velo Sagrado",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 520,
+          "name": "Infierno",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 100,
+          "acc": 50,
+          "pp": 5
+        },
+        {
+          "lvl": 1,
+          "id": 288,
+          "name": "Rabia",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 1,
+          "id": 126,
+          "name": "Llamarada",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 110,
+          "acc": 85,
+          "pp": 5
+        },
+        {
+          "lvl": 1,
+          "id": 52,
+          "name": "Ascuas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 39,
+          "name": "Látigo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 1,
+          "id": 50,
+          "name": "Anulación",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 1,
+          "id": 98,
+          "name": "At. Rápido",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 30
+        }
+      ],
+      "encounters": [],
+      "family_tree": [
+        {
+          "name": "Vulpix de Alola",
+          "id": "37_alola",
+          "types": [
+            "Hielo"
+          ],
+          "slug": "vulpix-alola",
+          "evolves_to": [
+            {
+              "name": "Ninetales de Alola",
+              "id": "38_alola",
+              "types": [
+                "Hielo",
+                "Hada"
+              ],
+              "slug": "ninetales-alola",
+              "evolves_to": [],
+              "method": "Usar Piedra Hielo",
+              "method_type": "item",
+              "item": "Piedra Hielo",
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [],
+      "slug": "ninetales-alola"
+    },
+    {
+      "id": "58_hisui",
+      "name": "Growlithe de Hisui",
+      "types": [
+        "Fuego",
+        "Roca"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 75,
+        "def": 45,
+        "spe": 55,
+        "spa": 65,
+        "spd": 50,
+        "total": 350
+      },
+      "abilities": [
+        "Intimidación",
+        "Absorbe Fuego"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 52,
+          "name": "Ascuas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 43,
+          "name": "Malicioso",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 4,
+          "id": 336,
+          "name": "Aullido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 40
+        },
+        {
+          "lvl": 8,
+          "id": 44,
+          "name": "Mordisco",
+          "type": "Siniestro",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 12,
+          "id": 172,
+          "name": "Rueda Fuego",
+          "type": "Fuego",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 16,
+          "id": 270,
+          "name": "Refuerzo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 20,
+          "id": 97,
+          "name": "Agilidad",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 30
+        },
+        {
+          "lvl": 24,
+          "id": 424,
+          "name": "Colm. Ígneo",
+          "type": "Fuego",
+          "cat": "Físico",
+          "power": 65,
+          "acc": 95,
+          "pp": 15
+        },
+        {
+          "lvl": 28,
+          "id": 517,
+          "name": "Represalia",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 70,
+          "acc": 100,
+          "pp": 5
+        },
+        {
+          "lvl": 32,
+          "id": 242,
+          "name": "Triturar",
+          "type": "Siniestro",
+          "cat": "Físico",
+          "power": 80,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 36,
+          "id": 36,
+          "name": "Derribo",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 90,
+          "acc": 85,
+          "pp": 20
+        },
+        {
+          "lvl": 40,
+          "id": 53,
+          "name": "Lanzallamas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 90,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 44,
+          "id": 46,
+          "name": "Rugido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 48,
+          "id": 586,
+          "name": "Carantoña",
+          "type": "Hada",
+          "cat": "Físico",
+          "power": 90,
+          "acc": 90,
+          "pp": 10
+        },
+        {
+          "lvl": 52,
+          "id": 179,
+          "name": "Inversión",
+          "type": "Lucha",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 56,
+          "id": 394,
+          "name": "Envite Ígneo",
+          "type": "Fuego",
+          "cat": "Físico",
+          "power": 120,
+          "acc": 100,
+          "pp": 15
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "20%",
+          "method": "Hierba"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Growlithe de Hisui",
+          "id": "58_hisui",
+          "types": [
+            "Fuego",
+            "Roca"
+          ],
+          "slug": "growlithe-hisui",
+          "evolves_to": [
+            {
+              "name": "Arcanine de Hisui",
+              "id": "59_hisui",
+              "types": [
+                "Fuego",
+                "Roca"
+              ],
+              "slug": "arcanine-hisui",
+              "evolves_to": [],
+              "method": "Usar Piedra Fuego",
+              "method_type": "item",
+              "item": "Piedra Fuego",
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Arcanine de Hisui (Usar Piedra Fuego)"
+      ],
+      "slug": "growlithe-hisui"
+    },
+    {
+      "id": "100_hisui",
+      "name": "Voltorb de Hisui",
+      "types": [
+        "Eléctrico",
+        "Planta"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 30,
+        "def": 50,
+        "spe": 100,
+        "spa": 55,
+        "spd": 55,
+        "total": 330
+      },
+      "abilities": [
+        "Insonorizar",
+        "Electricidad Estática"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 268,
+          "name": "Carga",
+          "type": "Eléctrico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 1,
+          "id": 33,
+          "name": "Placaje",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 4,
+          "id": 49,
+          "name": "Bomba Sónica",
+          "type": "Normal",
+          "cat": "Especial",
+          "power": 1,
+          "acc": 90,
+          "pp": 20
+        },
+        {
+          "lvl": 6,
+          "id": 601,
+          "name": "Onda Anómala",
+          "type": "Eléctrico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 9,
+          "id": 209,
+          "name": "Chispa",
+          "type": "Eléctrico",
+          "cat": "Físico",
+          "power": 65,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 11,
+          "id": 205,
+          "name": "Desenrollar",
+          "type": "Roca",
+          "cat": "Físico",
+          "power": 30,
+          "acc": 90,
+          "pp": 20
+        },
+        {
+          "lvl": 13,
+          "id": 103,
+          "name": "Chirrido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 85,
+          "pp": 40
+        },
+        {
+          "lvl": 16,
+          "id": 451,
+          "name": "Rayo Carga",
+          "type": "Eléctrico",
+          "cat": "Especial",
+          "power": 50,
+          "acc": 90,
+          "pp": 10
+        },
+        {
+          "lvl": 20,
+          "id": 129,
+          "name": "Rapidez",
+          "type": "Normal",
+          "cat": "Especial",
+          "power": 60,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 22,
+          "id": 489,
+          "name": "Bola Voltio",
+          "type": "Eléctrico",
+          "cat": "Especial",
+          "power": 1,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 26,
+          "id": 120,
+          "name": "Autodestruc",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 200,
+          "acc": 100,
+          "pp": 5
+        },
+        {
+          "lvl": 29,
+          "id": 113,
+          "name": "Pantalla Luz",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 30
+        },
+        {
+          "lvl": 34,
+          "id": 393,
+          "name": "Levitón",
+          "type": "Eléctrico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 37,
+          "id": 435,
+          "name": "Chispazo",
+          "type": "Eléctrico",
+          "cat": "Especial",
+          "power": 80,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 41,
+          "id": 153,
+          "name": "Explosión",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 250,
+          "acc": 100,
+          "pp": 5
+        },
+        {
+          "lvl": 46,
+          "id": 360,
+          "name": "Giro Bola",
+          "type": "Acero",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 5
+        },
+        {
+          "lvl": 48,
+          "id": 243,
+          "name": "Manto Espejo",
+          "type": "Psíquico",
+          "cat": "Especial",
+          "power": 1,
+          "acc": 100,
+          "pp": 20
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Ruta 36",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Voltorb de Hisui",
+          "id": "100_hisui",
+          "types": [
+            "Eléctrico",
+            "Planta"
+          ],
+          "slug": "voltorb-hisui",
+          "evolves_to": [
+            {
+              "name": "Electrode de Hisui",
+              "id": "101_hisui",
+              "types": [
+                "Eléctrico",
+                "Planta"
+              ],
+              "slug": "electrode-hisui",
+              "evolves_to": [],
+              "method": "Usar Piedra Hoja",
+              "method_type": "item",
+              "item": "Piedra Hoja",
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Electrode de Hisui (Usar Piedra Hoja)"
+      ],
+      "slug": "voltorb-hisui"
+    },
+    {
+      "id": "79_galar",
+      "name": "Slowpoke de Galar",
+      "types": [
+        "Psíquico"
+      ],
+      "stats": {
+        "hp": 90,
+        "atk": 65,
+        "def": 65,
+        "spe": 15,
+        "spa": 40,
+        "spd": 40,
+        "total": 315
+      },
+      "abilities": [
+        "Glotonería",
+        "Propio Ritmo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 174,
+          "name": "Maldición",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 33,
+          "name": "Placaje",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 3,
+          "id": 45,
+          "name": "Gruñido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 40
+        },
+        {
+          "lvl": 6,
+          "id": 55,
+          "name": "Pistola Agua",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 9,
+          "id": 281,
+          "name": "Bostezo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 12,
+          "id": 93,
+          "name": "Confusión",
+          "type": "Psíquico",
+          "cat": "Especial",
+          "power": 50,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 15,
+          "id": 50,
+          "name": "Anulación",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 18,
+          "id": 352,
+          "name": "Hidropulso",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 60,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 21,
+          "id": 29,
+          "name": "Golpe Cabeza",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 70,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 24,
+          "id": 428,
+          "name": "Cabezazo Zen",
+          "type": "Psíquico",
+          "cat": "Físico",
+          "power": 80,
+          "acc": 90,
+          "pp": 15
+        },
+        {
+          "lvl": 27,
+          "id": 133,
+          "name": "Amnesia",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 30,
+          "id": 57,
+          "name": "Surf",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 90,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 33,
+          "id": 303,
+          "name": "Relajo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 36,
+          "id": 94,
+          "name": "Psíquico",
+          "type": "Psíquico",
+          "cat": "Especial",
+          "power": 90,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 39,
+          "id": 244,
+          "name": "Más Psique",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 42,
+          "id": 240,
+          "name": "Danza Lluvia",
+          "type": "Agua",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 45,
+          "id": 508,
+          "name": "Pulso Cura",
+          "type": "Psíquico",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
-      "slug": "geodude-alola"
+      "slug": "slowpoke-galar"
+    },
+    {
+      "id": "211_hisui",
+      "name": "Qwilfish de Hisui",
+      "types": [
+        "Siniestro",
+        "Veneno"
+      ],
+      "stats": {
+        "hp": 65,
+        "atk": 95,
+        "def": 85,
+        "spe": 85,
+        "spa": 55,
+        "spd": 55,
+        "total": 440
+      },
+      "abilities": [
+        "Punto Tóxico",
+        "Nado Rápido"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 40,
+          "name": "Picotazo Ven",
+          "type": "Veneno",
+          "cat": "Físico",
+          "power": 15,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 33,
+          "name": "Placaje",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 568,
+          "name": "AguijónLetal",
+          "type": "Bicho",
+          "cat": "Físico",
+          "power": 50,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 56,
+          "name": "Hidrobomba",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 110,
+          "acc": 80,
+          "pp": 5
+        },
+        {
+          "lvl": 1,
+          "id": 194,
+          "name": "Mismodestino",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 1,
+          "id": 55,
+          "name": "Pistola Agua",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 191,
+          "name": "Púas",
+          "type": "Tierra",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 6,
+          "id": 106,
+          "name": "Fortaleza",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 30
+        },
+        {
+          "lvl": 8,
+          "id": 55,
+          "name": "Pistola Agua",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 12,
+          "id": 107,
+          "name": "Reducción",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 10
+        },
+        {
+          "lvl": 13,
+          "id": 145,
+          "name": "Burbuja",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 20,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 17,
+          "id": 205,
+          "name": "Desenrollar",
+          "type": "Roca",
+          "cat": "Físico",
+          "power": 30,
+          "acc": 90,
+          "pp": 20
+        },
+        {
+          "lvl": 20,
+          "id": 191,
+          "name": "Púas",
+          "type": "Tierra",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 28,
+          "id": 362,
+          "name": "Salmuera",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 65,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 28,
+          "id": 279,
+          "name": "Desquite",
+          "type": "Lucha",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 29,
+          "id": 390,
+          "name": "Púas Tóxicas",
+          "type": "Veneno",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 34,
+          "id": 568,
+          "name": "AguijónLetal",
+          "type": "Bicho",
+          "cat": "Físico",
+          "power": 50,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 34,
+          "id": 42,
+          "name": "Pin Misil",
+          "type": "Bicho",
+          "cat": "Físico",
+          "power": 25,
+          "acc": 95,
+          "pp": 20
+        },
+        {
+          "lvl": 35,
+          "id": 254,
+          "name": "Reserva",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 20
+        },
+        {
+          "lvl": 35,
+          "id": 255,
+          "name": "Escupir",
+          "type": "Normal",
+          "cat": "Especial",
+          "power": 1,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 44,
+          "id": 398,
+          "name": "Puya Nociva",
+          "type": "Veneno",
+          "cat": "Físico",
+          "power": 80,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 44,
+          "id": 36,
+          "name": "Derribo",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 90,
+          "acc": 85,
+          "pp": 20
+        },
+        {
+          "lvl": 50,
+          "id": 401,
+          "name": "Acua Cola",
+          "type": "Agua",
+          "cat": "Físico",
+          "power": 90,
+          "acc": 90,
+          "pp": 10
+        },
+        {
+          "lvl": 52,
+          "id": 92,
+          "name": "Tóxico",
+          "type": "Veneno",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 90,
+          "pp": 10
+        },
+        {
+          "lvl": 57,
+          "id": 56,
+          "name": "Hidrobomba",
+          "type": "Agua",
+          "cat": "Especial",
+          "power": 110,
+          "acc": 80,
+          "pp": 5
+        },
+        {
+          "lvl": 59,
+          "id": 194,
+          "name": "Mismodestino",
+          "type": "Fantasma",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 60,
+          "id": 367,
+          "name": "Acupresión",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 30
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Pozo Slowpoke",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
+        {
+          "route": "Ruta 38",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Qwilfish de Hisui",
+          "id": "211_hisui",
+          "types": [
+            "Siniestro",
+            "Veneno"
+          ],
+          "slug": "qwilfish-hisui",
+          "evolves_to": [
+            {
+              "name": "Overqwil",
+              "id": 954,
+              "types": [
+                "Siniestro",
+                "Veneno"
+              ],
+              "slug": "overqwil",
+              "evolves_to": [],
+              "method": "Nivel 28",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Overqwil (Nivel 28)"
+      ],
+      "slug": "qwilfish-hisui"
+    },
+    {
+      "id": "570_hisui",
+      "name": "Zorua de Hisui",
+      "types": [
+        "Normal",
+        "Fantasma"
+      ],
+      "stats": {
+        "hp": 35,
+        "atk": 60,
+        "def": 40,
+        "spe": 70,
+        "spa": 80,
+        "spd": 40,
+        "total": 325
+      },
+      "abilities": [
+        "Ilusión"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 16,
+          "name": "Tornado",
+          "type": "Volador",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 45,
+          "name": "Gruñido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 40
+        },
+        {
+          "lvl": 1,
+          "id": 43,
+          "name": "Malicioso",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 1,
+          "id": 98,
+          "name": "At. Rápido",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 4,
+          "id": 45,
+          "name": "Gruñido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 40
+        },
+        {
+          "lvl": 8,
+          "id": 43,
+          "name": "Malicioso",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 11,
+          "id": 98,
+          "name": "At. Rápido",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 15,
+          "id": 314,
+          "name": "Aire Afilado",
+          "type": "Volador",
+          "cat": "Especial",
+          "power": 60,
+          "acc": 95,
+          "pp": 25
+        },
+        {
+          "lvl": 19,
+          "id": 269,
+          "name": "Mofa",
+          "type": "Siniestro",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 28,
+          "id": 197,
+          "name": "Detección",
+          "type": "Lucha",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 31,
+          "id": 207,
+          "name": "Contoneo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 85,
+          "pp": 15
+        },
+        {
+          "lvl": 31,
+          "id": 355,
+          "name": "Respiro",
+          "type": "Volador",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 5
+        },
+        {
+          "lvl": 33,
+          "id": 297,
+          "name": "Danza Pluma",
+          "type": "Volador",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 35,
+          "id": 403,
+          "name": "Tajo Aéreo",
+          "type": "Volador",
+          "cat": "Especial",
+          "power": 75,
+          "acc": 95,
+          "pp": 15
+        },
+        {
+          "lvl": 36,
+          "id": 13,
+          "name": "V. Cortante",
+          "type": "Normal",
+          "cat": "Especial",
+          "power": 80,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 50,
+          "id": 263,
+          "name": "Imagen",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 70,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 51,
+          "id": 366,
+          "name": "Viento Afín",
+          "type": "Volador",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 15
+        },
+        {
+          "lvl": 57,
+          "id": 143,
+          "name": "Ataque Aéreo",
+          "type": "Volador",
+          "cat": "Físico",
+          "power": 140,
+          "acc": 90,
+          "pp": 5
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Cueva"
+        },
+        {
+          "route": "Torre Quemada",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Zorua de Hisui",
+          "id": "570_hisui",
+          "types": [
+            "Normal",
+            "Fantasma"
+          ],
+          "slug": "zorua-hisui",
+          "evolves_to": [
+            {
+              "name": "Zoroark de Hisui",
+              "id": "571_hisui",
+              "types": [
+                "Normal",
+                "Fantasma"
+              ],
+              "slug": "zoroark-hisui",
+              "evolves_to": [],
+              "method": "Nivel 30",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Zoroark de Hisui (Nivel 30)"
+      ],
+      "slug": "zorua-hisui"
+    },
+    {
+      "id": "550_hisui",
+      "name": "Basculin (Raya Blanca)",
+      "types": [
+        "Agua"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 92,
+        "def": 65,
+        "spe": 98,
+        "spa": 80,
+        "spd": 55,
+        "total": 460
+      },
+      "abilities": [
+        "Cobardía",
+        "Adaptable"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "id": 292,
+          "name": "Empujón",
+          "type": "Lucha",
+          "cat": "Físico",
+          "power": 15,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 1,
+          "id": 359,
+          "name": "Machada",
+          "type": "Lucha",
+          "cat": "Físico",
+          "power": 100,
+          "acc": 90,
+          "pp": 10
+        },
+        {
+          "lvl": 1,
+          "id": 33,
+          "name": "Placaje",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 40,
+          "acc": 100,
+          "pp": 35
+        },
+        {
+          "lvl": 1,
+          "id": 39,
+          "name": "Látigo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 1,
+          "id": 52,
+          "name": "Ascuas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 1,
+          "id": 316,
+          "name": "Rastreo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 40
+        },
+        {
+          "lvl": 3,
+          "id": 39,
+          "name": "Látigo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 30
+        },
+        {
+          "lvl": 7,
+          "id": 52,
+          "name": "Ascuas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 40,
+          "acc": 100,
+          "pp": 25
+        },
+        {
+          "lvl": 9,
+          "id": 316,
+          "name": "Rastreo",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 40
+        },
+        {
+          "lvl": 13,
+          "id": 111,
+          "name": "Rizo Defensa",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 0,
+          "pp": 40
+        },
+        {
+          "lvl": 15,
+          "id": 491,
+          "name": "Nitrocarga",
+          "type": "Fuego",
+          "cat": "Físico",
+          "power": 50,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 20,
+          "id": 123,
+          "name": "Polución",
+          "type": "Veneno",
+          "cat": "Especial",
+          "power": 30,
+          "acc": 70,
+          "pp": 20
+        },
+        {
+          "lvl": 23,
+          "id": 205,
+          "name": "Desenrollar",
+          "type": "Roca",
+          "cat": "Físico",
+          "power": 30,
+          "acc": 90,
+          "pp": 20
+        },
+        {
+          "lvl": 28,
+          "id": 36,
+          "name": "Derribo",
+          "type": "Normal",
+          "cat": "Físico",
+          "power": 90,
+          "acc": 85,
+          "pp": 20
+        },
+        {
+          "lvl": 31,
+          "id": 538,
+          "name": "Golpe Calor",
+          "type": "Fuego",
+          "cat": "Físico",
+          "power": 1,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 38,
+          "id": 372,
+          "name": "Buena Baza",
+          "type": "Siniestro",
+          "cat": "Físico",
+          "power": 60,
+          "acc": 100,
+          "pp": 10
+        },
+        {
+          "lvl": 43,
+          "id": 53,
+          "name": "Lanzallamas",
+          "type": "Fuego",
+          "cat": "Especial",
+          "power": 90,
+          "acc": 100,
+          "pp": 15
+        },
+        {
+          "lvl": 50,
+          "id": 457,
+          "name": "Testarazo",
+          "type": "Roca",
+          "cat": "Físico",
+          "power": 150,
+          "acc": 80,
+          "pp": 5
+        },
+        {
+          "lvl": 55,
+          "id": 46,
+          "name": "Rugido",
+          "type": "Normal",
+          "cat": "Estado",
+          "power": 0,
+          "acc": 100,
+          "pp": 20
+        },
+        {
+          "lvl": 62,
+          "id": 394,
+          "name": "Envite Ígneo",
+          "type": "Fuego",
+          "cat": "Físico",
+          "power": 120,
+          "acc": 100,
+          "pp": 15
+        }
+      ],
+      "encounters": [
+        {
+          "route": "Ciudad Orquídea",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        }
+      ],
+      "family_tree": [
+        {
+          "name": "Basculin (Raya Blanca)",
+          "id": "550_hisui",
+          "types": [
+            "Agua"
+          ],
+          "slug": "basculin-white-striped",
+          "evolves_to": [
+            {
+              "name": "Basculegion",
+              "id": "basculegion",
+              "types": [
+                "Normal"
+              ],
+              "slug": "",
+              "evolves_to": [],
+              "method": "Nivel 36",
+              "method_type": "level",
+              "item": null,
+              "move": null
+            }
+          ]
+        }
+      ],
+      "evolutions_text": [
+        "Evoluciona a Basculegion (Nivel 36)"
+      ],
+      "slug": "basculin-white-striped"
     }
   ],
   "moves": [
@@ -342656,9 +345824,27 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 1062,
+          "name": "Polchgeist",
+          "slug": "polchgeist",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
           "pid": "59_hisui",
           "name": "Arcanine de Hisui",
           "slug": "arcanine-hisui",
+          "types": [
+            "Fuego",
+            "Roca"
+          ]
+        },
+        {
+          "pid": "58_hisui",
+          "name": "Growlithe de Hisui",
+          "slug": "growlithe-hisui",
           "types": [
             "Fuego",
             "Roca"
@@ -342818,6 +346004,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Fantasma"
+          ]
+        },
+        {
+          "pid": "550_hisui",
+          "name": "Basculin (Raya Blanca)",
+          "slug": "basculin-white-striped",
+          "types": [
+            "Agua"
           ]
         }
       ]
@@ -343317,6 +346511,15 @@ window.CHIRLGOLD_DATA = {
           "pid": 996,
           "name": "Bramblin",
           "slug": "bramblin",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 997,
+          "name": "Bramblgast",
+          "slug": "bramblgast",
           "types": [
             "Planta",
             "Fantasma"
@@ -345392,6 +348595,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fantasma"
           ]
+        },
+        {
+          "pid": "550_hisui",
+          "name": "Basculin (Raya Blanca)",
+          "slug": "basculin-white-striped",
+          "types": [
+            "Agua"
+          ]
         }
       ]
     },
@@ -346294,6 +349505,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "garganacl",
           "types": [
             "Roca"
+          ]
+        },
+        {
+          "pid": 1050,
+          "name": "Gholdengo",
+          "slug": "gholdengo",
+          "types": [
+            "Acero",
+            "Fantasma"
           ]
         }
       ]
@@ -347289,6 +350509,15 @@ window.CHIRLGOLD_DATA = {
             "Eléctrico",
             "Planta"
           ]
+        },
+        {
+          "pid": "100_hisui",
+          "name": "Voltorb de Hisui",
+          "slug": "voltorb-hisui",
+          "types": [
+            "Eléctrico",
+            "Planta"
+          ]
         }
       ]
     },
@@ -347360,6 +350589,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Eléctrico",
             "Volador"
+          ]
+        },
+        {
+          "pid": 927,
+          "name": "Morpeko",
+          "slug": "morpeko",
+          "types": [
+            "Eléctrico",
+            "Siniestro"
           ]
         }
       ]
@@ -348551,6 +351789,15 @@ window.CHIRLGOLD_DATA = {
             "Acero",
             "Veneno"
           ]
+        },
+        {
+          "pid": 1050,
+          "name": "Gholdengo",
+          "slug": "gholdengo",
+          "types": [
+            "Acero",
+            "Fantasma"
+          ]
         }
       ]
     },
@@ -349436,6 +352683,20 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Glotonería",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": "79_galar",
+          "name": "Slowpoke de Galar",
+          "slug": "slowpoke-galar",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Gran Encanto",
       "desc": "Puede causar enamoramiento al rival que lo toque.",
       "pokemon": [
@@ -349726,6 +352987,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Dragón"
+          ]
+        },
+        {
+          "pid": 927,
+          "name": "Morpeko",
+          "slug": "morpeko",
+          "types": [
+            "Eléctrico",
+            "Siniestro"
           ]
         },
         {
@@ -350585,6 +353855,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 1062,
+          "name": "Polchgeist",
+          "slug": "polchgeist",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
           "pid": 1063,
           "name": "Sinistcha",
           "slug": "sinistcha",
@@ -350676,6 +353955,15 @@ window.CHIRLGOLD_DATA = {
           "pid": "571_hisui",
           "name": "Zoroark de Hisui",
           "slug": "zoroark-hisui",
+          "types": [
+            "Normal",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": "570_hisui",
+          "name": "Zorua de Hisui",
+          "slug": "zorua-hisui",
           "types": [
             "Normal",
             "Fantasma"
@@ -351267,6 +354555,15 @@ window.CHIRLGOLD_DATA = {
             "Eléctrico",
             "Planta"
           ]
+        },
+        {
+          "pid": "100_hisui",
+          "name": "Voltorb de Hisui",
+          "slug": "voltorb-hisui",
+          "types": [
+            "Eléctrico",
+            "Planta"
+          ]
         }
       ]
     },
@@ -351577,6 +354874,15 @@ window.CHIRLGOLD_DATA = {
           "pid": "59_hisui",
           "name": "Arcanine de Hisui",
           "slug": "arcanine-hisui",
+          "types": [
+            "Fuego",
+            "Roca"
+          ]
+        },
+        {
+          "pid": "58_hisui",
+          "name": "Growlithe de Hisui",
+          "slug": "growlithe-hisui",
           "types": [
             "Fuego",
             "Roca"
@@ -352043,6 +355349,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Bicho",
             "Eléctrico"
+          ]
+        },
+        {
+          "pid": 997,
+          "name": "Bramblgast",
+          "slug": "bramblgast",
+          "types": [
+            "Planta",
+            "Fantasma"
           ]
         },
         {
@@ -352652,6 +355967,41 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Hielo",
             "Veneno"
+          ]
+        },
+        {
+          "pid": "27_alola",
+          "name": "Sandshrew de Alola",
+          "slug": "sandshrew-alola",
+          "types": [
+            "Hielo",
+            "Acero"
+          ]
+        },
+        {
+          "pid": "28_alola",
+          "name": "Sandslash de Alola",
+          "slug": "sandslash-alola",
+          "types": [
+            "Hielo",
+            "Acero"
+          ]
+        },
+        {
+          "pid": "37_alola",
+          "name": "Vulpix de Alola",
+          "slug": "vulpix-alola",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": "38_alola",
+          "name": "Ninetales de Alola",
+          "slug": "ninetales-alola",
+          "types": [
+            "Hielo",
+            "Hada"
           ]
         }
       ]
@@ -353815,6 +357165,23 @@ window.CHIRLGOLD_DATA = {
           "pid": 954,
           "name": "Overqwil",
           "slug": "overqwil",
+          "types": [
+            "Siniestro",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1014,
+          "name": "Palafin",
+          "slug": "palafin",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": "211_hisui",
+          "name": "Qwilfish de Hisui",
+          "slug": "qwilfish-hisui",
           "types": [
             "Siniestro",
             "Veneno"
@@ -355528,6 +358895,20 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Propio Ritmo",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": "79_galar",
+          "name": "Slowpoke de Galar",
+          "slug": "slowpoke-galar",
+          "types": [
+            "Psíquico"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Psicogénesis",
       "desc": "Crea un campo psíquico al entrar en combate.",
       "pokemon": [
@@ -355690,6 +359071,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Veneno",
             "Tierra"
+          ]
+        },
+        {
+          "pid": "211_hisui",
+          "name": "Qwilfish de Hisui",
+          "slug": "qwilfish-hisui",
+          "types": [
+            "Siniestro",
+            "Veneno"
           ]
         }
       ]
@@ -358625,6 +362015,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua"
           ]
+        },
+        {
+          "pid": 1014,
+          "name": "Palafin",
+          "slug": "palafin",
+          "types": [
+            "Agua"
+          ]
         }
       ]
     },
@@ -359659,6 +363057,13 @@ window.CHIRLGOLD_DATA = {
           "method": "Usar Piedra Fuego"
         },
         {
+          "from": "Growlithe de Hisui",
+          "from_id": "58_hisui",
+          "to": "Arcanine de Hisui",
+          "to_id": "59_hisui",
+          "method": "Usar Piedra Fuego"
+        },
+        {
           "from": "Vulpix",
           "from_id": 37,
           "to": "Ninetales",
@@ -359813,6 +363218,13 @@ window.CHIRLGOLD_DATA = {
           "from_id": 102,
           "to": "Exeggutor",
           "to_id": 103,
+          "method": "Usar Piedra Hoja"
+        },
+        {
+          "from": "Voltorb de Hisui",
+          "from_id": "100_hisui",
+          "to": "Electrode de Hisui",
+          "to_id": "101_hisui",
           "method": "Usar Piedra Hoja"
         },
         {
@@ -360127,6 +363539,20 @@ window.CHIRLGOLD_DATA = {
           "from_id": 789,
           "to": "Crabominable",
           "to_id": 0,
+          "method": "Usar Piedra Hielo"
+        },
+        {
+          "from": "Sandshrew de Alola",
+          "from_id": "27_alola",
+          "to": "Sandslash de Alola",
+          "to_id": "28_alola",
+          "method": "Usar Piedra Hielo"
+        },
+        {
+          "from": "Vulpix de Alola",
+          "from_id": "37_alola",
+          "to": "Ninetales de Alola",
+          "to_id": "38_alola",
           "method": "Usar Piedra Hielo"
         },
         {
@@ -360556,6 +363982,20 @@ window.CHIRLGOLD_DATA = {
       "evolves": []
     },
     {
+      "name": "Chapa Dorada",
+      "category": "Objeto Competitivo / Clave",
+      "location": "Campeón Lance (R1 y R2), 16 Líderes en el Dojo de Azafrán (Nv. 100), Rojo (Monte Plateado), Team Rocket (Protón, Atenea, Atlas, Giovanni), Eusine (Orquídea) y Silver (Calle Victoria y Monte Moon).",
+      "desc": "Una bonita chapa de color dorado, menos común que su equivalente plateada. Hay gente que las aprec...",
+      "evolves": []
+    },
+    {
+      "name": "Chapa Plateada",
+      "category": "Objeto Competitivo / Clave",
+      "location": "Recompensa de Gimnasios y canjeable en la Especialista de Entrenamiento (6 Plateadas = 1 Dorada).",
+      "desc": "Una bonita chapa de color plata. Hay gente que las aprecia mucho.",
+      "evolves": []
+    },
+    {
       "name": "Cápsula Habilidad",
       "category": "Objeto Competitivo / Clave",
       "location": "Centro Comercial de Ciudad Trigal y Ciudad Azulona (Piso 3F).",
@@ -360564,6 +364004,23 @@ window.CHIRLGOLD_DATA = {
     }
   ],
   "routes": [
+    {
+      "name": "Ciudad Cerezo",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 341,
+          "pokemon": "Corphish",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        }
+      ]
+    },
     {
       "name": "Ciudad Olivo",
       "region": "Johto",
@@ -360579,7 +364036,7 @@ window.CHIRLGOLD_DATA = {
           "pid": 902,
           "pokemon": "Clobbopus",
           "time": "Todo el día",
-          "rate": "5%",
+          "rate": "35%",
           "method": "Surf"
         },
         {
@@ -360600,8 +364057,36 @@ window.CHIRLGOLD_DATA = {
           "pid": 789,
           "pokemon": "Crabrawler",
           "time": "Todo el día",
-          "rate": "60%",
+          "rate": "120%",
           "method": "Surf"
+        },
+        {
+          "pid": 98,
+          "pokemon": "Krabby",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 642,
+          "pokemon": "Frillish",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 921,
+          "pokemon": "Pincurchin",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        },
+        {
+          "pid": 796,
+          "pokemon": "Wishiwashi",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
         },
         {
           "pid": 90,
@@ -360652,28 +364137,63 @@ window.CHIRLGOLD_DATA = {
           "pid": 797,
           "pokemon": "Mareanie",
           "time": "Todo el día",
-          "rate": "60%",
+          "rate": "120%",
           "method": "Surf"
         },
         {
           "pid": 1026,
           "pokemon": "Veluza",
           "time": "Todo el día",
-          "rate": "30%",
-          "method": "Surf"
-        },
-        {
-          "pid": 370,
-          "pokemon": "Luvdisc",
-          "time": "Todo el día",
-          "rate": "5%",
+          "rate": "60%",
           "method": "Surf"
         },
         {
           "pid": 644,
           "pokemon": "Alomomola",
           "time": "Todo el día",
+          "rate": "9%",
+          "method": "Surf"
+        },
+        {
+          "pid": 1013,
+          "pokemon": "Finizen",
+          "time": "Todo el día",
           "rate": "4%",
+          "method": "Surf"
+        },
+        {
+          "pid": 952,
+          "pokemon": "Basclegion",
+          "time": "Todo el día",
+          "rate": "2%",
+          "method": "Surf"
+        },
+        {
+          "pid": "550_hisui",
+          "pokemon": "Basculin (Raya Blanca)",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        },
+        {
+          "pid": 821,
+          "pokemon": "Pyukumuku",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        },
+        {
+          "pid": 370,
+          "pokemon": "Luvdisc",
+          "time": "Todo el día",
+          "rate": "40%",
+          "method": "Pesca"
+        },
+        {
+          "pid": 370,
+          "pokemon": "Luvdisc",
+          "time": "Todo el día",
+          "rate": "5%",
           "method": "Surf"
         }
       ]
@@ -360765,6 +364285,34 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
+        },
+        {
+          "pid": 824,
+          "pokemon": "Minior",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": "74_alola",
+          "pokemon": "Geodude de Alola",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Cueva"
+        },
+        {
+          "pid": "27_alola",
+          "pokemon": "Sandshrew de Alola",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": "37_alola",
+          "pokemon": "Vulpix de Alola",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Cueva"
         }
       ]
     },
@@ -360823,8 +364371,8 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
-          "pid": 27,
-          "pokemon": "Sandshrew",
+          "pid": "27_alola",
+          "pokemon": "Sandshrew de Alola",
           "time": "Mañana y Día",
           "rate": "8%",
           "method": "Hierba"
@@ -360886,8 +364434,8 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
-          "pid": 37,
-          "pokemon": "Vulpix",
+          "pid": "37_alola",
+          "pokemon": "Vulpix de Alola",
           "time": "Noche",
           "rate": "8%",
           "method": "Hierba"
@@ -360919,6 +364467,13 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "5%",
           "method": "Surf"
+        },
+        {
+          "pid": 982,
+          "pokemon": "Nacli",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
         },
         {
           "pid": 111,
@@ -361071,6 +364626,20 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Sirfetch’d",
           "time": "Noche",
           "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 811,
+          "pokemon": "Bounsweet",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 825,
+          "pokemon": "Komala",
+          "time": "Noche",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
@@ -361357,6 +364926,61 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
+        },
+        {
+          "pid": 782,
+          "pokemon": "Trumbeak",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        }
+      ]
+    },
+    {
+      "name": "Islas Remolino",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 740,
+          "pokemon": "Skrelp",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
+        {
+          "pid": 369,
+          "pokemon": "Relicanth",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
+        }
+      ]
+    },
+    {
+      "name": "Lago de la Furia",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1027,
+          "pokemon": "Dondozo",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
+        {
+          "pid": 1028,
+          "pokemon": "Tatsugiri",
+          "time": "Todo el día",
+          "rate": "1%",
+          "method": "Surf"
         }
       ]
     },
@@ -361376,6 +365000,13 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
+        },
+        {
+          "pid": 349,
+          "pokemon": "Feebas",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
         },
         {
           "pid": 299,
@@ -361678,6 +365309,13 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 567,
+          "pokemon": "Munna",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "pid": 138,
           "pokemon": "Omanyte",
           "time": "Mañana y Día",
@@ -361837,6 +365475,34 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 79,
+          "pokemon": "Slowpoke",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 988,
+          "pokemon": "Tadbulb",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": "211_hisui",
+          "pokemon": "Qwilfish de Hisui",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
+        {
+          "pid": "79_galar",
+          "pokemon": "Slowpoke de Galar",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
           "pid": 1010,
           "pokemon": "Wiglett",
           "time": "Mañana y Día",
@@ -361912,6 +365578,34 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "20%",
           "method": "Hierba"
+        },
+        {
+          "pid": 1005,
+          "pokemon": "Flittle",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1049,
+          "pokemon": "Gimmighoul",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 930,
+          "pokemon": "Dracozolt",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 932,
+          "pokemon": "Dracovish",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
         },
         {
           "pid": 177,
@@ -362061,6 +365755,20 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 965,
+          "pokemon": "Lechonk",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 877,
+          "pokemon": "Nickit",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "pid": 396,
           "pokemon": "Starly",
           "time": "Mañana y Día",
@@ -362193,6 +365901,27 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 784,
+          "pokemon": "Yungoos",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 13,
+          "pokemon": "Weedle",
+          "time": "Mañana y Día",
+          "rate": "9%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 869,
+          "pokemon": "Skwovet",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
           "pid": 786,
           "pokemon": "Grubbin",
           "time": "Mañana y Día",
@@ -362237,13 +365966,6 @@ window.CHIRLGOLD_DATA = {
         {
           "pid": 10,
           "pokemon": "Caterpie",
-          "time": "Mañana y Día",
-          "rate": "5%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 13,
-          "pokemon": "Weedle",
           "time": "Mañana y Día",
           "rate": "5%",
           "method": "Hierba"
@@ -362318,6 +366040,13 @@ window.CHIRLGOLD_DATA = {
         "Ruta 30"
       ],
       "encounters": [
+        {
+          "pid": 879,
+          "pokemon": "Gossifleur",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
         {
           "pid": 569,
           "pokemon": "Pidove",
@@ -362429,6 +366158,13 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
+        },
+        {
+          "pid": 339,
+          "pokemon": "Barboach",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
         },
         {
           "pid": 270,
@@ -362546,6 +366282,13 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Seviper",
           "time": "Noche",
           "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 21,
+          "pokemon": "Spearow",
+          "time": "Mañana y Día",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
@@ -362693,6 +366436,34 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "pid": 885,
+          "pokemon": "Yamper",
+          "time": "Mañana y Día",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 927,
+          "pokemon": "Morpeko",
+          "time": "Noche",
+          "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 752,
+          "pokemon": "Dedenne",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 819,
+          "pokemon": "Sandygast",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
         },
         {
           "pid": 96,
@@ -362919,6 +366690,13 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 981,
+          "pokemon": "Squawkbily",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "pid": 719,
           "pokemon": "Flabébé",
           "time": "Mañana y Día",
@@ -363024,6 +366802,20 @@ window.CHIRLGOLD_DATA = {
         "Ruinas Alfa"
       ],
       "encounters": [
+        {
+          "pid": 978,
+          "pokemon": "Smoliv",
+          "time": "Mañana y Día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": "100_hisui",
+          "pokemon": "Voltorb de Hisui",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
         {
           "pid": 66,
           "pokemon": "Machop",
@@ -363317,6 +367109,13 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 996,
+          "pokemon": "Bramblin",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
           "pid": 278,
           "pokemon": "Wingull",
           "time": "Mañana y Día",
@@ -363408,8 +367207,8 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
-          "pid": 100,
-          "pokemon": "Voltorb",
+          "pid": "100_hisui",
+          "pokemon": "Voltorb de Hisui",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
@@ -363429,8 +367228,8 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
-          "pid": 211,
-          "pokemon": "Qwilfish",
+          "pid": "211_hisui",
+          "pokemon": "Qwilfish de Hisui",
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
@@ -363467,6 +367266,20 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Obstagoon",
           "time": "Noche",
           "rate": "10%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 726,
+          "pokemon": "Furfrou",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 816,
+          "pokemon": "Passimian",
+          "time": "Todo el día",
+          "rate": "5%",
           "method": "Hierba"
         },
         {
@@ -363609,12 +367422,33 @@ window.CHIRLGOLD_DATA = {
           "pid": 829,
           "pokemon": "Bruxish",
           "time": "Todo el día",
-          "rate": "5%",
+          "rate": "35%",
           "method": "Surf"
         },
         {
           "pid": 120,
           "pokemon": "Staryu",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 318,
+          "pokemon": "Carvanha",
+          "time": "Todo el día",
+          "rate": "94%",
+          "method": "Surf"
+        },
+        {
+          "pid": 458,
+          "pokemon": "Mantyke",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 895,
+          "pokemon": "Cramorant",
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
@@ -363624,13 +367458,6 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Chinchou",
           "time": "Todo el día",
           "rate": "65%",
-          "method": "Surf"
-        },
-        {
-          "pid": 318,
-          "pokemon": "Carvanha",
-          "time": "Todo el día",
-          "rate": "34%",
           "method": "Surf"
         },
         {
@@ -363654,12 +367481,33 @@ window.CHIRLGOLD_DATA = {
           "pid": 366,
           "pokemon": "Clamperl",
           "time": "Todo el día",
-          "rate": "5%",
+          "rate": "35%",
           "method": "Surf"
         },
         {
           "pid": 954,
           "pokemon": "Overqwil",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 320,
+          "pokemon": "Wailmer",
+          "time": "Todo el día",
+          "rate": "90%",
+          "method": "Surf"
+        },
+        {
+          "pid": 116,
+          "pokemon": "Horsea",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Surf"
+        },
+        {
+          "pid": 456,
+          "pokemon": "Finneon",
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
@@ -363669,13 +367517,6 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Remoraid",
           "time": "Todo el día",
           "rate": "60%",
-          "method": "Surf"
-        },
-        {
-          "pid": 320,
-          "pokemon": "Wailmer",
-          "time": "Todo el día",
-          "rate": "30%",
           "method": "Surf"
         },
         {
@@ -363713,6 +367554,20 @@ window.CHIRLGOLD_DATA = {
         "Pueblo Caoba"
       ],
       "encounters": [
+        {
+          "pid": 600,
+          "pokemon": "Basculin",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
+        },
+        {
+          "pid": 896,
+          "pokemon": "Arrokuda",
+          "time": "Todo el día",
+          "rate": "20%",
+          "method": "Pesca"
+        },
         {
           "pid": 441,
           "pokemon": "Chatot",
@@ -363937,6 +367792,20 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 622,
+          "pokemon": "Minccino",
+          "time": "Mañana y Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 1000,
+          "pokemon": "Klawf",
+          "time": "Mañana y Día",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
           "pid": 744,
           "pokemon": "Helioptile",
           "time": "Mañana y Día",
@@ -363967,13 +367836,6 @@ window.CHIRLGOLD_DATA = {
         {
           "pid": 598,
           "pokemon": "Petilil",
-          "time": "Mañana y Día",
-          "rate": "10%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 622,
-          "pokemon": "Minccino",
           "time": "Mañana y Día",
           "rate": "10%",
           "method": "Hierba"
@@ -364138,6 +368000,13 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
+        },
+        {
+          "pid": 742,
+          "pokemon": "Clauncher",
+          "time": "Todo el día",
+          "rate": "3%",
+          "method": "Surf"
         },
         {
           "pid": 660,
@@ -364349,6 +368218,41 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 677,
+          "pokemon": "Rufflet",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 668,
+          "pokemon": "Stunfisk",
+          "time": "Mañana y Día",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 914,
+          "pokemon": "Cursola",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 359,
+          "pokemon": "Absol",
+          "time": "Noche",
+          "rate": "11%",
+          "method": "Hierba"
+        },
+        {
+          "pid": 679,
+          "pokemon": "Vullaby",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Hierba"
+        },
+        {
           "pid": 1017,
           "pokemon": "Cyclizar",
           "time": "Mañana y Día",
@@ -364367,13 +368271,6 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Kangaskhan",
           "time": "Mañana y Día",
           "rate": "12%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 668,
-          "pokemon": "Stunfisk",
-          "time": "Mañana y Día",
-          "rate": "10%",
           "method": "Hierba"
         },
         {
@@ -364402,13 +368299,6 @@ window.CHIRLGOLD_DATA = {
           "pokemon": "Clobbopus",
           "time": "Noche",
           "rate": "20%",
-          "method": "Hierba"
-        },
-        {
-          "pid": 359,
-          "pokemon": "Absol",
-          "time": "Noche",
-          "rate": "10%",
           "method": "Hierba"
         },
         {
@@ -364465,6 +368355,20 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "5%",
           "method": "Hierba"
+        },
+        {
+          "pid": 925,
+          "pokemon": "Eiscue",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 931,
+          "pokemon": "Arctozolt",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Cueva"
         },
         {
           "pid": 361,
@@ -364619,6 +368523,13 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "pid": 1062,
+          "pokemon": "Polchgeist",
+          "time": "Noche",
+          "rate": "5%",
+          "method": "Cueva"
+        },
+        {
           "pid": 43,
           "pokemon": "Oddish",
           "time": "Mañana y Día",
@@ -364748,6 +368659,27 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": "58_hisui",
+          "pokemon": "Growlithe de Hisui",
+          "time": "Mañana y Día",
+          "rate": "4%",
+          "method": "Cueva"
+        },
+        {
+          "pid": "570_hisui",
+          "pokemon": "Zorua de Hisui",
+          "time": "Noche",
+          "rate": "4%",
+          "method": "Cueva"
+        },
+        {
+          "pid": 791,
+          "pokemon": "Oricorio",
+          "time": "Noche",
+          "rate": "1%",
+          "method": "Cueva"
+        },
+        {
           "pid": 58,
           "pokemon": "Growlithe",
           "time": "Mañana y Día",
@@ -364804,8 +368736,8 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
-          "pid": 58,
-          "pokemon": "Growlithe",
+          "pid": "58_hisui",
+          "pokemon": "Growlithe de Hisui",
           "time": "Noche",
           "rate": "20%",
           "method": "Hierba"
@@ -364818,8 +368750,8 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
-          "pid": 620,
-          "pokemon": "Zorua",
+          "pid": "570_hisui",
+          "pokemon": "Zorua de Hisui",
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
@@ -365014,6 +368946,13 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
+        },
+        {
+          "pid": 933,
+          "pokemon": "Arctovish",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
         }
       ]
     },
@@ -365172,6 +369111,13 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "pid": 1018,
+          "pokemon": "Orthworm",
+          "time": "Todo el día",
+          "rate": "5%",
+          "method": "Cueva"
         }
       ]
     }
@@ -365181,118 +369127,79 @@ window.CHIRLGOLD_DATA = {
       "name": "Pegaso (Falkner)",
       "city": "Ciudad Malvalba (Gimnasio 1)",
       "badge": "Medalla Céfiro",
-      "level_cap": 14,
+      "level_cap": 13,
       "team": [
         {
-          "pokemon": "Gligar",
-          "level": 13,
-          "item": "Baya Aranja",
+          "pokemon": "Hoothoot",
+          "level": 12,
+          "item": "Ninguno",
           "moves": [
-            "Bofetón Lodo",
-            "Picotazo Ven",
-            "At. Rápido",
-            "Fortaleza"
-          ]
-        },
-        {
-          "pokemon": "Wattrel",
-          "level": 13,
-          "item": "Baya Caquic",
-          "moves": [
-            "Impactrueno",
-            "Aire Afilado",
-            "Onda Trueno",
-            "At. Rápido"
+            "Placaje",
+            "Picotazo",
+            "Gruñido"
           ]
         },
         {
           "pokemon": "Doduo",
-          "level": 13,
-          "item": "Baya Aranja",
+          "level": 12,
+          "item": "Ninguno",
           "moves": [
+            "Ataque Rápido",
             "Picotazo",
-            "Doble Patada",
-            "Bofetón Lodo",
-            "Malicioso"
+            "Gruñido"
           ]
         },
         {
           "pokemon": "Noctowl",
           "level": 13,
-          "item": "Baya Zidra",
+          "item": "Baya Aranja",
           "moves": [
-            "Tornado",
-            "Respiro",
+            "Placaje",
+            "Confusión",
             "Hipnosis",
-            "Vien. Aciago"
+            "Picotazo"
           ]
         }
-      ],
-      "strategy": "Abre con presión de Hoothoot con Rayo Confuso e Hipnosis para forzar cambios y desgaste. Doduo y Noctowl golpean con alta velocidad y cobertura voladora física/especial. <b>Consejo:</b> Usa a Mareep (capturable en Ruta 32) o Geodude (Cueva Oscura) para resistir sus ataques al 50% y eliminarlos de un impacto eléctrico o roca. Lleva Bayas Atania para prevenir el sueño de Noctowl."
+      ]
     },
     {
       "name": "Antón (Bugsy)",
       "city": "Pueblo Azalea (Gimnasio 2)",
       "badge": "Medalla Colmena",
-      "level_cap": 18,
+      "level_cap": 19,
       "team": [
         {
-          "pokemon": "Dwebble",
+          "pokemon": "Anorith",
           "level": 17,
-          "item": "Baya Aranja",
+          "item": "Ninguno",
           "moves": [
-            "Trampa Rocas",
             "Tumba Rocas",
-            "Tijera X",
-            "Protección"
-          ]
-        },
-        {
-          "pokemon": "Ariados",
-          "level": 17,
-          "item": "Baya Zidra",
-          "moves": [
-            "Disp. Demora",
-            "Picotazo Ven",
-            "Sombra Vil",
-            "Tinieblas"
+            "Picadura",
+            "Fortaleza"
           ]
         },
         {
           "pokemon": "Heracross",
-          "level": 17,
-          "item": "Baya Aranja",
+          "level": 18,
+          "item": "Ninguno",
           "moves": [
-            "Demolición",
-            "Cornada",
-            "Golpe Aéreo",
-            "At. Rápido"
-          ]
-        },
-        {
-          "pokemon": "Yanma",
-          "level": 17,
-          "item": "Baya Caquic",
-          "moves": [
-            "Aire Afilado",
-            "Doble Rayo",
-            "Detección",
-            "Hipnosis"
+            "Golpe Roca",
+            "Ataque Furia",
+            "Malicioso"
           ]
         },
         {
           "pokemon": "Scyther",
-          "level": 17,
+          "level": 19,
           "item": "Baya Zidra",
           "moves": [
             "Ida y Vuelta",
-            "Golpe Aéreo",
-            "At. Rápido",
-            "Picadura"
+            "Ataque Ala",
+            "Persecución",
+            "Foco Energía"
           ]
         }
-      ],
-      "strategy": "Ninjask con Impulso y Vidasfera inicia acelerando el combate con Danza Espada e Ida y Vuelta; Scyther con Garrafilada mete presión crítica con Demolición y Ataque Ala; Lokix remata con Escaramuza o Golpe Bajo. <b>Consejo:</b> Los ataques de Fuego (Quilava, Houndour) y Roca (Geodude con Trampa Rocas o Lanzarrocas) son devastadores. Scyther tiene debilidad x4 a Roca; forzarlo a golpear contra un tipo Roca desgastará su salud."
+      ]
     },
     {
       "name": "Blanca (Whitney)",
@@ -365302,361 +369209,182 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Clefairy",
-          "level": 21,
+          "level": 20,
           "item": "Mineral Evol",
           "moves": [
-            "Reflejo",
-            "Onda Trueno",
-            "Voz Cautiv.",
-            "Metrónomo"
-          ]
-        },
-        {
-          "pokemon": "Ambipom",
-          "level": 21,
-          "item": "Baya Meloc",
-          "moves": [
-            "Sorpresa",
-            "Doble Golpe",
-            "Bofetón Lodo",
-            "Persecución"
-          ]
-        },
-        {
-          "pokemon": "Furret",
-          "level": 21,
-          "item": "Baya Caquic",
-          "moves": [
-            "At. Rápido",
-            "Golpes Furia",
-            "Desenrollar",
-            "Bofetón Lodo"
-          ]
-        },
-        {
-          "pokemon": "Wigglytuff",
-          "level": 21,
-          "item": "Restos",
-          "moves": [
-            "Encanto",
-            "Onda Trueno",
-            "Voz Cautiv.",
-            "Espacio Raro"
+            "Beso Drenaje",
+            "Metrónomo",
+            "Canto"
           ]
         },
         {
           "pokemon": "Miltank",
-          "level": 21,
+          "level": 22,
           "item": "Baya Zidra",
           "moves": [
-            "Pisotón",
             "Desenrollar",
-            "Batido",
-            "Atracción"
+            "Pisotón",
+            "Atracción",
+            "Batido"
           ]
         }
-      ],
-      "strategy": "Bewear con Peluche reduce el daño físico a la mitad; Blissey absorbe cualquier ataque especial; Miltank ataca con Desenrollar y se cura con Batido; Diggersby cubre la debilidad a Roca/Lucha con tipo Tierra. <b>Consejo:</b> ¡No uses ataques físicos contra Bewear salvo que sean de Fuego! Contra Miltank, un tipo Fantasma (Gastly) anula Desenrollar y Pisotón. Ataques de Lucha Especial (Aura Esfera) y quemaduras de Fuego Fatuo arruinan la recuperación de Miltank y Blissey."
+      ]
     },
     {
       "name": "Morti (Morty)",
       "city": "Ciudad Iris (Gimnasio 4)",
       "badge": "Medalla Niebla",
-      "level_cap": 28,
+      "level_cap": 26,
       "team": [
         {
-          "pokemon": "Haunter",
-          "level": 27,
-          "item": "Banda Focus",
+          "pokemon": "Gastly",
+          "level": 23,
+          "item": "Ninguno",
           "moves": [
-            "Fuego Fatuo",
+            "Rayo Confuso",
+            "Tinieblas",
+            "Maldición"
+          ]
+        },
+        {
+          "pokemon": "Haunter",
+          "level": 24,
+          "item": "Ninguno",
+          "moves": [
+            "Tinieblas",
+            "Pesadilla",
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Haunter",
+          "level": 24,
+          "item": "Ninguno",
+          "moves": [
             "Tinieblas",
             "Rayo Confuso",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Sableye",
-          "level": 27,
-          "item": "Restos",
-          "moves": [
-            "Fuego Fatuo",
-            "Desarme",
-            "Recuperación",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Misdreavus",
-          "level": 27,
-          "item": "Mineral Evol",
-          "moves": [
-            "Bola Sombra",
-            "LlamaEmbruj.",
-            "Rayo Confuso",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Drifblim",
-          "level": 27,
-          "item": "Baya Zidra",
-          "moves": [
-            "Bola Sombra",
-            "Vuelo",
-            "Camelo",
-            "Hipnosis"
+            "Rencor"
           ]
         },
         {
           "pokemon": "Gengar",
-          "level": 27,
-          "item": "Vidasfera",
+          "level": 26,
+          "item": "Baya Zidra",
           "moves": [
             "Bola Sombra",
-            "Bomba Lodo",
-            "Esfera Aural",
-            "Hipnosis"
-          ]
-        },
-        {
-          "pokemon": "Mismagius",
-          "level": 27,
-          "item": "Vidasfera",
-          "moves": [
-            "Bola Sombra",
-            "LlamaEmbruj.",
-            "Psíquico",
-            "Paz Mental"
+            "Hipnosis",
+            "Come Sueños",
+            "Mismo Destino"
           ]
         }
-      ],
-      "strategy": "Gengar veloz con Hipnosis y Bola Sombra; Annihilape castiga cualquier intento de desgaste con Puño Furia acumulativo; Houndstone gana poder masivo con Último Respeto a medida que caen sus compañeros. <b>Consejo:</b> Tipos Siniestro (Houndoom, Umbreon) y Normales son inmunes o resistentes a Bola Sombra. ¡Jamás uses ataques débiles contra Annihilape para no cargar su Puño Furia! Noquéalo de un solo golpe con Psíquico, Volador o Hada."
+      ]
     },
     {
       "name": "Aníbal (Chuck)",
       "city": "Ciudad Orquídea (Gimnasio 5)",
       "badge": "Medalla Tormenta",
-      "level_cap": 34,
+      "level_cap": 31,
       "team": [
         {
-          "pokemon": "Hitmontop",
-          "level": 35,
-          "item": "Restos",
-          "moves": [
-            "Sorpresa",
-            "Golpe Bajo",
-            "A Bocajarro",
-            "Giro Rápido"
-          ]
-        },
-        {
           "pokemon": "Primeape",
-          "level": 35,
-          "item": "Vidasfera",
+          "level": 29,
+          "item": "Ninguno",
           "moves": [
-            "A Bocajarro",
-            "Puño Hielo",
-            "Desarme",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Breloom",
-          "level": 35,
-          "item": "Banda Focus",
-          "moves": [
-            "Espora",
-            "Ultrapuño",
-            "Abatidoras",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Machamp",
-          "level": 35,
-          "item": "Baya Zidra",
-          "moves": [
-            "Puñodinámico",
-            "Roca Afilada",
-            "Puño Hielo",
-            "Desquite"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 35,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Esfera Aural",
-            "Foco Respl.",
-            "Pulso Dragón",
-            "Vel. Extrema"
+            "Puño Furia",
+            "Demolición",
+            "Doble Equipo"
           ]
         },
         {
           "pokemon": "Poliwrath",
-          "level": 35,
+          "level": 31,
           "item": "Baya Zidra",
           "moves": [
-            "Cascada",
-            "Puño Hielo",
+            "Puño Dinámico",
+            "Surf",
             "Hipnosis",
-            "Demolición"
+            "Golpe Cuerpo"
           ]
         }
-      ],
-      "strategy": "Hawlucha golpea con velocidad y Plancha Voladora; Urshifu-Fluido asesta 3 golpes críticos garantizados anulando Protección; Poliwrath presiona con Cascada y Puño Dinámico. <b>Consejo:</b> Tipos Volador, Hada y Psíquico (Espeon, Togekiss) dominan la mesa, pero cuídate de los Puños Elementales de Hitmonchan. Intimidadores (Gyarados, Arcanine) neutralizan su daño físico."
+      ]
     },
     {
       "name": "Yasmina (Jasmine)",
       "city": "Ciudad Olivo (Gimnasio 6)",
       "badge": "Medalla Mineral",
-      "level_cap": 38,
+      "level_cap": 35,
       "team": [
         {
-          "pokemon": "Skarmory",
-          "level": 40,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Pájaro Osado",
-            "Remolino"
-          ]
-        },
-        {
-          "pokemon": "Bronzong",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Giro Bola",
-            "Paranormal",
-            "Pantalla Luz",
-            "Paz Mental"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 40,
-          "item": "Gafas Elegid",
+          "pokemon": "Magnemite",
+          "level": 32,
+          "item": "Ninguno",
           "moves": [
             "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Poder Oculto"
+            "Bomba Sónica",
+            "Onda Trueno"
           ]
         },
         {
-          "pokemon": "Empoleon",
-          "level": 40,
-          "item": "Chaleco Asalto",
+          "pokemon": "Magnemite",
+          "level": 32,
+          "item": "Ninguno",
           "moves": [
-            "Escaldar",
-            "Foco Respl.",
-            "Rayo Hielo",
-            "Acua Jet"
-          ]
-        },
-        {
-          "pokemon": "Scizor",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Bala",
-            "Picadura",
-            "Danza Espada",
-            "Demolición"
+            "Rayo",
+            "Supersónico",
+            "Onda Trueno"
           ]
         },
         {
           "pokemon": "Steelix",
-          "level": 40,
-          "item": "Cinta Xperto",
+          "level": 35,
+          "item": "Baya Zidra",
           "moves": [
+            "Cola Férrea",
             "Terremoto",
-            "Testarazo",
-            "Giro Bola",
-            "Colm. Ígneo"
+            "Tormenta de Arena",
+            "Colmillo Hielo"
           ]
         }
-      ],
-      "strategy": "Muro blindado con Trampa Rocas de Skarmory, Martillo Colosal de Tinkaton, Levitación en Bronzong y Kingambit como venganza letal con General Supremo. <b>Consejo:</b> Ten respuestas de Fuego, Tierra y Lucha. Skarmory y Tinkaton caen ante Fuego; Bronzong requiere Fuego o Siniestro por su Levitación; Steelix y Magneton son vulnerables a Terremoto. Prioriza eliminar a Kingambit rápido."
+      ]
     },
     {
       "name": "Fredo (Pryce)",
       "city": "Pueblo Caoba (Gimnasio 7)",
       "badge": "Medalla Glaciar",
-      "level_cap": 40,
+      "level_cap": 39,
       "team": [
         {
-          "pokemon": "Abomasnow",
-          "level": 40,
-          "item": "Roca Helada",
+          "pokemon": "Seel",
+          "level": 36,
+          "item": "Ninguno",
           "moves": [
-            "Ventisca",
-            "Gigadrenado",
-            "Canto Helado",
-            "Mazazo"
+            "Rayo Hielo",
+            "Surf",
+            "Descanso"
           ]
         },
         {
           "pokemon": "Dewgong",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Surf",
-            "Rayo Hielo",
-            "Manto Espejo",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Froslass",
-          "level": 40,
-          "item": "Banda Focus",
-          "moves": [
-            "Ventisca",
-            "Bola Sombra",
-            "Púas",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Cloyster",
-          "level": 40,
+          "level": 38,
           "item": "Ninguno",
           "moves": [
-            "Rompecoraza",
-            "Carámbano",
-            "Pedrada",
-            "Concha Filo"
+            "Rayo Hielo",
+            "Surf",
+            "Velo Aurora"
           ]
         },
         {
-          "pokemon": "Weavile",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Mamoswine",
-          "level": 40,
-          "item": "Cinta Xperto",
+          "pokemon": "Piloswine",
+          "level": 39,
+          "item": "Baya Zidra",
           "moves": [
             "Terremoto",
             "Chuzos",
-            "Canto Helado",
-            "Fuerza Bruta"
+            "Granizo",
+            "Canto Helado"
           ]
         }
-      ],
-      "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
+      ]
     },
     {
       "name": "Débora (Clair)",
@@ -365665,929 +369393,155 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 45,
       "team": [
         {
-          "pokemon": "Garchomp",
-          "level": 45,
-          "item": "Casco Dentado",
+          "pokemon": "Gyarados",
+          "level": 42,
+          "item": "Ninguno",
           "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Cola Dragón",
-            "Avalancha"
+            "Cascada",
+            "Mordisco",
+            "Onda Trueno",
+            "Furia Dragón"
           ]
         },
         {
           "pokemon": "Dragonair",
-          "level": 45,
-          "item": "Mineral Evol",
-          "moves": [
-            "Onda Trueno",
-            "Pulso Dragón",
-            "Acua Cola",
-            "Descanso"
-          ]
-        },
-        {
-          "pokemon": "Flygon",
-          "level": 45,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Terremoto",
-            "Garra Dragón",
-            "Ida y Vuelta",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Altaria",
-          "level": 45,
-          "item": "Restos",
-          "moves": [
-            "Voz Cautiv.",
-            "Lanzallamas",
-            "Respiro",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 45,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Kingdra",
-          "level": 45,
-          "item": "Vidasfera",
+          "level": 43,
+          "item": "Ninguno",
           "moves": [
             "Pulso Dragón",
-            "Hidrobomba",
-            "Rayo Hielo",
-            "Foco Energía"
-          ]
-        }
-      ],
-      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
-    },
-    {
-      "name": "Rival Silver (Combate 1)",
-      "city": "Ciudad Cerezo",
-      "badge": "Rival",
-      "level_cap": 15,
-      "team": [
-        {
-          "pokemon": "Cyndaquil",
-          "level": 5,
-          "item": "Baya Aranja",
-          "moves": [
-            "Placaje",
-            "Malicioso",
-            "Ascuas",
-            "At. Rápido"
-          ]
-        }
-      ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
-    },
-    {
-      "name": "Rival Silver (Combate 2)",
-      "city": "Pueblo Azalea",
-      "badge": "Rival",
-      "level_cap": 20,
-      "team": [
-        {
-          "pokemon": "Gastly",
-          "level": 17,
-          "item": "Polvo Brillo",
-          "moves": [
-            "Tinieblas",
-            "Rayo Confuso",
-            "Fuego Fatuo",
-            "Rompecoraza"
-          ]
-        },
-        {
-          "pokemon": "Zubat",
-          "level": 17,
-          "item": "Baya Meloc",
-          "moves": [
-            "Ataque Ala",
-            "Mordisco",
-            "Colmillo Ven",
-            "Supersónico"
-          ]
-        },
-        {
-          "pokemon": "Magnemite",
-          "level": 17,
-          "item": "Baya Aranja",
-          "moves": [
-            "Impactrueno",
-            "Onda Trueno",
-            "Bofetón Lodo",
-            "Reflejo"
-          ]
-        },
-        {
-          "pokemon": "Sneasel",
-          "level": 17,
-          "item": "Baya Caquic",
-          "moves": [
-            "At. Rápido",
-            "Finta",
-            "Viento Hielo",
-            "Malicioso"
-          ]
-        },
-        {
-          "pokemon": "Croconaw",
-          "level": 17,
-          "item": "Baya Zidra",
-          "moves": [
-            "Pistola Agua",
-            "Mordisco",
-            "Arañazo",
-            "Malicioso"
-          ]
-        }
-      ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
-    },
-    {
-      "name": "Rival Silver (Combate 3)",
-      "city": "Faro de Olivo",
-      "badge": "Rival",
-      "level_cap": 38,
-      "team": [
-        {
-          "pokemon": "Haunter",
-          "level": 23,
-          "item": "Banda Focus",
-          "moves": [
-            "Fuego Fatuo",
-            "Tinieblas",
-            "Rayo Confuso",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Golbat",
-          "level": 23,
-          "item": "Baya Meloc",
-          "moves": [
-            "Ataque Ala",
-            "Colmillo Ven",
-            "Mordisco",
-            "Supersónico"
-          ]
-        },
-        {
-          "pokemon": "Magnemite",
-          "level": 23,
-          "item": "Mineral Evol",
-          "moves": [
-            "Rayo",
-            "Onda Trueno",
-            "Bofetón Lodo",
-            "Reflejo"
-          ]
-        },
-        {
-          "pokemon": "Kadabra",
-          "level": 24,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Psicorrayo",
-            "Rayo Confuso",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Sneasel",
-          "level": 24,
-          "item": "Cinta Xperto",
-          "moves": [
-            "At. Rápido",
-            "Tajo Umbrío",
-            "Chuzos",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 25,
-          "item": "Baya Zidra",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
-    },
-    {
-      "name": "Rival Silver (Combate 4)",
-      "city": "Subterráneo Trigal",
-      "badge": "Rival",
-      "level_cap": 42,
-      "team": [
-        {
-          "pokemon": "Gengar",
-          "level": 42,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Magneton",
-          "level": 42,
-          "item": "Mineral Evol",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
+            "Surf",
             "Onda Trueno"
           ]
         },
         {
-          "pokemon": "Crobat",
-          "level": 42,
-          "item": "Lodo Negro",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 42,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera",
-            "Paz Mental"
-          ]
-        },
-        {
-          "pokemon": "Weavile",
-          "level": 42,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Chuzos",
-            "Tajo Umbrío",
-            "Canto Helado",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 42,
-          "item": "Baya Zidra",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
-    },
-    {
-      "name": "Rival Silver (Combate 5)",
-      "city": "Calle Victoria",
-      "badge": "Rival Gatekeeper",
-      "level_cap": 55,
-      "team": [
-        {
-          "pokemon": "Gengar",
-          "level": 55,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Onda Certera",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 55,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Triataque"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 55,
-          "item": "Lodo Negro",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera",
-            "BrilloMágico"
-          ]
-        },
-        {
-          "pokemon": "Weavile",
-          "level": 55,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 55,
-          "item": "Baya Zidra",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
-    },
-    {
-      "name": "Ejecutivo Petrel",
-      "city": "Escondite Caoba",
-      "badge": "Team Rocket",
-      "level_cap": 40,
-      "team": [
-        {
-          "pokemon": "Gengar",
-          "level": 40,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Arbok",
-          "level": 40,
-          "item": "Lodo Negro",
-          "moves": [
-            "Puya Nociva",
-            "Terremoto",
-            "Desarme",
-            "Deslumbrar"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 40,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Raticate",
-          "level": 40,
+          "pokemon": "Dragonair",
+          "level": 43,
           "item": "Ninguno",
           "moves": [
-            "Imagen",
-            "Golpe Bajo",
-            "Triturar",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Drapion",
-          "level": 40,
-          "item": "Casco Dentado",
-          "moves": [
-            "Desarme",
-            "Terremoto",
-            "Puya Nociva",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Weezing",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Fuego Fatuo",
-            "Divide Dolor"
-          ]
-        }
-      ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
-    },
-    {
-      "name": "Ejecutiva Ariana",
-      "city": "Escondite Caoba",
-      "badge": "Team Rocket",
-      "level_cap": 40,
-      "team": [
-        {
-          "pokemon": "Arbok",
-          "level": 40,
-          "item": "Lodo Negro",
-          "moves": [
-            "Bomba Lodo",
-            "Terremoto",
-            "Mordisco",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Gloom",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Energibola",
-            "Bomba Lodo",
-            "Tóxico",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Murkrow",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Pulso Umbrío",
-            "Ataque Ala",
-            "Golpe Bajo",
-            "Onda Certera"
-          ]
-        }
-      ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
-    },
-    {
-      "name": "Ejecutivo Petrel (Torre)",
-      "city": "Torre Radio Trigal",
-      "badge": "Team Rocket",
-      "level_cap": 43,
-      "team": [
-        {
-          "pokemon": "Zoroark",
-          "level": 43,
-          "item": "Banda Focus",
-          "moves": [
-            "Pulso Umbrío",
-            "Lanzallamas",
-            "Onda Certera",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 43,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Drapion",
-          "level": 43,
-          "item": "Casco Dentado",
-          "moves": [
-            "Desarme",
-            "Terremoto",
-            "Puya Nociva",
-            "Trampa Ven."
-          ]
-        },
-        {
-          "pokemon": "Muk",
-          "level": 43,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Desarme",
-            "Puya Nociva",
-            "Puño Fuego",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 43,
-          "item": "Vidasfera",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Foco Respl.",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Weezing",
-          "level": 43,
-          "item": "Lodo Negro",
-          "moves": [
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Divide Dolor",
-            "Fuego Fatuo"
-          ]
-        }
-      ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
-    },
-    {
-      "name": "Ejecutivo Protón (Torre)",
-      "city": "Torre Radio Trigal",
-      "badge": "Team Rocket",
-      "level_cap": 43,
-      "team": [
-        {
-          "pokemon": "Qwilfish",
-          "level": 43,
-          "item": "Banda Focus",
-          "moves": [
-            "Púas Tóxicas",
-            "Cascada",
-            "Puya Nociva",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Golbat",
-          "level": 43,
-          "item": "Mineral Evol",
-          "moves": [
-            "Veneno X",
-            "Golpe Aéreo",
-            "Respiro",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Skuntank",
-          "level": 43,
-          "item": "Vidasfera",
-          "moves": [
-            "Golpe Bajo",
-            "Puya Nociva",
-            "Triturar",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Toxicroak",
-          "level": 43,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Demolición",
-            "Puya Nociva",
-            "Golpe Bajo",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Houndoom",
-          "level": 43,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Lanzallamas",
-            "Pulso Umbrío",
-            "Onda Ígnea",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Weezing",
-          "level": 43,
-          "item": "Casco Dentado",
-          "moves": [
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Explosión",
-            "Divide Dolor"
-          ]
-        }
-      ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
-    },
-    {
-      "name": "Ejecutiva Ariana (Torre)",
-      "city": "Torre Radio Trigal",
-      "badge": "Team Rocket",
-      "level_cap": 44,
-      "team": [
-        {
-          "pokemon": "Roserade",
-          "level": 44,
-          "item": "Banda Focus",
-          "moves": [
-            "Púas Tóxicas",
-            "Gigadrenado",
-            "Bomba Lodo",
-            "Paranormal"
-          ]
-        },
-        {
-          "pokemon": "Arbok",
-          "level": 44,
-          "item": "Lodo Negro",
-          "moves": [
-            "Puya Nociva",
-            "Terremoto",
-            "Desarme",
-            "Enrosque"
-          ]
-        },
-        {
-          "pokemon": "Honchkrow",
-          "level": 44,
-          "item": "Vidasfera",
-          "moves": [
-            "Golpe Bajo",
-            "Pájaro Osado",
-            "Tajo Umbrío",
-            "Onda Ígnea"
-          ]
-        },
-        {
-          "pokemon": "Toxicroak",
-          "level": 44,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Demolición",
-            "Puya Nociva",
-            "Golpe Bajo",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Nidoqueen",
-          "level": 44,
-          "item": "Casco Dentado",
-          "moves": [
-            "Tierra Viva",
-            "Bomba Lodo",
+            "Pulso Dragón",
             "Rayo Hielo",
             "Llamarada"
           ]
         },
         {
-          "pokemon": "Vileplume",
-          "level": 44,
-          "item": "Restos",
+          "pokemon": "Kingdra",
+          "level": 45,
+          "item": "Baya Zidra",
           "moves": [
-            "Gigadrenado",
-            "Bomba Lodo",
-            "Drenadoras",
-            "BrilloMágico"
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Pantalla de Humo",
+            "Hiperrayo"
           ]
         }
-      ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      ]
     },
     {
-      "name": "Ejecutivo Archer (Torre)",
-      "city": "Torre Radio Trigal (Cima)",
-      "badge": "Team Rocket",
-      "level_cap": 44,
-      "team": [
-        {
-          "pokemon": "Tyranitar",
-          "level": 44,
-          "item": "Baya Pasio",
-          "moves": [
-            "Trampa Rocas",
-            "Roca Afilada",
-            "Terremoto",
-            "Triturar"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 44,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Onda Certera",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Nidoking",
-          "level": 44,
-          "item": "Vidasfera",
-          "moves": [
-            "Tierra Viva",
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Scrafty",
-          "level": 44,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "A Bocajarro",
-            "Desarme",
-            "Puño Drenaje",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Salamence",
-          "level": 44,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Garra Dragón",
-            "Terremoto",
-            "Golpe Aéreo",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Houndoom",
-          "level": 44,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Lanzallamas",
-            "Pulso Umbrío",
-            "Onda Ígnea",
-            "Bomba Lodo"
-          ]
-        }
-      ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
-    },
-    {
-      "name": "Mento (Will) - Alto Mando #1",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Psíquico",
-      "level_cap": 55,
+      "name": "Mento (Will) - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 1",
+      "level_cap": 50,
       "team": [
         {
           "pokemon": "Xatu",
-          "level": 55,
-          "item": "Refleluz",
+          "level": 48,
+          "item": "Banda Focus",
           "moves": [
-            "Reflejo",
-            "Pantalla Luz",
-            "Respiro",
-            "Paranormal"
-          ]
-        },
-        {
-          "pokemon": "Bronzong",
-          "level": 55,
-          "item": "Restos",
-          "moves": [
-            "Giro Bola",
             "Psíquico",
-            "Terremoto",
-            "Hipnosis"
-          ]
-        },
-        {
-          "pokemon": "Gallade",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "A Bocajarro",
-            "Corte",
-            "Desarme",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Reuniclus",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Paz Mental",
-            "Psicocarga",
-            "Onda Certera",
-            "Recuperación"
+            "Aire Afilado",
+            "Rayo Confuso",
+            "Paz Mental"
           ]
         },
         {
           "pokemon": "Jynx",
-          "level": 55,
-          "item": "Banda Focus",
+          "level": 49,
+          "item": "Vidasfera",
           "moves": [
-            "Beso Amoroso",
             "Ventisca",
             "Psíquico",
-            "Onda Certera"
+            "Beso Amoroso",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Exeggutor",
+          "level": 49,
+          "item": "Restos",
+          "moves": [
+            "Psíquico",
+            "Bomba Germen",
+            "Bomba Huevo",
+            "Reflejo"
           ]
         },
         {
           "pokemon": "Slowbro",
-          "level": 55,
-          "item": "Slowbronita",
+          "level": 49,
+          "item": "Restos",
           "moves": [
             "Escaldar",
             "Psíquico",
-            "Paz Mental",
-            "Relajo"
+            "Onda Certera",
+            "Amnesia"
+          ]
+        },
+        {
+          "pokemon": "Xatu",
+          "level": 50,
+          "item": "Baya Zidra",
+          "moves": [
+            "Psíquico",
+            "Tajo Aéreo",
+            "Doble Rayo",
+            "Paz Mental"
           ]
         }
-      ],
-      "strategy": "Pantallas de soporte con Xatu, Bronzong resistente con Chaleco Asalto y Trampa Rocas, cobertura de Jynx y Alakazam con Vidasfera y Mega-Slowbro como muro físico y atacante con Paz Mental. Todos los Pokémon a Nivel 55. <b>Consejo:</b> Usa tipos Siniestro, Bicho y Fantasma (Triturar, Bola Sombra). Un ataque Eléctrico o Planta contundente derriba a Slowbro antes de que acumule Paz Mental."
+      ]
     },
     {
-      "name": "Koga - Alto Mando #2",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Veneno",
-      "level_cap": 55,
+      "name": "Koga - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 2",
+      "level_cap": 51,
       "team": [
         {
+          "pokemon": "Ariados",
+          "level": 49,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Toxirred",
+            "Golpe Bajo",
+            "Picadura"
+          ]
+        },
+        {
           "pokemon": "Forretress",
-          "level": 55,
+          "level": 50,
           "item": "Casco Dentado",
           "moves": [
-            "Púas Tóxicas",
-            "Trampa Rocas",
             "Giro Rápido",
-            "Explosión"
+            "Púas Tóxicas",
+            "Explosión",
+            "Giro Bola"
           ]
         },
         {
           "pokemon": "Muk",
-          "level": 55,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Desarme",
-            "Puya Nociva",
-            "Sombra Vil",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Tentacruel",
-          "level": 55,
+          "level": 50,
           "item": "Lodo Negro",
           "moves": [
-            "Escaldar",
-            "Bomba Lodo",
-            "Niebla",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Despejar"
+            "Lanza Mugre",
+            "Puño Hielo",
+            "Puño Fuego",
+            "Sombra Vil"
           ]
         },
         {
           "pokemon": "Venomoth",
-          "level": 55,
-          "item": "Banda Focus",
+          "level": 51,
+          "item": "Vidasfera",
           "moves": [
             "Danza Aleteo",
             "Zumbido",
@@ -366596,249 +369550,223 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Beedrill",
-          "level": 55,
-          "item": "Beedrillita",
+          "pokemon": "Crobat",
+          "level": 51,
+          "item": "Baya Zidra",
           "moves": [
-            "Puya Nociva",
-            "Tijera X",
-            "Taladradora",
-            "Desquite"
+            "Pájaro Osado",
+            "Veneno X",
+            "Colmillo Ígneo",
+            "Ida y Vuelta"
           ]
         }
-      ],
-      "strategy": "Red masiva de Hazards (Trampa Rocas y Púas Tóxicas) con Forretress; Muk con Lodo Negro y Puño Drenaje; Venomoth y Crobat veloces con veneno e intimidación; y Mega-Beedrill devastador con Tijera X y Bomba Lodo. Todos a Nivel 55. <b>Consejo:</b> Abre con un ataque de Fuego rápido para noquear a Forretress antes de que ensucie el campo. Los tipos Acero son completamente inmunes a su veneno."
+      ]
     },
     {
-      "name": "Bruno - Alto Mando #3",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Lucha",
-      "level_cap": 55,
+      "name": "Bruno - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 3",
+      "level_cap": 52,
       "team": [
         {
           "pokemon": "Hitmontop",
-          "level": 55,
-          "item": "Casco Dentado",
+          "level": 50,
+          "item": "Restos",
           "moves": [
-            "Sorpresa",
-            "Giro Rápido",
             "A Bocajarro",
+            "Triple Patada",
+            "Persecución",
+            "Sorpresa"
+          ]
+        },
+        {
+          "pokemon": "Hitmonlee",
+          "level": 51,
+          "item": "Vidasfera",
+          "moves": [
+            "Patada Salto Alta",
+            "Roca Afilada",
+            "Terremoto",
             "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Hitmonchan",
+          "level": 51,
+          "item": "Cinta Elegida",
+          "moves": [
+            "Ultrapuño",
+            "Puño Fuego",
+            "Puño Hielo",
+            "Puño Trueno"
+          ]
+        },
+        {
+          "pokemon": "Onix",
+          "level": 50,
+          "item": "Mineral Evol",
+          "moves": [
+            "Terremoto",
+            "Roca Afilada",
+            "Trampa Rocas",
+            "Rugido"
           ]
         },
         {
           "pokemon": "Machamp",
-          "level": 55,
-          "item": "Chaleco Asalto",
+          "level": 52,
+          "item": "Baya Zidra",
           "moves": [
-            "Puñodinámico",
+            "Puño Dinámico",
             "Roca Afilada",
-            "Puño Bala",
+            "Puño Hielo",
             "Desquite"
           ]
-        },
-        {
-          "pokemon": "Conkeldurr",
-          "level": 55,
-          "item": "Ninguno",
-          "moves": [
-            "Imagen",
-            "Puño Drenaje",
-            "Ultrapuño",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 55,
-          "item": "Banda Focus",
-          "moves": [
-            "Esfera Aural",
-            "Foco Respl.",
-            "Maquinación",
-            "Onda Vacío"
-          ]
-        },
-        {
-          "pokemon": "Scrafty",
-          "level": 55,
-          "item": "Restos",
-          "moves": [
-            "Desarme",
-            "Machada",
-            "Puño Hielo",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Medicham",
-          "level": 55,
-          "item": "Medichamita",
-          "moves": [
-            "Patada Salto",
-            "Cabezazo Zen",
-            "Puño Hielo",
-            "Puño Fuego"
-          ]
         }
-      ],
-      "strategy": "Fuerza física imparable a Nivel 55: Hitmonlee con Cinta Elegida y Hitmonchan con coberturas elementales; Steelix tanque con Chaleco Asalto; Machamp con Indefenso; y Mega-Medicham con A Bocajarro y Danza Espada. <b>Consejo:</b> Tipos Volador y Hada son clave para resistir sus golpes de lucha. Ataca el lado especial de Steelix con Agua o Fuego para derribarlo rápidamente."
+      ]
     },
     {
-      "name": "Karen - Alto Mando #4",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Siniestro",
-      "level_cap": 55,
+      "name": "Karen - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 4",
+      "level_cap": 53,
       "team": [
         {
-          "pokemon": "Spiritomb",
-          "level": 55,
+          "pokemon": "Umbreon",
+          "level": 51,
           "item": "Restos",
           "moves": [
-            "Fuego Fatuo",
-            "Rompecoraza",
-            "Paz Mental",
-            "Divide Dolor"
-          ]
-        },
-        {
-          "pokemon": "Umbreon",
-          "level": 55,
-          "item": "Roca Calor",
-          "moves": [
-            "Día Soleado",
             "Luz Lunar",
             "Juego Sucio",
-            "Tóxico"
+            "Tóxico",
+            "Deseo"
           ]
         },
         {
-          "pokemon": "Krookodile",
-          "level": 55,
-          "item": "Casco Dentado",
+          "pokemon": "Vileplume",
+          "level": 51,
+          "item": "Lodo Negro",
           "moves": [
-            "Terremoto",
-            "Triturar",
-            "Roca Afilada",
-            "Trampa Rocas"
+            "Fuerza Lunar",
+            "Giga Drenado",
+            "Bomba Lodo",
+            "Somnífero"
           ]
         },
         {
-          "pokemon": "Weavile",
-          "level": 55,
-          "item": "Banda Focus",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Honchkrow",
-          "level": 55,
+          "pokemon": "Gengar",
+          "level": 52,
           "item": "Vidasfera",
           "moves": [
-            "Golpe Bajo",
+            "Bola Sombra",
+            "Onda Certera",
+            "Bomba Lodo",
+            "Brillo Mágico"
+          ]
+        },
+        {
+          "pokemon": "Murkrow",
+          "level": 52,
+          "item": "Mineral Evol",
+          "moves": [
             "Pájaro Osado",
+            "Golpe Bajo",
             "Onda Ígnea",
-            "Persecución"
+            "Respiro"
           ]
         },
         {
           "pokemon": "Houndoom",
-          "level": 55,
-          "item": "Houndoominita",
+          "level": 53,
+          "item": "Gafas Elegidas",
           "moves": [
             "Llamarada",
             "Pulso Umbrío",
-            "Rayo Solar",
-            "Bomba Lodo"
+            "Bomba Lodo",
+            "Maquinación"
           ]
         }
-      ],
-      "strategy": "Estrategia oscura y climática a Nivel 55: Umbreon invoca Día Soleado y se recupera con Deseo; Weavile ataca veloz con Chuzos y Danza Espada; Gengar con Banda Focus; Honchkrow; y Mega-Houndoom desatando Llamaradas colosales bajo el sol. <b>Consejo:</b> Tipos Lucha y Hada son letales contra casi todo su equipo. Apaga el sol con cambios de clima para reducir a la mitad la potencia ígnea de Houndoom."
+      ]
     },
     {
       "name": "Lance - Campeón de la Liga",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Campeón de la Liga",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Campeón de Johto",
       "level_cap": 55,
       "team": [
         {
+          "pokemon": "Gyarados",
+          "level": 51,
+          "item": "Restos",
+          "moves": [
+            "Cascada",
+            "Colmillo Hielo",
+            "Onda Trueno",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 54,
+          "item": "Vidasfera",
+          "moves": [
+            "Carga Dragón",
+            "Trueno",
+            "Vuelo",
+            "Onda Trueno"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 54,
+          "item": "Baya Rimoya",
+          "moves": [
+            "Carga Dragón",
+            "Llamarada",
+            "Ventisca",
+            "Onda Trueno"
+          ]
+        },
+        {
           "pokemon": "Aerodactyl",
-          "level": 55,
+          "level": 53,
           "item": "Banda Focus",
           "moves": [
-            "Trampa Rocas",
-            "Mofa",
-            "Avalancha",
-            "Golpe Aéreo"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 55,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Garchomp",
-          "level": 55,
-          "item": "Baya Alcho",
-          "moves": [
-            "Terremoto",
-            "Garra Dragón",
             "Roca Afilada",
-            "Danza Espada"
+            "Golpe Aéreo",
+            "Triturar",
+            "Colmillo Ígneo"
           ]
         },
         {
-          "pokemon": "Kingdra",
-          "level": 55,
-          "item": "Periscopio",
+          "pokemon": "Charizard",
+          "level": 52,
+          "item": "Gafas Elegidas",
           "moves": [
-            "Foco Energía",
-            "Pulso Dragón",
-            "Hidrobomba",
-            "Rayo Hielo"
+            "Lanzallamas",
+            "Tajo Aéreo",
+            "Onda Certera",
+            "Pulso Dragón"
           ]
         },
         {
           "pokemon": "Dragonite",
           "level": 55,
-          "item": "Restos",
+          "item": "Baya Zidra",
           "moves": [
-            "Danza Dragón",
-            "Garra Dragón",
-            "Puño Fuego",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Charizard",
-          "level": 55,
-          "item": "Charizardita X",
-          "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
+            "Enfado",
+            "Velocidad Extrema",
             "Terremoto",
-            "Danza Dragón"
+            "Puño Fuego"
           ]
         }
-      ],
-      "strategy": "Ofensiva aérea y dracónica implacable a Nivel 55: Gyarados, Aerodactyl y Kingdra con Danza Dragón; Dragonite con Multiescala y Seguro Debilidad; y Mega-Charizard X con Envite Ígneo y Garra Dragón. <b>Consejo:</b> ¡Trampa Rocas en turno 1 quita 50% de PS a Charizard y rompe la Multiescala de Dragonite! Ataques de tipo Hada y Rayo Hielo (daño x4 a Dragonite) son definitivos para alzarte con el título de Campeón."
+      ]
     },
     {
-      "name": "Lt. Surge",
+      "name": "Teniente Surge (Lt. Surge)",
       "city": "Ciudad Carmín (Gimnasio Kanto)",
       "badge": "Medalla Trueno",
-      "level_cap": 64,
+      "level_cap": 65,
       "team": [
         {
           "pokemon": "Galvantula",
@@ -366852,78 +369780,77 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Tapu Koko",
+          "pokemon": "Ampharos",
           "level": 65,
-          "item": "Cinta Xperto",
+          "item": "Ampharosita (Mega)",
           "moves": [
-            "Ida y Vuelta",
-            "Rayo",
-            "BrilloMágico",
-            "Mofa"
+            "Descarga",
+            "Pulso Dragón",
+            "Joya de Luz",
+            "Onda Certera"
           ]
         },
         {
-          "pokemon": "Eelektross",
-          "level": 65,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Gigadrenado",
-            "Lanzallamas",
-            "Rayo",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
+          "pokemon": "Magnezone",
           "level": 65,
           "item": "Restos",
           "moves": [
-            "Hidrobomba",
+            "Rayo",
+            "Foco Resplandor",
             "Voltiocambio",
-            "Fuego Fatuo",
-            "Divide Dolor"
+            "Onda Anómala"
           ]
         },
         {
-          "pokemon": "Electivire",
+          "pokemon": "Raichu de Alola",
           "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Trueno",
-            "Terremoto",
-            "Puño Hielo",
-            "Tajo Cruzado"
-          ]
-        },
-        {
-          "pokemon": "Manectric",
-          "level": 65,
-          "item": "Manectricita",
+          "item": "Gafas Elegidas",
           "moves": [
             "Rayo",
-            "Voltiocambio",
-            "Sofoco",
-            "Poder Oculto"
+            "Psíquico",
+            "Hierba Lazo",
+            "Voltiocambio"
           ]
         }
-      ],
-      "strategy": "Pawmot, Bellibolt, Magnezone, Electivire, Raichu y Jolteon despliegan ofensiva eléctrica de alto voltaje. Bellibolt acumula carga al recibir daño y Pawmot presiona con A Bocajarro. <b>Consejo:</b> Tipos Tierra (Garchomp, Swampert, Gliscor) son inmunes a sus ataques eléctricos y responden con Terremoto letal."
+      ]
     },
     {
       "name": "Sabrina",
       "city": "Ciudad Azafrán (Gimnasio Kanto)",
       "badge": "Medalla Pantano",
-      "level_cap": 68,
+      "level_cap": 65,
       "team": [
         {
+          "pokemon": "Alakazam",
+          "level": 65,
+          "item": "Alakazamita (Mega)",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "Paz Mental"
+          ]
+        },
+        {
           "pokemon": "Espeon",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Psicocarga",
+            "Brillo Mágico",
+            "Bola Sombra",
+            "Sol Matinal"
+          ]
+        },
+        {
+          "pokemon": "Mr. Mime",
           "level": 65,
           "item": "Refleluz",
           "moves": [
             "Reflejo",
-            "Pantalla Luz",
-            "Psicocarga",
-            "BrilloMágico"
+            "Pantalla de Luz",
+            "Psíquico",
+            "Brillo Mágico"
           ]
         },
         {
@@ -366936,230 +369863,76 @@ window.CHIRLGOLD_DATA = {
             "Terremoto",
             "Puño Bala"
           ]
-        },
-        {
-          "pokemon": "Hatterene",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "BrilloMágico",
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Slowking",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Relajo",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Gallade",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "A Bocajarro",
-            "Corte",
-            "Desarme",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 65,
-          "item": "Alakazamita",
-          "moves": [
-            "Psíquico",
-            "Onda Certera",
-            "Bola Sombra",
-            "BrilloMágico"
-          ]
         }
-      ],
-      "strategy": "Espathra gana un nivel de velocidad cada turno con Aceleril; Alakazam e Iron Valiant pegan con estadísticas especiales descomunales. <b>Consejo:</b> Tipos Siniestro (Houndoom, Weavile, Ting-Lu) anulan los ataques psíquicos. Ataca el lado físico de Alakazam y Espathra debido a su baja defensa física."
+      ]
     },
     {
       "name": "Erika",
       "city": "Ciudad Azulona (Gimnasio Kanto)",
       "badge": "Medalla Arcoíris",
-      "level_cap": 72,
+      "level_cap": 65,
       "team": [
         {
-          "pokemon": "Whimsicott",
+          "pokemon": "Jumpluff",
           "level": 65,
-          "item": "Roca Calor",
+          "item": "Banda Focus",
           "moves": [
-            "Día Soleado",
+            "Somnífero",
             "Drenadoras",
-            "Otra Vez",
-            "Fuerza Lunar"
+            "Ida y Vuelta",
+            "Acróbata"
+          ]
+        },
+        {
+          "pokemon": "Tangrowth",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Latigazo",
+            "Terremoto",
+            "Desarme",
+            "Síntesis"
           ]
         },
         {
           "pokemon": "Rillaboom",
           "level": 65,
-          "item": "Vidasfera",
+          "item": "Chaleco Asalto",
           "moves": [
-            "Energibola",
+            "Fitoimpulso",
             "Fuerza Bruta",
             "Desarme",
             "Ida y Vuelta"
           ]
         },
         {
-          "pokemon": "Bellossom",
-          "level": 65,
-          "item": "Banda Focus",
-          "moves": [
-            "Día Soleado",
-            "Rayo Solar",
-            "BrilloMágico",
-            "Danza Aleteo"
-          ]
-        },
-        {
-          "pokemon": "Virizion",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hoja Aguda",
-            "A Bocajarro",
-            "Roca Afilada",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Ferrothorn",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Giro Bola",
-            "Drenadoras",
-            "Latigazo"
-          ]
-        },
-        {
           "pokemon": "Venusaur",
           "level": 65,
-          "item": "Venusaurita",
+          "item": "Venusaurita (Mega)",
           "moves": [
-            "Gigadrenado",
+            "Giga Drenado",
             "Bomba Lodo",
             "Tierra Viva",
             "Síntesis"
           ]
         }
-      ],
-      "strategy": "Meowscarada asesta impactos críticos garantizados con Truco Floral; Ogerpon golpea implacable con Maza Ígnea o Garrote Rama. <b>Consejo:</b> Tipos Fuego, Volador e Hielo barren el gimnasio con relativa facilidad."
-    },
-    {
-      "name": "Misty",
-      "city": "Ciudad Celeste (Gimnasio Kanto)",
-      "badge": "Medalla Cascada",
-      "level_cap": 76,
-      "team": [
-        {
-          "pokemon": "Pelipper",
-          "level": 65,
-          "item": "Roca Lluvia",
-          "moves": [
-            "Vendaval",
-            "Escaldar",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Politoed",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Hipnosis",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Manaphy",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Ráfaga",
-            "Trueno",
-            "Escaldar",
-            "Descanso"
-          ]
-        },
-        {
-          "pokemon": "Starmie",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Hidrobomba",
-            "Trueno",
-            "Rayo Hielo",
-            "Psíquico"
-          ]
-        },
-        {
-          "pokemon": "Ludicolo",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hidrobomba",
-            "Gigadrenado",
-            "Rayo Hielo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Swampert",
-          "level": 65,
-          "item": "Swampertita",
-          "moves": [
-            "Cascada",
-            "Terremoto",
-            "Puño Hielo",
-            "Fuerza Bruta"
-          ]
-        }
-      ],
-      "strategy": "Quaquaval incrementa su velocidad con Danza Acuática; Palafin en Forma Heroica tiene estadísticas de deidad legendaria; Milotic y Lapras absorben daño. <b>Consejo:</b> Planta y Eléctrico son fundamentales. Desestabiliza a Palafin con Liofilización o ataques eléctricos masivos antes de que use Puño Jet."
+      ]
     },
     {
       "name": "Sachiko (Janine)",
       "city": "Ciudad Fucsia (Gimnasio Kanto)",
       "badge": "Medalla Alma",
-      "level_cap": 80,
+      "level_cap": 65,
       "team": [
         {
-          "pokemon": "Glimmora",
+          "pokemon": "Crobat",
           "level": 65,
           "item": "Banda Focus",
           "moves": [
-            "Trampa Rocas",
-            "Púas Tóxicas",
-            "Bomba Lodo",
-            "Joya de Luz"
-          ]
-        },
-        {
-          "pokemon": "Salazzle",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Tóxico",
-            "Lanzallamas",
-            "Bomba Lodo",
-            "Otra Vez"
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Superdiente"
           ]
         },
         {
@@ -367168,1996 +369941,338 @@ window.CHIRLGOLD_DATA = {
           "item": "Lodo Negro",
           "moves": [
             "Escaldar",
+            "Tóxico",
             "Recuperación",
-            "Niebla",
-            "Protección"
+            "Búnker"
           ]
         },
         {
-          "pokemon": "Naganadel",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pulso Dragón",
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
+          "pokemon": "Nidoqueen",
           "level": 65,
           "item": "Vidasfera",
           "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Mofa",
-            "Ida y Vuelta"
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Rayo Hielo",
+            "Lanzallamas"
           ]
         },
         {
-          "pokemon": "Gengar",
+          "pokemon": "Weezing de Galar",
           "level": 65,
-          "item": "Gengarita",
+          "item": "Restos",
           "moves": [
-            "Bola Sombra",
+            "Fuerza Lunar",
             "Bomba Lodo",
-            "Onda Certera",
-            "Mismodestino"
+            "Fuego Fatuo",
+            "Despejar"
           ]
         }
-      ],
-      "strategy": "Glimmora coloca Púas Tóxicas si la golpeas físicamente; Pecharunt envenena y confunde con Cadena Virulenta. <b>Consejo:</b> Elimina a Glimmora con ataques especiales a distancia o Terremoto. Lleva Bayas Meloc / Ziuela o tipos Acero para ignorar las cadenas venenosas."
+      ]
+    },
+    {
+      "name": "Misty",
+      "city": "Ciudad Celeste (Gimnasio Kanto)",
+      "badge": "Medalla Cascada",
+      "level_cap": 65,
+      "team": [
+        {
+          "pokemon": "Kyogre",
+          "level": 65,
+          "item": "Pañuelo Elegido",
+          "moves": [
+            "Salpicar",
+            "Rayo Hielo",
+            "Trueno",
+            "Escaldar"
+          ]
+        },
+        {
+          "pokemon": "Seismitoad",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidroariete",
+            "Terremoto",
+            "Puño Drenaje",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Lapras",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Liofilización",
+            "Surf",
+            "Rayo Hielo",
+            "Canto"
+          ]
+        },
+        {
+          "pokemon": "Starmie",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidrobomba",
+            "Psíquico",
+            "Rayo",
+            "Rayo Hielo"
+          ]
+        }
+      ]
     },
     {
       "name": "Brock",
       "city": "Ciudad Plateada (Gimnasio Kanto)",
       "badge": "Medalla Roca",
-      "level_cap": 84,
+      "level_cap": 65,
       "team": [
         {
-          "pokemon": "Gigalith",
+          "pokemon": "Aerodactyl",
           "level": 65,
-          "item": "Roca Suave",
+          "item": "Aerodactylita (Mega)",
           "moves": [
-            "Trampa Rocas",
-            "Púas",
             "Roca Afilada",
+            "Golpe Aéreo",
+            "Triturar",
             "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Ting-Lu",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Púas",
-            "Terremoto",
-            "Remolino",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Cradily",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Gigadrenado",
-            "Recuperación",
-            "Tóxico",
-            "Poder Pasado"
-          ]
-        },
-        {
-          "pokemon": "Rhyperior",
-          "level": 65,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego",
-            "Megacuerno"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 65,
-          "item": "Baya Zidra",
-          "moves": [
-            "Giro Bola",
-            "Terremoto",
-            "Rugido",
-            "Def. Férrea"
           ]
         },
         {
           "pokemon": "Tyranitar",
           "level": 65,
-          "item": "Tyranitarita",
+          "item": "Chaleco Asalto",
           "moves": [
             "Roca Afilada",
             "Triturar",
+            "Persecución",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Rhyperior",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
             "Terremoto",
-            "Danza Dragón"
+            "Roca Afilada",
+            "Megacuerno",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Golem de Alola",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Doble Filo",
+            "Terremoto",
+            "Roca Afilada",
+            "Voltio Cruel"
           ]
         }
-      ],
-      "strategy": "Rhyperior, Golem, Aerodactyl, Kabutops y Omastar forman un muro rocoso de gran contundencia física. <b>Consejo:</b> Debilidad masiva a los tipos Agua y Planta (x4 en Rhyperior, Golem, Kabutops y Omastar). Ataques como Surf y Gigadrenado limpian el campo casi sin despeinarse."
+      ]
     },
     {
       "name": "Blaine",
       "city": "Islas Espuma (Gimnasio Kanto)",
       "badge": "Medalla Volcán",
-      "level_cap": 88,
+      "level_cap": 80,
       "team": [
         {
+          "pokemon": "Charizard",
+          "level": 80,
+          "item": "Charizardita Y (Mega)",
+          "moves": [
+            "Lanzallamas",
+            "Rayo Solar",
+            "Tajo Aéreo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Magmortar",
+          "level": 80,
+          "item": "Gafas Elegidas",
+          "moves": [
+            "Escaldar",
+            "Llamarada",
+            "Rayo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Infernape",
+          "level": 80,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Envite Ígneo",
+            "Hierba Lazo",
+            "Ultrapuño"
+          ]
+        },
+        {
           "pokemon": "Ninetales",
-          "level": 65,
-          "item": "Roca Calor",
+          "level": 80,
+          "item": "Banda Focus",
           "moves": [
             "Llamarada",
             "Rayo Solar",
             "Fuego Fatuo",
             "Hipnosis"
           ]
-        },
-        {
-          "pokemon": "Volcanion",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Chorro Vapor",
-            "Tierra Viva",
-            "Lanzallamas",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Flamariete",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
-            "Terremoto",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Volcarona",
-          "level": 65,
-          "item": "Banda Focus",
-          "moves": [
-            "Danza Aleteo",
-            "Onda Ígnea",
-            "Zumbido",
-            "Gigadrenado"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Sofoco",
-            "Rayo",
-            "Voltiocambio",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Charizard",
-          "level": 65,
-          "item": "Charizardita Y",
-          "moves": [
-            "Llamarada",
-            "Rayo Solar",
-            "Tajo Aéreo",
-            "Onda Certera"
-          ]
         }
-      ],
-      "strategy": "Chi-Yu reduce la defensa especial de tus Pokémon un 25% con Cuentas del Debacle y lanza Llamaradas nucleares; Ceruledge se cura con Espada Lamento; Ninetales invoca Sol. <b>Consejo:</b> Cambia el clima inmediatamente para apagar el Sol. Tipos Tierra, Roca y Agua resisten y devuelven golpes fulminantes."
+      ]
     },
     {
       "name": "Azul (Blue)",
       "city": "Ciudad Verde (Gimnasio Kanto)",
       "badge": "Medalla Tierra",
-      "level_cap": 90,
+      "level_cap": 85,
       "team": [
         {
-          "pokemon": "Rhyperior",
-          "level": 90,
+          "pokemon": "Pidgeot",
+          "level": 85,
+          "item": "Pidgeotita (Mega)",
+          "moves": [
+            "Vendaval",
+            "Onda Ígnea",
+            "Ida y Vuelta",
+            "Respiro"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 85,
           "item": "Banda Focus",
           "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego"
+            "Psíquico",
+            "Onda Certera",
+            "Bola Sombra",
+            "Brillo Mágico"
           ]
         },
         {
           "pokemon": "Machamp",
-          "level": 90,
+          "level": 85,
           "item": "Chaleco Asalto",
           "moves": [
-            "Puñodinámico",
+            "Puño Dinámico",
             "Roca Afilada",
             "Desarme",
             "Puño Bala"
           ]
         },
         {
+          "pokemon": "Gyarados",
+          "level": 85,
+          "item": "Vidasfera",
+          "moves": [
+            "Cascada",
+            "Terremoto",
+            "Danza Dragón",
+            "Colmillo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Exeggutor",
+          "level": 85,
+          "item": "Restos",
+          "moves": [
+            "Lluevehojas",
+            "Psíquico",
+            "Espacio Raro",
+            "Bomba Huevo"
+          ]
+        },
+        {
           "pokemon": "Arcanine",
-          "level": 90,
-          "item": "Cin. Elegida",
+          "level": 85,
+          "item": "Cinta Elegida",
           "moves": [
             "Envite Ígneo",
-            "Vel. Extrema",
+            "Velocidad Extrema",
             "A Bocajarro",
             "Voltio Cruel"
           ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 90,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Zeraora",
-          "level": 90,
-          "item": "Vidasfera",
-          "moves": [
-            "Puños Plasma",
-            "A Bocajarro",
-            "Desarme",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Pidgeot",
-          "level": 90,
-          "item": "Pidgeotita",
-          "moves": [
-            "Vendaval",
-            "Onda Ígnea",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
         }
-      ],
-      "strategy": "El combate cumbre de Kanto: Kingambit como revancha letal, Annihilape con Puño Furia acumulativo, Mega-Pidgeot con Vendaval de 100% de acierto gracias a Indefenso. <b>Consejo:</b> Lleva Trampa Rocas para castigar a Pidgeot y romper bandas. Un núcleo equilibrado con Hada, Lucha y Eléctrico es indispensable."
+      ]
     },
     {
-      "name": "Rojo (Red) - Campeón Máximo",
+      "name": "Rojo (Red) - Batalla Cumbre",
       "city": "Cima del Monte Plateado",
-      "badge": "Batalla Cumbre",
+      "badge": "Leyenda Suprema",
       "level_cap": 100,
       "team": [
         {
           "pokemon": "Pikachu",
           "level": 100,
-          "item": "Ninguno",
+          "item": "Bola Luminosa",
           "moves": [
-            "Placaje",
+            "Placaje Eléctrico",
             "Surf",
-            "Hierba Lazo",
-            "At. Rápido"
-          ]
-        },
-        {
-          "pokemon": "Articuno",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Ventisca",
-            "Liofilizac.",
-            "Respiro",
-            "Manto Espejo"
-          ]
-        },
-        {
-          "pokemon": "Zapdos",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Carga",
-            "Onda Ígnea",
-            "Respiro",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Moltres",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Llamarada",
-            "Tajo Aéreo",
-            "Rayo Solar",
-            "Poder Oculto"
-          ]
-        },
-        {
-          "pokemon": "Mew",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Transformación",
-            "Psíquico",
-            "Esfera Aural",
-            "Maquinación"
+            "Rayo",
+            "Hierba Lazo"
           ]
         },
         {
           "pokemon": "Mewtwo",
           "level": 100,
-          "item": "Mewtwoita X",
+          "item": "Mewtwonita Y (Mega)",
           "moves": [
-            "A Bocajarro",
-            "Cabezazo Zen",
-            "Puño Hielo",
-            "Terremoto"
-          ]
-        }
-      ],
-      "strategy": "La batalla definitiva de la cima bajo granizo: Pikachu con Bola Luminosa (+600 de Atq/At.Esp), Mega-Charizard Y con Sequía, Mega-Venusaur con Sebo, Snorlax con Tambor y Restos. <b>Consejo:</b> Elimina a Pikachu en turno 1 con prioridad (Terremoto o velocidad superior). Trampa Rocas quita el 50% de PS a Charizard al entrar. Usa Lucha física contundente contra Snorlax antes de que se infle con Tambor."
-    },
-    {
-      "name": "Pegaso - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Tornadus",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Viento Afín",
-            "Mofa",
-            "Vendaval",
-            "Onda Ígnea"
-          ]
-        },
-        {
-          "pokemon": "Gliscor",
-          "level": 100,
-          "item": "Toxisfera",
-          "moves": [
-            "Terremoto",
-            "Desarme",
-            "Respiro",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Corviknite",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Pájaro Osado",
-            "Plancha Corp",
-            "Respiro",
-            "Despejar"
-          ]
-        },
-        {
-          "pokemon": "Staraptor",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Pájaro Osado",
-            "Doble Filo",
-            "A Bocajarro",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Togekiss",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Tajo Aéreo",
-            "BrilloMágico",
-            "Lanzallamas",
-            "Onda Trueno"
-          ]
-        },
-        {
-          "pokemon": "Salamence",
-          "level": 100,
-          "item": "Salamencita",
-          "moves": [
-            "Doble Filo",
-            "Terremoto",
-            "Garra Dragón",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": "Abre con presión de Hoothoot con Rayo Confuso e Hipnosis para forzar cambios y desgaste. Doduo y Noctowl golpean con alta velocidad y cobertura voladora física/especial. <b>Consejo:</b> Usa a Mareep (capturable en Ruta 32) o Geodude (Cueva Oscura) para resistir sus ataques al 50% y eliminarlos de un impacto eléctrico o roca. Lleva Bayas Atania para prevenir el sueño de Noctowl."
-    },
-    {
-      "name": "Antón - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Galvantula",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Red Viscosa",
-            "Trueno",
-            "Zumbido",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Genesect",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Ida y Vuelta",
-            "Lanzallamas",
+            "Onda Mental",
             "Rayo Hielo",
-            "Cabezahierro"
-          ]
-        },
-        {
-          "pokemon": "Volcarona",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Danza Aleteo",
             "Llamarada",
-            "Zumbido",
-            "Gigadrenado"
+            "Esfera Aural"
           ]
         },
         {
-          "pokemon": "Heracross",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "A Bocajarro",
-            "Megacuerno",
-            "Imagen",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Golisopod",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Escaramuza",
-            "Cascada",
-            "Golpe Bajo",
-            "Chupavidas"
-          ]
-        },
-        {
-          "pokemon": "Scizor",
-          "level": 100,
-          "item": "Scizorita",
-          "moves": [
-            "Puño Bala",
-            "Picadura",
-            "Danza Espada",
-            "Respiro"
-          ]
-        }
-      ],
-      "strategy": "Ninjask con Impulso y Vidasfera inicia acelerando el combate con Danza Espada e Ida y Vuelta; Scyther con Garrafilada mete presión crítica con Demolición y Ataque Ala; Lokix remata con Escaramuza o Golpe Bajo. <b>Consejo:</b> Los ataques de Fuego (Quilava, Houndour) y Roca (Geodude con Trampa Rocas o Lanzarrocas) son devastadores. Scyther tiene debilidad x4 a Roca; forzarlo a golpear contra un tipo Roca desgastará su salud."
-    },
-    {
-      "name": "Blanca - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Smeargle",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Espora",
-            "Red Viscosa",
-            "Trampa Rocas",
-            "Barrera"
-          ]
-        },
-        {
-          "pokemon": "Blissey",
+          "pokemon": "Snorlax",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Mov. Sísmico",
-            "Amortiguador",
-            "Aromaterapia",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Meloetta",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Vozarrón",
-            "Psíquico",
-            "BrilloMágico",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Porygon-Z",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Triataque",
-            "Rayo",
-            "Rayo Hielo",
-            "Bola Sombra"
-          ]
-        },
-        {
-          "pokemon": "Miltank",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Batido",
-            "Golpe Cuerpo",
-            "Campana Cura",
-            "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Kangaskhan",
-          "level": 100,
-          "item": "Kangaskhanita",
-          "moves": [
-            "Sorpresa",
-            "Puño Increm.",
-            "Retroceso",
-            "Golpe Bajo"
-          ]
-        }
-      ],
-      "strategy": "Bewear con Peluche reduce el daño físico a la mitad; Blissey absorbe cualquier ataque especial; Miltank ataca con Desenrollar y se cura con Batido; Diggersby cubre la debilidad a Roca/Lucha con tipo Tierra. <b>Consejo:</b> ¡No uses ataques físicos contra Bewear salvo que sean de Fuego! Contra Miltank, un tipo Fantasma (Gastly) anula Desenrollar y Pisotón. Ataques de Lucha Especial (Aura Esfera) y quemaduras de Fuego Fatuo arruinan la recuperación de Miltank y Blissey."
-    },
-    {
-      "name": "Morti - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Froslass",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Púas",
-            "Mismodestino",
-            "Ventisca",
-            "Bola Sombra"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Marshadow",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Robasombra",
-            "A Bocajarro",
-            "Sombra Vil",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Chandelure",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Llamarada",
-            "Bola Sombra",
-            "Energibola",
-            "Truco"
-          ]
-        },
-        {
-          "pokemon": "Aegislash",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Escudo Real",
-            "Bola Sombra",
-            "Foco Respl.",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Sableye",
-          "level": 100,
-          "item": "Sableynita",
-          "moves": [
-            "Fuego Fatuo",
-            "Recuperación",
-            "Desarme",
-            "Juego Sucio"
-          ]
-        }
-      ],
-      "strategy": "Gengar veloz con Hipnosis y Bola Sombra; Annihilape castiga cualquier intento de desgaste con Puño Furia acumulativo; Houndstone gana poder masivo con Último Respeto a medida que caen sus compañeros. <b>Consejo:</b> Tipos Siniestro (Houndoom, Umbreon) y Normales son inmunes o resistentes a Bola Sombra. ¡Jamás uses ataques débiles contra Annihilape para no cargar su Puño Furia! Noquéalo de un solo golpe con Psíquico, Volador o Hada."
-    },
-    {
-      "name": "Aníbal - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Hitmontop",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Sorpresa",
-            "Giro Rápido",
-            "A Bocajarro",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Machamp",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Puñodinámico",
-            "Roca Afilada",
-            "Puño Bala",
-            "Desquite"
-          ]
-        },
-        {
-          "pokemon": "Conkeldurr",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Imagen",
-            "Puño Drenaje",
-            "Ultrapuño",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Urshifu",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Golpe Oscuro",
-            "A Bocajarro",
-            "Golpe Bajo",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Poliwrath",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Cascada",
-            "Puñodinámico",
-            "Puño Hielo",
-            "Tambor"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 100,
-          "item": "Lucarita",
-          "moves": [
-            "A Bocajarro",
-            "Puño Bala",
-            "Danza Espada",
-            "Triturar"
-          ]
-        }
-      ],
-      "strategy": "Hawlucha golpea con velocidad y Plancha Voladora; Urshifu-Fluido asesta 3 golpes críticos garantizados anulando Protección; Poliwrath presiona con Cascada y Puño Dinámico. <b>Consejo:</b> Tipos Volador, Hada y Psíquico (Espeon, Togekiss) dominan la mesa, pero cuídate de los Puños Elementales de Hitmonchan. Intimidadores (Gyarados, Arcanine) neutralizan su daño físico."
-    },
-    {
-      "name": "Yasmina - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Skarmory",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Pájaro Osado",
-            "Remolino"
-          ]
-        },
-        {
-          "pokemon": "Heatran",
-          "level": 100,
-          "item": "Globo Helio",
-          "moves": [
-            "Llamarada",
-            "Tierra Viva",
-            "Foco Respl.",
-            "Poder Oculto"
-          ]
-        },
-        {
-          "pokemon": "Empoleon",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Escaldar",
-            "Foco Respl.",
-            "Rayo Hielo",
-            "Acua Jet"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 100,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Scizor",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Bala",
-            "Picadura",
-            "Danza Espada",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 100,
-          "item": "Steelixita",
-          "moves": [
-            "Giro Bola",
+            "Retribución",
             "Terremoto",
-            "Testarazo",
-            "Colm. Ígneo"
-          ]
-        }
-      ],
-      "strategy": "Muro blindado con Trampa Rocas de Skarmory, Martillo Colosal de Tinkaton, Levitación en Bronzong y Kingambit como venganza letal con General Supremo. <b>Consejo:</b> Ten respuestas de Fuego, Tierra y Lucha. Skarmory y Tinkaton caen ante Fuego; Bronzong requiere Fuego o Siniestro por su Levitación; Steelix y Magneton son vulnerables a Terremoto. Prioriza eliminar a Kingambit rápido."
-    },
-    {
-      "name": "Fredo - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Ninetales",
-          "level": 100,
-          "item": "Roca Helada",
-          "moves": [
-            "Velo Aurora",
-            "Ventisca",
-            "Liofilizac.",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Chien-Pao",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Triturar",
-            "Canto Helado",
-            "Espada Santa"
-          ]
-        },
-        {
-          "pokemon": "Cloyster",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Rompecoraza",
-            "Carámbano",
-            "Pedrada",
-            "Concha Filo"
-          ]
-        },
-        {
-          "pokemon": "Mamoswine",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Terremoto",
-            "Chuzos",
-            "Canto Helado",
-            "Fuerza Bruta"
-          ]
-        },
-        {
-          "pokemon": "Weavile",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Patada Salto"
-          ]
-        },
-        {
-          "pokemon": "Glalie",
-          "level": 100,
-          "item": "Glalita",
-          "moves": [
-            "Doble Filo",
-            "Terremoto",
-            "Canto Helado",
-            "Explosión"
-          ]
-        }
-      ],
-      "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
-    },
-    {
-      "name": "Débora - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Garchomp",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Cola Dragón",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Latias",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Cometa Draco",
-            "Paz Mental",
-            "Respiro",
-            "Bola Sombra"
-          ]
-        },
-        {
-          "pokemon": "Dragapult",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Dracoflechas",
-            "Bola Sombra",
-            "Lanzallamas",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 100,
-          "item": "Baya Ziuela",
-          "moves": [
-            "Danza Dragón",
-            "Garra Dragón",
-            "Puño Fuego",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Kingdra",
-          "level": 100,
-          "item": "Periscopio",
-          "moves": [
-            "Foco Energía",
-            "Pulso Dragón",
-            "Hidrobomba",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Altaria",
-          "level": 100,
-          "item": "Altarianita",
-          "moves": [
-            "Doble Filo",
-            "Danza Dragón",
-            "Terremoto",
-            "Respiro"
-          ]
-        }
-      ],
-      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
-    },
-    {
-      "name": "Lt. Surge - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Galvantula",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Red Viscosa",
-            "Trueno",
-            "Zumbido",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Tapu Koko",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Ida y Vuelta",
-            "Rayo",
-            "BrilloMágico",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Eelektross",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Gigadrenado",
-            "Lanzallamas",
-            "Rayo",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Hidrobomba",
-            "Voltiocambio",
-            "Fuego Fatuo",
-            "Divide Dolor"
-          ]
-        },
-        {
-          "pokemon": "Electivire",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Trueno",
-            "Terremoto",
-            "Puño Hielo",
-            "Tajo Cruzado"
-          ]
-        },
-        {
-          "pokemon": "Manectric",
-          "level": 100,
-          "item": "Manectricita",
-          "moves": [
-            "Rayo",
-            "Voltiocambio",
-            "Sofoco",
-            "Poder Oculto"
-          ]
-        }
-      ],
-      "strategy": "Pawmot, Bellibolt, Magnezone, Electivire, Raichu y Jolteon despliegan ofensiva eléctrica de alto voltaje. Bellibolt acumula carga al recibir daño y Pawmot presiona con A Bocajarro. <b>Consejo:</b> Tipos Tierra (Garchomp, Swampert, Gliscor) son inmunes a sus ataques eléctricos y responden con Terremoto letal."
-    },
-    {
-      "name": "Sabrina - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Indeedee",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Fuerza",
-            "BrilloMágico",
-            "Pulso Umbrío",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Cresselia",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Paz Mental",
-            "Luz Lunar",
-            "Psíquico",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Necrozma",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Meteoimpacto",
-            "Terremoto",
-            "Danza Espada",
-            "Corte"
-          ]
-        },
-        {
-          "pokemon": "Slowking",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Relajo",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Gallade",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "A Bocajarro",
-            "Corte",
-            "Desarme",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 100,
-          "item": "Alakazamita",
-          "moves": [
-            "Psíquico",
-            "Onda Certera",
-            "Bola Sombra",
-            "BrilloMágico"
-          ]
-        }
-      ],
-      "strategy": "Espathra gana un nivel de velocidad cada turno con Aceleril; Alakazam e Iron Valiant pegan con estadísticas especiales descomunales. <b>Consejo:</b> Tipos Siniestro (Houndoom, Weavile, Ting-Lu) anulan los ataques psíquicos. Ataca el lado físico de Alakazam y Espathra debido a su baja defensa física."
-    },
-    {
-      "name": "Erika - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Whimsicott",
-          "level": 100,
-          "item": "Roca Calor",
-          "moves": [
-            "Día Soleado",
-            "Drenadoras",
-            "Otra Vez",
-            "Fuerza Lunar"
-          ]
-        },
-        {
-          "pokemon": "Rillaboom",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Energibola",
-            "Fuerza Bruta",
-            "Desarme",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Wo-Chien",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Drenadoras",
-            "Desarme",
-            "Protección",
-            "Gigadrenado"
-          ]
-        },
-        {
-          "pokemon": "Virizion",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hoja Aguda",
-            "A Bocajarro",
-            "Roca Afilada",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Ferrothorn",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Giro Bola",
-            "Drenadoras",
-            "Latigazo"
+            "Maldición",
+            "Descanso"
           ]
         },
         {
           "pokemon": "Venusaur",
           "level": 100,
-          "item": "Venusaurita",
-          "moves": [
-            "Gigadrenado",
-            "Bomba Lodo",
-            "Tierra Viva",
-            "Síntesis"
-          ]
-        }
-      ],
-      "strategy": "Meowscarada asesta impactos críticos garantizados con Truco Floral; Ogerpon golpea implacable con Maza Ígnea o Garrote Rama. <b>Consejo:</b> Tipos Fuego, Volador e Hielo barren el gimnasio con relativa facilidad."
-    },
-    {
-      "name": "Misty - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Pelipper",
-          "level": 100,
-          "item": "Roca Lluvia",
-          "moves": [
-            "Vendaval",
-            "Escaldar",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Kyogre",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Salpicar",
-            "Trueno",
-            "Rayo Hielo",
-            "Hidrobomba"
-          ]
-        },
-        {
-          "pokemon": "Manaphy",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Ráfaga",
-            "Trueno",
-            "Escaldar",
-            "Descanso"
-          ]
-        },
-        {
-          "pokemon": "Ludicolo",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hidrobomba",
-            "Gigadrenado",
-            "Rayo Hielo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Starmie",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Hidrobomba",
-            "Trueno",
-            "Rayo Hielo",
-            "Psíquico"
-          ]
-        },
-        {
-          "pokemon": "Swampert",
-          "level": 100,
-          "item": "Swampertita",
-          "moves": [
-            "Cascada",
-            "Terremoto",
-            "Puño Hielo",
-            "Fuerza Bruta"
-          ]
-        }
-      ],
-      "strategy": "Quaquaval incrementa su velocidad con Danza Acuática; Palafin en Forma Heroica tiene estadísticas de deidad legendaria; Milotic y Lapras absorben daño. <b>Consejo:</b> Planta y Eléctrico son fundamentales. Desestabiliza a Palafin con Liofilización o ataques eléctricos masivos antes de que use Puño Jet."
-    },
-    {
-      "name": "Sachiko - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Glimmora",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Púas Tóxicas",
-            "Bomba Lodo",
-            "Joya de Luz"
-          ]
-        },
-        {
-          "pokemon": "Pecharunt",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "CadenaVirul.",
-            "Recuperación",
-            "Bola Sombra",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Salazzle",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Tóxico",
-            "Lanzallamas",
-            "Bomba Lodo",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Toxapex",
-          "level": 100,
           "item": "Lodo Negro",
           "moves": [
-            "Escaldar",
-            "Recuperación",
-            "Niebla",
-            "Protección"
-          ]
-        },
-        {
-          "pokemon": "Naganadel",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Pulso Dragón",
+            "Giga Drenado",
             "Bomba Lodo",
-            "Lanzallamas",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 100,
-          "item": "Gengarita",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Onda Certera",
-            "Mismodestino"
-          ]
-        }
-      ],
-      "strategy": "Glimmora coloca Púas Tóxicas si la golpeas físicamente; Pecharunt envenena y confunde con Cadena Virulenta. <b>Consejo:</b> Elimina a Glimmora con ataques especiales a distancia o Terremoto. Lleva Bayas Meloc / Ziuela o tipos Acero para ignorar las cadenas venenosas."
-    },
-    {
-      "name": "Brock - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Gigalith",
-          "level": 100,
-          "item": "Roca Suave",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Roca Afilada",
-            "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Ting-Lu",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Púas",
-            "Terremoto",
-            "Remolino",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Cradily",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Gigadrenado",
-            "Recuperación",
-            "Tóxico",
-            "Poder Pasado"
-          ]
-        },
-        {
-          "pokemon": "Rhyperior",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego",
-            "Megacuerno"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 100,
-          "item": "Baya Zidra",
-          "moves": [
-            "Giro Bola",
-            "Terremoto",
-            "Rugido",
-            "Def. Férrea"
-          ]
-        },
-        {
-          "pokemon": "Diancie",
-          "level": 100,
-          "item": "Diancita",
-          "moves": [
-            "Torm.Diaman.",
-            "Fuerza Lunar",
-            "Tierra Viva",
-            "Paz Mental"
-          ]
-        }
-      ],
-      "strategy": "Rhyperior, Golem, Aerodactyl, Kabutops y Omastar forman un muro rocoso de gran contundencia física. <b>Consejo:</b> Debilidad masiva a los tipos Agua y Planta (x4 en Rhyperior, Golem, Kabutops y Omastar). Ataques como Surf y Gigadrenado limpian el campo casi sin despeinarse."
-    },
-    {
-      "name": "Blaine - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Ninetales",
-          "level": 100,
-          "item": "Roca Calor",
-          "moves": [
-            "Llamarada",
-            "Rayo Solar",
-            "Fuego Fatuo",
-            "Hipnosis"
-          ]
-        },
-        {
-          "pokemon": "Volcanion",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Chorro Vapor",
-            "Tierra Viva",
-            "Lanzallamas",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Flamariete",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
-            "Terremoto",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Volcarona",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Danza Aleteo",
-            "Onda Ígnea",
-            "Zumbido",
-            "Gigadrenado"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Sofoco",
-            "Rayo",
-            "Voltiocambio",
-            "Fuego Fatuo"
+            "Somnífero",
+            "Tierra Viva"
           ]
         },
         {
           "pokemon": "Charizard",
           "level": 100,
-          "item": "Charizardita Y",
+          "item": "Charizardita X (Mega)",
           "moves": [
-            "Llamarada",
-            "Rayo Solar",
-            "Tajo Aéreo",
-            "Onda Certera"
-          ]
-        }
-      ],
-      "strategy": "Chi-Yu reduce la defensa especial de tus Pokémon un 25% con Cuentas del Debacle y lanza Llamaradas nucleares; Ceruledge se cura con Espada Lamento; Ninetales invoca Sol. <b>Consejo:</b> Cambia el clima inmediatamente para apagar el Sol. Tipos Tierra, Roca y Agua resisten y devuelven golpes fulminantes."
-    },
-    {
-      "name": "Azul - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Rhyperior",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Arcanine",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Envite Ígneo",
-            "Vel. Extrema",
-            "A Bocajarro",
-            "Voltio Cruel"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 100,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Xerneas",
-          "level": 100,
-          "item": "Hierba Única",
-          "moves": [
-            "Geocontrol",
-            "Fuerza Lunar",
-            "Onda Certera",
-            "Psíquico"
-          ]
-        },
-        {
-          "pokemon": "Zeraora",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Puños Plasma",
-            "A Bocajarro",
-            "Desarme",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Pidgeot",
-          "level": 100,
-          "item": "Pidgeotita",
-          "moves": [
-            "Vendaval",
-            "Onda Ígnea",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
-        }
-      ],
-      "strategy": "El combate cumbre de Kanto: Kingambit como revancha letal, Annihilape con Puño Furia acumulativo, Mega-Pidgeot con Vendaval de 100% de acierto gracias a Indefenso. <b>Consejo:</b> Lleva Trampa Rocas para castigar a Pidgeot y romper bandas. Un núcleo equilibrado con Hada, Lucha y Eléctrico es indispensable."
-    },
-    {
-      "name": "Rival Silver (Revancha Máxima)",
-      "city": "Meseta Añil",
-      "badge": "Rival Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Darkrai",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Brecha Negra",
-            "Pulso Umbrío",
-            "Come Sueños",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Shaymin",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Fogonazo",
-            "Tierra Viva",
-            "BrilloMágico",
-            "Síntesis"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 100,
-          "item": "Lodo Negro",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Triataque"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Absol",
-          "level": 100,
-          "item": "Absolita",
-          "moves": [
-            "Golpe Bajo",
-            "Danza Espada",
-            "Carantoña",
-            "A Bocajarro"
-          ]
-        }
-      ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
-    },
-    {
-      "name": "Mento - Liga R2 Monotype Psíquico Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Psíquico Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Deoxys",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Mofa",
-            "Psicocarga"
-          ]
-        },
-        {
-          "pokemon": "Tapu Lele",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Psicocarga",
-            "Fuerza Lunar",
-            "Onda Certera",
-            "Energibola"
-          ]
-        },
-        {
-          "pokemon": "Lunala",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Paz Mental",
-            "Rayo Umbrío",
-            "Onda Certera",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Necrozma",
-          "level": 100,
-          "item": "Seguro Debilidad",
-          "moves": [
-            "Danza Dragón",
-            "Meteoimpacto",
-            "Terremoto",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Mewtwo",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Onda Mental",
-            "Esfera Aural",
-            "Llamarada",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Lugia",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Respiro",
-            "Paz Mental",
-            "Aerochorro",
-            "Tóxico"
-          ]
-        }
-      ],
-      "strategy": "Campo Psíquico de Tapu Lele bloquea toda la prioridad (+30% daño psíquico); Mega-Mewtwo Y destruye con Onda Mental; Deoxys-A con Banda Focus pega primero; Lunala y Lugia forman un muro impenetrable. <b>Consejo:</b> ¡Prohibido usar prioridad (Golpe Bajo, Puño Bala) bajo Campo Psíquico! Lleva tanques de tipo Siniestro pesados (Ting-Lu, Kingambit) y rompe la Multiescala de Lugia y Banda de Deoxys con Trampa Rocas."
-    },
-    {
-      "name": "Koga - Liga R2 Monotype Veneno Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Veneno Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Glimmora",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Bomba Lodo",
-            "Tierra Viva",
-            "BrilloMágico"
-          ]
-        },
-        {
-          "pokemon": "Toxapex",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Protección",
-            "Recuperación",
-            "Escaldar",
-            "Niebla"
-          ]
-        },
-        {
-          "pokemon": "Pecharunt",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "CadenaVirul.",
-            "Bola Sombra",
-            "Recuperación",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Naganadel",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Maquinación",
-            "Cometa Draco",
-            "Bomba Lodo",
-            "Lanzallamas"
-          ]
-        },
-        {
-          "pokemon": "Eternatus",
-          "level": 100,
-          "item": "Lodo Negro",
-          "moves": [
-            "CañónDinamax",
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 100,
-          "item": "Gengarita",
-          "moves": [
-            "Bomba Lodo",
-            "Bola Sombra",
-            "Onda Certera",
-            "Mismodestino"
-          ]
-        }
-      ],
-      "strategy": "Capa Tóxica de Glimmora, Cadena Virulenta de Pecharunt, Toxapex ultradefensivo con Regeneración, Cañón Dinamax de Eternatus y Sombra Trampa de Mega-Gengar que bloquea tus cambios. <b>Consejo:</b> Tipos Tierra con Inmunidad o Sustituto. No dejes que Naganadel encadene KOs para evitar que aumente su velocidad. Usa Mofa contra Toxapex para anular su Recuperación."
-    },
-    {
-      "name": "Bruno - Liga R2 Monotype Lucha Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Lucha Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Marshadow",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Robasombra",
-            "A Bocajarro",
-            "Sombra Vil",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Urshifu",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Golpe Oscuro",
-            "A Bocajarro",
-            "Golpe Bajo",
-            "Puño Drenaje"
-          ]
-        },
-        {
-          "pokemon": "Zamazenta",
-          "level": 100,
-          "item": "Escudo Oxidado",
-          "moves": [
-            "Plancha Corp",
-            "Cabezahierro",
-            "Triturar",
-            "Paz Mental"
-          ]
-        },
-        {
-          "pokemon": "Buzzwole",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Puño Drenaje",
-            "Chupavidas",
-            "Terremoto",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Koraidon",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Fotocolisión",
             "Envite Ígneo",
             "Garra Dragón",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 100,
-          "item": "Lucarita",
-          "moves": [
-            "A Bocajarro",
-            "Puño Bala",
-            "Triturar",
-            "Danza Espada"
-          ]
-        }
-      ],
-      "strategy": "La ofensiva física más demoledora: Koraidon invoca Sol y destruye con Envite Ígneo; Zamazenta aprovecha su descomunal Defensa para barrer con Plancha Corporal; Marshadow roba cualquier aumento de estadísticas con Robasombra. <b>Consejo:</b> ¡Jamás uses Danza Espada o Danza Dragón frente a Marshadow porque te los robará con Robasombra! Cambia el clima para apagar el Sol y ataca con Hadas bulkys y daño especial."
-    },
-    {
-      "name": "Karen - Liga R2 Monotype Siniestro Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Siniestro Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Ting-Lu",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Remolino",
+            "Danza Dragón",
             "Terremoto"
           ]
         },
         {
-          "pokemon": "Umbreon",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Deseo",
-            "Protección",
-            "Campana Cura",
-            "Juego Sucio"
-          ]
-        },
-        {
-          "pokemon": "Chien-Pao",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Golpe Bajo",
-            "Triturar",
-            "Espada Santa"
-          ]
-        },
-        {
-          "pokemon": "Darkrai",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Hipnosis",
-            "Maquinación",
-            "Pulso Umbrío",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Yveltal",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "AlaMortífera",
-            "Pulso Umbrío",
-            "Golpe Bajo",
-            "Onda Ígnea"
-          ]
-        },
-        {
-          "pokemon": "Tyranitar",
-          "level": 100,
-          "item": "Tyranitarita",
-          "moves": [
-            "Danza Dragón",
-            "Roca Afilada",
-            "Triturar",
-            "Terremoto"
-          ]
-        }
-      ],
-      "strategy": "Darkrai duerme y drena con Brecha Negra; Yveltal potencia un 33% los ataques siniestros con Aura Oscura y se cura con Ala Mortífera; Chien-Pao y Mega-Tyranitar desgarran con fuerza física. <b>Consejo:</b> Equipa Bayas Chego / Despertar o Niebla Aromática para anular la Brecha Negra de Darkrai. Movimientos de Lucha y Hada son letales contra casi todo su equipo. Prioriza derribar a Yveltal con Rayo Hielo o ataques Eléctricos."
-    },
-    {
-      "name": "Lance - Liga R2 Monotype Dragón Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Dragón Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Dialga",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Trampa Rocas",
-            "Foco Respl.",
-            "Cometa Draco",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Zygarde",
+          "pokemon": "Blastoise",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Mil Flechas",
-            "Enrosque",
-            "Descanso",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Miraidon",
-          "level": 100,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Electoderrap",
-            "Cometa Draco",
-            "Voltiocambio",
-            "Sofoco"
-          ]
-        },
-        {
-          "pokemon": "Giratina",
-          "level": 100,
-          "item": "Griseosfera",
-          "moves": [
-            "Fuego Fatuo",
-            "Despejar",
-            "Golpe Umbrío",
-            "Cola Dragón"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 100,
-          "item": "Seguro Debilidad",
-          "moves": [
-            "Danza Dragón",
-            "Vel. Extrema",
-            "Terremoto",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Rayquaza",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "AscensoDraco",
-            "Danza Dragón",
-            "Terremoto",
-            "Vel. Extrema"
+            "Escaldar",
+            "Foco Resplandor",
+            "Rayo Hielo",
+            "Giro Rápido"
           ]
         }
-      ],
-      "strategy": "El combate más legendario jamás creado: 6 titanes dragón a Nivel 100. Miraidon activa Campo Eléctrico con Motor Hadrónico; Zygarde ignora levitaciones con Mil Flechas; Mega-Rayquaza domina los cielos con Ráfaga Delta y Ascenso Draco. <b>Consejo:</b> 1) Abre con Trampa Rocas para quitar 25% a Rayquaza y romper la Multiescala de Dragonite. 2) Cambia de terreno para neutralizar la Electroderiva de Miraidon. 3) Un tipo Hada con alta Defensa Especial anula los ataques de dragón. 4) Canto Helado prioritario o Pañuelo Elegido dan KO a Rayquaza y Dragonite."
+      ]
     }
   ],
   "features": {
@@ -369181,7 +370296,8 @@ window.CHIRLGOLD_DATA = {
       "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio del Profesor Elm para adaptar naturalezas sin grindeo.",
       "Traducción Completa al Castellano: Ataques, habilidades, objetos, diálogos y descripciones adaptados con terminología oficial de España.",
       "Frame Rate Desbloqueado a 60 FPS: Experiencia visual suave y fluida en emuladores compatibles.",
-      "Level Caps Integrados: Curva de niveles calibrada para mantener el desafío sin requerir grindeo excesivo."
+      "Level Caps Integrados: Curva de niveles calibrada para mantener el desafío sin requerir grindeo excesivo.",
+      "Distribución Integral de Chapas Doradas (Ítem 617): Obtén Chapas Doradas al proclamarte Campeón contra Lance (R1 y R2), al desmantelar el Team Rocket (Protón, Atenea, Atlas, Giovanni), en las 16 revanchas a Nivel 100 en el Dojo de Azafrán, ante Rojo en el Monte Plateado, Eusine en Orquídea y Silver en Calle Victoria y Monte Moon."
     ],
     "bugs": [
       {
