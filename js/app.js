@@ -1163,7 +1163,6 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           `).join("")}
         </div>
-        ${l.strategy ? `<div class="leader-strategy" style="margin-top: 10px; padding: 10px 14px; background: rgba(212, 175, 55, 0.12); border-left: 3px solid var(--gold); font-size: 0.82rem; color: #e2e8f0; border-radius: 4px; line-height: 1.45;"><b>💡 Estrategia y Consejos:</b> ${l.strategy}</div>` : ''}
       </div>
     `).join("");
   }

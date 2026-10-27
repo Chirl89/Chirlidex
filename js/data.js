@@ -1,5 +1,5 @@
 /* Pokémon ChirlGold v0.13.13 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.14";
+window.CHIRLGOLD_VERSION = "v0.13.15";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -369174,7 +369174,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Abre con presión de Hoothoot con Rayo Confuso e Hipnosis para forzar cambios y desgaste. Doduo y Noctowl golpean con alta velocidad y cobertura voladora física/especial. <b>Consejo:</b> Usa a Mareep (capturable en Ruta 32) o Geodude (Cueva Oscura) para resistir sus ataques al 50% y eliminarlos de un impacto eléctrico o roca. Lleva Bayas Atania para prevenir el sueño de Noctowl."
+      "strategy": ""
     },
     {
       "name": "Antón (Bugsy)",
@@ -369238,7 +369238,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Ninjask con Impulso y Vidasfera inicia acelerando el combate con Danza Espada e Ida y Vuelta; Scyther con Garrafilada mete presión crítica con Demolición y Ataque Ala; Lokix remata con Escaramuza o Golpe Bajo. <b>Consejo:</b> Los ataques de Fuego (Quilava, Houndour) y Roca (Geodude con Trampa Rocas o Lanzarrocas) son devastadores. Scyther tiene debilidad x4 a Roca; forzarlo a golpear contra un tipo Roca desgastará su salud."
+      "strategy": ""
     },
     {
       "name": "Blanca (Whitney)",
@@ -369302,7 +369302,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Bewear con Peluche reduce el daño físico a la mitad; Blissey absorbe cualquier ataque especial; Miltank ataca con Desenrollar y se cura con Batido; Diggersby cubre la debilidad a Roca/Lucha con tipo Tierra. <b>Consejo:</b> ¡No uses ataques físicos contra Bewear salvo que sean de Fuego! Contra Miltank, un tipo Fantasma (Gastly) anula Desenrollar y Pisotón. Ataques de Lucha Especial (Aura Esfera) y quemaduras de Fuego Fatuo arruinan la recuperación de Miltank y Blissey."
+      "strategy": ""
     },
     {
       "name": "Morti (Morty)",
@@ -369377,7 +369377,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Gengar veloz con Hipnosis y Bola Sombra; Annihilape castiga cualquier intento de desgaste con Puño Furia acumulativo; Houndstone gana poder masivo con Último Respeto a medida que caen sus compañeros. <b>Consejo:</b> Tipos Siniestro (Houndoom, Umbreon) y Normales son inmunes o resistentes a Bola Sombra. ¡Jamás uses ataques débiles contra Annihilape para no cargar su Puño Furia! Noquéalo de un solo golpe con Psíquico, Volador o Hada."
+      "strategy": ""
     },
     {
       "name": "Aníbal (Chuck)",
@@ -369452,7 +369452,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Hawlucha golpea con velocidad y Plancha Voladora; Urshifu-Fluido asesta 3 golpes críticos garantizados anulando Protección; Poliwrath presiona con Cascada y Puño Dinámico. <b>Consejo:</b> Tipos Volador, Hada y Psíquico (Espeon, Togekiss) dominan la mesa, pero cuídate de los Puños Elementales de Hitmonchan. Intimidadores (Gyarados, Arcanine) neutralizan su daño físico."
+      "strategy": ""
     },
     {
       "name": "Yasmina (Jasmine)",
@@ -369527,7 +369527,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Muro blindado con Trampa Rocas de Skarmory, Martillo Colosal de Tinkaton, Levitación en Bronzong y Kingambit como venganza letal con General Supremo. <b>Consejo:</b> Ten respuestas de Fuego, Tierra y Lucha. Skarmory y Tinkaton caen ante Fuego; Bronzong requiere Fuego o Siniestro por su Levitación; Steelix y Magneton son vulnerables a Terremoto. Prioriza eliminar a Kingambit rápido."
+      "strategy": ""
     },
     {
       "name": "Fredo (Pryce)",
@@ -369602,7 +369602,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
+      "strategy": ""
     },
     {
       "name": "Débora (Clair)",
@@ -369677,7 +369677,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
+      "strategy": ""
     },
     {
       "name": "Rival Silver (Combate 1)",
@@ -369697,7 +369697,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+      "strategy": ""
     },
     {
       "name": "Rival Silver (Combate 2)",
@@ -369761,7 +369761,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+      "strategy": ""
     },
     {
       "name": "Rival Silver (Combate 3)",
@@ -369836,7 +369836,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+      "strategy": ""
     },
     {
       "name": "Rival Silver (Combate 4)",
@@ -369911,7 +369911,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+      "strategy": ""
     },
     {
       "name": "Rival Silver (Combate 5)",
@@ -369986,7 +369986,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+      "strategy": ""
     },
     {
       "name": "Ejecutivo Petrel",
@@ -370061,7 +370061,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      "strategy": ""
     },
     {
       "name": "Ejecutiva Ariana",
@@ -370103,7 +370103,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      "strategy": ""
     },
     {
       "name": "Ejecutivo Petrel (Torre)",
@@ -370178,7 +370178,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      "strategy": ""
     },
     {
       "name": "Ejecutivo Protón (Torre)",
@@ -370253,7 +370253,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      "strategy": ""
     },
     {
       "name": "Ejecutiva Ariana (Torre)",
@@ -370328,7 +370328,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      "strategy": ""
     },
     {
       "name": "Ejecutivo Archer (Torre)",
@@ -370403,7 +370403,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+      "strategy": ""
     },
     {
       "name": "Mento (Will) - Alto Mando #1",
@@ -370478,7 +370478,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Pantallas de soporte con Xatu, Bronzong resistente con Chaleco Asalto y Trampa Rocas, cobertura de Jynx y Alakazam con Vidasfera y Mega-Slowbro como muro físico y atacante con Paz Mental. Todos los Pokémon a Nivel 55. <b>Consejo:</b> Usa tipos Siniestro, Bicho y Fantasma (Triturar, Bola Sombra). Un ataque Eléctrico o Planta contundente derriba a Slowbro antes de que acumule Paz Mental."
+      "strategy": ""
     },
     {
       "name": "Koga - Alto Mando #2",
@@ -370553,7 +370553,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Red masiva de Hazards (Trampa Rocas y Púas Tóxicas) con Forretress; Muk con Lodo Negro y Puño Drenaje; Venomoth y Crobat veloces con veneno e intimidación; y Mega-Beedrill devastador con Tijera X y Bomba Lodo. Todos a Nivel 55. <b>Consejo:</b> Abre con un ataque de Fuego rápido para noquear a Forretress antes de que ensucie el campo. Los tipos Acero son completamente inmunes a su veneno."
+      "strategy": ""
     },
     {
       "name": "Bruno - Alto Mando #3",
@@ -370628,7 +370628,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Fuerza física imparable a Nivel 55: Hitmonlee con Cinta Elegida y Hitmonchan con coberturas elementales; Steelix tanque con Chaleco Asalto; Machamp con Indefenso; y Mega-Medicham con A Bocajarro y Danza Espada. <b>Consejo:</b> Tipos Volador y Hada son clave para resistir sus golpes de lucha. Ataca el lado especial de Steelix con Agua o Fuego para derribarlo rápidamente."
+      "strategy": ""
     },
     {
       "name": "Karen - Alto Mando #4",
@@ -370703,7 +370703,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Estrategia oscura y climática a Nivel 55: Umbreon invoca Día Soleado y se recupera con Deseo; Weavile ataca veloz con Chuzos y Danza Espada; Gengar con Banda Focus; Honchkrow; y Mega-Houndoom desatando Llamaradas colosales bajo el sol. <b>Consejo:</b> Tipos Lucha y Hada son letales contra casi todo su equipo. Apaga el sol con cambios de clima para reducir a la mitad la potencia ígnea de Houndoom."
+      "strategy": ""
     },
     {
       "name": "Lance - Campeón de la Liga",
@@ -370778,7 +370778,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Ofensiva aérea y dracónica implacable a Nivel 55: Gyarados, Aerodactyl y Kingdra con Danza Dragón; Dragonite con Multiescala y Seguro Debilidad; y Mega-Charizard X con Envite Ígneo y Garra Dragón. <b>Consejo:</b> ¡Trampa Rocas en turno 1 quita 50% de PS a Charizard y rompe la Multiescala de Dragonite! Ataques de tipo Hada y Rayo Hielo (daño x4 a Dragonite) son definitivos para alzarte con el título de Campeón."
+      "strategy": ""
     },
     {
       "name": "Lt. Surge",
@@ -370853,7 +370853,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Pawmot, Bellibolt, Magnezone, Electivire, Raichu y Jolteon despliegan ofensiva eléctrica de alto voltaje. Bellibolt acumula carga al recibir daño y Pawmot presiona con A Bocajarro. <b>Consejo:</b> Tipos Tierra (Garchomp, Swampert, Gliscor) son inmunes a sus ataques eléctricos y responden con Terremoto letal."
+      "strategy": ""
     },
     {
       "name": "Sabrina",
@@ -370928,7 +370928,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Espathra gana un nivel de velocidad cada turno con Aceleril; Alakazam e Iron Valiant pegan con estadísticas especiales descomunales. <b>Consejo:</b> Tipos Siniestro (Houndoom, Weavile, Ting-Lu) anulan los ataques psíquicos. Ataca el lado físico de Alakazam y Espathra debido a su baja defensa física."
+      "strategy": ""
     },
     {
       "name": "Erika",
@@ -371003,7 +371003,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Meowscarada asesta impactos críticos garantizados con Truco Floral; Ogerpon golpea implacable con Maza Ígnea o Garrote Rama. <b>Consejo:</b> Tipos Fuego, Volador e Hielo barren el gimnasio con relativa facilidad."
+      "strategy": ""
     },
     {
       "name": "Misty",
@@ -371078,7 +371078,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Quaquaval incrementa su velocidad con Danza Acuática; Palafin en Forma Heroica tiene estadísticas de deidad legendaria; Milotic y Lapras absorben daño. <b>Consejo:</b> Planta y Eléctrico son fundamentales. Desestabiliza a Palafin con Liofilización o ataques eléctricos masivos antes de que use Puño Jet."
+      "strategy": ""
     },
     {
       "name": "Sachiko (Janine)",
@@ -371153,7 +371153,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Glimmora coloca Púas Tóxicas si la golpeas físicamente; Pecharunt envenena y confunde con Cadena Virulenta. <b>Consejo:</b> Elimina a Glimmora con ataques especiales a distancia o Terremoto. Lleva Bayas Meloc / Ziuela o tipos Acero para ignorar las cadenas venenosas."
+      "strategy": ""
     },
     {
       "name": "Brock",
@@ -371228,7 +371228,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Rhyperior, Golem, Aerodactyl, Kabutops y Omastar forman un muro rocoso de gran contundencia física. <b>Consejo:</b> Debilidad masiva a los tipos Agua y Planta (x4 en Rhyperior, Golem, Kabutops y Omastar). Ataques como Surf y Gigadrenado limpian el campo casi sin despeinarse."
+      "strategy": ""
     },
     {
       "name": "Blaine",
@@ -371303,7 +371303,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Chi-Yu reduce la defensa especial de tus Pokémon un 25% con Cuentas del Debacle y lanza Llamaradas nucleares; Ceruledge se cura con Espada Lamento; Ninetales invoca Sol. <b>Consejo:</b> Cambia el clima inmediatamente para apagar el Sol. Tipos Tierra, Roca y Agua resisten y devuelven golpes fulminantes."
+      "strategy": ""
     },
     {
       "name": "Azul (Blue)",
@@ -371378,7 +371378,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "El combate cumbre de Kanto: Kingambit como revancha letal, Annihilape con Puño Furia acumulativo, Mega-Pidgeot con Vendaval de 100% de acierto gracias a Indefenso. <b>Consejo:</b> Lleva Trampa Rocas para castigar a Pidgeot y romper bandas. Un núcleo equilibrado con Hada, Lucha y Eléctrico es indispensable."
+      "strategy": ""
     },
     {
       "name": "Rojo (Red) - Campeón Máximo",
@@ -371453,7 +371453,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "La batalla definitiva de la cima bajo granizo: Pikachu con Bola Luminosa (+600 de Atq/At.Esp), Mega-Charizard Y con Sequía, Mega-Venusaur con Sebo, Snorlax con Tambor y Restos. <b>Consejo:</b> Elimina a Pikachu en turno 1 con prioridad (Terremoto o velocidad superior). Trampa Rocas quita el 50% de PS a Charizard al entrar. Usa Lucha física contundente contra Snorlax antes de que se infle con Tambor."
+      "strategy": ""
     },
     {
       "name": "Pegaso - Revancha Nv. 100",
@@ -371528,7 +371528,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Abre con presión de Hoothoot con Rayo Confuso e Hipnosis para forzar cambios y desgaste. Doduo y Noctowl golpean con alta velocidad y cobertura voladora física/especial. <b>Consejo:</b> Usa a Mareep (capturable en Ruta 32) o Geodude (Cueva Oscura) para resistir sus ataques al 50% y eliminarlos de un impacto eléctrico o roca. Lleva Bayas Atania para prevenir el sueño de Noctowl."
+      "strategy": ""
     },
     {
       "name": "Antón - Revancha Nv. 100",
@@ -371603,7 +371603,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Ninjask con Impulso y Vidasfera inicia acelerando el combate con Danza Espada e Ida y Vuelta; Scyther con Garrafilada mete presión crítica con Demolición y Ataque Ala; Lokix remata con Escaramuza o Golpe Bajo. <b>Consejo:</b> Los ataques de Fuego (Quilava, Houndour) y Roca (Geodude con Trampa Rocas o Lanzarrocas) son devastadores. Scyther tiene debilidad x4 a Roca; forzarlo a golpear contra un tipo Roca desgastará su salud."
+      "strategy": ""
     },
     {
       "name": "Blanca - Revancha Nv. 100",
@@ -371678,7 +371678,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Bewear con Peluche reduce el daño físico a la mitad; Blissey absorbe cualquier ataque especial; Miltank ataca con Desenrollar y se cura con Batido; Diggersby cubre la debilidad a Roca/Lucha con tipo Tierra. <b>Consejo:</b> ¡No uses ataques físicos contra Bewear salvo que sean de Fuego! Contra Miltank, un tipo Fantasma (Gastly) anula Desenrollar y Pisotón. Ataques de Lucha Especial (Aura Esfera) y quemaduras de Fuego Fatuo arruinan la recuperación de Miltank y Blissey."
+      "strategy": ""
     },
     {
       "name": "Morti - Revancha Nv. 100",
@@ -371753,7 +371753,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Gengar veloz con Hipnosis y Bola Sombra; Annihilape castiga cualquier intento de desgaste con Puño Furia acumulativo; Houndstone gana poder masivo con Último Respeto a medida que caen sus compañeros. <b>Consejo:</b> Tipos Siniestro (Houndoom, Umbreon) y Normales son inmunes o resistentes a Bola Sombra. ¡Jamás uses ataques débiles contra Annihilape para no cargar su Puño Furia! Noquéalo de un solo golpe con Psíquico, Volador o Hada."
+      "strategy": ""
     },
     {
       "name": "Aníbal - Revancha Nv. 100",
@@ -371828,7 +371828,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Hawlucha golpea con velocidad y Plancha Voladora; Urshifu-Fluido asesta 3 golpes críticos garantizados anulando Protección; Poliwrath presiona con Cascada y Puño Dinámico. <b>Consejo:</b> Tipos Volador, Hada y Psíquico (Espeon, Togekiss) dominan la mesa, pero cuídate de los Puños Elementales de Hitmonchan. Intimidadores (Gyarados, Arcanine) neutralizan su daño físico."
+      "strategy": ""
     },
     {
       "name": "Yasmina - Revancha Nv. 100",
@@ -371903,7 +371903,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Muro blindado con Trampa Rocas de Skarmory, Martillo Colosal de Tinkaton, Levitación en Bronzong y Kingambit como venganza letal con General Supremo. <b>Consejo:</b> Ten respuestas de Fuego, Tierra y Lucha. Skarmory y Tinkaton caen ante Fuego; Bronzong requiere Fuego o Siniestro por su Levitación; Steelix y Magneton son vulnerables a Terremoto. Prioriza eliminar a Kingambit rápido."
+      "strategy": ""
     },
     {
       "name": "Fredo - Revancha Nv. 100",
@@ -371978,7 +371978,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
+      "strategy": ""
     },
     {
       "name": "Débora - Revancha Nv. 100",
@@ -372053,7 +372053,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
+      "strategy": ""
     },
     {
       "name": "Lt. Surge - Revancha Nv. 100",
@@ -372128,7 +372128,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Pawmot, Bellibolt, Magnezone, Electivire, Raichu y Jolteon despliegan ofensiva eléctrica de alto voltaje. Bellibolt acumula carga al recibir daño y Pawmot presiona con A Bocajarro. <b>Consejo:</b> Tipos Tierra (Garchomp, Swampert, Gliscor) son inmunes a sus ataques eléctricos y responden con Terremoto letal."
+      "strategy": ""
     },
     {
       "name": "Sabrina - Revancha Nv. 100",
@@ -372203,7 +372203,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Espathra gana un nivel de velocidad cada turno con Aceleril; Alakazam e Iron Valiant pegan con estadísticas especiales descomunales. <b>Consejo:</b> Tipos Siniestro (Houndoom, Weavile, Ting-Lu) anulan los ataques psíquicos. Ataca el lado físico de Alakazam y Espathra debido a su baja defensa física."
+      "strategy": ""
     },
     {
       "name": "Erika - Revancha Nv. 100",
@@ -372278,7 +372278,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Meowscarada asesta impactos críticos garantizados con Truco Floral; Ogerpon golpea implacable con Maza Ígnea o Garrote Rama. <b>Consejo:</b> Tipos Fuego, Volador e Hielo barren el gimnasio con relativa facilidad."
+      "strategy": ""
     },
     {
       "name": "Misty - Revancha Nv. 100",
@@ -372353,7 +372353,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Quaquaval incrementa su velocidad con Danza Acuática; Palafin en Forma Heroica tiene estadísticas de deidad legendaria; Milotic y Lapras absorben daño. <b>Consejo:</b> Planta y Eléctrico son fundamentales. Desestabiliza a Palafin con Liofilización o ataques eléctricos masivos antes de que use Puño Jet."
+      "strategy": ""
     },
     {
       "name": "Sachiko - Revancha Nv. 100",
@@ -372428,7 +372428,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Glimmora coloca Púas Tóxicas si la golpeas físicamente; Pecharunt envenena y confunde con Cadena Virulenta. <b>Consejo:</b> Elimina a Glimmora con ataques especiales a distancia o Terremoto. Lleva Bayas Meloc / Ziuela o tipos Acero para ignorar las cadenas venenosas."
+      "strategy": ""
     },
     {
       "name": "Brock - Revancha Nv. 100",
@@ -372503,7 +372503,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Rhyperior, Golem, Aerodactyl, Kabutops y Omastar forman un muro rocoso de gran contundencia física. <b>Consejo:</b> Debilidad masiva a los tipos Agua y Planta (x4 en Rhyperior, Golem, Kabutops y Omastar). Ataques como Surf y Gigadrenado limpian el campo casi sin despeinarse."
+      "strategy": ""
     },
     {
       "name": "Blaine - Revancha Nv. 100",
@@ -372578,7 +372578,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Chi-Yu reduce la defensa especial de tus Pokémon un 25% con Cuentas del Debacle y lanza Llamaradas nucleares; Ceruledge se cura con Espada Lamento; Ninetales invoca Sol. <b>Consejo:</b> Cambia el clima inmediatamente para apagar el Sol. Tipos Tierra, Roca y Agua resisten y devuelven golpes fulminantes."
+      "strategy": ""
     },
     {
       "name": "Azul - Revancha Nv. 100",
@@ -372653,7 +372653,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "El combate cumbre de Kanto: Kingambit como revancha letal, Annihilape con Puño Furia acumulativo, Mega-Pidgeot con Vendaval de 100% de acierto gracias a Indefenso. <b>Consejo:</b> Lleva Trampa Rocas para castigar a Pidgeot y romper bandas. Un núcleo equilibrado con Hada, Lucha y Eléctrico es indispensable."
+      "strategy": ""
     },
     {
       "name": "Rival Silver (Revancha Máxima)",
@@ -372728,7 +372728,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+      "strategy": ""
     },
     {
       "name": "Mento - Liga R2 Monotype Psíquico Ubers",
@@ -372803,7 +372803,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Campo Psíquico de Tapu Lele bloquea toda la prioridad (+30% daño psíquico); Mega-Mewtwo Y destruye con Onda Mental; Deoxys-A con Banda Focus pega primero; Lunala y Lugia forman un muro impenetrable. <b>Consejo:</b> ¡Prohibido usar prioridad (Golpe Bajo, Puño Bala) bajo Campo Psíquico! Lleva tanques de tipo Siniestro pesados (Ting-Lu, Kingambit) y rompe la Multiescala de Lugia y Banda de Deoxys con Trampa Rocas."
+      "strategy": ""
     },
     {
       "name": "Koga - Liga R2 Monotype Veneno Ubers",
@@ -372878,7 +372878,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Capa Tóxica de Glimmora, Cadena Virulenta de Pecharunt, Toxapex ultradefensivo con Regeneración, Cañón Dinamax de Eternatus y Sombra Trampa de Mega-Gengar que bloquea tus cambios. <b>Consejo:</b> Tipos Tierra con Inmunidad o Sustituto. No dejes que Naganadel encadene KOs para evitar que aumente su velocidad. Usa Mofa contra Toxapex para anular su Recuperación."
+      "strategy": ""
     },
     {
       "name": "Bruno - Liga R2 Monotype Lucha Ubers",
@@ -372953,7 +372953,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "La ofensiva física más demoledora: Koraidon invoca Sol y destruye con Envite Ígneo; Zamazenta aprovecha su descomunal Defensa para barrer con Plancha Corporal; Marshadow roba cualquier aumento de estadísticas con Robasombra. <b>Consejo:</b> ¡Jamás uses Danza Espada o Danza Dragón frente a Marshadow porque te los robará con Robasombra! Cambia el clima para apagar el Sol y ataca con Hadas bulkys y daño especial."
+      "strategy": ""
     },
     {
       "name": "Karen - Liga R2 Monotype Siniestro Ubers",
@@ -373028,7 +373028,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "Darkrai duerme y drena con Brecha Negra; Yveltal potencia un 33% los ataques siniestros con Aura Oscura y se cura con Ala Mortífera; Chien-Pao y Mega-Tyranitar desgarran con fuerza física. <b>Consejo:</b> Equipa Bayas Chego / Despertar o Niebla Aromática para anular la Brecha Negra de Darkrai. Movimientos de Lucha y Hada son letales contra casi todo su equipo. Prioriza derribar a Yveltal con Rayo Hielo o ataques Eléctricos."
+      "strategy": ""
     },
     {
       "name": "Lance - Liga R2 Monotype Dragón Ubers",
@@ -373103,7 +373103,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "strategy": "El combate más legendario jamás creado: 6 titanes dragón a Nivel 100. Miraidon activa Campo Eléctrico con Motor Hadrónico; Zygarde ignora levitaciones con Mil Flechas; Mega-Rayquaza domina los cielos con Ráfaga Delta y Ascenso Draco. <b>Consejo:</b> 1) Abre con Trampa Rocas para quitar 25% a Rayquaza y romper la Multiescala de Dragonite. 2) Cambia de terreno para neutralizar la Electroderiva de Miraidon. 3) Un tipo Hada con alta Defensa Especial anula los ataques de dragón. 4) Canto Helado prioritario o Pañuelo Elegido dan KO a Rayquaza y Dragonite."
+      "strategy": ""
     }
   ],
   "features": {
