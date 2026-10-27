@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.13 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.15";
+/* Pokémon ChirlGold v0.13.15 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.16";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -44351,7 +44351,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 31",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Hierba"
+        }
+      ],
       "family_tree": [
         {
           "name": "Togepi",
@@ -366048,6 +366055,13 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 175,
+          "pokemon": "Togepi",
+          "time": "Todo el día",
+          "rate": "4%",
+          "method": "Hierba"
+        },
+        {
           "pid": 569,
           "pokemon": "Pidove",
           "time": "Mañana y Día",
@@ -369127,118 +369141,79 @@ window.CHIRLGOLD_DATA = {
       "name": "Pegaso (Falkner)",
       "city": "Ciudad Malvalba (Gimnasio 1)",
       "badge": "Medalla Céfiro",
-      "level_cap": 14,
+      "level_cap": 13,
       "team": [
         {
-          "pokemon": "Gligar",
-          "level": 14,
-          "item": "Baya Aranja",
+          "pokemon": "Hoothoot",
+          "level": 12,
+          "item": "Ninguno",
           "moves": [
-            "Bofetón Lodo",
-            "Picotazo Ven",
-            "At. Rápido",
-            "Fortaleza"
-          ]
-        },
-        {
-          "pokemon": "Wattrel",
-          "level": 14,
-          "item": "Baya Caquic",
-          "moves": [
-            "Impactrueno",
-            "Aire Afilado",
-            "Onda Trueno",
-            "At. Rápido"
+            "Placaje",
+            "Picotazo",
+            "Gruñido"
           ]
         },
         {
           "pokemon": "Doduo",
-          "level": 14,
-          "item": "Baya Aranja",
+          "level": 12,
+          "item": "Ninguno",
           "moves": [
+            "Ataque Rápido",
             "Picotazo",
-            "Doble Patada",
-            "Bofetón Lodo",
-            "Malicioso"
+            "Gruñido"
           ]
         },
         {
           "pokemon": "Noctowl",
-          "level": 14,
-          "item": "Baya Zidra",
+          "level": 13,
+          "item": "Baya Aranja",
           "moves": [
-            "Tornado",
-            "Respiro",
+            "Placaje",
+            "Confusión",
             "Hipnosis",
-            "Vien. Aciago"
+            "Picotazo"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Antón (Bugsy)",
       "city": "Pueblo Azalea (Gimnasio 2)",
       "badge": "Medalla Colmena",
-      "level_cap": 18,
+      "level_cap": 19,
       "team": [
         {
-          "pokemon": "Dwebble",
+          "pokemon": "Anorith",
           "level": 17,
-          "item": "Baya Aranja",
+          "item": "Ninguno",
           "moves": [
-            "Trampa Rocas",
             "Tumba Rocas",
-            "Tijera X",
-            "Protección"
-          ]
-        },
-        {
-          "pokemon": "Ariados",
-          "level": 17,
-          "item": "Baya Zidra",
-          "moves": [
-            "Disp. Demora",
-            "Picotazo Ven",
-            "Sombra Vil",
-            "Tinieblas"
+            "Picadura",
+            "Fortaleza"
           ]
         },
         {
           "pokemon": "Heracross",
-          "level": 17,
-          "item": "Baya Aranja",
+          "level": 18,
+          "item": "Ninguno",
           "moves": [
-            "Demolición",
-            "Cornada",
-            "Golpe Aéreo",
-            "At. Rápido"
-          ]
-        },
-        {
-          "pokemon": "Yanma",
-          "level": 17,
-          "item": "Baya Caquic",
-          "moves": [
-            "Aire Afilado",
-            "Doble Rayo",
-            "Detección",
-            "Hipnosis"
+            "Golpe Roca",
+            "Ataque Furia",
+            "Malicioso"
           ]
         },
         {
           "pokemon": "Scyther",
-          "level": 17,
+          "level": 19,
           "item": "Baya Zidra",
           "moves": [
             "Ida y Vuelta",
-            "Golpe Aéreo",
-            "At. Rápido",
-            "Picadura"
+            "Ataque Ala",
+            "Persecución",
+            "Foco Energía"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Blanca (Whitney)",
@@ -369248,361 +369223,182 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Clefairy",
-          "level": 21,
+          "level": 20,
           "item": "Mineral Evol",
           "moves": [
-            "Reflejo",
-            "Onda Trueno",
-            "Voz Cautiv.",
-            "Metrónomo"
-          ]
-        },
-        {
-          "pokemon": "Ambipom",
-          "level": 21,
-          "item": "Baya Meloc",
-          "moves": [
-            "Sorpresa",
-            "Doble Golpe",
-            "Bofetón Lodo",
-            "Persecución"
-          ]
-        },
-        {
-          "pokemon": "Furret",
-          "level": 21,
-          "item": "Baya Caquic",
-          "moves": [
-            "At. Rápido",
-            "Golpes Furia",
-            "Desenrollar",
-            "Bofetón Lodo"
-          ]
-        },
-        {
-          "pokemon": "Wigglytuff",
-          "level": 21,
-          "item": "Restos",
-          "moves": [
-            "Encanto",
-            "Onda Trueno",
-            "Voz Cautiv.",
-            "Espacio Raro"
+            "Beso Drenaje",
+            "Metrónomo",
+            "Canto"
           ]
         },
         {
           "pokemon": "Miltank",
-          "level": 21,
+          "level": 22,
           "item": "Baya Zidra",
           "moves": [
-            "Pisotón",
             "Desenrollar",
-            "Batido",
-            "Atracción"
+            "Pisotón",
+            "Atracción",
+            "Batido"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Morti (Morty)",
       "city": "Ciudad Iris (Gimnasio 4)",
       "badge": "Medalla Niebla",
-      "level_cap": 28,
+      "level_cap": 26,
       "team": [
         {
-          "pokemon": "Haunter",
-          "level": 27,
-          "item": "Banda Focus",
+          "pokemon": "Gastly",
+          "level": 23,
+          "item": "Ninguno",
           "moves": [
-            "Fuego Fatuo",
+            "Rayo Confuso",
+            "Tinieblas",
+            "Maldición"
+          ]
+        },
+        {
+          "pokemon": "Haunter",
+          "level": 24,
+          "item": "Ninguno",
+          "moves": [
+            "Tinieblas",
+            "Pesadilla",
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Haunter",
+          "level": 24,
+          "item": "Ninguno",
+          "moves": [
             "Tinieblas",
             "Rayo Confuso",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Sableye",
-          "level": 27,
-          "item": "Restos",
-          "moves": [
-            "Fuego Fatuo",
-            "Desarme",
-            "Recuperación",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Misdreavus",
-          "level": 27,
-          "item": "Mineral Evol",
-          "moves": [
-            "Bola Sombra",
-            "LlamaEmbruj.",
-            "Rayo Confuso",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Drifblim",
-          "level": 27,
-          "item": "Baya Zidra",
-          "moves": [
-            "Bola Sombra",
-            "Vuelo",
-            "Camelo",
-            "Hipnosis"
+            "Rencor"
           ]
         },
         {
           "pokemon": "Gengar",
-          "level": 27,
-          "item": "Vidasfera",
+          "level": 26,
+          "item": "Baya Zidra",
           "moves": [
             "Bola Sombra",
-            "Bomba Lodo",
-            "Esfera Aural",
-            "Hipnosis"
-          ]
-        },
-        {
-          "pokemon": "Mismagius",
-          "level": 27,
-          "item": "Vidasfera",
-          "moves": [
-            "Bola Sombra",
-            "LlamaEmbruj.",
-            "Psíquico",
-            "Paz Mental"
+            "Hipnosis",
+            "Come Sueños",
+            "Mismo Destino"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Aníbal (Chuck)",
       "city": "Ciudad Orquídea (Gimnasio 5)",
       "badge": "Medalla Tormenta",
-      "level_cap": 34,
+      "level_cap": 31,
       "team": [
         {
-          "pokemon": "Hitmontop",
-          "level": 35,
-          "item": "Restos",
-          "moves": [
-            "Sorpresa",
-            "Golpe Bajo",
-            "A Bocajarro",
-            "Giro Rápido"
-          ]
-        },
-        {
           "pokemon": "Primeape",
-          "level": 35,
-          "item": "Vidasfera",
+          "level": 29,
+          "item": "Ninguno",
           "moves": [
-            "A Bocajarro",
-            "Puño Hielo",
-            "Desarme",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Breloom",
-          "level": 35,
-          "item": "Banda Focus",
-          "moves": [
-            "Espora",
-            "Ultrapuño",
-            "Abatidoras",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Machamp",
-          "level": 35,
-          "item": "Baya Zidra",
-          "moves": [
-            "Puñodinámico",
-            "Roca Afilada",
-            "Puño Hielo",
-            "Desquite"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 35,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Esfera Aural",
-            "Foco Respl.",
-            "Pulso Dragón",
-            "Vel. Extrema"
+            "Puño Furia",
+            "Demolición",
+            "Doble Equipo"
           ]
         },
         {
           "pokemon": "Poliwrath",
-          "level": 35,
+          "level": 31,
           "item": "Baya Zidra",
           "moves": [
-            "Cascada",
-            "Puño Hielo",
+            "Puño Dinámico",
+            "Surf",
             "Hipnosis",
-            "Demolición"
+            "Golpe Cuerpo"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Yasmina (Jasmine)",
       "city": "Ciudad Olivo (Gimnasio 6)",
       "badge": "Medalla Mineral",
-      "level_cap": 38,
+      "level_cap": 35,
       "team": [
         {
-          "pokemon": "Skarmory",
-          "level": 40,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Pájaro Osado",
-            "Remolino"
-          ]
-        },
-        {
-          "pokemon": "Bronzong",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Giro Bola",
-            "Paranormal",
-            "Pantalla Luz",
-            "Paz Mental"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 40,
-          "item": "Gafas Elegid",
+          "pokemon": "Magnemite",
+          "level": 32,
+          "item": "Ninguno",
           "moves": [
             "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Poder Oculto"
+            "Bomba Sónica",
+            "Onda Trueno"
           ]
         },
         {
-          "pokemon": "Empoleon",
-          "level": 40,
-          "item": "Chaleco Asalto",
+          "pokemon": "Magnemite",
+          "level": 32,
+          "item": "Ninguno",
           "moves": [
-            "Escaldar",
-            "Foco Respl.",
-            "Rayo Hielo",
-            "Acua Jet"
-          ]
-        },
-        {
-          "pokemon": "Scizor",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Bala",
-            "Picadura",
-            "Danza Espada",
-            "Demolición"
+            "Rayo",
+            "Supersónico",
+            "Onda Trueno"
           ]
         },
         {
           "pokemon": "Steelix",
-          "level": 40,
-          "item": "Cinta Xperto",
+          "level": 35,
+          "item": "Baya Zidra",
           "moves": [
+            "Cola Férrea",
             "Terremoto",
-            "Testarazo",
-            "Giro Bola",
-            "Colm. Ígneo"
+            "Tormenta de Arena",
+            "Colmillo Hielo"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Fredo (Pryce)",
       "city": "Pueblo Caoba (Gimnasio 7)",
       "badge": "Medalla Glaciar",
-      "level_cap": 40,
+      "level_cap": 39,
       "team": [
         {
-          "pokemon": "Abomasnow",
-          "level": 40,
-          "item": "Roca Helada",
+          "pokemon": "Seel",
+          "level": 36,
+          "item": "Ninguno",
           "moves": [
-            "Ventisca",
-            "Gigadrenado",
-            "Canto Helado",
-            "Mazazo"
+            "Rayo Hielo",
+            "Surf",
+            "Descanso"
           ]
         },
         {
           "pokemon": "Dewgong",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Surf",
-            "Rayo Hielo",
-            "Manto Espejo",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Froslass",
-          "level": 40,
-          "item": "Banda Focus",
-          "moves": [
-            "Ventisca",
-            "Bola Sombra",
-            "Púas",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Cloyster",
-          "level": 40,
+          "level": 38,
           "item": "Ninguno",
           "moves": [
-            "Rompecoraza",
-            "Carámbano",
-            "Pedrada",
-            "Concha Filo"
+            "Rayo Hielo",
+            "Surf",
+            "Velo Aurora"
           ]
         },
         {
-          "pokemon": "Weavile",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Mamoswine",
-          "level": 40,
-          "item": "Cinta Xperto",
+          "pokemon": "Piloswine",
+          "level": 39,
+          "item": "Baya Zidra",
           "moves": [
             "Terremoto",
             "Chuzos",
-            "Canto Helado",
-            "Fuerza Bruta"
+            "Granizo",
+            "Canto Helado"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Débora (Clair)",
@@ -369611,929 +369407,155 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 45,
       "team": [
         {
-          "pokemon": "Garchomp",
-          "level": 45,
-          "item": "Casco Dentado",
+          "pokemon": "Gyarados",
+          "level": 42,
+          "item": "Ninguno",
           "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Cola Dragón",
-            "Avalancha"
+            "Cascada",
+            "Mordisco",
+            "Onda Trueno",
+            "Furia Dragón"
           ]
         },
         {
           "pokemon": "Dragonair",
-          "level": 45,
-          "item": "Mineral Evol",
-          "moves": [
-            "Onda Trueno",
-            "Pulso Dragón",
-            "Acua Cola",
-            "Descanso"
-          ]
-        },
-        {
-          "pokemon": "Flygon",
-          "level": 45,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Terremoto",
-            "Garra Dragón",
-            "Ida y Vuelta",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Altaria",
-          "level": 45,
-          "item": "Restos",
-          "moves": [
-            "Voz Cautiv.",
-            "Lanzallamas",
-            "Respiro",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 45,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Kingdra",
-          "level": 45,
-          "item": "Vidasfera",
+          "level": 43,
+          "item": "Ninguno",
           "moves": [
             "Pulso Dragón",
-            "Hidrobomba",
-            "Rayo Hielo",
-            "Foco Energía"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Rival Silver (Combate 1)",
-      "city": "Ciudad Cerezo",
-      "badge": "Rival",
-      "level_cap": 15,
-      "team": [
-        {
-          "pokemon": "Cyndaquil",
-          "level": 5,
-          "item": "Baya Aranja",
-          "moves": [
-            "Placaje",
-            "Malicioso",
-            "Ascuas",
-            "At. Rápido"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Rival Silver (Combate 2)",
-      "city": "Pueblo Azalea",
-      "badge": "Rival",
-      "level_cap": 20,
-      "team": [
-        {
-          "pokemon": "Gastly",
-          "level": 17,
-          "item": "Polvo Brillo",
-          "moves": [
-            "Tinieblas",
-            "Rayo Confuso",
-            "Fuego Fatuo",
-            "Rompecoraza"
-          ]
-        },
-        {
-          "pokemon": "Zubat",
-          "level": 17,
-          "item": "Baya Meloc",
-          "moves": [
-            "Ataque Ala",
-            "Mordisco",
-            "Colmillo Ven",
-            "Supersónico"
-          ]
-        },
-        {
-          "pokemon": "Magnemite",
-          "level": 17,
-          "item": "Baya Aranja",
-          "moves": [
-            "Impactrueno",
-            "Onda Trueno",
-            "Bofetón Lodo",
-            "Reflejo"
-          ]
-        },
-        {
-          "pokemon": "Sneasel",
-          "level": 17,
-          "item": "Baya Caquic",
-          "moves": [
-            "At. Rápido",
-            "Finta",
-            "Viento Hielo",
-            "Malicioso"
-          ]
-        },
-        {
-          "pokemon": "Croconaw",
-          "level": 17,
-          "item": "Baya Zidra",
-          "moves": [
-            "Pistola Agua",
-            "Mordisco",
-            "Arañazo",
-            "Malicioso"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Rival Silver (Combate 3)",
-      "city": "Faro de Olivo",
-      "badge": "Rival",
-      "level_cap": 38,
-      "team": [
-        {
-          "pokemon": "Haunter",
-          "level": 23,
-          "item": "Banda Focus",
-          "moves": [
-            "Fuego Fatuo",
-            "Tinieblas",
-            "Rayo Confuso",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Golbat",
-          "level": 23,
-          "item": "Baya Meloc",
-          "moves": [
-            "Ataque Ala",
-            "Colmillo Ven",
-            "Mordisco",
-            "Supersónico"
-          ]
-        },
-        {
-          "pokemon": "Magnemite",
-          "level": 23,
-          "item": "Mineral Evol",
-          "moves": [
-            "Rayo",
-            "Onda Trueno",
-            "Bofetón Lodo",
-            "Reflejo"
-          ]
-        },
-        {
-          "pokemon": "Kadabra",
-          "level": 24,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Psicorrayo",
-            "Rayo Confuso",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Sneasel",
-          "level": 24,
-          "item": "Cinta Xperto",
-          "moves": [
-            "At. Rápido",
-            "Tajo Umbrío",
-            "Chuzos",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 25,
-          "item": "Baya Zidra",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Rival Silver (Combate 4)",
-      "city": "Subterráneo Trigal",
-      "badge": "Rival",
-      "level_cap": 42,
-      "team": [
-        {
-          "pokemon": "Gengar",
-          "level": 42,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Magneton",
-          "level": 42,
-          "item": "Mineral Evol",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
+            "Surf",
             "Onda Trueno"
           ]
         },
         {
-          "pokemon": "Crobat",
-          "level": 42,
-          "item": "Lodo Negro",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 42,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera",
-            "Paz Mental"
-          ]
-        },
-        {
-          "pokemon": "Weavile",
-          "level": 42,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Chuzos",
-            "Tajo Umbrío",
-            "Canto Helado",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 42,
-          "item": "Baya Zidra",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Rival Silver (Combate 5)",
-      "city": "Calle Victoria",
-      "badge": "Rival Gatekeeper",
-      "level_cap": 55,
-      "team": [
-        {
-          "pokemon": "Gengar",
-          "level": 55,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Onda Certera",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 55,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Triataque"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 55,
-          "item": "Lodo Negro",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera",
-            "BrilloMágico"
-          ]
-        },
-        {
-          "pokemon": "Weavile",
-          "level": 55,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 55,
-          "item": "Baya Zidra",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Ejecutivo Petrel",
-      "city": "Escondite Caoba",
-      "badge": "Team Rocket",
-      "level_cap": 40,
-      "team": [
-        {
-          "pokemon": "Gengar",
-          "level": 40,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Arbok",
-          "level": 40,
-          "item": "Lodo Negro",
-          "moves": [
-            "Puya Nociva",
-            "Terremoto",
-            "Desarme",
-            "Deslumbrar"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 40,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Raticate",
-          "level": 40,
+          "pokemon": "Dragonair",
+          "level": 43,
           "item": "Ninguno",
           "moves": [
-            "Imagen",
-            "Golpe Bajo",
-            "Triturar",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Drapion",
-          "level": 40,
-          "item": "Casco Dentado",
-          "moves": [
-            "Desarme",
-            "Terremoto",
-            "Puya Nociva",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Weezing",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Fuego Fatuo",
-            "Divide Dolor"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Ejecutiva Ariana",
-      "city": "Escondite Caoba",
-      "badge": "Team Rocket",
-      "level_cap": 40,
-      "team": [
-        {
-          "pokemon": "Arbok",
-          "level": 40,
-          "item": "Lodo Negro",
-          "moves": [
-            "Bomba Lodo",
-            "Terremoto",
-            "Mordisco",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Gloom",
-          "level": 40,
-          "item": "Restos",
-          "moves": [
-            "Energibola",
-            "Bomba Lodo",
-            "Tóxico",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Murkrow",
-          "level": 40,
-          "item": "Vidasfera",
-          "moves": [
-            "Pulso Umbrío",
-            "Ataque Ala",
-            "Golpe Bajo",
-            "Onda Certera"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Ejecutivo Petrel (Torre)",
-      "city": "Torre Radio Trigal",
-      "badge": "Team Rocket",
-      "level_cap": 43,
-      "team": [
-        {
-          "pokemon": "Zoroark",
-          "level": 43,
-          "item": "Banda Focus",
-          "moves": [
-            "Pulso Umbrío",
-            "Lanzallamas",
-            "Onda Certera",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 43,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Drapion",
-          "level": 43,
-          "item": "Casco Dentado",
-          "moves": [
-            "Desarme",
-            "Terremoto",
-            "Puya Nociva",
-            "Trampa Ven."
-          ]
-        },
-        {
-          "pokemon": "Muk",
-          "level": 43,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Desarme",
-            "Puya Nociva",
-            "Puño Fuego",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 43,
-          "item": "Vidasfera",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Foco Respl.",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Weezing",
-          "level": 43,
-          "item": "Lodo Negro",
-          "moves": [
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Divide Dolor",
-            "Fuego Fatuo"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Ejecutivo Protón (Torre)",
-      "city": "Torre Radio Trigal",
-      "badge": "Team Rocket",
-      "level_cap": 43,
-      "team": [
-        {
-          "pokemon": "Qwilfish",
-          "level": 43,
-          "item": "Banda Focus",
-          "moves": [
-            "Púas Tóxicas",
-            "Cascada",
-            "Puya Nociva",
-            "Mismodestino"
-          ]
-        },
-        {
-          "pokemon": "Golbat",
-          "level": 43,
-          "item": "Mineral Evol",
-          "moves": [
-            "Veneno X",
-            "Golpe Aéreo",
-            "Respiro",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Skuntank",
-          "level": 43,
-          "item": "Vidasfera",
-          "moves": [
-            "Golpe Bajo",
-            "Puya Nociva",
-            "Triturar",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Toxicroak",
-          "level": 43,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Demolición",
-            "Puya Nociva",
-            "Golpe Bajo",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Houndoom",
-          "level": 43,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Lanzallamas",
-            "Pulso Umbrío",
-            "Onda Ígnea",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Weezing",
-          "level": 43,
-          "item": "Casco Dentado",
-          "moves": [
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Explosión",
-            "Divide Dolor"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Ejecutiva Ariana (Torre)",
-      "city": "Torre Radio Trigal",
-      "badge": "Team Rocket",
-      "level_cap": 44,
-      "team": [
-        {
-          "pokemon": "Roserade",
-          "level": 44,
-          "item": "Banda Focus",
-          "moves": [
-            "Púas Tóxicas",
-            "Gigadrenado",
-            "Bomba Lodo",
-            "Paranormal"
-          ]
-        },
-        {
-          "pokemon": "Arbok",
-          "level": 44,
-          "item": "Lodo Negro",
-          "moves": [
-            "Puya Nociva",
-            "Terremoto",
-            "Desarme",
-            "Enrosque"
-          ]
-        },
-        {
-          "pokemon": "Honchkrow",
-          "level": 44,
-          "item": "Vidasfera",
-          "moves": [
-            "Golpe Bajo",
-            "Pájaro Osado",
-            "Tajo Umbrío",
-            "Onda Ígnea"
-          ]
-        },
-        {
-          "pokemon": "Toxicroak",
-          "level": 44,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Demolición",
-            "Puya Nociva",
-            "Golpe Bajo",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Nidoqueen",
-          "level": 44,
-          "item": "Casco Dentado",
-          "moves": [
-            "Tierra Viva",
-            "Bomba Lodo",
+            "Pulso Dragón",
             "Rayo Hielo",
             "Llamarada"
           ]
         },
         {
-          "pokemon": "Vileplume",
-          "level": 44,
-          "item": "Restos",
+          "pokemon": "Kingdra",
+          "level": 45,
+          "item": "Baya Zidra",
           "moves": [
-            "Gigadrenado",
-            "Bomba Lodo",
-            "Drenadoras",
-            "BrilloMágico"
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Pantalla de Humo",
+            "Hiperrayo"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
-      "name": "Ejecutivo Archer (Torre)",
-      "city": "Torre Radio Trigal (Cima)",
-      "badge": "Team Rocket",
-      "level_cap": 44,
-      "team": [
-        {
-          "pokemon": "Tyranitar",
-          "level": 44,
-          "item": "Baya Pasio",
-          "moves": [
-            "Trampa Rocas",
-            "Roca Afilada",
-            "Terremoto",
-            "Triturar"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 44,
-          "item": "Banda Focus",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Onda Certera",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Nidoking",
-          "level": 44,
-          "item": "Vidasfera",
-          "moves": [
-            "Tierra Viva",
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Scrafty",
-          "level": 44,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "A Bocajarro",
-            "Desarme",
-            "Puño Drenaje",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Salamence",
-          "level": 44,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Garra Dragón",
-            "Terremoto",
-            "Golpe Aéreo",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Houndoom",
-          "level": 44,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Lanzallamas",
-            "Pulso Umbrío",
-            "Onda Ígnea",
-            "Bomba Lodo"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Mento (Will) - Alto Mando #1",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Psíquico",
-      "level_cap": 55,
+      "name": "Mento (Will) - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 1",
+      "level_cap": 50,
       "team": [
         {
           "pokemon": "Xatu",
-          "level": 55,
-          "item": "Refleluz",
+          "level": 48,
+          "item": "Banda Focus",
           "moves": [
-            "Reflejo",
-            "Pantalla Luz",
-            "Respiro",
-            "Paranormal"
-          ]
-        },
-        {
-          "pokemon": "Bronzong",
-          "level": 55,
-          "item": "Restos",
-          "moves": [
-            "Giro Bola",
             "Psíquico",
-            "Terremoto",
-            "Hipnosis"
-          ]
-        },
-        {
-          "pokemon": "Gallade",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "A Bocajarro",
-            "Corte",
-            "Desarme",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Reuniclus",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Paz Mental",
-            "Psicocarga",
-            "Onda Certera",
-            "Recuperación"
+            "Aire Afilado",
+            "Rayo Confuso",
+            "Paz Mental"
           ]
         },
         {
           "pokemon": "Jynx",
-          "level": 55,
-          "item": "Banda Focus",
+          "level": 49,
+          "item": "Vidasfera",
           "moves": [
-            "Beso Amoroso",
             "Ventisca",
             "Psíquico",
-            "Onda Certera"
+            "Beso Amoroso",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Exeggutor",
+          "level": 49,
+          "item": "Restos",
+          "moves": [
+            "Psíquico",
+            "Bomba Germen",
+            "Bomba Huevo",
+            "Reflejo"
           ]
         },
         {
           "pokemon": "Slowbro",
-          "level": 55,
-          "item": "Slowbronita",
+          "level": 49,
+          "item": "Restos",
           "moves": [
             "Escaldar",
             "Psíquico",
-            "Paz Mental",
-            "Relajo"
+            "Onda Certera",
+            "Amnesia"
+          ]
+        },
+        {
+          "pokemon": "Xatu",
+          "level": 50,
+          "item": "Baya Zidra",
+          "moves": [
+            "Psíquico",
+            "Tajo Aéreo",
+            "Doble Rayo",
+            "Paz Mental"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
-      "name": "Koga - Alto Mando #2",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Veneno",
-      "level_cap": 55,
+      "name": "Koga - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 2",
+      "level_cap": 51,
       "team": [
         {
+          "pokemon": "Ariados",
+          "level": 49,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Toxirred",
+            "Golpe Bajo",
+            "Picadura"
+          ]
+        },
+        {
           "pokemon": "Forretress",
-          "level": 55,
+          "level": 50,
           "item": "Casco Dentado",
           "moves": [
-            "Púas Tóxicas",
-            "Trampa Rocas",
             "Giro Rápido",
-            "Explosión"
+            "Púas Tóxicas",
+            "Explosión",
+            "Giro Bola"
           ]
         },
         {
           "pokemon": "Muk",
-          "level": 55,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Desarme",
-            "Puya Nociva",
-            "Sombra Vil",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Tentacruel",
-          "level": 55,
+          "level": 50,
           "item": "Lodo Negro",
           "moves": [
-            "Escaldar",
-            "Bomba Lodo",
-            "Niebla",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 55,
-          "item": "Vidasfera",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Despejar"
+            "Lanza Mugre",
+            "Puño Hielo",
+            "Puño Fuego",
+            "Sombra Vil"
           ]
         },
         {
           "pokemon": "Venomoth",
-          "level": 55,
-          "item": "Banda Focus",
+          "level": 51,
+          "item": "Vidasfera",
           "moves": [
             "Danza Aleteo",
             "Zumbido",
@@ -370542,249 +369564,223 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Beedrill",
-          "level": 55,
-          "item": "Beedrillita",
+          "pokemon": "Crobat",
+          "level": 51,
+          "item": "Baya Zidra",
           "moves": [
-            "Puya Nociva",
-            "Tijera X",
-            "Taladradora",
-            "Desquite"
+            "Pájaro Osado",
+            "Veneno X",
+            "Colmillo Ígneo",
+            "Ida y Vuelta"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
-      "name": "Bruno - Alto Mando #3",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Lucha",
-      "level_cap": 55,
+      "name": "Bruno - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 3",
+      "level_cap": 52,
       "team": [
         {
           "pokemon": "Hitmontop",
-          "level": 55,
-          "item": "Casco Dentado",
+          "level": 50,
+          "item": "Restos",
           "moves": [
-            "Sorpresa",
-            "Giro Rápido",
             "A Bocajarro",
+            "Triple Patada",
+            "Persecución",
+            "Sorpresa"
+          ]
+        },
+        {
+          "pokemon": "Hitmonlee",
+          "level": 51,
+          "item": "Vidasfera",
+          "moves": [
+            "Patada Salto Alta",
+            "Roca Afilada",
+            "Terremoto",
             "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Hitmonchan",
+          "level": 51,
+          "item": "Cinta Elegida",
+          "moves": [
+            "Ultrapuño",
+            "Puño Fuego",
+            "Puño Hielo",
+            "Puño Trueno"
+          ]
+        },
+        {
+          "pokemon": "Onix",
+          "level": 50,
+          "item": "Mineral Evol",
+          "moves": [
+            "Terremoto",
+            "Roca Afilada",
+            "Trampa Rocas",
+            "Rugido"
           ]
         },
         {
           "pokemon": "Machamp",
-          "level": 55,
-          "item": "Chaleco Asalto",
+          "level": 52,
+          "item": "Baya Zidra",
           "moves": [
-            "Puñodinámico",
+            "Puño Dinámico",
             "Roca Afilada",
-            "Puño Bala",
+            "Puño Hielo",
             "Desquite"
           ]
-        },
-        {
-          "pokemon": "Conkeldurr",
-          "level": 55,
-          "item": "Ninguno",
-          "moves": [
-            "Imagen",
-            "Puño Drenaje",
-            "Ultrapuño",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 55,
-          "item": "Banda Focus",
-          "moves": [
-            "Esfera Aural",
-            "Foco Respl.",
-            "Maquinación",
-            "Onda Vacío"
-          ]
-        },
-        {
-          "pokemon": "Scrafty",
-          "level": 55,
-          "item": "Restos",
-          "moves": [
-            "Desarme",
-            "Machada",
-            "Puño Hielo",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Medicham",
-          "level": 55,
-          "item": "Medichamita",
-          "moves": [
-            "Patada Salto",
-            "Cabezazo Zen",
-            "Puño Hielo",
-            "Puño Fuego"
-          ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
-      "name": "Karen - Alto Mando #4",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Alto Mando Siniestro",
-      "level_cap": 55,
+      "name": "Karen - Alto Mando",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Alto Mando 4",
+      "level_cap": 53,
       "team": [
         {
-          "pokemon": "Spiritomb",
-          "level": 55,
+          "pokemon": "Umbreon",
+          "level": 51,
           "item": "Restos",
           "moves": [
-            "Fuego Fatuo",
-            "Rompecoraza",
-            "Paz Mental",
-            "Divide Dolor"
-          ]
-        },
-        {
-          "pokemon": "Umbreon",
-          "level": 55,
-          "item": "Roca Calor",
-          "moves": [
-            "Día Soleado",
             "Luz Lunar",
             "Juego Sucio",
-            "Tóxico"
+            "Tóxico",
+            "Deseo"
           ]
         },
         {
-          "pokemon": "Krookodile",
-          "level": 55,
-          "item": "Casco Dentado",
+          "pokemon": "Vileplume",
+          "level": 51,
+          "item": "Lodo Negro",
           "moves": [
-            "Terremoto",
-            "Triturar",
-            "Roca Afilada",
-            "Trampa Rocas"
+            "Fuerza Lunar",
+            "Giga Drenado",
+            "Bomba Lodo",
+            "Somnífero"
           ]
         },
         {
-          "pokemon": "Weavile",
-          "level": 55,
-          "item": "Banda Focus",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Honchkrow",
-          "level": 55,
+          "pokemon": "Gengar",
+          "level": 52,
           "item": "Vidasfera",
           "moves": [
-            "Golpe Bajo",
+            "Bola Sombra",
+            "Onda Certera",
+            "Bomba Lodo",
+            "Brillo Mágico"
+          ]
+        },
+        {
+          "pokemon": "Murkrow",
+          "level": 52,
+          "item": "Mineral Evol",
+          "moves": [
             "Pájaro Osado",
+            "Golpe Bajo",
             "Onda Ígnea",
-            "Persecución"
+            "Respiro"
           ]
         },
         {
           "pokemon": "Houndoom",
-          "level": 55,
-          "item": "Houndoominita",
+          "level": 53,
+          "item": "Gafas Elegidas",
           "moves": [
             "Llamarada",
             "Pulso Umbrío",
-            "Rayo Solar",
-            "Bomba Lodo"
+            "Bomba Lodo",
+            "Maquinación"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Lance - Campeón de la Liga",
-      "city": "Meseta Añil (Liga R1)",
-      "badge": "Campeón de la Liga",
+      "city": "Meseta Añil (Liga Pokémon)",
+      "badge": "Campeón de Johto",
       "level_cap": 55,
       "team": [
         {
+          "pokemon": "Gyarados",
+          "level": 51,
+          "item": "Restos",
+          "moves": [
+            "Cascada",
+            "Colmillo Hielo",
+            "Onda Trueno",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 54,
+          "item": "Vidasfera",
+          "moves": [
+            "Carga Dragón",
+            "Trueno",
+            "Vuelo",
+            "Onda Trueno"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 54,
+          "item": "Baya Rimoya",
+          "moves": [
+            "Carga Dragón",
+            "Llamarada",
+            "Ventisca",
+            "Onda Trueno"
+          ]
+        },
+        {
           "pokemon": "Aerodactyl",
-          "level": 55,
+          "level": 53,
           "item": "Banda Focus",
           "moves": [
-            "Trampa Rocas",
-            "Mofa",
-            "Avalancha",
-            "Golpe Aéreo"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 55,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Garchomp",
-          "level": 55,
-          "item": "Baya Alcho",
-          "moves": [
-            "Terremoto",
-            "Garra Dragón",
             "Roca Afilada",
-            "Danza Espada"
+            "Golpe Aéreo",
+            "Triturar",
+            "Colmillo Ígneo"
           ]
         },
         {
-          "pokemon": "Kingdra",
-          "level": 55,
-          "item": "Periscopio",
+          "pokemon": "Charizard",
+          "level": 52,
+          "item": "Gafas Elegidas",
           "moves": [
-            "Foco Energía",
-            "Pulso Dragón",
-            "Hidrobomba",
-            "Rayo Hielo"
+            "Lanzallamas",
+            "Tajo Aéreo",
+            "Onda Certera",
+            "Pulso Dragón"
           ]
         },
         {
           "pokemon": "Dragonite",
           "level": 55,
-          "item": "Restos",
+          "item": "Baya Zidra",
           "moves": [
-            "Danza Dragón",
-            "Garra Dragón",
-            "Puño Fuego",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Charizard",
-          "level": 55,
-          "item": "Charizardita X",
-          "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
+            "Enfado",
+            "Velocidad Extrema",
             "Terremoto",
-            "Danza Dragón"
+            "Puño Fuego"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
-      "name": "Lt. Surge",
+      "name": "Teniente Surge (Lt. Surge)",
       "city": "Ciudad Carmín (Gimnasio Kanto)",
       "badge": "Medalla Trueno",
-      "level_cap": 64,
+      "level_cap": 65,
       "team": [
         {
           "pokemon": "Galvantula",
@@ -370798,78 +369794,77 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Tapu Koko",
+          "pokemon": "Ampharos",
           "level": 65,
-          "item": "Cinta Xperto",
+          "item": "Ampharosita (Mega)",
           "moves": [
-            "Ida y Vuelta",
-            "Rayo",
-            "BrilloMágico",
-            "Mofa"
+            "Descarga",
+            "Pulso Dragón",
+            "Joya de Luz",
+            "Onda Certera"
           ]
         },
         {
-          "pokemon": "Eelektross",
-          "level": 65,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Gigadrenado",
-            "Lanzallamas",
-            "Rayo",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
+          "pokemon": "Magnezone",
           "level": 65,
           "item": "Restos",
           "moves": [
-            "Hidrobomba",
+            "Rayo",
+            "Foco Resplandor",
             "Voltiocambio",
-            "Fuego Fatuo",
-            "Divide Dolor"
+            "Onda Anómala"
           ]
         },
         {
-          "pokemon": "Electivire",
+          "pokemon": "Raichu de Alola",
           "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Trueno",
-            "Terremoto",
-            "Puño Hielo",
-            "Tajo Cruzado"
-          ]
-        },
-        {
-          "pokemon": "Manectric",
-          "level": 65,
-          "item": "Manectricita",
+          "item": "Gafas Elegidas",
           "moves": [
             "Rayo",
-            "Voltiocambio",
-            "Sofoco",
-            "Poder Oculto"
+            "Psíquico",
+            "Hierba Lazo",
+            "Voltiocambio"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Sabrina",
       "city": "Ciudad Azafrán (Gimnasio Kanto)",
       "badge": "Medalla Pantano",
-      "level_cap": 68,
+      "level_cap": 65,
       "team": [
         {
+          "pokemon": "Alakazam",
+          "level": 65,
+          "item": "Alakazamita (Mega)",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "Paz Mental"
+          ]
+        },
+        {
           "pokemon": "Espeon",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Psicocarga",
+            "Brillo Mágico",
+            "Bola Sombra",
+            "Sol Matinal"
+          ]
+        },
+        {
+          "pokemon": "Mr. Mime",
           "level": 65,
           "item": "Refleluz",
           "moves": [
             "Reflejo",
-            "Pantalla Luz",
-            "Psicocarga",
-            "BrilloMágico"
+            "Pantalla de Luz",
+            "Psíquico",
+            "Brillo Mágico"
           ]
         },
         {
@@ -370882,230 +369877,76 @@ window.CHIRLGOLD_DATA = {
             "Terremoto",
             "Puño Bala"
           ]
-        },
-        {
-          "pokemon": "Hatterene",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "BrilloMágico",
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Slowking",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Relajo",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Gallade",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "A Bocajarro",
-            "Corte",
-            "Desarme",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 65,
-          "item": "Alakazamita",
-          "moves": [
-            "Psíquico",
-            "Onda Certera",
-            "Bola Sombra",
-            "BrilloMágico"
-          ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Erika",
       "city": "Ciudad Azulona (Gimnasio Kanto)",
       "badge": "Medalla Arcoíris",
-      "level_cap": 72,
+      "level_cap": 65,
       "team": [
         {
-          "pokemon": "Whimsicott",
+          "pokemon": "Jumpluff",
           "level": 65,
-          "item": "Roca Calor",
+          "item": "Banda Focus",
           "moves": [
-            "Día Soleado",
+            "Somnífero",
             "Drenadoras",
-            "Otra Vez",
-            "Fuerza Lunar"
+            "Ida y Vuelta",
+            "Acróbata"
+          ]
+        },
+        {
+          "pokemon": "Tangrowth",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Latigazo",
+            "Terremoto",
+            "Desarme",
+            "Síntesis"
           ]
         },
         {
           "pokemon": "Rillaboom",
           "level": 65,
-          "item": "Vidasfera",
+          "item": "Chaleco Asalto",
           "moves": [
-            "Energibola",
+            "Fitoimpulso",
             "Fuerza Bruta",
             "Desarme",
             "Ida y Vuelta"
           ]
         },
         {
-          "pokemon": "Bellossom",
-          "level": 65,
-          "item": "Banda Focus",
-          "moves": [
-            "Día Soleado",
-            "Rayo Solar",
-            "BrilloMágico",
-            "Danza Aleteo"
-          ]
-        },
-        {
-          "pokemon": "Virizion",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hoja Aguda",
-            "A Bocajarro",
-            "Roca Afilada",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Ferrothorn",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Giro Bola",
-            "Drenadoras",
-            "Latigazo"
-          ]
-        },
-        {
           "pokemon": "Venusaur",
           "level": 65,
-          "item": "Venusaurita",
+          "item": "Venusaurita (Mega)",
           "moves": [
-            "Gigadrenado",
+            "Giga Drenado",
             "Bomba Lodo",
             "Tierra Viva",
             "Síntesis"
           ]
         }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Misty",
-      "city": "Ciudad Celeste (Gimnasio Kanto)",
-      "badge": "Medalla Cascada",
-      "level_cap": 76,
-      "team": [
-        {
-          "pokemon": "Pelipper",
-          "level": 65,
-          "item": "Roca Lluvia",
-          "moves": [
-            "Vendaval",
-            "Escaldar",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Politoed",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Escaldar",
-            "Rayo Hielo",
-            "Hipnosis",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Manaphy",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Ráfaga",
-            "Trueno",
-            "Escaldar",
-            "Descanso"
-          ]
-        },
-        {
-          "pokemon": "Starmie",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Hidrobomba",
-            "Trueno",
-            "Rayo Hielo",
-            "Psíquico"
-          ]
-        },
-        {
-          "pokemon": "Ludicolo",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hidrobomba",
-            "Gigadrenado",
-            "Rayo Hielo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Swampert",
-          "level": 65,
-          "item": "Swampertita",
-          "moves": [
-            "Cascada",
-            "Terremoto",
-            "Puño Hielo",
-            "Fuerza Bruta"
-          ]
-        }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Sachiko (Janine)",
       "city": "Ciudad Fucsia (Gimnasio Kanto)",
       "badge": "Medalla Alma",
-      "level_cap": 80,
+      "level_cap": 65,
       "team": [
         {
-          "pokemon": "Glimmora",
+          "pokemon": "Crobat",
           "level": 65,
           "item": "Banda Focus",
           "moves": [
-            "Trampa Rocas",
-            "Púas Tóxicas",
-            "Bomba Lodo",
-            "Joya de Luz"
-          ]
-        },
-        {
-          "pokemon": "Salazzle",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Tóxico",
-            "Lanzallamas",
-            "Bomba Lodo",
-            "Otra Vez"
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Superdiente"
           ]
         },
         {
@@ -371114,1996 +369955,338 @@ window.CHIRLGOLD_DATA = {
           "item": "Lodo Negro",
           "moves": [
             "Escaldar",
+            "Tóxico",
             "Recuperación",
-            "Niebla",
-            "Protección"
+            "Búnker"
           ]
         },
         {
-          "pokemon": "Naganadel",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Pulso Dragón",
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
+          "pokemon": "Nidoqueen",
           "level": 65,
           "item": "Vidasfera",
           "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Mofa",
-            "Ida y Vuelta"
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Rayo Hielo",
+            "Lanzallamas"
           ]
         },
         {
-          "pokemon": "Gengar",
+          "pokemon": "Weezing de Galar",
           "level": 65,
-          "item": "Gengarita",
+          "item": "Restos",
           "moves": [
-            "Bola Sombra",
+            "Fuerza Lunar",
             "Bomba Lodo",
-            "Onda Certera",
-            "Mismodestino"
+            "Fuego Fatuo",
+            "Despejar"
           ]
         }
-      ],
-      "strategy": ""
+      ]
+    },
+    {
+      "name": "Misty",
+      "city": "Ciudad Celeste (Gimnasio Kanto)",
+      "badge": "Medalla Cascada",
+      "level_cap": 65,
+      "team": [
+        {
+          "pokemon": "Kyogre",
+          "level": 65,
+          "item": "Pañuelo Elegido",
+          "moves": [
+            "Salpicar",
+            "Rayo Hielo",
+            "Trueno",
+            "Escaldar"
+          ]
+        },
+        {
+          "pokemon": "Seismitoad",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidroariete",
+            "Terremoto",
+            "Puño Drenaje",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Lapras",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Liofilización",
+            "Surf",
+            "Rayo Hielo",
+            "Canto"
+          ]
+        },
+        {
+          "pokemon": "Starmie",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidrobomba",
+            "Psíquico",
+            "Rayo",
+            "Rayo Hielo"
+          ]
+        }
+      ]
     },
     {
       "name": "Brock",
       "city": "Ciudad Plateada (Gimnasio Kanto)",
       "badge": "Medalla Roca",
-      "level_cap": 84,
+      "level_cap": 65,
       "team": [
         {
-          "pokemon": "Gigalith",
+          "pokemon": "Aerodactyl",
           "level": 65,
-          "item": "Roca Suave",
+          "item": "Aerodactylita (Mega)",
           "moves": [
-            "Trampa Rocas",
-            "Púas",
             "Roca Afilada",
+            "Golpe Aéreo",
+            "Triturar",
             "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Ting-Lu",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Púas",
-            "Terremoto",
-            "Remolino",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Cradily",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Gigadrenado",
-            "Recuperación",
-            "Tóxico",
-            "Poder Pasado"
-          ]
-        },
-        {
-          "pokemon": "Rhyperior",
-          "level": 65,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego",
-            "Megacuerno"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 65,
-          "item": "Baya Zidra",
-          "moves": [
-            "Giro Bola",
-            "Terremoto",
-            "Rugido",
-            "Def. Férrea"
           ]
         },
         {
           "pokemon": "Tyranitar",
           "level": 65,
-          "item": "Tyranitarita",
+          "item": "Chaleco Asalto",
           "moves": [
             "Roca Afilada",
             "Triturar",
+            "Persecución",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Rhyperior",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
             "Terremoto",
-            "Danza Dragón"
+            "Roca Afilada",
+            "Megacuerno",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Golem de Alola",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Doble Filo",
+            "Terremoto",
+            "Roca Afilada",
+            "Voltio Cruel"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Blaine",
       "city": "Islas Espuma (Gimnasio Kanto)",
       "badge": "Medalla Volcán",
-      "level_cap": 88,
+      "level_cap": 80,
       "team": [
         {
+          "pokemon": "Charizard",
+          "level": 80,
+          "item": "Charizardita Y (Mega)",
+          "moves": [
+            "Lanzallamas",
+            "Rayo Solar",
+            "Tajo Aéreo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Magmortar",
+          "level": 80,
+          "item": "Gafas Elegidas",
+          "moves": [
+            "Escaldar",
+            "Llamarada",
+            "Rayo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Infernape",
+          "level": 80,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Envite Ígneo",
+            "Hierba Lazo",
+            "Ultrapuño"
+          ]
+        },
+        {
           "pokemon": "Ninetales",
-          "level": 65,
-          "item": "Roca Calor",
+          "level": 80,
+          "item": "Banda Focus",
           "moves": [
             "Llamarada",
             "Rayo Solar",
             "Fuego Fatuo",
             "Hipnosis"
           ]
-        },
-        {
-          "pokemon": "Volcanion",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Chorro Vapor",
-            "Tierra Viva",
-            "Lanzallamas",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Flamariete",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
-            "Terremoto",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Volcarona",
-          "level": 65,
-          "item": "Banda Focus",
-          "moves": [
-            "Danza Aleteo",
-            "Onda Ígnea",
-            "Zumbido",
-            "Gigadrenado"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
-          "level": 65,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Sofoco",
-            "Rayo",
-            "Voltiocambio",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Charizard",
-          "level": 65,
-          "item": "Charizardita Y",
-          "moves": [
-            "Llamarada",
-            "Rayo Solar",
-            "Tajo Aéreo",
-            "Onda Certera"
-          ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
       "name": "Azul (Blue)",
       "city": "Ciudad Verde (Gimnasio Kanto)",
       "badge": "Medalla Tierra",
-      "level_cap": 90,
+      "level_cap": 85,
       "team": [
         {
-          "pokemon": "Rhyperior",
-          "level": 90,
+          "pokemon": "Pidgeot",
+          "level": 85,
+          "item": "Pidgeotita (Mega)",
+          "moves": [
+            "Vendaval",
+            "Onda Ígnea",
+            "Ida y Vuelta",
+            "Respiro"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 85,
           "item": "Banda Focus",
           "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego"
+            "Psíquico",
+            "Onda Certera",
+            "Bola Sombra",
+            "Brillo Mágico"
           ]
         },
         {
           "pokemon": "Machamp",
-          "level": 90,
+          "level": 85,
           "item": "Chaleco Asalto",
           "moves": [
-            "Puñodinámico",
+            "Puño Dinámico",
             "Roca Afilada",
             "Desarme",
             "Puño Bala"
           ]
         },
         {
+          "pokemon": "Gyarados",
+          "level": 85,
+          "item": "Vidasfera",
+          "moves": [
+            "Cascada",
+            "Terremoto",
+            "Danza Dragón",
+            "Colmillo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Exeggutor",
+          "level": 85,
+          "item": "Restos",
+          "moves": [
+            "Lluevehojas",
+            "Psíquico",
+            "Espacio Raro",
+            "Bomba Huevo"
+          ]
+        },
+        {
           "pokemon": "Arcanine",
-          "level": 90,
-          "item": "Cin. Elegida",
+          "level": 85,
+          "item": "Cinta Elegida",
           "moves": [
             "Envite Ígneo",
-            "Vel. Extrema",
+            "Velocidad Extrema",
             "A Bocajarro",
             "Voltio Cruel"
           ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 90,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Zeraora",
-          "level": 90,
-          "item": "Vidasfera",
-          "moves": [
-            "Puños Plasma",
-            "A Bocajarro",
-            "Desarme",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Pidgeot",
-          "level": 90,
-          "item": "Pidgeotita",
-          "moves": [
-            "Vendaval",
-            "Onda Ígnea",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
         }
-      ],
-      "strategy": ""
+      ]
     },
     {
-      "name": "Rojo (Red) - Campeón Máximo",
+      "name": "Rojo (Red) - Batalla Cumbre",
       "city": "Cima del Monte Plateado",
-      "badge": "Batalla Cumbre",
+      "badge": "Leyenda Suprema",
       "level_cap": 100,
       "team": [
         {
           "pokemon": "Pikachu",
           "level": 100,
-          "item": "Ninguno",
+          "item": "Bola Luminosa",
           "moves": [
-            "Placaje",
+            "Placaje Eléctrico",
             "Surf",
-            "Hierba Lazo",
-            "At. Rápido"
-          ]
-        },
-        {
-          "pokemon": "Articuno",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Ventisca",
-            "Liofilizac.",
-            "Respiro",
-            "Manto Espejo"
-          ]
-        },
-        {
-          "pokemon": "Zapdos",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Carga",
-            "Onda Ígnea",
-            "Respiro",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Moltres",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Llamarada",
-            "Tajo Aéreo",
-            "Rayo Solar",
-            "Poder Oculto"
-          ]
-        },
-        {
-          "pokemon": "Mew",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Transformación",
-            "Psíquico",
-            "Esfera Aural",
-            "Maquinación"
+            "Rayo",
+            "Hierba Lazo"
           ]
         },
         {
           "pokemon": "Mewtwo",
           "level": 100,
-          "item": "Mewtwoita X",
+          "item": "Mewtwonita Y (Mega)",
           "moves": [
-            "A Bocajarro",
-            "Cabezazo Zen",
-            "Puño Hielo",
-            "Terremoto"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Pegaso - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Tornadus",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Viento Afín",
-            "Mofa",
-            "Vendaval",
-            "Onda Ígnea"
-          ]
-        },
-        {
-          "pokemon": "Gliscor",
-          "level": 100,
-          "item": "Toxisfera",
-          "moves": [
-            "Terremoto",
-            "Desarme",
-            "Respiro",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Corviknite",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Pájaro Osado",
-            "Plancha Corp",
-            "Respiro",
-            "Despejar"
-          ]
-        },
-        {
-          "pokemon": "Staraptor",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Pájaro Osado",
-            "Doble Filo",
-            "A Bocajarro",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Togekiss",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Tajo Aéreo",
-            "BrilloMágico",
-            "Lanzallamas",
-            "Onda Trueno"
-          ]
-        },
-        {
-          "pokemon": "Salamence",
-          "level": 100,
-          "item": "Salamencita",
-          "moves": [
-            "Doble Filo",
-            "Terremoto",
-            "Garra Dragón",
-            "Danza Dragón"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Antón - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Galvantula",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Red Viscosa",
-            "Trueno",
-            "Zumbido",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Genesect",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Ida y Vuelta",
-            "Lanzallamas",
+            "Onda Mental",
             "Rayo Hielo",
-            "Cabezahierro"
-          ]
-        },
-        {
-          "pokemon": "Volcarona",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Danza Aleteo",
             "Llamarada",
-            "Zumbido",
-            "Gigadrenado"
+            "Esfera Aural"
           ]
         },
         {
-          "pokemon": "Heracross",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "A Bocajarro",
-            "Megacuerno",
-            "Imagen",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Golisopod",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Escaramuza",
-            "Cascada",
-            "Golpe Bajo",
-            "Chupavidas"
-          ]
-        },
-        {
-          "pokemon": "Scizor",
-          "level": 100,
-          "item": "Scizorita",
-          "moves": [
-            "Puño Bala",
-            "Picadura",
-            "Danza Espada",
-            "Respiro"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Blanca - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Smeargle",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Espora",
-            "Red Viscosa",
-            "Trampa Rocas",
-            "Barrera"
-          ]
-        },
-        {
-          "pokemon": "Blissey",
+          "pokemon": "Snorlax",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Mov. Sísmico",
-            "Amortiguador",
-            "Aromaterapia",
-            "Tóxico"
-          ]
-        },
-        {
-          "pokemon": "Meloetta",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Vozarrón",
-            "Psíquico",
-            "BrilloMágico",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Porygon-Z",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Triataque",
-            "Rayo",
-            "Rayo Hielo",
-            "Bola Sombra"
-          ]
-        },
-        {
-          "pokemon": "Miltank",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Batido",
-            "Golpe Cuerpo",
-            "Campana Cura",
-            "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Kangaskhan",
-          "level": 100,
-          "item": "Kangaskhanita",
-          "moves": [
-            "Sorpresa",
-            "Puño Increm.",
-            "Retroceso",
-            "Golpe Bajo"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Morti - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Froslass",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Púas",
-            "Mismodestino",
-            "Ventisca",
-            "Bola Sombra"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Marshadow",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Robasombra",
-            "A Bocajarro",
-            "Sombra Vil",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Chandelure",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Llamarada",
-            "Bola Sombra",
-            "Energibola",
-            "Truco"
-          ]
-        },
-        {
-          "pokemon": "Aegislash",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Escudo Real",
-            "Bola Sombra",
-            "Foco Respl.",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Sableye",
-          "level": 100,
-          "item": "Sableynita",
-          "moves": [
-            "Fuego Fatuo",
-            "Recuperación",
-            "Desarme",
-            "Juego Sucio"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Aníbal - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Hitmontop",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Sorpresa",
-            "Giro Rápido",
-            "A Bocajarro",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Machamp",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Puñodinámico",
-            "Roca Afilada",
-            "Puño Bala",
-            "Desquite"
-          ]
-        },
-        {
-          "pokemon": "Conkeldurr",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Imagen",
-            "Puño Drenaje",
-            "Ultrapuño",
-            "Desarme"
-          ]
-        },
-        {
-          "pokemon": "Urshifu",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Golpe Oscuro",
-            "A Bocajarro",
-            "Golpe Bajo",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Poliwrath",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Cascada",
-            "Puñodinámico",
-            "Puño Hielo",
-            "Tambor"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 100,
-          "item": "Lucarita",
-          "moves": [
-            "A Bocajarro",
-            "Puño Bala",
-            "Danza Espada",
-            "Triturar"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Yasmina - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Skarmory",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Pájaro Osado",
-            "Remolino"
-          ]
-        },
-        {
-          "pokemon": "Heatran",
-          "level": 100,
-          "item": "Globo Helio",
-          "moves": [
-            "Llamarada",
-            "Tierra Viva",
-            "Foco Respl.",
-            "Poder Oculto"
-          ]
-        },
-        {
-          "pokemon": "Empoleon",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Escaldar",
-            "Foco Respl.",
-            "Rayo Hielo",
-            "Acua Jet"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 100,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Scizor",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Bala",
-            "Picadura",
-            "Danza Espada",
-            "Demolición"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 100,
-          "item": "Steelixita",
-          "moves": [
-            "Giro Bola",
+            "Retribución",
             "Terremoto",
-            "Testarazo",
-            "Colm. Ígneo"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Fredo - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Ninetales",
-          "level": 100,
-          "item": "Roca Helada",
-          "moves": [
-            "Velo Aurora",
-            "Ventisca",
-            "Liofilizac.",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Chien-Pao",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Triturar",
-            "Canto Helado",
-            "Espada Santa"
-          ]
-        },
-        {
-          "pokemon": "Cloyster",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Rompecoraza",
-            "Carámbano",
-            "Pedrada",
-            "Concha Filo"
-          ]
-        },
-        {
-          "pokemon": "Mamoswine",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Terremoto",
-            "Chuzos",
-            "Canto Helado",
-            "Fuerza Bruta"
-          ]
-        },
-        {
-          "pokemon": "Weavile",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Chuzos",
-            "Desarme",
-            "Canto Helado",
-            "Patada Salto"
-          ]
-        },
-        {
-          "pokemon": "Glalie",
-          "level": 100,
-          "item": "Glalita",
-          "moves": [
-            "Doble Filo",
-            "Terremoto",
-            "Canto Helado",
-            "Explosión"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Débora - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Garchomp",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Cola Dragón",
-            "Fuego Fatuo"
-          ]
-        },
-        {
-          "pokemon": "Latias",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Cometa Draco",
-            "Paz Mental",
-            "Respiro",
-            "Bola Sombra"
-          ]
-        },
-        {
-          "pokemon": "Dragapult",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Dracoflechas",
-            "Bola Sombra",
-            "Lanzallamas",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 100,
-          "item": "Baya Ziuela",
-          "moves": [
-            "Danza Dragón",
-            "Garra Dragón",
-            "Puño Fuego",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Kingdra",
-          "level": 100,
-          "item": "Periscopio",
-          "moves": [
-            "Foco Energía",
-            "Pulso Dragón",
-            "Hidrobomba",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Altaria",
-          "level": 100,
-          "item": "Altarianita",
-          "moves": [
-            "Doble Filo",
-            "Danza Dragón",
-            "Terremoto",
-            "Respiro"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Lt. Surge - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Galvantula",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Red Viscosa",
-            "Trueno",
-            "Zumbido",
-            "Voltiocambio"
-          ]
-        },
-        {
-          "pokemon": "Tapu Koko",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Ida y Vuelta",
-            "Rayo",
-            "BrilloMágico",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Eelektross",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Gigadrenado",
-            "Lanzallamas",
-            "Rayo",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Hidrobomba",
-            "Voltiocambio",
-            "Fuego Fatuo",
-            "Divide Dolor"
-          ]
-        },
-        {
-          "pokemon": "Electivire",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Puño Trueno",
-            "Terremoto",
-            "Puño Hielo",
-            "Tajo Cruzado"
-          ]
-        },
-        {
-          "pokemon": "Manectric",
-          "level": 100,
-          "item": "Manectricita",
-          "moves": [
-            "Rayo",
-            "Voltiocambio",
-            "Sofoco",
-            "Poder Oculto"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Sabrina - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Indeedee",
-          "level": 100,
-          "item": "Ninguno",
-          "moves": [
-            "Fuerza",
-            "BrilloMágico",
-            "Pulso Umbrío",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Cresselia",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Paz Mental",
-            "Luz Lunar",
-            "Psíquico",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Necrozma",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Meteoimpacto",
-            "Terremoto",
-            "Danza Espada",
-            "Corte"
-          ]
-        },
-        {
-          "pokemon": "Slowking",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Relajo",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Gallade",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "A Bocajarro",
-            "Corte",
-            "Desarme",
-            "Sombra Vil"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 100,
-          "item": "Alakazamita",
-          "moves": [
-            "Psíquico",
-            "Onda Certera",
-            "Bola Sombra",
-            "BrilloMágico"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Erika - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Whimsicott",
-          "level": 100,
-          "item": "Roca Calor",
-          "moves": [
-            "Día Soleado",
-            "Drenadoras",
-            "Otra Vez",
-            "Fuerza Lunar"
-          ]
-        },
-        {
-          "pokemon": "Rillaboom",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Energibola",
-            "Fuerza Bruta",
-            "Desarme",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Wo-Chien",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Drenadoras",
-            "Desarme",
-            "Protección",
-            "Gigadrenado"
-          ]
-        },
-        {
-          "pokemon": "Virizion",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hoja Aguda",
-            "A Bocajarro",
-            "Roca Afilada",
-            "Danza Espada"
-          ]
-        },
-        {
-          "pokemon": "Ferrothorn",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Trampa Rocas",
-            "Giro Bola",
-            "Drenadoras",
-            "Latigazo"
+            "Maldición",
+            "Descanso"
           ]
         },
         {
           "pokemon": "Venusaur",
           "level": 100,
-          "item": "Venusaurita",
-          "moves": [
-            "Gigadrenado",
-            "Bomba Lodo",
-            "Tierra Viva",
-            "Síntesis"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Misty - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Pelipper",
-          "level": 100,
-          "item": "Roca Lluvia",
-          "moves": [
-            "Vendaval",
-            "Escaldar",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Kyogre",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Salpicar",
-            "Trueno",
-            "Rayo Hielo",
-            "Hidrobomba"
-          ]
-        },
-        {
-          "pokemon": "Manaphy",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Ráfaga",
-            "Trueno",
-            "Escaldar",
-            "Descanso"
-          ]
-        },
-        {
-          "pokemon": "Ludicolo",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Hidrobomba",
-            "Gigadrenado",
-            "Rayo Hielo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Starmie",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Hidrobomba",
-            "Trueno",
-            "Rayo Hielo",
-            "Psíquico"
-          ]
-        },
-        {
-          "pokemon": "Swampert",
-          "level": 100,
-          "item": "Swampertita",
-          "moves": [
-            "Cascada",
-            "Terremoto",
-            "Puño Hielo",
-            "Fuerza Bruta"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Sachiko - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Glimmora",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Púas Tóxicas",
-            "Bomba Lodo",
-            "Joya de Luz"
-          ]
-        },
-        {
-          "pokemon": "Pecharunt",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "CadenaVirul.",
-            "Recuperación",
-            "Bola Sombra",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Salazzle",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Tóxico",
-            "Lanzallamas",
-            "Bomba Lodo",
-            "Otra Vez"
-          ]
-        },
-        {
-          "pokemon": "Toxapex",
-          "level": 100,
           "item": "Lodo Negro",
           "moves": [
-            "Escaldar",
-            "Recuperación",
-            "Niebla",
-            "Protección"
-          ]
-        },
-        {
-          "pokemon": "Naganadel",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Pulso Dragón",
+            "Giga Drenado",
             "Bomba Lodo",
-            "Lanzallamas",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 100,
-          "item": "Gengarita",
-          "moves": [
-            "Bola Sombra",
-            "Bomba Lodo",
-            "Onda Certera",
-            "Mismodestino"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Brock - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Gigalith",
-          "level": 100,
-          "item": "Roca Suave",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Roca Afilada",
-            "Terremoto"
-          ]
-        },
-        {
-          "pokemon": "Ting-Lu",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Púas",
-            "Terremoto",
-            "Remolino",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Cradily",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Gigadrenado",
-            "Recuperación",
-            "Tóxico",
-            "Poder Pasado"
-          ]
-        },
-        {
-          "pokemon": "Rhyperior",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego",
-            "Megacuerno"
-          ]
-        },
-        {
-          "pokemon": "Steelix",
-          "level": 100,
-          "item": "Baya Zidra",
-          "moves": [
-            "Giro Bola",
-            "Terremoto",
-            "Rugido",
-            "Def. Férrea"
-          ]
-        },
-        {
-          "pokemon": "Diancie",
-          "level": 100,
-          "item": "Diancita",
-          "moves": [
-            "Torm.Diaman.",
-            "Fuerza Lunar",
-            "Tierra Viva",
-            "Paz Mental"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Blaine - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Ninetales",
-          "level": 100,
-          "item": "Roca Calor",
-          "moves": [
-            "Llamarada",
-            "Rayo Solar",
-            "Fuego Fatuo",
-            "Hipnosis"
-          ]
-        },
-        {
-          "pokemon": "Volcanion",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Chorro Vapor",
-            "Tierra Viva",
-            "Lanzallamas",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Flamariete",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
-            "Terremoto",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Volcarona",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Danza Aleteo",
-            "Onda Ígnea",
-            "Zumbido",
-            "Gigadrenado"
-          ]
-        },
-        {
-          "pokemon": "Rotom",
-          "level": 100,
-          "item": "Cinta Xperto",
-          "moves": [
-            "Sofoco",
-            "Rayo",
-            "Voltiocambio",
-            "Fuego Fatuo"
+            "Somnífero",
+            "Tierra Viva"
           ]
         },
         {
           "pokemon": "Charizard",
           "level": 100,
-          "item": "Charizardita Y",
+          "item": "Charizardita X (Mega)",
           "moves": [
-            "Llamarada",
-            "Rayo Solar",
-            "Tajo Aéreo",
-            "Onda Certera"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Azul - Revancha Nv. 100",
-      "city": "Dojo Azafrán",
-      "badge": "Revancha Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Rhyperior",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Terremoto",
-            "Roca Afilada",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Arcanine",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Envite Ígneo",
-            "Vel. Extrema",
-            "A Bocajarro",
-            "Voltio Cruel"
-          ]
-        },
-        {
-          "pokemon": "Gyarados",
-          "level": 100,
-          "item": "Baya Zidra",
-          "moves": [
-            "Danza Dragón",
-            "Cascada",
-            "Terremoto",
-            "Colm. Hielo"
-          ]
-        },
-        {
-          "pokemon": "Xerneas",
-          "level": 100,
-          "item": "Hierba Única",
-          "moves": [
-            "Geocontrol",
-            "Fuerza Lunar",
-            "Onda Certera",
-            "Psíquico"
-          ]
-        },
-        {
-          "pokemon": "Zeraora",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Puños Plasma",
-            "A Bocajarro",
-            "Desarme",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Pidgeot",
-          "level": 100,
-          "item": "Pidgeotita",
-          "moves": [
-            "Vendaval",
-            "Onda Ígnea",
-            "Respiro",
-            "Ida y Vuelta"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Rival Silver (Revancha Máxima)",
-      "city": "Meseta Añil",
-      "badge": "Rival Nv. 100",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Darkrai",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Brecha Negra",
-            "Pulso Umbrío",
-            "Come Sueños",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Shaymin",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Fogonazo",
-            "Tierra Viva",
-            "BrilloMágico",
-            "Síntesis"
-          ]
-        },
-        {
-          "pokemon": "Crobat",
-          "level": 100,
-          "item": "Lodo Negro",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Mofa"
-          ]
-        },
-        {
-          "pokemon": "Magnezone",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Rayo",
-            "Foco Respl.",
-            "Voltiocambio",
-            "Triataque"
-          ]
-        },
-        {
-          "pokemon": "Feraligatr",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Escaldar",
-            "Triturar",
-            "Rayo Hielo",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Absol",
-          "level": 100,
-          "item": "Absolita",
-          "moves": [
-            "Golpe Bajo",
-            "Danza Espada",
-            "Carantoña",
-            "A Bocajarro"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Mento - Liga R2 Monotype Psíquico Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Psíquico Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Deoxys",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Mofa",
-            "Psicocarga"
-          ]
-        },
-        {
-          "pokemon": "Tapu Lele",
-          "level": 100,
-          "item": "Pañ. Elegido",
-          "moves": [
-            "Psicocarga",
-            "Fuerza Lunar",
-            "Onda Certera",
-            "Energibola"
-          ]
-        },
-        {
-          "pokemon": "Lunala",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Paz Mental",
-            "Rayo Umbrío",
-            "Onda Certera",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Necrozma",
-          "level": 100,
-          "item": "Seguro Debilidad",
-          "moves": [
-            "Danza Dragón",
-            "Meteoimpacto",
-            "Terremoto",
-            "Roca Afilada"
-          ]
-        },
-        {
-          "pokemon": "Mewtwo",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Onda Mental",
-            "Esfera Aural",
-            "Llamarada",
-            "Rayo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Lugia",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Respiro",
-            "Paz Mental",
-            "Aerochorro",
-            "Tóxico"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Koga - Liga R2 Monotype Veneno Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Veneno Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Glimmora",
-          "level": 100,
-          "item": "Banda Focus",
-          "moves": [
-            "Trampa Rocas",
-            "Bomba Lodo",
-            "Tierra Viva",
-            "BrilloMágico"
-          ]
-        },
-        {
-          "pokemon": "Toxapex",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Protección",
-            "Recuperación",
-            "Escaldar",
-            "Niebla"
-          ]
-        },
-        {
-          "pokemon": "Pecharunt",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "CadenaVirul.",
-            "Bola Sombra",
-            "Recuperación",
-            "Maquinación"
-          ]
-        },
-        {
-          "pokemon": "Naganadel",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Maquinación",
-            "Cometa Draco",
-            "Bomba Lodo",
-            "Lanzallamas"
-          ]
-        },
-        {
-          "pokemon": "Eternatus",
-          "level": 100,
-          "item": "Lodo Negro",
-          "moves": [
-            "CañónDinamax",
-            "Bomba Lodo",
-            "Lanzallamas",
-            "Recuperación"
-          ]
-        },
-        {
-          "pokemon": "Gengar",
-          "level": 100,
-          "item": "Gengarita",
-          "moves": [
-            "Bomba Lodo",
-            "Bola Sombra",
-            "Onda Certera",
-            "Mismodestino"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Bruno - Liga R2 Monotype Lucha Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Lucha Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Marshadow",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Robasombra",
-            "A Bocajarro",
-            "Sombra Vil",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Urshifu",
-          "level": 100,
-          "item": "Cin. Elegida",
-          "moves": [
-            "Golpe Oscuro",
-            "A Bocajarro",
-            "Golpe Bajo",
-            "Puño Drenaje"
-          ]
-        },
-        {
-          "pokemon": "Zamazenta",
-          "level": 100,
-          "item": "Escudo Oxidado",
-          "moves": [
-            "Plancha Corp",
-            "Cabezahierro",
-            "Triturar",
-            "Paz Mental"
-          ]
-        },
-        {
-          "pokemon": "Buzzwole",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Puño Drenaje",
-            "Chupavidas",
-            "Terremoto",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Koraidon",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Fotocolisión",
             "Envite Ígneo",
             "Garra Dragón",
-            "Ida y Vuelta"
-          ]
-        },
-        {
-          "pokemon": "Lucario",
-          "level": 100,
-          "item": "Lucarita",
-          "moves": [
-            "A Bocajarro",
-            "Puño Bala",
-            "Triturar",
-            "Danza Espada"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Karen - Liga R2 Monotype Siniestro Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Siniestro Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Ting-Lu",
-          "level": 100,
-          "item": "Restos",
-          "moves": [
-            "Trampa Rocas",
-            "Púas",
-            "Remolino",
+            "Danza Dragón",
             "Terremoto"
           ]
         },
         {
-          "pokemon": "Umbreon",
-          "level": 100,
-          "item": "Casco Dentado",
-          "moves": [
-            "Deseo",
-            "Protección",
-            "Campana Cura",
-            "Juego Sucio"
-          ]
-        },
-        {
-          "pokemon": "Chien-Pao",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Chuzos",
-            "Golpe Bajo",
-            "Triturar",
-            "Espada Santa"
-          ]
-        },
-        {
-          "pokemon": "Darkrai",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "Hipnosis",
-            "Maquinación",
-            "Pulso Umbrío",
-            "Bomba Lodo"
-          ]
-        },
-        {
-          "pokemon": "Yveltal",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "AlaMortífera",
-            "Pulso Umbrío",
-            "Golpe Bajo",
-            "Onda Ígnea"
-          ]
-        },
-        {
-          "pokemon": "Tyranitar",
-          "level": 100,
-          "item": "Tyranitarita",
-          "moves": [
-            "Danza Dragón",
-            "Roca Afilada",
-            "Triturar",
-            "Terremoto"
-          ]
-        }
-      ],
-      "strategy": ""
-    },
-    {
-      "name": "Lance - Liga R2 Monotype Dragón Ubers",
-      "city": "Meseta Añil (Liga R2)",
-      "badge": "Monotype Dragón Ubers",
-      "level_cap": 100,
-      "team": [
-        {
-          "pokemon": "Dialga",
-          "level": 100,
-          "item": "Chaleco Asalto",
-          "moves": [
-            "Trampa Rocas",
-            "Foco Respl.",
-            "Cometa Draco",
-            "Llamarada"
-          ]
-        },
-        {
-          "pokemon": "Zygarde",
+          "pokemon": "Blastoise",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Mil Flechas",
-            "Enrosque",
-            "Descanso",
-            "Vel. Extrema"
-          ]
-        },
-        {
-          "pokemon": "Miraidon",
-          "level": 100,
-          "item": "Gafas Elegid",
-          "moves": [
-            "Electoderrap",
-            "Cometa Draco",
-            "Voltiocambio",
-            "Sofoco"
-          ]
-        },
-        {
-          "pokemon": "Giratina",
-          "level": 100,
-          "item": "Griseosfera",
-          "moves": [
-            "Fuego Fatuo",
-            "Despejar",
-            "Golpe Umbrío",
-            "Cola Dragón"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 100,
-          "item": "Seguro Debilidad",
-          "moves": [
-            "Danza Dragón",
-            "Vel. Extrema",
-            "Terremoto",
-            "Puño Fuego"
-          ]
-        },
-        {
-          "pokemon": "Rayquaza",
-          "level": 100,
-          "item": "Vidasfera",
-          "moves": [
-            "AscensoDraco",
-            "Danza Dragón",
-            "Terremoto",
-            "Vel. Extrema"
+            "Escaldar",
+            "Foco Resplandor",
+            "Rayo Hielo",
+            "Giro Rápido"
           ]
         }
-      ],
-      "strategy": ""
+      ]
     }
   ],
   "features": {
