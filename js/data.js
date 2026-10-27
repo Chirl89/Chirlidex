@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.0 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.13";
+/* Pokémon ChirlGold v0.13.13 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.14";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -369127,79 +369127,118 @@ window.CHIRLGOLD_DATA = {
       "name": "Pegaso (Falkner)",
       "city": "Ciudad Malvalba (Gimnasio 1)",
       "badge": "Medalla Céfiro",
-      "level_cap": 13,
+      "level_cap": 14,
       "team": [
         {
-          "pokemon": "Hoothoot",
-          "level": 12,
-          "item": "Ninguno",
+          "pokemon": "Gligar",
+          "level": 14,
+          "item": "Baya Aranja",
           "moves": [
-            "Placaje",
-            "Picotazo",
-            "Gruñido"
+            "Bofetón Lodo",
+            "Picotazo Ven",
+            "At. Rápido",
+            "Fortaleza"
+          ]
+        },
+        {
+          "pokemon": "Wattrel",
+          "level": 14,
+          "item": "Baya Caquic",
+          "moves": [
+            "Impactrueno",
+            "Aire Afilado",
+            "Onda Trueno",
+            "At. Rápido"
           ]
         },
         {
           "pokemon": "Doduo",
-          "level": 12,
-          "item": "Ninguno",
+          "level": 14,
+          "item": "Baya Aranja",
           "moves": [
-            "Ataque Rápido",
             "Picotazo",
-            "Gruñido"
+            "Doble Patada",
+            "Bofetón Lodo",
+            "Malicioso"
           ]
         },
         {
           "pokemon": "Noctowl",
-          "level": 13,
-          "item": "Baya Aranja",
+          "level": 14,
+          "item": "Baya Zidra",
           "moves": [
-            "Placaje",
-            "Confusión",
+            "Tornado",
+            "Respiro",
             "Hipnosis",
-            "Picotazo"
+            "Vien. Aciago"
           ]
         }
-      ]
+      ],
+      "strategy": "Abre con presión de Hoothoot con Rayo Confuso e Hipnosis para forzar cambios y desgaste. Doduo y Noctowl golpean con alta velocidad y cobertura voladora física/especial. <b>Consejo:</b> Usa a Mareep (capturable en Ruta 32) o Geodude (Cueva Oscura) para resistir sus ataques al 50% y eliminarlos de un impacto eléctrico o roca. Lleva Bayas Atania para prevenir el sueño de Noctowl."
     },
     {
       "name": "Antón (Bugsy)",
       "city": "Pueblo Azalea (Gimnasio 2)",
       "badge": "Medalla Colmena",
-      "level_cap": 19,
+      "level_cap": 18,
       "team": [
         {
-          "pokemon": "Anorith",
+          "pokemon": "Dwebble",
           "level": 17,
-          "item": "Ninguno",
+          "item": "Baya Aranja",
           "moves": [
+            "Trampa Rocas",
             "Tumba Rocas",
-            "Picadura",
-            "Fortaleza"
+            "Tijera X",
+            "Protección"
+          ]
+        },
+        {
+          "pokemon": "Ariados",
+          "level": 17,
+          "item": "Baya Zidra",
+          "moves": [
+            "Disp. Demora",
+            "Picotazo Ven",
+            "Sombra Vil",
+            "Tinieblas"
           ]
         },
         {
           "pokemon": "Heracross",
-          "level": 18,
-          "item": "Ninguno",
+          "level": 17,
+          "item": "Baya Aranja",
           "moves": [
-            "Golpe Roca",
-            "Ataque Furia",
-            "Malicioso"
+            "Demolición",
+            "Cornada",
+            "Golpe Aéreo",
+            "At. Rápido"
+          ]
+        },
+        {
+          "pokemon": "Yanma",
+          "level": 17,
+          "item": "Baya Caquic",
+          "moves": [
+            "Aire Afilado",
+            "Doble Rayo",
+            "Detección",
+            "Hipnosis"
           ]
         },
         {
           "pokemon": "Scyther",
-          "level": 19,
+          "level": 17,
           "item": "Baya Zidra",
           "moves": [
             "Ida y Vuelta",
-            "Ataque Ala",
-            "Persecución",
-            "Foco Energía"
+            "Golpe Aéreo",
+            "At. Rápido",
+            "Picadura"
           ]
         }
-      ]
+      ],
+      "strategy": "Ninjask con Impulso y Vidasfera inicia acelerando el combate con Danza Espada e Ida y Vuelta; Scyther con Garrafilada mete presión crítica con Demolición y Ataque Ala; Lokix remata con Escaramuza o Golpe Bajo. <b>Consejo:</b> Los ataques de Fuego (Quilava, Houndour) y Roca (Geodude con Trampa Rocas o Lanzarrocas) son devastadores. Scyther tiene debilidad x4 a Roca; forzarlo a golpear contra un tipo Roca desgastará su salud."
     },
     {
       "name": "Blanca (Whitney)",
@@ -369209,182 +369248,361 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Clefairy",
-          "level": 20,
+          "level": 21,
           "item": "Mineral Evol",
           "moves": [
-            "Beso Drenaje",
-            "Metrónomo",
-            "Canto"
+            "Reflejo",
+            "Onda Trueno",
+            "Voz Cautiv.",
+            "Metrónomo"
+          ]
+        },
+        {
+          "pokemon": "Ambipom",
+          "level": 21,
+          "item": "Baya Meloc",
+          "moves": [
+            "Sorpresa",
+            "Doble Golpe",
+            "Bofetón Lodo",
+            "Persecución"
+          ]
+        },
+        {
+          "pokemon": "Furret",
+          "level": 21,
+          "item": "Baya Caquic",
+          "moves": [
+            "At. Rápido",
+            "Golpes Furia",
+            "Desenrollar",
+            "Bofetón Lodo"
+          ]
+        },
+        {
+          "pokemon": "Wigglytuff",
+          "level": 21,
+          "item": "Restos",
+          "moves": [
+            "Encanto",
+            "Onda Trueno",
+            "Voz Cautiv.",
+            "Espacio Raro"
           ]
         },
         {
           "pokemon": "Miltank",
-          "level": 22,
+          "level": 21,
           "item": "Baya Zidra",
           "moves": [
-            "Desenrollar",
             "Pisotón",
-            "Atracción",
-            "Batido"
+            "Desenrollar",
+            "Batido",
+            "Atracción"
           ]
         }
-      ]
+      ],
+      "strategy": "Bewear con Peluche reduce el daño físico a la mitad; Blissey absorbe cualquier ataque especial; Miltank ataca con Desenrollar y se cura con Batido; Diggersby cubre la debilidad a Roca/Lucha con tipo Tierra. <b>Consejo:</b> ¡No uses ataques físicos contra Bewear salvo que sean de Fuego! Contra Miltank, un tipo Fantasma (Gastly) anula Desenrollar y Pisotón. Ataques de Lucha Especial (Aura Esfera) y quemaduras de Fuego Fatuo arruinan la recuperación de Miltank y Blissey."
     },
     {
       "name": "Morti (Morty)",
       "city": "Ciudad Iris (Gimnasio 4)",
       "badge": "Medalla Niebla",
-      "level_cap": 26,
+      "level_cap": 28,
       "team": [
         {
-          "pokemon": "Gastly",
-          "level": 23,
-          "item": "Ninguno",
+          "pokemon": "Haunter",
+          "level": 27,
+          "item": "Banda Focus",
           "moves": [
-            "Rayo Confuso",
+            "Fuego Fatuo",
             "Tinieblas",
-            "Maldición"
+            "Rayo Confuso",
+            "Mismodestino"
           ]
         },
         {
-          "pokemon": "Haunter",
-          "level": 24,
-          "item": "Ninguno",
+          "pokemon": "Sableye",
+          "level": 27,
+          "item": "Restos",
           "moves": [
-            "Tinieblas",
-            "Pesadilla",
+            "Fuego Fatuo",
+            "Desarme",
+            "Recuperación",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Misdreavus",
+          "level": 27,
+          "item": "Mineral Evol",
+          "moves": [
+            "Bola Sombra",
+            "LlamaEmbruj.",
+            "Rayo Confuso",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Drifblim",
+          "level": 27,
+          "item": "Baya Zidra",
+          "moves": [
+            "Bola Sombra",
+            "Vuelo",
+            "Camelo",
             "Hipnosis"
           ]
         },
         {
-          "pokemon": "Haunter",
-          "level": 24,
-          "item": "Ninguno",
+          "pokemon": "Gengar",
+          "level": 27,
+          "item": "Vidasfera",
           "moves": [
-            "Tinieblas",
-            "Rayo Confuso",
-            "Rencor"
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Esfera Aural",
+            "Hipnosis"
           ]
         },
         {
-          "pokemon": "Gengar",
-          "level": 26,
-          "item": "Baya Zidra",
+          "pokemon": "Mismagius",
+          "level": 27,
+          "item": "Vidasfera",
           "moves": [
             "Bola Sombra",
-            "Hipnosis",
-            "Come Sueños",
-            "Mismo Destino"
+            "LlamaEmbruj.",
+            "Psíquico",
+            "Paz Mental"
           ]
         }
-      ]
+      ],
+      "strategy": "Gengar veloz con Hipnosis y Bola Sombra; Annihilape castiga cualquier intento de desgaste con Puño Furia acumulativo; Houndstone gana poder masivo con Último Respeto a medida que caen sus compañeros. <b>Consejo:</b> Tipos Siniestro (Houndoom, Umbreon) y Normales son inmunes o resistentes a Bola Sombra. ¡Jamás uses ataques débiles contra Annihilape para no cargar su Puño Furia! Noquéalo de un solo golpe con Psíquico, Volador o Hada."
     },
     {
       "name": "Aníbal (Chuck)",
       "city": "Ciudad Orquídea (Gimnasio 5)",
       "badge": "Medalla Tormenta",
-      "level_cap": 31,
+      "level_cap": 34,
       "team": [
         {
-          "pokemon": "Primeape",
-          "level": 29,
-          "item": "Ninguno",
+          "pokemon": "Hitmontop",
+          "level": 35,
+          "item": "Restos",
           "moves": [
-            "Puño Furia",
-            "Demolición",
-            "Doble Equipo"
+            "Sorpresa",
+            "Golpe Bajo",
+            "A Bocajarro",
+            "Giro Rápido"
+          ]
+        },
+        {
+          "pokemon": "Primeape",
+          "level": 35,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Puño Hielo",
+            "Desarme",
+            "Roca Afilada"
+          ]
+        },
+        {
+          "pokemon": "Breloom",
+          "level": 35,
+          "item": "Banda Focus",
+          "moves": [
+            "Espora",
+            "Ultrapuño",
+            "Abatidoras",
+            "Roca Afilada"
+          ]
+        },
+        {
+          "pokemon": "Machamp",
+          "level": 35,
+          "item": "Baya Zidra",
+          "moves": [
+            "Puñodinámico",
+            "Roca Afilada",
+            "Puño Hielo",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 35,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Esfera Aural",
+            "Foco Respl.",
+            "Pulso Dragón",
+            "Vel. Extrema"
           ]
         },
         {
           "pokemon": "Poliwrath",
-          "level": 31,
+          "level": 35,
           "item": "Baya Zidra",
           "moves": [
-            "Puño Dinámico",
-            "Surf",
+            "Cascada",
+            "Puño Hielo",
             "Hipnosis",
-            "Golpe Cuerpo"
+            "Demolición"
           ]
         }
-      ]
+      ],
+      "strategy": "Hawlucha golpea con velocidad y Plancha Voladora; Urshifu-Fluido asesta 3 golpes críticos garantizados anulando Protección; Poliwrath presiona con Cascada y Puño Dinámico. <b>Consejo:</b> Tipos Volador, Hada y Psíquico (Espeon, Togekiss) dominan la mesa, pero cuídate de los Puños Elementales de Hitmonchan. Intimidadores (Gyarados, Arcanine) neutralizan su daño físico."
     },
     {
       "name": "Yasmina (Jasmine)",
       "city": "Ciudad Olivo (Gimnasio 6)",
       "badge": "Medalla Mineral",
-      "level_cap": 35,
+      "level_cap": 38,
       "team": [
         {
-          "pokemon": "Magnemite",
-          "level": 32,
-          "item": "Ninguno",
+          "pokemon": "Skarmory",
+          "level": 40,
+          "item": "Casco Dentado",
           "moves": [
-            "Rayo",
-            "Bomba Sónica",
-            "Onda Trueno"
+            "Trampa Rocas",
+            "Púas",
+            "Pájaro Osado",
+            "Remolino"
           ]
         },
         {
-          "pokemon": "Magnemite",
-          "level": 32,
-          "item": "Ninguno",
+          "pokemon": "Bronzong",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Giro Bola",
+            "Paranormal",
+            "Pantalla Luz",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 40,
+          "item": "Gafas Elegid",
           "moves": [
             "Rayo",
-            "Supersónico",
-            "Onda Trueno"
+            "Foco Respl.",
+            "Voltiocambio",
+            "Poder Oculto"
+          ]
+        },
+        {
+          "pokemon": "Empoleon",
+          "level": 40,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Escaldar",
+            "Foco Respl.",
+            "Rayo Hielo",
+            "Acua Jet"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Demolición"
           ]
         },
         {
           "pokemon": "Steelix",
-          "level": 35,
-          "item": "Baya Zidra",
+          "level": 40,
+          "item": "Cinta Xperto",
           "moves": [
-            "Cola Férrea",
             "Terremoto",
-            "Tormenta de Arena",
-            "Colmillo Hielo"
+            "Testarazo",
+            "Giro Bola",
+            "Colm. Ígneo"
           ]
         }
-      ]
+      ],
+      "strategy": "Muro blindado con Trampa Rocas de Skarmory, Martillo Colosal de Tinkaton, Levitación en Bronzong y Kingambit como venganza letal con General Supremo. <b>Consejo:</b> Ten respuestas de Fuego, Tierra y Lucha. Skarmory y Tinkaton caen ante Fuego; Bronzong requiere Fuego o Siniestro por su Levitación; Steelix y Magneton son vulnerables a Terremoto. Prioriza eliminar a Kingambit rápido."
     },
     {
       "name": "Fredo (Pryce)",
       "city": "Pueblo Caoba (Gimnasio 7)",
       "badge": "Medalla Glaciar",
-      "level_cap": 39,
+      "level_cap": 40,
       "team": [
         {
-          "pokemon": "Seel",
-          "level": 36,
-          "item": "Ninguno",
+          "pokemon": "Abomasnow",
+          "level": 40,
+          "item": "Roca Helada",
           "moves": [
-            "Rayo Hielo",
-            "Surf",
-            "Descanso"
+            "Ventisca",
+            "Gigadrenado",
+            "Canto Helado",
+            "Mazazo"
           ]
         },
         {
           "pokemon": "Dewgong",
-          "level": 38,
-          "item": "Ninguno",
+          "level": 40,
+          "item": "Restos",
           "moves": [
-            "Rayo Hielo",
             "Surf",
-            "Velo Aurora"
+            "Rayo Hielo",
+            "Manto Espejo",
+            "Otra Vez"
           ]
         },
         {
-          "pokemon": "Piloswine",
-          "level": 39,
-          "item": "Baya Zidra",
+          "pokemon": "Froslass",
+          "level": 40,
+          "item": "Banda Focus",
+          "moves": [
+            "Ventisca",
+            "Bola Sombra",
+            "Púas",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Cloyster",
+          "level": 40,
+          "item": "Ninguno",
+          "moves": [
+            "Rompecoraza",
+            "Carámbano",
+            "Pedrada",
+            "Concha Filo"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Mamoswine",
+          "level": 40,
+          "item": "Cinta Xperto",
           "moves": [
             "Terremoto",
             "Chuzos",
-            "Granizo",
-            "Canto Helado"
+            "Canto Helado",
+            "Fuerza Bruta"
           ]
         }
-      ]
+      ],
+      "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
     },
     {
       "name": "Débora (Clair)",
@@ -369393,155 +369611,929 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 45,
       "team": [
         {
-          "pokemon": "Gyarados",
-          "level": 42,
-          "item": "Ninguno",
+          "pokemon": "Garchomp",
+          "level": 45,
+          "item": "Casco Dentado",
           "moves": [
-            "Cascada",
-            "Mordisco",
+            "Trampa Rocas",
+            "Terremoto",
+            "Cola Dragón",
+            "Avalancha"
+          ]
+        },
+        {
+          "pokemon": "Dragonair",
+          "level": 45,
+          "item": "Mineral Evol",
+          "moves": [
             "Onda Trueno",
-            "Furia Dragón"
+            "Pulso Dragón",
+            "Acua Cola",
+            "Descanso"
           ]
         },
         {
-          "pokemon": "Dragonair",
-          "level": 43,
-          "item": "Ninguno",
+          "pokemon": "Flygon",
+          "level": 45,
+          "item": "Cin. Elegida",
           "moves": [
-            "Pulso Dragón",
-            "Surf",
-            "Onda Trueno"
+            "Terremoto",
+            "Garra Dragón",
+            "Ida y Vuelta",
+            "Puño Fuego"
           ]
         },
         {
-          "pokemon": "Dragonair",
-          "level": 43,
-          "item": "Ninguno",
+          "pokemon": "Altaria",
+          "level": 45,
+          "item": "Restos",
           "moves": [
-            "Pulso Dragón",
-            "Rayo Hielo",
-            "Llamarada"
+            "Voz Cautiv.",
+            "Lanzallamas",
+            "Respiro",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 45,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
           ]
         },
         {
           "pokemon": "Kingdra",
           "level": 45,
-          "item": "Baya Zidra",
+          "item": "Vidasfera",
           "moves": [
             "Pulso Dragón",
             "Hidrobomba",
-            "Pantalla de Humo",
-            "Hiperrayo"
+            "Rayo Hielo",
+            "Foco Energía"
           ]
         }
-      ]
+      ],
+      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
     },
     {
-      "name": "Mento (Will) - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 1",
-      "level_cap": 50,
+      "name": "Rival Silver (Combate 1)",
+      "city": "Ciudad Cerezo",
+      "badge": "Rival",
+      "level_cap": 15,
       "team": [
         {
-          "pokemon": "Xatu",
-          "level": 48,
-          "item": "Banda Focus",
+          "pokemon": "Cyndaquil",
+          "level": 5,
+          "item": "Baya Aranja",
           "moves": [
-            "Psíquico",
-            "Aire Afilado",
+            "Placaje",
+            "Malicioso",
+            "Ascuas",
+            "At. Rápido"
+          ]
+        }
+      ],
+      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+    },
+    {
+      "name": "Rival Silver (Combate 2)",
+      "city": "Pueblo Azalea",
+      "badge": "Rival",
+      "level_cap": 20,
+      "team": [
+        {
+          "pokemon": "Gastly",
+          "level": 17,
+          "item": "Polvo Brillo",
+          "moves": [
+            "Tinieblas",
             "Rayo Confuso",
-            "Paz Mental"
+            "Fuego Fatuo",
+            "Rompecoraza"
           ]
         },
         {
-          "pokemon": "Jynx",
-          "level": 49,
-          "item": "Vidasfera",
+          "pokemon": "Zubat",
+          "level": 17,
+          "item": "Baya Meloc",
           "moves": [
-            "Ventisca",
-            "Psíquico",
-            "Beso Amoroso",
-            "Bola Sombra"
+            "Ataque Ala",
+            "Mordisco",
+            "Colmillo Ven",
+            "Supersónico"
           ]
         },
         {
-          "pokemon": "Exeggutor",
-          "level": 49,
-          "item": "Restos",
+          "pokemon": "Magnemite",
+          "level": 17,
+          "item": "Baya Aranja",
           "moves": [
-            "Psíquico",
-            "Bomba Germen",
-            "Bomba Huevo",
+            "Impactrueno",
+            "Onda Trueno",
+            "Bofetón Lodo",
             "Reflejo"
           ]
         },
         {
-          "pokemon": "Slowbro",
-          "level": 49,
-          "item": "Restos",
+          "pokemon": "Sneasel",
+          "level": 17,
+          "item": "Baya Caquic",
           "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Onda Certera",
-            "Amnesia"
+            "At. Rápido",
+            "Finta",
+            "Viento Hielo",
+            "Malicioso"
           ]
         },
         {
-          "pokemon": "Xatu",
-          "level": 50,
+          "pokemon": "Croconaw",
+          "level": 17,
           "item": "Baya Zidra",
           "moves": [
-            "Psíquico",
-            "Tajo Aéreo",
-            "Doble Rayo",
-            "Paz Mental"
+            "Pistola Agua",
+            "Mordisco",
+            "Arañazo",
+            "Malicioso"
           ]
         }
-      ]
+      ],
+      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
     },
     {
-      "name": "Koga - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 2",
-      "level_cap": 51,
+      "name": "Rival Silver (Combate 3)",
+      "city": "Faro de Olivo",
+      "badge": "Rival",
+      "level_cap": 38,
       "team": [
         {
-          "pokemon": "Ariados",
-          "level": 49,
+          "pokemon": "Haunter",
+          "level": 23,
           "item": "Banda Focus",
           "moves": [
-            "Red Viscosa",
-            "Toxirred",
-            "Golpe Bajo",
-            "Picadura"
+            "Fuego Fatuo",
+            "Tinieblas",
+            "Rayo Confuso",
+            "Mismodestino"
           ]
         },
         {
-          "pokemon": "Forretress",
-          "level": 50,
+          "pokemon": "Golbat",
+          "level": 23,
+          "item": "Baya Meloc",
+          "moves": [
+            "Ataque Ala",
+            "Colmillo Ven",
+            "Mordisco",
+            "Supersónico"
+          ]
+        },
+        {
+          "pokemon": "Magnemite",
+          "level": 23,
+          "item": "Mineral Evol",
+          "moves": [
+            "Rayo",
+            "Onda Trueno",
+            "Bofetón Lodo",
+            "Reflejo"
+          ]
+        },
+        {
+          "pokemon": "Kadabra",
+          "level": 24,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Psicorrayo",
+            "Rayo Confuso",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Sneasel",
+          "level": 24,
+          "item": "Cinta Xperto",
+          "moves": [
+            "At. Rápido",
+            "Tajo Umbrío",
+            "Chuzos",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
+          "level": 25,
+          "item": "Baya Zidra",
+          "moves": [
+            "Escaldar",
+            "Triturar",
+            "Rayo Hielo",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+    },
+    {
+      "name": "Rival Silver (Combate 4)",
+      "city": "Subterráneo Trigal",
+      "badge": "Rival",
+      "level_cap": 42,
+      "team": [
+        {
+          "pokemon": "Gengar",
+          "level": 42,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Fuego Fatuo",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Magneton",
+          "level": 42,
+          "item": "Mineral Evol",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Onda Trueno"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 42,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 42,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 42,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Chuzos",
+            "Tajo Umbrío",
+            "Canto Helado",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
+          "level": 42,
+          "item": "Baya Zidra",
+          "moves": [
+            "Escaldar",
+            "Triturar",
+            "Rayo Hielo",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+    },
+    {
+      "name": "Rival Silver (Combate 5)",
+      "city": "Calle Victoria",
+      "badge": "Rival Gatekeeper",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Gengar",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 55,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Triataque"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 55,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "BrilloMágico"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 55,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
+          "level": 55,
+          "item": "Baya Zidra",
+          "moves": [
+            "Escaldar",
+            "Triturar",
+            "Rayo Hielo",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+    },
+    {
+      "name": "Ejecutivo Petrel",
+      "city": "Escondite Caoba",
+      "badge": "Team Rocket",
+      "level_cap": 40,
+      "team": [
+        {
+          "pokemon": "Gengar",
+          "level": 40,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Fuego Fatuo",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Arbok",
+          "level": 40,
+          "item": "Lodo Negro",
+          "moves": [
+            "Puya Nociva",
+            "Terremoto",
+            "Desarme",
+            "Deslumbrar"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 40,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Raticate",
+          "level": 40,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Golpe Bajo",
+            "Triturar",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Drapion",
+          "level": 40,
           "item": "Casco Dentado",
           "moves": [
-            "Giro Rápido",
-            "Púas Tóxicas",
-            "Explosión",
-            "Giro Bola"
+            "Desarme",
+            "Terremoto",
+            "Puya Nociva",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Fuego Fatuo",
+            "Divide Dolor"
+          ]
+        }
+      ],
+      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+    },
+    {
+      "name": "Ejecutiva Ariana",
+      "city": "Escondite Caoba",
+      "badge": "Team Rocket",
+      "level_cap": 40,
+      "team": [
+        {
+          "pokemon": "Arbok",
+          "level": 40,
+          "item": "Lodo Negro",
+          "moves": [
+            "Bomba Lodo",
+            "Terremoto",
+            "Mordisco",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Gloom",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Energibola",
+            "Bomba Lodo",
+            "Tóxico",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Murkrow",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Pulso Umbrío",
+            "Ataque Ala",
+            "Golpe Bajo",
+            "Onda Certera"
+          ]
+        }
+      ],
+      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+    },
+    {
+      "name": "Ejecutivo Petrel (Torre)",
+      "city": "Torre Radio Trigal",
+      "badge": "Team Rocket",
+      "level_cap": 43,
+      "team": [
+        {
+          "pokemon": "Zoroark",
+          "level": 43,
+          "item": "Banda Focus",
+          "moves": [
+            "Pulso Umbrío",
+            "Lanzallamas",
+            "Onda Certera",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 43,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Drapion",
+          "level": 43,
+          "item": "Casco Dentado",
+          "moves": [
+            "Desarme",
+            "Terremoto",
+            "Puya Nociva",
+            "Trampa Ven."
           ]
         },
         {
           "pokemon": "Muk",
-          "level": 50,
-          "item": "Lodo Negro",
+          "level": 43,
+          "item": "Chaleco Asalto",
           "moves": [
-            "Lanza Mugre",
-            "Puño Hielo",
+            "Desarme",
+            "Puya Nociva",
             "Puño Fuego",
             "Sombra Vil"
           ]
         },
         {
-          "pokemon": "Venomoth",
-          "level": 51,
+          "pokemon": "Gengar",
+          "level": 43,
           "item": "Vidasfera",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Foco Respl.",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 43,
+          "item": "Lodo Negro",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Divide Dolor",
+            "Fuego Fatuo"
+          ]
+        }
+      ],
+      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+    },
+    {
+      "name": "Ejecutivo Protón (Torre)",
+      "city": "Torre Radio Trigal",
+      "badge": "Team Rocket",
+      "level_cap": 43,
+      "team": [
+        {
+          "pokemon": "Qwilfish",
+          "level": 43,
+          "item": "Banda Focus",
+          "moves": [
+            "Púas Tóxicas",
+            "Cascada",
+            "Puya Nociva",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Golbat",
+          "level": 43,
+          "item": "Mineral Evol",
+          "moves": [
+            "Veneno X",
+            "Golpe Aéreo",
+            "Respiro",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Skuntank",
+          "level": 43,
+          "item": "Vidasfera",
+          "moves": [
+            "Golpe Bajo",
+            "Puya Nociva",
+            "Triturar",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Toxicroak",
+          "level": 43,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Demolición",
+            "Puya Nociva",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Houndoom",
+          "level": 43,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Lanzallamas",
+            "Pulso Umbrío",
+            "Onda Ígnea",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 43,
+          "item": "Casco Dentado",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Explosión",
+            "Divide Dolor"
+          ]
+        }
+      ],
+      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+    },
+    {
+      "name": "Ejecutiva Ariana (Torre)",
+      "city": "Torre Radio Trigal",
+      "badge": "Team Rocket",
+      "level_cap": 44,
+      "team": [
+        {
+          "pokemon": "Roserade",
+          "level": 44,
+          "item": "Banda Focus",
+          "moves": [
+            "Púas Tóxicas",
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Paranormal"
+          ]
+        },
+        {
+          "pokemon": "Arbok",
+          "level": 44,
+          "item": "Lodo Negro",
+          "moves": [
+            "Puya Nociva",
+            "Terremoto",
+            "Desarme",
+            "Enrosque"
+          ]
+        },
+        {
+          "pokemon": "Honchkrow",
+          "level": 44,
+          "item": "Vidasfera",
+          "moves": [
+            "Golpe Bajo",
+            "Pájaro Osado",
+            "Tajo Umbrío",
+            "Onda Ígnea"
+          ]
+        },
+        {
+          "pokemon": "Toxicroak",
+          "level": 44,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Demolición",
+            "Puya Nociva",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Nidoqueen",
+          "level": 44,
+          "item": "Casco Dentado",
+          "moves": [
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Rayo Hielo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Vileplume",
+          "level": 44,
+          "item": "Restos",
+          "moves": [
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Drenadoras",
+            "BrilloMágico"
+          ]
+        }
+      ],
+      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+    },
+    {
+      "name": "Ejecutivo Archer (Torre)",
+      "city": "Torre Radio Trigal (Cima)",
+      "badge": "Team Rocket",
+      "level_cap": 44,
+      "team": [
+        {
+          "pokemon": "Tyranitar",
+          "level": 44,
+          "item": "Baya Pasio",
+          "moves": [
+            "Trampa Rocas",
+            "Roca Afilada",
+            "Terremoto",
+            "Triturar"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 44,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Nidoking",
+          "level": 44,
+          "item": "Vidasfera",
+          "moves": [
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Scrafty",
+          "level": 44,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "A Bocajarro",
+            "Desarme",
+            "Puño Drenaje",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Salamence",
+          "level": 44,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Garra Dragón",
+            "Terremoto",
+            "Golpe Aéreo",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Houndoom",
+          "level": 44,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Lanzallamas",
+            "Pulso Umbrío",
+            "Onda Ígnea",
+            "Bomba Lodo"
+          ]
+        }
+      ],
+      "strategy": "Especialistas en veneno, trampas tóxicas, intimidación y explosión suicida. Archer en la Torre Radio despliega una ofensiva temible con Houndoom, Tyranitar y Salamence. <b>Consejo:</b> Terremoto y ataques Psíquicos barren a las tropas de veneno de Petrel y Protón. Lleva Agua y Lucha para sofocar a Houndoom y Tyranitar en la Torre Radio."
+    },
+    {
+      "name": "Mento (Will) - Alto Mando #1",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Psíquico",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Xatu",
+          "level": 55,
+          "item": "Refleluz",
+          "moves": [
+            "Reflejo",
+            "Pantalla Luz",
+            "Respiro",
+            "Paranormal"
+          ]
+        },
+        {
+          "pokemon": "Bronzong",
+          "level": 55,
+          "item": "Restos",
+          "moves": [
+            "Giro Bola",
+            "Psíquico",
+            "Terremoto",
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Reuniclus",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Paz Mental",
+            "Psicocarga",
+            "Onda Certera",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Jynx",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Beso Amoroso",
+            "Ventisca",
+            "Psíquico",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Slowbro",
+          "level": 55,
+          "item": "Slowbronita",
+          "moves": [
+            "Escaldar",
+            "Psíquico",
+            "Paz Mental",
+            "Relajo"
+          ]
+        }
+      ],
+      "strategy": "Pantallas de soporte con Xatu, Bronzong resistente con Chaleco Asalto y Trampa Rocas, cobertura de Jynx y Alakazam con Vidasfera y Mega-Slowbro como muro físico y atacante con Paz Mental. Todos los Pokémon a Nivel 55. <b>Consejo:</b> Usa tipos Siniestro, Bicho y Fantasma (Triturar, Bola Sombra). Un ataque Eléctrico o Planta contundente derriba a Slowbro antes de que acumule Paz Mental."
+    },
+    {
+      "name": "Koga - Alto Mando #2",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Veneno",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Forretress",
+          "level": 55,
+          "item": "Casco Dentado",
+          "moves": [
+            "Púas Tóxicas",
+            "Trampa Rocas",
+            "Giro Rápido",
+            "Explosión"
+          ]
+        },
+        {
+          "pokemon": "Muk",
+          "level": 55,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Desarme",
+            "Puya Nociva",
+            "Sombra Vil",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Tentacruel",
+          "level": 55,
+          "item": "Lodo Negro",
+          "moves": [
+            "Escaldar",
+            "Bomba Lodo",
+            "Niebla",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Despejar"
+          ]
+        },
+        {
+          "pokemon": "Venomoth",
+          "level": 55,
+          "item": "Banda Focus",
           "moves": [
             "Danza Aleteo",
             "Zumbido",
@@ -369550,223 +370542,249 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Crobat",
-          "level": 51,
-          "item": "Baya Zidra",
+          "pokemon": "Beedrill",
+          "level": 55,
+          "item": "Beedrillita",
           "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Colmillo Ígneo",
-            "Ida y Vuelta"
+            "Puya Nociva",
+            "Tijera X",
+            "Taladradora",
+            "Desquite"
           ]
         }
-      ]
+      ],
+      "strategy": "Red masiva de Hazards (Trampa Rocas y Púas Tóxicas) con Forretress; Muk con Lodo Negro y Puño Drenaje; Venomoth y Crobat veloces con veneno e intimidación; y Mega-Beedrill devastador con Tijera X y Bomba Lodo. Todos a Nivel 55. <b>Consejo:</b> Abre con un ataque de Fuego rápido para noquear a Forretress antes de que ensucie el campo. Los tipos Acero son completamente inmunes a su veneno."
     },
     {
-      "name": "Bruno - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 3",
-      "level_cap": 52,
+      "name": "Bruno - Alto Mando #3",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Lucha",
+      "level_cap": 55,
       "team": [
         {
           "pokemon": "Hitmontop",
-          "level": 50,
-          "item": "Restos",
+          "level": 55,
+          "item": "Casco Dentado",
           "moves": [
+            "Sorpresa",
+            "Giro Rápido",
             "A Bocajarro",
-            "Triple Patada",
-            "Persecución",
-            "Sorpresa"
-          ]
-        },
-        {
-          "pokemon": "Hitmonlee",
-          "level": 51,
-          "item": "Vidasfera",
-          "moves": [
-            "Patada Salto Alta",
-            "Roca Afilada",
-            "Terremoto",
             "Desarme"
           ]
         },
         {
-          "pokemon": "Hitmonchan",
-          "level": 51,
-          "item": "Cinta Elegida",
-          "moves": [
-            "Ultrapuño",
-            "Puño Fuego",
-            "Puño Hielo",
-            "Puño Trueno"
-          ]
-        },
-        {
-          "pokemon": "Onix",
-          "level": 50,
-          "item": "Mineral Evol",
-          "moves": [
-            "Terremoto",
-            "Roca Afilada",
-            "Trampa Rocas",
-            "Rugido"
-          ]
-        },
-        {
           "pokemon": "Machamp",
-          "level": 52,
-          "item": "Baya Zidra",
+          "level": 55,
+          "item": "Chaleco Asalto",
           "moves": [
-            "Puño Dinámico",
+            "Puñodinámico",
             "Roca Afilada",
-            "Puño Hielo",
+            "Puño Bala",
             "Desquite"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Karen - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 4",
-      "level_cap": 53,
-      "team": [
+        },
         {
-          "pokemon": "Umbreon",
-          "level": 51,
+          "pokemon": "Conkeldurr",
+          "level": 55,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Puño Drenaje",
+            "Ultrapuño",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Esfera Aural",
+            "Foco Respl.",
+            "Maquinación",
+            "Onda Vacío"
+          ]
+        },
+        {
+          "pokemon": "Scrafty",
+          "level": 55,
           "item": "Restos",
           "moves": [
+            "Desarme",
+            "Machada",
+            "Puño Hielo",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Medicham",
+          "level": 55,
+          "item": "Medichamita",
+          "moves": [
+            "Patada Salto",
+            "Cabezazo Zen",
+            "Puño Hielo",
+            "Puño Fuego"
+          ]
+        }
+      ],
+      "strategy": "Fuerza física imparable a Nivel 55: Hitmonlee con Cinta Elegida y Hitmonchan con coberturas elementales; Steelix tanque con Chaleco Asalto; Machamp con Indefenso; y Mega-Medicham con A Bocajarro y Danza Espada. <b>Consejo:</b> Tipos Volador y Hada son clave para resistir sus golpes de lucha. Ataca el lado especial de Steelix con Agua o Fuego para derribarlo rápidamente."
+    },
+    {
+      "name": "Karen - Alto Mando #4",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Siniestro",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Spiritomb",
+          "level": 55,
+          "item": "Restos",
+          "moves": [
+            "Fuego Fatuo",
+            "Rompecoraza",
+            "Paz Mental",
+            "Divide Dolor"
+          ]
+        },
+        {
+          "pokemon": "Umbreon",
+          "level": 55,
+          "item": "Roca Calor",
+          "moves": [
+            "Día Soleado",
             "Luz Lunar",
             "Juego Sucio",
-            "Tóxico",
-            "Deseo"
+            "Tóxico"
           ]
         },
         {
-          "pokemon": "Vileplume",
-          "level": 51,
-          "item": "Lodo Negro",
+          "pokemon": "Krookodile",
+          "level": 55,
+          "item": "Casco Dentado",
           "moves": [
-            "Fuerza Lunar",
-            "Giga Drenado",
-            "Bomba Lodo",
-            "Somnífero"
+            "Terremoto",
+            "Triturar",
+            "Roca Afilada",
+            "Trampa Rocas"
           ]
         },
         {
-          "pokemon": "Gengar",
-          "level": 52,
+          "pokemon": "Weavile",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Honchkrow",
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
-            "Bola Sombra",
-            "Onda Certera",
-            "Bomba Lodo",
-            "Brillo Mágico"
-          ]
-        },
-        {
-          "pokemon": "Murkrow",
-          "level": 52,
-          "item": "Mineral Evol",
-          "moves": [
-            "Pájaro Osado",
             "Golpe Bajo",
+            "Pájaro Osado",
             "Onda Ígnea",
-            "Respiro"
+            "Persecución"
           ]
         },
         {
           "pokemon": "Houndoom",
-          "level": 53,
-          "item": "Gafas Elegidas",
+          "level": 55,
+          "item": "Houndoominita",
           "moves": [
             "Llamarada",
             "Pulso Umbrío",
-            "Bomba Lodo",
-            "Maquinación"
+            "Rayo Solar",
+            "Bomba Lodo"
           ]
         }
-      ]
+      ],
+      "strategy": "Estrategia oscura y climática a Nivel 55: Umbreon invoca Día Soleado y se recupera con Deseo; Weavile ataca veloz con Chuzos y Danza Espada; Gengar con Banda Focus; Honchkrow; y Mega-Houndoom desatando Llamaradas colosales bajo el sol. <b>Consejo:</b> Tipos Lucha y Hada son letales contra casi todo su equipo. Apaga el sol con cambios de clima para reducir a la mitad la potencia ígnea de Houndoom."
     },
     {
       "name": "Lance - Campeón de la Liga",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Campeón de Johto",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Campeón de la Liga",
       "level_cap": 55,
       "team": [
         {
-          "pokemon": "Gyarados",
-          "level": 51,
-          "item": "Restos",
-          "moves": [
-            "Cascada",
-            "Colmillo Hielo",
-            "Onda Trueno",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 54,
-          "item": "Vidasfera",
-          "moves": [
-            "Carga Dragón",
-            "Trueno",
-            "Vuelo",
-            "Onda Trueno"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 54,
-          "item": "Baya Rimoya",
-          "moves": [
-            "Carga Dragón",
-            "Llamarada",
-            "Ventisca",
-            "Onda Trueno"
-          ]
-        },
-        {
           "pokemon": "Aerodactyl",
-          "level": 53,
+          "level": 55,
           "item": "Banda Focus",
           "moves": [
-            "Roca Afilada",
-            "Golpe Aéreo",
-            "Triturar",
-            "Colmillo Ígneo"
+            "Trampa Rocas",
+            "Mofa",
+            "Avalancha",
+            "Golpe Aéreo"
           ]
         },
         {
-          "pokemon": "Charizard",
-          "level": 52,
-          "item": "Gafas Elegidas",
+          "pokemon": "Gyarados",
+          "level": 55,
+          "item": "Baya Zidra",
           "moves": [
-            "Lanzallamas",
-            "Tajo Aéreo",
-            "Onda Certera",
-            "Pulso Dragón"
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Garchomp",
+          "level": 55,
+          "item": "Baya Alcho",
+          "moves": [
+            "Terremoto",
+            "Garra Dragón",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 55,
+          "item": "Periscopio",
+          "moves": [
+            "Foco Energía",
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo"
           ]
         },
         {
           "pokemon": "Dragonite",
           "level": 55,
-          "item": "Baya Zidra",
+          "item": "Restos",
           "moves": [
-            "Enfado",
-            "Velocidad Extrema",
+            "Danza Dragón",
+            "Garra Dragón",
+            "Puño Fuego",
+            "Vel. Extrema"
+          ]
+        },
+        {
+          "pokemon": "Charizard",
+          "level": 55,
+          "item": "Charizardita X",
+          "moves": [
+            "Envite Ígneo",
+            "Garra Dragón",
             "Terremoto",
-            "Puño Fuego"
+            "Danza Dragón"
           ]
         }
-      ]
+      ],
+      "strategy": "Ofensiva aérea y dracónica implacable a Nivel 55: Gyarados, Aerodactyl y Kingdra con Danza Dragón; Dragonite con Multiescala y Seguro Debilidad; y Mega-Charizard X con Envite Ígneo y Garra Dragón. <b>Consejo:</b> ¡Trampa Rocas en turno 1 quita 50% de PS a Charizard y rompe la Multiescala de Dragonite! Ataques de tipo Hada y Rayo Hielo (daño x4 a Dragonite) son definitivos para alzarte con el título de Campeón."
     },
     {
-      "name": "Teniente Surge (Lt. Surge)",
+      "name": "Lt. Surge",
       "city": "Ciudad Carmín (Gimnasio Kanto)",
       "badge": "Medalla Trueno",
-      "level_cap": 65,
+      "level_cap": 64,
       "team": [
         {
           "pokemon": "Galvantula",
@@ -369780,77 +370798,78 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Ampharos",
+          "pokemon": "Tapu Koko",
           "level": 65,
-          "item": "Ampharosita (Mega)",
+          "item": "Cinta Xperto",
           "moves": [
-            "Descarga",
-            "Pulso Dragón",
-            "Joya de Luz",
-            "Onda Certera"
+            "Ida y Vuelta",
+            "Rayo",
+            "BrilloMágico",
+            "Mofa"
           ]
         },
         {
-          "pokemon": "Magnezone",
+          "pokemon": "Eelektross",
+          "level": 65,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Gigadrenado",
+            "Lanzallamas",
+            "Rayo",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
           "level": 65,
           "item": "Restos",
           "moves": [
-            "Rayo",
-            "Foco Resplandor",
+            "Hidrobomba",
             "Voltiocambio",
-            "Onda Anómala"
+            "Fuego Fatuo",
+            "Divide Dolor"
           ]
         },
         {
-          "pokemon": "Raichu de Alola",
+          "pokemon": "Electivire",
           "level": 65,
-          "item": "Gafas Elegidas",
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Trueno",
+            "Terremoto",
+            "Puño Hielo",
+            "Tajo Cruzado"
+          ]
+        },
+        {
+          "pokemon": "Manectric",
+          "level": 65,
+          "item": "Manectricita",
           "moves": [
             "Rayo",
-            "Psíquico",
-            "Hierba Lazo",
-            "Voltiocambio"
+            "Voltiocambio",
+            "Sofoco",
+            "Poder Oculto"
           ]
         }
-      ]
+      ],
+      "strategy": "Pawmot, Bellibolt, Magnezone, Electivire, Raichu y Jolteon despliegan ofensiva eléctrica de alto voltaje. Bellibolt acumula carga al recibir daño y Pawmot presiona con A Bocajarro. <b>Consejo:</b> Tipos Tierra (Garchomp, Swampert, Gliscor) son inmunes a sus ataques eléctricos y responden con Terremoto letal."
     },
     {
       "name": "Sabrina",
       "city": "Ciudad Azafrán (Gimnasio Kanto)",
       "badge": "Medalla Pantano",
-      "level_cap": 65,
+      "level_cap": 68,
       "team": [
         {
-          "pokemon": "Alakazam",
-          "level": 65,
-          "item": "Alakazamita (Mega)",
-          "moves": [
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera",
-            "Paz Mental"
-          ]
-        },
-        {
           "pokemon": "Espeon",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Psicocarga",
-            "Brillo Mágico",
-            "Bola Sombra",
-            "Sol Matinal"
-          ]
-        },
-        {
-          "pokemon": "Mr. Mime",
           "level": 65,
           "item": "Refleluz",
           "moves": [
             "Reflejo",
-            "Pantalla de Luz",
-            "Psíquico",
-            "Brillo Mágico"
+            "Pantalla Luz",
+            "Psicocarga",
+            "BrilloMágico"
           ]
         },
         {
@@ -369863,150 +370882,166 @@ window.CHIRLGOLD_DATA = {
             "Terremoto",
             "Puño Bala"
           ]
+        },
+        {
+          "pokemon": "Hatterene",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "BrilloMágico",
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Slowking",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaldar",
+            "Psíquico",
+            "Relajo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 65,
+          "item": "Alakazamita",
+          "moves": [
+            "Psíquico",
+            "Onda Certera",
+            "Bola Sombra",
+            "BrilloMágico"
+          ]
         }
-      ]
+      ],
+      "strategy": "Espathra gana un nivel de velocidad cada turno con Aceleril; Alakazam e Iron Valiant pegan con estadísticas especiales descomunales. <b>Consejo:</b> Tipos Siniestro (Houndoom, Weavile, Ting-Lu) anulan los ataques psíquicos. Ataca el lado físico de Alakazam y Espathra debido a su baja defensa física."
     },
     {
       "name": "Erika",
       "city": "Ciudad Azulona (Gimnasio Kanto)",
       "badge": "Medalla Arcoíris",
-      "level_cap": 65,
+      "level_cap": 72,
       "team": [
         {
-          "pokemon": "Jumpluff",
+          "pokemon": "Whimsicott",
           "level": 65,
-          "item": "Banda Focus",
+          "item": "Roca Calor",
           "moves": [
-            "Somnífero",
+            "Día Soleado",
             "Drenadoras",
-            "Ida y Vuelta",
-            "Acróbata"
-          ]
-        },
-        {
-          "pokemon": "Tangrowth",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Latigazo",
-            "Terremoto",
-            "Desarme",
-            "Síntesis"
+            "Otra Vez",
+            "Fuerza Lunar"
           ]
         },
         {
           "pokemon": "Rillaboom",
           "level": 65,
-          "item": "Chaleco Asalto",
+          "item": "Vidasfera",
           "moves": [
-            "Fitoimpulso",
+            "Energibola",
             "Fuerza Bruta",
             "Desarme",
             "Ida y Vuelta"
           ]
         },
         {
+          "pokemon": "Bellossom",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Día Soleado",
+            "Rayo Solar",
+            "BrilloMágico",
+            "Danza Aleteo"
+          ]
+        },
+        {
+          "pokemon": "Virizion",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hoja Aguda",
+            "A Bocajarro",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Ferrothorn",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Giro Bola",
+            "Drenadoras",
+            "Latigazo"
+          ]
+        },
+        {
           "pokemon": "Venusaur",
           "level": 65,
-          "item": "Venusaurita (Mega)",
+          "item": "Venusaurita",
           "moves": [
-            "Giga Drenado",
+            "Gigadrenado",
             "Bomba Lodo",
             "Tierra Viva",
             "Síntesis"
           ]
         }
-      ]
-    },
-    {
-      "name": "Sachiko (Janine)",
-      "city": "Ciudad Fucsia (Gimnasio Kanto)",
-      "badge": "Medalla Alma",
-      "level_cap": 65,
-      "team": [
-        {
-          "pokemon": "Crobat",
-          "level": 65,
-          "item": "Banda Focus",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Superdiente"
-          ]
-        },
-        {
-          "pokemon": "Toxapex",
-          "level": 65,
-          "item": "Lodo Negro",
-          "moves": [
-            "Escaldar",
-            "Tóxico",
-            "Recuperación",
-            "Búnker"
-          ]
-        },
-        {
-          "pokemon": "Nidoqueen",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Tierra Viva",
-            "Bomba Lodo",
-            "Rayo Hielo",
-            "Lanzallamas"
-          ]
-        },
-        {
-          "pokemon": "Weezing de Galar",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Fuerza Lunar",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Despejar"
-          ]
-        }
-      ]
+      ],
+      "strategy": "Meowscarada asesta impactos críticos garantizados con Truco Floral; Ogerpon golpea implacable con Maza Ígnea o Garrote Rama. <b>Consejo:</b> Tipos Fuego, Volador e Hielo barren el gimnasio con relativa facilidad."
     },
     {
       "name": "Misty",
       "city": "Ciudad Celeste (Gimnasio Kanto)",
       "badge": "Medalla Cascada",
-      "level_cap": 65,
+      "level_cap": 76,
       "team": [
         {
-          "pokemon": "Kyogre",
+          "pokemon": "Pelipper",
           "level": 65,
-          "item": "Pañuelo Elegido",
+          "item": "Roca Lluvia",
           "moves": [
-            "Salpicar",
-            "Rayo Hielo",
-            "Trueno",
-            "Escaldar"
+            "Vendaval",
+            "Escaldar",
+            "Respiro",
+            "Ida y Vuelta"
           ]
         },
         {
-          "pokemon": "Seismitoad",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Hidroariete",
-            "Terremoto",
-            "Puño Drenaje",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Lapras",
+          "pokemon": "Politoed",
           "level": 65,
           "item": "Restos",
           "moves": [
-            "Liofilización",
-            "Surf",
+            "Escaldar",
             "Rayo Hielo",
-            "Canto"
+            "Hipnosis",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Manaphy",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Ráfaga",
+            "Trueno",
+            "Escaldar",
+            "Descanso"
           ]
         },
         {
@@ -370015,264 +371050,2060 @@ window.CHIRLGOLD_DATA = {
           "item": "Vidasfera",
           "moves": [
             "Hidrobomba",
-            "Psíquico",
-            "Rayo",
-            "Rayo Hielo"
+            "Trueno",
+            "Rayo Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hidrobomba",
+            "Gigadrenado",
+            "Rayo Hielo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Swampert",
+          "level": 65,
+          "item": "Swampertita",
+          "moves": [
+            "Cascada",
+            "Terremoto",
+            "Puño Hielo",
+            "Fuerza Bruta"
           ]
         }
-      ]
+      ],
+      "strategy": "Quaquaval incrementa su velocidad con Danza Acuática; Palafin en Forma Heroica tiene estadísticas de deidad legendaria; Milotic y Lapras absorben daño. <b>Consejo:</b> Planta y Eléctrico son fundamentales. Desestabiliza a Palafin con Liofilización o ataques eléctricos masivos antes de que use Puño Jet."
+    },
+    {
+      "name": "Sachiko (Janine)",
+      "city": "Ciudad Fucsia (Gimnasio Kanto)",
+      "badge": "Medalla Alma",
+      "level_cap": 80,
+      "team": [
+        {
+          "pokemon": "Glimmora",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Púas Tóxicas",
+            "Bomba Lodo",
+            "Joya de Luz"
+          ]
+        },
+        {
+          "pokemon": "Salazzle",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Tóxico",
+            "Lanzallamas",
+            "Bomba Lodo",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 65,
+          "item": "Lodo Negro",
+          "moves": [
+            "Escaldar",
+            "Recuperación",
+            "Niebla",
+            "Protección"
+          ]
+        },
+        {
+          "pokemon": "Naganadel",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pulso Dragón",
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Mofa",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 65,
+          "item": "Gengarita",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Mismodestino"
+          ]
+        }
+      ],
+      "strategy": "Glimmora coloca Púas Tóxicas si la golpeas físicamente; Pecharunt envenena y confunde con Cadena Virulenta. <b>Consejo:</b> Elimina a Glimmora con ataques especiales a distancia o Terremoto. Lleva Bayas Meloc / Ziuela o tipos Acero para ignorar las cadenas venenosas."
     },
     {
       "name": "Brock",
       "city": "Ciudad Plateada (Gimnasio Kanto)",
       "badge": "Medalla Roca",
-      "level_cap": 65,
+      "level_cap": 84,
       "team": [
         {
-          "pokemon": "Aerodactyl",
+          "pokemon": "Gigalith",
           "level": 65,
-          "item": "Aerodactylita (Mega)",
+          "item": "Roca Suave",
           "moves": [
+            "Trampa Rocas",
+            "Púas",
             "Roca Afilada",
-            "Golpe Aéreo",
-            "Triturar",
             "Terremoto"
           ]
         },
         {
-          "pokemon": "Tyranitar",
+          "pokemon": "Ting-Lu",
           "level": 65,
-          "item": "Chaleco Asalto",
+          "item": "Restos",
           "moves": [
-            "Roca Afilada",
-            "Triturar",
-            "Persecución",
-            "Puño Fuego"
+            "Púas",
+            "Terremoto",
+            "Remolino",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Cradily",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Gigadrenado",
+            "Recuperación",
+            "Tóxico",
+            "Poder Pasado"
           ]
         },
         {
           "pokemon": "Rhyperior",
           "level": 65,
-          "item": "Restos",
+          "item": "Chaleco Asalto",
           "moves": [
             "Terremoto",
             "Roca Afilada",
-            "Megacuerno",
-            "Puño Hielo"
+            "Puño Fuego",
+            "Megacuerno"
           ]
         },
         {
-          "pokemon": "Golem de Alola",
+          "pokemon": "Steelix",
           "level": 65,
-          "item": "Banda Focus",
+          "item": "Baya Zidra",
           "moves": [
-            "Doble Filo",
+            "Giro Bola",
             "Terremoto",
+            "Rugido",
+            "Def. Férrea"
+          ]
+        },
+        {
+          "pokemon": "Tyranitar",
+          "level": 65,
+          "item": "Tyranitarita",
+          "moves": [
             "Roca Afilada",
-            "Voltio Cruel"
+            "Triturar",
+            "Terremoto",
+            "Danza Dragón"
           ]
         }
-      ]
+      ],
+      "strategy": "Rhyperior, Golem, Aerodactyl, Kabutops y Omastar forman un muro rocoso de gran contundencia física. <b>Consejo:</b> Debilidad masiva a los tipos Agua y Planta (x4 en Rhyperior, Golem, Kabutops y Omastar). Ataques como Surf y Gigadrenado limpian el campo casi sin despeinarse."
     },
     {
       "name": "Blaine",
       "city": "Islas Espuma (Gimnasio Kanto)",
       "badge": "Medalla Volcán",
-      "level_cap": 80,
+      "level_cap": 88,
       "team": [
         {
-          "pokemon": "Charizard",
-          "level": 80,
-          "item": "Charizardita Y (Mega)",
-          "moves": [
-            "Lanzallamas",
-            "Rayo Solar",
-            "Tajo Aéreo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Magmortar",
-          "level": 80,
-          "item": "Gafas Elegidas",
-          "moves": [
-            "Escaldar",
-            "Llamarada",
-            "Rayo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Infernape",
-          "level": 80,
-          "item": "Vidasfera",
-          "moves": [
-            "A Bocajarro",
-            "Envite Ígneo",
-            "Hierba Lazo",
-            "Ultrapuño"
-          ]
-        },
-        {
           "pokemon": "Ninetales",
-          "level": 80,
-          "item": "Banda Focus",
+          "level": 65,
+          "item": "Roca Calor",
           "moves": [
             "Llamarada",
             "Rayo Solar",
             "Fuego Fatuo",
             "Hipnosis"
           ]
+        },
+        {
+          "pokemon": "Volcanion",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Chorro Vapor",
+            "Tierra Viva",
+            "Lanzallamas",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Flamariete",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Envite Ígneo",
+            "Garra Dragón",
+            "Terremoto",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Danza Aleteo",
+            "Onda Ígnea",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Sofoco",
+            "Rayo",
+            "Voltiocambio",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Charizard",
+          "level": 65,
+          "item": "Charizardita Y",
+          "moves": [
+            "Llamarada",
+            "Rayo Solar",
+            "Tajo Aéreo",
+            "Onda Certera"
+          ]
         }
-      ]
+      ],
+      "strategy": "Chi-Yu reduce la defensa especial de tus Pokémon un 25% con Cuentas del Debacle y lanza Llamaradas nucleares; Ceruledge se cura con Espada Lamento; Ninetales invoca Sol. <b>Consejo:</b> Cambia el clima inmediatamente para apagar el Sol. Tipos Tierra, Roca y Agua resisten y devuelven golpes fulminantes."
     },
     {
       "name": "Azul (Blue)",
       "city": "Ciudad Verde (Gimnasio Kanto)",
       "badge": "Medalla Tierra",
-      "level_cap": 85,
+      "level_cap": 90,
       "team": [
         {
-          "pokemon": "Pidgeot",
-          "level": 85,
-          "item": "Pidgeotita (Mega)",
-          "moves": [
-            "Vendaval",
-            "Onda Ígnea",
-            "Ida y Vuelta",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 85,
+          "pokemon": "Rhyperior",
+          "level": 90,
           "item": "Banda Focus",
           "moves": [
-            "Psíquico",
-            "Onda Certera",
-            "Bola Sombra",
-            "Brillo Mágico"
+            "Trampa Rocas",
+            "Terremoto",
+            "Roca Afilada",
+            "Puño Fuego"
           ]
         },
         {
           "pokemon": "Machamp",
-          "level": 85,
+          "level": 90,
           "item": "Chaleco Asalto",
           "moves": [
-            "Puño Dinámico",
+            "Puñodinámico",
             "Roca Afilada",
             "Desarme",
             "Puño Bala"
           ]
         },
         {
-          "pokemon": "Gyarados",
-          "level": 85,
-          "item": "Vidasfera",
-          "moves": [
-            "Cascada",
-            "Terremoto",
-            "Danza Dragón",
-            "Colmillo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Exeggutor",
-          "level": 85,
-          "item": "Restos",
-          "moves": [
-            "Lluevehojas",
-            "Psíquico",
-            "Espacio Raro",
-            "Bomba Huevo"
-          ]
-        },
-        {
           "pokemon": "Arcanine",
-          "level": 85,
-          "item": "Cinta Elegida",
+          "level": 90,
+          "item": "Cin. Elegida",
           "moves": [
             "Envite Ígneo",
-            "Velocidad Extrema",
+            "Vel. Extrema",
             "A Bocajarro",
             "Voltio Cruel"
           ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 90,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Zeraora",
+          "level": 90,
+          "item": "Vidasfera",
+          "moves": [
+            "Puños Plasma",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Pidgeot",
+          "level": 90,
+          "item": "Pidgeotita",
+          "moves": [
+            "Vendaval",
+            "Onda Ígnea",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
         }
-      ]
+      ],
+      "strategy": "El combate cumbre de Kanto: Kingambit como revancha letal, Annihilape con Puño Furia acumulativo, Mega-Pidgeot con Vendaval de 100% de acierto gracias a Indefenso. <b>Consejo:</b> Lleva Trampa Rocas para castigar a Pidgeot y romper bandas. Un núcleo equilibrado con Hada, Lucha y Eléctrico es indispensable."
     },
     {
-      "name": "Rojo (Red) - Batalla Cumbre",
+      "name": "Rojo (Red) - Campeón Máximo",
       "city": "Cima del Monte Plateado",
-      "badge": "Leyenda Suprema",
+      "badge": "Batalla Cumbre",
       "level_cap": 100,
       "team": [
         {
           "pokemon": "Pikachu",
           "level": 100,
-          "item": "Bola Luminosa",
+          "item": "Ninguno",
           "moves": [
-            "Placaje Eléctrico",
+            "Placaje",
             "Surf",
-            "Rayo",
-            "Hierba Lazo"
+            "Hierba Lazo",
+            "At. Rápido"
+          ]
+        },
+        {
+          "pokemon": "Articuno",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Ventisca",
+            "Liofilizac.",
+            "Respiro",
+            "Manto Espejo"
+          ]
+        },
+        {
+          "pokemon": "Zapdos",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Carga",
+            "Onda Ígnea",
+            "Respiro",
+            "Voltiocambio"
+          ]
+        },
+        {
+          "pokemon": "Moltres",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Llamarada",
+            "Tajo Aéreo",
+            "Rayo Solar",
+            "Poder Oculto"
+          ]
+        },
+        {
+          "pokemon": "Mew",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Transformación",
+            "Psíquico",
+            "Esfera Aural",
+            "Maquinación"
           ]
         },
         {
           "pokemon": "Mewtwo",
           "level": 100,
-          "item": "Mewtwonita Y (Mega)",
+          "item": "Mewtwoita X",
           "moves": [
-            "Onda Mental",
-            "Rayo Hielo",
-            "Llamarada",
-            "Esfera Aural"
+            "A Bocajarro",
+            "Cabezazo Zen",
+            "Puño Hielo",
+            "Terremoto"
+          ]
+        }
+      ],
+      "strategy": "La batalla definitiva de la cima bajo granizo: Pikachu con Bola Luminosa (+600 de Atq/At.Esp), Mega-Charizard Y con Sequía, Mega-Venusaur con Sebo, Snorlax con Tambor y Restos. <b>Consejo:</b> Elimina a Pikachu en turno 1 con prioridad (Terremoto o velocidad superior). Trampa Rocas quita el 50% de PS a Charizard al entrar. Usa Lucha física contundente contra Snorlax antes de que se infle con Tambor."
+    },
+    {
+      "name": "Pegaso - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Tornadus",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Viento Afín",
+            "Mofa",
+            "Vendaval",
+            "Onda Ígnea"
           ]
         },
         {
-          "pokemon": "Snorlax",
+          "pokemon": "Gliscor",
+          "level": 100,
+          "item": "Toxisfera",
+          "moves": [
+            "Terremoto",
+            "Desarme",
+            "Respiro",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Corviknite",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Pájaro Osado",
+            "Plancha Corp",
+            "Respiro",
+            "Despejar"
+          ]
+        },
+        {
+          "pokemon": "Staraptor",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Pájaro Osado",
+            "Doble Filo",
+            "A Bocajarro",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Togekiss",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Retribución",
+            "Tajo Aéreo",
+            "BrilloMágico",
+            "Lanzallamas",
+            "Onda Trueno"
+          ]
+        },
+        {
+          "pokemon": "Salamence",
+          "level": 100,
+          "item": "Salamencita",
+          "moves": [
+            "Doble Filo",
             "Terremoto",
-            "Maldición",
-            "Descanso"
+            "Garra Dragón",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": "Abre con presión de Hoothoot con Rayo Confuso e Hipnosis para forzar cambios y desgaste. Doduo y Noctowl golpean con alta velocidad y cobertura voladora física/especial. <b>Consejo:</b> Usa a Mareep (capturable en Ruta 32) o Geodude (Cueva Oscura) para resistir sus ataques al 50% y eliminarlos de un impacto eléctrico o roca. Lleva Bayas Atania para prevenir el sueño de Noctowl."
+    },
+    {
+      "name": "Antón - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Galvantula",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
+            "Voltiocambio"
+          ]
+        },
+        {
+          "pokemon": "Genesect",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Ida y Vuelta",
+            "Lanzallamas",
+            "Rayo Hielo",
+            "Cabezahierro"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Danza Aleteo",
+            "Llamarada",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Heracross",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "A Bocajarro",
+            "Megacuerno",
+            "Imagen",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Golisopod",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaramuza",
+            "Cascada",
+            "Golpe Bajo",
+            "Chupavidas"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 100,
+          "item": "Scizorita",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Respiro"
+          ]
+        }
+      ],
+      "strategy": "Ninjask con Impulso y Vidasfera inicia acelerando el combate con Danza Espada e Ida y Vuelta; Scyther con Garrafilada mete presión crítica con Demolición y Ataque Ala; Lokix remata con Escaramuza o Golpe Bajo. <b>Consejo:</b> Los ataques de Fuego (Quilava, Houndour) y Roca (Geodude con Trampa Rocas o Lanzarrocas) son devastadores. Scyther tiene debilidad x4 a Roca; forzarlo a golpear contra un tipo Roca desgastará su salud."
+    },
+    {
+      "name": "Blanca - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Smeargle",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Espora",
+            "Red Viscosa",
+            "Trampa Rocas",
+            "Barrera"
+          ]
+        },
+        {
+          "pokemon": "Blissey",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Mov. Sísmico",
+            "Amortiguador",
+            "Aromaterapia",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Meloetta",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Vozarrón",
+            "Psíquico",
+            "BrilloMágico",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Porygon-Z",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Triataque",
+            "Rayo",
+            "Rayo Hielo",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Miltank",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Batido",
+            "Golpe Cuerpo",
+            "Campana Cura",
+            "Terremoto"
+          ]
+        },
+        {
+          "pokemon": "Kangaskhan",
+          "level": 100,
+          "item": "Kangaskhanita",
+          "moves": [
+            "Sorpresa",
+            "Puño Increm.",
+            "Retroceso",
+            "Golpe Bajo"
+          ]
+        }
+      ],
+      "strategy": "Bewear con Peluche reduce el daño físico a la mitad; Blissey absorbe cualquier ataque especial; Miltank ataca con Desenrollar y se cura con Batido; Diggersby cubre la debilidad a Roca/Lucha con tipo Tierra. <b>Consejo:</b> ¡No uses ataques físicos contra Bewear salvo que sean de Fuego! Contra Miltank, un tipo Fantasma (Gastly) anula Desenrollar y Pisotón. Ataques de Lucha Especial (Aura Esfera) y quemaduras de Fuego Fatuo arruinan la recuperación de Miltank y Blissey."
+    },
+    {
+      "name": "Morti - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Froslass",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Púas",
+            "Mismodestino",
+            "Ventisca",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Fuego Fatuo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Marshadow",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Robasombra",
+            "A Bocajarro",
+            "Sombra Vil",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Chandelure",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Llamarada",
+            "Bola Sombra",
+            "Energibola",
+            "Truco"
+          ]
+        },
+        {
+          "pokemon": "Aegislash",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Escudo Real",
+            "Bola Sombra",
+            "Foco Respl.",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Sableye",
+          "level": 100,
+          "item": "Sableynita",
+          "moves": [
+            "Fuego Fatuo",
+            "Recuperación",
+            "Desarme",
+            "Juego Sucio"
+          ]
+        }
+      ],
+      "strategy": "Gengar veloz con Hipnosis y Bola Sombra; Annihilape castiga cualquier intento de desgaste con Puño Furia acumulativo; Houndstone gana poder masivo con Último Respeto a medida que caen sus compañeros. <b>Consejo:</b> Tipos Siniestro (Houndoom, Umbreon) y Normales son inmunes o resistentes a Bola Sombra. ¡Jamás uses ataques débiles contra Annihilape para no cargar su Puño Furia! Noquéalo de un solo golpe con Psíquico, Volador o Hada."
+    },
+    {
+      "name": "Aníbal - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Hitmontop",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Sorpresa",
+            "Giro Rápido",
+            "A Bocajarro",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Machamp",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Puñodinámico",
+            "Roca Afilada",
+            "Puño Bala",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Conkeldurr",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Puño Drenaje",
+            "Ultrapuño",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Urshifu",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Golpe Oscuro",
+            "A Bocajarro",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Poliwrath",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Cascada",
+            "Puñodinámico",
+            "Puño Hielo",
+            "Tambor"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 100,
+          "item": "Lucarita",
+          "moves": [
+            "A Bocajarro",
+            "Puño Bala",
+            "Danza Espada",
+            "Triturar"
+          ]
+        }
+      ],
+      "strategy": "Hawlucha golpea con velocidad y Plancha Voladora; Urshifu-Fluido asesta 3 golpes críticos garantizados anulando Protección; Poliwrath presiona con Cascada y Puño Dinámico. <b>Consejo:</b> Tipos Volador, Hada y Psíquico (Espeon, Togekiss) dominan la mesa, pero cuídate de los Puños Elementales de Hitmonchan. Intimidadores (Gyarados, Arcanine) neutralizan su daño físico."
+    },
+    {
+      "name": "Yasmina - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Skarmory",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Pájaro Osado",
+            "Remolino"
+          ]
+        },
+        {
+          "pokemon": "Heatran",
+          "level": 100,
+          "item": "Globo Helio",
+          "moves": [
+            "Llamarada",
+            "Tierra Viva",
+            "Foco Respl.",
+            "Poder Oculto"
+          ]
+        },
+        {
+          "pokemon": "Empoleon",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Escaldar",
+            "Foco Respl.",
+            "Rayo Hielo",
+            "Acua Jet"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 100,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Steelix",
+          "level": 100,
+          "item": "Steelixita",
+          "moves": [
+            "Giro Bola",
+            "Terremoto",
+            "Testarazo",
+            "Colm. Ígneo"
+          ]
+        }
+      ],
+      "strategy": "Muro blindado con Trampa Rocas de Skarmory, Martillo Colosal de Tinkaton, Levitación en Bronzong y Kingambit como venganza letal con General Supremo. <b>Consejo:</b> Ten respuestas de Fuego, Tierra y Lucha. Skarmory y Tinkaton caen ante Fuego; Bronzong requiere Fuego o Siniestro por su Levitación; Steelix y Magneton son vulnerables a Terremoto. Prioriza eliminar a Kingambit rápido."
+    },
+    {
+      "name": "Fredo - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Ninetales",
+          "level": 100,
+          "item": "Roca Helada",
+          "moves": [
+            "Velo Aurora",
+            "Ventisca",
+            "Liofilizac.",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Chien-Pao",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Chuzos",
+            "Triturar",
+            "Canto Helado",
+            "Espada Santa"
+          ]
+        },
+        {
+          "pokemon": "Cloyster",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Rompecoraza",
+            "Carámbano",
+            "Pedrada",
+            "Concha Filo"
+          ]
+        },
+        {
+          "pokemon": "Mamoswine",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Terremoto",
+            "Chuzos",
+            "Canto Helado",
+            "Fuerza Bruta"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Patada Salto"
+          ]
+        },
+        {
+          "pokemon": "Glalie",
+          "level": 100,
+          "item": "Glalita",
+          "moves": [
+            "Doble Filo",
+            "Terremoto",
+            "Canto Helado",
+            "Explosión"
+          ]
+        }
+      ],
+      "strategy": "Iron Bundle desata velocidad punta con Liofilización que castiga a los tipos Agua; Baxcalibur absorbe fuego con Termoconversión y desata Asalto Espadachín; Froslass planta Púas y Mismo Destino. <b>Consejo:</b> Acero, Lucha y Roca son tus mejores opciones. ¡No ataques con Fuego a Baxcalibur para no regalarle ataque! Un atacante con Puño Bala o Ultrapuño frena a Iron Bundle y Froslass antes de que ataquen."
+    },
+    {
+      "name": "Débora - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Garchomp",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Terremoto",
+            "Cola Dragón",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Latias",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Cometa Draco",
+            "Paz Mental",
+            "Respiro",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Dragapult",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Dracoflechas",
+            "Bola Sombra",
+            "Lanzallamas",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 100,
+          "item": "Baya Ziuela",
+          "moves": [
+            "Danza Dragón",
+            "Garra Dragón",
+            "Puño Fuego",
+            "Vel. Extrema"
+          ]
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 100,
+          "item": "Periscopio",
+          "moves": [
+            "Foco Energía",
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Altaria",
+          "level": 100,
+          "item": "Altarianita",
+          "moves": [
+            "Doble Filo",
+            "Danza Dragón",
+            "Terremoto",
+            "Respiro"
+          ]
+        }
+      ],
+      "strategy": "Dragapult supersónico abre con ofensiva mixta; Archaludon resiste con Defensa Férrea y Electrocañón; Kingdra danza con Danza Dragón; Dragonite con Multiescala es un tanque letal. <b>Consejo:</b> El tipo Hada (Togekiss, Sylveon, Gardevoir) es el MVP absoluto al ser inmune al dragón. Contra Gyarados usa un ataque Eléctrico (x4). Rompe la Multiescala de Dragonite con trampas antes de asestar Rayo Hielo."
+    },
+    {
+      "name": "Lt. Surge - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Galvantula",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
+            "Voltiocambio"
+          ]
+        },
+        {
+          "pokemon": "Tapu Koko",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Ida y Vuelta",
+            "Rayo",
+            "BrilloMágico",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Eelektross",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Gigadrenado",
+            "Lanzallamas",
+            "Rayo",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Hidrobomba",
+            "Voltiocambio",
+            "Fuego Fatuo",
+            "Divide Dolor"
+          ]
+        },
+        {
+          "pokemon": "Electivire",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Trueno",
+            "Terremoto",
+            "Puño Hielo",
+            "Tajo Cruzado"
+          ]
+        },
+        {
+          "pokemon": "Manectric",
+          "level": 100,
+          "item": "Manectricita",
+          "moves": [
+            "Rayo",
+            "Voltiocambio",
+            "Sofoco",
+            "Poder Oculto"
+          ]
+        }
+      ],
+      "strategy": "Pawmot, Bellibolt, Magnezone, Electivire, Raichu y Jolteon despliegan ofensiva eléctrica de alto voltaje. Bellibolt acumula carga al recibir daño y Pawmot presiona con A Bocajarro. <b>Consejo:</b> Tipos Tierra (Garchomp, Swampert, Gliscor) son inmunes a sus ataques eléctricos y responden con Terremoto letal."
+    },
+    {
+      "name": "Sabrina - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Indeedee",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Fuerza",
+            "BrilloMágico",
+            "Pulso Umbrío",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Cresselia",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Paz Mental",
+            "Luz Lunar",
+            "Psíquico",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Necrozma",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Meteoimpacto",
+            "Terremoto",
+            "Danza Espada",
+            "Corte"
+          ]
+        },
+        {
+          "pokemon": "Slowking",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaldar",
+            "Psíquico",
+            "Relajo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 100,
+          "item": "Alakazamita",
+          "moves": [
+            "Psíquico",
+            "Onda Certera",
+            "Bola Sombra",
+            "BrilloMágico"
+          ]
+        }
+      ],
+      "strategy": "Espathra gana un nivel de velocidad cada turno con Aceleril; Alakazam e Iron Valiant pegan con estadísticas especiales descomunales. <b>Consejo:</b> Tipos Siniestro (Houndoom, Weavile, Ting-Lu) anulan los ataques psíquicos. Ataca el lado físico de Alakazam y Espathra debido a su baja defensa física."
+    },
+    {
+      "name": "Erika - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Whimsicott",
+          "level": 100,
+          "item": "Roca Calor",
+          "moves": [
+            "Día Soleado",
+            "Drenadoras",
+            "Otra Vez",
+            "Fuerza Lunar"
+          ]
+        },
+        {
+          "pokemon": "Rillaboom",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Energibola",
+            "Fuerza Bruta",
+            "Desarme",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Wo-Chien",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Drenadoras",
+            "Desarme",
+            "Protección",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Virizion",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hoja Aguda",
+            "A Bocajarro",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Ferrothorn",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Giro Bola",
+            "Drenadoras",
+            "Latigazo"
           ]
         },
         {
           "pokemon": "Venusaur",
           "level": 100,
+          "item": "Venusaurita",
+          "moves": [
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Tierra Viva",
+            "Síntesis"
+          ]
+        }
+      ],
+      "strategy": "Meowscarada asesta impactos críticos garantizados con Truco Floral; Ogerpon golpea implacable con Maza Ígnea o Garrote Rama. <b>Consejo:</b> Tipos Fuego, Volador e Hielo barren el gimnasio con relativa facilidad."
+    },
+    {
+      "name": "Misty - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Pelipper",
+          "level": 100,
+          "item": "Roca Lluvia",
+          "moves": [
+            "Vendaval",
+            "Escaldar",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Kyogre",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Salpicar",
+            "Trueno",
+            "Rayo Hielo",
+            "Hidrobomba"
+          ]
+        },
+        {
+          "pokemon": "Manaphy",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Ráfaga",
+            "Trueno",
+            "Escaldar",
+            "Descanso"
+          ]
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hidrobomba",
+            "Gigadrenado",
+            "Rayo Hielo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Starmie",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidrobomba",
+            "Trueno",
+            "Rayo Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Swampert",
+          "level": 100,
+          "item": "Swampertita",
+          "moves": [
+            "Cascada",
+            "Terremoto",
+            "Puño Hielo",
+            "Fuerza Bruta"
+          ]
+        }
+      ],
+      "strategy": "Quaquaval incrementa su velocidad con Danza Acuática; Palafin en Forma Heroica tiene estadísticas de deidad legendaria; Milotic y Lapras absorben daño. <b>Consejo:</b> Planta y Eléctrico son fundamentales. Desestabiliza a Palafin con Liofilización o ataques eléctricos masivos antes de que use Puño Jet."
+    },
+    {
+      "name": "Sachiko - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Glimmora",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Púas Tóxicas",
+            "Bomba Lodo",
+            "Joya de Luz"
+          ]
+        },
+        {
+          "pokemon": "Pecharunt",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "CadenaVirul.",
+            "Recuperación",
+            "Bola Sombra",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Salazzle",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Tóxico",
+            "Lanzallamas",
+            "Bomba Lodo",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 100,
           "item": "Lodo Negro",
           "moves": [
-            "Giga Drenado",
+            "Escaldar",
+            "Recuperación",
+            "Niebla",
+            "Protección"
+          ]
+        },
+        {
+          "pokemon": "Naganadel",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Pulso Dragón",
             "Bomba Lodo",
-            "Somnífero",
-            "Tierra Viva"
+            "Lanzallamas",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 100,
+          "item": "Gengarita",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Mismodestino"
+          ]
+        }
+      ],
+      "strategy": "Glimmora coloca Púas Tóxicas si la golpeas físicamente; Pecharunt envenena y confunde con Cadena Virulenta. <b>Consejo:</b> Elimina a Glimmora con ataques especiales a distancia o Terremoto. Lleva Bayas Meloc / Ziuela o tipos Acero para ignorar las cadenas venenosas."
+    },
+    {
+      "name": "Brock - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Gigalith",
+          "level": 100,
+          "item": "Roca Suave",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Roca Afilada",
+            "Terremoto"
+          ]
+        },
+        {
+          "pokemon": "Ting-Lu",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Púas",
+            "Terremoto",
+            "Remolino",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Cradily",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Gigadrenado",
+            "Recuperación",
+            "Tóxico",
+            "Poder Pasado"
+          ]
+        },
+        {
+          "pokemon": "Rhyperior",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Terremoto",
+            "Roca Afilada",
+            "Puño Fuego",
+            "Megacuerno"
+          ]
+        },
+        {
+          "pokemon": "Steelix",
+          "level": 100,
+          "item": "Baya Zidra",
+          "moves": [
+            "Giro Bola",
+            "Terremoto",
+            "Rugido",
+            "Def. Férrea"
+          ]
+        },
+        {
+          "pokemon": "Diancie",
+          "level": 100,
+          "item": "Diancita",
+          "moves": [
+            "Torm.Diaman.",
+            "Fuerza Lunar",
+            "Tierra Viva",
+            "Paz Mental"
+          ]
+        }
+      ],
+      "strategy": "Rhyperior, Golem, Aerodactyl, Kabutops y Omastar forman un muro rocoso de gran contundencia física. <b>Consejo:</b> Debilidad masiva a los tipos Agua y Planta (x4 en Rhyperior, Golem, Kabutops y Omastar). Ataques como Surf y Gigadrenado limpian el campo casi sin despeinarse."
+    },
+    {
+      "name": "Blaine - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Ninetales",
+          "level": 100,
+          "item": "Roca Calor",
+          "moves": [
+            "Llamarada",
+            "Rayo Solar",
+            "Fuego Fatuo",
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Volcanion",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Chorro Vapor",
+            "Tierra Viva",
+            "Lanzallamas",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Flamariete",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Envite Ígneo",
+            "Garra Dragón",
+            "Terremoto",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Danza Aleteo",
+            "Onda Ígnea",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Sofoco",
+            "Rayo",
+            "Voltiocambio",
+            "Fuego Fatuo"
           ]
         },
         {
           "pokemon": "Charizard",
           "level": 100,
-          "item": "Charizardita X (Mega)",
+          "item": "Charizardita Y",
           "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
-            "Danza Dragón",
-            "Terremoto"
+            "Llamarada",
+            "Rayo Solar",
+            "Tajo Aéreo",
+            "Onda Certera"
+          ]
+        }
+      ],
+      "strategy": "Chi-Yu reduce la defensa especial de tus Pokémon un 25% con Cuentas del Debacle y lanza Llamaradas nucleares; Ceruledge se cura con Espada Lamento; Ninetales invoca Sol. <b>Consejo:</b> Cambia el clima inmediatamente para apagar el Sol. Tipos Tierra, Roca y Agua resisten y devuelven golpes fulminantes."
+    },
+    {
+      "name": "Azul - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Rhyperior",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Terremoto",
+            "Roca Afilada",
+            "Puño Fuego"
           ]
         },
         {
-          "pokemon": "Blastoise",
+          "pokemon": "Arcanine",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Envite Ígneo",
+            "Vel. Extrema",
+            "A Bocajarro",
+            "Voltio Cruel"
+          ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 100,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Xerneas",
+          "level": 100,
+          "item": "Hierba Única",
+          "moves": [
+            "Geocontrol",
+            "Fuerza Lunar",
+            "Onda Certera",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Zeraora",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Puños Plasma",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Pidgeot",
+          "level": 100,
+          "item": "Pidgeotita",
+          "moves": [
+            "Vendaval",
+            "Onda Ígnea",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
+        }
+      ],
+      "strategy": "El combate cumbre de Kanto: Kingambit como revancha letal, Annihilape con Puño Furia acumulativo, Mega-Pidgeot con Vendaval de 100% de acierto gracias a Indefenso. <b>Consejo:</b> Lleva Trampa Rocas para castigar a Pidgeot y romper bandas. Un núcleo equilibrado con Hada, Lucha y Eléctrico es indispensable."
+    },
+    {
+      "name": "Rival Silver (Revancha Máxima)",
+      "city": "Meseta Añil",
+      "badge": "Rival Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Darkrai",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Brecha Negra",
+            "Pulso Umbrío",
+            "Come Sueños",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Shaymin",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Fogonazo",
+            "Tierra Viva",
+            "BrilloMágico",
+            "Síntesis"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 100,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Triataque"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
           "level": 100,
           "item": "Restos",
           "moves": [
             "Escaldar",
-            "Foco Resplandor",
+            "Triturar",
             "Rayo Hielo",
-            "Giro Rápido"
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Absol",
+          "level": 100,
+          "item": "Absolita",
+          "moves": [
+            "Golpe Bajo",
+            "Danza Espada",
+            "Carantoña",
+            "A Bocajarro"
           ]
         }
-      ]
+      ],
+      "strategy": "Equipos sumamente agresivos y balanceados basados en Weavile, Gengar, Alakazam, Crobat, Magnezone e Inicial. En Nivel 100 incluye Mega-Gengar con cobertura total. <b>Consejo:</b> Establece Trampa Rocas temprano para anular Bandas Focus. Weavile es frágil ante prioridad de Acero (Puño Bala) o Lucha (Ultrapuño). Un tipo Acero sólido absorbe casi todos sus embates."
+    },
+    {
+      "name": "Mento - Liga R2 Monotype Psíquico Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Psíquico Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Deoxys",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Mofa",
+            "Psicocarga"
+          ]
+        },
+        {
+          "pokemon": "Tapu Lele",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Psicocarga",
+            "Fuerza Lunar",
+            "Onda Certera",
+            "Energibola"
+          ]
+        },
+        {
+          "pokemon": "Lunala",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Paz Mental",
+            "Rayo Umbrío",
+            "Onda Certera",
+            "Respiro"
+          ]
+        },
+        {
+          "pokemon": "Necrozma",
+          "level": 100,
+          "item": "Seguro Debilidad",
+          "moves": [
+            "Danza Dragón",
+            "Meteoimpacto",
+            "Terremoto",
+            "Roca Afilada"
+          ]
+        },
+        {
+          "pokemon": "Mewtwo",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Onda Mental",
+            "Esfera Aural",
+            "Llamarada",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Lugia",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Respiro",
+            "Paz Mental",
+            "Aerochorro",
+            "Tóxico"
+          ]
+        }
+      ],
+      "strategy": "Campo Psíquico de Tapu Lele bloquea toda la prioridad (+30% daño psíquico); Mega-Mewtwo Y destruye con Onda Mental; Deoxys-A con Banda Focus pega primero; Lunala y Lugia forman un muro impenetrable. <b>Consejo:</b> ¡Prohibido usar prioridad (Golpe Bajo, Puño Bala) bajo Campo Psíquico! Lleva tanques de tipo Siniestro pesados (Ting-Lu, Kingambit) y rompe la Multiescala de Lugia y Banda de Deoxys con Trampa Rocas."
+    },
+    {
+      "name": "Koga - Liga R2 Monotype Veneno Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Veneno Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Glimmora",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Bomba Lodo",
+            "Tierra Viva",
+            "BrilloMágico"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Protección",
+            "Recuperación",
+            "Escaldar",
+            "Niebla"
+          ]
+        },
+        {
+          "pokemon": "Pecharunt",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "CadenaVirul.",
+            "Bola Sombra",
+            "Recuperación",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Naganadel",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Maquinación",
+            "Cometa Draco",
+            "Bomba Lodo",
+            "Lanzallamas"
+          ]
+        },
+        {
+          "pokemon": "Eternatus",
+          "level": 100,
+          "item": "Lodo Negro",
+          "moves": [
+            "CañónDinamax",
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 100,
+          "item": "Gengarita",
+          "moves": [
+            "Bomba Lodo",
+            "Bola Sombra",
+            "Onda Certera",
+            "Mismodestino"
+          ]
+        }
+      ],
+      "strategy": "Capa Tóxica de Glimmora, Cadena Virulenta de Pecharunt, Toxapex ultradefensivo con Regeneración, Cañón Dinamax de Eternatus y Sombra Trampa de Mega-Gengar que bloquea tus cambios. <b>Consejo:</b> Tipos Tierra con Inmunidad o Sustituto. No dejes que Naganadel encadene KOs para evitar que aumente su velocidad. Usa Mofa contra Toxapex para anular su Recuperación."
+    },
+    {
+      "name": "Bruno - Liga R2 Monotype Lucha Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Lucha Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Marshadow",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Robasombra",
+            "A Bocajarro",
+            "Sombra Vil",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Urshifu",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Golpe Oscuro",
+            "A Bocajarro",
+            "Golpe Bajo",
+            "Puño Drenaje"
+          ]
+        },
+        {
+          "pokemon": "Zamazenta",
+          "level": 100,
+          "item": "Escudo Oxidado",
+          "moves": [
+            "Plancha Corp",
+            "Cabezahierro",
+            "Triturar",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Buzzwole",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Puño Drenaje",
+            "Chupavidas",
+            "Terremoto",
+            "Respiro"
+          ]
+        },
+        {
+          "pokemon": "Koraidon",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Fotocolisión",
+            "Envite Ígneo",
+            "Garra Dragón",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 100,
+          "item": "Lucarita",
+          "moves": [
+            "A Bocajarro",
+            "Puño Bala",
+            "Triturar",
+            "Danza Espada"
+          ]
+        }
+      ],
+      "strategy": "La ofensiva física más demoledora: Koraidon invoca Sol y destruye con Envite Ígneo; Zamazenta aprovecha su descomunal Defensa para barrer con Plancha Corporal; Marshadow roba cualquier aumento de estadísticas con Robasombra. <b>Consejo:</b> ¡Jamás uses Danza Espada o Danza Dragón frente a Marshadow porque te los robará con Robasombra! Cambia el clima para apagar el Sol y ataca con Hadas bulkys y daño especial."
+    },
+    {
+      "name": "Karen - Liga R2 Monotype Siniestro Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Siniestro Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Ting-Lu",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Remolino",
+            "Terremoto"
+          ]
+        },
+        {
+          "pokemon": "Umbreon",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Deseo",
+            "Protección",
+            "Campana Cura",
+            "Juego Sucio"
+          ]
+        },
+        {
+          "pokemon": "Chien-Pao",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Chuzos",
+            "Golpe Bajo",
+            "Triturar",
+            "Espada Santa"
+          ]
+        },
+        {
+          "pokemon": "Darkrai",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Hipnosis",
+            "Maquinación",
+            "Pulso Umbrío",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Yveltal",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "AlaMortífera",
+            "Pulso Umbrío",
+            "Golpe Bajo",
+            "Onda Ígnea"
+          ]
+        },
+        {
+          "pokemon": "Tyranitar",
+          "level": 100,
+          "item": "Tyranitarita",
+          "moves": [
+            "Danza Dragón",
+            "Roca Afilada",
+            "Triturar",
+            "Terremoto"
+          ]
+        }
+      ],
+      "strategy": "Darkrai duerme y drena con Brecha Negra; Yveltal potencia un 33% los ataques siniestros con Aura Oscura y se cura con Ala Mortífera; Chien-Pao y Mega-Tyranitar desgarran con fuerza física. <b>Consejo:</b> Equipa Bayas Chego / Despertar o Niebla Aromática para anular la Brecha Negra de Darkrai. Movimientos de Lucha y Hada son letales contra casi todo su equipo. Prioriza derribar a Yveltal con Rayo Hielo o ataques Eléctricos."
+    },
+    {
+      "name": "Lance - Liga R2 Monotype Dragón Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Dragón Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Dialga",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Trampa Rocas",
+            "Foco Respl.",
+            "Cometa Draco",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Zygarde",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Mil Flechas",
+            "Enrosque",
+            "Descanso",
+            "Vel. Extrema"
+          ]
+        },
+        {
+          "pokemon": "Miraidon",
+          "level": 100,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Electoderrap",
+            "Cometa Draco",
+            "Voltiocambio",
+            "Sofoco"
+          ]
+        },
+        {
+          "pokemon": "Giratina",
+          "level": 100,
+          "item": "Griseosfera",
+          "moves": [
+            "Fuego Fatuo",
+            "Despejar",
+            "Golpe Umbrío",
+            "Cola Dragón"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 100,
+          "item": "Seguro Debilidad",
+          "moves": [
+            "Danza Dragón",
+            "Vel. Extrema",
+            "Terremoto",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Rayquaza",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "AscensoDraco",
+            "Danza Dragón",
+            "Terremoto",
+            "Vel. Extrema"
+          ]
+        }
+      ],
+      "strategy": "El combate más legendario jamás creado: 6 titanes dragón a Nivel 100. Miraidon activa Campo Eléctrico con Motor Hadrónico; Zygarde ignora levitaciones con Mil Flechas; Mega-Rayquaza domina los cielos con Ráfaga Delta y Ascenso Draco. <b>Consejo:</b> 1) Abre con Trampa Rocas para quitar 25% a Rayquaza y romper la Multiescala de Dragonite. 2) Cambia de terreno para neutralizar la Electroderiva de Miraidon. 3) Un tipo Hada con alta Defensa Especial anula los ataques de dragón. 4) Canto Helado prioritario o Pañuelo Elegido dan KO a Rayquaza y Dragonite."
     }
   ],
   "features": {
@@ -370282,7 +373113,6 @@ window.CHIRLGOLD_DATA = {
       "Repartir Experiencia Moderno (EXP All Gen 6+): Todos los Pokémon del equipo reciben experiencia tras cada batalla sin restar puntos a los combatientes activos.",
       "Curación Automática Pre-Boss: El equipo se cura por completo (PS, PP y estados) justo antes de combatir contra Líderes de Gimnasio y Rivales.",
       "Reordenación de Ataques con Botón SELECT: Pulsa SELECT en combate para cambiar el orden de tus movimientos al instante de manera persistente.",
-      "Inspección Táctica en Combate (Botón START o L/R): Consulta en pantalla superior una ventana interactiva de 3 páginas con modificadores de estadísticas (-6 a +6) propias y del rival, y turnos restantes de clima (Lluvia, Sol, Tormenta de Arena, Granizo) y barreras (Reflejo, Pantalla de Luz, Espacio Raro).",
       "Visualizador de IVs y EVs en el Sumario (Botón SELECT): Alterna en tiempo real entre Estadísticas Calculadas, IVs exactos (0-31) y EVs acumulados (0-252) con coloreado por naturaleza (verde incremento, rojo reducción) en el equipo y cajas del PC.",
       "Supresión de Dependencia de MOs en Equipo: Ejecuta Corte, Surf, Fuerza, Golpe Roca, Cascada, Treparrocas y Torbellino directamente teniendo la Medalla y el ítem MO en la Mochila, y vuela desde el menú del equipo con cualquier Pokémon.",
       "Modo de Combate 'Sin Cambios' Permanente (Set Mode): Combates dinámicos y competitivos sin pantalla de aviso de cambio de Pokémon cuando el rival saca un nuevo miembro.",
@@ -370290,10 +373120,10 @@ window.CHIRLGOLD_DATA = {
       "Ecosistema Safari con 27 Iniciales Salvajes: Iniciales de todas las generaciones capturables en estado salvaje en las Rutas 47, 48 y Cueva Acantilado.",
       "8 Familias Pseudolegendarias en Guarida Dragón: Captura en su hábitat natural a Dratini, Larvitar, Bagon, Beldum, Gible, Deino, Goomy y Dreepy.",
       "Evento Endgame de Celebi & Giovanni: Al vencer la Liga Pokémon, viaja en el tiempo en el Altar del Encinar para enfrentarte a Giovanni con un equipo competitivo escalado a tu nivel y captura a Celebi Nivel 50 post-evento.",
-      "Objetos de Calidad de Vida Infinitos: Caramelo Raro Infinito, Bolsa de Curación Infinita (Pocket Heal) y Repelente Infinito entregados por el ayudante del Profesor Elm.",
+      "Sexteto Autosuficiente y Entregas de Regalo: Inicial Johto con Elm; Inicial Kanto con Prof. Oak en casa del Sr. Pokémon; Inicial Hoenn con Elm tras el robo; Huevo en Ruta 31; Huevo Adaptativo en Malva; y Huevo Competitivo en Guardería Ruta 34.",
       "Escamas Corazón y Master Balls Gratuitas: Escamas Corazón gratis tras 7 medallas (para recordar movimientos ilimitados) y Master Balls gratis tras 8 medallas en Tiendas Pokémon.",
       "Tienda Competitiva & Evolutiva (56 Objetos): Centros Comerciales de Trigal y Azulona con Cordón Unión, Restos, Vidasfera, Mineral Evolutivo y piedras evolutivas a precios accesibles de 4 dígitos.",
-      "21 Mentas de Naturaleza Iniciales: Entregadas en el laboratorio del Profesor Elm para adaptar naturalezas sin grindeo.",
+      "Acceso Portátil al PC (Botón L / L1), Restos y 50 Poké Balls: Entregados por el ayudante del Profesor Elm (Terminal Remoto de Cajas y Restos) y Lira/Eco en Ruta 29 (50 Poké Balls de inicio).",
       "Traducción Completa al Castellano: Ataques, habilidades, objetos, diálogos y descripciones adaptados con terminología oficial de España.",
       "Frame Rate Desbloqueado a 60 FPS: Experiencia visual suave y fluida en emuladores compatibles.",
       "Level Caps Integrados: Curva de niveles calibrada para mantener el desafío sin requerir grindeo excesivo.",
