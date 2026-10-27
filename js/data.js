@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.15 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.21";
+/* Pokémon ChirlGold v0.13.22 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.22";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -190,6 +190,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "8%",
           "method": "Hierba"
+        },
+        {
+          "route": "Casa del Sr. Pokémon (Ruta 30 - Prof. Oak)",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -974,6 +980,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "8%",
           "method": "Cueva"
+        },
+        {
+          "route": "Casa del Sr. Pokémon (Ruta 30 - Prof. Oak)",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -1751,6 +1763,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "8%",
           "method": "Hierba"
+        },
+        {
+          "route": "Casa del Sr. Pokémon (Ruta 30 - Prof. Oak)",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -4502,6 +4520,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Guardia de la puerta norte (Ciudad Trigal)",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        },
         {
           "route": "Ruta 33",
           "time": "Mañana y Día",
@@ -14231,6 +14255,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 31 (Entrenador Veterano)",
+          "time": "Regalo Adaptativo Nv. 6",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Torre Quemada",
           "time": "Mañana y Día",
           "rate": "25%",
@@ -20016,6 +20046,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 31 (Entrenador Veterano)",
+          "time": "Regalo Adaptativo Nv. 6",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta 38",
           "time": "Mañana y Día",
           "rate": "10%",
@@ -23734,7 +23770,7 @@ window.CHIRLGOLD_DATA = {
         "total": 328
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Alerta"
       ],
       "learnset": [
@@ -23987,7 +24023,7 @@ window.CHIRLGOLD_DATA = {
         "total": 483
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Alerta"
       ],
       "learnset": [
@@ -27478,8 +27514,8 @@ window.CHIRLGOLD_DATA = {
         "total": 340
       },
       "abilities": [
-        "Levitación",
-        "Humo Blanco"
+        "Gas Reactivo",
+        "Levitación"
       ],
       "learnset": [
         {
@@ -27718,8 +27754,8 @@ window.CHIRLGOLD_DATA = {
         "total": 490
       },
       "abilities": [
-        "Levitación",
-        "Humo Blanco"
+        "Gas Reactivo",
+        "Levitación"
       ],
       "learnset": [
         {
@@ -29630,6 +29666,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
           "route": "Ruta 41",
           "time": "Todo el día",
           "rate": "5%",
@@ -30402,8 +30444,8 @@ window.CHIRLGOLD_DATA = {
         "total": 340
       },
       "abilities": [
-        "Iluminación",
-        "Cura Natural"
+        "Cura Natural",
+        "Ojo Compuesto"
       ],
       "learnset": [
         {
@@ -30679,8 +30721,8 @@ window.CHIRLGOLD_DATA = {
         "total": 520
       },
       "abilities": [
-        "Iluminación",
-        "Cura Natural"
+        "Cura Natural",
+        "Ojo Compuesto"
       ],
       "learnset": [
         {
@@ -32792,7 +32834,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 15
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        }
+      ],
       "family_tree": [
         {
           "name": "Magikarp",
@@ -33601,6 +33650,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Casa de Bill (Ciudad Trigal)",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        },
         {
           "route": "Ruta 36",
           "time": "Mañana y Día",
@@ -35691,7 +35746,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "Armad. Batalla"
+        "Caparazón"
       ],
       "learnset": [
         {
@@ -35943,7 +35998,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Nado Rápido",
-        "Armad. Batalla"
+        "Caparazón"
       ],
       "learnset": [
         {
@@ -37704,6 +37759,12 @@ window.CHIRLGOLD_DATA = {
           "method": "Surf"
         },
         {
+          "route": "Guarida Dragón (Ciudad Endrino)",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Parque Nacional",
           "time": "Noche",
           "rate": "10%",
@@ -38914,6 +38975,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Hierba"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -39611,6 +39678,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Cueva"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -40351,6 +40424,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "6%",
           "method": "Hierba"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -41347,7 +41426,7 @@ window.CHIRLGOLD_DATA = {
         "total": 262
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Vista Lince"
       ],
       "learnset": [
@@ -41565,7 +41644,7 @@ window.CHIRLGOLD_DATA = {
         "total": 452
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Vista Lince"
       ],
       "learnset": [
@@ -42184,7 +42263,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "Insomnio"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -42438,7 +42517,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Enjambre",
-        "Insomnio"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -43716,6 +43795,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta 33",
           "time": "Mañana y Día",
           "rate": "15%",
@@ -43913,6 +43998,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta 33",
           "time": "Noche",
           "rate": "5%",
@@ -44096,6 +44187,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
         {
           "route": "Ruta 33",
           "time": "Mañana y Día",
@@ -44352,6 +44449,18 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Huevo del ayudante del Prof. Elm (Ciudad Malvalba)",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Malva (Ayudante del Prof. Elm)",
+          "time": "Huevo Adaptativo con Maquinación",
+          "rate": "100%",
+          "method": "Regalo"
+        },
         {
           "route": "Ruta 31",
           "time": "Todo el día",
@@ -45226,7 +45335,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "Más"
+        "Pararrayos"
       ],
       "learnset": [
         {
@@ -45449,7 +45558,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "Más"
+        "Pararrayos"
       ],
       "learnset": [
         {
@@ -45685,7 +45794,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Elec. Estática",
-        "Más"
+        "Pararrayos"
       ],
       "learnset": [
         {
@@ -50540,7 +50649,7 @@ window.CHIRLGOLD_DATA = {
         "total": 405
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Afortunado"
       ],
       "learnset": [
@@ -52598,6 +52707,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Centro Pokémon de Ciudad Malva (Ayudante del Prof. Elm)",
+          "time": "Huevo Adaptativo con Trampa Rocas",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta 38",
           "time": "Noche",
           "rate": "10%",
@@ -54334,6 +54449,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "1%",
           "method": "Hierba"
+        },
+        {
+          "route": "Entrega especial (Ciudad Orquídea)",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
         },
         {
           "route": "Encinar",
@@ -59523,6 +59644,18 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Maestro del Monte Mortero",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta 35",
           "time": "Noche",
           "rate": "20%",
@@ -60197,6 +60330,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta Helada",
           "time": "Mañana y Día",
           "rate": "9%",
@@ -60413,6 +60552,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
         {
           "route": "Ruta 33",
           "time": "Mañana y Día",
@@ -60658,6 +60803,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Guardería Pokémon (Ruta 34)",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
         {
           "route": "Ruta 33",
           "time": "Noche",
@@ -63638,7 +63789,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 5
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Altar del Encinar (Encinar)",
+          "time": "Evento Temporal Post-Liga (tras vencer a Giovanni) Nv. 50",
+          "rate": "100%",
+          "method": "Evento"
+        }
+      ],
       "family_tree": null,
       "evolutions_text": [],
       "slug": "celebi"
@@ -63850,6 +64008,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Hierba"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -64817,6 +64981,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "6%",
           "method": "Cueva"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -65778,6 +65948,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "6%",
           "method": "Hierba"
+        },
+        {
+          "route": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
         }
       ],
       "family_tree": [
@@ -68595,6 +68771,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 31 (Entrenador Veterano)",
+          "time": "Regalo Adaptativo Nv. 6",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Ruta 32",
           "time": "Mañana y Día",
           "rate": "20%",
@@ -69807,8 +69989,8 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "Clorofila",
-        "Hurto"
+        "Surcavientos",
+        "Clorofila"
       ],
       "learnset": [
         {
@@ -77794,7 +77976,7 @@ window.CHIRLGOLD_DATA = {
         "total": 280
       },
       "abilities": [
-        "Energía Pura",
+        "Potencia",
         "Telepatía"
       ],
       "learnset": [
@@ -78026,7 +78208,7 @@ window.CHIRLGOLD_DATA = {
         "total": 410
       },
       "abilities": [
-        "Energía Pura",
+        "Potencia",
         "Telepatía"
       ],
       "learnset": [
@@ -78777,8 +78959,8 @@ window.CHIRLGOLD_DATA = {
         "total": 405
       },
       "abilities": [
-        "Más",
-        "Pararrayos"
+        "Pararrayos",
+        "Elec. Estática"
       ],
       "learnset": [
         {
@@ -79026,8 +79208,8 @@ window.CHIRLGOLD_DATA = {
         "total": 405
       },
       "abilities": [
-        "Menos",
-        "Absorbe Elec"
+        "Absorbe Elec",
+        "Elec. Estática"
       ],
       "learnset": [
         {
@@ -79275,8 +79457,8 @@ window.CHIRLGOLD_DATA = {
         "total": 430
       },
       "abilities": [
-        "Iluminación",
-        "Enjambre"
+        "Enjambre",
+        "Bromista"
       ],
       "learnset": [
         {
@@ -81766,7 +81948,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Escudo Magma",
-        "Roca Sólida"
+        "Filtro"
       ],
       "learnset": [
         {
@@ -82027,7 +82209,7 @@ window.CHIRLGOLD_DATA = {
         "total": 470
       },
       "abilities": [
-        "Humo Blanco",
+        "Cuerpo Puro",
         "Sequía"
       ],
       "learnset": [
@@ -88072,7 +88254,7 @@ window.CHIRLGOLD_DATA = {
         "total": 355
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "Nado Rápido"
       ],
       "learnset": [
@@ -88294,7 +88476,7 @@ window.CHIRLGOLD_DATA = {
         "total": 495
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "Nado Rápido"
       ],
       "learnset": [
@@ -88572,6 +88754,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ruta 35",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
         {
           "route": "Monte Mortero",
           "time": "Todo el día",
@@ -89340,7 +89528,7 @@ window.CHIRLGOLD_DATA = {
         "total": 295
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Cacheo"
       ],
       "learnset": [
@@ -89562,7 +89750,7 @@ window.CHIRLGOLD_DATA = {
         "total": 455
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Cacheo"
       ],
       "learnset": [
@@ -96772,7 +96960,7 @@ window.CHIRLGOLD_DATA = {
         "total": 680
       },
       "abilities": [
-        "Bucle Aire",
+        "Aclimatación",
         "-"
       ],
       "learnset": [
@@ -97482,6 +97670,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -98139,6 +98333,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -98820,6 +99020,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Noche",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -103309,8 +103515,8 @@ window.CHIRLGOLD_DATA = {
         "total": 244
       },
       "abilities": [
-        "Recogemiel",
-        "Entusiasmo"
+        "Entusiasmo",
+        "Enjambre"
       ],
       "learnset": [
         {
@@ -106768,7 +106974,7 @@ window.CHIRLGOLD_DATA = {
         "total": 505
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Afortunado"
       ],
       "learnset": [
@@ -111917,7 +112123,7 @@ window.CHIRLGOLD_DATA = {
         "total": 330
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "Francotirador"
       ],
       "learnset": [
@@ -112179,7 +112385,7 @@ window.CHIRLGOLD_DATA = {
         "total": 500
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "Francotirador"
       ],
       "learnset": [
@@ -113788,6 +113994,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ciudad Olivo",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
           "route": "Ruta 40",
           "time": "Todo el día",
           "rate": "5%",
@@ -115176,7 +115388,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Pararrayos",
-        "Roca Sólida"
+        "Filtro"
       ],
       "learnset": [
         {
@@ -118674,7 +118886,7 @@ window.CHIRLGOLD_DATA = {
         "total": 518
       },
       "abilities": [
-        "Impasible",
+        "Cortante",
         "Justiciero"
       ],
       "learnset": [
@@ -123470,6 +123682,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -124183,6 +124401,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -124944,6 +125168,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "1%",
           "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -125798,8 +126028,8 @@ window.CHIRLGOLD_DATA = {
         "total": 420
       },
       "abilities": [
-        "Iluminación",
-        "Vista Lince"
+        "Vista Lince",
+        "Cromolente"
       ],
       "learnset": [
         {
@@ -140085,7 +140315,7 @@ window.CHIRLGOLD_DATA = {
         "total": 355
       },
       "abilities": [
-        "Roca Sólida",
+        "Filtro",
         "Robustez"
       ],
       "learnset": [
@@ -140337,7 +140567,7 @@ window.CHIRLGOLD_DATA = {
         "total": 495
       },
       "abilities": [
-        "Roca Sólida",
+        "Filtro",
         "Robustez"
       ],
       "learnset": [
@@ -147737,6 +147967,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 34",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
           "route": "Ciudad Olivo",
           "time": "Todo el día",
           "rate": "4%",
@@ -148879,7 +149115,7 @@ window.CHIRLGOLD_DATA = {
         "total": 305
       },
       "abilities": [
-        "Punta Acero",
+        "Piel Tosca",
         "-"
       ],
       "learnset": [
@@ -149091,7 +149327,7 @@ window.CHIRLGOLD_DATA = {
         "total": 489
       },
       "abilities": [
-        "Punta Acero",
+        "Piel Tosca",
         "-"
       ],
       "learnset": [
@@ -149363,8 +149599,8 @@ window.CHIRLGOLD_DATA = {
         "total": 300
       },
       "abilities": [
-        "Más",
-        "Cuerpo Puro"
+        "Cuerpo Puro",
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -149602,8 +149838,8 @@ window.CHIRLGOLD_DATA = {
         "total": 440
       },
       "abilities": [
-        "Más",
-        "Cuerpo Puro"
+        "Cuerpo Puro",
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -149858,8 +150094,8 @@ window.CHIRLGOLD_DATA = {
         "total": 520
       },
       "abilities": [
-        "Más",
-        "Cuerpo Puro"
+        "Cuerpo Puro",
+        "Metal Liviano"
       ],
       "learnset": [
         {
@@ -160814,7 +161050,7 @@ window.CHIRLGOLD_DATA = {
         "total": 680
       },
       "abilities": [
-        "Turbollama",
+        "Rompemoldes",
         "-"
       ],
       "learnset": [
@@ -161031,7 +161267,7 @@ window.CHIRLGOLD_DATA = {
         "total": 680
       },
       "abilities": [
-        "Terravoltaje",
+        "Rompemoldes",
         "-"
       ],
       "learnset": [
@@ -162503,6 +162739,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -163270,6 +163512,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -164037,6 +164285,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "30%",
           "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -166175,7 +166429,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mudar",
-        "Compiescolta"
+        "Polvo Escudo"
       ],
       "learnset": [
         {
@@ -172209,6 +172463,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 32",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
           "route": "Islas Remolino",
           "time": "Todo el día",
           "rate": "3%",
@@ -172712,6 +172972,12 @@ window.CHIRLGOLD_DATA = {
         }
       ],
       "encounters": [
+        {
+          "route": "Ruta 32",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
         {
           "route": "Ruta 47",
           "time": "Todo el día",
@@ -180656,6 +180922,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -181563,6 +181835,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -182370,6 +182648,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "5%",
           "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -184341,8 +184625,8 @@ window.CHIRLGOLD_DATA = {
         "total": 400
       },
       "abilities": [
-        "Batería",
-        "-"
+        "Enjambre",
+        "Elec. Estática"
       ],
       "learnset": [
         {
@@ -185527,8 +185811,8 @@ window.CHIRLGOLD_DATA = {
         "total": 304
       },
       "abilities": [
-        "Recogemiel",
-        "Polvo Escudo"
+        "Polvo Escudo",
+        "Velo Dulce"
       ],
       "learnset": [
         {
@@ -185719,8 +186003,8 @@ window.CHIRLGOLD_DATA = {
         "total": 464
       },
       "abilities": [
-        "Recogemiel",
-        "Polvo Escudo"
+        "Polvo Escudo",
+        "Velo Dulce"
       ],
       "learnset": [
         {
@@ -188572,8 +188856,8 @@ window.CHIRLGOLD_DATA = {
         "total": 285
       },
       "abilities": [
-        "Iluminación",
-        "Efecto Espora"
+        "Efecto Espora",
+        "Cura Lluvia"
       ],
       "learnset": [
         {
@@ -188800,8 +189084,8 @@ window.CHIRLGOLD_DATA = {
         "total": 405
       },
       "abilities": [
-        "Iluminación",
-        "Efecto Espora"
+        "Efecto Espora",
+        "Cura Lluvia"
       ],
       "learnset": [
         {
@@ -191478,7 +191762,7 @@ window.CHIRLGOLD_DATA = {
         "total": 230
       },
       "abilities": [
-        "Francotirador",
+        "Retirada",
         "-"
       ],
       "learnset": [
@@ -191570,7 +191854,7 @@ window.CHIRLGOLD_DATA = {
         "total": 530
       },
       "abilities": [
-        "Francotirador",
+        "Retirada",
         "-"
       ],
       "learnset": [
@@ -192462,7 +192746,7 @@ window.CHIRLGOLD_DATA = {
         "total": 534
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "-"
       ],
       "learnset": [
@@ -192704,7 +192988,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "-"
       ],
       "learnset": [
@@ -193628,7 +193912,7 @@ window.CHIRLGOLD_DATA = {
         "total": 435
       },
       "abilities": [
-        "Punta Acero",
+        "Piel Tosca",
         "Pararrayos"
       ],
       "learnset": [
@@ -193999,6 +194283,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Centro Pokémon de Ciudad Malva (Ayudante del Prof. Elm)",
+          "time": "Huevo Adaptativo con Sombra Vil",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "route": "Torre Bellsprout",
           "time": "Noche",
           "rate": "6%",
@@ -194026,7 +194316,7 @@ window.CHIRLGOLD_DATA = {
         "total": 475
       },
       "abilities": [
-        "Cuerpo Vívido",
+        "Regia Presencia",
         "Mandíbula Fuerte"
       ],
       "learnset": [
@@ -196616,7 +196906,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cima del Monte Plateado",
+          "time": "Regalo tras vencer a Rojo en Monte Plateado Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cosmog",
@@ -196727,7 +197024,14 @@ window.CHIRLGOLD_DATA = {
           "pp": 20
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "route": "Cima del Monte Plateado",
+          "time": "Evolución de Cosmog al Nivel 43",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ],
       "family_tree": [
         {
           "name": "Cosmog",
@@ -196805,7 +197109,7 @@ window.CHIRLGOLD_DATA = {
         "total": 680
       },
       "abilities": [
-        "Guardia Metálica",
+        "Cuerpo Puro",
         "-"
       ],
       "learnset": [
@@ -197085,7 +197389,7 @@ window.CHIRLGOLD_DATA = {
         "total": 680
       },
       "abilities": [
-        "Guardia Espectro",
+        "Multiescamas",
         "-"
       ],
       "learnset": [
@@ -199192,7 +199496,7 @@ window.CHIRLGOLD_DATA = {
         "total": 600
       },
       "abilities": [
-        "Armadura Prisma",
+        "Filtro",
         "-"
       ],
       "learnset": [
@@ -201580,6 +201884,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -202053,7 +202363,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mar Llamas",
-        "Líbero"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -202173,6 +202483,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "10%",
           "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -202236,7 +202552,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mar Llamas",
-        "Líbero"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -202412,7 +202728,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Mar Llamas",
-        "Líbero"
+        "Mutatipo"
       ],
       "learnset": [
         {
@@ -202736,6 +203052,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "4%",
           "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -203919,8 +204241,8 @@ window.CHIRLGOLD_DATA = {
         "total": 495
       },
       "abilities": [
-        "Presión",
-        "Nerviosismo"
+        "Coraza Reflejo",
+        "Regeneración"
       ],
       "learnset": [
         {
@@ -205944,8 +206266,8 @@ window.CHIRLGOLD_DATA = {
         "total": 270
       },
       "abilities": [
-        "Recogebolas",
-        "Cobardía"
+        "Cobardía",
+        "Mandíbula Fuerte"
       ],
       "learnset": [
         {
@@ -206293,8 +206615,8 @@ window.CHIRLGOLD_DATA = {
         "total": 240
       },
       "abilities": [
-        "Roca Sólida",
-        "Ignífugo"
+        "Combustible",
+        "-"
       ],
       "learnset": [
         {
@@ -206469,8 +206791,8 @@ window.CHIRLGOLD_DATA = {
         "total": 410
       },
       "abilities": [
-        "Roca Sólida",
-        "Cuerpo Llama"
+        "Combustible",
+        "-"
       ],
       "learnset": [
         {
@@ -206658,8 +206980,8 @@ window.CHIRLGOLD_DATA = {
         "total": 510
       },
       "abilities": [
-        "Roca Sólida",
-        "Cuerpo Llama"
+        "Combustible",
+        "-"
       ],
       "learnset": [
         {
@@ -206855,8 +207177,8 @@ window.CHIRLGOLD_DATA = {
         "total": 260
       },
       "abilities": [
-        "Madrugar",
-        "Gula"
+        "Maduración",
+        "-"
       ],
       "learnset": [
         {
@@ -206988,8 +207310,8 @@ window.CHIRLGOLD_DATA = {
         "total": 485
       },
       "abilities": [
-        "Mudar",
-        "Gula"
+        "Maduración",
+        "-"
       ],
       "learnset": [
         {
@@ -207254,8 +207576,8 @@ window.CHIRLGOLD_DATA = {
         "total": 485
       },
       "abilities": [
-        "Gula",
-        "Sebo"
+        "Maduración",
+        "-"
       ],
       "learnset": [
         {
@@ -207519,8 +207841,8 @@ window.CHIRLGOLD_DATA = {
         "total": 315
       },
       "abilities": [
-        "Chorro Arena",
-        "Mudar"
+        "Expulsarena",
+        "-"
       ],
       "learnset": [
         {
@@ -207698,8 +208020,8 @@ window.CHIRLGOLD_DATA = {
         "total": 510
       },
       "abilities": [
-        "Chorro Arena",
-        "Mudar"
+        "Expulsarena",
+        "-"
       ],
       "learnset": [
         {
@@ -208149,6 +208471,12 @@ window.CHIRLGOLD_DATA = {
       ],
       "encounters": [
         {
+          "route": "Ruta 34",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
           "route": "Ruta 42",
           "time": "Todo el día",
           "rate": "20%",
@@ -208485,8 +208813,8 @@ window.CHIRLGOLD_DATA = {
         "total": 502
       },
       "abilities": [
-        "Voz Fluida",
-        "Más"
+        "Punk Rock",
+        "Experto"
       ],
       "learnset": [
         {
@@ -208789,7 +209117,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "Humo Blanco"
+        "Cuerpo Puro"
       ],
       "learnset": [
         {
@@ -208981,7 +209309,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Absorbe Fuego",
-        "Humo Blanco"
+        "Cuerpo Puro"
       ],
       "learnset": [
         {
@@ -211408,8 +211736,8 @@ window.CHIRLGOLD_DATA = {
         "total": 440
       },
       "abilities": [
-        "Armad. Batalla",
-        "Garra Dura"
+        "Alma Acerada",
+        "-"
       ],
       "learnset": [
         {
@@ -212924,7 +213252,7 @@ window.CHIRLGOLD_DATA = {
         "total": 470
       },
       "abilities": [
-        "Armad. Batalla",
+        "Caparazón",
         "Justiciero"
       ],
       "learnset": [
@@ -216098,7 +216426,7 @@ window.CHIRLGOLD_DATA = {
         "total": 660
       },
       "abilities": [
-        "Presión",
+        "Espada Indómita",
         "-"
       ],
       "learnset": [
@@ -216264,7 +216592,7 @@ window.CHIRLGOLD_DATA = {
         "total": 660
       },
       "abilities": [
-        "Presión",
+        "Escudo Recio",
         "-"
       ],
       "learnset": [
@@ -216811,7 +217139,7 @@ window.CHIRLGOLD_DATA = {
         "total": 550
       },
       "abilities": [
-        "Allanamiento",
+        "Puño Invisible",
         "-"
       ],
       "learnset": [
@@ -217239,7 +217567,7 @@ window.CHIRLGOLD_DATA = {
         "total": 580
       },
       "abilities": [
-        "-",
+        "Transistor",
         "-"
       ],
       "learnset": [
@@ -217415,7 +217743,7 @@ window.CHIRLGOLD_DATA = {
         "total": 580
       },
       "abilities": [
-        "-",
+        "Mandíbula Dragón",
         "-"
       ],
       "learnset": [
@@ -217591,7 +217919,7 @@ window.CHIRLGOLD_DATA = {
         "total": 580
       },
       "abilities": [
-        "-",
+        "Autoestima",
         "-"
       ],
       "learnset": [
@@ -217757,7 +218085,7 @@ window.CHIRLGOLD_DATA = {
         "total": 580
       },
       "abilities": [
-        "-",
+        "Corazón Alma",
         "-"
       ],
       "learnset": [
@@ -217924,8 +218252,8 @@ window.CHIRLGOLD_DATA = {
         "total": 500
       },
       "abilities": [
-        "Nerviosismo",
-        "-"
+        "Autoestima",
+        "Corazón Alma"
       ],
       "learnset": [
         {
@@ -218313,8 +218641,8 @@ window.CHIRLGOLD_DATA = {
         "total": 500
       },
       "abilities": [
-        "Enjambre",
-        "Potencia Bruta"
+        "Cortante",
+        "-"
       ],
       "learnset": [
         {
@@ -218530,8 +218858,8 @@ window.CHIRLGOLD_DATA = {
         "total": 550
       },
       "abilities": [
-        "Agallas",
-        "Antibalas"
+        "Puño Férreo",
+        "Ojo Mental"
       ],
       "learnset": [
         {
@@ -219771,6 +220099,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Hierba"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -220448,6 +220782,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "20%",
           "method": "Cueva"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -221105,6 +221445,12 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "60%",
           "method": "Surf"
+        },
+        {
+          "route": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ],
       "family_tree": [
@@ -222041,7 +222387,7 @@ window.CHIRLGOLD_DATA = {
         "total": 210
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Vigilante"
       ],
       "learnset": [
@@ -222246,7 +222592,7 @@ window.CHIRLGOLD_DATA = {
         "total": 404
       },
       "abilities": [
-        "Insomnio",
+        "Espíritu Vital",
         "Vigilante"
       ],
       "learnset": [
@@ -223828,8 +224174,8 @@ window.CHIRLGOLD_DATA = {
         "total": 470
       },
       "abilities": [
-        "Compiescolta",
-        "Carrillo"
+        "Carrillo",
+        "Experto"
       ],
       "learnset": [
         {
@@ -224247,8 +224593,8 @@ window.CHIRLGOLD_DATA = {
         "total": 477
       },
       "abilities": [
-        "-",
-        "Velo Aroma"
+        "Cuerpo Horneado",
+        "-"
       ],
       "learnset": [
         {
@@ -225286,8 +225632,8 @@ window.CHIRLGOLD_DATA = {
         "total": 280
       },
       "abilities": [
-        "Robustez",
-        "Cuerpo Puro"
+        "Sal Purificadora",
+        "-"
       ],
       "learnset": [
         {
@@ -225499,8 +225845,8 @@ window.CHIRLGOLD_DATA = {
         "total": 355
       },
       "abilities": [
-        "Robustez",
-        "Cuerpo Puro"
+        "Sal Purificadora",
+        "-"
       ],
       "learnset": [
         {
@@ -225725,8 +226071,8 @@ window.CHIRLGOLD_DATA = {
         "total": 500
       },
       "abilities": [
-        "Robustez",
-        "Cuerpo Puro"
+        "Sal Purificadora",
+        "-"
       ],
       "learnset": [
         {
@@ -226676,8 +227022,8 @@ window.CHIRLGOLD_DATA = {
         "total": 272
       },
       "abilities": [
-        "Ritmo Propio",
-        "Elec. Estática"
+        "Dinamo",
+        "-"
       ],
       "learnset": [
         {
@@ -226875,8 +227221,8 @@ window.CHIRLGOLD_DATA = {
         "total": 495
       },
       "abilities": [
-        "Elec. Estática",
-        "Humedad"
+        "Dinamo",
+        "-"
       ],
       "learnset": [
         {
@@ -227066,8 +227412,8 @@ window.CHIRLGOLD_DATA = {
         "total": 280
       },
       "abilities": [
-        "Absorbe Elec",
-        "Tenacidad"
+        "Energía Eólica",
+        "-"
       ],
       "learnset": [
         {
@@ -227254,8 +227600,8 @@ window.CHIRLGOLD_DATA = {
         "total": 490
       },
       "abilities": [
-        "Absorbe Elec",
-        "Absorbe Elec"
+        "Energía Eólica",
+        "-"
       ],
       "learnset": [
         {
@@ -227665,8 +228011,8 @@ window.CHIRLGOLD_DATA = {
         "total": 505
       },
       "abilities": [
-        "Intimidación",
-        "Espíritu Vital"
+        "Perro Guardián",
+        "Intimidación"
       ],
       "learnset": [
         {
@@ -228321,8 +228667,8 @@ window.CHIRLGOLD_DATA = {
         "total": 275
       },
       "abilities": [
-        "-",
-        "Allanamiento"
+        "Surcavientos",
+        "-"
       ],
       "learnset": [
         {
@@ -228532,7 +228878,7 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "Levitación",
+        "Surcavientos",
         "Allanamiento"
       ],
       "learnset": [
@@ -228709,7 +229055,7 @@ window.CHIRLGOLD_DATA = {
         "total": 335
       },
       "abilities": [
-        "Efecto Espora",
+        "Rezagado",
         "-"
       ],
       "learnset": [
@@ -228941,7 +229287,7 @@ window.CHIRLGOLD_DATA = {
         "total": 515
       },
       "abilities": [
-        "Efecto Espora",
+        "Rezagado",
         "-"
       ],
       "learnset": [
@@ -229173,8 +229519,8 @@ window.CHIRLGOLD_DATA = {
         "total": 450
       },
       "abilities": [
-        "Caparazón",
-        "Regeneración"
+        "Coraza Ira",
+        "-"
       ],
       "learnset": [
         {
@@ -229357,7 +229703,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "Insomnio"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -229544,7 +229890,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Clorofila",
-        "Insomnio"
+        "Espíritu Vital"
       ],
       "learnset": [
         {
@@ -231650,8 +231996,8 @@ window.CHIRLGOLD_DATA = {
         "total": 485
       },
       "abilities": [
-        "Sacapecho",
-        "Vista Lince"
+        "Transportarrocas",
+        "-"
       ],
       "learnset": [
         {
@@ -231849,7 +232195,7 @@ window.CHIRLGOLD_DATA = {
         "total": 315
       },
       "abilities": [
-        "Velo Agua",
+        "Cambio Heroico",
         "-"
       ],
       "learnset": [
@@ -232038,8 +232384,8 @@ window.CHIRLGOLD_DATA = {
         "total": 457
       },
       "abilities": [
-        "Nado Rápido",
-        "Velo Agua"
+        "Cambio Heroico",
+        "-"
       ],
       "learnset": [
         {
@@ -232905,8 +233251,8 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "-",
-        "Velo Arena"
+        "Geofagia",
+        "-"
       ],
       "learnset": [
         {
@@ -233079,7 +233425,7 @@ window.CHIRLGOLD_DATA = {
         "total": 350
       },
       "abilities": [
-        "Corrosión",
+        "Capa Tóxica",
         "-"
       ],
       "learnset": [
@@ -233281,7 +233627,7 @@ window.CHIRLGOLD_DATA = {
         "total": 525
       },
       "abilities": [
-        "Corrosión",
+        "Capa Tóxica",
         "-"
       ],
       "learnset": [
@@ -234548,7 +234894,7 @@ window.CHIRLGOLD_DATA = {
         "total": 478
       },
       "abilities": [
-        "Rompemoldes",
+        "Cortante",
         "-"
       ],
       "learnset": [
@@ -235559,8 +235905,8 @@ window.CHIRLGOLD_DATA = {
         "total": 520
       },
       "abilities": [
-        "-",
-        "Herbívoro"
+        "Regia Presencia",
+        "-"
       ],
       "learnset": [
         {
@@ -235978,8 +236324,8 @@ window.CHIRLGOLD_DATA = {
         "total": 550
       },
       "abilities": [
-        "-",
-        "Presión"
+        "General Supremo",
+        "-"
       ],
       "learnset": [
         {
@@ -236246,7 +236592,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -236450,7 +236796,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -236644,7 +236990,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -236828,7 +237174,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -237032,7 +237378,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -237246,7 +237592,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -237460,7 +237806,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -237654,7 +238000,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -237838,7 +238184,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -238052,7 +238398,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -238256,7 +238602,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -238470,7 +238816,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -238684,8 +239030,8 @@ window.CHIRLGOLD_DATA = {
         "total": 320
       },
       "abilities": [
-        "-",
-        "Gélido"
+        "Termoconversión",
+        "-"
       ],
       "learnset": [
         {
@@ -238903,8 +239249,8 @@ window.CHIRLGOLD_DATA = {
         "total": 423
       },
       "abilities": [
-        "-",
-        "Gélido"
+        "Termoconversión",
+        "-"
       ],
       "learnset": [
         {
@@ -239103,8 +239449,8 @@ window.CHIRLGOLD_DATA = {
         "total": 600
       },
       "abilities": [
-        "-",
-        "Gélido"
+        "Termoconversión",
+        "-"
       ],
       "learnset": [
         {
@@ -239431,8 +239777,8 @@ window.CHIRLGOLD_DATA = {
         "total": 550
       },
       "abilities": [
-        "Cuerpo Puro",
-        "Filtro"
+        "Cuerpo Áureo",
+        "-"
       ],
       "learnset": [
         {
@@ -239603,7 +239949,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Intimidación",
+        "Tablilla Debacle",
         "-"
       ],
       "learnset": [
@@ -239820,7 +240166,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Intimidación",
+        "Espada Debacle",
         "-"
       ],
       "learnset": [
@@ -240037,7 +240383,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Intimidación",
+        "Caldero Debacle",
         "-"
       ],
       "learnset": [
@@ -240244,7 +240590,7 @@ window.CHIRLGOLD_DATA = {
         "total": 570
       },
       "abilities": [
-        "Intimidación",
+        "Abalorio Debacle",
         "-"
       ],
       "learnset": [
@@ -240451,7 +240797,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -240655,7 +241001,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -240869,7 +241215,7 @@ window.CHIRLGOLD_DATA = {
         "total": 670
       },
       "abilities": [
-        "Sequía",
+        "Latido Oricalco",
         "-"
       ],
       "learnset": [
@@ -241056,7 +241402,7 @@ window.CHIRLGOLD_DATA = {
         "total": 670
       },
       "abilities": [
-        "Electrogénesis",
+        "Motor Hadrónico",
         "-"
       ],
       "learnset": [
@@ -241243,7 +241589,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -241447,7 +241793,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -242334,7 +242680,7 @@ window.CHIRLGOLD_DATA = {
         "total": 555
       },
       "abilities": [
-        "Toque Tóxico",
+        "Cadena Tóxica",
         "-"
       ],
       "learnset": [
@@ -242481,8 +242827,8 @@ window.CHIRLGOLD_DATA = {
         "total": 555
       },
       "abilities": [
-        "Toque Tóxico",
-        "Cacheo"
+        "Cadena Tóxica",
+        "-"
       ],
       "learnset": [
         {
@@ -242638,7 +242984,7 @@ window.CHIRLGOLD_DATA = {
         "total": 555
       },
       "abilities": [
-        "Toque Tóxico",
+        "Cadena Tóxica",
         "-"
       ],
       "learnset": [
@@ -243510,8 +243856,8 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "-",
-        "Poder Solar"
+        "Paleosíntesis",
+        "-"
       ],
       "learnset": [
         {
@@ -243744,7 +244090,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Poder Solar",
+        "Paleosíntesis",
         "-"
       ],
       "learnset": [
@@ -243958,7 +244304,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -244162,7 +244508,7 @@ window.CHIRLGOLD_DATA = {
         "total": 590
       },
       "abilities": [
-        "Cola Surf",
+        "Carga Cuark",
         "-"
       ],
       "learnset": [
@@ -244365,7 +244711,7 @@ window.CHIRLGOLD_DATA = {
         "total": 450
       },
       "abilities": [
-        "-",
+        "Multiescamas",
         "-"
       ],
       "learnset": [
@@ -345318,6 +345664,21 @@ window.CHIRLGOLD_DATA = {
   ],
   "abilities": [
     {
+      "name": "Abalorio Debacle",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1054,
+          "name": "Chi-Yu",
+          "slug": "chiyu",
+          "types": [
+            "Siniestro",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Absorbe Agua",
       "desc": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
       "pokemon": [
@@ -345631,33 +345992,6 @@ window.CHIRLGOLD_DATA = {
             "Eléctrico",
             "Lucha"
           ]
-        },
-        {
-          "pid": 990,
-          "name": "Wattrel",
-          "slug": "wattrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 991,
-          "name": "Kilowatrel",
-          "slug": "kilowatrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 991,
-          "name": "Kilowatrel",
-          "slug": "kilowatrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
         }
       ]
     },
@@ -345910,6 +346244,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Dragón",
             "Hada"
+          ]
+        },
+        {
+          "pid": 384,
+          "name": "Rayquaza",
+          "slug": "rayquaza",
+          "types": [
+            "Dragón",
+            "Volador"
           ]
         }
       ]
@@ -346268,15 +346611,6 @@ window.CHIRLGOLD_DATA = {
             "Siniestro",
             "Normal"
           ]
-        },
-        {
-          "pid": 951,
-          "name": "Ursaluna",
-          "slug": "ursaluna",
-          "types": [
-            "Tierra",
-            "Normal"
-          ]
         }
       ]
     },
@@ -346506,30 +346840,26 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 942,
-          "name": "Urshifu",
-          "slug": "urshifu",
-          "types": [
-            "Lucha",
-            "Siniestro"
-          ]
-        },
-        {
-          "pid": 996,
-          "name": "Bramblin",
-          "slug": "bramblin",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
-        },
-        {
           "pid": 997,
           "name": "Bramblgast",
           "slug": "bramblgast",
           "types": [
             "Planta",
             "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alma Acerada",
+      "desc": "Potencia los movimientos de tipo Acero de los aliados.",
+      "pokemon": [
+        {
+          "pid": 913,
+          "name": "Perrserker",
+          "slug": "perrserker",
+          "types": [
+            "Acero"
           ]
         }
       ]
@@ -346673,15 +347003,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Dragón",
             "Lucha"
-          ]
-        },
-        {
-          "pid": 951,
-          "name": "Ursaluna",
-          "slug": "ursaluna",
-          "types": [
-            "Tierra",
-            "Normal"
           ]
         }
       ]
@@ -346827,98 +347148,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Armadura Batalla",
-      "desc": "La robusta coraza que lo protege bloquea los golpes críticos.",
-      "pokemon": [
-        {
-          "pid": 140,
-          "name": "Kabuto",
-          "slug": "kabuto",
-          "types": [
-            "Roca",
-            "Agua"
-          ]
-        },
-        {
-          "pid": 141,
-          "name": "Kabutops",
-          "slug": "kabutops",
-          "types": [
-            "Roca",
-            "Agua"
-          ]
-        },
-        {
-          "pid": 347,
-          "name": "Anorith",
-          "slug": "anorith",
-          "types": [
-            "Roca",
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 348,
-          "name": "Armaldo",
-          "slug": "armaldo",
-          "types": [
-            "Roca",
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 451,
-          "name": "Skorupi",
-          "slug": "skorupi",
-          "types": [
-            "Veneno",
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 452,
-          "name": "Drapion",
-          "slug": "drapion",
-          "types": [
-            "Veneno",
-            "Siniestro"
-          ]
-        },
-        {
-          "pid": 822,
-          "name": "Cód. Cero",
-          "slug": "cdcero",
-          "types": [
-            "Normal"
-          ]
-        },
-        {
-          "pid": 823,
-          "name": "Silvally",
-          "slug": "silvally",
-          "types": [
-            "Normal"
-          ]
-        },
-        {
-          "pid": 913,
-          "name": "Perrserker",
-          "slug": "perrserker",
-          "types": [
-            "Acero"
-          ]
-        },
-        {
-          "pid": 920,
-          "name": "Falinks",
-          "slug": "falinks",
-          "types": [
-            "Lucha"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Armadura Frágil",
       "desc": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
       "pokemon": [
@@ -346986,20 +347215,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Fantasma"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Armadura Prisma",
-      "desc": "Mitiga el daño que le infligen los movimientos supereficaces.",
-      "pokemon": [
-        {
-          "pid": 850,
-          "name": "Necrozma",
-          "slug": "necrozma",
-          "types": [
-            "Psíquico"
           ]
         }
       ]
@@ -347206,6 +347421,23 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 946,
+          "name": "Glastrier",
+          "slug": "glastrier",
+          "types": [
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 948,
+          "name": "Calyrex",
+          "slug": "calyrex",
+          "types": [
+            "Psíquico",
+            "Planta"
+          ]
+        },
+        {
           "pid": 962,
           "name": "Quaxly",
           "slug": "quaxly",
@@ -347285,21 +347517,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Batería",
-      "desc": "Potencia los ataques especiales de los aliados.",
-      "pokemon": [
-        {
-          "pid": 787,
-          "name": "Charjabug",
-          "slug": "charjabug",
-          "types": [
-            "Bicho",
-            "Eléctrico"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Bromista",
       "desc": "Sus movimientos de estado tienen prioridad alta.",
       "pokemon": [
@@ -347310,6 +347527,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Siniestro",
             "Fantasma"
+          ]
+        },
+        {
+          "pid": 313,
+          "name": "Volbeat",
+          "slug": "volbeat",
+          "types": [
+            "Bicho"
           ]
         },
         {
@@ -347381,21 +347606,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Siniestro",
             "Hada"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Bucle Aire",
-      "desc": "Neutraliza todos los efectos del tiempo atmosférico.",
-      "pokemon": [
-        {
-          "pid": 384,
-          "name": "Rayquaza",
-          "slug": "rayquaza",
-          "types": [
-            "Dragón",
-            "Volador"
           ]
         }
       ]
@@ -347774,15 +347984,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1065,
-          "name": "Munkidori",
-          "slug": "munkidori",
-          "types": [
-            "Veneno",
-            "Psíquico"
-          ]
-        },
-        {
           "pid": "157_hisui",
           "name": "Typhlosion de Hisui",
           "slug": "typhlosion-hisui",
@@ -347798,6 +347999,39 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cadena Tóxica",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1064,
+          "name": "Okidogi",
+          "slug": "okidogi",
+          "types": [
+            "Veneno",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1065,
+          "name": "Munkidori",
+          "slug": "munkidori",
+          "types": [
+            "Veneno",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1066,
+          "name": "Fezanditi",
+          "slug": "fezanditi",
+          "types": [
+            "Veneno",
+            "Hada"
           ]
         }
       ]
@@ -347852,6 +348086,21 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Caldero Debacle",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1053,
+          "name": "Ting-Lu",
+          "slug": "tinglu",
+          "types": [
+            "Siniestro",
+            "Tierra"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Cambio Color",
       "desc": "Adopta el tipo del último movimiento del que es blanco.",
       "pokemon": [
@@ -347861,6 +348110,28 @@ window.CHIRLGOLD_DATA = {
           "slug": "kecleon",
           "types": [
             "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cambio Heroico",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1013,
+          "name": "Finizen",
+          "slug": "finizen",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1014,
+          "name": "Palafin",
+          "slug": "palafin",
+          "types": [
+            "Agua"
           ]
         }
       ]
@@ -347876,6 +348147,30 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Acero",
             "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa Tóxica",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1019,
+          "name": "Glimmet",
+          "slug": "glimmet",
+          "types": [
+            "Roca",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1020,
+          "name": "Glimmora",
+          "slug": "glimmora",
+          "types": [
+            "Roca",
+            "Veneno"
           ]
         }
       ]
@@ -347945,6 +348240,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 140,
+          "name": "Kabuto",
+          "slug": "kabuto",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 141,
+          "name": "Kabutops",
+          "slug": "kabutops",
+          "types": [
+            "Roca",
+            "Agua"
+          ]
+        },
+        {
           "pid": 341,
           "name": "Corphish",
           "slug": "corphish",
@@ -347959,6 +348272,24 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Siniestro"
+          ]
+        },
+        {
+          "pid": 347,
+          "name": "Anorith",
+          "slug": "anorith",
+          "types": [
+            "Roca",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 348,
+          "name": "Armaldo",
+          "slug": "armaldo",
+          "types": [
+            "Roca",
+            "Bicho"
           ]
         },
         {
@@ -347992,6 +348323,24 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Tierra"
+          ]
+        },
+        {
+          "pid": 451,
+          "name": "Skorupi",
+          "slug": "skorupi",
+          "types": [
+            "Veneno",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 452,
+          "name": "Drapion",
+          "slug": "drapion",
+          "types": [
+            "Veneno",
+            "Siniestro"
           ]
         },
         {
@@ -348054,6 +348403,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 822,
+          "name": "Cód. Cero",
+          "slug": "cdcero",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
+          "pid": 823,
+          "name": "Silvally",
+          "slug": "silvally",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
           "pid": 826,
           "name": "Turtonator",
           "slug": "turtonator",
@@ -348080,11 +348445,11 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1000,
-          "name": "Klawf",
-          "slug": "klawf",
+          "pid": 920,
+          "name": "Falinks",
+          "slug": "falinks",
           "types": [
-            "Roca"
+            "Lucha"
           ]
         },
         {
@@ -348117,6 +348482,102 @@ window.CHIRLGOLD_DATA = {
           "slug": "eiscue",
           "types": [
             "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carga Cuark",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1040,
+          "name": "Ferrodada",
+          "slug": "irontreads",
+          "types": [
+            "Tierra",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 1041,
+          "name": "Ferrosaco",
+          "slug": "ironbundle",
+          "types": [
+            "Hielo",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1042,
+          "name": "Ferropalma",
+          "slug": "ferropalma",
+          "types": [
+            "Lucha",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 1043,
+          "name": "Ferrocuell",
+          "slug": "ferrocuell",
+          "types": [
+            "Siniestro",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 1044,
+          "name": "Ferropolil",
+          "slug": "ferropolil",
+          "types": [
+            "Fuego",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1045,
+          "name": "Ferropúas",
+          "slug": "ferropas",
+          "types": [
+            "Roca",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 1056,
+          "name": "Ferropalad",
+          "slug": "ferropalad",
+          "types": [
+            "Hada",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1060,
+          "name": "Ferroverdo",
+          "slug": "ferroverdo",
+          "types": [
+            "Planta",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1072,
+          "name": "Ferromole",
+          "slug": "ironboulder",
+          "types": [
+            "Roca",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1073,
+          "name": "Ferrotesta",
+          "slug": "ironcrown",
+          "types": [
+            "Acero",
+            "Psíquico"
           ]
         }
       ]
@@ -348195,22 +348656,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "gigalith",
           "types": [
             "Roca"
-          ]
-        },
-        {
-          "pid": 893,
-          "name": "Silicobra",
-          "slug": "silicobra",
-          "types": [
-            "Tierra"
-          ]
-        },
-        {
-          "pid": 894,
-          "name": "Sandaconda",
-          "slug": "sandaconda",
-          "types": [
-            "Tierra"
           ]
         }
       ]
@@ -348618,96 +349063,6 @@ window.CHIRLGOLD_DATA = {
       "desc": "Duplica su Velocidad si hay un campo eléctrico en el terreno de combate.",
       "pokemon": [
         {
-          "pid": 1040,
-          "name": "Ferrodada",
-          "slug": "irontreads",
-          "types": [
-            "Tierra",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 1041,
-          "name": "Ferrosaco",
-          "slug": "ironbundle",
-          "types": [
-            "Hielo",
-            "Agua"
-          ]
-        },
-        {
-          "pid": 1042,
-          "name": "Ferropalma",
-          "slug": "ferropalma",
-          "types": [
-            "Lucha",
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 1043,
-          "name": "Ferrocuell",
-          "slug": "ferrocuell",
-          "types": [
-            "Siniestro",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 1044,
-          "name": "Ferropolil",
-          "slug": "ferropolil",
-          "types": [
-            "Fuego",
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 1045,
-          "name": "Ferropúas",
-          "slug": "ferropas",
-          "types": [
-            "Roca",
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 1056,
-          "name": "Ferropalad",
-          "slug": "ferropalad",
-          "types": [
-            "Hada",
-            "Lucha"
-          ]
-        },
-        {
-          "pid": 1060,
-          "name": "Ferroverdo",
-          "slug": "ferroverdo",
-          "types": [
-            "Planta",
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 1072,
-          "name": "Ferromole",
-          "slug": "ironboulder",
-          "types": [
-            "Roca",
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 1073,
-          "name": "Ferrotesta",
-          "slug": "ironcrown",
-          "types": [
-            "Acero",
-            "Psíquico"
-          ]
-        },
-        {
           "pid": "26_alola",
           "name": "Raichu de Alola",
           "slug": "raichu-alola",
@@ -348785,6 +349140,38 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Combustible",
+      "desc": "Si le alcanza un movimiento de tipo Fuego o Agua, le sube muchísimo la Velocidad.",
+      "pokemon": [
+        {
+          "pid": 887,
+          "name": "Rolycoly",
+          "slug": "rolycoly",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 888,
+          "name": "Carkol",
+          "slug": "carkol",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 889,
+          "name": "Coalossal",
+          "slug": "coalossal",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Competitivo",
       "desc": "Sube mucho su Ataque cuando el rival le baja las características.",
       "pokemon": [
@@ -348824,23 +349211,53 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Compiescolta",
-      "desc": "Reduce el daño que sufren los aliados.",
+      "name": "Coraza Ira",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
       "pokemon": [
         {
-          "pid": 715,
-          "name": "Spewpa",
-          "slug": "spewpa",
+          "pid": 1000,
+          "name": "Klawf",
+          "slug": "klawf",
           "types": [
-            "Bicho"
+            "Roca"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coraza Reflejo",
+      "desc": "Refleja los efectos que reducen las características.",
+      "pokemon": [
+        {
+          "pid": 873,
+          "name": "Corviknite",
+          "slug": "corviknite",
+          "types": [
+            "Volador",
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corazón Alma",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 947,
+          "name": "Spectrier",
+          "slug": "spectrier",
+          "types": [
+            "Fantasma"
           ]
         },
         {
-          "pid": 975,
-          "name": "Maushold",
-          "slug": "maushold",
+          "pid": 948,
+          "name": "Calyrex",
+          "slug": "calyrex",
           "types": [
-            "Normal"
+            "Psíquico",
+            "Planta"
           ]
         }
       ]
@@ -348868,24 +349285,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1019,
-          "name": "Glimmet",
-          "slug": "glimmet",
-          "types": [
-            "Roca",
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 1020,
-          "name": "Glimmora",
-          "slug": "glimmora",
-          "types": [
-            "Roca",
-            "Veneno"
-          ]
-        },
-        {
           "pid": 1075,
           "name": "Pecharunt",
           "slug": "pecharunt",
@@ -348900,6 +349299,33 @@ window.CHIRLGOLD_DATA = {
       "name": "Cortante",
       "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
       "pokemon": [
+        {
+          "pid": 475,
+          "name": "Gallade",
+          "slug": "gallade",
+          "types": [
+            "Psíquico",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 950,
+          "name": "Kleavor",
+          "slug": "kleavor",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 1026,
+          "name": "Veluza",
+          "slug": "veluza",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
         {
           "pid": "503_hisui",
           "name": "Samurott de Hisui",
@@ -349100,6 +349526,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 555,
+          "name": "Watchog",
+          "slug": "watchog",
+          "types": [
+            "Normal"
+          ]
+        },
+        {
           "pid": 969,
           "name": "Nymble",
           "slug": "nymble",
@@ -349114,6 +349548,20 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Bicho",
             "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Horneado",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 977,
+          "name": "Dachsbun",
+          "slug": "dachsbun",
+          "types": [
+            "Hada"
           ]
         }
       ]
@@ -349248,24 +349696,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 888,
-          "name": "Carkol",
-          "slug": "carkol",
-          "types": [
-            "Roca",
-            "Fuego"
-          ]
-        },
-        {
-          "pid": 889,
-          "name": "Coalossal",
-          "slug": "coalossal",
-          "types": [
-            "Roca",
-            "Fuego"
-          ]
-        },
-        {
           "pid": 985,
           "name": "Charcadet",
           "slug": "charcadet",
@@ -349371,6 +349801,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 324,
+          "name": "Torkoal",
+          "slug": "torkoal",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
           "pid": 374,
           "name": "Beldum",
           "slug": "beldum",
@@ -349464,6 +349902,33 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 841,
+          "name": "Solgaleo",
+          "slug": "solgaleo",
+          "types": [
+            "Psíquico",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 900,
+          "name": "Sizzlipede",
+          "slug": "sizzlipede",
+          "types": [
+            "Fuego",
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 901,
+          "name": "Centskorch",
+          "slug": "centskorch",
+          "types": [
+            "Fuego",
+            "Bicho"
+          ]
+        },
+        {
           "pid": 935,
           "name": "Dreepy",
           "slug": "dreepy",
@@ -349489,31 +349954,13 @@ window.CHIRLGOLD_DATA = {
             "Dragón",
             "Fantasma"
           ]
-        },
-        {
-          "pid": 982,
-          "name": "Nacli",
-          "slug": "nacli",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 983,
-          "name": "Naclstack",
-          "slug": "naclstack",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 984,
-          "name": "Garganacl",
-          "slug": "garganacl",
-          "types": [
-            "Roca"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Cuerpo Áureo",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
         {
           "pid": 1050,
           "name": "Gholdengo",
@@ -349521,21 +349968,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Acero",
             "Fantasma"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Cuerpo Vívido",
-      "desc": "Desconcierta al rival y le impide utilizar movimientos con prioridad en su contra.",
-      "pokemon": [
-        {
-          "pid": 829,
-          "name": "Bruxish",
-          "slug": "bruxish",
-          "types": [
-            "Agua",
-            "Psíquico"
           ]
         }
       ]
@@ -349578,6 +350010,24 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Bicho",
             "Agua"
+          ]
+        },
+        {
+          "pid": 805,
+          "name": "Morelull",
+          "slug": "morelull",
+          "types": [
+            "Planta",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 806,
+          "name": "Shiinotic",
+          "slug": "shiinotic",
+          "types": [
+            "Planta",
+            "Hada"
           ]
         }
       ]
@@ -350216,6 +350666,28 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Dinamo",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 988,
+          "name": "Tadbulb",
+          "slug": "tadbulb",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 989,
+          "name": "Bellibolt",
+          "slug": "bellibolt",
+          "types": [
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Disfraz",
       "desc": "Puede eludir un ataque valiéndose de la tela que le cubre el cuerpo una vez por combate.",
       "pokemon": [
@@ -350317,24 +350789,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Hada"
-          ]
-        },
-        {
-          "pid": 998,
-          "name": "Toedscool",
-          "slug": "toedscool",
-          "types": [
-            "Tierra",
-            "Planta"
-          ]
-        },
-        {
-          "pid": 999,
-          "name": "Toedscruel",
-          "slug": "toedscruel",
-          "types": [
-            "Tierra",
-            "Planta"
           ]
         }
       ]
@@ -350449,6 +350903,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 311,
+          "name": "Plusle",
+          "slug": "plusle",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 312,
+          "name": "Minun",
+          "slug": "minun",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 637,
           "name": "Emolga",
           "slug": "emolga",
@@ -350463,6 +350933,15 @@ window.CHIRLGOLD_DATA = {
           "slug": "stunfisk",
           "types": [
             "Tierra",
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 787,
+          "name": "Charjabug",
+          "slug": "charjabug",
+          "types": [
+            "Bicho",
             "Eléctrico"
           ]
         },
@@ -350488,22 +350967,6 @@ window.CHIRLGOLD_DATA = {
           "pid": 971,
           "name": "Pawmi",
           "slug": "pawmi",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 988,
-          "name": "Tadbulb",
-          "slug": "tadbulb",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 989,
-          "name": "Bellibolt",
-          "slug": "bellibolt",
           "types": [
             "Eléctrico"
           ]
@@ -350547,15 +351010,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "pincurchin",
           "types": [
             "Eléctrico"
-          ]
-        },
-        {
-          "pid": 1058,
-          "name": "Miraidon",
-          "slug": "miraidon",
-          "types": [
-            "Eléctrico",
-            "Dragón"
           ]
         }
       ]
@@ -350692,25 +351146,25 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Energía Pura",
-      "desc": "Duplica la potencia de sus ataques físicos gracias al yoga.",
+      "name": "Energía Eólica",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
       "pokemon": [
         {
-          "pid": 307,
-          "name": "Meditite",
-          "slug": "meditite",
+          "pid": 990,
+          "name": "Wattrel",
+          "slug": "wattrel",
           "types": [
-            "Lucha",
-            "Psíquico"
+            "Eléctrico",
+            "Volador"
           ]
         },
         {
-          "pid": 308,
-          "name": "Medicham",
-          "slug": "medicham",
+          "pid": 991,
+          "name": "Kilowatrel",
+          "slug": "kilowatrel",
           "types": [
-            "Lucha",
-            "Psíquico"
+            "Eléctrico",
+            "Volador"
           ]
         }
       ]
@@ -350817,6 +351271,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 415,
+          "name": "Combee",
+          "slug": "combee",
+          "types": [
+            "Bicho",
+            "Volador"
+          ]
+        },
+        {
           "pid": 590,
           "name": "Sewaddle",
           "slug": "sewaddle",
@@ -350887,6 +351350,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 787,
+          "name": "Charjabug",
+          "slug": "charjabug",
+          "types": [
+            "Bicho",
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 874,
           "name": "Blipbug",
           "slug": "blipbug",
@@ -350910,15 +351382,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Bicho",
             "Psíquico"
-          ]
-        },
-        {
-          "pid": 950,
-          "name": "Kleavor",
-          "slug": "kleavor",
-          "types": [
-            "Bicho",
-            "Roca"
           ]
         },
         {
@@ -351140,6 +351603,49 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Tierra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escudo Recio",
+      "desc": "Aumenta su Defensa al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 939,
+          "name": "Zamazenta",
+          "slug": "zamazenta",
+          "types": [
+            "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espada Debacle",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1052,
+          "name": "Chien-Pao",
+          "slug": "chienpao",
+          "types": [
+            "Siniestro",
+            "Hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espada Indómita",
+      "desc": "Aumenta su Ataque al entrar en combate.",
+      "pokemon": [
+        {
+          "pid": 938,
+          "name": "Zacian",
+          "slug": "zacian",
+          "types": [
+            "Hada"
           ]
         }
       ]
@@ -351480,6 +351986,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 96,
+          "name": "Drowzee",
+          "slug": "drowzee",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 97,
+          "name": "Hypno",
+          "slug": "hypno",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
           "pid": 125,
           "name": "Electabuzz",
           "slug": "electabuzz",
@@ -351494,6 +352016,51 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Agua"
+          ]
+        },
+        {
+          "pid": 163,
+          "name": "Hoothoot",
+          "slug": "hoothoot",
+          "types": [
+            "Normal",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 164,
+          "name": "Noctowl",
+          "slug": "noctowl",
+          "types": [
+            "Fantasma",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 167,
+          "name": "Spinarak",
+          "slug": "spinarak",
+          "types": [
+            "Bicho",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 168,
+          "name": "Ariados",
+          "slug": "ariados",
+          "types": [
+            "Bicho",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 198,
+          "name": "Murkrow",
+          "slug": "murkrow",
+          "types": [
+            "Siniestro",
+            "Volador"
           ]
         },
         {
@@ -351531,6 +352098,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 353,
+          "name": "Shuppet",
+          "slug": "shuppet",
+          "types": [
+            "Fantasma",
+            "Normal"
+          ]
+        },
+        {
+          "pid": 354,
+          "name": "Banette",
+          "slug": "banette",
+          "types": [
+            "Fantasma",
+            "Normal"
+          ]
+        },
+        {
           "pid": 393,
           "name": "Piplup",
           "slug": "piplup",
@@ -351553,6 +352138,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Acero"
+          ]
+        },
+        {
+          "pid": 430,
+          "name": "Honchkrow",
+          "slug": "honchkrow",
+          "types": [
+            "Siniestro",
+            "Volador"
           ]
         },
         {
@@ -351590,11 +352184,36 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 993,
-          "name": "Mabosstiff",
-          "slug": "mabosstiff",
+          "pid": 967,
+          "name": "Tarountula",
+          "slug": "tarountula",
           "types": [
-            "Siniestro"
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 968,
+          "name": "Spidops",
+          "slug": "spidops",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 1001,
+          "name": "Capsakid",
+          "slug": "capsakid",
+          "types": [
+            "Planta"
+          ]
+        },
+        {
+          "pid": 1002,
+          "name": "Scovillain",
+          "slug": "scovillain",
+          "types": [
+            "Planta",
+            "Fuego"
           ]
         },
         {
@@ -351722,6 +352341,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 899,
+          "name": "Toxtricity",
+          "slug": "toxtricity",
+          "types": [
+            "Eléctrico",
+            "Veneno"
+          ]
+        },
+        {
           "pid": 902,
           "name": "Clobbopus",
           "slug": "clobbopus",
@@ -351735,6 +352363,36 @@ window.CHIRLGOLD_DATA = {
           "slug": "grapploct",
           "types": [
             "Lucha"
+          ]
+        },
+        {
+          "pid": 975,
+          "name": "Maushold",
+          "slug": "maushold",
+          "types": [
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expulsarena",
+      "desc": "Provoca una tormenta de arena al recibir un ataque.",
+      "pokemon": [
+        {
+          "pid": 893,
+          "name": "Silicobra",
+          "slug": "silicobra",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 894,
+          "name": "Sandaconda",
+          "slug": "sandaconda",
+          "types": [
+            "Tierra"
           ]
         }
       ]
@@ -351780,6 +352438,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 323,
+          "name": "Camerupt",
+          "slug": "camerupt",
+          "types": [
+            "Fuego",
+            "Tierra"
+          ]
+        },
+        {
           "pid": 439,
           "name": "Mime Jr.",
           "slug": "mimejr",
@@ -351789,21 +352456,47 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 464,
+          "name": "Rhyperior",
+          "slug": "rhyperior",
+          "types": [
+            "Tierra",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 614,
+          "name": "Tirtouga",
+          "slug": "tirtouga",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 615,
+          "name": "Carracosta",
+          "slug": "carracosta",
+          "types": [
+            "Agua",
+            "Roca"
+          ]
+        },
+        {
+          "pid": 850,
+          "name": "Necrozma",
+          "slug": "necrozma",
+          "types": [
+            "Psíquico"
+          ]
+        },
+        {
           "pid": 1016,
           "name": "Revavroom",
           "slug": "revavroom",
           "types": [
             "Acero",
             "Veneno"
-          ]
-        },
-        {
-          "pid": 1050,
-          "name": "Gholdengo",
-          "slug": "gholdengo",
-          "types": [
-            "Acero",
-            "Fantasma"
           ]
         }
       ]
@@ -352041,24 +352734,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "barbaracle",
           "types": [
             "Roca",
-            "Agua"
-          ]
-        },
-        {
-          "pid": 817,
-          "name": "Wimpod",
-          "slug": "wimpod",
-          "types": [
-            "Bicho",
-            "Agua"
-          ]
-        },
-        {
-          "pid": 818,
-          "name": "Golisopod",
-          "slug": "golisopod",
-          "types": [
-            "Bicho",
             "Agua"
           ]
         },
@@ -352663,14 +353338,6 @@ window.CHIRLGOLD_DATA = {
             "Roca",
             "Agua"
           ]
-        },
-        {
-          "pid": 913,
-          "name": "Perrserker",
-          "slug": "perrserker",
-          "types": [
-            "Acero"
-          ]
         }
       ]
     },
@@ -352679,12 +353346,57 @@ window.CHIRLGOLD_DATA = {
       "desc": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate.",
       "pokemon": [
         {
+          "pid": 109,
+          "name": "Koffing",
+          "slug": "koffing",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 110,
+          "name": "Weezing",
+          "slug": "weezing",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
           "pid": "110_galar",
           "name": "Weezing de Galar",
           "slug": "weezing-galar",
           "types": [
             "Veneno",
             "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Supremo",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1033,
+          "name": "Kingambit",
+          "slug": "kingambit",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geofagia",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1018,
+          "name": "Orthworm",
+          "slug": "orthworm",
+          "types": [
+            "Acero"
           ]
         }
       ]
@@ -352807,36 +353519,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Hada",
             "Volador"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Guardia Espectro",
-      "desc": "Reduce el daño que sufre si sus PS están al máximo.",
-      "pokemon": [
-        {
-          "pid": 842,
-          "name": "Lunala",
-          "slug": "lunala",
-          "types": [
-            "Psíquico",
-            "Fantasma"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Guardia Metálica",
-      "desc": "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
-      "pokemon": [
-        {
-          "pid": 841,
-          "name": "Solgaleo",
-          "slug": "solgaleo",
-          "types": [
-            "Psíquico",
-            "Acero"
           ]
         }
       ]
@@ -352967,33 +353649,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "greedent",
           "types": [
             "Normal"
-          ]
-        },
-        {
-          "pid": 890,
-          "name": "Applin",
-          "slug": "applin",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 891,
-          "name": "Flapple",
-          "slug": "flapple",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 892,
-          "name": "Appletun",
-          "slug": "appletun",
-          "types": [
-            "Planta",
-            "Dragón"
           ]
         },
         {
@@ -353142,33 +353797,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "arctovish",
           "types": [
             "Agua",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1046,
-          "name": "Frigibax",
-          "slug": "frigibax",
-          "types": [
-            "Dragón",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1047,
-          "name": "Arctibax",
-          "slug": "arctibax",
-          "types": [
-            "Dragón",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1048,
-          "name": "Baxcalibur",
-          "slug": "baxcalibur",
-          "types": [
-            "Dragón",
             "Hielo"
           ]
         }
@@ -353371,15 +353999,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Normal",
             "Dragón"
-          ]
-        },
-        {
-          "pid": 1031,
-          "name": "Farigiraf",
-          "slug": "farigiraf",
-          "types": [
-            "Normal",
-            "Psíquico"
           ]
         },
         {
@@ -353652,62 +354271,6 @@ window.CHIRLGOLD_DATA = {
             "Agua",
             "Tierra"
           ]
-        },
-        {
-          "pid": 989,
-          "name": "Bellibolt",
-          "slug": "bellibolt",
-          "types": [
-            "Eléctrico"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Humo Blanco",
-      "desc": "El humo blanco que lo protege evita que otros Pokémon le bajen las características.",
-      "pokemon": [
-        {
-          "pid": 109,
-          "name": "Koffing",
-          "slug": "koffing",
-          "types": [
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 110,
-          "name": "Weezing",
-          "slug": "weezing",
-          "types": [
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 324,
-          "name": "Torkoal",
-          "slug": "torkoal",
-          "types": [
-            "Fuego"
-          ]
-        },
-        {
-          "pid": 900,
-          "name": "Sizzlipede",
-          "slug": "sizzlipede",
-          "types": [
-            "Fuego",
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 901,
-          "name": "Centskorch",
-          "slug": "centskorch",
-          "types": [
-            "Fuego",
-            "Bicho"
-          ]
         }
       ]
     },
@@ -353715,15 +354278,6 @@ window.CHIRLGOLD_DATA = {
       "name": "Hurto",
       "desc": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
       "pokemon": [
-        {
-          "pid": 275,
-          "name": "Shiftry",
-          "slug": "shiftry",
-          "types": [
-            "Planta",
-            "Siniestro"
-          ]
-        },
         {
           "pid": 461,
           "name": "Weavile",
@@ -353854,14 +354408,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 887,
-          "name": "Rolycoly",
-          "slug": "rolycoly",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
           "pid": 1062,
           "name": "Polchgeist",
           "slug": "polchgeist",
@@ -353877,63 +354423,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Fantasma"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Iluminación",
-      "desc": "Aumenta la probabilidad de encontrar Pokémon al iluminar el entorno.",
-      "pokemon": [
-        {
-          "pid": 120,
-          "name": "Staryu",
-          "slug": "staryu",
-          "types": [
-            "Agua"
-          ]
-        },
-        {
-          "pid": 121,
-          "name": "Starmie",
-          "slug": "starmie",
-          "types": [
-            "Agua",
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 313,
-          "name": "Volbeat",
-          "slug": "volbeat",
-          "types": [
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 555,
-          "name": "Watchog",
-          "slug": "watchog",
-          "types": [
-            "Normal"
-          ]
-        },
-        {
-          "pid": 805,
-          "name": "Morelull",
-          "slug": "morelull",
-          "types": [
-            "Planta",
-            "Hada"
-          ]
-        },
-        {
-          "pid": 806,
-          "name": "Shiinotic",
-          "slug": "shiinotic",
-          "types": [
-            "Planta",
-            "Hada"
           ]
         }
       ]
@@ -354005,15 +354494,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Lucha",
             "Acero"
-          ]
-        },
-        {
-          "pid": 475,
-          "name": "Gallade",
-          "slug": "gallade",
-          "types": [
-            "Psíquico",
-            "Lucha"
           ]
         },
         {
@@ -354335,133 +354815,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "zangoose",
           "types": [
             "Normal"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Insomnio",
-      "desc": "Su resistencia al sueño le impide quedarse dormido.",
-      "pokemon": [
-        {
-          "pid": 96,
-          "name": "Drowzee",
-          "slug": "drowzee",
-          "types": [
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 97,
-          "name": "Hypno",
-          "slug": "hypno",
-          "types": [
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 163,
-          "name": "Hoothoot",
-          "slug": "hoothoot",
-          "types": [
-            "Normal",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 164,
-          "name": "Noctowl",
-          "slug": "noctowl",
-          "types": [
-            "Fantasma",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 167,
-          "name": "Spinarak",
-          "slug": "spinarak",
-          "types": [
-            "Bicho",
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 168,
-          "name": "Ariados",
-          "slug": "ariados",
-          "types": [
-            "Bicho",
-            "Siniestro"
-          ]
-        },
-        {
-          "pid": 198,
-          "name": "Murkrow",
-          "slug": "murkrow",
-          "types": [
-            "Siniestro",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 353,
-          "name": "Shuppet",
-          "slug": "shuppet",
-          "types": [
-            "Fantasma",
-            "Normal"
-          ]
-        },
-        {
-          "pid": 354,
-          "name": "Banette",
-          "slug": "banette",
-          "types": [
-            "Fantasma",
-            "Normal"
-          ]
-        },
-        {
-          "pid": 430,
-          "name": "Honchkrow",
-          "slug": "honchkrow",
-          "types": [
-            "Siniestro",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 967,
-          "name": "Tarountula",
-          "slug": "tarountula",
-          "types": [
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 968,
-          "name": "Spidops",
-          "slug": "spidops",
-          "types": [
-            "Bicho"
-          ]
-        },
-        {
-          "pid": 1001,
-          "name": "Capsakid",
-          "slug": "capsakid",
-          "types": [
-            "Planta"
-          ]
-        },
-        {
-          "pid": 1002,
-          "name": "Scovillain",
-          "slug": "scovillain",
-          "types": [
-            "Planta",
-            "Fuego"
           ]
         }
       ]
@@ -354842,42 +355195,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1051,
-          "name": "Wo-Chien",
-          "slug": "wochien",
-          "types": [
-            "Siniestro",
-            "Planta"
-          ]
-        },
-        {
-          "pid": 1052,
-          "name": "Chien-Pao",
-          "slug": "chienpao",
-          "types": [
-            "Siniestro",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1053,
-          "name": "Ting-Lu",
-          "slug": "tinglu",
-          "types": [
-            "Siniestro",
-            "Tierra"
-          ]
-        },
-        {
-          "pid": 1054,
-          "name": "Chi-Yu",
-          "slug": "chiyu",
-          "types": [
-            "Siniestro",
-            "Fuego"
-          ]
-        },
-        {
           "pid": "59_hisui",
           "name": "Arcanine de Hisui",
           "slug": "arcanine-hisui",
@@ -355064,6 +355381,21 @@ window.CHIRLGOLD_DATA = {
           "slug": "falinks",
           "types": [
             "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Latido Oricalco",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1057,
+          "name": "Koraidon",
+          "slug": "koraidon",
+          "types": [
+            "Lucha",
+            "Dragón"
           ]
         }
       ]
@@ -355359,15 +355691,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 997,
-          "name": "Bramblgast",
-          "slug": "bramblgast",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
-        },
-        {
           "pid": "110_galar",
           "name": "Weezing de Galar",
           "slug": "weezing-galar",
@@ -355583,36 +355906,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Líbero",
-      "desc": "Cambia su tipo al del movimiento que va a usar.",
-      "pokemon": [
-        {
-          "pid": 863,
-          "name": "Scorbunny",
-          "slug": "scorbunny",
-          "types": [
-            "Fuego"
-          ]
-        },
-        {
-          "pid": 864,
-          "name": "Raboot",
-          "slug": "raboot",
-          "types": [
-            "Fuego"
-          ]
-        },
-        {
-          "pid": 865,
-          "name": "Cinderace",
-          "slug": "cinderace",
-          "types": [
-            "Fuego"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Madrugar",
       "desc": "Si se duerme, tardará la mitad de tiempo en despertarse.",
       "pokemon": [
@@ -355705,15 +355998,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 890,
-          "name": "Applin",
-          "slug": "applin",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
           "pid": 978,
           "name": "Smoliv",
           "slug": "smoliv",
@@ -355734,6 +356018,39 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Maduración",
+      "desc": "Hace madurar las bayas, por lo que duplica sus efectos.",
+      "pokemon": [
+        {
+          "pid": 890,
+          "name": "Applin",
+          "slug": "applin",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 891,
+          "name": "Flapple",
+          "slug": "flapple",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 892,
+          "name": "Appletun",
+          "slug": "appletun",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Mal Sueño",
       "desc": "Inflige daño a cualquier rival que esté dormido.",
       "pokemon": [
@@ -355743,6 +356060,20 @@ window.CHIRLGOLD_DATA = {
           "slug": "darkrai",
           "types": [
             "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mandíbula Dragón",
+      "desc": "Potencia los movimientos de tipo Dragón.",
+      "pokemon": [
+        {
+          "pid": 945,
+          "name": "Regidrago",
+          "slug": "regidrago",
+          "types": [
+            "Dragón"
           ]
         }
       ]
@@ -355834,6 +356165,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Roca"
+          ]
+        },
+        {
+          "pid": 885,
+          "name": "Yamper",
+          "slug": "yamper",
+          "types": [
+            "Eléctrico"
           ]
         },
         {
@@ -356319,20 +356658,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Menos",
-      "desc": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
-      "pokemon": [
-        {
-          "pid": 312,
-          "name": "Minun",
-          "slug": "minun",
-          "types": [
-            "Eléctrico"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Metal Liviano",
       "desc": "Reduce a la mitad su peso.",
       "pokemon": [
@@ -356367,6 +356692,30 @@ window.CHIRLGOLD_DATA = {
           "pid": 379,
           "name": "Registeel",
           "slug": "registeel",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 649,
+          "name": "Klink",
+          "slug": "klink",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 650,
+          "name": "Klang",
+          "slug": "klang",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
+          "pid": 651,
+          "name": "Klinklang",
+          "slug": "klinklang",
           "types": [
             "Acero"
           ]
@@ -356445,6 +356794,21 @@ window.CHIRLGOLD_DATA = {
           "slug": "cofagrigus",
           "types": [
             "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Motor Hadrónico",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1058,
+          "name": "Miraidon",
+          "slug": "miraidon",
+          "types": [
+            "Eléctrico",
+            "Dragón"
           ]
         }
       ]
@@ -356587,31 +356951,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 891,
-          "name": "Flapple",
-          "slug": "flapple",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 893,
-          "name": "Silicobra",
-          "slug": "silicobra",
-          "types": [
-            "Tierra"
-          ]
-        },
-        {
-          "pid": 894,
-          "name": "Sandaconda",
-          "slug": "sandaconda",
-          "types": [
-            "Tierra"
-          ]
-        },
-        {
           "pid": 1003,
           "name": "Rellor",
           "slug": "rellor",
@@ -356666,6 +357005,23 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Psíquico",
             "Volador"
+          ]
+        },
+        {
+          "pid": 842,
+          "name": "Lunala",
+          "slug": "lunala",
+          "types": [
+            "Psíquico",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 1074,
+          "name": "Terapagos",
+          "slug": "terapagos",
+          "types": [
+            "Normal"
           ]
         }
       ]
@@ -356785,6 +357141,30 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 863,
+          "name": "Scorbunny",
+          "slug": "scorbunny",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 864,
+          "name": "Raboot",
+          "slug": "raboot",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 865,
+          "name": "Cinderace",
+          "slug": "cinderace",
+          "types": [
+            "Fuego"
+          ]
+        },
+        {
           "pid": 956,
           "name": "Sprigatito",
           "slug": "sprigatito",
@@ -356807,77 +357187,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Planta",
             "Siniestro"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Más",
-      "desc": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
-      "pokemon": [
-        {
-          "pid": 179,
-          "name": "Mareep",
-          "slug": "mareep",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 180,
-          "name": "Flaaffy",
-          "slug": "flaaffy",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 181,
-          "name": "Ampharos",
-          "slug": "ampharos",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 311,
-          "name": "Plusle",
-          "slug": "plusle",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 649,
-          "name": "Klink",
-          "slug": "klink",
-          "types": [
-            "Acero"
-          ]
-        },
-        {
-          "pid": 650,
-          "name": "Klang",
-          "slug": "klang",
-          "types": [
-            "Acero"
-          ]
-        },
-        {
-          "pid": 651,
-          "name": "Klinklang",
-          "slug": "klinklang",
-          "types": [
-            "Acero"
-          ]
-        },
-        {
-          "pid": 899,
-          "name": "Toxtricity",
-          "slug": "toxtricity",
-          "types": [
-            "Eléctrico",
-            "Veneno"
           ]
         }
       ]
@@ -357178,14 +357487,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1014,
-          "name": "Palafin",
-          "slug": "palafin",
-          "types": [
-            "Agua"
-          ]
-        },
-        {
           "pid": "211_hisui",
           "name": "Qwilfish de Hisui",
           "slug": "qwilfish-hisui",
@@ -357301,24 +357602,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Volador"
           ]
-        },
-        {
-          "pid": 873,
-          "name": "Corviknite",
-          "slug": "corviknite",
-          "types": [
-            "Volador",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 948,
-          "name": "Calyrex",
-          "slug": "calyrex",
-          "types": [
-            "Psíquico",
-            "Planta"
-          ]
         }
       ]
     },
@@ -357414,6 +357697,23 @@ window.CHIRLGOLD_DATA = {
           "slug": "venonat",
           "types": [
             "Bicho",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 120,
+          "name": "Staryu",
+          "slug": "staryu",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 121,
+          "name": "Starmie",
+          "slug": "starmie",
+          "types": [
+            "Agua",
             "Psíquico"
           ]
         },
@@ -357516,6 +357816,117 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Ojo Mental",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 951,
+          "name": "Ursaluna",
+          "slug": "ursaluna",
+          "types": [
+            "Tierra",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paleosíntesis",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1034,
+          "name": "Colmilargo",
+          "slug": "greattusk",
+          "types": [
+            "Tierra",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1035,
+          "name": "Colagrito",
+          "slug": "screamtail",
+          "types": [
+            "Hada",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1036,
+          "name": "Furioseta",
+          "slug": "furioseta",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1037,
+          "name": "Melenalete",
+          "slug": "melenalete",
+          "types": [
+            "Fantasma",
+            "Hada"
+          ]
+        },
+        {
+          "pid": 1038,
+          "name": "Reptalada",
+          "slug": "slitherwing",
+          "types": [
+            "Bicho",
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 1039,
+          "name": "Pelarena",
+          "slug": "sandyshocks",
+          "types": [
+            "Eléctrico",
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 1055,
+          "name": "Bramaluna",
+          "slug": "roaringmoon",
+          "types": [
+            "Dragón",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 1059,
+          "name": "Ondulagua",
+          "slug": "walkingwake",
+          "types": [
+            "Agua",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 1070,
+          "name": "Flamariete",
+          "slug": "gougingfire",
+          "types": [
+            "Fuego",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 1071,
+          "name": "Electrofur",
+          "slug": "electrofur",
+          "types": [
+            "Eléctrico",
+            "Dragón"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Pararrayos",
       "desc": "Atrae y neutraliza los movimientos de tipo Eléctrico, que además le suben el Ataque Especial.",
       "pokemon": [
@@ -357589,6 +358000,30 @@ window.CHIRLGOLD_DATA = {
           "pid": 172,
           "name": "Pichu",
           "slug": "pichu",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 179,
+          "name": "Mareep",
+          "slug": "mareep",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 180,
+          "name": "Flaaffy",
+          "slug": "flaaffy",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 181,
+          "name": "Ampharos",
+          "slug": "ampharos",
           "types": [
             "Eléctrico"
           ]
@@ -357757,6 +358192,20 @@ window.CHIRLGOLD_DATA = {
           "slug": "eldegoss",
           "types": [
             "Planta"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perro Guardián",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 993,
+          "name": "Mabosstiff",
+          "slug": "mabosstiff",
+          "types": [
+            "Siniestro"
           ]
         }
       ]
@@ -357982,11 +358431,38 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 647,
+          "name": "Ferroseed",
+          "slug": "ferroseed",
+          "types": [
+            "Planta",
+            "Acero"
+          ]
+        },
+        {
+          "pid": 648,
+          "name": "Ferrothorn",
+          "slug": "ferrothorn",
+          "types": [
+            "Planta",
+            "Acero"
+          ]
+        },
+        {
           "pid": 671,
           "name": "Druddigon",
           "slug": "druddigon",
           "types": [
             "Dragón"
+          ]
+        },
+        {
+          "pid": 827,
+          "name": "Togedemaru",
+          "slug": "togedemaru",
+          "types": [
+            "Eléctrico",
+            "Acero"
           ]
         }
       ]
@@ -358148,96 +358624,6 @@ window.CHIRLGOLD_DATA = {
             "Planta",
             "Volador"
           ]
-        },
-        {
-          "pid": 1034,
-          "name": "Colmilargo",
-          "slug": "greattusk",
-          "types": [
-            "Tierra",
-            "Lucha"
-          ]
-        },
-        {
-          "pid": 1035,
-          "name": "Colagrito",
-          "slug": "screamtail",
-          "types": [
-            "Hada",
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 1036,
-          "name": "Furioseta",
-          "slug": "furioseta",
-          "types": [
-            "Planta",
-            "Siniestro"
-          ]
-        },
-        {
-          "pid": 1037,
-          "name": "Melenalete",
-          "slug": "melenalete",
-          "types": [
-            "Fantasma",
-            "Hada"
-          ]
-        },
-        {
-          "pid": 1038,
-          "name": "Reptalada",
-          "slug": "slitherwing",
-          "types": [
-            "Bicho",
-            "Lucha"
-          ]
-        },
-        {
-          "pid": 1039,
-          "name": "Pelarena",
-          "slug": "sandyshocks",
-          "types": [
-            "Eléctrico",
-            "Tierra"
-          ]
-        },
-        {
-          "pid": 1055,
-          "name": "Bramaluna",
-          "slug": "roaringmoon",
-          "types": [
-            "Dragón",
-            "Siniestro"
-          ]
-        },
-        {
-          "pid": 1059,
-          "name": "Ondulagua",
-          "slug": "walkingwake",
-          "types": [
-            "Agua",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 1070,
-          "name": "Flamariete",
-          "slug": "gougingfire",
-          "types": [
-            "Fuego",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 1071,
-          "name": "Electrofur",
-          "slug": "electrofur",
-          "types": [
-            "Eléctrico",
-            "Dragón"
-          ]
         }
       ]
     },
@@ -358292,6 +358678,14 @@ window.CHIRLGOLD_DATA = {
           "pid": 714,
           "name": "Scatterbug",
           "slug": "scatterbug",
+          "types": [
+            "Bicho"
+          ]
+        },
+        {
+          "pid": 715,
+          "name": "Spewpa",
+          "slug": "spewpa",
           "types": [
             "Bicho"
           ]
@@ -358396,6 +358790,24 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Normal",
             "Hada"
+          ]
+        },
+        {
+          "pid": 307,
+          "name": "Meditite",
+          "slug": "meditite",
+          "types": [
+            "Lucha",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 308,
+          "name": "Medicham",
+          "slug": "medicham",
+          "types": [
+            "Lucha",
+            "Psíquico"
           ]
         },
         {
@@ -358545,15 +358957,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "copperajah",
           "types": [
             "Acero"
-          ]
-        },
-        {
-          "pid": 950,
-          "name": "Kleavor",
-          "slug": "kleavor",
-          "types": [
-            "Bicho",
-            "Roca"
           ]
         },
         {
@@ -358785,31 +359188,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 873,
-          "name": "Corviknite",
-          "slug": "corviknite",
-          "types": [
-            "Volador",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 938,
-          "name": "Zacian",
-          "slug": "zacian",
-          "types": [
-            "Hada"
-          ]
-        },
-        {
-          "pid": 939,
-          "name": "Zamazenta",
-          "slug": "zamazenta",
-          "types": [
-            "Lucha"
-          ]
-        },
-        {
           "pid": 940,
           "name": "Eternatus",
           "slug": "eternatus",
@@ -358825,15 +359203,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Lucha",
             "Veneno"
-          ]
-        },
-        {
-          "pid": 1033,
-          "name": "Kingambit",
-          "slug": "kingambit",
-          "types": [
-            "Siniestro",
-            "Acero"
           ]
         }
       ]
@@ -358931,34 +359300,16 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Punta Acero",
-      "desc": "Inflige daño al rival si este le golpea con un movimiento de contacto.",
+      "name": "Punk Rock",
+      "desc": "Potencia los movimientos que usan sonido y reduce a la mitad el daño que le infligen dichos movimientos.",
       "pokemon": [
         {
-          "pid": 647,
-          "name": "Ferroseed",
-          "slug": "ferroseed",
-          "types": [
-            "Planta",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 648,
-          "name": "Ferrothorn",
-          "slug": "ferrothorn",
-          "types": [
-            "Planta",
-            "Acero"
-          ]
-        },
-        {
-          "pid": 827,
-          "name": "Togedemaru",
-          "slug": "togedemaru",
+          "pid": 899,
+          "name": "Toxtricity",
+          "slug": "toxtricity",
           "types": [
             "Eléctrico",
-            "Acero"
+            "Veneno"
           ]
         }
       ]
@@ -359188,6 +359539,30 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Acero"
           ]
+        },
+        {
+          "pid": 951,
+          "name": "Ursaluna",
+          "slug": "ursaluna",
+          "types": [
+            "Tierra",
+            "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puño Invisible",
+      "desc": "Si usa un movimiento de contacto, puede infligir daño al objetivo aunque este se proteja.",
+      "pokemon": [
+        {
+          "pid": 942,
+          "name": "Urshifu",
+          "slug": "urshifu",
+          "types": [
+            "Lucha",
+            "Siniestro"
+          ]
         }
       ]
     },
@@ -359233,53 +359608,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "passimian",
           "types": [
             "Lucha"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Recogebolas",
-      "desc": "Si no lleva equipado ningún objeto, recupera la Poké Ball del primer intento de captura fallido.",
-      "pokemon": [
-        {
-          "pid": 885,
-          "name": "Yamper",
-          "slug": "yamper",
-          "types": [
-            "Eléctrico"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Recogemiel",
-      "desc": "Puede que encuentre Miel una vez concluido el combate.",
-      "pokemon": [
-        {
-          "pid": 415,
-          "name": "Combee",
-          "slug": "combee",
-          "types": [
-            "Bicho",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 792,
-          "name": "Cutiefly",
-          "slug": "cutiefly",
-          "types": [
-            "Bicho",
-            "Hada"
-          ]
-        },
-        {
-          "pid": 793,
-          "name": "Ribombee",
-          "slug": "ribombee",
-          "types": [
-            "Bicho",
-            "Hada"
           ]
         }
       ]
@@ -359563,6 +359891,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 873,
+          "name": "Corviknite",
+          "slug": "corviknite",
+          "types": [
+            "Volador",
+            "Acero"
+          ]
+        },
+        {
           "pid": 879,
           "name": "Gossifleur",
           "slug": "gossifleur",
@@ -359576,14 +359913,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "eldegoss",
           "types": [
             "Planta"
-          ]
-        },
-        {
-          "pid": 1000,
-          "name": "Klawf",
-          "slug": "klawf",
-          "types": [
-            "Roca"
           ]
         },
         {
@@ -359616,6 +359945,24 @@ window.CHIRLGOLD_DATA = {
           "slug": "tsareena",
           "types": [
             "Planta"
+          ]
+        },
+        {
+          "pid": 829,
+          "name": "Bruxish",
+          "slug": "bruxish",
+          "types": [
+            "Agua",
+            "Psíquico"
+          ]
+        },
+        {
+          "pid": 1031,
+          "name": "Farigiraf",
+          "slug": "farigiraf",
+          "types": [
+            "Normal",
+            "Psíquico"
           ]
         }
       ]
@@ -359727,6 +360074,30 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Retirada",
+      "desc": "Abandona el terreno de combate cuando sus PS se ven reducidos a la mitad para evitar males mayores.",
+      "pokemon": [
+        {
+          "pid": 817,
+          "name": "Wimpod",
+          "slug": "wimpod",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        },
+        {
+          "pid": 818,
+          "name": "Golisopod",
+          "slug": "golisopod",
+          "types": [
+            "Bicho",
+            "Agua"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Revés",
       "desc": "Al caer debilitado, inflige al rival un daño equivalente a los PS que le quedaran.",
       "pokemon": [
@@ -359736,6 +360107,30 @@ window.CHIRLGOLD_DATA = {
           "slug": "pyukumuku",
           "types": [
             "Agua"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rezagado",
+      "desc": "Ejecuta su movimiento tras todos los demás.",
+      "pokemon": [
+        {
+          "pid": 998,
+          "name": "Toedscool",
+          "slug": "toedscool",
+          "types": [
+            "Tierra",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 999,
+          "name": "Toedscruel",
+          "slug": "toedscruel",
+          "types": [
+            "Tierra",
+            "Planta"
           ]
         }
       ]
@@ -359871,14 +360266,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "fidough",
           "types": [
             "Hada"
-          ]
-        },
-        {
-          "pid": 988,
-          "name": "Tadbulb",
-          "slug": "tadbulb",
-          "types": [
-            "Eléctrico"
           ]
         },
         {
@@ -360289,104 +360676,12 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 982,
-          "name": "Nacli",
-          "slug": "nacli",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 983,
-          "name": "Naclstack",
-          "slug": "naclstack",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 984,
-          "name": "Garganacl",
-          "slug": "garganacl",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
           "pid": 1068,
           "name": "Archaludon",
           "slug": "archaludon",
           "types": [
             "Acero",
             "Dragón"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Roca Sólida",
-      "desc": "Mitiga el daño que le infligen los movimientos supereficaces.",
-      "pokemon": [
-        {
-          "pid": 323,
-          "name": "Camerupt",
-          "slug": "camerupt",
-          "types": [
-            "Fuego",
-            "Tierra"
-          ]
-        },
-        {
-          "pid": 464,
-          "name": "Rhyperior",
-          "slug": "rhyperior",
-          "types": [
-            "Tierra",
-            "Roca"
-          ]
-        },
-        {
-          "pid": 614,
-          "name": "Tirtouga",
-          "slug": "tirtouga",
-          "types": [
-            "Agua",
-            "Roca"
-          ]
-        },
-        {
-          "pid": 615,
-          "name": "Carracosta",
-          "slug": "carracosta",
-          "types": [
-            "Agua",
-            "Roca"
-          ]
-        },
-        {
-          "pid": 887,
-          "name": "Rolycoly",
-          "slug": "rolycoly",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 888,
-          "name": "Carkol",
-          "slug": "carkol",
-          "types": [
-            "Roca",
-            "Fuego"
-          ]
-        },
-        {
-          "pid": 889,
-          "name": "Coalossal",
-          "slug": "coalossal",
-          "types": [
-            "Roca",
-            "Fuego"
           ]
         }
       ]
@@ -360452,6 +360747,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 693,
+          "name": "Reshiram",
+          "slug": "reshiram",
+          "types": [
+            "Dragón",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 694,
+          "name": "Zekrom",
+          "slug": "zekrom",
+          "types": [
+            "Dragón",
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": 724,
           "name": "Pancham",
           "slug": "pancham",
@@ -360493,15 +360806,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Hada",
             "Acero"
-          ]
-        },
-        {
-          "pid": 1026,
-          "name": "Veluza",
-          "slug": "veluza",
-          "types": [
-            "Agua",
-            "Psíquico"
           ]
         }
       ]
@@ -360581,14 +360885,35 @@ window.CHIRLGOLD_DATA = {
             "Normal",
             "Volador"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Sal Purificadora",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 982,
+          "name": "Nacli",
+          "slug": "nacli",
+          "types": [
+            "Roca"
+          ]
         },
         {
-          "pid": 1012,
-          "name": "Bombirdier",
-          "slug": "bombirdier",
+          "pid": 983,
+          "name": "Naclstack",
+          "slug": "naclstack",
           "types": [
-            "Volador",
-            "Siniestro"
+            "Roca"
+          ]
+        },
+        {
+          "pid": 984,
+          "name": "Garganacl",
+          "slug": "garganacl",
+          "types": [
+            "Roca"
           ]
         }
       ]
@@ -360802,15 +361127,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 892,
-          "name": "Appletun",
-          "slug": "appletun",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
           "pid": 966,
           "name": "Oinkologne",
           "slug": "oinkologne",
@@ -360873,15 +361189,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "groudon",
           "types": [
             "Tierra"
-          ]
-        },
-        {
-          "pid": 1057,
-          "name": "Koraidon",
-          "slug": "koraidon",
-          "types": [
-            "Lucha",
-            "Dragón"
           ]
         }
       ]
@@ -361135,6 +361442,54 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Surcavientos",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 275,
+          "name": "Shiftry",
+          "slug": "shiftry",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 996,
+          "name": "Bramblin",
+          "slug": "bramblin",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 997,
+          "name": "Bramblgast",
+          "slug": "bramblgast",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tablilla Debacle",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1051,
+          "name": "Wo-Chien",
+          "slug": "wochien",
+          "types": [
+            "Siniestro",
+            "Planta"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Telepatía",
       "desc": "Elude los ataques de los aliados durante el combate.",
       "pokemon": [
@@ -361342,29 +361697,38 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Eléctrico"
           ]
-        },
-        {
-          "pid": 990,
-          "name": "Wattrel",
-          "slug": "wattrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
         }
       ]
     },
     {
-      "name": "Terravoltaje",
-      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
+      "name": "Termoconversión",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
       "pokemon": [
         {
-          "pid": 694,
-          "name": "Zekrom",
-          "slug": "zekrom",
+          "pid": 1046,
+          "name": "Frigibax",
+          "slug": "frigibax",
           "types": [
             "Dragón",
-            "Eléctrico"
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1047,
+          "name": "Arctibax",
+          "slug": "arctibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1048,
+          "name": "Baxcalibur",
+          "slug": "baxcalibur",
+          "types": [
+            "Dragón",
+            "Hielo"
           ]
         }
       ]
@@ -361413,33 +361777,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Veneno",
             "Normal"
-          ]
-        },
-        {
-          "pid": 1064,
-          "name": "Okidogi",
-          "slug": "okidogi",
-          "types": [
-            "Veneno",
-            "Lucha"
-          ]
-        },
-        {
-          "pid": 1065,
-          "name": "Munkidori",
-          "slug": "munkidori",
-          "types": [
-            "Veneno",
-            "Psíquico"
-          ]
-        },
-        {
-          "pid": 1066,
-          "name": "Fezanditi",
-          "slug": "fezanditi",
-          "types": [
-            "Veneno",
-            "Hada"
           ]
         }
       ]
@@ -361745,6 +362082,35 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Transistor",
+      "desc": "Potencia los movimientos de tipo Eléctrico.",
+      "pokemon": [
+        {
+          "pid": 944,
+          "name": "Regieleki",
+          "slug": "regieleki",
+          "types": [
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transportarrocas",
+      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "pokemon": [
+        {
+          "pid": 1012,
+          "name": "Bombirdier",
+          "slug": "bombirdier",
+          "types": [
+            "Volador",
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Tumbos",
       "desc": "Sube su Evasión si está confuso.",
       "pokemon": [
@@ -361826,21 +362192,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Volador",
             "Lucha"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Turbollama",
-      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
-      "pokemon": [
-        {
-          "pid": 693,
-          "name": "Reshiram",
-          "slug": "reshiram",
-          "types": [
-            "Dragón",
-            "Fuego"
           ]
         }
       ]
@@ -362014,22 +362365,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua"
           ]
-        },
-        {
-          "pid": 1013,
-          "name": "Finizen",
-          "slug": "finizen",
-          "types": [
-            "Agua"
-          ]
-        },
-        {
-          "pid": 1014,
-          "name": "Palafin",
-          "slug": "palafin",
-          "types": [
-            "Agua"
-          ]
         }
       ]
     },
@@ -362191,14 +362526,6 @@ window.CHIRLGOLD_DATA = {
             "Fantasma",
             "Tierra"
           ]
-        },
-        {
-          "pid": 1018,
-          "name": "Orthworm",
-          "slug": "orthworm",
-          "types": [
-            "Acero"
-          ]
         }
       ]
     },
@@ -362245,12 +362572,28 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Normal"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Velo Dulce",
+      "desc": "No cae dormido y evita también que sus aliados se duerman.",
+      "pokemon": [
+        {
+          "pid": 792,
+          "name": "Cutiefly",
+          "slug": "cutiefly",
+          "types": [
+            "Bicho",
+            "Hada"
+          ]
         },
         {
-          "pid": 977,
-          "name": "Dachsbun",
-          "slug": "dachsbun",
+          "pid": 793,
+          "name": "Ribombee",
+          "slug": "ribombee",
           "types": [
+            "Bicho",
             "Hada"
           ]
         }
@@ -362742,15 +363085,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Volador"
           ]
-        },
-        {
-          "pid": 1012,
-          "name": "Bombirdier",
-          "slug": "bombirdier",
-          "types": [
-            "Volador",
-            "Siniestro"
-          ]
         }
       ]
     },
@@ -362781,15 +363115,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua",
             "Hada"
-          ]
-        },
-        {
-          "pid": 899,
-          "name": "Toxtricity",
-          "slug": "toxtricity",
-          "types": [
-            "Eléctrico",
-            "Veneno"
           ]
         }
       ]
@@ -364012,6 +364337,290 @@ window.CHIRLGOLD_DATA = {
   ],
   "routes": [
     {
+      "name": "Altar del Encinar (Encinar)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 251,
+          "pokemon": "Celebi",
+          "time": "Evento Temporal Post-Liga (tras vencer a Giovanni) Nv. 50",
+          "rate": "100%",
+          "method": "Evento"
+        }
+      ]
+    },
+    {
+      "name": "Casa de Bill (Ciudad Trigal)",
+      "region": "Johto",
+      "x": 32.7,
+      "y": 63.0,
+      "desc": "Hogar familiar de Bill en Ciudad Trigal donde te regala a Eevee.",
+      "connections": [
+        "Ciudad Trigal"
+      ],
+      "encounters": [
+        {
+          "pid": 133,
+          "pokemon": "Eevee",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Casa del Sr. Pokémon (Ruta 30 - Prof. Oak)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 1,
+          "pokemon": "Bulbasaur",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 4,
+          "pokemon": "Charmander",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 7,
+          "pokemon": "Squirtle",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Endrino (Embajadora Noa tras vencer a Débora)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 956,
+          "pokemon": "Sprigatito",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 959,
+          "pokemon": "Fuecoco",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 962,
+          "pokemon": "Quaxly",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Iris (Embajadora Maya tras vencer a Morti)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 387,
+          "pokemon": "Turtwig",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 390,
+          "pokemon": "Chimchar",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 393,
+          "pokemon": "Piplup",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Malva (Ayudante del Prof. Elm)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 175,
+          "pokemon": "Togepi",
+          "time": "Huevo Adaptativo con Maquinación",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 207,
+          "pokemon": "Gligar",
+          "time": "Huevo Adaptativo con Trampa Rocas",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 828,
+          "pokemon": "Mimikyu",
+          "time": "Huevo Adaptativo con Sombra Vil",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Olivo (Embajadora Serena tras vencer a Yasmina)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 700,
+          "pokemon": "Chespin",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 703,
+          "pokemon": "Fennekin",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 706,
+          "pokemon": "Froakie",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Orquídea (Embajador Tilo tras vencer a Aníbal)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 772,
+          "pokemon": "Rowlet",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 775,
+          "pokemon": "Litten",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 778,
+          "pokemon": "Popplio",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Ciudad Trigal (Embajador Eric tras vencer a Blanca)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 545,
+          "pokemon": "Snivy",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 548,
+          "pokemon": "Tepig",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 551,
+          "pokemon": "Oshawott",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Centro Pokémon de Pueblo Caoba (Embajador Paul tras vencer a Fredo)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 860,
+          "pokemon": "Grookey",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 863,
+          "pokemon": "Scorbunny",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 866,
+          "pokemon": "Sobble",
+          "time": "Regalo / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
       "name": "Ciudad Cerezo",
       "region": "Johto",
       "x": 50,
@@ -364039,6 +364648,20 @@ window.CHIRLGOLD_DATA = {
         "Ruta 40 (Surf)"
       ],
       "encounters": [
+        {
+          "pid": 458,
+          "pokemon": "Mantyke",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
+          "pid": 116,
+          "pokemon": "Horsea",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
         {
           "pid": 902,
           "pokemon": "Clobbopus",
@@ -364778,6 +365401,106 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Entrega especial (Ciudad Orquídea)",
+      "region": "Johto",
+      "x": 17.1,
+      "y": 63.1,
+      "desc": "Población costera al otro lado del mar donde te entregan a Shuckle para cuidarlo.",
+      "connections": [
+        "Ciudad Orquídea",
+        "Ruta 41",
+        "Ruta 47"
+      ],
+      "encounters": [
+        {
+          "pid": 213,
+          "pokemon": "Shuckle",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Guardería Pokémon (Ruta 34)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 172,
+          "pokemon": "Pichu",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 173,
+          "pokemon": "Cleffa",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 174,
+          "pokemon": "Igglybuff",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 236,
+          "pokemon": "Tyrogue",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 238,
+          "pokemon": "Smoochum",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 239,
+          "pokemon": "Elekid",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 240,
+          "pokemon": "Magby",
+          "time": "Huevo Competitivo / Elección",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
+      "name": "Guardia de la puerta norte (Ciudad Trigal)",
+      "region": "Johto",
+      "x": 32.7,
+      "y": 57.3,
+      "desc": "Puesto fronterizo norte de Ciudad Trigal que da paso a la Ruta 35.",
+      "connections": [
+        "Ciudad Trigal",
+        "Ruta 35"
+      ],
+      "encounters": [
+        {
+          "pid": 21,
+          "pokemon": "Spearow",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
       "name": "Guarida Dragón (Ciudad Endrino)",
       "region": "Johto",
       "x": 64.8,
@@ -364935,11 +365658,37 @@ window.CHIRLGOLD_DATA = {
           "method": "Surf"
         },
         {
+          "pid": 147,
+          "pokemon": "Dratini",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
           "pid": 782,
           "pokemon": "Trumbeak",
           "time": "Todo el día",
           "rate": "5%",
           "method": "Cueva"
+        }
+      ]
+    },
+    {
+      "name": "Huevo del ayudante del Prof. Elm (Ciudad Malvalba)",
+      "region": "Johto",
+      "x": 46.2,
+      "y": 48.3,
+      "desc": "Tienda Pokémon de Ciudad Malvalba donde el ayudante entrega el huevo misterioso.",
+      "connections": [
+        "Ciudad Malvalba"
+      ],
+      "encounters": [
+        {
+          "pid": 175,
+          "pokemon": "Togepi",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ]
     },
@@ -364968,6 +365717,61 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Laboratorio del Prof. Elm (Pueblo Primavera)",
+      "region": "Johto",
+      "x": 67.1,
+      "y": 71.5,
+      "desc": "Laboratorio de investigación donde el Prof. Elm entrega el Pokémon inicial.",
+      "connections": [
+        "Pueblo Primavera",
+        "Ruta 29"
+      ],
+      "encounters": [
+        {
+          "pid": 152,
+          "pokemon": "Chikorita",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 155,
+          "pokemon": "Cyndaquil",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 158,
+          "pokemon": "Totodile",
+          "time": "Inicial / Elección",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 252,
+          "pokemon": "Treecko",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 255,
+          "pokemon": "Torchic",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
+        },
+        {
+          "pid": 258,
+          "pokemon": "Mudkip",
+          "time": "Inicial / Elección Nv. 5",
+          "rate": "100%",
+          "method": "Inicial"
+        }
+      ]
+    },
+    {
       "name": "Lago de la Furia",
       "region": "Johto",
       "x": 50,
@@ -364988,6 +365792,25 @@ window.CHIRLGOLD_DATA = {
           "time": "Todo el día",
           "rate": "1%",
           "method": "Surf"
+        }
+      ]
+    },
+    {
+      "name": "Maestro del Monte Mortero",
+      "region": "Johto",
+      "x": 44.4,
+      "y": 31.3,
+      "desc": "Profundidades del Monte Mortero donde el Maestro Karateka entrega a Tyrogue.",
+      "connections": [
+        "Monte Mortero"
+      ],
+      "encounters": [
+        {
+          "pid": 236,
+          "pokemon": "Tyrogue",
+          "time": "Regalo",
+          "rate": "100%",
+          "method": "Regalo"
         }
       ]
     },
@@ -366155,6 +366978,37 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Ruta 31 (Entrenador Veterano)",
+      "region": "Johto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Johto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 81,
+          "pokemon": "Magnemite",
+          "time": "Regalo Adaptativo Nv. 6",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 58,
+          "pokemon": "Growlithe",
+          "time": "Regalo Adaptativo Nv. 6",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 270,
+          "pokemon": "Lotad",
+          "time": "Regalo Adaptativo Nv. 6",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
       "name": "Ruta 32",
       "region": "Johto",
       "x": 46.2,
@@ -366166,6 +367020,20 @@ window.CHIRLGOLD_DATA = {
         "Cueva Unión"
       ],
       "encounters": [
+        {
+          "pid": 740,
+          "pokemon": "Skrelp",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
+          "pid": 742,
+          "pokemon": "Clauncher",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
         {
           "pid": 1030,
           "pokemon": "Clodsire",
@@ -366452,6 +367320,20 @@ window.CHIRLGOLD_DATA = {
           "method": "Hierba"
         },
         {
+          "pid": 896,
+          "pokemon": "Arrokuda",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
+          "pid": 642,
+          "pokemon": "Frillish",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
           "pid": 885,
           "pokemon": "Yamper",
           "time": "Mañana y Día",
@@ -366703,6 +367585,20 @@ window.CHIRLGOLD_DATA = {
         "Ruta 36"
       ],
       "encounters": [
+        {
+          "pid": 349,
+          "pokemon": "Feebas",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
+        {
+          "pid": 129,
+          "pokemon": "Magikarp",
+          "time": "Todo el día",
+          "rate": "Pesca (Caña Vieja)",
+          "method": "Pesca"
+        },
         {
           "pid": 981,
           "pokemon": "Squawkbily",
@@ -368853,6 +369749,30 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Cima del Monte Plateado",
+      "region": "Kanto",
+      "x": 50,
+      "y": 50,
+      "desc": "Zona de la región de Kanto.",
+      "connections": [],
+      "encounters": [
+        {
+          "pid": 839,
+          "pokemon": "Cosmog",
+          "time": "Regalo tras vencer a Rojo en Monte Plateado Nv. 5",
+          "rate": "100%",
+          "method": "Regalo"
+        },
+        {
+          "pid": 840,
+          "pokemon": "Cosmoem",
+          "time": "Evolución de Cosmog al Nivel 43",
+          "rate": "100%",
+          "method": "Regalo"
+        }
+      ]
+    },
+    {
       "name": "Cueva Celeste (Kanto)",
       "region": "Kanto",
       "x": 50,
@@ -369141,79 +370061,118 @@ window.CHIRLGOLD_DATA = {
       "name": "Pegaso (Falkner)",
       "city": "Ciudad Malvalba (Gimnasio 1)",
       "badge": "Medalla Céfiro",
-      "level_cap": 13,
+      "level_cap": 14,
       "team": [
         {
-          "pokemon": "Hoothoot",
-          "level": 12,
-          "item": "Ninguno",
+          "pokemon": "Gligar",
+          "level": 14,
+          "item": "Baya Aranja",
           "moves": [
-            "Placaje",
-            "Picotazo",
-            "Gruñido"
+            "Bofetón Lodo",
+            "Picotazo Ven",
+            "At. Rápido",
+            "Fortaleza"
+          ]
+        },
+        {
+          "pokemon": "Wattrel",
+          "level": 14,
+          "item": "Baya Caquic",
+          "moves": [
+            "Impactrueno",
+            "Aire Afilado",
+            "Onda Trueno",
+            "At. Rápido"
           ]
         },
         {
           "pokemon": "Doduo",
-          "level": 12,
-          "item": "Ninguno",
+          "level": 14,
+          "item": "Baya Aranja",
           "moves": [
-            "Ataque Rápido",
             "Picotazo",
-            "Gruñido"
+            "Doble Patada",
+            "Bofetón Lodo",
+            "Malicioso"
           ]
         },
         {
           "pokemon": "Noctowl",
-          "level": 13,
-          "item": "Baya Aranja",
+          "level": 14,
+          "item": "Baya Zidra",
           "moves": [
-            "Placaje",
-            "Confusión",
+            "Tornado",
+            "Respiro",
             "Hipnosis",
-            "Picotazo"
+            "Vien. Aciago"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Antón (Bugsy)",
       "city": "Pueblo Azalea (Gimnasio 2)",
       "badge": "Medalla Colmena",
-      "level_cap": 19,
+      "level_cap": 18,
       "team": [
         {
-          "pokemon": "Anorith",
+          "pokemon": "Dwebble",
           "level": 17,
-          "item": "Ninguno",
+          "item": "Baya Aranja",
           "moves": [
+            "Trampa Rocas",
             "Tumba Rocas",
-            "Picadura",
-            "Fortaleza"
+            "Tijera X",
+            "Protección"
+          ]
+        },
+        {
+          "pokemon": "Ariados",
+          "level": 17,
+          "item": "Baya Zidra",
+          "moves": [
+            "Disp. Demora",
+            "Picotazo Ven",
+            "Sombra Vil",
+            "Tinieblas"
           ]
         },
         {
           "pokemon": "Heracross",
-          "level": 18,
-          "item": "Ninguno",
+          "level": 17,
+          "item": "Baya Aranja",
           "moves": [
-            "Golpe Roca",
-            "Ataque Furia",
-            "Malicioso"
+            "Demolición",
+            "Cornada",
+            "Golpe Aéreo",
+            "At. Rápido"
+          ]
+        },
+        {
+          "pokemon": "Yanma",
+          "level": 17,
+          "item": "Baya Caquic",
+          "moves": [
+            "Aire Afilado",
+            "Doble Rayo",
+            "Detección",
+            "Hipnosis"
           ]
         },
         {
           "pokemon": "Scyther",
-          "level": 19,
+          "level": 17,
           "item": "Baya Zidra",
           "moves": [
             "Ida y Vuelta",
-            "Ataque Ala",
-            "Persecución",
-            "Foco Energía"
+            "Golpe Aéreo",
+            "At. Rápido",
+            "Picadura"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Blanca (Whitney)",
@@ -369223,182 +370182,361 @@ window.CHIRLGOLD_DATA = {
       "team": [
         {
           "pokemon": "Clefairy",
-          "level": 20,
+          "level": 21,
           "item": "Mineral Evol",
           "moves": [
-            "Beso Drenaje",
-            "Metrónomo",
-            "Canto"
+            "Reflejo",
+            "Onda Trueno",
+            "Voz Cautiv.",
+            "Metrónomo"
+          ]
+        },
+        {
+          "pokemon": "Ambipom",
+          "level": 21,
+          "item": "Baya Meloc",
+          "moves": [
+            "Sorpresa",
+            "Doble Golpe",
+            "Bofetón Lodo",
+            "Persecución"
+          ]
+        },
+        {
+          "pokemon": "Furret",
+          "level": 21,
+          "item": "Baya Caquic",
+          "moves": [
+            "At. Rápido",
+            "Golpes Furia",
+            "Desenrollar",
+            "Bofetón Lodo"
+          ]
+        },
+        {
+          "pokemon": "Wigglytuff",
+          "level": 21,
+          "item": "Restos",
+          "moves": [
+            "Encanto",
+            "Onda Trueno",
+            "Voz Cautiv.",
+            "Espacio Raro"
           ]
         },
         {
           "pokemon": "Miltank",
-          "level": 22,
+          "level": 21,
           "item": "Baya Zidra",
           "moves": [
-            "Desenrollar",
             "Pisotón",
-            "Atracción",
-            "Batido"
+            "Desenrollar",
+            "Batido",
+            "Atracción"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Morti (Morty)",
       "city": "Ciudad Iris (Gimnasio 4)",
       "badge": "Medalla Niebla",
-      "level_cap": 26,
+      "level_cap": 28,
       "team": [
         {
-          "pokemon": "Gastly",
-          "level": 23,
-          "item": "Ninguno",
+          "pokemon": "Haunter",
+          "level": 27,
+          "item": "Banda Focus",
           "moves": [
-            "Rayo Confuso",
+            "Fuego Fatuo",
             "Tinieblas",
-            "Maldición"
+            "Rayo Confuso",
+            "Mismodestino"
           ]
         },
         {
-          "pokemon": "Haunter",
-          "level": 24,
-          "item": "Ninguno",
+          "pokemon": "Sableye",
+          "level": 27,
+          "item": "Restos",
           "moves": [
-            "Tinieblas",
-            "Pesadilla",
+            "Fuego Fatuo",
+            "Desarme",
+            "Recuperación",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Misdreavus",
+          "level": 27,
+          "item": "Mineral Evol",
+          "moves": [
+            "Bola Sombra",
+            "LlamaEmbruj.",
+            "Rayo Confuso",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Drifblim",
+          "level": 27,
+          "item": "Baya Zidra",
+          "moves": [
+            "Bola Sombra",
+            "Vuelo",
+            "Camelo",
             "Hipnosis"
           ]
         },
         {
-          "pokemon": "Haunter",
-          "level": 24,
-          "item": "Ninguno",
+          "pokemon": "Gengar",
+          "level": 27,
+          "item": "Vidasfera",
           "moves": [
-            "Tinieblas",
-            "Rayo Confuso",
-            "Rencor"
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Esfera Aural",
+            "Hipnosis"
           ]
         },
         {
-          "pokemon": "Gengar",
-          "level": 26,
-          "item": "Baya Zidra",
+          "pokemon": "Mismagius",
+          "level": 27,
+          "item": "Vidasfera",
           "moves": [
             "Bola Sombra",
-            "Hipnosis",
-            "Come Sueños",
-            "Mismo Destino"
+            "LlamaEmbruj.",
+            "Psíquico",
+            "Paz Mental"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Aníbal (Chuck)",
       "city": "Ciudad Orquídea (Gimnasio 5)",
       "badge": "Medalla Tormenta",
-      "level_cap": 31,
+      "level_cap": 34,
       "team": [
         {
-          "pokemon": "Primeape",
-          "level": 29,
-          "item": "Ninguno",
+          "pokemon": "Hitmontop",
+          "level": 35,
+          "item": "Restos",
           "moves": [
-            "Puño Furia",
-            "Demolición",
-            "Doble Equipo"
+            "Sorpresa",
+            "Golpe Bajo",
+            "A Bocajarro",
+            "Giro Rápido"
+          ]
+        },
+        {
+          "pokemon": "Primeape",
+          "level": 35,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Puño Hielo",
+            "Desarme",
+            "Roca Afilada"
+          ]
+        },
+        {
+          "pokemon": "Breloom",
+          "level": 35,
+          "item": "Banda Focus",
+          "moves": [
+            "Espora",
+            "Ultrapuño",
+            "Abatidoras",
+            "Roca Afilada"
+          ]
+        },
+        {
+          "pokemon": "Machamp",
+          "level": 35,
+          "item": "Baya Zidra",
+          "moves": [
+            "Puñodinámico",
+            "Roca Afilada",
+            "Puño Hielo",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 35,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Esfera Aural",
+            "Foco Respl.",
+            "Pulso Dragón",
+            "Vel. Extrema"
           ]
         },
         {
           "pokemon": "Poliwrath",
-          "level": 31,
+          "level": 35,
           "item": "Baya Zidra",
           "moves": [
-            "Puño Dinámico",
-            "Surf",
+            "Cascada",
+            "Puño Hielo",
             "Hipnosis",
-            "Golpe Cuerpo"
+            "Demolición"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Yasmina (Jasmine)",
       "city": "Ciudad Olivo (Gimnasio 6)",
       "badge": "Medalla Mineral",
-      "level_cap": 35,
+      "level_cap": 38,
       "team": [
         {
-          "pokemon": "Magnemite",
-          "level": 32,
-          "item": "Ninguno",
+          "pokemon": "Skarmory",
+          "level": 40,
+          "item": "Casco Dentado",
           "moves": [
-            "Rayo",
-            "Bomba Sónica",
-            "Onda Trueno"
+            "Trampa Rocas",
+            "Púas",
+            "Pájaro Osado",
+            "Remolino"
           ]
         },
         {
-          "pokemon": "Magnemite",
-          "level": 32,
-          "item": "Ninguno",
+          "pokemon": "Bronzong",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Giro Bola",
+            "Paranormal",
+            "Pantalla Luz",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 40,
+          "item": "Gafas Elegid",
           "moves": [
             "Rayo",
-            "Supersónico",
-            "Onda Trueno"
+            "Foco Respl.",
+            "Voltiocambio",
+            "Poder Oculto"
+          ]
+        },
+        {
+          "pokemon": "Empoleon",
+          "level": 40,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Escaldar",
+            "Foco Respl.",
+            "Rayo Hielo",
+            "Acua Jet"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Demolición"
           ]
         },
         {
           "pokemon": "Steelix",
-          "level": 35,
-          "item": "Baya Zidra",
+          "level": 40,
+          "item": "Cinta Xperto",
           "moves": [
-            "Cola Férrea",
             "Terremoto",
-            "Tormenta de Arena",
-            "Colmillo Hielo"
+            "Testarazo",
+            "Giro Bola",
+            "Colm. Ígneo"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Fredo (Pryce)",
       "city": "Pueblo Caoba (Gimnasio 7)",
       "badge": "Medalla Glaciar",
-      "level_cap": 39,
+      "level_cap": 40,
       "team": [
         {
-          "pokemon": "Seel",
-          "level": 36,
-          "item": "Ninguno",
+          "pokemon": "Abomasnow",
+          "level": 40,
+          "item": "Roca Helada",
           "moves": [
-            "Rayo Hielo",
-            "Surf",
-            "Descanso"
+            "Ventisca",
+            "Gigadrenado",
+            "Canto Helado",
+            "Mazazo"
           ]
         },
         {
           "pokemon": "Dewgong",
-          "level": 38,
-          "item": "Ninguno",
+          "level": 40,
+          "item": "Restos",
           "moves": [
-            "Rayo Hielo",
             "Surf",
-            "Velo Aurora"
+            "Rayo Hielo",
+            "Manto Espejo",
+            "Otra Vez"
           ]
         },
         {
-          "pokemon": "Piloswine",
-          "level": 39,
-          "item": "Baya Zidra",
+          "pokemon": "Froslass",
+          "level": 40,
+          "item": "Banda Focus",
+          "moves": [
+            "Ventisca",
+            "Bola Sombra",
+            "Púas",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Cloyster",
+          "level": 40,
+          "item": "Ninguno",
+          "moves": [
+            "Rompecoraza",
+            "Carámbano",
+            "Pedrada",
+            "Concha Filo"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Mamoswine",
+          "level": 40,
+          "item": "Cinta Xperto",
           "moves": [
             "Terremoto",
             "Chuzos",
-            "Granizo",
-            "Canto Helado"
+            "Canto Helado",
+            "Fuerza Bruta"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Débora (Clair)",
@@ -369407,155 +370545,929 @@ window.CHIRLGOLD_DATA = {
       "level_cap": 45,
       "team": [
         {
-          "pokemon": "Gyarados",
-          "level": 42,
-          "item": "Ninguno",
+          "pokemon": "Garchomp",
+          "level": 45,
+          "item": "Casco Dentado",
           "moves": [
-            "Cascada",
-            "Mordisco",
+            "Trampa Rocas",
+            "Terremoto",
+            "Cola Dragón",
+            "Avalancha"
+          ]
+        },
+        {
+          "pokemon": "Dragonair",
+          "level": 45,
+          "item": "Mineral Evol",
+          "moves": [
             "Onda Trueno",
-            "Furia Dragón"
+            "Pulso Dragón",
+            "Acua Cola",
+            "Descanso"
           ]
         },
         {
-          "pokemon": "Dragonair",
-          "level": 43,
-          "item": "Ninguno",
+          "pokemon": "Flygon",
+          "level": 45,
+          "item": "Cin. Elegida",
           "moves": [
-            "Pulso Dragón",
-            "Surf",
-            "Onda Trueno"
+            "Terremoto",
+            "Garra Dragón",
+            "Ida y Vuelta",
+            "Puño Fuego"
           ]
         },
         {
-          "pokemon": "Dragonair",
-          "level": 43,
-          "item": "Ninguno",
+          "pokemon": "Altaria",
+          "level": 45,
+          "item": "Restos",
           "moves": [
-            "Pulso Dragón",
-            "Rayo Hielo",
-            "Llamarada"
+            "Voz Cautiv.",
+            "Lanzallamas",
+            "Respiro",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 45,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
           ]
         },
         {
           "pokemon": "Kingdra",
           "level": 45,
-          "item": "Baya Zidra",
+          "item": "Vidasfera",
           "moves": [
             "Pulso Dragón",
             "Hidrobomba",
-            "Pantalla de Humo",
-            "Hiperrayo"
+            "Rayo Hielo",
+            "Foco Energía"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
-      "name": "Mento (Will) - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 1",
-      "level_cap": 50,
+      "name": "Rival Silver (Combate 1)",
+      "city": "Ciudad Cerezo",
+      "badge": "Rival",
+      "level_cap": 15,
       "team": [
         {
-          "pokemon": "Xatu",
-          "level": 48,
-          "item": "Banda Focus",
+          "pokemon": "Cyndaquil",
+          "level": 5,
+          "item": "Baya Aranja",
           "moves": [
-            "Psíquico",
-            "Aire Afilado",
+            "Placaje",
+            "Malicioso",
+            "Ascuas",
+            "At. Rápido"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Rival Silver (Combate 2)",
+      "city": "Pueblo Azalea",
+      "badge": "Rival",
+      "level_cap": 20,
+      "team": [
+        {
+          "pokemon": "Gastly",
+          "level": 17,
+          "item": "Polvo Brillo",
+          "moves": [
+            "Tinieblas",
             "Rayo Confuso",
-            "Paz Mental"
+            "Fuego Fatuo",
+            "Rompecoraza"
           ]
         },
         {
-          "pokemon": "Jynx",
-          "level": 49,
-          "item": "Vidasfera",
+          "pokemon": "Zubat",
+          "level": 17,
+          "item": "Baya Meloc",
           "moves": [
-            "Ventisca",
-            "Psíquico",
-            "Beso Amoroso",
-            "Bola Sombra"
+            "Ataque Ala",
+            "Mordisco",
+            "Colmillo Ven",
+            "Supersónico"
           ]
         },
         {
-          "pokemon": "Exeggutor",
-          "level": 49,
-          "item": "Restos",
+          "pokemon": "Magnemite",
+          "level": 17,
+          "item": "Baya Aranja",
           "moves": [
-            "Psíquico",
-            "Bomba Germen",
-            "Bomba Huevo",
+            "Impactrueno",
+            "Onda Trueno",
+            "Bofetón Lodo",
             "Reflejo"
           ]
         },
         {
-          "pokemon": "Slowbro",
-          "level": 49,
-          "item": "Restos",
+          "pokemon": "Sneasel",
+          "level": 17,
+          "item": "Baya Caquic",
           "moves": [
-            "Escaldar",
-            "Psíquico",
-            "Onda Certera",
-            "Amnesia"
+            "At. Rápido",
+            "Finta",
+            "Viento Hielo",
+            "Malicioso"
           ]
         },
         {
-          "pokemon": "Xatu",
-          "level": 50,
+          "pokemon": "Croconaw",
+          "level": 17,
           "item": "Baya Zidra",
           "moves": [
-            "Psíquico",
-            "Tajo Aéreo",
-            "Doble Rayo",
-            "Paz Mental"
+            "Pistola Agua",
+            "Mordisco",
+            "Arañazo",
+            "Malicioso"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
-      "name": "Koga - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 2",
-      "level_cap": 51,
+      "name": "Rival Silver (Combate 3)",
+      "city": "Faro de Olivo",
+      "badge": "Rival",
+      "level_cap": 38,
       "team": [
         {
-          "pokemon": "Ariados",
-          "level": 49,
+          "pokemon": "Haunter",
+          "level": 23,
           "item": "Banda Focus",
           "moves": [
-            "Red Viscosa",
-            "Toxirred",
-            "Golpe Bajo",
-            "Picadura"
+            "Fuego Fatuo",
+            "Tinieblas",
+            "Rayo Confuso",
+            "Mismodestino"
           ]
         },
         {
-          "pokemon": "Forretress",
-          "level": 50,
+          "pokemon": "Golbat",
+          "level": 23,
+          "item": "Baya Meloc",
+          "moves": [
+            "Ataque Ala",
+            "Colmillo Ven",
+            "Mordisco",
+            "Supersónico"
+          ]
+        },
+        {
+          "pokemon": "Magnemite",
+          "level": 23,
+          "item": "Mineral Evol",
+          "moves": [
+            "Rayo",
+            "Onda Trueno",
+            "Bofetón Lodo",
+            "Reflejo"
+          ]
+        },
+        {
+          "pokemon": "Kadabra",
+          "level": 24,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Psicorrayo",
+            "Rayo Confuso",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Sneasel",
+          "level": 24,
+          "item": "Cinta Xperto",
+          "moves": [
+            "At. Rápido",
+            "Tajo Umbrío",
+            "Chuzos",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
+          "level": 25,
+          "item": "Baya Zidra",
+          "moves": [
+            "Escaldar",
+            "Triturar",
+            "Rayo Hielo",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Rival Silver (Combate 4)",
+      "city": "Subterráneo Trigal",
+      "badge": "Rival",
+      "level_cap": 42,
+      "team": [
+        {
+          "pokemon": "Gengar",
+          "level": 42,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Fuego Fatuo",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Magneton",
+          "level": 42,
+          "item": "Mineral Evol",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Onda Trueno"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 42,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 42,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 42,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Chuzos",
+            "Tajo Umbrío",
+            "Canto Helado",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
+          "level": 42,
+          "item": "Baya Zidra",
+          "moves": [
+            "Escaldar",
+            "Triturar",
+            "Rayo Hielo",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Rival Silver (Combate 5)",
+      "city": "Calle Victoria",
+      "badge": "Rival Gatekeeper",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Gengar",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 55,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Triataque"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 55,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera",
+            "BrilloMágico"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 55,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
+          "level": 55,
+          "item": "Baya Zidra",
+          "moves": [
+            "Escaldar",
+            "Triturar",
+            "Rayo Hielo",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Ejecutivo Petrel",
+      "city": "Escondite Caoba",
+      "badge": "Team Rocket",
+      "level_cap": 40,
+      "team": [
+        {
+          "pokemon": "Gengar",
+          "level": 40,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Fuego Fatuo",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Arbok",
+          "level": 40,
+          "item": "Lodo Negro",
+          "moves": [
+            "Puya Nociva",
+            "Terremoto",
+            "Desarme",
+            "Deslumbrar"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 40,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Raticate",
+          "level": 40,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Golpe Bajo",
+            "Triturar",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Drapion",
+          "level": 40,
           "item": "Casco Dentado",
           "moves": [
-            "Giro Rápido",
-            "Púas Tóxicas",
-            "Explosión",
-            "Giro Bola"
+            "Desarme",
+            "Terremoto",
+            "Puya Nociva",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Fuego Fatuo",
+            "Divide Dolor"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Ejecutiva Ariana",
+      "city": "Escondite Caoba",
+      "badge": "Team Rocket",
+      "level_cap": 40,
+      "team": [
+        {
+          "pokemon": "Arbok",
+          "level": 40,
+          "item": "Lodo Negro",
+          "moves": [
+            "Bomba Lodo",
+            "Terremoto",
+            "Mordisco",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Gloom",
+          "level": 40,
+          "item": "Restos",
+          "moves": [
+            "Energibola",
+            "Bomba Lodo",
+            "Tóxico",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Murkrow",
+          "level": 40,
+          "item": "Vidasfera",
+          "moves": [
+            "Pulso Umbrío",
+            "Ataque Ala",
+            "Golpe Bajo",
+            "Onda Certera"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Ejecutivo Petrel (Torre)",
+      "city": "Torre Radio Trigal",
+      "badge": "Team Rocket",
+      "level_cap": 43,
+      "team": [
+        {
+          "pokemon": "Zoroark",
+          "level": 43,
+          "item": "Banda Focus",
+          "moves": [
+            "Pulso Umbrío",
+            "Lanzallamas",
+            "Onda Certera",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 43,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Drapion",
+          "level": 43,
+          "item": "Casco Dentado",
+          "moves": [
+            "Desarme",
+            "Terremoto",
+            "Puya Nociva",
+            "Trampa Ven."
           ]
         },
         {
           "pokemon": "Muk",
-          "level": 50,
-          "item": "Lodo Negro",
+          "level": 43,
+          "item": "Chaleco Asalto",
           "moves": [
-            "Lanza Mugre",
-            "Puño Hielo",
+            "Desarme",
+            "Puya Nociva",
             "Puño Fuego",
             "Sombra Vil"
           ]
         },
         {
-          "pokemon": "Venomoth",
-          "level": 51,
+          "pokemon": "Gengar",
+          "level": 43,
           "item": "Vidasfera",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Foco Respl.",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 43,
+          "item": "Lodo Negro",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Divide Dolor",
+            "Fuego Fatuo"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Ejecutivo Protón (Torre)",
+      "city": "Torre Radio Trigal",
+      "badge": "Team Rocket",
+      "level_cap": 43,
+      "team": [
+        {
+          "pokemon": "Qwilfish",
+          "level": 43,
+          "item": "Banda Focus",
+          "moves": [
+            "Púas Tóxicas",
+            "Cascada",
+            "Puya Nociva",
+            "Mismodestino"
+          ]
+        },
+        {
+          "pokemon": "Golbat",
+          "level": 43,
+          "item": "Mineral Evol",
+          "moves": [
+            "Veneno X",
+            "Golpe Aéreo",
+            "Respiro",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Skuntank",
+          "level": 43,
+          "item": "Vidasfera",
+          "moves": [
+            "Golpe Bajo",
+            "Puya Nociva",
+            "Triturar",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Toxicroak",
+          "level": 43,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Demolición",
+            "Puya Nociva",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Houndoom",
+          "level": 43,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Lanzallamas",
+            "Pulso Umbrío",
+            "Onda Ígnea",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Weezing",
+          "level": 43,
+          "item": "Casco Dentado",
+          "moves": [
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Explosión",
+            "Divide Dolor"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Ejecutiva Ariana (Torre)",
+      "city": "Torre Radio Trigal",
+      "badge": "Team Rocket",
+      "level_cap": 44,
+      "team": [
+        {
+          "pokemon": "Roserade",
+          "level": 44,
+          "item": "Banda Focus",
+          "moves": [
+            "Púas Tóxicas",
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Paranormal"
+          ]
+        },
+        {
+          "pokemon": "Arbok",
+          "level": 44,
+          "item": "Lodo Negro",
+          "moves": [
+            "Puya Nociva",
+            "Terremoto",
+            "Desarme",
+            "Enrosque"
+          ]
+        },
+        {
+          "pokemon": "Honchkrow",
+          "level": 44,
+          "item": "Vidasfera",
+          "moves": [
+            "Golpe Bajo",
+            "Pájaro Osado",
+            "Tajo Umbrío",
+            "Onda Ígnea"
+          ]
+        },
+        {
+          "pokemon": "Toxicroak",
+          "level": 44,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Demolición",
+            "Puya Nociva",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Nidoqueen",
+          "level": 44,
+          "item": "Casco Dentado",
+          "moves": [
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Rayo Hielo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Vileplume",
+          "level": 44,
+          "item": "Restos",
+          "moves": [
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Drenadoras",
+            "BrilloMágico"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Ejecutivo Archer (Torre)",
+      "city": "Torre Radio Trigal (Cima)",
+      "badge": "Team Rocket",
+      "level_cap": 44,
+      "team": [
+        {
+          "pokemon": "Tyranitar",
+          "level": 44,
+          "item": "Baya Pasio",
+          "moves": [
+            "Trampa Rocas",
+            "Roca Afilada",
+            "Terremoto",
+            "Triturar"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 44,
+          "item": "Banda Focus",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Nidoking",
+          "level": 44,
+          "item": "Vidasfera",
+          "moves": [
+            "Tierra Viva",
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Scrafty",
+          "level": 44,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "A Bocajarro",
+            "Desarme",
+            "Puño Drenaje",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Salamence",
+          "level": 44,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Garra Dragón",
+            "Terremoto",
+            "Golpe Aéreo",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Houndoom",
+          "level": 44,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Lanzallamas",
+            "Pulso Umbrío",
+            "Onda Ígnea",
+            "Bomba Lodo"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Mento (Will) - Alto Mando #1",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Psíquico",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Xatu",
+          "level": 55,
+          "item": "Refleluz",
+          "moves": [
+            "Reflejo",
+            "Pantalla Luz",
+            "Respiro",
+            "Paranormal"
+          ]
+        },
+        {
+          "pokemon": "Bronzong",
+          "level": 55,
+          "item": "Restos",
+          "moves": [
+            "Giro Bola",
+            "Psíquico",
+            "Terremoto",
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Reuniclus",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Paz Mental",
+            "Psicocarga",
+            "Onda Certera",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Jynx",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Beso Amoroso",
+            "Ventisca",
+            "Psíquico",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Slowbro",
+          "level": 55,
+          "item": "Slowbronita",
+          "moves": [
+            "Escaldar",
+            "Psíquico",
+            "Paz Mental",
+            "Relajo"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Koga - Alto Mando #2",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Veneno",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Forretress",
+          "level": 55,
+          "item": "Casco Dentado",
+          "moves": [
+            "Púas Tóxicas",
+            "Trampa Rocas",
+            "Giro Rápido",
+            "Explosión"
+          ]
+        },
+        {
+          "pokemon": "Muk",
+          "level": 55,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Desarme",
+            "Puya Nociva",
+            "Sombra Vil",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Tentacruel",
+          "level": 55,
+          "item": "Lodo Negro",
+          "moves": [
+            "Escaldar",
+            "Bomba Lodo",
+            "Niebla",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 55,
+          "item": "Vidasfera",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Despejar"
+          ]
+        },
+        {
+          "pokemon": "Venomoth",
+          "level": 55,
+          "item": "Banda Focus",
           "moves": [
             "Danza Aleteo",
             "Zumbido",
@@ -369564,223 +371476,249 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Crobat",
-          "level": 51,
-          "item": "Baya Zidra",
+          "pokemon": "Beedrill",
+          "level": 55,
+          "item": "Beedrillita",
           "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Colmillo Ígneo",
-            "Ida y Vuelta"
+            "Puya Nociva",
+            "Tijera X",
+            "Taladradora",
+            "Desquite"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
-      "name": "Bruno - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 3",
-      "level_cap": 52,
+      "name": "Bruno - Alto Mando #3",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Lucha",
+      "level_cap": 55,
       "team": [
         {
           "pokemon": "Hitmontop",
-          "level": 50,
-          "item": "Restos",
+          "level": 55,
+          "item": "Casco Dentado",
           "moves": [
+            "Sorpresa",
+            "Giro Rápido",
             "A Bocajarro",
-            "Triple Patada",
-            "Persecución",
-            "Sorpresa"
-          ]
-        },
-        {
-          "pokemon": "Hitmonlee",
-          "level": 51,
-          "item": "Vidasfera",
-          "moves": [
-            "Patada Salto Alta",
-            "Roca Afilada",
-            "Terremoto",
             "Desarme"
           ]
         },
         {
-          "pokemon": "Hitmonchan",
-          "level": 51,
-          "item": "Cinta Elegida",
-          "moves": [
-            "Ultrapuño",
-            "Puño Fuego",
-            "Puño Hielo",
-            "Puño Trueno"
-          ]
-        },
-        {
-          "pokemon": "Onix",
-          "level": 50,
-          "item": "Mineral Evol",
-          "moves": [
-            "Terremoto",
-            "Roca Afilada",
-            "Trampa Rocas",
-            "Rugido"
-          ]
-        },
-        {
           "pokemon": "Machamp",
-          "level": 52,
-          "item": "Baya Zidra",
+          "level": 55,
+          "item": "Chaleco Asalto",
           "moves": [
-            "Puño Dinámico",
+            "Puñodinámico",
             "Roca Afilada",
-            "Puño Hielo",
+            "Puño Bala",
             "Desquite"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Karen - Alto Mando",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Alto Mando 4",
-      "level_cap": 53,
-      "team": [
+        },
         {
-          "pokemon": "Umbreon",
-          "level": 51,
+          "pokemon": "Conkeldurr",
+          "level": 55,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Puño Drenaje",
+            "Ultrapuño",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Esfera Aural",
+            "Foco Respl.",
+            "Maquinación",
+            "Onda Vacío"
+          ]
+        },
+        {
+          "pokemon": "Scrafty",
+          "level": 55,
           "item": "Restos",
           "moves": [
+            "Desarme",
+            "Machada",
+            "Puño Hielo",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Medicham",
+          "level": 55,
+          "item": "Medichamita",
+          "moves": [
+            "Patada Salto",
+            "Cabezazo Zen",
+            "Puño Hielo",
+            "Puño Fuego"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Karen - Alto Mando #4",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Alto Mando Siniestro",
+      "level_cap": 55,
+      "team": [
+        {
+          "pokemon": "Spiritomb",
+          "level": 55,
+          "item": "Restos",
+          "moves": [
+            "Fuego Fatuo",
+            "Rompecoraza",
+            "Paz Mental",
+            "Divide Dolor"
+          ]
+        },
+        {
+          "pokemon": "Umbreon",
+          "level": 55,
+          "item": "Roca Calor",
+          "moves": [
+            "Día Soleado",
             "Luz Lunar",
             "Juego Sucio",
-            "Tóxico",
-            "Deseo"
+            "Tóxico"
           ]
         },
         {
-          "pokemon": "Vileplume",
-          "level": 51,
-          "item": "Lodo Negro",
+          "pokemon": "Krookodile",
+          "level": 55,
+          "item": "Casco Dentado",
           "moves": [
-            "Fuerza Lunar",
-            "Giga Drenado",
-            "Bomba Lodo",
-            "Somnífero"
+            "Terremoto",
+            "Triturar",
+            "Roca Afilada",
+            "Trampa Rocas"
           ]
         },
         {
-          "pokemon": "Gengar",
-          "level": 52,
+          "pokemon": "Weavile",
+          "level": 55,
+          "item": "Banda Focus",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Honchkrow",
+          "level": 55,
           "item": "Vidasfera",
           "moves": [
-            "Bola Sombra",
-            "Onda Certera",
-            "Bomba Lodo",
-            "Brillo Mágico"
-          ]
-        },
-        {
-          "pokemon": "Murkrow",
-          "level": 52,
-          "item": "Mineral Evol",
-          "moves": [
-            "Pájaro Osado",
             "Golpe Bajo",
+            "Pájaro Osado",
             "Onda Ígnea",
-            "Respiro"
+            "Persecución"
           ]
         },
         {
           "pokemon": "Houndoom",
-          "level": 53,
-          "item": "Gafas Elegidas",
+          "level": 55,
+          "item": "Houndoominita",
           "moves": [
             "Llamarada",
             "Pulso Umbrío",
-            "Bomba Lodo",
-            "Maquinación"
+            "Rayo Solar",
+            "Bomba Lodo"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Lance - Campeón de la Liga",
-      "city": "Meseta Añil (Liga Pokémon)",
-      "badge": "Campeón de Johto",
+      "city": "Meseta Añil (Liga R1)",
+      "badge": "Campeón de la Liga",
       "level_cap": 55,
       "team": [
         {
-          "pokemon": "Gyarados",
-          "level": 51,
-          "item": "Restos",
-          "moves": [
-            "Cascada",
-            "Colmillo Hielo",
-            "Onda Trueno",
-            "Danza Dragón"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 54,
-          "item": "Vidasfera",
-          "moves": [
-            "Carga Dragón",
-            "Trueno",
-            "Vuelo",
-            "Onda Trueno"
-          ]
-        },
-        {
-          "pokemon": "Dragonite",
-          "level": 54,
-          "item": "Baya Rimoya",
-          "moves": [
-            "Carga Dragón",
-            "Llamarada",
-            "Ventisca",
-            "Onda Trueno"
-          ]
-        },
-        {
           "pokemon": "Aerodactyl",
-          "level": 53,
+          "level": 55,
           "item": "Banda Focus",
           "moves": [
-            "Roca Afilada",
-            "Golpe Aéreo",
-            "Triturar",
-            "Colmillo Ígneo"
+            "Trampa Rocas",
+            "Mofa",
+            "Avalancha",
+            "Golpe Aéreo"
           ]
         },
         {
-          "pokemon": "Charizard",
-          "level": 52,
-          "item": "Gafas Elegidas",
+          "pokemon": "Gyarados",
+          "level": 55,
+          "item": "Baya Zidra",
           "moves": [
-            "Lanzallamas",
-            "Tajo Aéreo",
-            "Onda Certera",
-            "Pulso Dragón"
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Garchomp",
+          "level": 55,
+          "item": "Baya Alcho",
+          "moves": [
+            "Terremoto",
+            "Garra Dragón",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 55,
+          "item": "Periscopio",
+          "moves": [
+            "Foco Energía",
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo"
           ]
         },
         {
           "pokemon": "Dragonite",
           "level": 55,
-          "item": "Baya Zidra",
+          "item": "Restos",
           "moves": [
-            "Enfado",
-            "Velocidad Extrema",
+            "Danza Dragón",
+            "Garra Dragón",
+            "Puño Fuego",
+            "Vel. Extrema"
+          ]
+        },
+        {
+          "pokemon": "Charizard",
+          "level": 55,
+          "item": "Charizardita X",
+          "moves": [
+            "Envite Ígneo",
+            "Garra Dragón",
             "Terremoto",
-            "Puño Fuego"
+            "Danza Dragón"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
-      "name": "Teniente Surge (Lt. Surge)",
+      "name": "Lt. Surge",
       "city": "Ciudad Carmín (Gimnasio Kanto)",
       "badge": "Medalla Trueno",
-      "level_cap": 65,
+      "level_cap": 64,
       "team": [
         {
           "pokemon": "Galvantula",
@@ -369794,77 +371732,78 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pokemon": "Ampharos",
+          "pokemon": "Tapu Koko",
           "level": 65,
-          "item": "Ampharosita (Mega)",
+          "item": "Cinta Xperto",
           "moves": [
-            "Descarga",
-            "Pulso Dragón",
-            "Joya de Luz",
-            "Onda Certera"
+            "Ida y Vuelta",
+            "Rayo",
+            "BrilloMágico",
+            "Mofa"
           ]
         },
         {
-          "pokemon": "Magnezone",
+          "pokemon": "Eelektross",
+          "level": 65,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Gigadrenado",
+            "Lanzallamas",
+            "Rayo",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
           "level": 65,
           "item": "Restos",
           "moves": [
-            "Rayo",
-            "Foco Resplandor",
+            "Hidrobomba",
             "Voltiocambio",
-            "Onda Anómala"
+            "Fuego Fatuo",
+            "Divide Dolor"
           ]
         },
         {
-          "pokemon": "Raichu de Alola",
+          "pokemon": "Electivire",
           "level": 65,
-          "item": "Gafas Elegidas",
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Trueno",
+            "Terremoto",
+            "Puño Hielo",
+            "Tajo Cruzado"
+          ]
+        },
+        {
+          "pokemon": "Manectric",
+          "level": 65,
+          "item": "Manectricita",
           "moves": [
             "Rayo",
-            "Psíquico",
-            "Hierba Lazo",
-            "Voltiocambio"
+            "Voltiocambio",
+            "Sofoco",
+            "Poder Oculto"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Sabrina",
       "city": "Ciudad Azafrán (Gimnasio Kanto)",
       "badge": "Medalla Pantano",
-      "level_cap": 65,
+      "level_cap": 68,
       "team": [
         {
-          "pokemon": "Alakazam",
-          "level": 65,
-          "item": "Alakazamita (Mega)",
-          "moves": [
-            "Psíquico",
-            "Bola Sombra",
-            "Onda Certera",
-            "Paz Mental"
-          ]
-        },
-        {
           "pokemon": "Espeon",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Psicocarga",
-            "Brillo Mágico",
-            "Bola Sombra",
-            "Sol Matinal"
-          ]
-        },
-        {
-          "pokemon": "Mr. Mime",
           "level": 65,
           "item": "Refleluz",
           "moves": [
             "Reflejo",
-            "Pantalla de Luz",
-            "Psíquico",
-            "Brillo Mágico"
+            "Pantalla Luz",
+            "Psicocarga",
+            "BrilloMágico"
           ]
         },
         {
@@ -369877,150 +371816,166 @@ window.CHIRLGOLD_DATA = {
             "Terremoto",
             "Puño Bala"
           ]
+        },
+        {
+          "pokemon": "Hatterene",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "BrilloMágico",
+            "Psíquico",
+            "Bola Sombra",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Slowking",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaldar",
+            "Psíquico",
+            "Relajo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 65,
+          "item": "Alakazamita",
+          "moves": [
+            "Psíquico",
+            "Onda Certera",
+            "Bola Sombra",
+            "BrilloMágico"
+          ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Erika",
       "city": "Ciudad Azulona (Gimnasio Kanto)",
       "badge": "Medalla Arcoíris",
-      "level_cap": 65,
+      "level_cap": 72,
       "team": [
         {
-          "pokemon": "Jumpluff",
+          "pokemon": "Whimsicott",
           "level": 65,
-          "item": "Banda Focus",
+          "item": "Roca Calor",
           "moves": [
-            "Somnífero",
+            "Día Soleado",
             "Drenadoras",
-            "Ida y Vuelta",
-            "Acróbata"
-          ]
-        },
-        {
-          "pokemon": "Tangrowth",
-          "level": 65,
-          "item": "Casco Dentado",
-          "moves": [
-            "Latigazo",
-            "Terremoto",
-            "Desarme",
-            "Síntesis"
+            "Otra Vez",
+            "Fuerza Lunar"
           ]
         },
         {
           "pokemon": "Rillaboom",
           "level": 65,
-          "item": "Chaleco Asalto",
+          "item": "Vidasfera",
           "moves": [
-            "Fitoimpulso",
+            "Energibola",
             "Fuerza Bruta",
             "Desarme",
             "Ida y Vuelta"
           ]
         },
         {
+          "pokemon": "Bellossom",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Día Soleado",
+            "Rayo Solar",
+            "BrilloMágico",
+            "Danza Aleteo"
+          ]
+        },
+        {
+          "pokemon": "Virizion",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hoja Aguda",
+            "A Bocajarro",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Ferrothorn",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Giro Bola",
+            "Drenadoras",
+            "Latigazo"
+          ]
+        },
+        {
           "pokemon": "Venusaur",
           "level": 65,
-          "item": "Venusaurita (Mega)",
+          "item": "Venusaurita",
           "moves": [
-            "Giga Drenado",
+            "Gigadrenado",
             "Bomba Lodo",
             "Tierra Viva",
             "Síntesis"
           ]
         }
-      ]
-    },
-    {
-      "name": "Sachiko (Janine)",
-      "city": "Ciudad Fucsia (Gimnasio Kanto)",
-      "badge": "Medalla Alma",
-      "level_cap": 65,
-      "team": [
-        {
-          "pokemon": "Crobat",
-          "level": 65,
-          "item": "Banda Focus",
-          "moves": [
-            "Pájaro Osado",
-            "Veneno X",
-            "Ida y Vuelta",
-            "Superdiente"
-          ]
-        },
-        {
-          "pokemon": "Toxapex",
-          "level": 65,
-          "item": "Lodo Negro",
-          "moves": [
-            "Escaldar",
-            "Tóxico",
-            "Recuperación",
-            "Búnker"
-          ]
-        },
-        {
-          "pokemon": "Nidoqueen",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Tierra Viva",
-            "Bomba Lodo",
-            "Rayo Hielo",
-            "Lanzallamas"
-          ]
-        },
-        {
-          "pokemon": "Weezing de Galar",
-          "level": 65,
-          "item": "Restos",
-          "moves": [
-            "Fuerza Lunar",
-            "Bomba Lodo",
-            "Fuego Fatuo",
-            "Despejar"
-          ]
-        }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Misty",
       "city": "Ciudad Celeste (Gimnasio Kanto)",
       "badge": "Medalla Cascada",
-      "level_cap": 65,
+      "level_cap": 76,
       "team": [
         {
-          "pokemon": "Kyogre",
+          "pokemon": "Pelipper",
           "level": 65,
-          "item": "Pañuelo Elegido",
+          "item": "Roca Lluvia",
           "moves": [
-            "Salpicar",
-            "Rayo Hielo",
-            "Trueno",
-            "Escaldar"
+            "Vendaval",
+            "Escaldar",
+            "Respiro",
+            "Ida y Vuelta"
           ]
         },
         {
-          "pokemon": "Seismitoad",
-          "level": 65,
-          "item": "Vidasfera",
-          "moves": [
-            "Hidroariete",
-            "Terremoto",
-            "Puño Drenaje",
-            "Puño Hielo"
-          ]
-        },
-        {
-          "pokemon": "Lapras",
+          "pokemon": "Politoed",
           "level": 65,
           "item": "Restos",
           "moves": [
-            "Liofilización",
-            "Surf",
+            "Escaldar",
             "Rayo Hielo",
-            "Canto"
+            "Hipnosis",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Manaphy",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Ráfaga",
+            "Trueno",
+            "Escaldar",
+            "Descanso"
           ]
         },
         {
@@ -370029,264 +371984,2060 @@ window.CHIRLGOLD_DATA = {
           "item": "Vidasfera",
           "moves": [
             "Hidrobomba",
-            "Psíquico",
-            "Rayo",
-            "Rayo Hielo"
+            "Trueno",
+            "Rayo Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hidrobomba",
+            "Gigadrenado",
+            "Rayo Hielo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Swampert",
+          "level": 65,
+          "item": "Swampertita",
+          "moves": [
+            "Cascada",
+            "Terremoto",
+            "Puño Hielo",
+            "Fuerza Bruta"
           ]
         }
-      ]
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Sachiko (Janine)",
+      "city": "Ciudad Fucsia (Gimnasio Kanto)",
+      "badge": "Medalla Alma",
+      "level_cap": 80,
+      "team": [
+        {
+          "pokemon": "Glimmora",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Púas Tóxicas",
+            "Bomba Lodo",
+            "Joya de Luz"
+          ]
+        },
+        {
+          "pokemon": "Salazzle",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Tóxico",
+            "Lanzallamas",
+            "Bomba Lodo",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 65,
+          "item": "Lodo Negro",
+          "moves": [
+            "Escaldar",
+            "Recuperación",
+            "Niebla",
+            "Protección"
+          ]
+        },
+        {
+          "pokemon": "Naganadel",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Pulso Dragón",
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Mofa",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 65,
+          "item": "Gengarita",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Mismodestino"
+          ]
+        }
+      ],
+      "strategy": ""
     },
     {
       "name": "Brock",
       "city": "Ciudad Plateada (Gimnasio Kanto)",
       "badge": "Medalla Roca",
-      "level_cap": 65,
+      "level_cap": 84,
       "team": [
         {
-          "pokemon": "Aerodactyl",
+          "pokemon": "Gigalith",
           "level": 65,
-          "item": "Aerodactylita (Mega)",
+          "item": "Roca Suave",
           "moves": [
+            "Trampa Rocas",
+            "Púas",
             "Roca Afilada",
-            "Golpe Aéreo",
-            "Triturar",
             "Terremoto"
           ]
         },
         {
-          "pokemon": "Tyranitar",
+          "pokemon": "Ting-Lu",
           "level": 65,
-          "item": "Chaleco Asalto",
+          "item": "Restos",
           "moves": [
-            "Roca Afilada",
-            "Triturar",
-            "Persecución",
-            "Puño Fuego"
+            "Púas",
+            "Terremoto",
+            "Remolino",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Cradily",
+          "level": 65,
+          "item": "Casco Dentado",
+          "moves": [
+            "Gigadrenado",
+            "Recuperación",
+            "Tóxico",
+            "Poder Pasado"
           ]
         },
         {
           "pokemon": "Rhyperior",
           "level": 65,
-          "item": "Restos",
+          "item": "Chaleco Asalto",
           "moves": [
             "Terremoto",
             "Roca Afilada",
-            "Megacuerno",
-            "Puño Hielo"
+            "Puño Fuego",
+            "Megacuerno"
           ]
         },
         {
-          "pokemon": "Golem de Alola",
+          "pokemon": "Steelix",
           "level": 65,
-          "item": "Banda Focus",
+          "item": "Baya Zidra",
           "moves": [
-            "Doble Filo",
+            "Giro Bola",
             "Terremoto",
+            "Rugido",
+            "Def. Férrea"
+          ]
+        },
+        {
+          "pokemon": "Tyranitar",
+          "level": 65,
+          "item": "Tyranitarita",
+          "moves": [
             "Roca Afilada",
-            "Voltio Cruel"
+            "Triturar",
+            "Terremoto",
+            "Danza Dragón"
           ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Blaine",
       "city": "Islas Espuma (Gimnasio Kanto)",
       "badge": "Medalla Volcán",
-      "level_cap": 80,
+      "level_cap": 88,
       "team": [
         {
-          "pokemon": "Charizard",
-          "level": 80,
-          "item": "Charizardita Y (Mega)",
-          "moves": [
-            "Lanzallamas",
-            "Rayo Solar",
-            "Tajo Aéreo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Magmortar",
-          "level": 80,
-          "item": "Gafas Elegidas",
-          "moves": [
-            "Escaldar",
-            "Llamarada",
-            "Rayo",
-            "Onda Certera"
-          ]
-        },
-        {
-          "pokemon": "Infernape",
-          "level": 80,
-          "item": "Vidasfera",
-          "moves": [
-            "A Bocajarro",
-            "Envite Ígneo",
-            "Hierba Lazo",
-            "Ultrapuño"
-          ]
-        },
-        {
           "pokemon": "Ninetales",
-          "level": 80,
-          "item": "Banda Focus",
+          "level": 65,
+          "item": "Roca Calor",
           "moves": [
             "Llamarada",
             "Rayo Solar",
             "Fuego Fatuo",
             "Hipnosis"
           ]
+        },
+        {
+          "pokemon": "Volcanion",
+          "level": 65,
+          "item": "Restos",
+          "moves": [
+            "Chorro Vapor",
+            "Tierra Viva",
+            "Lanzallamas",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Flamariete",
+          "level": 65,
+          "item": "Vidasfera",
+          "moves": [
+            "Envite Ígneo",
+            "Garra Dragón",
+            "Terremoto",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 65,
+          "item": "Banda Focus",
+          "moves": [
+            "Danza Aleteo",
+            "Onda Ígnea",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 65,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Sofoco",
+            "Rayo",
+            "Voltiocambio",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Charizard",
+          "level": 65,
+          "item": "Charizardita Y",
+          "moves": [
+            "Llamarada",
+            "Rayo Solar",
+            "Tajo Aéreo",
+            "Onda Certera"
+          ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
       "name": "Azul (Blue)",
       "city": "Ciudad Verde (Gimnasio Kanto)",
       "badge": "Medalla Tierra",
-      "level_cap": 85,
+      "level_cap": 90,
       "team": [
         {
-          "pokemon": "Pidgeot",
-          "level": 85,
-          "item": "Pidgeotita (Mega)",
-          "moves": [
-            "Vendaval",
-            "Onda Ígnea",
-            "Ida y Vuelta",
-            "Respiro"
-          ]
-        },
-        {
-          "pokemon": "Alakazam",
-          "level": 85,
+          "pokemon": "Rhyperior",
+          "level": 90,
           "item": "Banda Focus",
           "moves": [
-            "Psíquico",
-            "Onda Certera",
-            "Bola Sombra",
-            "Brillo Mágico"
+            "Trampa Rocas",
+            "Terremoto",
+            "Roca Afilada",
+            "Puño Fuego"
           ]
         },
         {
           "pokemon": "Machamp",
-          "level": 85,
+          "level": 90,
           "item": "Chaleco Asalto",
           "moves": [
-            "Puño Dinámico",
+            "Puñodinámico",
             "Roca Afilada",
             "Desarme",
             "Puño Bala"
           ]
         },
         {
-          "pokemon": "Gyarados",
-          "level": 85,
-          "item": "Vidasfera",
-          "moves": [
-            "Cascada",
-            "Terremoto",
-            "Danza Dragón",
-            "Colmillo Hielo"
-          ]
-        },
-        {
-          "pokemon": "Exeggutor",
-          "level": 85,
-          "item": "Restos",
-          "moves": [
-            "Lluevehojas",
-            "Psíquico",
-            "Espacio Raro",
-            "Bomba Huevo"
-          ]
-        },
-        {
           "pokemon": "Arcanine",
-          "level": 85,
-          "item": "Cinta Elegida",
+          "level": 90,
+          "item": "Cin. Elegida",
           "moves": [
             "Envite Ígneo",
-            "Velocidad Extrema",
+            "Vel. Extrema",
             "A Bocajarro",
             "Voltio Cruel"
           ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 90,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Zeraora",
+          "level": 90,
+          "item": "Vidasfera",
+          "moves": [
+            "Puños Plasma",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Pidgeot",
+          "level": 90,
+          "item": "Pidgeotita",
+          "moves": [
+            "Vendaval",
+            "Onda Ígnea",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
         }
-      ]
+      ],
+      "strategy": ""
     },
     {
-      "name": "Rojo (Red) - Batalla Cumbre",
+      "name": "Rojo (Red) - Campeón Máximo",
       "city": "Cima del Monte Plateado",
-      "badge": "Leyenda Suprema",
+      "badge": "Batalla Cumbre",
       "level_cap": 100,
       "team": [
         {
           "pokemon": "Pikachu",
           "level": 100,
-          "item": "Bola Luminosa",
+          "item": "Ninguno",
           "moves": [
-            "Placaje Eléctrico",
+            "Placaje",
             "Surf",
-            "Rayo",
-            "Hierba Lazo"
+            "Hierba Lazo",
+            "At. Rápido"
+          ]
+        },
+        {
+          "pokemon": "Articuno",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Ventisca",
+            "Liofilizac.",
+            "Respiro",
+            "Manto Espejo"
+          ]
+        },
+        {
+          "pokemon": "Zapdos",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Carga",
+            "Onda Ígnea",
+            "Respiro",
+            "Voltiocambio"
+          ]
+        },
+        {
+          "pokemon": "Moltres",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Llamarada",
+            "Tajo Aéreo",
+            "Rayo Solar",
+            "Poder Oculto"
+          ]
+        },
+        {
+          "pokemon": "Mew",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Transformación",
+            "Psíquico",
+            "Esfera Aural",
+            "Maquinación"
           ]
         },
         {
           "pokemon": "Mewtwo",
           "level": 100,
-          "item": "Mewtwonita Y (Mega)",
+          "item": "Mewtwoita X",
           "moves": [
-            "Onda Mental",
-            "Rayo Hielo",
-            "Llamarada",
-            "Esfera Aural"
+            "A Bocajarro",
+            "Cabezazo Zen",
+            "Puño Hielo",
+            "Terremoto"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Pegaso - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Tornadus",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Viento Afín",
+            "Mofa",
+            "Vendaval",
+            "Onda Ígnea"
           ]
         },
         {
-          "pokemon": "Snorlax",
+          "pokemon": "Gliscor",
+          "level": 100,
+          "item": "Toxisfera",
+          "moves": [
+            "Terremoto",
+            "Desarme",
+            "Respiro",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Corviknite",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Pájaro Osado",
+            "Plancha Corp",
+            "Respiro",
+            "Despejar"
+          ]
+        },
+        {
+          "pokemon": "Staraptor",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Pájaro Osado",
+            "Doble Filo",
+            "A Bocajarro",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Togekiss",
           "level": 100,
           "item": "Restos",
           "moves": [
-            "Retribución",
+            "Tajo Aéreo",
+            "BrilloMágico",
+            "Lanzallamas",
+            "Onda Trueno"
+          ]
+        },
+        {
+          "pokemon": "Salamence",
+          "level": 100,
+          "item": "Salamencita",
+          "moves": [
+            "Doble Filo",
             "Terremoto",
-            "Maldición",
-            "Descanso"
+            "Garra Dragón",
+            "Danza Dragón"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Antón - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Galvantula",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
+            "Voltiocambio"
+          ]
+        },
+        {
+          "pokemon": "Genesect",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Ida y Vuelta",
+            "Lanzallamas",
+            "Rayo Hielo",
+            "Cabezahierro"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Danza Aleteo",
+            "Llamarada",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Heracross",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "A Bocajarro",
+            "Megacuerno",
+            "Imagen",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Golisopod",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaramuza",
+            "Cascada",
+            "Golpe Bajo",
+            "Chupavidas"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 100,
+          "item": "Scizorita",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Respiro"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Blanca - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Smeargle",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Espora",
+            "Red Viscosa",
+            "Trampa Rocas",
+            "Barrera"
+          ]
+        },
+        {
+          "pokemon": "Blissey",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Mov. Sísmico",
+            "Amortiguador",
+            "Aromaterapia",
+            "Tóxico"
+          ]
+        },
+        {
+          "pokemon": "Meloetta",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Vozarrón",
+            "Psíquico",
+            "BrilloMágico",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Porygon-Z",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Triataque",
+            "Rayo",
+            "Rayo Hielo",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Miltank",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Batido",
+            "Golpe Cuerpo",
+            "Campana Cura",
+            "Terremoto"
+          ]
+        },
+        {
+          "pokemon": "Kangaskhan",
+          "level": 100,
+          "item": "Kangaskhanita",
+          "moves": [
+            "Sorpresa",
+            "Puño Increm.",
+            "Retroceso",
+            "Golpe Bajo"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Morti - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Froslass",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Púas",
+            "Mismodestino",
+            "Ventisca",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Fuego Fatuo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Marshadow",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Robasombra",
+            "A Bocajarro",
+            "Sombra Vil",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Chandelure",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Llamarada",
+            "Bola Sombra",
+            "Energibola",
+            "Truco"
+          ]
+        },
+        {
+          "pokemon": "Aegislash",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Escudo Real",
+            "Bola Sombra",
+            "Foco Respl.",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Sableye",
+          "level": 100,
+          "item": "Sableynita",
+          "moves": [
+            "Fuego Fatuo",
+            "Recuperación",
+            "Desarme",
+            "Juego Sucio"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Aníbal - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Hitmontop",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Sorpresa",
+            "Giro Rápido",
+            "A Bocajarro",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Machamp",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Puñodinámico",
+            "Roca Afilada",
+            "Puño Bala",
+            "Desquite"
+          ]
+        },
+        {
+          "pokemon": "Conkeldurr",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Imagen",
+            "Puño Drenaje",
+            "Ultrapuño",
+            "Desarme"
+          ]
+        },
+        {
+          "pokemon": "Urshifu",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Golpe Oscuro",
+            "A Bocajarro",
+            "Golpe Bajo",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Poliwrath",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Cascada",
+            "Puñodinámico",
+            "Puño Hielo",
+            "Tambor"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 100,
+          "item": "Lucarita",
+          "moves": [
+            "A Bocajarro",
+            "Puño Bala",
+            "Danza Espada",
+            "Triturar"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Yasmina - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Skarmory",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Pájaro Osado",
+            "Remolino"
+          ]
+        },
+        {
+          "pokemon": "Heatran",
+          "level": 100,
+          "item": "Globo Helio",
+          "moves": [
+            "Llamarada",
+            "Tierra Viva",
+            "Foco Respl.",
+            "Poder Oculto"
+          ]
+        },
+        {
+          "pokemon": "Empoleon",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Escaldar",
+            "Foco Respl.",
+            "Rayo Hielo",
+            "Acua Jet"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 100,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Scizor",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Bala",
+            "Picadura",
+            "Danza Espada",
+            "Demolición"
+          ]
+        },
+        {
+          "pokemon": "Steelix",
+          "level": 100,
+          "item": "Steelixita",
+          "moves": [
+            "Giro Bola",
+            "Terremoto",
+            "Testarazo",
+            "Colm. Ígneo"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Fredo - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Ninetales",
+          "level": 100,
+          "item": "Roca Helada",
+          "moves": [
+            "Velo Aurora",
+            "Ventisca",
+            "Liofilizac.",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Chien-Pao",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Chuzos",
+            "Triturar",
+            "Canto Helado",
+            "Espada Santa"
+          ]
+        },
+        {
+          "pokemon": "Cloyster",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Rompecoraza",
+            "Carámbano",
+            "Pedrada",
+            "Concha Filo"
+          ]
+        },
+        {
+          "pokemon": "Mamoswine",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Terremoto",
+            "Chuzos",
+            "Canto Helado",
+            "Fuerza Bruta"
+          ]
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Chuzos",
+            "Desarme",
+            "Canto Helado",
+            "Patada Salto"
+          ]
+        },
+        {
+          "pokemon": "Glalie",
+          "level": 100,
+          "item": "Glalita",
+          "moves": [
+            "Doble Filo",
+            "Terremoto",
+            "Canto Helado",
+            "Explosión"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Débora - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Garchomp",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Terremoto",
+            "Cola Dragón",
+            "Fuego Fatuo"
+          ]
+        },
+        {
+          "pokemon": "Latias",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Cometa Draco",
+            "Paz Mental",
+            "Respiro",
+            "Bola Sombra"
+          ]
+        },
+        {
+          "pokemon": "Dragapult",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Dracoflechas",
+            "Bola Sombra",
+            "Lanzallamas",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 100,
+          "item": "Baya Ziuela",
+          "moves": [
+            "Danza Dragón",
+            "Garra Dragón",
+            "Puño Fuego",
+            "Vel. Extrema"
+          ]
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 100,
+          "item": "Periscopio",
+          "moves": [
+            "Foco Energía",
+            "Pulso Dragón",
+            "Hidrobomba",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Altaria",
+          "level": 100,
+          "item": "Altarianita",
+          "moves": [
+            "Doble Filo",
+            "Danza Dragón",
+            "Terremoto",
+            "Respiro"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Lt. Surge - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Galvantula",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Red Viscosa",
+            "Trueno",
+            "Zumbido",
+            "Voltiocambio"
+          ]
+        },
+        {
+          "pokemon": "Tapu Koko",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Ida y Vuelta",
+            "Rayo",
+            "BrilloMágico",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Eelektross",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Gigadrenado",
+            "Lanzallamas",
+            "Rayo",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Hidrobomba",
+            "Voltiocambio",
+            "Fuego Fatuo",
+            "Divide Dolor"
+          ]
+        },
+        {
+          "pokemon": "Electivire",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Puño Trueno",
+            "Terremoto",
+            "Puño Hielo",
+            "Tajo Cruzado"
+          ]
+        },
+        {
+          "pokemon": "Manectric",
+          "level": 100,
+          "item": "Manectricita",
+          "moves": [
+            "Rayo",
+            "Voltiocambio",
+            "Sofoco",
+            "Poder Oculto"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Sabrina - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Indeedee",
+          "level": 100,
+          "item": "Ninguno",
+          "moves": [
+            "Fuerza",
+            "BrilloMágico",
+            "Pulso Umbrío",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Cresselia",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Paz Mental",
+            "Luz Lunar",
+            "Psíquico",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Necrozma",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Meteoimpacto",
+            "Terremoto",
+            "Danza Espada",
+            "Corte"
+          ]
+        },
+        {
+          "pokemon": "Slowking",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Escaldar",
+            "Psíquico",
+            "Relajo",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Gallade",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "A Bocajarro",
+            "Corte",
+            "Desarme",
+            "Sombra Vil"
+          ]
+        },
+        {
+          "pokemon": "Alakazam",
+          "level": 100,
+          "item": "Alakazamita",
+          "moves": [
+            "Psíquico",
+            "Onda Certera",
+            "Bola Sombra",
+            "BrilloMágico"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Erika - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Whimsicott",
+          "level": 100,
+          "item": "Roca Calor",
+          "moves": [
+            "Día Soleado",
+            "Drenadoras",
+            "Otra Vez",
+            "Fuerza Lunar"
+          ]
+        },
+        {
+          "pokemon": "Rillaboom",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Energibola",
+            "Fuerza Bruta",
+            "Desarme",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Wo-Chien",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Drenadoras",
+            "Desarme",
+            "Protección",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Virizion",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hoja Aguda",
+            "A Bocajarro",
+            "Roca Afilada",
+            "Danza Espada"
+          ]
+        },
+        {
+          "pokemon": "Ferrothorn",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Trampa Rocas",
+            "Giro Bola",
+            "Drenadoras",
+            "Latigazo"
           ]
         },
         {
           "pokemon": "Venusaur",
           "level": 100,
+          "item": "Venusaurita",
+          "moves": [
+            "Gigadrenado",
+            "Bomba Lodo",
+            "Tierra Viva",
+            "Síntesis"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Misty - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Pelipper",
+          "level": 100,
+          "item": "Roca Lluvia",
+          "moves": [
+            "Vendaval",
+            "Escaldar",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Kyogre",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Salpicar",
+            "Trueno",
+            "Rayo Hielo",
+            "Hidrobomba"
+          ]
+        },
+        {
+          "pokemon": "Manaphy",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Ráfaga",
+            "Trueno",
+            "Escaldar",
+            "Descanso"
+          ]
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Hidrobomba",
+            "Gigadrenado",
+            "Rayo Hielo",
+            "Onda Certera"
+          ]
+        },
+        {
+          "pokemon": "Starmie",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Hidrobomba",
+            "Trueno",
+            "Rayo Hielo",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Swampert",
+          "level": 100,
+          "item": "Swampertita",
+          "moves": [
+            "Cascada",
+            "Terremoto",
+            "Puño Hielo",
+            "Fuerza Bruta"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Sachiko - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Glimmora",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Púas Tóxicas",
+            "Bomba Lodo",
+            "Joya de Luz"
+          ]
+        },
+        {
+          "pokemon": "Pecharunt",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "CadenaVirul.",
+            "Recuperación",
+            "Bola Sombra",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Salazzle",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Tóxico",
+            "Lanzallamas",
+            "Bomba Lodo",
+            "Otra Vez"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 100,
           "item": "Lodo Negro",
           "moves": [
-            "Giga Drenado",
+            "Escaldar",
+            "Recuperación",
+            "Niebla",
+            "Protección"
+          ]
+        },
+        {
+          "pokemon": "Naganadel",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Pulso Dragón",
             "Bomba Lodo",
-            "Somnífero",
-            "Tierra Viva"
+            "Lanzallamas",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 100,
+          "item": "Gengarita",
+          "moves": [
+            "Bola Sombra",
+            "Bomba Lodo",
+            "Onda Certera",
+            "Mismodestino"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Brock - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Gigalith",
+          "level": 100,
+          "item": "Roca Suave",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Roca Afilada",
+            "Terremoto"
+          ]
+        },
+        {
+          "pokemon": "Ting-Lu",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Púas",
+            "Terremoto",
+            "Remolino",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Cradily",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Gigadrenado",
+            "Recuperación",
+            "Tóxico",
+            "Poder Pasado"
+          ]
+        },
+        {
+          "pokemon": "Rhyperior",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Terremoto",
+            "Roca Afilada",
+            "Puño Fuego",
+            "Megacuerno"
+          ]
+        },
+        {
+          "pokemon": "Steelix",
+          "level": 100,
+          "item": "Baya Zidra",
+          "moves": [
+            "Giro Bola",
+            "Terremoto",
+            "Rugido",
+            "Def. Férrea"
+          ]
+        },
+        {
+          "pokemon": "Diancie",
+          "level": 100,
+          "item": "Diancita",
+          "moves": [
+            "Torm.Diaman.",
+            "Fuerza Lunar",
+            "Tierra Viva",
+            "Paz Mental"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Blaine - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Ninetales",
+          "level": 100,
+          "item": "Roca Calor",
+          "moves": [
+            "Llamarada",
+            "Rayo Solar",
+            "Fuego Fatuo",
+            "Hipnosis"
+          ]
+        },
+        {
+          "pokemon": "Volcanion",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Chorro Vapor",
+            "Tierra Viva",
+            "Lanzallamas",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Flamariete",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Envite Ígneo",
+            "Garra Dragón",
+            "Terremoto",
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Volcarona",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Danza Aleteo",
+            "Onda Ígnea",
+            "Zumbido",
+            "Gigadrenado"
+          ]
+        },
+        {
+          "pokemon": "Rotom",
+          "level": 100,
+          "item": "Cinta Xperto",
+          "moves": [
+            "Sofoco",
+            "Rayo",
+            "Voltiocambio",
+            "Fuego Fatuo"
           ]
         },
         {
           "pokemon": "Charizard",
           "level": 100,
-          "item": "Charizardita X (Mega)",
+          "item": "Charizardita Y",
           "moves": [
-            "Envite Ígneo",
-            "Garra Dragón",
-            "Danza Dragón",
-            "Terremoto"
+            "Llamarada",
+            "Rayo Solar",
+            "Tajo Aéreo",
+            "Onda Certera"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Azul - Revancha Nv. 100",
+      "city": "Dojo Azafrán",
+      "badge": "Revancha Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Rhyperior",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Terremoto",
+            "Roca Afilada",
+            "Puño Fuego"
           ]
         },
         {
-          "pokemon": "Blastoise",
+          "pokemon": "Arcanine",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Envite Ígneo",
+            "Vel. Extrema",
+            "A Bocajarro",
+            "Voltio Cruel"
+          ]
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 100,
+          "item": "Baya Zidra",
+          "moves": [
+            "Danza Dragón",
+            "Cascada",
+            "Terremoto",
+            "Colm. Hielo"
+          ]
+        },
+        {
+          "pokemon": "Xerneas",
+          "level": 100,
+          "item": "Hierba Única",
+          "moves": [
+            "Geocontrol",
+            "Fuerza Lunar",
+            "Onda Certera",
+            "Psíquico"
+          ]
+        },
+        {
+          "pokemon": "Zeraora",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Puños Plasma",
+            "A Bocajarro",
+            "Desarme",
+            "Puño Hielo"
+          ]
+        },
+        {
+          "pokemon": "Pidgeot",
+          "level": 100,
+          "item": "Pidgeotita",
+          "moves": [
+            "Vendaval",
+            "Onda Ígnea",
+            "Respiro",
+            "Ida y Vuelta"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Rival Silver (Revancha Máxima)",
+      "city": "Meseta Añil",
+      "badge": "Rival Nv. 100",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Darkrai",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Brecha Negra",
+            "Pulso Umbrío",
+            "Come Sueños",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Shaymin",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Fogonazo",
+            "Tierra Viva",
+            "BrilloMágico",
+            "Síntesis"
+          ]
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 100,
+          "item": "Lodo Negro",
+          "moves": [
+            "Pájaro Osado",
+            "Veneno X",
+            "Ida y Vuelta",
+            "Mofa"
+          ]
+        },
+        {
+          "pokemon": "Magnezone",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Rayo",
+            "Foco Respl.",
+            "Voltiocambio",
+            "Triataque"
+          ]
+        },
+        {
+          "pokemon": "Feraligatr",
           "level": 100,
           "item": "Restos",
           "moves": [
             "Escaldar",
-            "Foco Resplandor",
+            "Triturar",
             "Rayo Hielo",
-            "Giro Rápido"
+            "Danza Dragón"
+          ]
+        },
+        {
+          "pokemon": "Absol",
+          "level": 100,
+          "item": "Absolita",
+          "moves": [
+            "Golpe Bajo",
+            "Danza Espada",
+            "Carantoña",
+            "A Bocajarro"
           ]
         }
-      ]
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Mento - Liga R2 Monotype Psíquico Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Psíquico Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Deoxys",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Mofa",
+            "Psicocarga"
+          ]
+        },
+        {
+          "pokemon": "Tapu Lele",
+          "level": 100,
+          "item": "Pañ. Elegido",
+          "moves": [
+            "Psicocarga",
+            "Fuerza Lunar",
+            "Onda Certera",
+            "Energibola"
+          ]
+        },
+        {
+          "pokemon": "Lunala",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Paz Mental",
+            "Rayo Umbrío",
+            "Onda Certera",
+            "Respiro"
+          ]
+        },
+        {
+          "pokemon": "Necrozma",
+          "level": 100,
+          "item": "Seguro Debilidad",
+          "moves": [
+            "Danza Dragón",
+            "Meteoimpacto",
+            "Terremoto",
+            "Roca Afilada"
+          ]
+        },
+        {
+          "pokemon": "Mewtwo",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Onda Mental",
+            "Esfera Aural",
+            "Llamarada",
+            "Rayo Hielo"
+          ]
+        },
+        {
+          "pokemon": "Lugia",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Respiro",
+            "Paz Mental",
+            "Aerochorro",
+            "Tóxico"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Koga - Liga R2 Monotype Veneno Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Veneno Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Glimmora",
+          "level": 100,
+          "item": "Banda Focus",
+          "moves": [
+            "Trampa Rocas",
+            "Bomba Lodo",
+            "Tierra Viva",
+            "BrilloMágico"
+          ]
+        },
+        {
+          "pokemon": "Toxapex",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Protección",
+            "Recuperación",
+            "Escaldar",
+            "Niebla"
+          ]
+        },
+        {
+          "pokemon": "Pecharunt",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "CadenaVirul.",
+            "Bola Sombra",
+            "Recuperación",
+            "Maquinación"
+          ]
+        },
+        {
+          "pokemon": "Naganadel",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Maquinación",
+            "Cometa Draco",
+            "Bomba Lodo",
+            "Lanzallamas"
+          ]
+        },
+        {
+          "pokemon": "Eternatus",
+          "level": 100,
+          "item": "Lodo Negro",
+          "moves": [
+            "CañónDinamax",
+            "Bomba Lodo",
+            "Lanzallamas",
+            "Recuperación"
+          ]
+        },
+        {
+          "pokemon": "Gengar",
+          "level": 100,
+          "item": "Gengarita",
+          "moves": [
+            "Bomba Lodo",
+            "Bola Sombra",
+            "Onda Certera",
+            "Mismodestino"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Bruno - Liga R2 Monotype Lucha Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Lucha Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Marshadow",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Robasombra",
+            "A Bocajarro",
+            "Sombra Vil",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Urshifu",
+          "level": 100,
+          "item": "Cin. Elegida",
+          "moves": [
+            "Golpe Oscuro",
+            "A Bocajarro",
+            "Golpe Bajo",
+            "Puño Drenaje"
+          ]
+        },
+        {
+          "pokemon": "Zamazenta",
+          "level": 100,
+          "item": "Escudo Oxidado",
+          "moves": [
+            "Plancha Corp",
+            "Cabezahierro",
+            "Triturar",
+            "Paz Mental"
+          ]
+        },
+        {
+          "pokemon": "Buzzwole",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Puño Drenaje",
+            "Chupavidas",
+            "Terremoto",
+            "Respiro"
+          ]
+        },
+        {
+          "pokemon": "Koraidon",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Fotocolisión",
+            "Envite Ígneo",
+            "Garra Dragón",
+            "Ida y Vuelta"
+          ]
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 100,
+          "item": "Lucarita",
+          "moves": [
+            "A Bocajarro",
+            "Puño Bala",
+            "Triturar",
+            "Danza Espada"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Karen - Liga R2 Monotype Siniestro Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Siniestro Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Ting-Lu",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Trampa Rocas",
+            "Púas",
+            "Remolino",
+            "Terremoto"
+          ]
+        },
+        {
+          "pokemon": "Umbreon",
+          "level": 100,
+          "item": "Casco Dentado",
+          "moves": [
+            "Deseo",
+            "Protección",
+            "Campana Cura",
+            "Juego Sucio"
+          ]
+        },
+        {
+          "pokemon": "Chien-Pao",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Chuzos",
+            "Golpe Bajo",
+            "Triturar",
+            "Espada Santa"
+          ]
+        },
+        {
+          "pokemon": "Darkrai",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "Hipnosis",
+            "Maquinación",
+            "Pulso Umbrío",
+            "Bomba Lodo"
+          ]
+        },
+        {
+          "pokemon": "Yveltal",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "AlaMortífera",
+            "Pulso Umbrío",
+            "Golpe Bajo",
+            "Onda Ígnea"
+          ]
+        },
+        {
+          "pokemon": "Tyranitar",
+          "level": 100,
+          "item": "Tyranitarita",
+          "moves": [
+            "Danza Dragón",
+            "Roca Afilada",
+            "Triturar",
+            "Terremoto"
+          ]
+        }
+      ],
+      "strategy": ""
+    },
+    {
+      "name": "Lance - Liga R2 Monotype Dragón Ubers",
+      "city": "Meseta Añil (Liga R2)",
+      "badge": "Monotype Dragón Ubers",
+      "level_cap": 100,
+      "team": [
+        {
+          "pokemon": "Dialga",
+          "level": 100,
+          "item": "Chaleco Asalto",
+          "moves": [
+            "Trampa Rocas",
+            "Foco Respl.",
+            "Cometa Draco",
+            "Llamarada"
+          ]
+        },
+        {
+          "pokemon": "Zygarde",
+          "level": 100,
+          "item": "Restos",
+          "moves": [
+            "Mil Flechas",
+            "Enrosque",
+            "Descanso",
+            "Vel. Extrema"
+          ]
+        },
+        {
+          "pokemon": "Miraidon",
+          "level": 100,
+          "item": "Gafas Elegid",
+          "moves": [
+            "Electoderrap",
+            "Cometa Draco",
+            "Voltiocambio",
+            "Sofoco"
+          ]
+        },
+        {
+          "pokemon": "Giratina",
+          "level": 100,
+          "item": "Griseosfera",
+          "moves": [
+            "Fuego Fatuo",
+            "Despejar",
+            "Golpe Umbrío",
+            "Cola Dragón"
+          ]
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 100,
+          "item": "Seguro Debilidad",
+          "moves": [
+            "Danza Dragón",
+            "Vel. Extrema",
+            "Terremoto",
+            "Puño Fuego"
+          ]
+        },
+        {
+          "pokemon": "Rayquaza",
+          "level": 100,
+          "item": "Vidasfera",
+          "moves": [
+            "AscensoDraco",
+            "Danza Dragón",
+            "Terremoto",
+            "Vel. Extrema"
+          ]
+        }
+      ],
+      "strategy": ""
     }
   ],
   "features": {
@@ -370329,48 +374080,32 @@ window.CHIRLGOLD_DATA = {
   },
   "non_included": [
     {
-      "name": "Komala",
-      "reason": "Falta de habilidad propia"
+      "name": "Necrozma (Melena Crepuscular / Alas del Alba / Ultra)",
+      "reason": "Mecánicas de Fusión reservadas para el Paso 13"
     },
     {
-      "name": "Dondozo",
-      "reason": "Falta de habilidad / mecánica Comilón"
+      "name": "Kyurem (Blanco / Negro)",
+      "reason": "Mecánicas de Fusión reservadas para el Paso 13"
     },
     {
-      "name": "Tatsugiri",
-      "reason": "Falta de habilidad propia"
+      "name": "Calyrex (Jinete Glacial / Jinete Espectral)",
+      "reason": "Mecánicas de Fusión reservadas para el Paso 13"
     },
     {
-      "name": "Oricorio",
-      "reason": "Falta de habilidad Pareja de Baile"
+      "name": "Hoopa Desatado",
+      "reason": "Vasija Castigo / Cambio de Forma reservado para el Paso 13"
     },
     {
-      "name": "Cosmog / Cosmoem",
-      "reason": "Legendario excluido"
+      "name": "Ultraentes (Nihilego, Buzzwole, Pheromosa, Xurkitree, Celesteela, Kartana, Guzzlord, Poipole, Naganadel, Stakataka, Blacephalon)",
+      "reason": "Eventos de Ultraumbrales en desarrollo"
     },
     {
-      "name": "Necrozma",
-      "reason": "Legendario / mecánicas de fusión"
+      "name": "Espadas de la Justicia (Cobalion, Terrakion, Virizion, Keldeo)",
+      "reason": "Mazmorras especiales de Johto en desarrollo"
     },
     {
-      "name": "Wo-Chien",
-      "reason": "Legendario no implementado"
-    },
-    {
-      "name": "Munkidori",
-      "reason": "Legendario no implementado"
-    },
-    {
-      "name": "Bounsweet / Steenee / Tsareena",
-      "reason": "Falta de sprites / animaciones"
-    },
-    {
-      "name": "Nickit / Thievul",
-      "reason": "Falta de sprites de evolución"
-    },
-    {
-      "name": "Pincurchin",
-      "reason": "Falta de sprites de batalla"
+      "name": "Trío de las Nubes (Tornadus, Thundurus, Landorus, Enamorus)",
+      "reason": "Eventos de Espejo Veraz en desarrollo"
     }
   ]
 };
