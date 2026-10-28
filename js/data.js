@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.30 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.30";
+/* Pokémon ChirlGold v0.13.31 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.31";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -27514,7 +27514,7 @@ window.CHIRLGOLD_DATA = {
         "total": 340
       },
       "abilities": [
-        "Gas Reactivo",
+        "Armad. Batalla",
         "Levitación"
       ],
       "learnset": [
@@ -27754,7 +27754,7 @@ window.CHIRLGOLD_DATA = {
         "total": 490
       },
       "abilities": [
-        "Gas Reactivo",
+        "Armad. Batalla",
         "Levitación"
       ],
       "learnset": [
@@ -69989,7 +69989,7 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "Surcavientos",
+        "Cálculo Final",
         "Clorofila"
       ],
       "learnset": [
@@ -206616,7 +206616,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Combustible",
-        "-"
+        "Cuerpo Llama"
       ],
       "learnset": [
         {
@@ -206792,7 +206792,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Combustible",
-        "-"
+        "Cuerpo Llama"
       ],
       "learnset": [
         {
@@ -206981,7 +206981,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Combustible",
-        "-"
+        "Cuerpo Llama"
       ],
       "learnset": [
         {
@@ -207178,7 +207178,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Maduración",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -207311,7 +207311,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Maduración",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -207577,7 +207577,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Maduración",
-        "-"
+        "Gula"
       ],
       "learnset": [
         {
@@ -207842,7 +207842,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Expulsarena",
-        "-"
+        "Mudar"
       ],
       "learnset": [
         {
@@ -208021,7 +208021,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Expulsarena",
-        "-"
+        "Mudar"
       ],
       "learnset": [
         {
@@ -211737,7 +211737,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Alma Acerada",
-        "-"
+        "Experto"
       ],
       "learnset": [
         {
@@ -216592,8 +216592,8 @@ window.CHIRLGOLD_DATA = {
         "total": 660
       },
       "abilities": [
-        "Escudo Recio",
-        "-"
+        "Dinamo",
+        "Dinamo"
       ],
       "learnset": [
         {
@@ -217139,7 +217139,7 @@ window.CHIRLGOLD_DATA = {
         "total": 550
       },
       "abilities": [
-        "Puño Invisible",
+        "Insomnio",
         "-"
       ],
       "learnset": [
@@ -217567,7 +217567,7 @@ window.CHIRLGOLD_DATA = {
         "total": 580
       },
       "abilities": [
-        "Transistor",
+        "Humo Blanco",
         "-"
       ],
       "learnset": [
@@ -217743,7 +217743,7 @@ window.CHIRLGOLD_DATA = {
         "total": 580
       },
       "abilities": [
-        "Mandíbula Dragón",
+        "Energía Pura",
         "-"
       ],
       "learnset": [
@@ -218642,7 +218642,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cortante",
-        "-"
+        "Puño Férreo"
       ],
       "learnset": [
         {
@@ -224593,8 +224593,8 @@ window.CHIRLGOLD_DATA = {
         "total": 477
       },
       "abilities": [
-        "Cuerpo Horneado",
-        "-"
+        "Ímpetu Ardiente",
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -225632,8 +225632,8 @@ window.CHIRLGOLD_DATA = {
         "total": 280
       },
       "abilities": [
-        "Sal Purificadora",
-        "-"
+        "Flaqueza",
+        "Robustez"
       ],
       "learnset": [
         {
@@ -225845,8 +225845,8 @@ window.CHIRLGOLD_DATA = {
         "total": 355
       },
       "abilities": [
-        "Sal Purificadora",
-        "-"
+        "Flaqueza",
+        "Robustez"
       ],
       "learnset": [
         {
@@ -226071,8 +226071,8 @@ window.CHIRLGOLD_DATA = {
         "total": 500
       },
       "abilities": [
-        "Sal Purificadora",
-        "-"
+        "Flaqueza",
+        "Robustez"
       ],
       "learnset": [
         {
@@ -227023,7 +227023,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Dinamo",
-        "-"
+        "Elec. Estática"
       ],
       "learnset": [
         {
@@ -227222,7 +227222,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Dinamo",
-        "-"
+        "Elec. Estática"
       ],
       "learnset": [
         {
@@ -227412,8 +227412,8 @@ window.CHIRLGOLD_DATA = {
         "total": 280
       },
       "abilities": [
-        "Energía Eólica",
-        "-"
+        "Terravoltaje",
+        "Absorbe Fuego"
       ],
       "learnset": [
         {
@@ -227600,8 +227600,8 @@ window.CHIRLGOLD_DATA = {
         "total": 490
       },
       "abilities": [
-        "Energía Eólica",
-        "-"
+        "Terravoltaje",
+        "Absorbe Fuego"
       ],
       "learnset": [
         {
@@ -228011,7 +228011,7 @@ window.CHIRLGOLD_DATA = {
         "total": 505
       },
       "abilities": [
-        "Perro Guardián",
+        "Punta Acero",
         "Intimidación"
       ],
       "learnset": [
@@ -228667,8 +228667,8 @@ window.CHIRLGOLD_DATA = {
         "total": 275
       },
       "abilities": [
-        "Surcavientos",
-        "-"
+        "Cálculo Final",
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -228878,8 +228878,8 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "Surcavientos",
-        "Allanamiento"
+        "Cálculo Final",
+        "Cacheo"
       ],
       "learnset": [
         {
@@ -229056,7 +229056,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Rezagado",
-        "-"
+        "Ímpetu Ardiente"
       ],
       "learnset": [
         {
@@ -229288,7 +229288,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Rezagado",
-        "-"
+        "Ímpetu Ardiente"
       ],
       "learnset": [
         {
@@ -229519,8 +229519,8 @@ window.CHIRLGOLD_DATA = {
         "total": 450
       },
       "abilities": [
-        "Coraza Ira",
-        "-"
+        "Roca Sólida",
+        "Caparazón"
       ],
       "learnset": [
         {
@@ -231996,8 +231996,8 @@ window.CHIRLGOLD_DATA = {
         "total": 485
       },
       "abilities": [
-        "Transportarrocas",
-        "-"
+        "Turbollama",
+        "Autoestima"
       ],
       "learnset": [
         {
@@ -232196,7 +232196,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cambio Heroico",
-        "-"
+        "Cambio Heroico"
       ],
       "learnset": [
         {
@@ -232385,7 +232385,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cambio Heroico",
-        "-"
+        "Cambio Heroico"
       ],
       "learnset": [
         {
@@ -233251,8 +233251,8 @@ window.CHIRLGOLD_DATA = {
         "total": 480
       },
       "abilities": [
-        "Geofagia",
-        "-"
+        "Compiescolta",
+        "Funda"
       ],
       "learnset": [
         {
@@ -233426,7 +233426,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Capa Tóxica",
-        "-"
+        "Cuerpo Maldito"
       ],
       "learnset": [
         {
@@ -233628,7 +233628,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Capa Tóxica",
-        "-"
+        "Cuerpo Maldito"
       ],
       "learnset": [
         {
@@ -234895,7 +234895,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cortante",
-        "-"
+        "Ignorante"
       ],
       "learnset": [
         {
@@ -236325,7 +236325,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "General Supremo",
-        "-"
+        "Competitivo"
       ],
       "learnset": [
         {
@@ -239030,8 +239030,8 @@ window.CHIRLGOLD_DATA = {
         "total": 320
       },
       "abilities": [
-        "Termoconversión",
-        "-"
+        "Bucle Aire",
+        "Gélido"
       ],
       "learnset": [
         {
@@ -239249,8 +239249,8 @@ window.CHIRLGOLD_DATA = {
         "total": 423
       },
       "abilities": [
-        "Termoconversión",
-        "-"
+        "Bucle Aire",
+        "Gélido"
       ],
       "learnset": [
         {
@@ -239449,8 +239449,8 @@ window.CHIRLGOLD_DATA = {
         "total": 600
       },
       "abilities": [
-        "Termoconversión",
-        "-"
+        "Bucle Aire",
+        "Gélido"
       ],
       "learnset": [
         {
@@ -346165,6 +346165,24 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 990,
+          "name": "Wattrel",
+          "slug": "wattrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
+          "pid": 991,
+          "name": "Kilowatrel",
+          "slug": "kilowatrel",
+          "types": [
+            "Eléctrico",
+            "Volador"
+          ]
+        },
+        {
           "pid": 1062,
           "name": "Polchgeist",
           "slug": "polchgeist",
@@ -346838,15 +346856,6 @@ window.CHIRLGOLD_DATA = {
             "Dragón",
             "Fantasma"
           ]
-        },
-        {
-          "pid": 997,
-          "name": "Bramblgast",
-          "slug": "bramblgast",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
         }
       ]
     },
@@ -347143,6 +347152,28 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Tierra",
             "Volador"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armadura Batalla",
+      "desc": "La robusta coraza que lo protege bloquea los golpes críticos.",
+      "pokemon": [
+        {
+          "pid": 109,
+          "name": "Koffing",
+          "slug": "koffing",
+          "types": [
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 110,
+          "name": "Weezing",
+          "slug": "weezing",
+          "types": [
+            "Veneno"
           ]
         }
       ]
@@ -347461,6 +347492,15 @@ window.CHIRLGOLD_DATA = {
             "Agua",
             "Lucha"
           ]
+        },
+        {
+          "pid": 1012,
+          "name": "Bombirdier",
+          "slug": "bombirdier",
+          "types": [
+            "Volador",
+            "Siniestro"
+          ]
         }
       ]
     },
@@ -347606,6 +347646,39 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Siniestro",
             "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bucle Aire",
+      "desc": "Neutraliza todos los efectos del tiempo atmosférico.",
+      "pokemon": [
+        {
+          "pid": 1046,
+          "name": "Frigibax",
+          "slug": "frigibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1047,
+          "name": "Arctibax",
+          "slug": "arctibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1048,
+          "name": "Baxcalibur",
+          "slug": "baxcalibur",
+          "types": [
+            "Dragón",
+            "Hielo"
           ]
         }
       ]
@@ -347984,6 +348057,32 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 977,
+          "name": "Dachsbun",
+          "slug": "dachsbun",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 996,
+          "name": "Bramblin",
+          "slug": "bramblin",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 997,
+          "name": "Bramblgast",
+          "slug": "bramblgast",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
           "pid": 1005,
           "name": "Flittle",
           "slug": "flittle",
@@ -348138,6 +348237,22 @@ window.CHIRLGOLD_DATA = {
           "pid": 1013,
           "name": "Finizen",
           "slug": "finizen",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1013,
+          "name": "Finizen",
+          "slug": "finizen",
+          "types": [
+            "Agua"
+          ]
+        },
+        {
+          "pid": 1014,
+          "name": "Palafin",
+          "slug": "palafin",
           "types": [
             "Agua"
           ]
@@ -348466,6 +348581,14 @@ window.CHIRLGOLD_DATA = {
           "slug": "falinks",
           "types": [
             "Lucha"
+          ]
+        },
+        {
+          "pid": 1000,
+          "name": "Klawf",
+          "slug": "klawf",
+          "types": [
+            "Roca"
           ]
         },
         {
@@ -349217,6 +349340,15 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 1033,
+          "name": "Kingambit",
+          "slug": "kingambit",
+          "types": [
+            "Siniestro",
+            "Acero"
+          ]
+        },
+        {
           "pid": 1067,
           "name": "Ogerpon",
           "slug": "ogerpon",
@@ -349227,15 +349359,15 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Coraza Ira",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "name": "Compiescolta",
+      "desc": "Reduce el daño que sufren los aliados.",
       "pokemon": [
         {
-          "pid": 1000,
-          "name": "Klawf",
-          "slug": "klawf",
+          "pid": 1018,
+          "name": "Orthworm",
+          "slug": "orthworm",
           "types": [
-            "Roca"
+            "Acero"
           ]
         }
       ]
@@ -349569,20 +349701,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Cuerpo Horneado",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
-      "pokemon": [
-        {
-          "pid": 977,
-          "name": "Dachsbun",
-          "slug": "dachsbun",
-          "types": [
-            "Hada"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Cuerpo Llama",
       "desc": "Puede quemar al mínimo contacto.",
       "pokemon": [
@@ -349712,6 +349830,32 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 887,
+          "name": "Rolycoly",
+          "slug": "rolycoly",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 888,
+          "name": "Carkol",
+          "slug": "carkol",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        },
+        {
+          "pid": 889,
+          "name": "Coalossal",
+          "slug": "coalossal",
+          "types": [
+            "Roca",
+            "Fuego"
+          ]
+        },
+        {
           "pid": 985,
           "name": "Charcadet",
           "slug": "charcadet",
@@ -349775,6 +349919,24 @@ window.CHIRLGOLD_DATA = {
           "slug": "poltegeist",
           "types": [
             "Fantasma"
+          ]
+        },
+        {
+          "pid": 1019,
+          "name": "Glimmet",
+          "slug": "glimmet",
+          "types": [
+            "Roca",
+            "Veneno"
+          ]
+        },
+        {
+          "pid": 1020,
+          "name": "Glimmora",
+          "slug": "glimmora",
+          "types": [
+            "Roca",
+            "Veneno"
           ]
         },
         {
@@ -350214,6 +350376,39 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Eléctrico",
             "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cálculo Final",
+      "desc": "Aumenta la potencia de su movimiento si es el último en atacar.",
+      "pokemon": [
+        {
+          "pid": 275,
+          "name": "Shiftry",
+          "slug": "shiftry",
+          "types": [
+            "Planta",
+            "Siniestro"
+          ]
+        },
+        {
+          "pid": 996,
+          "name": "Bramblin",
+          "slug": "bramblin",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
+        },
+        {
+          "pid": 997,
+          "name": "Bramblgast",
+          "slug": "bramblgast",
+          "types": [
+            "Planta",
+            "Fantasma"
           ]
         }
       ]
@@ -350694,6 +350889,22 @@ window.CHIRLGOLD_DATA = {
       "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
       "pokemon": [
         {
+          "pid": 939,
+          "name": "Zamazenta",
+          "slug": "zamazenta",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
+          "pid": 939,
+          "name": "Zamazenta",
+          "slug": "zamazenta",
+          "types": [
+            "Lucha"
+          ]
+        },
+        {
           "pid": 988,
           "name": "Tadbulb",
           "slug": "tadbulb",
@@ -350996,6 +351207,22 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 988,
+          "name": "Tadbulb",
+          "slug": "tadbulb",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
+          "pid": 989,
+          "name": "Bellibolt",
+          "slug": "bellibolt",
+          "types": [
+            "Eléctrico"
+          ]
+        },
+        {
           "pid": "101_hisui",
           "name": "Electrode de Hisui",
           "slug": "electrode-hisui",
@@ -351170,25 +351397,15 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Energía Eólica",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "name": "Energía Pura",
+      "desc": "Duplica la potencia de sus ataques físicos gracias al yoga.",
       "pokemon": [
         {
-          "pid": 990,
-          "name": "Wattrel",
-          "slug": "wattrel",
+          "pid": 945,
+          "name": "Regidrago",
+          "slug": "regidrago",
           "types": [
-            "Eléctrico",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 991,
-          "name": "Kilowatrel",
-          "slug": "kilowatrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
+            "Dragón"
           ]
         }
       ]
@@ -351627,20 +351844,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Tierra"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Escudo Recio",
-      "desc": "Aumenta su Defensa al entrar en combate.",
-      "pokemon": [
-        {
-          "pid": 939,
-          "name": "Zamazenta",
-          "slug": "zamazenta",
-          "types": [
-            "Lucha"
           ]
         }
       ]
@@ -352390,6 +352593,14 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 913,
+          "name": "Perrserker",
+          "slug": "perrserker",
+          "types": [
+            "Acero"
+          ]
+        },
+        {
           "pid": 975,
           "name": "Maushold",
           "slug": "maushold",
@@ -352552,6 +352763,36 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Acero",
             "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flaqueza",
+      "desc": "Se debilita tanto cuando sus PS se ven reducidos a la mitad que su Ataque y su Ataque Especial bajan.",
+      "pokemon": [
+        {
+          "pid": 982,
+          "name": "Nacli",
+          "slug": "nacli",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 983,
+          "name": "Naclstack",
+          "slug": "naclstack",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 984,
+          "name": "Garganacl",
+          "slug": "garganacl",
+          "types": [
+            "Roca"
           ]
         }
       ]
@@ -353338,6 +353579,14 @@ window.CHIRLGOLD_DATA = {
             "Acero",
             "Veneno"
           ]
+        },
+        {
+          "pid": 1018,
+          "name": "Orthworm",
+          "slug": "orthworm",
+          "types": [
+            "Acero"
+          ]
         }
       ]
     },
@@ -353370,22 +353619,6 @@ window.CHIRLGOLD_DATA = {
       "desc": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate.",
       "pokemon": [
         {
-          "pid": 109,
-          "name": "Koffing",
-          "slug": "koffing",
-          "types": [
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 110,
-          "name": "Weezing",
-          "slug": "weezing",
-          "types": [
-            "Veneno"
-          ]
-        },
-        {
           "pid": "110_galar",
           "name": "Weezing de Galar",
           "slug": "weezing-galar",
@@ -353406,20 +353639,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "kingambit",
           "types": [
             "Siniestro",
-            "Acero"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Geofagia",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
-      "pokemon": [
-        {
-          "pid": 1018,
-          "name": "Orthworm",
-          "slug": "orthworm",
-          "types": [
             "Acero"
           ]
         }
@@ -353676,6 +353895,33 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 890,
+          "name": "Applin",
+          "slug": "applin",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 891,
+          "name": "Flapple",
+          "slug": "flapple",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
+          "pid": 892,
+          "name": "Appletun",
+          "slug": "appletun",
+          "types": [
+            "Planta",
+            "Dragón"
+          ]
+        },
+        {
           "pid": 927,
           "name": "Morpeko",
           "slug": "morpeko",
@@ -353821,6 +354067,33 @@ window.CHIRLGOLD_DATA = {
           "slug": "arctovish",
           "types": [
             "Agua",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1046,
+          "name": "Frigibax",
+          "slug": "frigibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1047,
+          "name": "Arctibax",
+          "slug": "arctibax",
+          "types": [
+            "Dragón",
+            "Hielo"
+          ]
+        },
+        {
+          "pid": 1048,
+          "name": "Baxcalibur",
+          "slug": "baxcalibur",
+          "types": [
+            "Dragón",
             "Hielo"
           ]
         }
@@ -354299,6 +354572,20 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Humo Blanco",
+      "desc": "El humo blanco que lo protege evita que otros Pokémon le bajen las características.",
+      "pokemon": [
+        {
+          "pid": 944,
+          "name": "Regieleki",
+          "slug": "regieleki",
+          "types": [
+            "Eléctrico"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hurto",
       "desc": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
       "pokemon": [
@@ -354383,6 +354670,15 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Fantasma"
+          ]
+        },
+        {
+          "pid": 1026,
+          "name": "Veluza",
+          "slug": "veluza",
+          "types": [
+            "Agua",
+            "Psíquico"
           ]
         },
         {
@@ -354825,6 +355121,21 @@ window.CHIRLGOLD_DATA = {
           "slug": "zangoose",
           "types": [
             "Normal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insomnio",
+      "desc": "Su resistencia al sueño le impide quedarse dormido.",
+      "pokemon": [
+        {
+          "pid": 942,
+          "name": "Urshifu",
+          "slug": "urshifu",
+          "types": [
+            "Lucha",
+            "Siniestro"
           ]
         }
       ]
@@ -356075,20 +356386,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Mandíbula Dragón",
-      "desc": "Potencia los movimientos de tipo Dragón.",
-      "pokemon": [
-        {
-          "pid": 945,
-          "name": "Regidrago",
-          "slug": "regidrago",
-          "types": [
-            "Dragón"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Mandíbula Fuerte",
       "desc": "Su robusta mandíbula le confiere una mordedura potente.",
       "pokemon": [
@@ -356958,6 +357255,22 @@ window.CHIRLGOLD_DATA = {
           "slug": "spewpa",
           "types": [
             "Bicho"
+          ]
+        },
+        {
+          "pid": 893,
+          "name": "Silicobra",
+          "slug": "silicobra",
+          "types": [
+            "Tierra"
+          ]
+        },
+        {
+          "pid": 894,
+          "name": "Sandaconda",
+          "slug": "sandaconda",
+          "types": [
+            "Tierra"
           ]
         },
         {
@@ -358207,20 +358520,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Perro Guardián",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
-      "pokemon": [
-        {
-          "pid": 993,
-          "name": "Mabosstiff",
-          "slug": "mabosstiff",
-          "types": [
-            "Siniestro"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Piel Eléctrica",
       "desc": "Convierte los movimientos de tipo Normal en tipo Eléctrico y aumenta ligeramente su potencia.",
       "pokemon": [
@@ -359325,6 +359624,20 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
+      "name": "Punta Acero",
+      "desc": "Inflige daño al rival si este le golpea con un movimiento de contacto.",
+      "pokemon": [
+        {
+          "pid": 993,
+          "name": "Mabosstiff",
+          "slug": "mabosstiff",
+          "types": [
+            "Siniestro"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Punto Tóxico",
       "desc": "Puede envenenar al mínimo contacto.",
       "pokemon": [
@@ -359551,27 +359864,21 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 950,
+          "name": "Kleavor",
+          "slug": "kleavor",
+          "types": [
+            "Bicho",
+            "Roca"
+          ]
+        },
+        {
           "pid": 951,
           "name": "Ursaluna",
           "slug": "ursaluna",
           "types": [
             "Tierra",
             "Normal"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Puño Invisible",
-      "desc": "Si usa un movimiento de contacto, puede infligir daño al objetivo aunque este se proteja.",
-      "pokemon": [
-        {
-          "pid": 942,
-          "name": "Urshifu",
-          "slug": "urshifu",
-          "types": [
-            "Lucha",
-            "Siniestro"
           ]
         }
       ]
@@ -360686,12 +360993,50 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
+          "pid": 982,
+          "name": "Nacli",
+          "slug": "nacli",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 983,
+          "name": "Naclstack",
+          "slug": "naclstack",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
+          "pid": 984,
+          "name": "Garganacl",
+          "slug": "garganacl",
+          "types": [
+            "Roca"
+          ]
+        },
+        {
           "pid": 1068,
           "name": "Archaludon",
           "slug": "archaludon",
           "types": [
             "Acero",
             "Dragón"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roca Sólida",
+      "desc": "Mitiga el daño que le infligen los movimientos supereficaces.",
+      "pokemon": [
+        {
+          "pid": 1000,
+          "name": "Klawf",
+          "slug": "klawf",
+          "types": [
+            "Roca"
           ]
         }
       ]
@@ -360894,36 +361239,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Normal",
             "Volador"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Sal Purificadora",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
-      "pokemon": [
-        {
-          "pid": 982,
-          "name": "Nacli",
-          "slug": "nacli",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 983,
-          "name": "Naclstack",
-          "slug": "naclstack",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 984,
-          "name": "Garganacl",
-          "slug": "garganacl",
-          "types": [
-            "Roca"
           ]
         }
       ]
@@ -361452,39 +361767,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Surcavientos",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
-      "pokemon": [
-        {
-          "pid": 275,
-          "name": "Shiftry",
-          "slug": "shiftry",
-          "types": [
-            "Planta",
-            "Siniestro"
-          ]
-        },
-        {
-          "pid": 996,
-          "name": "Bramblin",
-          "slug": "bramblin",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
-        },
-        {
-          "pid": 997,
-          "name": "Bramblgast",
-          "slug": "bramblgast",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Tablilla Debacle",
       "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
       "pokemon": [
@@ -361711,34 +361993,25 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Termoconversión",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
+      "name": "Terravoltaje",
+      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
       "pokemon": [
         {
-          "pid": 1046,
-          "name": "Frigibax",
-          "slug": "frigibax",
+          "pid": 990,
+          "name": "Wattrel",
+          "slug": "wattrel",
           "types": [
-            "Dragón",
-            "Hielo"
+            "Eléctrico",
+            "Volador"
           ]
         },
         {
-          "pid": 1047,
-          "name": "Arctibax",
-          "slug": "arctibax",
+          "pid": 991,
+          "name": "Kilowatrel",
+          "slug": "kilowatrel",
           "types": [
-            "Dragón",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1048,
-          "name": "Baxcalibur",
-          "slug": "baxcalibur",
-          "types": [
-            "Dragón",
-            "Hielo"
+            "Eléctrico",
+            "Volador"
           ]
         }
       ]
@@ -362092,35 +362365,6 @@ window.CHIRLGOLD_DATA = {
       ]
     },
     {
-      "name": "Transistor",
-      "desc": "Potencia los movimientos de tipo Eléctrico.",
-      "pokemon": [
-        {
-          "pid": 944,
-          "name": "Regieleki",
-          "slug": "regieleki",
-          "types": [
-            "Eléctrico"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Transportarrocas",
-      "desc": "Habilidad especial que otorga ventajas tácticas en combate.",
-      "pokemon": [
-        {
-          "pid": 1012,
-          "name": "Bombirdier",
-          "slug": "bombirdier",
-          "types": [
-            "Volador",
-            "Siniestro"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Tumbos",
       "desc": "Sube su Evasión si está confuso.",
       "pokemon": [
@@ -362202,6 +362446,21 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Volador",
             "Lucha"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turbollama",
+      "desc": "Las habilidades del objetivo no afectan a los movimientos que emplea.",
+      "pokemon": [
+        {
+          "pid": 1012,
+          "name": "Bombirdier",
+          "slug": "bombirdier",
+          "types": [
+            "Volador",
+            "Siniestro"
           ]
         }
       ]
@@ -363193,6 +363452,38 @@ window.CHIRLGOLD_DATA = {
           "slug": "fidough",
           "types": [
             "Hada"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ímpetu Ardiente",
+      "desc": "Aumenta la potencia de sus ataques especiales cuando sufre quemaduras.",
+      "pokemon": [
+        {
+          "pid": 977,
+          "name": "Dachsbun",
+          "slug": "dachsbun",
+          "types": [
+            "Hada"
+          ]
+        },
+        {
+          "pid": 998,
+          "name": "Toedscool",
+          "slug": "toedscool",
+          "types": [
+            "Tierra",
+            "Planta"
+          ]
+        },
+        {
+          "pid": 999,
+          "name": "Toedscruel",
+          "slug": "toedscruel",
+          "types": [
+            "Tierra",
+            "Planta"
           ]
         }
       ]
