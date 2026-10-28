@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.25 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.25";
+/* Pokémon ChirlGold v0.13.26 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.26";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -206616,7 +206616,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Combustible",
-        "Cuerpo Llama"
+        "-"
       ],
       "learnset": [
         {
@@ -206792,7 +206792,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Combustible",
-        "Cuerpo Llama"
+        "-"
       ],
       "learnset": [
         {
@@ -206981,7 +206981,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Combustible",
-        "Cuerpo Llama"
+        "-"
       ],
       "learnset": [
         {
@@ -207178,7 +207178,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Maduración",
-        "Gula"
+        "-"
       ],
       "learnset": [
         {
@@ -207311,7 +207311,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Maduración",
-        "Gula"
+        "-"
       ],
       "learnset": [
         {
@@ -207577,7 +207577,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Maduración",
-        "Gula"
+        "-"
       ],
       "learnset": [
         {
@@ -207842,7 +207842,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Expulsarena",
-        "Mudar"
+        "-"
       ],
       "learnset": [
         {
@@ -208021,7 +208021,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Expulsarena",
-        "Mudar"
+        "-"
       ],
       "learnset": [
         {
@@ -211737,7 +211737,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Alma Acerada",
-        "Experto"
+        "-"
       ],
       "learnset": [
         {
@@ -218642,7 +218642,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cortante",
-        "Puño Férreo"
+        "-"
       ],
       "learnset": [
         {
@@ -224594,7 +224594,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cuerpo Horneado",
-        "Cacheo"
+        "-"
       ],
       "learnset": [
         {
@@ -225633,7 +225633,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sal Purificadora",
-        "Robustez"
+        "-"
       ],
       "learnset": [
         {
@@ -225846,7 +225846,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sal Purificadora",
-        "Robustez"
+        "-"
       ],
       "learnset": [
         {
@@ -226072,7 +226072,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Sal Purificadora",
-        "Robustez"
+        "-"
       ],
       "learnset": [
         {
@@ -227023,7 +227023,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Dinamo",
-        "Elec. Estática"
+        "-"
       ],
       "learnset": [
         {
@@ -227222,7 +227222,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Dinamo",
-        "Elec. Estática"
+        "-"
       ],
       "learnset": [
         {
@@ -227413,7 +227413,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Energía Eólica",
-        "Absorbe Fuego"
+        "-"
       ],
       "learnset": [
         {
@@ -227601,7 +227601,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Energía Eólica",
-        "Absorbe Fuego"
+        "-"
       ],
       "learnset": [
         {
@@ -228668,7 +228668,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Surcavientos",
-        "Cacheo"
+        "-"
       ],
       "learnset": [
         {
@@ -228879,7 +228879,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Surcavientos",
-        "Cacheo"
+        "Allanamiento"
       ],
       "learnset": [
         {
@@ -229056,7 +229056,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Rezagado",
-        "Cuerpo Horneado"
+        "-"
       ],
       "learnset": [
         {
@@ -229288,7 +229288,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Rezagado",
-        "Cuerpo Horneado"
+        "-"
       ],
       "learnset": [
         {
@@ -229520,7 +229520,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Coraza Ira",
-        "Caparazón"
+        "-"
       ],
       "learnset": [
         {
@@ -231997,7 +231997,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Transportarrocas",
-        "Autoestima"
+        "-"
       ],
       "learnset": [
         {
@@ -232196,7 +232196,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cambio Heroico",
-        "Cambio Heroico"
+        "-"
       ],
       "learnset": [
         {
@@ -232385,7 +232385,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cambio Heroico",
-        "Cambio Heroico"
+        "-"
       ],
       "learnset": [
         {
@@ -233252,7 +233252,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Geofagia",
-        "Funda"
+        "-"
       ],
       "learnset": [
         {
@@ -233426,7 +233426,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Capa Tóxica",
-        "Cuerpo Maldito"
+        "-"
       ],
       "learnset": [
         {
@@ -233628,7 +233628,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Capa Tóxica",
-        "Cuerpo Maldito"
+        "-"
       ],
       "learnset": [
         {
@@ -234895,7 +234895,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Cortante",
-        "Ignorante"
+        "-"
       ],
       "learnset": [
         {
@@ -236325,7 +236325,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "General Supremo",
-        "Competitivo"
+        "-"
       ],
       "learnset": [
         {
@@ -239031,7 +239031,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Termoconversión",
-        "Gélido"
+        "-"
       ],
       "learnset": [
         {
@@ -239250,7 +239250,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Termoconversión",
-        "Gélido"
+        "-"
       ],
       "learnset": [
         {
@@ -239450,7 +239450,7 @@ window.CHIRLGOLD_DATA = {
       },
       "abilities": [
         "Termoconversión",
-        "Gélido"
+        "-"
       ],
       "learnset": [
         {
@@ -346165,24 +346165,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 990,
-          "name": "Wattrel",
-          "slug": "wattrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
-        },
-        {
-          "pid": 991,
-          "name": "Kilowatrel",
-          "slug": "kilowatrel",
-          "types": [
-            "Eléctrico",
-            "Volador"
-          ]
-        },
-        {
           "pid": 1062,
           "name": "Polchgeist",
           "slug": "polchgeist",
@@ -346856,6 +346838,15 @@ window.CHIRLGOLD_DATA = {
             "Dragón",
             "Fantasma"
           ]
+        },
+        {
+          "pid": 997,
+          "name": "Bramblgast",
+          "slug": "bramblgast",
+          "types": [
+            "Planta",
+            "Fantasma"
+          ]
         }
       ]
     },
@@ -347470,15 +347461,6 @@ window.CHIRLGOLD_DATA = {
             "Agua",
             "Lucha"
           ]
-        },
-        {
-          "pid": 1012,
-          "name": "Bombirdier",
-          "slug": "bombirdier",
-          "types": [
-            "Volador",
-            "Siniestro"
-          ]
         }
       ]
     },
@@ -348002,32 +347984,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 977,
-          "name": "Dachsbun",
-          "slug": "dachsbun",
-          "types": [
-            "Hada"
-          ]
-        },
-        {
-          "pid": 996,
-          "name": "Bramblin",
-          "slug": "bramblin",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
-        },
-        {
-          "pid": 997,
-          "name": "Bramblgast",
-          "slug": "bramblgast",
-          "types": [
-            "Planta",
-            "Fantasma"
-          ]
-        },
-        {
           "pid": 1005,
           "name": "Flittle",
           "slug": "flittle",
@@ -348182,22 +348138,6 @@ window.CHIRLGOLD_DATA = {
           "pid": 1013,
           "name": "Finizen",
           "slug": "finizen",
-          "types": [
-            "Agua"
-          ]
-        },
-        {
-          "pid": 1013,
-          "name": "Finizen",
-          "slug": "finizen",
-          "types": [
-            "Agua"
-          ]
-        },
-        {
-          "pid": 1014,
-          "name": "Palafin",
-          "slug": "palafin",
           "types": [
             "Agua"
           ]
@@ -348526,14 +348466,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "falinks",
           "types": [
             "Lucha"
-          ]
-        },
-        {
-          "pid": 1000,
-          "name": "Klawf",
-          "slug": "klawf",
-          "types": [
-            "Roca"
           ]
         },
         {
@@ -349285,15 +349217,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 1033,
-          "name": "Kingambit",
-          "slug": "kingambit",
-          "types": [
-            "Siniestro",
-            "Acero"
-          ]
-        },
-        {
           "pid": 1067,
           "name": "Ogerpon",
           "slug": "ogerpon",
@@ -349656,24 +349579,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Hada"
           ]
-        },
-        {
-          "pid": 998,
-          "name": "Toedscool",
-          "slug": "toedscool",
-          "types": [
-            "Tierra",
-            "Planta"
-          ]
-        },
-        {
-          "pid": 999,
-          "name": "Toedscruel",
-          "slug": "toedscruel",
-          "types": [
-            "Tierra",
-            "Planta"
-          ]
         }
       ]
     },
@@ -349807,32 +349712,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 887,
-          "name": "Rolycoly",
-          "slug": "rolycoly",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 888,
-          "name": "Carkol",
-          "slug": "carkol",
-          "types": [
-            "Roca",
-            "Fuego"
-          ]
-        },
-        {
-          "pid": 889,
-          "name": "Coalossal",
-          "slug": "coalossal",
-          "types": [
-            "Roca",
-            "Fuego"
-          ]
-        },
-        {
           "pid": 985,
           "name": "Charcadet",
           "slug": "charcadet",
@@ -349896,24 +349775,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "poltegeist",
           "types": [
             "Fantasma"
-          ]
-        },
-        {
-          "pid": 1019,
-          "name": "Glimmet",
-          "slug": "glimmet",
-          "types": [
-            "Roca",
-            "Veneno"
-          ]
-        },
-        {
-          "pid": 1020,
-          "name": "Glimmora",
-          "slug": "glimmora",
-          "types": [
-            "Roca",
-            "Veneno"
           ]
         },
         {
@@ -351130,22 +350991,6 @@ window.CHIRLGOLD_DATA = {
           "pid": 971,
           "name": "Pawmi",
           "slug": "pawmi",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 988,
-          "name": "Tadbulb",
-          "slug": "tadbulb",
-          "types": [
-            "Eléctrico"
-          ]
-        },
-        {
-          "pid": 989,
-          "name": "Bellibolt",
-          "slug": "bellibolt",
           "types": [
             "Eléctrico"
           ]
@@ -352545,14 +352390,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 913,
-          "name": "Perrserker",
-          "slug": "perrserker",
-          "types": [
-            "Acero"
-          ]
-        },
-        {
           "pid": 975,
           "name": "Maushold",
           "slug": "maushold",
@@ -353501,14 +353338,6 @@ window.CHIRLGOLD_DATA = {
             "Acero",
             "Veneno"
           ]
-        },
-        {
-          "pid": 1018,
-          "name": "Orthworm",
-          "slug": "orthworm",
-          "types": [
-            "Acero"
-          ]
         }
       ]
     },
@@ -353847,33 +353676,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 890,
-          "name": "Applin",
-          "slug": "applin",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 891,
-          "name": "Flapple",
-          "slug": "flapple",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
-          "pid": 892,
-          "name": "Appletun",
-          "slug": "appletun",
-          "types": [
-            "Planta",
-            "Dragón"
-          ]
-        },
-        {
           "pid": 927,
           "name": "Morpeko",
           "slug": "morpeko",
@@ -354019,33 +353821,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "arctovish",
           "types": [
             "Agua",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1046,
-          "name": "Frigibax",
-          "slug": "frigibax",
-          "types": [
-            "Dragón",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1047,
-          "name": "Arctibax",
-          "slug": "arctibax",
-          "types": [
-            "Dragón",
-            "Hielo"
-          ]
-        },
-        {
-          "pid": 1048,
-          "name": "Baxcalibur",
-          "slug": "baxcalibur",
-          "types": [
-            "Dragón",
             "Hielo"
           ]
         }
@@ -354608,15 +354383,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Fuego",
             "Fantasma"
-          ]
-        },
-        {
-          "pid": 1026,
-          "name": "Veluza",
-          "slug": "veluza",
-          "types": [
-            "Agua",
-            "Psíquico"
           ]
         },
         {
@@ -357192,22 +356958,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "spewpa",
           "types": [
             "Bicho"
-          ]
-        },
-        {
-          "pid": 893,
-          "name": "Silicobra",
-          "slug": "silicobra",
-          "types": [
-            "Tierra"
-          ]
-        },
-        {
-          "pid": 894,
-          "name": "Sandaconda",
-          "slug": "sandaconda",
-          "types": [
-            "Tierra"
           ]
         },
         {
@@ -359801,15 +359551,6 @@ window.CHIRLGOLD_DATA = {
           ]
         },
         {
-          "pid": 950,
-          "name": "Kleavor",
-          "slug": "kleavor",
-          "types": [
-            "Bicho",
-            "Roca"
-          ]
-        },
-        {
           "pid": 951,
           "name": "Ursaluna",
           "slug": "ursaluna",
@@ -360942,30 +360683,6 @@ window.CHIRLGOLD_DATA = {
           "slug": "cosmoem",
           "types": [
             "Psíquico"
-          ]
-        },
-        {
-          "pid": 982,
-          "name": "Nacli",
-          "slug": "nacli",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 983,
-          "name": "Naclstack",
-          "slug": "naclstack",
-          "types": [
-            "Roca"
-          ]
-        },
-        {
-          "pid": 984,
-          "name": "Garganacl",
-          "slug": "garganacl",
-          "types": [
-            "Roca"
           ]
         },
         {
