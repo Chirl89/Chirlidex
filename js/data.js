@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.32 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.32";
+/* Pokémon ChirlGold v0.13.33 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.33";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -232354,7 +232354,21 @@ window.CHIRLGOLD_DATA = {
                 "Agua"
               ],
               "slug": "palafin",
-              "evolves_to": [],
+              "evolves_to": [
+                {
+                  "name": "Palafin H",
+                  "id": "palafin h",
+                  "types": [
+                    "Normal"
+                  ],
+                  "slug": "",
+                  "evolves_to": [],
+                  "method": "Usar Piedra Agua",
+                  "method_type": "item",
+                  "item": "Piedra Agua",
+                  "move": null
+                }
+              ],
               "method": "Nivel 38",
               "method_type": "level",
               "item": null,
@@ -232586,7 +232600,21 @@ window.CHIRLGOLD_DATA = {
                 "Agua"
               ],
               "slug": "palafin",
-              "evolves_to": [],
+              "evolves_to": [
+                {
+                  "name": "Palafin H",
+                  "id": "palafin h",
+                  "types": [
+                    "Normal"
+                  ],
+                  "slug": "",
+                  "evolves_to": [],
+                  "method": "Usar Piedra Agua",
+                  "method_type": "item",
+                  "item": "Piedra Agua",
+                  "move": null
+                }
+              ],
               "method": "Nivel 38",
               "method_type": "level",
               "item": null,
@@ -232595,7 +232623,10 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "evolutions_text": [],
+      "evolutions_text": [
+        "Evoluciona a Palafin H (Usar Piedra Agua)",
+        "Evoluciona a Palafin H (Nivel 50)"
+      ],
       "slug": "palafin"
     },
     {
@@ -363772,6 +363803,13 @@ window.CHIRLGOLD_DATA = {
           "from_id": 565,
           "to": "Simipour",
           "to_id": 566,
+          "method": "Usar Piedra Agua"
+        },
+        {
+          "from": "Palafin",
+          "from_id": 1014,
+          "to": "Palafin H",
+          "to_id": 1358,
           "method": "Usar Piedra Agua"
         }
       ]
