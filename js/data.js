@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.40 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.40";
+/* Pokémon ChirlGold v0.13.41 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.41";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
@@ -232354,21 +232354,7 @@ window.CHIRLGOLD_DATA = {
                 "Agua"
               ],
               "slug": "palafin",
-              "evolves_to": [
-                {
-                  "name": "Palafin H",
-                  "id": "palafin h",
-                  "types": [
-                    "Normal"
-                  ],
-                  "slug": "",
-                  "evolves_to": [],
-                  "method": "Usar Piedra Agua",
-                  "method_type": "item",
-                  "item": "Piedra Agua",
-                  "move": null
-                }
-              ],
+              "evolves_to": [],
               "method": "Nivel 38",
               "method_type": "level",
               "item": null,
@@ -232398,8 +232384,8 @@ window.CHIRLGOLD_DATA = {
         "total": 457
       },
       "abilities": [
-        "Cambio Heroico",
-        "Cambio Heroico"
+        "Puño Férreo",
+        "Justiciero"
       ],
       "learnset": [
         {
@@ -232600,21 +232586,7 @@ window.CHIRLGOLD_DATA = {
                 "Agua"
               ],
               "slug": "palafin",
-              "evolves_to": [
-                {
-                  "name": "Palafin H",
-                  "id": "palafin h",
-                  "types": [
-                    "Normal"
-                  ],
-                  "slug": "",
-                  "evolves_to": [],
-                  "method": "Usar Piedra Agua",
-                  "method_type": "item",
-                  "item": "Piedra Agua",
-                  "move": null
-                }
-              ],
+              "evolves_to": [],
               "method": "Nivel 38",
               "method_type": "level",
               "item": null,
@@ -232623,10 +232595,7 @@ window.CHIRLGOLD_DATA = {
           ]
         }
       ],
-      "evolutions_text": [
-        "Evoluciona a Palafin H (Usar Piedra Agua)",
-        "Evoluciona a Palafin H (Nivel 50)"
-      ],
+      "evolutions_text": [],
       "slug": "palafin"
     },
     {
@@ -348279,22 +348248,6 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Agua"
           ]
-        },
-        {
-          "pid": 1014,
-          "name": "Palafin",
-          "slug": "palafin",
-          "types": [
-            "Agua"
-          ]
-        },
-        {
-          "pid": 1014,
-          "name": "Palafin",
-          "slug": "palafin",
-          "types": [
-            "Agua"
-          ]
         }
       ]
     },
@@ -355734,6 +355687,14 @@ window.CHIRLGOLD_DATA = {
           "types": [
             "Lucha"
           ]
+        },
+        {
+          "pid": 1014,
+          "name": "Palafin",
+          "slug": "palafin",
+          "types": [
+            "Agua"
+          ]
         }
       ]
     },
@@ -359911,6 +359872,14 @@ window.CHIRLGOLD_DATA = {
             "Tierra",
             "Normal"
           ]
+        },
+        {
+          "pid": 1014,
+          "name": "Palafin",
+          "slug": "palafin",
+          "types": [
+            "Agua"
+          ]
         }
       ]
     },
@@ -363803,13 +363772,6 @@ window.CHIRLGOLD_DATA = {
           "from_id": 565,
           "to": "Simipour",
           "to_id": 566,
-          "method": "Usar Piedra Agua"
-        },
-        {
-          "from": "Palafin",
-          "from_id": 1014,
-          "to": "Palafin H",
-          "to_id": 1358,
           "method": "Usar Piedra Agua"
         }
       ]
