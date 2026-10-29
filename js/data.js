@@ -1,5 +1,5 @@
-/* Pokémon ChirlGold v0.13.39 - Base de Datos Oficial */
-window.CHIRLGOLD_VERSION = "v0.13.39";
+/* Pokémon ChirlGold v0.13.40 - Base de Datos Oficial */
+window.CHIRLGOLD_VERSION = "v0.13.40";
 window.CHIRLGOLD_DATA = {
   "pokemon": [
     {
